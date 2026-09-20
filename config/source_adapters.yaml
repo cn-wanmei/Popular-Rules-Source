@@ -6,3 +6,33 @@ adapters:
     timeout_seconds: 30
     max_bytes: 5000000
     user_agent: "Popular-Rules-Source/0.1 (+https://github.com/cn-wanmei/Popular-Rules-Source)"
+  official_json:
+    enabled: true
+    method: structured_json_walk
+    notes: "Used with fixtures and future live official JSON endpoints"
+services:
+  "1688":
+    adapters:
+      - official_web
+      - official_json
+  taobao:
+    adapters:
+      - official_web
+  tmall:
+    adapters:
+      - official_web
+  cainiao:
+    adapters:
+      - official_web
+  dingding:
+    adapters:
+      - official_web
+  qqmail:
+    adapters:
+      - official_web
+  qqmusic:
+    adapters:
+      - official_web
+  tencentcloud:
+    adapters:
+      - official_web

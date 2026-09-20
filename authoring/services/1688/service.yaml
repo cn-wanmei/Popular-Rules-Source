@@ -1,3 +1,18 @@
 service_id: 1688
-status: review
-authoring_note: "Human-maintained boundary and overrides. Generated domains live under generated/ and snapshots/."
+display_name:
+  zh: 1688
+  en: 1688
+status: partial
+ecosystem: alibaba
+coverage:
+  domain: partial
+  ip: unknown
+  cidr: none
+source_policy:
+  official_required: true
+  min_confidence: high
+boundary:
+  shared_infrastructure_allowed: false
+authoring_note: >
+  First complete sample service. Official open platform + www seeds.
+  Alibaba CDN (alicdn.com) must remain excluded.

@@ -1,0 +1,142 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:5173fb999d1716e2a137c1dffe622517dd62976818981a6a7dd9fb759ee0a281",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-002-5c44d1aee3de"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "1688.com"
+    },
+    {
+      "asset_id": "sha256:0817b92f4a58a4da99be3c1952d96e481893f0d757a225fd08eac4d713a8cd53",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-001-2ac8099e5d48",
+        "EV-1688-SEED"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "fuwu.1688.com"
+    },
+    {
+      "asset_id": "sha256:6491cefff04f69d52c19abd3376faf123d1e6f7f12b124f4ca3c08f34bba97ba",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-SEED"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "m.1688.com"
+    },
+    {
+      "asset_id": "sha256:cbe3e7d8516130bb7dab92e6bce1f5323c2ce5f5cfcadd52ad8c1140ec4018ef",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-001-2ac8099e5d48",
+        "EV-1688-SEED"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "open.1688.com"
+    },
+    {
+      "asset_id": "sha256:fcf8e70fea94b86ae8135695f9b5772281a3c70a7afd377ed528a51144bc295e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-001-2ac8099e5d48",
+        "EV-1688-SEED"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "page-open.1688.com"
+    },
+    {
+      "asset_id": "sha256:4575765b702818a15d749a1eaf49d2dd14933c37da18e64766f14b6a3adee4d9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-SEED"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "trade.1688.com"
+    },
+    {
+      "asset_id": "sha256:e15f8b29573917b42c57523d8df44c047427cf589e61c968aa6f6aa2fbb6a63d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-002-5c44d1aee3de",
+        "EV-1688-SEED"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "www.1688.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "created_at": "2026-09-20T10:46:32.403298+00:00",
+  "domain_count": 7,
+  "domains": [
+    "1688.com",
+    "fuwu.1688.com",
+    "m.1688.com",
+    "open.1688.com",
+    "page-open.1688.com",
+    "trade.1688.com",
+    "www.1688.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "confidence": "high",
+      "content_hash": "2ac8099e5d48ff2b04f172091ee102b233b7b293ba89017ff4010c7b7d24ce68",
+      "domains_extracted": 3,
+      "evidence_id": "EV-1688-001-2ac8099e5d48",
+      "parser_version": "domain-extractor-v2",
+      "resolved_url": "https://open.1688.com/",
+      "retrieved_at": "2026-09-20T10:46:29.119894+00:00",
+      "service_id": "1688",
+      "source_method": "official_web",
+      "source_url": "https://open.1688.com/",
+      "status": "verified"
+    },
+    {
+      "confidence": "high",
+      "content_hash": "5c44d1aee3de66bbd8195c858ecb8c4e373085839b2fb6ba41c39c8c4ea60b6f",
+      "domains_extracted": 2,
+      "evidence_id": "EV-1688-002-5c44d1aee3de",
+      "parser_version": "domain-extractor-v2",
+      "resolved_url": "https://www.1688.com/",
+      "retrieved_at": "2026-09-20T10:46:31.439363+00:00",
+      "service_id": "1688",
+      "source_method": "official_web",
+      "source_url": "https://www.1688.com/",
+      "status": "verified"
+    },
+    {
+      "confidence": "high",
+      "content_hash": "67c6565cf8a8551c202914e0f208fa7ace151f775c14e4f4dfa8a20cb1a10832",
+      "domains_extracted": 6,
+      "evidence_id": "EV-1688-SEED",
+      "parser_version": "domain-extractor-v2",
+      "retrieved_at": "2026-09-20T10:46:32.358648+00:00",
+      "service_id": "1688",
+      "source_method": "official_seed",
+      "source_url": "https://open.1688.com/",
+      "status": "verified"
+    }
+  ],
+  "parser_version": "domain-extractor-v2",
+  "previous_domain_count": 0,
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v1",
+  "service_id": "1688",
+  "snapshot_id": "snap-20260920T104632Z-1688-b60b730d8c10cfb3",
+  "source_count": 2
+}

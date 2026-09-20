@@ -7,6 +7,7 @@ from pathlib import Path
 from .build import build_all, build_service, load_services
 from .reconcile import audit_collection
 from .release import create_release
+from .promotion import build_promotion_package
 from .validate import run_validation
 
 
@@ -68,6 +69,10 @@ def main() -> None:
     release = sub.add_parser("release")
     release.add_argument("--service", required=True)
 
+    promote = sub.add_parser("promote")
+    promote.add_argument("--service", required=True)
+    promote.add_argument("--snapshot", required=True)
+
     gap = sub.add_parser("gap")
     gap.set_defaults(command="audit")
 
@@ -103,6 +108,13 @@ def main() -> None:
         # REVIEW is allowed for first-wave; only hard BLOCK fails the job
         blocked = [m for m in manifests if m["release_state"] == "BLOCKED"]
         if blocked:
+            raise SystemExit(2)
+        return
+
+    if args.command == "promote":
+        pkg = build_promotion_package(args.service, args.snapshot)
+        print(json.dumps(pkg, ensure_ascii=False, indent=2))
+        if not pkg["gates"]["release_state_ok"] or pkg["gates"]["empty_list"] == "FAIL":
             raise SystemExit(2)
         return
 

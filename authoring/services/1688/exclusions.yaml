@@ -1,2 +1,11 @@
-# Service-specific exclusions (shared infra, CDN, third-party).
-items: []
+items:
+  - asset: alicdn.com
+    reason:
+      type: shared_infrastructure
+      detail: Alibaba CDN shared across 1688/Taobao/Tmall
+    include: false
+  - asset: alibaba.com
+    reason:
+      type: service_boundary
+      detail: Parent ecosystem host; not product-specific 1688 rule material
+    include: false

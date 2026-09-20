@@ -1,0 +1,10 @@
+{
+  "platform": "1688",
+  "endpoints": {
+    "open": "https://open.1688.com/",
+    "api_gateway": "https://gw.open.1688.com/openapi/",
+    "trade": "https://trade.1688.com/",
+    "mobile": "https://m.1688.com/"
+  },
+  "cdn": "https://g.alicdn.com/"
+}

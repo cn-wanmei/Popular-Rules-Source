@@ -1,3 +1,14 @@
-# Official sources for 1688 are declared in config/services.yaml.
-# Per-service adapter overrides may be listed here later.
-adapters: []
+adapters:
+  - id: official_web_open
+    type: official_web
+    authority: official
+    url: https://open.1688.com/
+  - id: official_web_www
+    type: official_web
+    authority: official
+    url: https://www.1688.com/
+  - id: fixture_endpoints_v1
+    type: official_json
+    authority: official
+    fixture: tests/fixtures/1688/official_endpoints_v1.json
+    enabled_for: tests

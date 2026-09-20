@@ -1,91 +1,107 @@
 version: 1
 services:
-  "1688":
-    display_name: "1688"
+  '1688':
+    display_name: '1688'
     ecosystem: alibaba
-    status: review
+    status: partial
     official_sources:
-      - "https://open.1688.com/"
+    - https://open.1688.com/
+    - https://www.1688.com/
     seed_domains:
-      - "open.1688.com"
+    - open.1688.com
+    - www.1688.com
+    - m.1688.com
+    - trade.1688.com
+    - fuwu.1688.com
+    - page-open.1688.com
     allowed_host_suffixes:
-      - "1688.com"
+    - 1688.com
+    allowed_host_exact: []
+    coverage:
+      domain: partial
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
   cainiao:
-    display_name: "菜鸟"
+    display_name: 菜鸟
     ecosystem: alibaba
     status: review
     official_sources:
-      - "https://open.cainiao.com/"
+    - https://open.cainiao.com/
     seed_domains:
-      - "open.cainiao.com"
+    - open.cainiao.com
     allowed_host_suffixes:
-      - "cainiao.com"
+    - cainiao.com
   dingding:
-    display_name: "钉钉"
+    display_name: 钉钉
     ecosystem: alibaba
     status: review
     official_sources:
-      - "https://open.dingtalk.com/"
+    - https://open.dingtalk.com/
     seed_domains:
-      - "open.dingtalk.com"
+    - open.dingtalk.com
     allowed_host_suffixes:
-      - "dingtalk.com"
+    - dingtalk.com
   qqmail:
-    display_name: "QQ邮箱"
+    display_name: QQ邮箱
     ecosystem: tencent
     status: review
     official_sources:
-      - "https://mail.qq.com/"
+    - https://mail.qq.com/
     seed_domains:
-      - "mail.qq.com"
-      - "imap.qq.com"
-      - "smtp.qq.com"
-      - "pop.qq.com"
+    - mail.qq.com
+    - imap.qq.com
+    - smtp.qq.com
+    - pop.qq.com
     allowed_host_exact:
-      - "mail.qq.com"
-      - "imap.qq.com"
-      - "smtp.qq.com"
-      - "pop.qq.com"
+    - mail.qq.com
+    - imap.qq.com
+    - smtp.qq.com
+    - pop.qq.com
     allowed_host_suffixes: []
   qqmusic:
-    display_name: "QQ音乐"
+    display_name: QQ音乐
     ecosystem: tencent
     status: review
     official_sources:
-      - "https://y.qq.com/"
+    - https://y.qq.com/
     seed_domains:
-      - "y.qq.com"
+    - y.qq.com
     allowed_host_suffixes:
-      - "y.qq.com"
+    - y.qq.com
   taobao:
-    display_name: "淘宝"
+    display_name: 淘宝
     ecosystem: alibaba
     status: review
     official_sources:
-      - "https://open.taobao.com/"
+    - https://open.taobao.com/
     seed_domains:
-      - "open.taobao.com"
+    - open.taobao.com
     allowed_host_suffixes:
-      - "taobao.com"
+    - taobao.com
   tencentcloud:
-    display_name: "腾讯云"
+    display_name: 腾讯云
     ecosystem: tencent
     status: partial
     official_sources:
-      - "https://cloud.tencent.com/document/api"
-      - "https://cloud.tencent.com/api"
+    - https://cloud.tencent.com/document/api
+    - https://cloud.tencent.com/api
     seed_domains:
-      - "cloud.tencent.com"
+    - cloud.tencent.com
     allowed_host_suffixes:
-      - "cloud.tencent.com"
-      - "tencentcloudapi.com"
+    - cloud.tencent.com
+    - tencentcloudapi.com
   tmall:
-    display_name: "天猫"
+    display_name: 天猫
     ecosystem: alibaba
     status: review
     official_sources:
-      - "https://www.tmall.com/"
+    - https://www.tmall.com/
     seed_domains:
-      - "www.tmall.com"
+    - www.tmall.com
     allowed_host_suffixes:
-      - "tmall.com"
+    - tmall.com
