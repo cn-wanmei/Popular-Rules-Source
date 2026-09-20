@@ -13,10 +13,20 @@ state_machine:
 
 services:
   "1688":
-    state: review
+    state: verified
+    next_gate: canary
+    profile: alibaba/1688
+    official_sources: ["https://aop.alibaba.com/", "https://www.1688.com/"]
+    coverage_state: evidence_backed_baseline
+    verification_run: 35519069151
+    snapshot_id: snap-1688-12bddfd782ff063d1bde9794
+    content_digest: 12bddfd782ff063d1bde9794337447649eedb15603f5c323e73a3688bfbc7692
+    domain_count: 3
   cainiao:
     state: verified
     next_gate: canary
+    profile: alibaba/cainiao
+    official_sources: ["https://gpn.cainiao.com/"]
     coverage_state: evidence_backed_baseline
     verification_run: 35519069151
     snapshot_id: snap-cainiao-0dfccfe550fdef0e9a13eb8f
@@ -25,6 +35,8 @@ services:
   dingding:
     state: verified
     next_gate: canary
+    profile: alibaba/dingding
+    official_sources: ["https://open.dingtalk.com/document/development/query-the-article-list", "https://www.dingtalk.com/"]
     coverage_state: evidence_backed_baseline
     verification_run: 35519069151
     snapshot_id: snap-dingding-f3c351df4f78f9a87d138d49
@@ -33,6 +45,8 @@ services:
   qqmail:
     state: verified
     next_gate: canary
+    profile: tencent/qqmail
+    official_sources: ["https://mail.qq.com/", "https://cloud.tencent.com/document/product/1270/55456"]
     coverage_state: evidence_backed_baseline
     verification_run: 35519069151
     snapshot_id: snap-qqmail-a0702d11866685a663ce4f99
@@ -41,6 +55,8 @@ services:
   qqmusic:
     state: verified
     next_gate: canary
+    profile: tencent/qqmusic
+    official_sources: ["https://y.qq.com/"]
     coverage_state: evidence_backed_baseline
     verification_run: 35519069151
     snapshot_id: snap-qqmusic-e903c9a62ef0a67f01a7d15d
@@ -49,6 +65,8 @@ services:
   taobao:
     state: verified
     next_gate: canary
+    profile: alibaba/taobao
+    official_sources: ["https://developer.alibaba.com/", "https://open.taobao.com/"]
     coverage_state: evidence_backed_baseline
     verification_run: 35519069151
     snapshot_id: snap-taobao-9a977dc6b1ab09563621d5f8
@@ -57,6 +75,8 @@ services:
   tencentcloud:
     state: verified
     next_gate: canary
+    profile: tencent/tencentcloud
+    official_sources: ["https://cloud.tencent.com/document/api"]
     coverage_state: evidence_backed_baseline
     verification_run: 35519069151
     snapshot_id: snap-tencentcloud-4548ee05bf8e1ceb60253551
@@ -65,6 +85,8 @@ services:
   tmall:
     state: verified
     next_gate: canary
+    profile: alibaba/tmall
+    official_sources: ["https://www.tmall.com/"]
     coverage_state: evidence_backed_baseline
     verification_run: 35519069151
     snapshot_id: snap-tmall-8b9440f7ab1276cb895eefbc
