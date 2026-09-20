@@ -1,0 +1,109 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:b907dc79a963e27386289c6fdd3ed2578cd9a64011a5dda3162d2519f91f89dd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qqmail-SEED"
+      ],
+      "service_id": "qqmail",
+      "type": "domain",
+      "value": "imap.qq.com"
+    },
+    {
+      "asset_id": "sha256:616ba525328b5625af8d7f0b23f2440da36c6eff80351f3b52443f47de7257de",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qqmail-SEED"
+      ],
+      "service_id": "qqmail",
+      "type": "domain",
+      "value": "mail.qq.com"
+    },
+    {
+      "asset_id": "sha256:40e1a91656e6e9f44e5a3c391276e6bf40f4735f33871736dd0342ff9b3d4b69",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qqmail-SEED"
+      ],
+      "service_id": "qqmail",
+      "type": "domain",
+      "value": "pop.qq.com"
+    },
+    {
+      "asset_id": "sha256:4902f8909e3d523afbd40d1775c3277140a14586f1e13c5e0c3ce479d20b9c28",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qqmail-SEED"
+      ],
+      "service_id": "qqmail",
+      "type": "domain",
+      "value": "smtp.qq.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 1.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "created_at": "2026-09-20T11:18:21.715280+00:00",
+  "domain_count": 4,
+  "domain_diff": {
+    "added": [],
+    "added_count": 0,
+    "current_count": 4,
+    "previous_count": 4,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
+      "imap.qq.com",
+      "mail.qq.com",
+      "pop.qq.com",
+      "smtp.qq.com"
+    ],
+    "unchanged_count": 4
+  },
+  "domains": [
+    "imap.qq.com",
+    "mail.qq.com",
+    "pop.qq.com",
+    "smtp.qq.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "confidence": "high",
+      "content_hash": "d6d0f88ad500be87d590e1617f52ae5e8f23a2227e4da64c24e70b326d61ecbc",
+      "domains_extracted": 0,
+      "evidence_id": "EV-qqmail-001-d6d0f88ad500",
+      "parser_version": "domain-extractor-v2",
+      "resolved_url": "https://mail.qq.com/",
+      "retrieved_at": "2026-09-20T11:18:20.298784+00:00",
+      "service_id": "qqmail",
+      "source_method": "official_web",
+      "source_url": "https://mail.qq.com/",
+      "status": "verified"
+    },
+    {
+      "confidence": "high",
+      "content_hash": "5598879187d365db404621f5eb8b2d42c92fe6450d4a724ca4304ce4a7c5bb86",
+      "domains_extracted": 4,
+      "evidence_id": "EV-qqmail-SEED",
+      "parser_version": "domain-extractor-v2",
+      "retrieved_at": "2026-09-20T11:18:21.665999+00:00",
+      "service_id": "qqmail",
+      "source_method": "official_seed",
+      "source_url": "https://mail.qq.com/",
+      "status": "verified"
+    }
+  ],
+  "generator_version": "1.1.0",
+  "last_known_good": false,
+  "parser_version": "domain-extractor-v2",
+  "previous_domain_count": 4,
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v1",
+  "service_id": "qqmail",
+  "snapshot_id": "snap-20260920T111821Z-qqmail-5598879187d365db",
+  "source_count": 1
+}

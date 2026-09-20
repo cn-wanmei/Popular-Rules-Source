@@ -1,0 +1,293 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:5173fb999d1716e2a137c1dffe622517dd62976818981a6a7dd9fb759ee0a281",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-002-d794d8ba6226"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "1688.com"
+    },
+    {
+      "asset_id": "sha256:720f35edeffbf726bb63639d648afc50e40328e87a5175b245d493fac1a9cea2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-SEED"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "air.1688.com"
+    },
+    {
+      "asset_id": "sha256:6ba95d89eba3f1e0e2dcec7741630ec3249f3fe03947039a2dd4dcec25238e8a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-SEED"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "buy.1688.com"
+    },
+    {
+      "asset_id": "sha256:3182e573ef6ee81b6235aaaa2e18a6f2687e14d8f1ca41e8b26ea690e8ca99b4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-SEED"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "cart.1688.com"
+    },
+    {
+      "asset_id": "sha256:6145c82c724b7b5efd4b5d6134da253628c5f7ff3b3dd3ee1ca2c4bfedc471b1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-SEED"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "detail.1688.com"
+    },
+    {
+      "asset_id": "sha256:0817b92f4a58a4da99be3c1952d96e481893f0d757a225fd08eac4d713a8cd53",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-001-0466920e28ed",
+        "EV-1688-SEED"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "fuwu.1688.com"
+    },
+    {
+      "asset_id": "sha256:d435e86436e1d50467372076b2cb7c1d248f0d3acf3764d27498d97e54a23c92",
+      "classification": "service",
+      "evidence_ids": [],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "gw.open.1688.com"
+    },
+    {
+      "asset_id": "sha256:9731a046012314dc8dc0e79c8b461373200386b4fab455e9a98418cbc85e1672",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-SEED"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "login.1688.com"
+    },
+    {
+      "asset_id": "sha256:6491cefff04f69d52c19abd3376faf123d1e6f7f12b124f4ca3c08f34bba97ba",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-SEED"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "m.1688.com"
+    },
+    {
+      "asset_id": "sha256:245bd6338d713498582a3a7a4985c4a99a6c59118a33b802ae1aa57d5c5034b9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-SEED"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "member.1688.com"
+    },
+    {
+      "asset_id": "sha256:f0ab21e987a7c368cdf1280bd31e5dcfc19fa3056193d1786d0939045da8e2b8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-SEED"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "offer.1688.com"
+    },
+    {
+      "asset_id": "sha256:cbe3e7d8516130bb7dab92e6bce1f5323c2ce5f5cfcadd52ad8c1140ec4018ef",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-001-0466920e28ed",
+        "EV-1688-SEED"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "open.1688.com"
+    },
+    {
+      "asset_id": "sha256:f81c0efea0ef128bd1bf6c0d11aedee7c3e32e72bb09b3ede4bd30de63da12e1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-SEED"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "order.1688.com"
+    },
+    {
+      "asset_id": "sha256:fcf8e70fea94b86ae8135695f9b5772281a3c70a7afd377ed528a51144bc295e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-001-0466920e28ed",
+        "EV-1688-SEED"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "page-open.1688.com"
+    },
+    {
+      "asset_id": "sha256:80e8921a4cdaa7ea0ced8f7bd76c31fe50d19b0d84f4b209d56e93aafc8399e3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-SEED"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "search.1688.com"
+    },
+    {
+      "asset_id": "sha256:4575765b702818a15d749a1eaf49d2dd14933c37da18e64766f14b6a3adee4d9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-SEED"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "trade.1688.com"
+    },
+    {
+      "asset_id": "sha256:903fabdb4479751bb8ab0cb016420212e98bcc961231326dccb1ce4a82990b66",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-SEED"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "winport.1688.com"
+    },
+    {
+      "asset_id": "sha256:e15f8b29573917b42c57523d8df44c047427cf589e61c968aa6f6aa2fbb6a63d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-002-d794d8ba6226",
+        "EV-1688-SEED"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "www.1688.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 1.2857142857142858,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "created_at": "2026-09-20T11:16:44.862385+00:00",
+  "domain_count": 18,
+  "domain_diff": {
+    "added": [
+      "buy.1688.com",
+      "cart.1688.com",
+      "order.1688.com",
+      "winport.1688.com"
+    ],
+    "added_count": 4,
+    "current_count": 18,
+    "previous_count": 14,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
+      "1688.com",
+      "air.1688.com",
+      "detail.1688.com",
+      "fuwu.1688.com",
+      "gw.open.1688.com",
+      "login.1688.com",
+      "m.1688.com",
+      "member.1688.com",
+      "offer.1688.com",
+      "open.1688.com",
+      "page-open.1688.com",
+      "search.1688.com",
+      "trade.1688.com",
+      "www.1688.com"
+    ],
+    "unchanged_count": 14
+  },
+  "domains": [
+    "1688.com",
+    "air.1688.com",
+    "buy.1688.com",
+    "cart.1688.com",
+    "detail.1688.com",
+    "fuwu.1688.com",
+    "gw.open.1688.com",
+    "login.1688.com",
+    "m.1688.com",
+    "member.1688.com",
+    "offer.1688.com",
+    "open.1688.com",
+    "order.1688.com",
+    "page-open.1688.com",
+    "search.1688.com",
+    "trade.1688.com",
+    "winport.1688.com",
+    "www.1688.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "confidence": "high",
+      "content_hash": "0466920e28ed19b11fd77ea53acbc31b3b842f56d42436d356834227037e3f3e",
+      "domains_extracted": 3,
+      "evidence_id": "EV-1688-001-0466920e28ed",
+      "parser_version": "domain-extractor-v2",
+      "resolved_url": "https://open.1688.com/",
+      "retrieved_at": "2026-09-20T11:16:42.620175+00:00",
+      "service_id": "1688",
+      "source_method": "official_web",
+      "source_url": "https://open.1688.com/",
+      "status": "verified"
+    },
+    {
+      "confidence": "high",
+      "content_hash": "d794d8ba622669a9acb91b5280ee003c6c84b4fb0eb60adf51ebd620d70bc94c",
+      "domains_extracted": 2,
+      "evidence_id": "EV-1688-002-d794d8ba6226",
+      "parser_version": "domain-extractor-v2",
+      "resolved_url": "https://www.1688.com/",
+      "retrieved_at": "2026-09-20T11:16:43.983441+00:00",
+      "service_id": "1688",
+      "source_method": "official_web",
+      "source_url": "https://www.1688.com/",
+      "status": "verified"
+    },
+    {
+      "confidence": "high",
+      "content_hash": "4e776ce6b60d8c29483a8f3aa7202da6860b2322793adf803ab1a5330e4a88aa",
+      "domains_extracted": 16,
+      "evidence_id": "EV-1688-SEED",
+      "parser_version": "domain-extractor-v2",
+      "retrieved_at": "2026-09-20T11:16:44.839041+00:00",
+      "service_id": "1688",
+      "source_method": "official_seed",
+      "source_url": "https://open.1688.com/",
+      "status": "verified"
+    }
+  ],
+  "generator_version": "1.1.0",
+  "last_known_good": false,
+  "parser_version": "domain-extractor-v2",
+  "previous_domain_count": 14,
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v1",
+  "service_id": "1688",
+  "snapshot_id": "snap-20260920T111644Z-1688-fc0a208b4287e19a",
+  "source_count": 2
+}

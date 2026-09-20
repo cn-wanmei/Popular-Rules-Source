@@ -4,6 +4,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 from .build import load_services
+from .schema_validate import validate_all_snapshots
 from .normalize import normalize_domain, host_allowed
 
 
@@ -52,7 +53,7 @@ def validate_schemas_present() -> list[str]:
 
 
 def run_validation() -> None:
-    errors = validate_config() + validate_schemas_present()
+    errors = validate_config() + validate_schemas_present() + validate_all_snapshots()
     if errors:
         raise ValidationError("\n".join(errors))
     print(f"validation: PASS ({len(load_services()['services'])} services)")

@@ -1,0 +1,4 @@
+global.cainiao.com
+link.cainiao.com
+open.cainiao.com
+www.cainiao.com

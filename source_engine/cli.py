@@ -5,6 +5,11 @@ import json
 from pathlib import Path
 
 from .build import build_all, build_service, load_services
+from .conflict import detect_conflicts
+from .health import probe_all
+from .quality import score_services
+from .engineering import engineering_report
+from .schema_validate import validate_all_snapshots
 from .discover import discover_from_config
 from .promotion import build_promotion_package
 from .reconcile import audit_collection
@@ -107,6 +112,11 @@ def main() -> None:
     sub.add_parser("gap")
     sub.add_parser("test-determinism")
     sub.add_parser("dod")
+    sub.add_parser("conflict")
+    sub.add_parser("health")
+    sub.add_parser("quality")
+    sub.add_parser("schema-validate")
+    sub.add_parser("engineering")
 
     discover = sub.add_parser("discover")
     discover.add_argument("--service", required=True)
@@ -158,6 +168,30 @@ def main() -> None:
     if args.command == "reconcile":
         service_ids = args.service or sorted(load_services()["services"])
         print(json.dumps(audit_collection(service_ids), ensure_ascii=False, indent=2))
+        return
+
+    if args.command == "conflict":
+        print(json.dumps(detect_conflicts(), ensure_ascii=False, indent=2))
+        return
+
+    if args.command == "health":
+        print(json.dumps(probe_all(), ensure_ascii=False, indent=2))
+        return
+
+    if args.command == "quality":
+        print(json.dumps(score_services(), ensure_ascii=False, indent=2))
+        return
+
+    if args.command == "schema-validate":
+        errs = validate_all_snapshots()
+        if errs:
+            print("\n".join(errs))
+            raise SystemExit(2)
+        print("schema-validate: PASS")
+        return
+
+    if args.command == "engineering":
+        print(json.dumps(engineering_report(), ensure_ascii=False, indent=2))
         return
 
     if args.command == "generate":

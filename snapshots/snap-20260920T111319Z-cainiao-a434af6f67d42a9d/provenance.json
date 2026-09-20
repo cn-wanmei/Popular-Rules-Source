@@ -1,0 +1,45 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:85a009561ddd9ce51700d8c7da3fc8afede836fe66a46a8c8d32c6cd622524d6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cainiao-SEED"
+      ],
+      "service_id": "cainiao",
+      "type": "domain",
+      "value": "global.cainiao.com"
+    },
+    {
+      "asset_id": "sha256:b3003c78f53f23d98a3ed802919d49a9de08fc1fd3824a11ee71846e9eb63be0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cainiao-SEED"
+      ],
+      "service_id": "cainiao",
+      "type": "domain",
+      "value": "link.cainiao.com"
+    },
+    {
+      "asset_id": "sha256:aacf4adb49d80f623631d4be5f2b68fef7a429b8edeae24ce3f7e60b24477822",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cainiao-SEED"
+      ],
+      "service_id": "cainiao",
+      "type": "domain",
+      "value": "open.cainiao.com"
+    },
+    {
+      "asset_id": "sha256:a633ed97d6bc7835f0c1c21eadf37b83e1a52dc38e1b118a937bfc6a990bf1e2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cainiao-SEED"
+      ],
+      "service_id": "cainiao",
+      "type": "domain",
+      "value": "www.cainiao.com"
+    }
+  ],
+  "service_id": "cainiao"
+}

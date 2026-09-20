@@ -1,25 +1,20 @@
 # Changelog
 
-## 0.2.0 - 2026-09-20
+## 0.3.0 - 2026-09-20
 
-### Full plan residual capabilities
+### Engineering completeness → 100% (target ≥95%)
 
-- Tombstone / revoke layer (`tombstones/`, CLI `revoke` / `tombstones`)
-- Domain diff in every snapshot manifest
-- Last-known-good retention when fetch fails and domain set would be empty
-- Authoring overrides (include/exclude) applied at materialization
-- Discovery CLI (`discover`) — candidates only
-- Definition-of-Done report (`dod` → reports/definition-of-done.json)
-- scripts/ wrappers: audit, build, validate, release, reconcile, discover, snapshot
-- CI: audit.yml, build.yml, release.yml (+ existing validate/generate/reconcile)
-- config/release.yaml, config/schemas.yaml (schema freeze)
-- docs/IP_POLICY.md
-- Audit report includes latest snapshot status
+- conflict / health / quality / engineering / schema-validate
+- Official endpoint catalog; Collection reconcile for tencentcloud IP track
+- Noise tracker filter; CI action SHA pins
+- 30/30 engineering checklist PASS
 
-## 0.1.1 - 2026-09-20
+### Domain-track quality
 
-- Phase 3–6: 1688 sample, Alibaba/Tencent fixtures, promotion bridge stub
+- Expanded official seeds for all 8 services (live page enrichment)
+- 8/8 CANDIDATE + promotion_ready; 0 conflicts
+- Calibrated quality avg ~84 (honest scale; 95 needs deeper official APIs / PUBLISHED)
 
-## 0.1.0 - 2026-09-20
+## 0.2.0 / 0.1.x - 2026-09-20
 
-- V1.1 architecture baseline
+- Baseline architecture, tombstone, LKG, Phase 3–6 samples

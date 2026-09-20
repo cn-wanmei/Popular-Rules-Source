@@ -1,0 +1,12 @@
+book.tmall.com
+car.tmall.com
+chaoshi.tmall.com
+detail.tmall.com
+fragment.tmall.com
+jstracker.www.tmall.com
+login.tmall.com
+m.tmall.com
+pages.tmall.com
+tmall.com
+tw.tmall.com
+www.tmall.com

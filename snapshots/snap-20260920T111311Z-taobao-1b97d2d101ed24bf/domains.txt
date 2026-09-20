@@ -1,0 +1,10 @@
+eco.taobao.com
+gw.api.taobao.com
+h5.m.taobao.com
+login.taobao.com
+m.taobao.com
+oauth.taobao.com
+open.taobao.com
+trade.taobao.com
+world.taobao.com
+www.taobao.com

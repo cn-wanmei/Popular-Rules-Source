@@ -12,7 +12,7 @@ from .extract import extract_domains
 from .fetch import FetchError, fetch
 from .normalize import normalize_domain, service_asset_id
 from .overrides import apply_overrides, load_service_overrides
-from .policy import assess_count_change, is_excluded, load_exclusion_suffixes
+from .policy import assess_count_change, is_excluded, is_noise_domain, load_exclusion_suffixes
 from .tombstone import filter_revoked
 
 PARSER_VERSION = "domain-extractor-v2"
@@ -130,7 +130,7 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
             domain_evidence.setdefault(domain, set()).add(seed_evidence_id)
 
     blocked_suffixes = load_exclusion_suffixes()
-    domains = {d for d in domains if not is_excluded(d, blocked_suffixes)}
+    domains = {d for d in domains if not is_excluded(d, blocked_suffixes) and not is_noise_domain(d)}
     domains = filter_revoked(service_id, domains)
     domains = apply_overrides(domains, load_service_overrides(service_id))
     sorted_domains = sorted(domains)

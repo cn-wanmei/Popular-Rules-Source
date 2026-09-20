@@ -1,0 +1,6 @@
+bill.cloud.tencent.com
+capi.cloud.tencent.com
+cloud.tencent.com
+console.cloud.tencent.com
+iaas.cloud.tencent.com
+tencentcloudapi.com

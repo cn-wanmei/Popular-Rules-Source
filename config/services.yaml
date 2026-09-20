@@ -8,17 +8,27 @@ services:
     - https://open.1688.com/
     - https://www.1688.com/
     seed_domains:
-    - open.1688.com
-    - www.1688.com
-    - m.1688.com
-    - trade.1688.com
+    - air.1688.com
+    - buy.1688.com
+    - cart.1688.com
+    - detail.1688.com
     - fuwu.1688.com
+    - login.1688.com
+    - m.1688.com
+    - member.1688.com
+    - offer.1688.com
+    - open.1688.com
+    - order.1688.com
     - page-open.1688.com
+    - search.1688.com
+    - trade.1688.com
+    - winport.1688.com
+    - www.1688.com
     allowed_host_suffixes:
     - 1688.com
     allowed_host_exact: []
     coverage:
-      domain: partial
+      domain: high
       ip: unknown
       cidr: none
     source_policy:
@@ -33,10 +43,20 @@ services:
     official_sources:
     - https://open.cainiao.com/
     seed_domains:
+    - cainiao.com
+    - express.cainiao.com
+    - global.cainiao.com
+    - gsls.cainiao.com
+    - link.cainiao.com
     - open.cainiao.com
+    - page.cainiao.com
+    - tars.cainiao.com
     - www.cainiao.com
+    - yugong.cainiao.com
     allowed_host_suffixes:
     - cainiao.com
+    coverage:
+      domain: high
   dingding:
     display_name: 钉钉
     ecosystem: alibaba
@@ -44,10 +64,18 @@ services:
     official_sources:
     - https://open.dingtalk.com/
     seed_domains:
-    - open.dingtalk.com
+    - api.dingtalk.com
+    - h5.dingtalk.com
+    - login.dingtalk.com
     - oapi.dingtalk.com
+    - open.dingtalk.com
+    - page.dingtalk.com
+    - table.dingtalk.com
+    - www.dingtalk.com
     allowed_host_suffixes:
     - dingtalk.com
+    coverage:
+      domain: high
   qqmail:
     display_name: QQ邮箱
     ecosystem: tencent
@@ -55,16 +83,20 @@ services:
     official_sources:
     - https://mail.qq.com/
     seed_domains:
-    - mail.qq.com
     - imap.qq.com
-    - smtp.qq.com
+    - mail.qq.com
     - pop.qq.com
+    - smtp.qq.com
     allowed_host_exact:
-    - mail.qq.com
     - imap.qq.com
-    - smtp.qq.com
+    - mail.qq.com
     - pop.qq.com
+    - smtp.qq.com
     allowed_host_suffixes: []
+    coverage:
+      domain: complete
+      ip: none
+      cidr: none
   qqmusic:
     display_name: QQ音乐
     ecosystem: tencent
@@ -72,10 +104,19 @@ services:
     official_sources:
     - https://y.qq.com/
     seed_domains:
-    - y.qq.com
+    - ad.y.qq.com
+    - c.y.qq.com
+    - dl.y.qq.com
+    - i.y.qq.com
+    - kg.y.qq.com
+    - res.y.qq.com
+    - stat.y.qq.com
     - u.y.qq.com
+    - y.qq.com
     allowed_host_suffixes:
     - y.qq.com
+    coverage:
+      domain: high
   taobao:
     display_name: 淘宝
     ecosystem: alibaba
@@ -83,10 +124,24 @@ services:
     official_sources:
     - https://open.taobao.com/
     seed_domains:
-    - open.taobao.com
+    - buy.taobao.com
+    - cart.taobao.com
+    - eco.taobao.com
+    - gw.api.taobao.com
+    - h5.m.taobao.com
+    - item.taobao.com
+    - login.taobao.com
+    - m.taobao.com
     - oauth.taobao.com
+    - open.taobao.com
+    - s.taobao.com
+    - trade.taobao.com
+    - world.taobao.com
+    - www.taobao.com
     allowed_host_suffixes:
     - taobao.com
+    coverage:
+      domain: high
   tencentcloud:
     display_name: 腾讯云
     ecosystem: tencent
@@ -94,11 +149,23 @@ services:
     official_sources:
     - https://cloud.tencent.com/document/api
     seed_domains:
+    - bill.cloud.tencent.com
+    - buy.cloud.tencent.com
+    - capi.cloud.tencent.com
     - cloud.tencent.com
+    - console.cloud.tencent.com
+    - dnspod.cloud.tencent.com
+    - iaas.cloud.tencent.com
+    - ide.cloud.tencent.com
+    - market.cloud.tencent.com
+    - mps.cloud.tencent.com
+    - tcb.cloud.tencent.com
     - tencentcloudapi.com
     allowed_host_suffixes:
     - cloud.tencent.com
     - tencentcloudapi.com
+    coverage:
+      domain: high
   tmall:
     display_name: 天猫
     ecosystem: alibaba
@@ -106,7 +173,17 @@ services:
     official_sources:
     - https://www.tmall.com/
     seed_domains:
-    - www.tmall.com
+    - buy.tmall.com
+    - cart.tmall.com
+    - chaoshi.tmall.com
+    - detail.tmall.com
+    - list.tmall.com
     - login.tmall.com
+    - m.tmall.com
+    - pages.tmall.com
+    - tw.tmall.com
+    - www.tmall.com
     allowed_host_suffixes:
     - tmall.com
+    coverage:
+      domain: high

@@ -1,0 +1,206 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:5086154cee0042a831d7974b4f3da3f98243a79a9e5154183dd6addd752b8d1e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentcloud-SEED"
+      ],
+      "service_id": "tencentcloud",
+      "type": "domain",
+      "value": "bill.cloud.tencent.com"
+    },
+    {
+      "asset_id": "sha256:5e435303f3eacccb171f6c15d11cbee4d9ac6a64a83084385d63788747f2d59b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentcloud-SEED"
+      ],
+      "service_id": "tencentcloud",
+      "type": "domain",
+      "value": "buy.cloud.tencent.com"
+    },
+    {
+      "asset_id": "sha256:674f71971611238eb27d6750abccbb0fd13399547dd44eb73af43a60e2283e22",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentcloud-SEED"
+      ],
+      "service_id": "tencentcloud",
+      "type": "domain",
+      "value": "capi.cloud.tencent.com"
+    },
+    {
+      "asset_id": "sha256:f8b2105bbea1f97e120c09a64ff0077681234b99ee8491537ff99567948861ec",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentcloud-SEED"
+      ],
+      "service_id": "tencentcloud",
+      "type": "domain",
+      "value": "cloud.tencent.com"
+    },
+    {
+      "asset_id": "sha256:bda9a56f6d5d67a6a34a064fcb6f5626e62330c4ad07e5daa08424a7ba9e7156",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentcloud-SEED"
+      ],
+      "service_id": "tencentcloud",
+      "type": "domain",
+      "value": "console.cloud.tencent.com"
+    },
+    {
+      "asset_id": "sha256:4f9f3cd4ab718fda4664a617e672d786143e92d705db193cf987fa2782f408ff",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentcloud-SEED"
+      ],
+      "service_id": "tencentcloud",
+      "type": "domain",
+      "value": "dnspod.cloud.tencent.com"
+    },
+    {
+      "asset_id": "sha256:7f83b12aafe21959d7af38ec4d429a269b266ea2a529529d3ce1851e1306ccd0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentcloud-SEED"
+      ],
+      "service_id": "tencentcloud",
+      "type": "domain",
+      "value": "iaas.cloud.tencent.com"
+    },
+    {
+      "asset_id": "sha256:4e2af4a08f199f8aa2972918ce045acaf1f04c7e582c8919d82493cbfdcd643a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentcloud-SEED"
+      ],
+      "service_id": "tencentcloud",
+      "type": "domain",
+      "value": "ide.cloud.tencent.com"
+    },
+    {
+      "asset_id": "sha256:6e2ac25a4905230806f3e67c0c5ae76ab8170f73840f2898684ae8f79ca93661",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentcloud-SEED"
+      ],
+      "service_id": "tencentcloud",
+      "type": "domain",
+      "value": "market.cloud.tencent.com"
+    },
+    {
+      "asset_id": "sha256:91a2a8c1cae3c706596ff2518de47fd7732af1228a26accc43904bbc77d69ab4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentcloud-SEED"
+      ],
+      "service_id": "tencentcloud",
+      "type": "domain",
+      "value": "mps.cloud.tencent.com"
+    },
+    {
+      "asset_id": "sha256:59a4e725e37481ad75cb770e66e94e1133ba56e333f1bcdc3a892eac3d8f1d0a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentcloud-SEED"
+      ],
+      "service_id": "tencentcloud",
+      "type": "domain",
+      "value": "tcb.cloud.tencent.com"
+    },
+    {
+      "asset_id": "sha256:ef20956be014d069228943dc7be622258733eea6606c7bc2013e45130c9abb1b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentcloud-SEED"
+      ],
+      "service_id": "tencentcloud",
+      "type": "domain",
+      "value": "tencentcloudapi.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 2.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "created_at": "2026-09-20T11:17:50.451272+00:00",
+  "domain_count": 12,
+  "domain_diff": {
+    "added": [
+      "buy.cloud.tencent.com",
+      "dnspod.cloud.tencent.com",
+      "ide.cloud.tencent.com",
+      "market.cloud.tencent.com",
+      "mps.cloud.tencent.com",
+      "tcb.cloud.tencent.com"
+    ],
+    "added_count": 6,
+    "current_count": 12,
+    "previous_count": 6,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
+      "bill.cloud.tencent.com",
+      "capi.cloud.tencent.com",
+      "cloud.tencent.com",
+      "console.cloud.tencent.com",
+      "iaas.cloud.tencent.com",
+      "tencentcloudapi.com"
+    ],
+    "unchanged_count": 6
+  },
+  "domains": [
+    "bill.cloud.tencent.com",
+    "buy.cloud.tencent.com",
+    "capi.cloud.tencent.com",
+    "cloud.tencent.com",
+    "console.cloud.tencent.com",
+    "dnspod.cloud.tencent.com",
+    "iaas.cloud.tencent.com",
+    "ide.cloud.tencent.com",
+    "market.cloud.tencent.com",
+    "mps.cloud.tencent.com",
+    "tcb.cloud.tencent.com",
+    "tencentcloudapi.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "confidence": "high",
+      "content_hash": "511df3123f0ce218f75ca259c30ad176a5ff00b82a507b9c368e6a8689c0015b",
+      "domains_extracted": 0,
+      "evidence_id": "EV-tencentcloud-001-511df3123f0c",
+      "parser_version": "domain-extractor-v2",
+      "resolved_url": "https://cloud.tencent.com/document/api",
+      "retrieved_at": "2026-09-20T11:17:49.658951+00:00",
+      "service_id": "tencentcloud",
+      "source_method": "official_web",
+      "source_url": "https://cloud.tencent.com/document/api",
+      "status": "verified"
+    },
+    {
+      "confidence": "high",
+      "content_hash": "a5621eaf5b7e5af08e34099b468ff5cfb34d4f6699cfd65d17a16470b8f4d8f1",
+      "domains_extracted": 12,
+      "evidence_id": "EV-tencentcloud-SEED",
+      "parser_version": "domain-extractor-v2",
+      "retrieved_at": "2026-09-20T11:17:50.355605+00:00",
+      "service_id": "tencentcloud",
+      "source_method": "official_seed",
+      "source_url": "https://cloud.tencent.com/document/api",
+      "status": "verified"
+    }
+  ],
+  "generator_version": "1.1.0",
+  "last_known_good": false,
+  "parser_version": "domain-extractor-v2",
+  "previous_domain_count": 6,
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v1",
+  "service_id": "tencentcloud",
+  "snapshot_id": "snap-20260920T111750Z-tencentcloud-a5621eaf5b7e5af0",
+  "source_count": 1
+}

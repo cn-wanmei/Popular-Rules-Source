@@ -1,0 +1,35 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:52b1ef85cd0750f5cb63d621f380fc09dc480ef8934fde49877c33becbeddef4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qqmusic-SEED"
+      ],
+      "service_id": "qqmusic",
+      "type": "domain",
+      "value": "c.y.qq.com"
+    },
+    {
+      "asset_id": "sha256:fc0385ae51547a33b6484bbd9c38d2201ae3ac38fe436457906513f464886db9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qqmusic-SEED"
+      ],
+      "service_id": "qqmusic",
+      "type": "domain",
+      "value": "u.y.qq.com"
+    },
+    {
+      "asset_id": "sha256:c1fe59122d1ea1129c35c22f55acd56a035e77a692483db19a88a305d0edfa6a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qqmusic-SEED"
+      ],
+      "service_id": "qqmusic",
+      "type": "domain",
+      "value": "y.qq.com"
+    }
+  ],
+  "service_id": "qqmusic"
+}

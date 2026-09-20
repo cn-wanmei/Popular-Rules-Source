@@ -1,0 +1,106 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:b0fa1fb3626ca4b3a003045e16dea52d3e5169a774979bd45f1df530dc1bce48",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-SEED"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "eco.taobao.com"
+    },
+    {
+      "asset_id": "sha256:06f5b6b05d29849d9731ff70207cec17d8cd7f21d22f5df4798e98d1392b2df5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-SEED"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "gw.api.taobao.com"
+    },
+    {
+      "asset_id": "sha256:a44c889ee9f50a3c74fb0fb5b49643324b5cbbe1712ef6daa505c6ed397660c4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-SEED"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "h5.m.taobao.com"
+    },
+    {
+      "asset_id": "sha256:98cf827ca9cf58848320572bb2bf4a7c6436e19d710946f7efe6d8643ffba6de",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-SEED"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "login.taobao.com"
+    },
+    {
+      "asset_id": "sha256:78bb0aa9f4cd1f5ab00a33d2cc79bd8e0f1de1102ea298dfb19aea08a96d6399",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-SEED"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "m.taobao.com"
+    },
+    {
+      "asset_id": "sha256:0411fb754215a515477bd8ed9de67e7ba713ed7c1bbe8967601c84095a2994f3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-SEED"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "oauth.taobao.com"
+    },
+    {
+      "asset_id": "sha256:1ebd3af642ca29a464a0687cc5ed41dd8fddb6764d225d8128475940cedb083d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-001-8635e4458590",
+        "EV-taobao-SEED"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "open.taobao.com"
+    },
+    {
+      "asset_id": "sha256:57e36f7659029d6eb1287fbeb25ace302b4cb0e7d95dca367e1687be00741810",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-SEED"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "trade.taobao.com"
+    },
+    {
+      "asset_id": "sha256:ce2e581f4286bddef78acd4de2469f9fc12200629f80eef5717f83d75811eb98",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-SEED"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "world.taobao.com"
+    },
+    {
+      "asset_id": "sha256:e8e7632623536c3366e0bf68e8d7226fd550a2bea0e9d8c5aaec1ab450d63b3d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-SEED"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "www.taobao.com"
+    }
+  ],
+  "service_id": "taobao"
+}

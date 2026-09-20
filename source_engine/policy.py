@@ -66,3 +66,13 @@ def is_excluded(domain: str, blocked_suffixes: tuple[str, ...]) -> bool:
         if d == suffix or d.endswith("." + suffix):
             return True
     return False
+
+
+_NOISE_LABELS = (
+    "jstracker", "tracker", "beacon", "analytics", "utm", "log.", "logs.",
+)
+
+
+def is_noise_domain(domain: str) -> bool:
+    d = domain.lower()
+    return any(x in d for x in _NOISE_LABELS)

@@ -1,0 +1,65 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:144c114caf486183ee7a68b40142eab7bd424bc2dcf4891ae6be0ee45596e328",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-dingding-SEED"
+      ],
+      "service_id": "dingding",
+      "type": "domain",
+      "value": "api.dingtalk.com"
+    },
+    {
+      "asset_id": "sha256:6b4721c42aca1cbf4a5f8d6d95d26ab0ef798f53f1b820cfe9be465b8983e78f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-dingding-SEED"
+      ],
+      "service_id": "dingding",
+      "type": "domain",
+      "value": "h5.dingtalk.com"
+    },
+    {
+      "asset_id": "sha256:8baef70df36f4a9d7f489a78b7a024269999579b0fd70a0ddeb11c1b856a9b08",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-dingding-SEED"
+      ],
+      "service_id": "dingding",
+      "type": "domain",
+      "value": "login.dingtalk.com"
+    },
+    {
+      "asset_id": "sha256:463586740f15cd84d388da53909bde8aa53e37c4726869d0362fc0d681cee2be",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-dingding-SEED"
+      ],
+      "service_id": "dingding",
+      "type": "domain",
+      "value": "oapi.dingtalk.com"
+    },
+    {
+      "asset_id": "sha256:2eb6e02ada3141af454db799c0d71a037a10effee3ccb30dca43cb5f0b3a00fc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-dingding-SEED"
+      ],
+      "service_id": "dingding",
+      "type": "domain",
+      "value": "open.dingtalk.com"
+    },
+    {
+      "asset_id": "sha256:6b32b10ddd17a9cfb54c27b0adb69b3817c7a470e60864a2a3b89b5ebf637d45",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-dingding-SEED"
+      ],
+      "service_id": "dingding",
+      "type": "domain",
+      "value": "www.dingtalk.com"
+    }
+  ],
+  "service_id": "dingding"
+}
