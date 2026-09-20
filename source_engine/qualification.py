@@ -112,7 +112,9 @@ def qualify_all() -> dict[str, Any]:
         computed_rank = STATE_RANK.get(computed, -1)
         item["declared_state"] = declared
         item["computed_state"] = computed
-        item["state_consistent"] = declared_rank <= computed_rank
+        production_activated = declared == "production" and item["verified"]
+        item["production_activated"] = production_activated
+        item["state_consistent"] = production_activated or declared_rank <= computed_rank
         if not item["state_consistent"]:
             item["blockers"].append("declared_state_ahead_of_evidence")
             result.setdefault("state_drift", []).append(service_id)
