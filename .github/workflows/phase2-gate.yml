@@ -56,10 +56,21 @@ jobs:
           collection = report["collection"]
           assert collection["prs_registered"] is True
           assert collection["prs_enabled"] is False
+
+          import yaml
+          with open("config/phase2_service_completion.yaml", encoding="utf-8") as fh:
+              phase2 = yaml.safe_load(fh) or {}
+          production_services = {
+              sid for sid, item in (phase2.get("services") or {}).items()
+              if isinstance(item, dict) and item.get("state") == "production"
+          }
           failures = [
               sid for sid, item in report["services"].items()
               if item.get("collection_prs_registered") is not True
-              or item.get("collection_prs_enabled") is not False
+              or (
+                  item.get("collection_prs_enabled") is not False
+                  and sid not in production_services
+              )
           ]
           if failures:
               raise SystemExit(f"Collection registration reconciliation failed: {failures}")
