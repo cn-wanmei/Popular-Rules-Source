@@ -1,0 +1,25 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:463586740f15cd84d388da53909bde8aa53e37c4726869d0362fc0d681cee2be",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-dingding-SEED"
+      ],
+      "service_id": "dingding",
+      "type": "domain",
+      "value": "oapi.dingtalk.com"
+    },
+    {
+      "asset_id": "sha256:2eb6e02ada3141af454db799c0d71a037a10effee3ccb30dca43cb5f0b3a00fc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-dingding-SEED"
+      ],
+      "service_id": "dingding",
+      "type": "domain",
+      "value": "open.dingtalk.com"
+    }
+  ],
+  "service_id": "dingding"
+}

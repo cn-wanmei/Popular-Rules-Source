@@ -1,0 +1,70 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:463586740f15cd84d388da53909bde8aa53e37c4726869d0362fc0d681cee2be",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-dingding-SEED"
+      ],
+      "service_id": "dingding",
+      "type": "domain",
+      "value": "oapi.dingtalk.com"
+    },
+    {
+      "asset_id": "sha256:2eb6e02ada3141af454db799c0d71a037a10effee3ccb30dca43cb5f0b3a00fc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-dingding-SEED"
+      ],
+      "service_id": "dingding",
+      "type": "domain",
+      "value": "open.dingtalk.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "created_at": "2026-09-20T10:49:06.264196+00:00",
+  "domain_count": 2,
+  "domains": [
+    "oapi.dingtalk.com",
+    "open.dingtalk.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "confidence": "high",
+      "content_hash": "7d55449eeac042b132d83633b535b4c9362e13d02ca70bc10eefd1b8e249980e",
+      "domains_extracted": 0,
+      "evidence_id": "EV-dingding-001-7d55449eeac0",
+      "parser_version": "domain-extractor-v2",
+      "resolved_url": "https://open.dingtalk.com/",
+      "retrieved_at": "2026-09-20T10:49:04.552617+00:00",
+      "service_id": "dingding",
+      "source_method": "official_web",
+      "source_url": "https://open.dingtalk.com/",
+      "status": "verified"
+    },
+    {
+      "confidence": "high",
+      "content_hash": "5d65e9647d7f1279c1235a22a0ae6d12f89937a8c0004ed3132ccdcfe4ab2422",
+      "domains_extracted": 2,
+      "evidence_id": "EV-dingding-SEED",
+      "parser_version": "domain-extractor-v2",
+      "retrieved_at": "2026-09-20T10:49:06.230781+00:00",
+      "service_id": "dingding",
+      "source_method": "official_seed",
+      "source_url": "https://open.dingtalk.com/",
+      "status": "verified"
+    }
+  ],
+  "parser_version": "domain-extractor-v2",
+  "previous_domain_count": 0,
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v1",
+  "service_id": "dingding",
+  "snapshot_id": "snap-20260920T104906Z-dingding-5d65e9647d7f1279",
+  "source_count": 1
+}

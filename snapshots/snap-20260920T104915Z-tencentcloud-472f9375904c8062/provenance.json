@@ -1,0 +1,25 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:f8b2105bbea1f97e120c09a64ff0077681234b99ee8491537ff99567948861ec",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentcloud-SEED"
+      ],
+      "service_id": "tencentcloud",
+      "type": "domain",
+      "value": "cloud.tencent.com"
+    },
+    {
+      "asset_id": "sha256:ef20956be014d069228943dc7be622258733eea6606c7bc2013e45130c9abb1b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentcloud-SEED"
+      ],
+      "service_id": "tencentcloud",
+      "type": "domain",
+      "value": "tencentcloudapi.com"
+    }
+  ],
+  "service_id": "tencentcloud"
+}

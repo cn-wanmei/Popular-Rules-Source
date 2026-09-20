@@ -1,0 +1,70 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:aacf4adb49d80f623631d4be5f2b68fef7a429b8edeae24ce3f7e60b24477822",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cainiao-SEED"
+      ],
+      "service_id": "cainiao",
+      "type": "domain",
+      "value": "open.cainiao.com"
+    },
+    {
+      "asset_id": "sha256:a633ed97d6bc7835f0c1c21eadf37b83e1a52dc38e1b118a937bfc6a990bf1e2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cainiao-SEED"
+      ],
+      "service_id": "cainiao",
+      "type": "domain",
+      "value": "www.cainiao.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "created_at": "2026-09-20T10:48:27.846289+00:00",
+  "domain_count": 2,
+  "domains": [
+    "open.cainiao.com",
+    "www.cainiao.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "confidence": "high",
+      "content_hash": "dc91603da1fa54d7b22a861f01ad2878638913c3e0617854a5ab0a4d73df9c91",
+      "domains_extracted": 0,
+      "evidence_id": "EV-cainiao-001-dc91603da1fa",
+      "parser_version": "domain-extractor-v2",
+      "resolved_url": "https://open.cainiao.com/",
+      "retrieved_at": "2026-09-20T10:48:26.284772+00:00",
+      "service_id": "cainiao",
+      "source_method": "official_web",
+      "source_url": "https://open.cainiao.com/",
+      "status": "verified"
+    },
+    {
+      "confidence": "high",
+      "content_hash": "a40798dd5cb933ef4ced43cddcfb7d6c9681ef39efe72ffdd7e04052e24b9db9",
+      "domains_extracted": 2,
+      "evidence_id": "EV-cainiao-SEED",
+      "parser_version": "domain-extractor-v2",
+      "retrieved_at": "2026-09-20T10:48:27.799359+00:00",
+      "service_id": "cainiao",
+      "source_method": "official_seed",
+      "source_url": "https://open.cainiao.com/",
+      "status": "verified"
+    }
+  ],
+  "parser_version": "domain-extractor-v2",
+  "previous_domain_count": 0,
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v1",
+  "service_id": "cainiao",
+  "snapshot_id": "snap-20260920T104827Z-cainiao-a40798dd5cb933ef",
+  "source_count": 1
+}

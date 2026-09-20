@@ -29,27 +29,29 @@ services:
   cainiao:
     display_name: 菜鸟
     ecosystem: alibaba
-    status: review
+    status: partial
     official_sources:
     - https://open.cainiao.com/
     seed_domains:
     - open.cainiao.com
+    - www.cainiao.com
     allowed_host_suffixes:
     - cainiao.com
   dingding:
     display_name: 钉钉
     ecosystem: alibaba
-    status: review
+    status: partial
     official_sources:
     - https://open.dingtalk.com/
     seed_domains:
     - open.dingtalk.com
+    - oapi.dingtalk.com
     allowed_host_suffixes:
     - dingtalk.com
   qqmail:
     display_name: QQ邮箱
     ecosystem: tencent
-    status: review
+    status: partial
     official_sources:
     - https://mail.qq.com/
     seed_domains:
@@ -66,21 +68,23 @@ services:
   qqmusic:
     display_name: QQ音乐
     ecosystem: tencent
-    status: review
+    status: partial
     official_sources:
     - https://y.qq.com/
     seed_domains:
     - y.qq.com
+    - u.y.qq.com
     allowed_host_suffixes:
     - y.qq.com
   taobao:
     display_name: 淘宝
     ecosystem: alibaba
-    status: review
+    status: partial
     official_sources:
     - https://open.taobao.com/
     seed_domains:
     - open.taobao.com
+    - oauth.taobao.com
     allowed_host_suffixes:
     - taobao.com
   tencentcloud:
@@ -89,19 +93,20 @@ services:
     status: partial
     official_sources:
     - https://cloud.tencent.com/document/api
-    - https://cloud.tencent.com/api
     seed_domains:
     - cloud.tencent.com
+    - tencentcloudapi.com
     allowed_host_suffixes:
     - cloud.tencent.com
     - tencentcloudapi.com
   tmall:
     display_name: 天猫
     ecosystem: alibaba
-    status: review
+    status: partial
     official_sources:
     - https://www.tmall.com/
     seed_domains:
     - www.tmall.com
+    - login.tmall.com
     allowed_host_suffixes:
     - tmall.com

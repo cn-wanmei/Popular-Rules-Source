@@ -1,0 +1,26 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:0411fb754215a515477bd8ed9de67e7ba713ed7c1bbe8967601c84095a2994f3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-SEED"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "oauth.taobao.com"
+    },
+    {
+      "asset_id": "sha256:1ebd3af642ca29a464a0687cc5ed41dd8fddb6764d225d8128475940cedb083d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-001-3a1a9641da5f",
+        "EV-taobao-SEED"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "open.taobao.com"
+    }
+  ],
+  "service_id": "taobao"
+}

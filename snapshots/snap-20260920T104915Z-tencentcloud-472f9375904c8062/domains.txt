@@ -1,0 +1,2 @@
+cloud.tencent.com
+tencentcloudapi.com
