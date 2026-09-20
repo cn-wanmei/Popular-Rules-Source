@@ -6,9 +6,5 @@ dist/
 build/
 *.egg-info/
 raw/
-generated/
-snapshots/
-reports/
+reports/*
 !reports/.gitkeep
-!generated/.gitkeep
-!snapshots/.gitkeep
