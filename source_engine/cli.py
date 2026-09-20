@@ -7,14 +7,12 @@ from pathlib import Path
 from .build import build_all, build_service, load_services
 from .reconcile import audit_collection
 from .release import create_release
+from .validate import run_validation
 
 
 def audit() -> dict:
     services = load_services()["services"]
-    result = {
-        "schema": "service_gap_v1",
-        "services": {},
-    }
+    result = {"schema": "service_gap_v1", "services": {}}
     for service_id, cfg in sorted(services.items()):
         result["services"][service_id] = {
             "configured_status": cfg.get("status", "review"),
@@ -23,7 +21,6 @@ def audit() -> dict:
             "allowed_suffixes": len(cfg.get("allowed_host_suffixes", [])),
             "allowed_exact": len(cfg.get("allowed_host_exact", [])),
         }
-
     Path("reports").mkdir(exist_ok=True)
     Path("reports/service-gap.json").write_text(
         json.dumps(result, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
@@ -36,7 +33,9 @@ def main() -> None:
     parser = argparse.ArgumentParser(prog="source-engine")
     sub = parser.add_subparsers(dest="command", required=True)
 
+    sub.add_parser("validate")
     sub.add_parser("audit")
+
     reconcile = sub.add_parser("reconcile")
     reconcile.add_argument("--service", action="append")
 
@@ -49,6 +48,10 @@ def main() -> None:
 
     args = parser.parse_args()
 
+    if args.command == "validate":
+        run_validation()
+        return
+
     if args.command == "audit":
         print(json.dumps(audit(), ensure_ascii=False, indent=2))
         return
@@ -59,6 +62,7 @@ def main() -> None:
         return
 
     if args.command == "generate":
+        run_validation()
         if args.all:
             manifests = build_all()
         elif args.service:
@@ -72,9 +76,9 @@ def main() -> None:
         return
 
     if args.command == "release":
+        run_validation()
         print(json.dumps(
             create_release(args.service),
             ensure_ascii=False,
             indent=2,
         ))
-        return
