@@ -5,6 +5,10 @@ on:
     branches: [main]
   workflow_dispatch:
 
+concurrency:
+  group: phase2-Popular-Rules-Source--github-workflows-phase2-gate-yml-${{ github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: read
 
