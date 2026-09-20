@@ -1,0 +1,12 @@
+version: 1
+thresholds:
+  max_removal_ratio: 0.50
+  max_growth_ratio_without_review: 5.0
+  min_domain_length: 3
+  max_domain_length: 253
+policy:
+  reject_private_hosts: true
+  reject_ip_literals: true
+  reject_example_domains: true
+  require_evidence_for_generated: true
+  block_empty_replacement_on_fetch_failure: true
