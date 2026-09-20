@@ -4,7 +4,7 @@ from source_engine.policy import assess_count_change
 
 
 def test_normalize_domain():
-    assert normalize_domain("HTTPS://Example.COM/foo") == "example.com"
+    assert normalize_domain("HTTPS://open.taobao.com/foo") == "open.taobao.com"
     assert normalize_domain("8.8.8.8") is None
     assert normalize_domain("https://example.com") is None
 
