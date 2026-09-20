@@ -23,8 +23,8 @@ services:
     profile: alibaba/cainiao
     official_sources: ["https://gpn.cainiao.com/"]
   dingding:
-    state: verified
-    next_gate: canary
+    state: review
+    next_gate: verified
     profile: alibaba/dingding
     official_sources: ["https://open.dingtalk.com/document/development/query-the-article-list", "https://www.dingtalk.com/"]
   qqmail:
@@ -38,8 +38,8 @@ services:
     profile: tencent/qqmusic
     official_sources: ["https://y.qq.com/"]
   taobao:
-    state: verified
-    next_gate: canary
+    state: review
+    next_gate: verified
     profile: alibaba/taobao
     official_sources: ["https://developer.alibaba.com/", "https://open.taobao.com/"]
   tencentcloud:
@@ -48,7 +48,7 @@ services:
     profile: tencent/tencentcloud
     official_sources: ["https://cloud.tencent.com/document/api"]
   tmall:
-    state: verified
-    next_gate: canary
+    state: review
+    next_gate: verified
     profile: alibaba/tmall
     official_sources: ["https://www.tmall.com/"]
