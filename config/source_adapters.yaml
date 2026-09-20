@@ -1,38 +1,21 @@
-version: 1
+version: 2
 adapters:
   official_web:
     enabled: true
     method: html_domain_extraction
     timeout_seconds: 30
     max_bytes: 5000000
-    user_agent: "Popular-Rules-Source/0.1 (+https://github.com/cn-wanmei/Popular-Rules-Source)"
+    user_agent: "Popular-Rules-Source/1.x"
   official_json:
-    enabled: true
-    method: structured_json_walk
-    notes: "Used with fixtures and future live official JSON endpoints"
+    enabled: false
+    method: structured_json
+    notes: "Disabled until a live official endpoint and field-path contract exist. Test fixtures are never production inputs."
 services:
-  "1688":
-    adapters:
-      - official_web
-      - official_json
-  taobao:
-    adapters:
-      - official_web
-  tmall:
-    adapters:
-      - official_web
-  cainiao:
-    adapters:
-      - official_web
-  dingding:
-    adapters:
-      - official_web
-  qqmail:
-    adapters:
-      - official_web
-  qqmusic:
-    adapters:
-      - official_web
-  tencentcloud:
-    adapters:
-      - official_web
+  "1688": {adapters: [official_web]}
+  cainiao: {adapters: [official_web]}
+  dingding: {adapters: [official_web]}
+  qqmail: {adapters: [official_web]}
+  qqmusic: {adapters: [official_web]}
+  taobao: {adapters: [official_web]}
+  tencentcloud: {adapters: [official_web]}
+  tmall: {adapters: [official_web]}

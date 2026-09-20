@@ -1,27 +1,22 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/cn-wanmei/Popular-Rules-Source/schemas/snapshot.schema.json",
-  "title": "SourceSnapshot",
+  "title": "Popular Rules Source Snapshot v2",
   "type": "object",
-  "required": ["schema", "snapshot_id", "service_id", "created_at", "domains", "release_state"],
-  "additionalProperties": true,
+  "required": ["schema", "snapshot_id", "content_digest", "service_id", "created_at", "domain_count", "domains", "assets", "evidence", "release_state"],
   "properties": {
-    "schema": { "type": "string" },
-    "snapshot_id": { "type": "string" },
-    "service_id": { "type": "string" },
-    "created_at": { "type": "string" },
-    "parser_version": { "type": "string" },
-    "generator_version": { "type": "string" },
-    "domain_count": { "type": "integer", "minimum": 0 },
-    "domains": { "type": "array", "items": { "type": "string" } },
-    "assets": { "type": "array" },
-    "evidence": { "type": "array" },
-    "previous_domain_count": { "type": "integer" },
-    "change_assessment": { "type": "object" },
-    "errors": { "type": "array", "items": { "type": "string" } },
-    "release_state": {
-      "type": "string",
-      "enum": ["CANDIDATE", "REVIEW", "BLOCKED", "PUBLISHED"]
-    }
-  }
+    "schema": {"const": "source_snapshot_v2"},
+    "snapshot_id": {"type": "string"},
+    "content_digest": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "service_id": {"type": "string"},
+    "created_at": {"type": "string"},
+    "domain_count": {"type": "integer", "minimum": 0},
+    "domains": {"type": "array", "items": {"type": "string"}},
+    "assets": {"type": "array", "items": {"$ref": "asset.schema.json"}},
+    "evidence": {"type": "array", "items": {"type": "object"}},
+    "release_state": {"enum": ["BLOCKED", "REVIEW", "CANDIDATE", "PUBLISHED"]},
+    "seed_only_count": {"type": "integer", "minimum": 0},
+    "seed_only_domains": {"type": "array", "items": {"type": "string"}},
+    "errors": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
 }

@@ -1,92 +1,89 @@
 # Architecture — Popular-Rules-Source
 
-## Positioning
+## Role
 
-`Popular-Rules-Source` is the **supplemental Source / Evidence Supply Layer** for
-`Popular-Rules-Collection`.
+Popular-Rules-Source 是 Popular-Rules-Collection 的 Supplemental Source / Evidence Supply Layer。
 
-It does **not** implement:
+它负责 Source 侧的采集、证据、边界、材料化、Snapshot 与 Release Candidate；不负责 Collection Canonical、Semantic IR、V3 Runtime、客户端 Adapter 和最终发布树。
 
-- Canonical model
-- Semantic IR
-- Hierarchy / Decision
-- V3 Runtime
-- Client adapters (egern / loon / mihomo / quantumultx / shadowrocket / singbox / surge)
-- Atomic promotion into production generated/
+## Invariant
 
-It **does** implement:
-
-```text
-Discovery → Evidence → Ownership → Boundary → Materialization
-         → Immutable Snapshot → Release → Promotion Bridge input
-```
-
-## Core invariant
-
-```text
+~~~text
 Source ≠ Canonical ≠ Runtime ≠ Generated
-```
+~~~
 
-## Data layers
+## Pipeline
 
-| Layer | Responsibility |
-| ----- | -------------- |
-| Discovery | Candidate assets only |
-| Evidence | Positive + negative evidence, hashes, retrieval metadata |
-| Materialization | Verified service-owned domains/IPs after boundary checks |
-| Release Snapshot | Immutable, deterministic, checksummed package |
+~~~text
+Official Source
+      ↓
+Fetch / Raw Hash
+      ↓
+Extract
+      ↓
+Normalize
+      ↓
+Service Boundary
+      ↓
+Exclusion
+      ↓
+Evidence Binding
+      ↓
+Diff / Conflict
+      ↓
+Immutable Snapshot
+      ↓
+Release Candidate
+      ↓
+Collection Reconciliation
+~~~
 
-## Official Direct Domain Generation
+## Source authority
 
-First-class capability:
+Authority、source method、evidence strength、service ownership、classification 五个维度独立维护。
 
-```text
-Official source
-  → Source Adapter
-  → Raw Snapshot
-  → Parser / Domain Extractor
-  → Normalizer
-  → Ownership / Boundary / Exclusion
-  → Domain List + Evidence Binding
-  → Diff / Quality Gate
-  → Immutable Snapshot / Release
-```
+“官方网页出现过某 Host”不等于“该 Host 属于目标服务”。
 
-## Source priority
+## Materialization
 
-1. Official machine-readable domain list
-2. Official API / structured endpoint
-3. Official config / SDK / manifest
-4. Official documentation extraction
-5. Official runtime discovery
-6. External cross-verification
+只有 service classification 可以进入服务域名 Source。
 
-## Safety gates
+shared、external_dependency、provider、infrastructure、unknown、candidate 均不能直接进入 Production。
 
-- Fetch failure must not produce empty replacement of last-known-good
-- Empty-list / large-removal thresholds block or force review
-- Shared infrastructure and external dependencies excluded by policy
-- Snapshots are immutable; corrections create N+1
-- Tombstones prevent re-introduction of revoked assets
+## Authoring 与生成
 
-## Dual-repo flow
+authoring 是人工输入。  
+generated/source 是构建输出。  
+Seed-only 结果必须为 REVIEW。
 
-```text
+## Snapshot
+
+Snapshot ID 由内容摘要决定；运行时间只是元数据。
+
+已经存在的 Snapshot 不允许覆写。
+
+## Collection Integration
+
+~~~text
 Popular-Rules-Source
-        │ immutable release
-        ▼
-Promotion Bridge
-        │
-        ▼
-Popular-Rules-Collection (V3: collect → canonical → IR → 7 clients)
-```
+        ↓
+Immutable Source Release
+        ↓
+Popular-Rules-Collection
+        ↓
+V3 Collection / Canonical / IR
+        ↓
+7 Clients
+~~~
+
+当前 Collection 中 PRS Source Registry 入口保持 disabled，直到官方-evidence-only Source Release 通过 Reconciliation 和 Production Gate。
 
 ## Forbidden
 
-- Guess domains / IPs
-- ASN → product direct attribution
-- CDN auto-map to product
-- Single third-party rule promotion without evidence
-- Auto-delete on one HTTP failure
-- Mutate published snapshots
-- Re-implement V3 engine or client adapters
+- 猜域名 / IP
+- ASN → Product 直接归属
+- CDN → Product 直接归属
+- Fixture → Production
+- 一次 Fetch 失败自动删源
+- 修改已发布 Snapshot
+- 直接写 Collection Canonical

@@ -36,6 +36,7 @@ def create_release(
         "repository": repository,
         "service_id": service_id,
         "snapshot_id": manifest["snapshot_id"],
+        "content_digest": manifest["content_digest"],
         "version": version,
         "created_at": datetime.now(timezone.utc).isoformat(),
         "checksums": json.loads(

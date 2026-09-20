@@ -1,24 +1,31 @@
 # IP Policy
 
-IP and Domain tracks are separate.
+IP 与 Domain 为两条独立轨。
 
-## Attribution chain (required)
+## Attribution
 
-```text
-ASN → Provider Ownership → Network Scope → Product Attribution → Evidence
-```
+~~~text
+ASN
+ ↓
+Provider Ownership
+ ↓
+Network Scope
+ ↓
+Product Attribution
+ ↓
+Evidence
+~~~
 
-Forbidden: `ASN → Company → Product` direct mapping.
+禁止 ASN → Company → Product 直接归属。
 
-## Scope types
+## Scope
 
-- `service` — only when Service-owned, Verified, Stable, Attributable
-- `provider` / `infrastructure` / `country` / `carrier` — default for ranges
+service、provider、infrastructure、country、carrier、unknown。
 
-Examples:
+默认 Provider / Network Range 不属于 Product Service。
 
-- Tencent ASN ≠ Tencent Cloud product
-- Alibaba ASN ≠ 1688 product
-- Cloudflare range ≠ Cloudflare-hosted product service
+## Current
 
-Current phase focuses on **domain** materialization. IP/CIDR materialization is deferred until verified service-owned ranges exist with evidence.
+当前阶段只完成 Domain Source 自动生成。
+
+IP/CIDR 只有在存在可靠 Service-owned Evidence 后才进入 Materialization。

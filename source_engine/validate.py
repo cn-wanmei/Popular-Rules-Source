@@ -4,8 +4,8 @@ from pathlib import Path
 from urllib.parse import urlparse
 
 from .build import load_services
+from .normalize import host_allowed
 from .schema_validate import validate_all_snapshots
-from .normalize import normalize_domain, host_allowed
 
 
 class ValidationError(RuntimeError):
@@ -20,6 +20,7 @@ def validate_config() -> list[str]:
             c.islower() or c.isdigit() or c == "-" for c in service_id
         ):
             errors.append(f"{service_id}: invalid service_id")
+
         sources = cfg.get("official_sources", [])
         if not sources:
             errors.append(f"{service_id}: no official_sources")
@@ -27,29 +28,28 @@ def validate_config() -> list[str]:
             parsed = urlparse(str(url))
             if parsed.scheme not in {"http", "https"} or not parsed.netloc:
                 errors.append(f"{service_id}: invalid source URL {url}")
+
         exact = tuple(cfg.get("allowed_host_exact", []))
         suffixes = tuple(cfg.get("allowed_host_suffixes", []))
-        for value in cfg.get("seed_domains", []):
-            domain = normalize_domain(str(value))
-            if not domain:
-                errors.append(f"{service_id}: invalid seed domain {value}")
-            elif not host_allowed(domain, exact, suffixes):
-                errors.append(f"{service_id}: seed outside allow policy {domain}")
         if not exact and not suffixes:
             errors.append(f"{service_id}: no domain allow policy")
+
     return errors
 
 
 def validate_schemas_present() -> list[str]:
     required = [
         "schemas/service.schema.json",
+        "schemas/source.schema.json",
         "schemas/asset.schema.json",
         "schemas/evidence.schema.json",
         "schemas/snapshot.schema.json",
         "schemas/release.schema.json",
         "schemas/exclusion.schema.json",
+        "schemas/tombstone.schema.json",
+        "schemas/discovery_candidate.schema.json",
     ]
-    return [f"missing schema: {r}" for r in required if not Path(r).exists()]
+    return [f"missing schema: {path}" for path in required if not Path(path).exists()]
 
 
 def run_validation() -> None:

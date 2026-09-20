@@ -1,38 +1,33 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/cn-wanmei/Popular-Rules-Source/schemas/exclusion.schema.json",
-  "title": "Exclusion",
+  "title": "Popular Rules Source Exclusion",
   "type": "object",
-  "required": ["asset", "reason"],
-  "additionalProperties": true,
+  "required": ["version"],
   "properties": {
-    "asset": { "type": "string" },
-    "reason": {
+    "version": {"type": ["integer", "string"]},
+    "global": {
       "type": "object",
-      "required": ["type"],
       "properties": {
-        "type": {
-          "type": "string",
-          "enum": [
-            "shared_infrastructure",
-            "provider_cdn",
-            "external_dependency",
-            "ambiguous",
-            "service_boundary",
-            "generic_api_gateway",
-            "shared_login",
-            "shared_dns",
-            "shared_object_storage"
-          ]
+        "blocked_suffixes": {"type": "array", "items": {"type": "string"}},
+        "blocked_exact": {"type": "array", "items": {"type": "string"}}
+      },
+      "additionalProperties": true
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["asset", "include"],
+        "properties": {
+          "asset": {"type": "string"},
+          "include": {"type": "boolean"},
+          "reason": {"type": "string"},
+          "evidence": {"type": "array", "items": {"type": "string"}}
         },
-        "detail": { "type": "string" }
+        "additionalProperties": true
       }
     },
-    "include": { "type": "boolean", "const": false },
-    "evidence": {
-      "type": "array",
-      "items": { "type": "string" }
-    },
-    "ecosystem": { "type": "string" }
-  }
+    "services": {"type": "object"}
+  },
+  "additionalProperties": true
 }

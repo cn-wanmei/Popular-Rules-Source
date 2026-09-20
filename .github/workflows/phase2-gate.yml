@@ -1,0 +1,68 @@
+name: Phase 2 Source Gate
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+concurrency:
+  group: phase2-Popular-Rules-Source--github-workflows-phase2-gate-yml-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  phase2:
+    permissions:
+      contents: read
+    runs-on: ubuntu-latest
+    env:
+      COLLECTION_REF: phase2/production-completion-v2-20260920
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: "3.11"
+      - run: python -m pip install -r requirements.txt
+      - name: Validate workflow YAML syntax
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import yaml
+
+          files = sorted(Path(".github/workflows").glob("*.yml"))
+          files += sorted(Path(".github/workflows").glob("*.yaml"))
+          if not files:
+              raise SystemExit("No GitHub Actions workflow files found")
+
+          for path in files:
+              with path.open(encoding="utf-8") as fh:
+                  yaml.safe_load(fh)
+              print(f"YAML OK: {path}")
+          PY
+      - run: python -m source_engine validate
+      - run: python -m pytest -q
+      - run: python -m source_engine generate --all --allow-blocked
+      - run: python -m source_engine candidate-audit
+      - run: python -m source_engine schema-validate
+      - run: python -m source_engine conflict
+      - run: python -m source_engine audit
+      - name: Reconcile Collection registration before promotion
+        run: |
+          python -m source_engine reconcile
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          report = json.loads(Path("reports/reconciliation.json").read_text(encoding="utf-8"))
+          collection = report["collection"]
+          assert collection["prs_registered"] is True
+          assert collection["prs_enabled"] is False
+          failures = [
+              sid for sid, item in report["services"].items()
+              if item.get("collection_prs_registered") is not True
+              or item.get("collection_prs_enabled") is not False
+          ]
+          if failures:
+              raise SystemExit(f"Collection registration reconciliation failed: {failures}")
+          print("Collection registration reconciliation: PASS")
+          PY
+      - run: python -m source_engine qualify

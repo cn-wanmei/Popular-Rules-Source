@@ -1,32 +1,43 @@
 # Promotion Contract
 
-## Direction
+## Flow
 
-```text
-Popular-Rules-Source Release
-        →
-Promotion Bridge
-        →
-Popular-Rules-Collection Source Registry / Collection input
-```
+~~~text
+Popular-Rules-Source
+        ↓
+Immutable Source Release
+        ↓
+Popular-Rules-Collection Source Registry / Collect
+        ↓
+V3 Engine
+        ↓
+7 client outputs
+~~~
 
-This project never writes Canonical or client generated/ trees in Collection.
+PRS 不直接写 Collection Canonical、IR 或 generated client tree。
 
-## Gate checklist before promotion
+## Current
+
+Collection 已登记 PRS Source，但当前入口为 disabled。
+
+原因：PRS 当前首批服务仍存在 Authoring Seed 候选，尚未完成 official-evidence-only Production Gate。
+
+## Promotion Gate
+
+必须：
 
 - Schema PASS
-- Evidence PASS
+- Official Evidence PASS
 - Ownership PASS
 - Boundary PASS
 - Exclusion PASS
 - Duplicate PASS
-- Conflict PASS
-- Reconciliation PASS
+- Conflict = 0
 - Deterministic PASS
+- Reconciliation PASS
 
-Any FAIL → BLOCK.
+## Contract Version
 
-## Compatibility
+Source Release schema 破坏性变更需要 MAJOR 版本。
 
-Source Release schema version must remain readable by Collection adapter v1.x.
-Breaking field changes require MAJOR version bump and coordinated adapter update.
+Source Repo 与 Collection Adapter 必须协调升级。

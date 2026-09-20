@@ -1,12 +1,13 @@
-version: 1
-schema_version: 1
+version: 3
+schema_version: 3
 files:
   - schemas/service.schema.json
+  - schemas/source.schema.json
   - schemas/asset.schema.json
   - schemas/evidence.schema.json
   - schemas/exclusion.schema.json
   - schemas/snapshot.schema.json
   - schemas/release.schema.json
-  - schemas/source.schema.json
+  - schemas/tombstone.schema.json
 freeze: true
-notes: "Phase 1 contract freeze — breaking changes require MAJOR version bump"
+notes: "Breaking schema changes require a MAJOR source release."

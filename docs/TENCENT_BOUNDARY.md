@@ -1,16 +1,25 @@
 # Tencent Boundary Model
 
-## First-wave related services
+## Related Services
 
-- tencentcloud
-- qqmail
-- qqmusic
-- dingding (DingTalk; Alibaba-owned product, historically listed with enterprise messaging — treated under its own ecosystem key `alibaba` in config but audited against Tencent overlap for QQ-family only)
+Tencent Cloud / QQ Mail / QQ Music。
+
+DingTalk 使用 Alibaba ecosystem key，不属于 Tencent Service。
+
+## Boundary
+
+~~~text
+Tencent ecosystem
+├── Tencent Cloud
+├── QQ Mail
+└── QQ Music
+~~~
 
 ## Rules
 
-1. `Tencent ASN` ≠ `tencentcloud` product scope.
-2. Shared static CDN (`gtimg.com`) excluded from product lists.
-3. QQ Mail uses exact hosts (imap/smtp/pop/mail); do not expand to all `qq.com`.
-4. QQ Music limited to `y.qq.com` family unless official evidence for additional music endpoints.
-5. Tencent Cloud: audit Collection registry first; supplement rather than duplicate.
+- Tencent ASN ≠ Tencent Cloud
+- gtimg.com shared CDN 不直接归属产品
+- QQ Mail 只允许明确 Mail Endpoint
+- QQ Music 默认限制在官方可证明的 Music Endpoint
+- Tencent Cloud 先审计 Collection 已有 Registry，再补充
+- 不把其他 Tencent 产品的共享基础设施直接归给 Tencent Cloud

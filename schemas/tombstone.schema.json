@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Popular Rules Source Tombstone",
+  "type": "object",
+  "required": ["service_id", "items"],
+  "properties": {
+    "service_id": {"type": "string"},
+    "updated_at": {"type": "string"},
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["asset_id", "type", "value", "status"],
+        "properties": {
+          "asset_id": {"type": "string"},
+          "type": {"enum": ["domain", "ip", "cidr"]},
+          "value": {"type": "string"},
+          "status": {"const": "revoked"},
+          "reason": {"type": "object"},
+          "evidence": {"type": "array", "items": {"type": "string"}},
+          "revoked_at": {"type": "string"}
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -7,8 +7,7 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
-from .normalize import service_asset_id
-
+from .normalize import normalize_domain, service_asset_id
 
 TOMBSTONE_ROOT = Path("tombstones")
 
@@ -26,11 +25,11 @@ def load_tombstones(service_id: str) -> dict[str, Any]:
 
 def load_revoked_domains(service_id: str) -> set[str]:
     data = load_tombstones(service_id)
-    out: set[str] = set()
-    for item in data.get("items", []):
-        if item.get("status") == "revoked" and item.get("type") == "domain":
-            out.add(str(item.get("value", "")).lower())
-    return out
+    return {
+        str(item.get("value", "")).lower()
+        for item in data.get("items", [])
+        if item.get("status") == "revoked" and item.get("type") == "domain"
+    }
 
 
 def revoke_domain(
@@ -40,31 +39,33 @@ def revoke_domain(
     evidence: list[str] | None = None,
     notes: str = "",
 ) -> dict[str, Any]:
+    normalized = normalize_domain(domain)
+    if not normalized:
+        raise ValueError(f"invalid domain: {domain}")
     TOMBSTONE_ROOT.mkdir(parents=True, exist_ok=True)
     data = load_tombstones(service_id)
-    asset_id = service_asset_id(service_id, domain)
+    asset_id = service_asset_id(service_id, normalized)
     items = data.setdefault("items", [])
+    now = datetime.now(timezone.utc).isoformat()
     for item in items:
         if item.get("asset_id") == asset_id:
             item["status"] = "revoked"
-            item["revoked_at"] = datetime.now(timezone.utc).isoformat()
+            item.setdefault("revoked_at", now)
             item["reason"] = {"type": reason_type, "notes": notes}
             item["evidence"] = evidence or item.get("evidence") or []
             break
     else:
-        items.append(
-            {
-                "asset_id": asset_id,
-                "type": "domain",
-                "value": domain,
-                "status": "revoked",
-                "reason": {"type": reason_type, "notes": notes},
-                "evidence": evidence or [],
-                "revoked_at": datetime.now(timezone.utc).isoformat(),
-            }
-        )
+        items.append({
+            "asset_id": asset_id,
+            "type": "domain",
+            "value": normalized,
+            "status": "revoked",
+            "reason": {"type": reason_type, "notes": notes},
+            "evidence": evidence or [],
+            "revoked_at": now,
+        })
     data["service_id"] = service_id
-    data["updated_at"] = datetime.now(timezone.utc).isoformat()
+    data["updated_at"] = now
     _path(service_id).write_text(
         json.dumps(data, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",

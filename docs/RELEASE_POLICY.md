@@ -1,41 +1,48 @@
 # Release Policy
 
-## Snapshot immutability
+## Release states
 
-Once a snapshot directory exists with a manifest, it is never overwritten.
-Corrections produce snapshot N+1.
+CANDIDATE / REVIEW / BLOCKED / PUBLISHED。
 
-## Determinism
+当前主仓库不包含任何已验证的 PUBLISHED service release。
 
-Same raw content + parser version + config → identical domains, order, checksums.
-Timestamps are metadata only and must not affect content identity.
+## Hard Block
 
-## Hard gates (block release)
+- schema error
+- evidence linkage error
+- unresolved conflict
+- invalid domain
+- empty replacement
+- determinism failure
+- authoring-seed-only output被误标为 Production
+- exclusion / tombstone 绕过
 
-- schema_error > 0
-- invalid_evidence > 0
-- unresolved_conflict > 0
-- unexpected empty list (previous non-empty → current empty)
-- determinism_fail > 0
-- removal_ratio above threshold without review confirmation
+## Review
 
-## Soft conditions (degraded, not fail)
+- source fetch degraded
+- large removal
+- large growth
+- Last Known Good retained
+- seed-only domains remain
 
-- temporary HTTP 429 / 5xx / timeout
-- single upstream rate limit
-- temporary DNS failure
+## Snapshot
 
-Retain last-known-good; mark source health degraded.
+Snapshot ID 内容寻址。
 
-## Release package minimum
+~~~text
+snap-<service>-<content-digest>
+~~~
 
-- manifest.json
-- domains (or domains.txt)
-- provenance / evidence
-- exclusions / tombstones (when applicable)
-- checksums
-- reconciliation summary when available
+同一 Snapshot 重跑必须复用，不得覆写。
+
+## Release
+
+Release Package 对同一 Snapshot 幂等。
+
+generated/source 只是 Source Build Output，不等于 Published。
+
+正式 Published 必须同时经过 Source Gate 与 Collection Reconciliation。
 
 ## Rollback
 
-Restore promotion pointer to previous release. Do not rewrite history.
+只切换上游采用的 Release/Snapshot，不重写历史。

@@ -1,22 +1,52 @@
-name: Validate
+name: CI
 
 on:
   push:
-    branches: ["main", "feature/**"]
+    branches: ["main", "feature/**", "chore/**"]
   pull_request:
+
+concurrency:
+  group: phase2-Popular-Rules-Source--github-workflows-validate-yml-${{ github.ref }}
+  cancel-in-progress: true
 
 permissions:
   contents: read
 
 jobs:
-  test:
+  validate:
     runs-on: ubuntu-latest
+    env:
+      COLLECTION_REF: phase2/production-completion-v2-20260920
     steps:
-      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4
-      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v5
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: "3.11"
       - run: python -m pip install -r requirements.txt
       - run: python -m source_engine validate
       - run: python -m pytest -q
+      - run: python -m source_engine generate --all --allow-blocked
+      - name: Build service qualification report
+        run: python -m source_engine qualify > reports/phase2-qualification.stdout.json
+      - name: Publish qualification summary
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          report = json.loads(Path("reports/phase2-service-qualification.json").read_text(encoding="utf-8"))
+          summary = {
+              "verified_count": report["verified_count"],
+              "service_count": len(report["services"]),
+              "services": {
+                  sid: {
+                      "stage": item.get("stage"),
+                      "blockers": item.get("blockers", []),
+                  }
+                  for sid, item in sorted(report["services"].items())
+              },
+          }
+          print(json.dumps(summary, ensure_ascii=False, indent=2))
+          PY
+      - run: python -m source_engine schema-validate
+      - run: python -m source_engine conflict
       - run: python -m source_engine audit

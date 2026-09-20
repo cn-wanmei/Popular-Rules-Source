@@ -1,0 +1,102 @@
+version: 2
+phase: 2
+objective: official_evidence_only_production
+allow_seed_as_production: false
+require_collection_reconciliation: true
+require_determinism: true
+state_machine:
+  - review
+  - verified
+  - canary
+  - production
+  - blocked
+
+services:
+  "1688":
+    state: verified
+    next_gate: canary
+    profile: alibaba/1688
+    official_sources: ["https://aop.alibaba.com/", "https://www.1688.com/"]
+    coverage_state: evidence_backed_baseline
+    verification_run: 35519430221
+    verified_source_commit: adaf6f5f9bf392aedf30b6f491690c5c027428d5
+    snapshot_id: snap-1688-f26f96c5c0efb065ffbaab3a
+    content_digest: f26f96c5c0efb065ffbaab3adf7821755d5406746bafaf41ffac035a0da4989c
+    domain_count: 3
+  cainiao:
+    state: verified
+    next_gate: canary
+    profile: alibaba/cainiao
+    official_sources: ["https://gpn.cainiao.com/"]
+    coverage_state: evidence_backed_baseline
+    verification_run: 35519430221
+    verified_source_commit: adaf6f5f9bf392aedf30b6f491690c5c027428d5
+    snapshot_id: snap-cainiao-5f98d4fa8f88bb35bb2d46da
+    content_digest: 5f98d4fa8f88bb35bb2d46da0b970bb892a12078908b7da6f874af4bb31fcf39
+    domain_count: 1
+  dingding:
+    state: verified
+    next_gate: canary
+    profile: alibaba/dingding
+    official_sources: ["https://open.dingtalk.com/document/development/query-the-article-list", "https://www.dingtalk.com/"]
+    coverage_state: evidence_backed_baseline
+    verification_run: 35519430221
+    verified_source_commit: adaf6f5f9bf392aedf30b6f491690c5c027428d5
+    snapshot_id: snap-dingding-191e07e101d5a92abc9e9856
+    content_digest: 191e07e101d5a92abc9e985615804c94a7dfb1b08bd8efc7bfd7a68f341da469
+    domain_count: 6
+  qqmail:
+    state: verified
+    next_gate: canary
+    profile: tencent/qqmail
+    official_sources: ["https://mail.qq.com/", "https://cloud.tencent.com/document/product/1270/55456"]
+    coverage_state: evidence_backed_baseline
+    verification_run: 35519430221
+    verified_source_commit: adaf6f5f9bf392aedf30b6f491690c5c027428d5
+    snapshot_id: snap-qqmail-e147434833e15f76bbe4930c
+    content_digest: e147434833e15f76bbe4930c741ca63b84f3c64e1d9eb1108f8c9ba4bb0e9501
+    domain_count: 1
+  qqmusic:
+    state: verified
+    next_gate: canary
+    profile: tencent/qqmusic
+    official_sources: ["https://y.qq.com/"]
+    coverage_state: evidence_backed_baseline
+    verification_run: 35519430221
+    verified_source_commit: adaf6f5f9bf392aedf30b6f491690c5c027428d5
+    snapshot_id: snap-qqmusic-e903c9a62ef0a67f01a7d15d
+    content_digest: e903c9a62ef0a67f01a7d15df1e139cf7800032767302fc416faaa04a9abc289
+    domain_count: 1
+  taobao:
+    state: verified
+    next_gate: canary
+    profile: alibaba/taobao
+    official_sources: ["https://developer.alibaba.com/", "https://open.taobao.com/"]
+    coverage_state: evidence_backed_baseline
+    verification_run: 35519430221
+    verified_source_commit: adaf6f5f9bf392aedf30b6f491690c5c027428d5
+    snapshot_id: snap-taobao-8bf235109eb1fae87549fea8
+    content_digest: 8bf235109eb1fae87549fea81dfdb81bc327941d6128bcb2f4f60af00e5b4f92
+    domain_count: 14
+  tencentcloud:
+    state: verified
+    next_gate: canary
+    profile: tencent/tencentcloud
+    official_sources: ["https://cloud.tencent.com/document/api"]
+    coverage_state: evidence_backed_baseline
+    verification_run: 35519430221
+    verified_source_commit: adaf6f5f9bf392aedf30b6f491690c5c027428d5
+    snapshot_id: snap-tencentcloud-018c6d0a2429c98a45976487
+    content_digest: 018c6d0a2429c98a45976487d44de561338ac63ae290f0975b316409f0aa273c
+    domain_count: 1
+  tmall:
+    state: verified
+    next_gate: canary
+    profile: alibaba/tmall
+    official_sources: ["https://www.tmall.com/"]
+    coverage_state: evidence_backed_baseline
+    verification_run: 35519430221
+    verified_source_commit: adaf6f5f9bf392aedf30b6f491690c5c027428d5
+    snapshot_id: snap-tmall-789fb08ed581d62f644c2ded
+    content_digest: 789fb08ed581d62f644c2ded829856040bffd8591365307930e86e29e1796bf5
+    domain_count: 8
