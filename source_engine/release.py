@@ -1,26 +1,34 @@
 from __future__ import annotations
 
-import hashlib
 import json
 from datetime import datetime, timezone
 from pathlib import Path
 
-from .build import build_service, load_yaml, load_services
+from .build import build_service
 
 
-def create_release(service_id: str, repository: str = "cn-wanmei/Popular-Rules-Source") -> dict:
+def create_release(
+    service_id: str,
+    repository: str = "cn-wanmei/Popular-Rules-Source",
+) -> dict:
     manifest = build_service(service_id)
     if manifest["release_state"] != "CANDIDATE":
         raise RuntimeError(f"release blocked: {manifest['release_state']}")
 
     release_root = Path("releases") / service_id / manifest["snapshot_id"]
     release_root.mkdir(parents=True, exist_ok=True)
+    release_file = release_root / "release.json"
+
+    if release_file.exists():
+        return json.loads(release_file.read_text(encoding="utf-8"))
 
     snapshot_dir = Path("snapshots") / manifest["snapshot_id"]
-    for name in ("domains.txt", "provenance.json", "manifest.json", "checksums.json"):
+    required = ("domains.txt", "provenance.json", "manifest.json", "checksums.json")
+    for name in required:
         source = snapshot_dir / name
-        if source.exists():
-            (release_root / name).write_bytes(source.read_bytes())
+        if not source.exists():
+            raise RuntimeError(f"snapshot artifact missing: {source}")
+        (release_root / name).write_bytes(source.read_bytes())
 
     version = Path("VERSION").read_text(encoding="utf-8").strip()
     release = {
@@ -30,7 +38,9 @@ def create_release(service_id: str, repository: str = "cn-wanmei/Popular-Rules-S
         "snapshot_id": manifest["snapshot_id"],
         "version": version,
         "created_at": datetime.now(timezone.utc).isoformat(),
-        "checksums": json.loads((release_root / "checksums.json").read_text(encoding="utf-8")),
+        "checksums": json.loads(
+            (release_root / "checksums.json").read_text(encoding="utf-8")
+        ),
         "validation": {
             "release_state": manifest["release_state"],
             "change_assessment": manifest["change_assessment"],
@@ -40,7 +50,7 @@ def create_release(service_id: str, repository: str = "cn-wanmei/Popular-Rules-S
             "status": "PENDING_COLLECTION_AUDIT"
         },
     }
-    (release_root / "release.json").write_text(
+    release_file.write_text(
         json.dumps(release, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
     )
