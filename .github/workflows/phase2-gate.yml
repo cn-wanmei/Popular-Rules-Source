@@ -45,4 +45,24 @@ jobs:
       - run: python -m source_engine schema-validate
       - run: python -m source_engine conflict
       - run: python -m source_engine audit
+      - name: Reconcile Collection registration before promotion
+        run: |
+          python -m source_engine reconcile
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          report = json.loads(Path("reports/reconciliation.json").read_text(encoding="utf-8"))
+          collection = report["collection"]
+          assert collection["prs_registered"] is True
+          assert collection["prs_enabled"] is False
+          failures = [
+              sid for sid, item in report["services"].items()
+              if item.get("collection_prs_registered") is not True
+              or item.get("collection_prs_enabled") is not False
+          ]
+          if failures:
+              raise SystemExit(f"Collection registration reconciliation failed: {failures}")
+          print("Collection registration reconciliation: PASS")
+          PY
       - run: python -m source_engine qualify
