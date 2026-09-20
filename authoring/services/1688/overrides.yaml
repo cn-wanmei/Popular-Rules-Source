@@ -1,5 +1,1 @@
-items:
-  - asset: gw.open.1688.com
-    action: include
-    reason: official_open_api_gateway_pattern
-    evidence: []
+items: []
