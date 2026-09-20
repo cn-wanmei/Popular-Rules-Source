@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Popular Rules Source Service",
+  "type": "object",
+  "required": ["service_id", "ecosystem", "official_sources"],
+  "properties": {
+    "service_id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
+    "ecosystem": {"type": "string", "minLength": 1},
+    "status": {"enum": ["covered", "partial", "missing", "source_drift", "intentional", "conflict", "review"]},
+    "official_sources": {"type": "array", "items": {"type": "string", "format": "uri"}},
+    "seed_domains": {"type": "array", "items": {"type": "string"}},
+    "allowed_host_exact": {"type": "array", "items": {"type": "string"}},
+    "allowed_host_suffixes": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}
