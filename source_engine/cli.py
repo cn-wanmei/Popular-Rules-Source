@@ -6,6 +6,7 @@ from pathlib import Path
 
 from .build import build_all, build_service, load_services
 from .reconcile import audit_collection
+from .release import create_release
 
 
 def audit() -> dict:
@@ -38,9 +39,11 @@ def main() -> None:
     sub.add_parser("audit")
     reconcile = sub.add_parser("reconcile")
     reconcile.add_argument("--service", action="append")
+
     generate = sub.add_parser("generate")
     generate.add_argument("--service")
     generate.add_argument("--all", action="store_true")
+
     release = sub.add_parser("release")
     release.add_argument("--service", required=True)
 
@@ -63,16 +66,15 @@ def main() -> None:
         else:
             parser.error("generate requires --service or --all")
         print(json.dumps(manifests, ensure_ascii=False, indent=2))
-        if any(m["release_state"] == "BLOCKED" for m in manifests):
+        bad = [m for m in manifests if m["release_state"] != "CANDIDATE"]
+        if bad:
             raise SystemExit(2)
         return
 
     if args.command == "release":
-        manifest = build_service(args.service)
-        if manifest["release_state"] != "CANDIDATE":
-            raise SystemExit(f"release blocked/review: {manifest['release_state']}")
-        print(json.dumps({
-            "release_state": "CANDIDATE",
-            "snapshot_id": manifest["snapshot_id"],
-        }, ensure_ascii=False, indent=2))
+        print(json.dumps(
+            create_release(args.service),
+            ensure_ascii=False,
+            indent=2,
+        ))
         return
