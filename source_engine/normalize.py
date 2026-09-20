@@ -16,7 +16,7 @@ def normalize_domain(value: str) -> str | None:
         value = urlparse(value).hostname or ""
     value = value.strip().rstrip(".").lower()
     if value.startswith("*."):
-        value = value[2:]
+        return None
     try:
         ipaddress.ip_address(value)
         return None
