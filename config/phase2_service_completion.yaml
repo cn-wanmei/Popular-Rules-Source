@@ -19,6 +19,7 @@ services:
     official_sources: ["https://aop.alibaba.com/", "https://www.1688.com/"]
     coverage_state: evidence_backed_baseline
     verification_run: 35519069151
+    verified_source_commit: 77116637e9b82b47a5792ed74556ad8102ea45da
     snapshot_id: snap-1688-12bddfd782ff063d1bde9794
     content_digest: 12bddfd782ff063d1bde9794337447649eedb15603f5c323e73a3688bfbc7692
     domain_count: 3
@@ -29,6 +30,7 @@ services:
     official_sources: ["https://gpn.cainiao.com/"]
     coverage_state: evidence_backed_baseline
     verification_run: 35519069151
+    verified_source_commit: 77116637e9b82b47a5792ed74556ad8102ea45da
     snapshot_id: snap-cainiao-0dfccfe550fdef0e9a13eb8f
     content_digest: 0dfccfe550fdef0e9a13eb8f707e6148bec25566fe7b34c7db5cc7932b9ca36a
     domain_count: 1
@@ -39,6 +41,7 @@ services:
     official_sources: ["https://open.dingtalk.com/document/development/query-the-article-list", "https://www.dingtalk.com/"]
     coverage_state: evidence_backed_baseline
     verification_run: 35519069151
+    verified_source_commit: 77116637e9b82b47a5792ed74556ad8102ea45da
     snapshot_id: snap-dingding-f3c351df4f78f9a87d138d49
     content_digest: f3c351df4f78f9a87d138d49b23ec87f2c25ca65a973a40fd4289e58c7e4e267
     domain_count: 6
@@ -49,6 +52,7 @@ services:
     official_sources: ["https://mail.qq.com/", "https://cloud.tencent.com/document/product/1270/55456"]
     coverage_state: evidence_backed_baseline
     verification_run: 35519069151
+    verified_source_commit: 77116637e9b82b47a5792ed74556ad8102ea45da
     snapshot_id: snap-qqmail-a0702d11866685a663ce4f99
     content_digest: a0702d11866685a663ce4f994e9379ccdf459ee232a8947061ed0066d7bd0f87
     domain_count: 1
@@ -59,6 +63,7 @@ services:
     official_sources: ["https://y.qq.com/"]
     coverage_state: evidence_backed_baseline
     verification_run: 35519069151
+    verified_source_commit: 77116637e9b82b47a5792ed74556ad8102ea45da
     snapshot_id: snap-qqmusic-e903c9a62ef0a67f01a7d15d
     content_digest: e903c9a62ef0a67f01a7d15df1e139cf7800032767302fc416faaa04a9abc289
     domain_count: 1
@@ -69,6 +74,7 @@ services:
     official_sources: ["https://developer.alibaba.com/", "https://open.taobao.com/"]
     coverage_state: evidence_backed_baseline
     verification_run: 35519069151
+    verified_source_commit: 77116637e9b82b47a5792ed74556ad8102ea45da
     snapshot_id: snap-taobao-9a977dc6b1ab09563621d5f8
     content_digest: 9a977dc6b1ab09563621d5f8ddd61aa39a2a60aa19e1f41f33ba0eda06186da0
     domain_count: 14
@@ -79,6 +85,7 @@ services:
     official_sources: ["https://cloud.tencent.com/document/api"]
     coverage_state: evidence_backed_baseline
     verification_run: 35519069151
+    verified_source_commit: 77116637e9b82b47a5792ed74556ad8102ea45da
     snapshot_id: snap-tencentcloud-4548ee05bf8e1ceb60253551
     content_digest: 4548ee05bf8e1ceb602535516ae7ba56fb19b55391e2560d6b13a6e092ab405c
     domain_count: 1
@@ -89,6 +96,7 @@ services:
     official_sources: ["https://www.tmall.com/"]
     coverage_state: evidence_backed_baseline
     verification_run: 35519069151
+    verified_source_commit: 77116637e9b82b47a5792ed74556ad8102ea45da
     snapshot_id: snap-tmall-8b9440f7ab1276cb895eefbc
     content_digest: 8b9440f7ab1276cb895eefbc4f16e3f6ff2e62f108910899fe705b8d820e49df
     domain_count: 8
