@@ -186,6 +186,12 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
 
     snapshot_dir = Path("snapshots") / snapshot_id
     snapshot_dir.mkdir(parents=True, exist_ok=True)
+
+    # Snapshot identity is content-addressed. Once created, it is never overwritten.
+    existing_manifest = snapshot_dir / "manifest.json"
+    if existing_manifest.exists():
+        return json.loads(existing_manifest.read_text(encoding="utf-8"))
+
     (snapshot_dir / "domains.txt").write_text(domains_text, encoding="utf-8")
     (snapshot_dir / "provenance.json").write_text(
         json.dumps({"service_id": service_id, "assets": assets}, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
