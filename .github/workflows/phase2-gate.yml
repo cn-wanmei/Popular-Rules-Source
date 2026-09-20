@@ -19,7 +19,9 @@ jobs:
       - run: python -m pip install -r requirements.txt
       - run: python -m source_engine validate
       - run: python -m pytest -q
+      - run: python -m source_engine generate --all
       - run: python -m source_engine candidate-audit
       - run: python -m source_engine schema-validate
       - run: python -m source_engine conflict
       - run: python -m source_engine audit
+      - run: python -m source_engine qualify
