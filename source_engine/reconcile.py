@@ -45,6 +45,7 @@ def audit_collection(service_ids: list[str]) -> dict:
     result = {
         "schema": "collection_reconciliation_v2",
         "collection": {
+            "reference": COLLECTION_REF,
             "prs_registered": prs_entry is not None,
             "prs_enabled": prs_enabled,
             "prs_services": sorted(prs_rules),
