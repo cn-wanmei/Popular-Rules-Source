@@ -13,8 +13,8 @@ state_machine:
 
 services:
   "1688":
-    state: verified
-    next_gate: canary
+    state: production
+    next_gate: production
     profile: alibaba/1688
     official_sources: ["https://aop.alibaba.com/", "https://www.1688.com/"]
     coverage_state: evidence_backed_baseline
