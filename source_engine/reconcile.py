@@ -1,12 +1,14 @@
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 
 import requests
 import yaml
 
-COLLECTION_RAW_BASE = "https://raw.githubusercontent.com/cn-wanmei/Popular-Rules-Collection/main"
+COLLECTION_RAW_ROOT = "https://raw.githubusercontent.com/cn-wanmei/Popular-Rules-Collection"
+COLLECTION_REF = os.getenv("COLLECTION_REF", "main")
 
 
 def _get_yaml(url: str, timeout: int = 20) -> dict:
@@ -21,9 +23,9 @@ def _get_yaml(url: str, timeout: int = 20) -> dict:
 
 
 def audit_collection(service_ids: list[str]) -> dict:
-    registry = _get_yaml(f"{COLLECTION_RAW_BASE}/sources/registry.yaml")
+    registry = _get_yaml(f"{COLLECTION_RAW_ROOT}/{COLLECTION_REF}/sources/registry.yaml")
     intentional = _get_yaml(
-        f"{COLLECTION_RAW_BASE}/config/intentional_unmaterialized.yaml"
+        f"{COLLECTION_RAW_ROOT}/{COLLECTION_REF}/config/intentional_unmaterialized.yaml"
     )
 
     prs_entry = next(
