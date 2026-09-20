@@ -1,0 +1,5 @@
+version: 1
+global:
+  blocked_suffixes: []
+  blocked_exact: []
+services: {}
