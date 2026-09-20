@@ -7,8 +7,8 @@ services:
     official_sources:
       - "https://aop.alibaba.com/"
       - "https://www.1688.com/"
-    allowed_host_suffixes: ["1688.com"]
-    allowed_host_exact: []
+    allowed_host_suffixes: []
+    allowed_host_exact: [1688.com, open.1688.com, www.1688.com]
     coverage: {domain: review, ip: unknown, cidr: none}
     source_policy: {official_required: true, min_confidence: high}
     boundary: {shared_infrastructure_allowed: false}
@@ -18,10 +18,9 @@ services:
     ecosystem: alibaba
     status: review
     official_sources:
-      - "https://openapi.express.cainiao.com/docs/index.html"
       - "https://gpn.cainiao.com/"
-    allowed_host_suffixes: ["cainiao.com"]
-    allowed_host_exact: []
+    allowed_host_suffixes: []
+    allowed_host_exact: [gpn.cainiao.com, link.cainiao.com, global.cainiao.com]
     coverage: {domain: review}
     source_policy: {official_required: true, min_confidence: high}
     boundary: {shared_infrastructure_allowed: false}
