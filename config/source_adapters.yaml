@@ -1,0 +1,8 @@
+version: 1
+adapters:
+  official_web:
+    enabled: true
+    method: html_domain_extraction
+    timeout_seconds: 30
+    max_bytes: 5000000
+    user_agent: "Popular-Rules-Source/0.1 (+https://github.com/cn-wanmei/Popular-Rules-Source)"
