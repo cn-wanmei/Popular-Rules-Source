@@ -5,7 +5,7 @@ services:
     ecosystem: alibaba
     status: review
     official_sources:
-      - "https://open.1688.com/"
+      - "https://aop.alibaba.com/"
       - "https://www.1688.com/"
     allowed_host_suffixes: ["1688.com"]
     allowed_host_exact: []
@@ -18,7 +18,8 @@ services:
     ecosystem: alibaba
     status: review
     official_sources:
-      - "https://open.cainiao.com/"
+      - "https://openapi.express.cainiao.com/docs/index.html"
+      - "https://gpn.cainiao.com/"
     allowed_host_suffixes: ["cainiao.com"]
     allowed_host_exact: []
     coverage: {domain: review}
@@ -30,7 +31,8 @@ services:
     ecosystem: alibaba
     status: review
     official_sources:
-      - "https://open.dingtalk.com/"
+      - "https://open.dingtalk.com/document/development/query-the-article-list"
+      - "https://www.dingtalk.com/"
     allowed_host_suffixes: ["dingtalk.com"]
     allowed_host_exact: []
     coverage: {domain: review}
@@ -43,6 +45,7 @@ services:
     status: review
     official_sources:
       - "https://mail.qq.com/"
+      - "https://cloud.tencent.com/document/product/1270/55456"
     allowed_host_exact: [imap.qq.com, mail.qq.com, pop.qq.com, smtp.qq.com]
     allowed_host_suffixes: []
     coverage: {domain: review, ip: none, cidr: none}
@@ -66,6 +69,7 @@ services:
     ecosystem: alibaba
     status: review
     official_sources:
+      - "https://developer.alibaba.com/docs/doc.htm?articleId=108&docType=1&treeId=1"
       - "https://open.taobao.com/"
     allowed_host_suffixes: ["taobao.com"]
     allowed_host_exact: []
