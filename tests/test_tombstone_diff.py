@@ -24,8 +24,11 @@ def test_overrides():
     out = apply_overrides(
         domains,
         [
-            {"asset": "c.com", "action": "include"},
-            {"asset": "a.com", "action": "exclude"},
+            {"asset": "c.com", "action": "include", "reason": "test"},
+            {"asset": "a.com", "action": "exclude", "reason": "test"},
         ],
+        exact=("c.com",),
+        suffixes=(),
+        blocked_suffixes=(),
     )
     assert out == {"b.com", "c.com"}
