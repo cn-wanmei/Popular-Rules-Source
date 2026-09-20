@@ -1,6 +1,8 @@
 name: Phase 2 Source Gate
 
 on:
+  push:
+    branches: [main]
   pull_request:
     branches: [main]
   workflow_dispatch:
