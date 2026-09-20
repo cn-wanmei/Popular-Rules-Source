@@ -93,6 +93,7 @@ def main() -> None:
     generate = sub.add_parser("generate")
     generate.add_argument("--service")
     generate.add_argument("--all", action="store_true")
+    generate.add_argument("--allow-blocked", action="store_true")
 
     release = sub.add_parser("release")
     release.add_argument("--service", required=True)
@@ -141,7 +142,7 @@ def main() -> None:
         else:
             parser.error("generate requires --service or --all")
         print(json.dumps(manifests, ensure_ascii=False, indent=2))
-        if any(m["release_state"] == "BLOCKED" for m in manifests):
+        if any(m["release_state"] == "BLOCKED" for m in manifests) and not args.allow_blocked:
             raise SystemExit(2)
     elif args.command == "release":
         run_validation()
