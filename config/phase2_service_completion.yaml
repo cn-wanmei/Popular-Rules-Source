@@ -1,16 +1,54 @@
-version: 1
+version: 2
 phase: 2
 objective: official_evidence_only_production
 allow_seed_as_production: false
 require_collection_reconciliation: true
 require_determinism: true
+state_machine:
+  - review
+  - verified
+  - canary
+  - production
+  - blocked
 
 services:
-  "1688": {status: review, mode: official_web, boundary: alibaba/1688}
-  cainiao: {status: review, mode: official_web, boundary: alibaba/cainiao}
-  dingding: {status: review, mode: official_web, boundary: alibaba/dingding}
-  qqmail: {status: review, mode: official_web, boundary: tencent/qqmail}
-  qqmusic: {status: review, mode: official_web, boundary: tencent/qqmusic}
-  taobao: {status: review, mode: official_web, boundary: alibaba/taobao}
-  tencentcloud: {status: partial, mode: official_web, boundary: tencent/tencentcloud}
-  tmall: {status: review, mode: official_web, boundary: alibaba/tmall}
+  "1688":
+    state: review
+    next_gate: verified
+    profile: alibaba/1688
+    official_sources: ["https://aop.alibaba.com/", "https://www.1688.com/"]
+  cainiao:
+    state: review
+    next_gate: verified
+    profile: alibaba/cainiao
+    official_sources: ["https://gpn.cainiao.com/"]
+  dingding:
+    state: verified
+    next_gate: canary
+    profile: alibaba/dingding
+    official_sources: ["https://open.dingtalk.com/document/development/query-the-article-list", "https://www.dingtalk.com/"]
+  qqmail:
+    state: review
+    next_gate: verified
+    profile: tencent/qqmail
+    official_sources: ["https://mail.qq.com/", "https://cloud.tencent.com/document/product/1270/55456"]
+  qqmusic:
+    state: review
+    next_gate: verified
+    profile: tencent/qqmusic
+    official_sources: ["https://y.qq.com/"]
+  taobao:
+    state: verified
+    next_gate: canary
+    profile: alibaba/taobao
+    official_sources: ["https://developer.alibaba.com/", "https://open.taobao.com/"]
+  tencentcloud:
+    state: review
+    next_gate: verified
+    profile: tencent/tencentcloud
+    official_sources: ["https://cloud.tencent.com/document/api"]
+  tmall:
+    state: verified
+    next_gate: canary
+    profile: alibaba/tmall
+    official_sources: ["https://www.tmall.com/"]
