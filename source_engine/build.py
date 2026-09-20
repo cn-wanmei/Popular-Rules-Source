@@ -98,6 +98,14 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
             exact,
             suffixes,
         )
+        # When an official source is itself hosted on an explicitly allowed
+        # service host, the source URL hostname is first-party evidence too.
+        # This covers dynamic/JS-heavy official pages without widening scope:
+        # it is admitted only when the existing service allow policy accepts it.
+        source_host = normalize_domain(urlparse(result.url).hostname or "")
+        if source_host and host_allowed(source_host, exact, suffixes):
+            extracted = sorted(set(extracted) | {source_host})
+
         evidence_id = f"EV-{service_id}-{idx:03d}-{result.sha256[:12]}"
         evidence_items.append({
             "evidence_id": evidence_id,
