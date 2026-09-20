@@ -1,0 +1,3 @@
+# Official sources for tmall are declared in config/services.yaml.
+# Per-service adapter overrides may be listed here later.
+adapters: []

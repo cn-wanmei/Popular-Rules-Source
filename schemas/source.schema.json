@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/cn-wanmei/Popular-Rules-Source/schemas/source.schema.json",
+  "title": "SourceAdapterDeclaration",
+  "type": "object",
+  "required": ["type", "authority"],
+  "additionalProperties": true,
+  "properties": {
+    "type": {
+      "type": "string",
+      "enum": [
+        "official_api",
+        "official_json",
+        "official_yaml",
+        "official_docs",
+        "official_sdk",
+        "official_manifest",
+        "official_web",
+        "runtime_discovery"
+      ]
+    },
+    "authority": { "type": "string", "enum": ["official", "external"] },
+    "url": { "type": "string" },
+    "method": { "type": "string" },
+    "schema_path": { "type": "string" },
+    "enabled": { "type": "boolean" }
+  }
+}

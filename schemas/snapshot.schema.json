@@ -1,19 +1,27 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Popular Rules Source Snapshot",
+  "$id": "https://github.com/cn-wanmei/Popular-Rules-Source/schemas/snapshot.schema.json",
+  "title": "SourceSnapshot",
   "type": "object",
-  "required": ["schema", "snapshot_id", "service_id", "created_at", "domain_count", "domains", "assets", "evidence", "release_state"],
+  "required": ["schema", "snapshot_id", "service_id", "created_at", "domains", "release_state"],
+  "additionalProperties": true,
   "properties": {
-    "schema": {"const": "source_snapshot_v1"},
-    "snapshot_id": {"type": "string"},
-    "service_id": {"type": "string"},
-    "created_at": {"type": "string"},
-    "domain_count": {"type": "integer", "minimum": 0},
-    "domains": {"type": "array", "items": {"type": "string"}},
-    "assets": {"type": "array", "items": {"$ref": "asset.schema.json"}},
-    "evidence": {"type": "array", "items": {"type": "object"}},
-    "release_state": {"enum": ["BLOCKED", "REVIEW", "CANDIDATE", "PUBLISHED"]},
-    "errors": {"type": "array", "items": {"type": "string"}}
-  },
-  "additionalProperties": true
+    "schema": { "type": "string" },
+    "snapshot_id": { "type": "string" },
+    "service_id": { "type": "string" },
+    "created_at": { "type": "string" },
+    "parser_version": { "type": "string" },
+    "generator_version": { "type": "string" },
+    "domain_count": { "type": "integer", "minimum": 0 },
+    "domains": { "type": "array", "items": { "type": "string" } },
+    "assets": { "type": "array" },
+    "evidence": { "type": "array" },
+    "previous_domain_count": { "type": "integer" },
+    "change_assessment": { "type": "object" },
+    "errors": { "type": "array", "items": { "type": "string" } },
+    "release_state": {
+      "type": "string",
+      "enum": ["CANDIDATE", "REVIEW", "BLOCKED", "PUBLISHED"]
+    }
+  }
 }

@@ -1,0 +1,6 @@
+version: 1
+# Cross-service boundary notes (Alibaba / Tencent product separation).
+notes:
+  - "Alibaba ASN ≠ 1688 / taobao / tmall / cainiao product scope"
+  - "Tencent ASN ≠ tencentcloud / qqmail / qqmusic product scope"
+  - "Shared login / gateway hosts require explicit service evidence"

@@ -1,5 +1,14 @@
 version: 1
+# Runtime exclusion index. Prefer exclusions/shared.yaml and authoring/exclusions/.
 global:
-  blocked_suffixes: []
+  blocked_suffixes:
+    - cloudflare.com
+    - amazonaws.com
+    - googleapis.com
+    - google-analytics.com
+    - alicdn.com
+    - tbcdn.cn
+    - gtimg.com
+    - myqcloud.com
   blocked_exact: []
 services: {}

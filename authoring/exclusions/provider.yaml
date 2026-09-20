@@ -1,0 +1,14 @@
+version: 1
+items:
+  - asset: "cloudflare.com"
+    reason: { type: provider_cdn, detail: "Generic CDN provider" }
+    include: false
+  - asset: "amazonaws.com"
+    reason: { type: provider_cdn, detail: "AWS infrastructure" }
+    include: false
+  - asset: "googleapis.com"
+    reason: { type: external_dependency, detail: "Google APIs" }
+    include: false
+  - asset: "google-analytics.com"
+    reason: { type: external_dependency, detail: "Analytics" }
+    include: false

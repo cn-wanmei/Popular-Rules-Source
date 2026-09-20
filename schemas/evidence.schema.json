@@ -1,20 +1,24 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Popular Rules Source Evidence",
+  "$id": "https://github.com/cn-wanmei/Popular-Rules-Source/schemas/evidence.schema.json",
+  "title": "Evidence",
   "type": "object",
-  "required": ["evidence_id", "service_id", "source_url", "source_method", "retrieved_at", "content_hash", "parser_version", "status"],
+  "required": ["evidence_id", "service_id", "source_url", "source_method", "retrieved_at", "content_hash"],
+  "additionalProperties": true,
   "properties": {
-    "evidence_id": {"type": "string"},
-    "service_id": {"type": "string"},
-    "source_url": {"type": "string", "format": "uri"},
-    "resolved_url": {"type": "string", "format": "uri"},
-    "source_method": {"type": "string"},
-    "retrieved_at": {"type": "string"},
-    "content_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
-    "parser_version": {"type": "string"},
-    "confidence": {"enum": ["high", "medium", "low", "unknown"]},
-    "status": {"enum": ["verified", "candidate", "rejected", "stale", "revoked"]},
-    "domains_extracted": {"type": "integer", "minimum": 0}
-  },
-  "additionalProperties": false
+    "evidence_id": { "type": "string" },
+    "service_id": { "type": "string" },
+    "source_url": { "type": "string" },
+    "source_method": { "type": "string" },
+    "source_type": { "type": "string" },
+    "authority": { "type": "string" },
+    "retrieved_at": { "type": "string" },
+    "content_hash": { "type": "string" },
+    "parser_version": { "type": "string" },
+    "confidence": { "type": "string", "enum": ["high", "medium", "low"] },
+    "strength": { "type": "string", "enum": ["S0", "S1", "S2", "S3"] },
+    "status": { "type": "string", "enum": ["verified", "candidate", "rejected", "stale"] },
+    "polarity": { "type": "string", "enum": ["positive", "negative"] },
+    "notes": { "type": "string" }
+  }
 }

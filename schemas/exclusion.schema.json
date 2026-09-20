@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/cn-wanmei/Popular-Rules-Source/schemas/exclusion.schema.json",
+  "title": "Exclusion",
+  "type": "object",
+  "required": ["asset", "reason"],
+  "additionalProperties": true,
+  "properties": {
+    "asset": { "type": "string" },
+    "reason": {
+      "type": "object",
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": [
+            "shared_infrastructure",
+            "provider_cdn",
+            "external_dependency",
+            "ambiguous",
+            "service_boundary",
+            "generic_api_gateway",
+            "shared_login",
+            "shared_dns",
+            "shared_object_storage"
+          ]
+        },
+        "detail": { "type": "string" }
+      }
+    },
+    "include": { "type": "boolean", "const": false },
+    "evidence": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "ecosystem": { "type": "string" }
+  }
+}

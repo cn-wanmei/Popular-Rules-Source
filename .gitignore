@@ -8,3 +8,7 @@ build/
 raw/
 reports/*
 !reports/.gitkeep
+releases/
+*.egg-info/
+.coverage
+htmlcov/

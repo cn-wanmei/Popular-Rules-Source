@@ -26,6 +26,9 @@ class Evidence:
     content_hash: str
     parser_version: str
     confidence: str = "high"
+    strength: str = "S1"
+    polarity: str = "positive"
+    status: str = "verified"
     notes: str = ""
 
 
@@ -48,3 +51,4 @@ class Snapshot:
     domains: list[str] = field(default_factory=list)
     evidence: list[dict[str, Any]] = field(default_factory=list)
     source_hashes: dict[str, str] = field(default_factory=dict)
+    release_state: str = "CANDIDATE"

@@ -1,0 +1,1 @@
+"""Reserved adapter package."""

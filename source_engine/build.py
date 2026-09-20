@@ -10,7 +10,7 @@ import yaml
 from .extract import extract_domains
 from .fetch import FetchError, fetch
 from .normalize import normalize_domain, service_asset_id
-from .policy import assess_count_change
+from .policy import assess_count_change, load_exclusion_suffixes, is_excluded
 
 PARSER_VERSION = "domain-extractor-v2"
 
@@ -125,6 +125,8 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
             domains.add(domain)
             domain_evidence.setdefault(domain, set()).add(seed_evidence_id)
 
+    blocked_suffixes = load_exclusion_suffixes()
+    domains = {d for d in domains if not is_excluded(d, blocked_suffixes)}
     sorted_domains = sorted(domains)
     previous = latest_domains(service_id)
     assessment = assess_count_change(

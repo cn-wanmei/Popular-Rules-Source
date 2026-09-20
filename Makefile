@@ -6,6 +6,9 @@ install:
 test:
 	$(PYTHON) -m pytest -q
 
+validate:
+	$(PYTHON) -m source_engine validate
+
 audit:
 	$(PYTHON) -m source_engine audit
 
@@ -14,3 +17,8 @@ reconcile:
 
 generate:
 	$(PYTHON) -m source_engine generate --all
+
+determinism:
+	$(PYTHON) -m source_engine test-determinism
+
+.PHONY: install test validate audit reconcile generate determinism

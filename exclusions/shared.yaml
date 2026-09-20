@@ -1,0 +1,30 @@
+version: 1
+items:
+  - asset: "alicdn.com"
+    reason: { type: shared_infrastructure }
+    include: false
+    ecosystem: alibaba
+  - asset: "tbcdn.cn"
+    reason: { type: shared_infrastructure }
+    include: false
+    ecosystem: alibaba
+  - asset: "gtimg.com"
+    reason: { type: shared_infrastructure }
+    include: false
+    ecosystem: tencent
+  - asset: "myqcloud.com"
+    reason: { type: provider_cdn }
+    include: false
+    ecosystem: tencent
+  - asset: "cloudflare.com"
+    reason: { type: provider_cdn }
+    include: false
+  - asset: "amazonaws.com"
+    reason: { type: provider_cdn }
+    include: false
+  - asset: "googleapis.com"
+    reason: { type: external_dependency }
+    include: false
+  - asset: "google-analytics.com"
+    reason: { type: external_dependency }
+    include: false

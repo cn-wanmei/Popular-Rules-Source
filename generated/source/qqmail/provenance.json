@@ -1,0 +1,45 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:b907dc79a963e27386289c6fdd3ed2578cd9a64011a5dda3162d2519f91f89dd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qqmail-SEED"
+      ],
+      "service_id": "qqmail",
+      "type": "domain",
+      "value": "imap.qq.com"
+    },
+    {
+      "asset_id": "sha256:616ba525328b5625af8d7f0b23f2440da36c6eff80351f3b52443f47de7257de",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qqmail-SEED"
+      ],
+      "service_id": "qqmail",
+      "type": "domain",
+      "value": "mail.qq.com"
+    },
+    {
+      "asset_id": "sha256:40e1a91656e6e9f44e5a3c391276e6bf40f4735f33871736dd0342ff9b3d4b69",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qqmail-SEED"
+      ],
+      "service_id": "qqmail",
+      "type": "domain",
+      "value": "pop.qq.com"
+    },
+    {
+      "asset_id": "sha256:4902f8909e3d523afbd40d1775c3277140a14586f1e13c5e0c3ce479d20b9c28",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qqmail-SEED"
+      ],
+      "service_id": "qqmail",
+      "type": "domain",
+      "value": "smtp.qq.com"
+    }
+  ],
+  "service_id": "qqmail"
+}

@@ -1,16 +1,63 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Popular Rules Source Service",
+  "$id": "https://github.com/cn-wanmei/Popular-Rules-Source/schemas/service.schema.json",
+  "title": "ServiceManifest",
   "type": "object",
-  "required": ["service_id", "ecosystem", "official_sources"],
+  "required": ["service_id", "display_name", "status", "ecosystem"],
+  "additionalProperties": true,
   "properties": {
-    "service_id": {"type": "string", "pattern": "^[a-z0-9-]+$"},
-    "ecosystem": {"type": "string", "minLength": 1},
-    "status": {"enum": ["covered", "partial", "missing", "source_drift", "intentional", "conflict", "review"]},
-    "official_sources": {"type": "array", "items": {"type": "string", "format": "uri"}},
-    "seed_domains": {"type": "array", "items": {"type": "string"}},
-    "allowed_host_exact": {"type": "array", "items": {"type": "string"}},
-    "allowed_host_suffixes": {"type": "array", "items": {"type": "string"}}
-  },
-  "additionalProperties": true
+    "service_id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$"
+    },
+    "display_name": {
+      "type": "object",
+      "properties": {
+        "zh": { "type": "string" },
+        "en": { "type": "string" }
+      }
+    },
+    "status": {
+      "type": "string",
+      "enum": ["covered", "partial", "missing", "source_drift", "intentional", "conflict", "review"]
+    },
+    "ecosystem": { "type": "string" },
+    "coverage": {
+      "type": "object",
+      "properties": {
+        "domain": { "type": "string" },
+        "ip": { "type": "string" },
+        "cidr": { "type": "string" }
+      }
+    },
+    "official_sources": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "seed_domains": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "allowed_host_exact": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "allowed_host_suffixes": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "source_policy": {
+      "type": "object",
+      "properties": {
+        "official_required": { "type": "boolean" },
+        "min_confidence": { "type": "string" }
+      }
+    },
+    "boundary": {
+      "type": "object",
+      "properties": {
+        "shared_infrastructure_allowed": { "type": "boolean" }
+      }
+    }
+  }
 }

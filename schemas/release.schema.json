@@ -1,18 +1,21 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Popular Rules Source Release",
+  "$id": "https://github.com/cn-wanmei/Popular-Rules-Source/schemas/release.schema.json",
+  "title": "SourceRelease",
   "type": "object",
-  "required": ["schema", "repository", "commit", "snapshot_id", "version"],
+  "required": ["schema", "repository", "snapshot_id", "service_id", "version", "created_at"],
+  "additionalProperties": true,
   "properties": {
-    "schema": {"const": "popular_rules_source_release_v1"},
-    "repository": {"type": "string"},
-    "commit": {"type": "string"},
-    "snapshot_id": {"type": "string"},
-    "version": {"type": "string"},
-    "created_at": {"type": "string"},
-    "checksums": {"type": "object"},
-    "validation": {"type": "object"},
-    "reconciliation": {"type": "object"}
-  },
-  "additionalProperties": false
+    "schema": { "const": "popular_rules_source_release_v1" },
+    "repository": { "type": "string" },
+    "commit": { "type": "string" },
+    "snapshot_id": { "type": "string" },
+    "service_id": { "type": "string" },
+    "version": { "type": "string" },
+    "created_at": { "type": "string" },
+    "schema_version": { "type": "integer" },
+    "checksums": { "type": "object" },
+    "validation": { "type": "object" },
+    "reconciliation": { "type": "object" }
+  }
 }
