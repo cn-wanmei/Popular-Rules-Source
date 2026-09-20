@@ -20,23 +20,29 @@ jobs:
       - run: python -m source_engine validate
       - run: python -m pytest -q
       - run: python -m source_engine generate --all
-      - name: Enforce production qualification in CI
+      - name: Build service qualification report
+        run: python -m source_engine qualify > reports/phase2-qualification.stdout.json
+      - name: Enforce latest service qualification
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
+          report = json.loads(Path("reports/phase2-service-qualification.json").read_text(encoding="utf-8"))
           bad = []
-          for path in Path("snapshots").glob("*/manifest.json"):
-              data = json.loads(path.read_text(encoding="utf-8"))
-              if data.get("release_state") != "CANDIDATE":
+          for service_id, item in sorted(report["services"].items()):
+              if item.get("stage") != "VERIFIED":
                   bad.append({
-                      "service": data.get("service_id"),
-                      "state": data.get("release_state"),
-                      "reasons": data.get("release_reasons", []),
+                      "service": service_id,
+                      "stage": item.get("stage"),
+                      "blockers": item.get("blockers", []),
                   })
+          print(json.dumps({
+              "verified_count": report["verified_count"],
+              "service_count": len(report["services"]),
+              "non_verified": bad,
+          }, ensure_ascii=False, indent=2))
           if bad:
-              print(json.dumps(bad, ensure_ascii=False, indent=2))
-              raise SystemExit("one or more services are not production-qualified")
+              raise SystemExit("one or more services are not VERIFIED")
           PY
       - run: python -m source_engine schema-validate
       - run: python -m source_engine conflict
