@@ -178,8 +178,8 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
         },
         "errors": errors,
         "release_state": (
-            "BLOCKED" if errors and not evidence_items
-            else "REVIEW" if assessment.status != "OK"
+            "BLOCKED" if errors and not [e for e in evidence_items if e["source_method"] == "official_web"]
+            else "REVIEW" if errors or assessment.status != "OK"
             else "CANDIDATE"
         ),
     }
