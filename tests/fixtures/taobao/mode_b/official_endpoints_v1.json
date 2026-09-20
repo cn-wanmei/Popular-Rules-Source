@@ -1,0 +1,104 @@
+{
+  "schema": "official_endpoint_list_v1",
+  "service_id": "taobao",
+  "authority": "official",
+  "method": "official_structured",
+  "endpoints": [
+    {
+      "hostname": "2.taobao.com",
+      "type": "service"
+    },
+    {
+      "hostname": "bbs.taobao.com",
+      "type": "service"
+    },
+    {
+      "hostname": "buy.taobao.com",
+      "type": "service"
+    },
+    {
+      "hostname": "cart.taobao.com",
+      "type": "service"
+    },
+    {
+      "hostname": "eco.taobao.com",
+      "type": "service"
+    },
+    {
+      "hostname": "favorite.taobao.com",
+      "type": "service"
+    },
+    {
+      "hostname": "goods.taobao.com",
+      "type": "service"
+    },
+    {
+      "hostname": "gw.api.taobao.com",
+      "type": "service"
+    },
+    {
+      "hostname": "h5.m.taobao.com",
+      "type": "service"
+    },
+    {
+      "hostname": "huodong.taobao.com",
+      "type": "service"
+    },
+    {
+      "hostname": "i.taobao.com",
+      "type": "service"
+    },
+    {
+      "hostname": "item.taobao.com",
+      "type": "service"
+    },
+    {
+      "hostname": "login.taobao.com",
+      "type": "service"
+    },
+    {
+      "hostname": "m.taobao.com",
+      "type": "service"
+    },
+    {
+      "hostname": "oauth.taobao.com",
+      "type": "service"
+    },
+    {
+      "hostname": "open.taobao.com",
+      "type": "service"
+    },
+    {
+      "hostname": "pc.taobao.com",
+      "type": "service"
+    },
+    {
+      "hostname": "pcdetail.taobao.com",
+      "type": "service"
+    },
+    {
+      "hostname": "s.taobao.com",
+      "type": "service"
+    },
+    {
+      "hostname": "taobao.com",
+      "type": "service"
+    },
+    {
+      "hostname": "trade.taobao.com",
+      "type": "service"
+    },
+    {
+      "hostname": "web.m.taobao.com",
+      "type": "service"
+    },
+    {
+      "hostname": "world.taobao.com",
+      "type": "service"
+    },
+    {
+      "hostname": "www.taobao.com",
+      "type": "service"
+    }
+  ]
+}

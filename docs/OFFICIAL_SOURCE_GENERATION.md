@@ -40,3 +40,27 @@ The adapter interface is intentionally narrow:
 4. produce evidence
 
 Client-specific rule generation stays in Popular-Rules-Collection.
+
+## Mode B fixtures (v0.3.1)
+
+Each first-wave service has:
+
+```text
+tests/fixtures/<service>/mode_b/official_endpoints_v1.json
+tests/fixtures/<service>/mode_b/official_endpoints_v1.expected.txt
+```
+
+Parser: `adapters/official_json/mode_b.py`
+
+Contract tests: `tests/test_mode_b.py`
+
+Build merges Mode B fixture domains into materialization (allow-policy filtered).
+
+## Publish
+
+```bash
+python -m source_engine generate --service taobao
+python -m source_engine publish --service taobao
+# → snapshots/<id>/publish.json + generated/published/taobao.json
+# release_state → PUBLISHED
+```

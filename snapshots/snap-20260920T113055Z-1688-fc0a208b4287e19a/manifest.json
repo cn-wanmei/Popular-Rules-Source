@@ -184,5 +184,111 @@
       "value": "www.1688.com"
     }
   ],
-  "service_id": "1688"
+  "change_assessment": {
+    "growth_ratio": 1.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "created_at": "2026-09-20T11:30:55.114252+00:00",
+  "domain_count": 18,
+  "domain_diff": {
+    "added": [],
+    "added_count": 0,
+    "current_count": 18,
+    "previous_count": 18,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
+      "1688.com",
+      "air.1688.com",
+      "buy.1688.com",
+      "cart.1688.com",
+      "detail.1688.com",
+      "fuwu.1688.com",
+      "gw.open.1688.com",
+      "login.1688.com",
+      "m.1688.com",
+      "member.1688.com",
+      "offer.1688.com",
+      "open.1688.com",
+      "order.1688.com",
+      "page-open.1688.com",
+      "search.1688.com",
+      "trade.1688.com",
+      "winport.1688.com",
+      "www.1688.com"
+    ],
+    "unchanged_count": 18
+  },
+  "domains": [
+    "1688.com",
+    "air.1688.com",
+    "buy.1688.com",
+    "cart.1688.com",
+    "detail.1688.com",
+    "fuwu.1688.com",
+    "gw.open.1688.com",
+    "login.1688.com",
+    "m.1688.com",
+    "member.1688.com",
+    "offer.1688.com",
+    "open.1688.com",
+    "order.1688.com",
+    "page-open.1688.com",
+    "search.1688.com",
+    "trade.1688.com",
+    "winport.1688.com",
+    "www.1688.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "confidence": "high",
+      "content_hash": "009065b29497c5c3ed9ee3a0327ecd79dfee5fe381ec95b1d18daf549aeac0d4",
+      "domains_extracted": 3,
+      "evidence_id": "EV-1688-001-009065b29497",
+      "parser_version": "domain-extractor-v2",
+      "resolved_url": "https://open.1688.com/",
+      "retrieved_at": "2026-09-20T11:30:52.209849+00:00",
+      "service_id": "1688",
+      "source_method": "official_web",
+      "source_url": "https://open.1688.com/",
+      "status": "verified"
+    },
+    {
+      "confidence": "high",
+      "content_hash": "7c9977d6b2b745781dba007c6fe2dbd4260410c19f0f8d23e46b67be9a1b92cc",
+      "domains_extracted": 2,
+      "evidence_id": "EV-1688-002-7c9977d6b2b7",
+      "parser_version": "domain-extractor-v2",
+      "resolved_url": "https://www.1688.com/",
+      "retrieved_at": "2026-09-20T11:30:54.225011+00:00",
+      "service_id": "1688",
+      "source_method": "official_web",
+      "source_url": "https://www.1688.com/",
+      "status": "verified"
+    },
+    {
+      "confidence": "high",
+      "content_hash": "7e5f678b90b6c064e59cca842dc5197f036b790634755db1e5eb33a11efdd3c0",
+      "domains_extracted": 17,
+      "evidence_id": "EV-1688-SEED",
+      "parser_version": "domain-extractor-v2",
+      "retrieved_at": "2026-09-20T11:30:54.896913+00:00",
+      "service_id": "1688",
+      "source_method": "official_seed",
+      "source_url": "https://open.1688.com/",
+      "status": "verified"
+    }
+  ],
+  "generator_version": "1.1.0",
+  "last_known_good": false,
+  "parser_version": "domain-extractor-v2",
+  "previous_domain_count": 18,
+  "published_at": "2026-09-20T11:31:26.875880+00:00",
+  "release_state": "PUBLISHED",
+  "schema": "source_snapshot_v1",
+  "service_id": "1688",
+  "snapshot_id": "snap-20260920T113055Z-1688-fc0a208b4287e19a",
+  "source_count": 2
 }

@@ -8,6 +8,7 @@ services:
     - https://open.1688.com/
     - https://www.1688.com/
     seed_domains:
+    - 1688.com
     - air.1688.com
     - buy.1688.com
     - cart.1688.com
@@ -124,18 +125,28 @@ services:
     official_sources:
     - https://open.taobao.com/
     seed_domains:
+    - 2.taobao.com
+    - bbs.taobao.com
     - buy.taobao.com
     - cart.taobao.com
     - eco.taobao.com
+    - favorite.taobao.com
+    - goods.taobao.com
     - gw.api.taobao.com
     - h5.m.taobao.com
+    - huodong.taobao.com
+    - i.taobao.com
     - item.taobao.com
     - login.taobao.com
     - m.taobao.com
     - oauth.taobao.com
     - open.taobao.com
+    - pc.taobao.com
+    - pcdetail.taobao.com
     - s.taobao.com
+    - taobao.com
     - trade.taobao.com
+    - web.m.taobao.com
     - world.taobao.com
     - www.taobao.com
     allowed_host_suffixes:
@@ -181,6 +192,7 @@ services:
     - login.tmall.com
     - m.tmall.com
     - pages.tmall.com
+    - tmall.com
     - tw.tmall.com
     - www.tmall.com
     allowed_host_suffixes:

@@ -1,0 +1,24 @@
+{
+  "schema": "official_endpoint_list_v1",
+  "service_id": "qqmail",
+  "authority": "official",
+  "method": "official_structured",
+  "endpoints": [
+    {
+      "hostname": "imap.qq.com",
+      "type": "service"
+    },
+    {
+      "hostname": "mail.qq.com",
+      "type": "service"
+    },
+    {
+      "hostname": "pop.qq.com",
+      "type": "service"
+    },
+    {
+      "hostname": "smtp.qq.com",
+      "type": "service"
+    }
+  ]
+}

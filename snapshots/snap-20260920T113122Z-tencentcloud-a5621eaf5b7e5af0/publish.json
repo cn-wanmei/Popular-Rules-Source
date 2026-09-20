@@ -1,0 +1,11 @@
+{
+  "promotion": {
+    "domain_count": 12,
+    "package_path": "releases/tencentcloud/snap-20260920T113122Z-tencentcloud-a5621eaf5b7e5af0/promotion/promotion.json"
+  },
+  "published_at": "2026-09-20T11:31:48.920300+00:00",
+  "release_state": "PUBLISHED",
+  "schema": "source_publish_stamp_v1",
+  "service_id": "tencentcloud",
+  "snapshot_id": "snap-20260920T113122Z-tencentcloud-a5621eaf5b7e5af0"
+}

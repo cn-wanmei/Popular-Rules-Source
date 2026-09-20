@@ -10,7 +10,7 @@ import yaml
 from .diff import domain_diff
 from .extract import extract_domains
 from .fetch import FetchError, fetch
-from .normalize import normalize_domain, service_asset_id
+from .normalize import host_allowed, normalize_domain, service_asset_id
 from .overrides import apply_overrides, load_service_overrides
 from .policy import assess_count_change, is_excluded, is_noise_domain, load_exclusion_suffixes
 from .tombstone import filter_revoked
@@ -111,6 +111,16 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
 
     seed_values = [normalize_domain(x) for x in cfg.get("seed_domains", [])]
     seed_domains = sorted({x for x in seed_values if x})
+    # Mode B: merge official structured fixture endpoints when present
+    try:
+        from adapters.official_json.mode_b import load_fixture as _load_mode_b
+        for d in _load_mode_b(service_id):
+            if d and host_allowed(d, exact, suffixes):
+                seed_domains = sorted(set(seed_domains) | {d})
+            elif d and suffixes and d in suffixes:
+                seed_domains = sorted(set(seed_domains) | {d})
+    except Exception:
+        pass
     if seed_domains:
         seed_evidence_id = f"EV-{service_id}-SEED"
         evidence_items.append({

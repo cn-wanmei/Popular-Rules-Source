@@ -1,0 +1,11 @@
+{
+  "promotion": {
+    "domain_count": 8,
+    "package_path": "releases/dingding/snap-20260920T113108Z-dingding-ad838cae62e6f773/promotion/promotion.json"
+  },
+  "published_at": "2026-09-20T11:31:39.886488+00:00",
+  "release_state": "PUBLISHED",
+  "schema": "source_publish_stamp_v1",
+  "service_id": "dingding",
+  "snapshot_id": "snap-20260920T113108Z-dingding-ad838cae62e6f773"
+}

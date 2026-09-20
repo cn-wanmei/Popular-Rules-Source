@@ -145,5 +145,90 @@
       "value": "www.tmall.com"
     }
   ],
-  "service_id": "tmall"
+  "change_assessment": {
+    "growth_ratio": 1.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "created_at": "2026-09-20T11:30:59.114264+00:00",
+  "domain_count": 14,
+  "domain_diff": {
+    "added": [],
+    "added_count": 0,
+    "current_count": 14,
+    "previous_count": 14,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
+      "book.tmall.com",
+      "buy.tmall.com",
+      "car.tmall.com",
+      "cart.tmall.com",
+      "chaoshi.tmall.com",
+      "detail.tmall.com",
+      "fragment.tmall.com",
+      "list.tmall.com",
+      "login.tmall.com",
+      "m.tmall.com",
+      "pages.tmall.com",
+      "tmall.com",
+      "tw.tmall.com",
+      "www.tmall.com"
+    ],
+    "unchanged_count": 14
+  },
+  "domains": [
+    "book.tmall.com",
+    "buy.tmall.com",
+    "car.tmall.com",
+    "cart.tmall.com",
+    "chaoshi.tmall.com",
+    "detail.tmall.com",
+    "fragment.tmall.com",
+    "list.tmall.com",
+    "login.tmall.com",
+    "m.tmall.com",
+    "pages.tmall.com",
+    "tmall.com",
+    "tw.tmall.com",
+    "www.tmall.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "confidence": "high",
+      "content_hash": "678b8995a35a715a5b7da30fb89fbc71ca0ab8f4dec596052261fc698fa4bf48",
+      "domains_extracted": 8,
+      "evidence_id": "EV-tmall-001-678b8995a35a",
+      "parser_version": "domain-extractor-v2",
+      "resolved_url": "https://www.tmall.com/",
+      "retrieved_at": "2026-09-20T11:30:58.274087+00:00",
+      "service_id": "tmall",
+      "source_method": "official_web",
+      "source_url": "https://www.tmall.com/",
+      "status": "verified"
+    },
+    {
+      "confidence": "high",
+      "content_hash": "f44a3168d557ee96f8326f14f8d0e35289f7e49e4074b96b152500598489e751",
+      "domains_extracted": 11,
+      "evidence_id": "EV-tmall-SEED",
+      "parser_version": "domain-extractor-v2",
+      "retrieved_at": "2026-09-20T11:30:58.806544+00:00",
+      "service_id": "tmall",
+      "source_method": "official_seed",
+      "source_url": "https://www.tmall.com/",
+      "status": "verified"
+    }
+  ],
+  "generator_version": "1.1.0",
+  "last_known_good": false,
+  "parser_version": "domain-extractor-v2",
+  "previous_domain_count": 14,
+  "published_at": "2026-09-20T11:31:33.407242+00:00",
+  "release_state": "PUBLISHED",
+  "schema": "source_snapshot_v1",
+  "service_id": "tmall",
+  "snapshot_id": "snap-20260920T113059Z-tmall-c04c35475380528e",
+  "source_count": 1
 }

@@ -1,0 +1,11 @@
+{
+  "promotion": {
+    "domain_count": 18,
+    "package_path": "releases/1688/snap-20260920T113055Z-1688-fc0a208b4287e19a/promotion/promotion.json"
+  },
+  "published_at": "2026-09-20T11:31:26.875880+00:00",
+  "release_state": "PUBLISHED",
+  "schema": "source_publish_stamp_v1",
+  "service_id": "1688",
+  "snapshot_id": "snap-20260920T113055Z-1688-fc0a208b4287e19a"
+}

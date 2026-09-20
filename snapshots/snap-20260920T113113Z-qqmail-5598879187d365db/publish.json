@@ -1,0 +1,11 @@
+{
+  "promotion": {
+    "domain_count": 4,
+    "package_path": "releases/qqmail/snap-20260920T113113Z-qqmail-5598879187d365db/promotion/promotion.json"
+  },
+  "published_at": "2026-09-20T11:31:42.726885+00:00",
+  "release_state": "PUBLISHED",
+  "schema": "source_publish_stamp_v1",
+  "service_id": "qqmail",
+  "snapshot_id": "snap-20260920T113113Z-qqmail-5598879187d365db"
+}

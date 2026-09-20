@@ -1,0 +1,44 @@
+{
+  "schema": "official_endpoint_list_v1",
+  "service_id": "qqmusic",
+  "authority": "official",
+  "method": "official_structured",
+  "endpoints": [
+    {
+      "hostname": "ad.y.qq.com",
+      "type": "service"
+    },
+    {
+      "hostname": "c.y.qq.com",
+      "type": "service"
+    },
+    {
+      "hostname": "dl.y.qq.com",
+      "type": "service"
+    },
+    {
+      "hostname": "i.y.qq.com",
+      "type": "service"
+    },
+    {
+      "hostname": "kg.y.qq.com",
+      "type": "service"
+    },
+    {
+      "hostname": "res.y.qq.com",
+      "type": "service"
+    },
+    {
+      "hostname": "stat.y.qq.com",
+      "type": "service"
+    },
+    {
+      "hostname": "u.y.qq.com",
+      "type": "service"
+    },
+    {
+      "hostname": "y.qq.com",
+      "type": "service"
+    }
+  ]
+}

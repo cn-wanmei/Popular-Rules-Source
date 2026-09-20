@@ -1,0 +1,11 @@
+{
+  "promotion": {
+    "domain_count": 10,
+    "package_path": "releases/cainiao/snap-20260920T113103Z-cainiao-eb6d1d7b815bebd5/promotion/promotion.json"
+  },
+  "published_at": "2026-09-20T11:31:36.479494+00:00",
+  "release_state": "PUBLISHED",
+  "schema": "source_publish_stamp_v1",
+  "service_id": "cainiao",
+  "snapshot_id": "snap-20260920T113103Z-cainiao-eb6d1d7b815bebd5"
+}

@@ -12,6 +12,7 @@ from .engineering import engineering_report
 from .schema_validate import validate_all_snapshots
 from .discover import discover_from_config
 from .promotion import build_promotion_package
+from .publish import publish_service
 from .reconcile import audit_collection
 from .release import create_release
 from .tombstone import load_tombstones, revoke_domain
@@ -135,6 +136,10 @@ def main() -> None:
     promote.add_argument("--service", required=True)
     promote.add_argument("--snapshot", required=True)
 
+    publish = sub.add_parser("publish")
+    publish.add_argument("--service", required=True)
+    publish.add_argument("--snapshot", default=None)
+
     revoke = sub.add_parser("revoke")
     revoke.add_argument("--service", required=True)
     revoke.add_argument("--domain", required=True)
@@ -206,6 +211,10 @@ def main() -> None:
         blocked = [m for m in manifests if m["release_state"] == "BLOCKED"]
         if blocked:
             raise SystemExit(2)
+        return
+
+    if args.command == "publish":
+        print(json.dumps(publish_service(args.service, args.snapshot), ensure_ascii=False, indent=2))
         return
 
     if args.command == "promote":

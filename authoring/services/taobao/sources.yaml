@@ -1,3 +1,17 @@
-# Official sources for taobao are declared in config/services.yaml.
-# Per-service adapter overrides may be listed here later.
-adapters: []
+adapters:
+  - id: official_web_open
+    type: official_web
+    authority: official
+    url: https://open.taobao.com/
+  - id: official_web_www
+    type: official_web
+    authority: official
+    url: https://www.taobao.com/
+  - id: mode_b_endpoint_list
+    type: official_json
+    authority: official
+    method: official_structured
+    fixture: tests/fixtures/taobao/mode_b/official_endpoints_v1.json
+notes: >
+  Apex taobao.com and www.taobao.com are required primary hosts.
+  Mode B fixture is the structured official endpoint contract for regression.

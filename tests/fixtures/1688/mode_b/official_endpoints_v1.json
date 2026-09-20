@@ -1,0 +1,76 @@
+{
+  "schema": "official_endpoint_list_v1",
+  "service_id": "1688",
+  "authority": "official",
+  "method": "official_structured",
+  "endpoints": [
+    {
+      "hostname": "1688.com",
+      "type": "service"
+    },
+    {
+      "hostname": "air.1688.com",
+      "type": "service"
+    },
+    {
+      "hostname": "buy.1688.com",
+      "type": "service"
+    },
+    {
+      "hostname": "cart.1688.com",
+      "type": "service"
+    },
+    {
+      "hostname": "detail.1688.com",
+      "type": "service"
+    },
+    {
+      "hostname": "fuwu.1688.com",
+      "type": "service"
+    },
+    {
+      "hostname": "login.1688.com",
+      "type": "service"
+    },
+    {
+      "hostname": "m.1688.com",
+      "type": "service"
+    },
+    {
+      "hostname": "member.1688.com",
+      "type": "service"
+    },
+    {
+      "hostname": "offer.1688.com",
+      "type": "service"
+    },
+    {
+      "hostname": "open.1688.com",
+      "type": "service"
+    },
+    {
+      "hostname": "order.1688.com",
+      "type": "service"
+    },
+    {
+      "hostname": "page-open.1688.com",
+      "type": "service"
+    },
+    {
+      "hostname": "search.1688.com",
+      "type": "service"
+    },
+    {
+      "hostname": "trade.1688.com",
+      "type": "service"
+    },
+    {
+      "hostname": "winport.1688.com",
+      "type": "service"
+    },
+    {
+      "hostname": "www.1688.com",
+      "type": "service"
+    }
+  ]
+}

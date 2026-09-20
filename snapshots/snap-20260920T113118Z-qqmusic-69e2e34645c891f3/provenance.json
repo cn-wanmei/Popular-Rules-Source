@@ -1,0 +1,95 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:3a3a1b0ef9a380b1ed5a10daaabff32d3812f714a923122c3f8ddf6d22d375ea",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qqmusic-SEED"
+      ],
+      "service_id": "qqmusic",
+      "type": "domain",
+      "value": "ad.y.qq.com"
+    },
+    {
+      "asset_id": "sha256:52b1ef85cd0750f5cb63d621f380fc09dc480ef8934fde49877c33becbeddef4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qqmusic-SEED"
+      ],
+      "service_id": "qqmusic",
+      "type": "domain",
+      "value": "c.y.qq.com"
+    },
+    {
+      "asset_id": "sha256:dc57276977f0c9e99d3e579bd37b45fe76ace34e1fc256575ac1bfe8a9c7c372",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qqmusic-SEED"
+      ],
+      "service_id": "qqmusic",
+      "type": "domain",
+      "value": "dl.y.qq.com"
+    },
+    {
+      "asset_id": "sha256:70cc1a97fe2d9800a8187d78edfc2b5d327e91a73fb39114a8277aed69adeb09",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qqmusic-SEED"
+      ],
+      "service_id": "qqmusic",
+      "type": "domain",
+      "value": "i.y.qq.com"
+    },
+    {
+      "asset_id": "sha256:b3684d68c1a9eef7a05721a9345667af2f660492ec002bbb50a0770a6869d2a4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qqmusic-SEED"
+      ],
+      "service_id": "qqmusic",
+      "type": "domain",
+      "value": "kg.y.qq.com"
+    },
+    {
+      "asset_id": "sha256:a7709a77b3a56d4c19c9f33379de87b1afd6230d7f015a5f13f644f47ed16fa6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qqmusic-SEED"
+      ],
+      "service_id": "qqmusic",
+      "type": "domain",
+      "value": "res.y.qq.com"
+    },
+    {
+      "asset_id": "sha256:56b3917686c8cd4c29983b383d77055f18f7c9e4847b95da830de28250e930ee",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qqmusic-SEED"
+      ],
+      "service_id": "qqmusic",
+      "type": "domain",
+      "value": "stat.y.qq.com"
+    },
+    {
+      "asset_id": "sha256:fc0385ae51547a33b6484bbd9c38d2201ae3ac38fe436457906513f464886db9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qqmusic-SEED"
+      ],
+      "service_id": "qqmusic",
+      "type": "domain",
+      "value": "u.y.qq.com"
+    },
+    {
+      "asset_id": "sha256:c1fe59122d1ea1129c35c22f55acd56a035e77a692483db19a88a305d0edfa6a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qqmusic-SEED"
+      ],
+      "service_id": "qqmusic",
+      "type": "domain",
+      "value": "y.qq.com"
+    }
+  ],
+  "service_id": "qqmusic"
+}
