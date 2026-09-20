@@ -12,6 +12,21 @@ def _load_schema(name: str) -> dict[str, Any]:
     return json.loads(Path("schemas", name).read_text(encoding="utf-8"))
 
 
+def _validate(data: dict[str, Any], schema_name: str) -> None:
+    schema = _load_schema(schema_name)
+    # Resolve local schema references from the checked-out registry instead of
+    # letting jsonschema retrieve relative refs from the network.
+    store: dict[str, Any] = {}
+    asset_path = Path("schemas", "asset.schema.json")
+    if asset_path.exists():
+        asset = json.loads(asset_path.read_text(encoding="utf-8"))
+        store["asset.schema.json"] = asset
+        if asset.get("$id"):
+            store[str(asset["$id"])] = asset
+    resolver = jsonschema.RefResolver.from_schema(schema, store=store)
+    jsonschema.validate(data, schema, resolver=resolver)
+
+
 def validate_snapshot_dir(path: Path) -> list[str]:
     errors: list[str] = []
     manifest_path = path / "manifest.json"
@@ -30,7 +45,7 @@ def validate_snapshot_dir(path: Path) -> list[str]:
         return []
 
     try:
-        jsonschema.validate(manifest, _load_schema("snapshot.schema.json"))
+        _validate(manifest, "snapshot.schema.json")
     except jsonschema.ValidationError as exc:
         errors.append(f"{path.name}: {exc.message}")
 
@@ -76,7 +91,7 @@ def validate_release_file(path: Path) -> list[str]:
         return [f"{path}: missing"]
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
-        jsonschema.validate(data, _load_schema("release.schema.json"))
+        _validate(data, "release.schema.json")
     except (OSError, json.JSONDecodeError, jsonschema.ValidationError) as exc:
         return [f"{path}: {exc}"]
     return []
