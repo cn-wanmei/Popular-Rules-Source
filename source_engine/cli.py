@@ -12,6 +12,7 @@ from .schema_validate import validate_all_snapshots
 from .discover import discover_from_config
 from .reconcile import audit_collection
 from .release import create_release
+from .qualification import qualify_all
 from .tombstone import load_tombstones, revoke_domain
 from .validate import run_validation
 
@@ -79,7 +80,7 @@ def main() -> None:
 
     for command in [
         "validate", "audit", "gap", "candidate-audit", "test-determinism", "schema-validate",
-        "conflict", "health"
+        "conflict", "health", "qualify"
     ]:
         sub.add_parser(command)
 
@@ -116,6 +117,8 @@ def main() -> None:
         test_determinism()
     elif args.command == "discover":
         print(json.dumps(discover_from_config(args.service), ensure_ascii=False, indent=2))
+    elif args.command == "qualify":
+        print(json.dumps(qualify_all(), ensure_ascii=False, indent=2))
     elif args.command == "reconcile":
         ids = args.service or sorted(load_services()["services"])
         print(json.dumps(audit_collection(ids), ensure_ascii=False, indent=2))
