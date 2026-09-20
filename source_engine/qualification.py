@@ -7,6 +7,19 @@ from typing import Any
 from .build import load_services
 from .reconcile import audit_collection
 
+
+def _load_phase2_state() -> dict[str, Any]:
+    path = Path("config/phase2_service_completion.yaml")
+    if not path.exists():
+        return {}
+    import yaml
+    value = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
+    return value if isinstance(value, dict) else {}
+
+
+STATE_RANK = {"review": 0, "verified": 1, "canary": 2, "production": 3, "blocked": -1}
+
+
 SERVICE_IDS = (
     "1688",
     "cainiao",
@@ -80,6 +93,7 @@ def _service_result(service_id: str, manifest: dict[str, Any] | None) -> dict[st
 
 def qualify_all() -> dict[str, Any]:
     services = load_services()["services"]
+    phase2_state = _load_phase2_state().get("services") or {}
     ids = [sid for sid in SERVICE_IDS if sid in services]
     reconciliation = audit_collection(ids)
     result = {
@@ -92,6 +106,18 @@ def qualify_all() -> dict[str, Any]:
     }
     for service_id in ids:
         item = _service_result(service_id, _latest_manifest(service_id))
+        declared = str((phase2_state.get(service_id) or {}).get("state", "review")).lower()
+        computed = "verified" if item["verified"] else ("blocked" if "empty_domain_output" in item["blockers"] else "review")
+        declared_rank = STATE_RANK.get(declared, -1)
+        computed_rank = STATE_RANK.get(computed, -1)
+        item["declared_state"] = declared
+        item["computed_state"] = computed
+        item["state_consistent"] = declared_rank <= computed_rank
+        if not item["state_consistent"]:
+            item["blockers"].append("declared_state_ahead_of_evidence")
+            result.setdefault("state_drift", []).append(service_id)
+        elif declared == "review" and computed == "verified":
+            item["promotion_recommendation"] = "promote_to_verified"
         result["services"][service_id] = item
         if item["verified"]:
             result["verified_count"] += 1
