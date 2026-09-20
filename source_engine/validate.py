@@ -55,6 +55,5 @@ def validate_schemas_present() -> list[str]:
 def run_validation() -> None:
     errors = validate_config() + validate_schemas_present() + validate_all_snapshots()
     if errors:
-        raise ValidationError("
-".join(errors))
+        raise ValidationError("\n".join(errors))
     print(f"validation: PASS ({len(load_services()['services'])} services)")
