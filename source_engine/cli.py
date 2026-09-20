@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 
 from .build import build_all, build_service, load_services
+from .reconcile import audit_collection
 
 
 def audit() -> dict:
@@ -21,6 +22,7 @@ def audit() -> dict:
             "allowed_suffixes": len(cfg.get("allowed_host_suffixes", [])),
             "allowed_exact": len(cfg.get("allowed_host_exact", [])),
         }
+
     Path("reports").mkdir(exist_ok=True)
     Path("reports/service-gap.json").write_text(
         json.dumps(result, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
@@ -34,6 +36,8 @@ def main() -> None:
     sub = parser.add_subparsers(dest="command", required=True)
 
     sub.add_parser("audit")
+    reconcile = sub.add_parser("reconcile")
+    reconcile.add_argument("--service", action="append")
     generate = sub.add_parser("generate")
     generate.add_argument("--service")
     generate.add_argument("--all", action="store_true")
@@ -44,6 +48,11 @@ def main() -> None:
 
     if args.command == "audit":
         print(json.dumps(audit(), ensure_ascii=False, indent=2))
+        return
+
+    if args.command == "reconcile":
+        service_ids = args.service or sorted(load_services()["services"])
+        print(json.dumps(audit_collection(service_ids), ensure_ascii=False, indent=2))
         return
 
     if args.command == "generate":
