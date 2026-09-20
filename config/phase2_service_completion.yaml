@@ -1,0 +1,16 @@
+version: 1
+phase: 2
+objective: official_evidence_only_production
+allow_seed_as_production: false
+require_collection_reconciliation: true
+require_determinism: true
+
+services:
+  "1688": {status: review, mode: official_web, boundary: alibaba/1688}
+  cainiao: {status: review, mode: official_web, boundary: alibaba/cainiao}
+  dingding: {status: review, mode: official_web, boundary: alibaba/dingding}
+  qqmail: {status: review, mode: official_web, boundary: tencent/qqmail}
+  qqmusic: {status: review, mode: official_web, boundary: tencent/qqmusic}
+  taobao: {status: review, mode: official_web, boundary: alibaba/taobao}
+  tencentcloud: {status: partial, mode: official_web, boundary: tencent/tencentcloud}
+  tmall: {status: review, mode: official_web, boundary: alibaba/tmall}

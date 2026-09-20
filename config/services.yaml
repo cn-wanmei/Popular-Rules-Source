@@ -1,201 +1,98 @@
-version: 1
+version: 3
 services:
-  '1688':
-    display_name: '1688'
+  "1688":
+    display_name: "1688"
     ecosystem: alibaba
-    status: partial
+    status: review
     official_sources:
-    - https://open.1688.com/
-    - https://www.1688.com/
-    seed_domains:
-    - 1688.com
-    - air.1688.com
-    - buy.1688.com
-    - cart.1688.com
-    - detail.1688.com
-    - fuwu.1688.com
-    - login.1688.com
-    - m.1688.com
-    - member.1688.com
-    - offer.1688.com
-    - open.1688.com
-    - order.1688.com
-    - page-open.1688.com
-    - search.1688.com
-    - trade.1688.com
-    - winport.1688.com
-    - www.1688.com
-    allowed_host_suffixes:
-    - 1688.com
+      - "https://open.1688.com/"
+      - "https://www.1688.com/"
+    allowed_host_suffixes: ["1688.com"]
     allowed_host_exact: []
-    coverage:
-      domain: high
-      ip: unknown
-      cidr: none
-    source_policy:
-      official_required: true
-      min_confidence: high
-    boundary:
-      shared_infrastructure_allowed: false
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
   cainiao:
-    display_name: 菜鸟
+    display_name: "菜鸟"
     ecosystem: alibaba
-    status: partial
+    status: review
     official_sources:
-    - https://open.cainiao.com/
-    seed_domains:
-    - cainiao.com
-    - express.cainiao.com
-    - global.cainiao.com
-    - gsls.cainiao.com
-    - link.cainiao.com
-    - open.cainiao.com
-    - page.cainiao.com
-    - tars.cainiao.com
-    - www.cainiao.com
-    - yugong.cainiao.com
-    allowed_host_suffixes:
-    - cainiao.com
-    coverage:
-      domain: high
+      - "https://open.cainiao.com/"
+    allowed_host_suffixes: ["cainiao.com"]
+    allowed_host_exact: []
+    coverage: {domain: review}
+    source_policy: {official_required: true, min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
   dingding:
-    display_name: 钉钉
+    display_name: "钉钉"
     ecosystem: alibaba
-    status: partial
+    status: review
     official_sources:
-    - https://open.dingtalk.com/
-    seed_domains:
-    - api.dingtalk.com
-    - h5.dingtalk.com
-    - login.dingtalk.com
-    - oapi.dingtalk.com
-    - open.dingtalk.com
-    - page.dingtalk.com
-    - table.dingtalk.com
-    - www.dingtalk.com
-    allowed_host_suffixes:
-    - dingtalk.com
-    coverage:
-      domain: high
+      - "https://open.dingtalk.com/"
+    allowed_host_suffixes: ["dingtalk.com"]
+    allowed_host_exact: []
+    coverage: {domain: review}
+    source_policy: {official_required: true, min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
   qqmail:
-    display_name: QQ邮箱
+    display_name: "QQ邮箱"
     ecosystem: tencent
-    status: partial
+    status: review
     official_sources:
-    - https://mail.qq.com/
-    seed_domains:
-    - imap.qq.com
-    - mail.qq.com
-    - pop.qq.com
-    - smtp.qq.com
-    allowed_host_exact:
-    - imap.qq.com
-    - mail.qq.com
-    - pop.qq.com
-    - smtp.qq.com
+      - "https://mail.qq.com/"
+    allowed_host_exact: [imap.qq.com, mail.qq.com, pop.qq.com, smtp.qq.com]
     allowed_host_suffixes: []
-    coverage:
-      domain: complete
-      ip: none
-      cidr: none
+    coverage: {domain: review, ip: none, cidr: none}
+    source_policy: {official_required: true, min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
   qqmusic:
-    display_name: QQ音乐
+    display_name: "QQ音乐"
     ecosystem: tencent
-    status: partial
+    status: review
     official_sources:
-    - https://y.qq.com/
-    seed_domains:
-    - ad.y.qq.com
-    - c.y.qq.com
-    - dl.y.qq.com
-    - i.y.qq.com
-    - kg.y.qq.com
-    - res.y.qq.com
-    - stat.y.qq.com
-    - u.y.qq.com
-    - y.qq.com
-    allowed_host_suffixes:
-    - y.qq.com
-    coverage:
-      domain: high
+      - "https://y.qq.com/"
+    allowed_host_suffixes: ["y.qq.com"]
+    allowed_host_exact: []
+    coverage: {domain: review}
+    source_policy: {official_required: true, min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
   taobao:
-    display_name: 淘宝
+    display_name: "淘宝"
     ecosystem: alibaba
-    status: partial
+    status: review
     official_sources:
-    - https://open.taobao.com/
-    seed_domains:
-    - 2.taobao.com
-    - bbs.taobao.com
-    - buy.taobao.com
-    - cart.taobao.com
-    - eco.taobao.com
-    - favorite.taobao.com
-    - goods.taobao.com
-    - gw.api.taobao.com
-    - h5.m.taobao.com
-    - huodong.taobao.com
-    - i.taobao.com
-    - item.taobao.com
-    - login.taobao.com
-    - m.taobao.com
-    - oauth.taobao.com
-    - open.taobao.com
-    - pc.taobao.com
-    - pcdetail.taobao.com
-    - s.taobao.com
-    - taobao.com
-    - trade.taobao.com
-    - web.m.taobao.com
-    - world.taobao.com
-    - www.taobao.com
-    allowed_host_suffixes:
-    - taobao.com
-    coverage:
-      domain: high
+      - "https://open.taobao.com/"
+    allowed_host_suffixes: ["taobao.com"]
+    allowed_host_exact: []
+    coverage: {domain: review}
+    source_policy: {official_required: true, min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
   tencentcloud:
-    display_name: 腾讯云
+    display_name: "腾讯云"
     ecosystem: tencent
     status: partial
     official_sources:
-    - https://cloud.tencent.com/document/api
-    seed_domains:
-    - bill.cloud.tencent.com
-    - buy.cloud.tencent.com
-    - capi.cloud.tencent.com
-    - cloud.tencent.com
-    - console.cloud.tencent.com
-    - dnspod.cloud.tencent.com
-    - iaas.cloud.tencent.com
-    - ide.cloud.tencent.com
-    - market.cloud.tencent.com
-    - mps.cloud.tencent.com
-    - tcb.cloud.tencent.com
-    - tencentcloudapi.com
-    allowed_host_suffixes:
-    - cloud.tencent.com
-    - tencentcloudapi.com
-    coverage:
-      domain: high
+      - "https://cloud.tencent.com/document/api"
+    allowed_host_suffixes: ["cloud.tencent.com", "tencentcloudapi.com"]
+    allowed_host_exact: []
+    coverage: {domain: review}
+    source_policy: {official_required: true, min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
   tmall:
-    display_name: 天猫
+    display_name: "天猫"
     ecosystem: alibaba
-    status: partial
+    status: review
     official_sources:
-    - https://www.tmall.com/
-    seed_domains:
-    - buy.tmall.com
-    - cart.tmall.com
-    - chaoshi.tmall.com
-    - detail.tmall.com
-    - list.tmall.com
-    - login.tmall.com
-    - m.tmall.com
-    - pages.tmall.com
-    - tmall.com
-    - tw.tmall.com
-    - www.tmall.com
-    allowed_host_suffixes:
-    - tmall.com
-    coverage:
-      domain: high
+      - "https://www.tmall.com/"
+    allowed_host_suffixes: ["tmall.com"]
+    allowed_host_exact: []
+    coverage: {domain: review}
+    source_policy: {official_required: true, min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}

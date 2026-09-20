@@ -1,41 +1,45 @@
 # Operations
 
-## Daily / scheduled
+## Active CI
 
-| Workflow | Purpose |
-| -------- | ------- |
-| validate.yml | Config + unit tests + audit on push/PR |
-| generate.yml | Scheduled official fetch → generate snapshots |
-| reconcile.yml | Compare with Collection registry/canonical signals |
+| Workflow | 作用 |
+|---|---|
+| validate.yml | 配置、单元、Snapshot Schema、Conflict、Audit |
+| generate.yml | 定时官方抓取，创建自动刷新 PR |
+| reconcile.yml | 与 Collection Registry / Intentional 状态进行对账 |
+| release.yml | 手动 Release Gate，输出 Artifact，不直接发布到 Collection |
 
 ## CLI
 
-```bash
+~~~bash
 python -m source_engine validate
 python -m source_engine audit
+python -m source_engine gap
 python -m source_engine reconcile
-python -m source_engine generate --service taobao
-python -m source_engine generate --all
-python -m source_engine release --service taobao
-python -m source_engine test-determinism
-```
+python -m source_engine discover --service 1688
+python -m source_engine generate --service 1688
+python -m source_engine release --service 1688
+python -m source_engine schema-validate
+python -m source_engine conflict
+python -m source_engine health
+~~~
 
-## Observability KPIs
+## Operational Rule
 
-Prefer quality over quantity:
+Fetch failure 不等于 service coverage = 0。
 
-- Verified coverage
-- Evidence completeness
-- Conflict rate
-- False attribution rate
-- Reconciliation completeness
-- Release determinism
-- Source freshness
+失败时保留 Last Known Good，并把 Source Health 标记为 degraded/blocked。
 
-Do not optimize solely for domain/IP counts.
+## Metrics
 
-## Retention guidance
+重点关注：
 
-- Snapshots: 90–180 days
-- Release / audit evidence: ~180 days
-- Current releases + tombstones: permanent
+- verified coverage
+- evidence completeness
+- conflict rate
+- false attribution rate
+- reconciliation completeness
+- source freshness
+- deterministic reproducibility
+
+不要用域名数量作为唯一质量指标。

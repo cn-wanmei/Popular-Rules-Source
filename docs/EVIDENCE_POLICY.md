@@ -1,46 +1,47 @@
 # Evidence Policy
 
-## Evidence grades
+## Dimensions
 
-| Grade | Examples |
-| ----- | -------- |
-| S0 | Official docs, API, SDK, product page, official config/repo |
-| S1 | Official technical endpoints, network docs, client config |
-| S2 | High-quality external cross-check |
-| S3 | Discovery-only (blogs, forums, single third-party lists) — never promote alone |
+Evidence 分为：
 
-## Required fields
+~~~text
+authority
+source_method
+evidence_strength
+confidence
+service_scope
+~~~
 
-- evidence_id
-- service_id
-- asset / asset_type
-- source_type / source_url
-- retrieved_at
-- content_hash
-- confidence
-- status
+## Grades
 
-Large third-party document bodies are **not** mirrored permanently; store URL, title, hash, summary, and conclusion.
+| Grade | 示例 | 作用 |
+|---|---|---|
+| S0 | 官方机器可读列表 / 官方 API / 官方配置 | Production-capable |
+| S1 | 官方技术 Endpoint / 文档 / SDK | Production-capable after boundary validation |
+| S2 | 高质量外部交叉证据 | Auxiliary |
+| S3 | Blog / Forum / 单一第三方规则 | Discovery only |
 
-## Positive and negative evidence
+## Required Fields
 
-Both must be supported:
+evidence_id、service_id、asset、asset_type、source_url、source_method、retrieved_at、content_hash、parser_version、confidence、status。
 
-- Why an asset belongs to the service
-- Why an asset does **not** belong (shared infra, external dependency, ambiguous)
+## Positive / Negative
 
-## Authority vs method vs strength
+必须可以解释：
 
-These are independent dimensions:
+~~~text
+Why included?
+Why excluded?
+~~~
 
-```yaml
-source:
-  authority: official
-  method: official_document_extraction
-evidence:
-  strength: S1
-generation:
-  mode: extracted
-```
+排除证据覆盖 Shared Infrastructure、Provider CDN、External Dependency、Ambiguous Ownership、Wrong Product Scope。
 
-Official authority does **not** imply every domain on the page is service-owned.
+## Seed
+
+Authoring Seed 的 Evidence 为：
+
+source_method = authoring_seed  
+confidence = unknown  
+status = candidate
+
+Seed 不能直接提升为 Production Evidence。

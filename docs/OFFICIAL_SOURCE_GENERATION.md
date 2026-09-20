@@ -1,66 +1,79 @@
 # Official Source Generation
 
-## Goal
+## Objective
 
-The first-class capability of this repository is to derive service-domain sources from official upstream material.
+给定 Service ID，优先从该服务官方来源自动提取并生成经过验证的 Domain Source。
 
-## Supported input classes
+## Priority
 
-- Official machine-readable lists
-- Official APIs returning structured data
-- Official JSON/YAML/configuration
-- Official documentation
-- Official web pages
+~~~text
+Official machine-readable
+        ↓
+Official API / structured
+        ↓
+Official config / SDK / manifest
+        ↓
+Official documentation
+        ↓
+Controlled runtime discovery
+        ↓
+External cross-check
+~~~
 
-The current implementation includes a safe web/JSON extractor. Additional structured adapters are added only when a service has a fixture and a contract test.
+## Current production implementation
 
-## Trust boundary
+当前主干实际可用的是 official_web：
 
-A domain found on an official page is only a candidate. The service allow policy is applied before materialization, so third-party analytics, provider infrastructure, and unrelated dependencies are not silently promoted.
+~~~text
+Official Web
+  ↓
+HTML / JSON extraction
+  ↓
+Per-service allow policy
+  ↓
+Exclusion
+  ↓
+Evidence
+  ↓
+Candidate / Release Candidate
+~~~
 
-## Release safety
+Fixture-only Mode B 已从生产链删除。
 
-- HTTP failures never replace a known-good source with an empty list.
-- Large removals and growth bursts enter review.
-- Snapshot directories are immutable once a candidate exists.
-- Generated domains carry asset IDs and evidence IDs.
-- Raw upstream content is stored locally for audit during generation and is intentionally not committed by default.
+## Seed
 
-## Reproducibility
+seed_domains 仅用于人工候选锚点。
 
-The stable identity of a snapshot is derived from service ID plus normalized domain content. Runtime timestamps are metadata and must not change the content identity.
+只要最终输出包含 seed-only domain：
 
-## Future adapters
+~~~text
+release_state = REVIEW
+~~~
 
-The adapter interface is intentionally narrow:
+直到该资产获得真实官方 Evidence。
 
-1. fetch
-2. parse
-3. extract
-4. produce evidence
+## Evidence Trace
 
-Client-specific rule generation stays in Popular-Rules-Collection.
+~~~text
+domain
+ ↓
+asset_id
+ ↓
+evidence_id
+ ↓
+source_url
+ ↓
+content_hash
+ ↓
+parser_version
+ ↓
+snapshot_id
+~~~
 
-## Mode B fixtures (v0.3.1)
+没有完整追溯链的资产不能进入 Production。
 
-Each first-wave service has:
+## Future Adapter Contract
 
-```text
-tests/fixtures/<service>/mode_b/official_endpoints_v1.json
-tests/fixtures/<service>/mode_b/official_endpoints_v1.expected.txt
-```
+新 Adapter 必须同时提交真实官方来源、字段契约、Parser、Fixture、Regression Test 和 Evidence Mapping。
 
-Parser: `adapters/official_json/mode_b.py`
-
-Contract tests: `tests/test_mode_b.py`
-
-Build merges Mode B fixture domains into materialization (allow-policy filtered).
-
-## Publish
-
-```bash
-python -m source_engine generate --service taobao
-python -m source_engine publish --service taobao
-# → snapshots/<id>/publish.json + generated/published/taobao.json
-# release_state → PUBLISHED
-```
+没有完整契约的 Adapter 必须保持 disabled。

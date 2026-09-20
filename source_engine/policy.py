@@ -36,7 +36,6 @@ def assess_count_change(
 
 
 def load_exclusion_suffixes(paths: Iterable[str] | None = None) -> tuple[str, ...]:
-    """Load blocked host suffixes from exclusion catalogs."""
     default_paths = [
         "exclusions/default.yaml",
         "exclusions/shared.yaml",
@@ -50,8 +49,7 @@ def load_exclusion_suffixes(paths: Iterable[str] | None = None) -> tuple[str, ..
         if not p.exists():
             continue
         data = yaml.safe_load(p.read_text(encoding="utf-8")) or {}
-        global_cfg = data.get("global") or {}
-        for s in global_cfg.get("blocked_suffixes") or []:
+        for s in (data.get("global") or {}).get("blocked_suffixes") or []:
             blocked.add(str(s).lower().strip("."))
         for item in data.get("items") or []:
             asset = str(item.get("asset", "")).lower().strip(".")
@@ -62,17 +60,4 @@ def load_exclusion_suffixes(paths: Iterable[str] | None = None) -> tuple[str, ..
 
 def is_excluded(domain: str, blocked_suffixes: tuple[str, ...]) -> bool:
     d = domain.lower().strip(".")
-    for suffix in blocked_suffixes:
-        if d == suffix or d.endswith("." + suffix):
-            return True
-    return False
-
-
-_NOISE_LABELS = (
-    "jstracker", "tracker", "beacon", "analytics", "utm", "log.", "logs.",
-)
-
-
-def is_noise_domain(domain: str) -> bool:
-    d = domain.lower()
-    return any(x in d for x in _NOISE_LABELS)
+    return any(d == suffix or d.endswith("." + suffix) for suffix in blocked_suffixes)

@@ -7,10 +7,10 @@ on:
 
 permissions:
   contents: write
+  pull-requests: write
 
 jobs:
   generate:
-    if: ${{ false }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v4
@@ -18,14 +18,34 @@ jobs:
         with:
           python-version: "3.11"
       - run: python -m pip install -r requirements.txt
+      - run: python -m source_engine validate
       - run: python -m source_engine generate --all
-      - run: |
-          git add generated snapshots reports
+      - name: Summarize generated states
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          for path in sorted(Path("snapshots").glob("*/manifest.json")):
+              data = json.loads(path.read_text(encoding="utf-8"))
+              print(
+                  data.get("service_id"),
+                  data.get("release_state"),
+                  data.get("release_reasons", []),
+              )
+          PY
+      - name: Open refresh PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          BRANCH="automation/source-refresh-${GITHUB_RUN_ID}"
+          git checkout -b "$BRANCH"
+          git add generated snapshots
           if git diff --cached --quiet; then
             echo "No changes"
-          else
-            git config user.name "github-actions[bot]"
-            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-            git commit -m "chore(source): refresh official source snapshots"
-            git push
+            exit 0
           fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(source): refresh official source snapshots"
+          git push --set-upstream origin "$BRANCH"
+          gh pr create             --base main             --head "$BRANCH"             --title "chore(source): refresh official source snapshots"             --body "Automated official-source refresh. CI must validate evidence, boundaries and deterministic output before merge."

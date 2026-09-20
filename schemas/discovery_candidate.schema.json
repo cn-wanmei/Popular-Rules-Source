@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Source Discovery Candidate",
+  "type": "object",
+  "required": ["candidate_id", "service_id", "value", "asset_type", "status"],
+  "properties": {
+    "candidate_id": {"type": "string"},
+    "service_id": {"type": "string"},
+    "value": {"type": "string"},
+    "asset_type": {"enum": ["domain", "url", "ip", "cidr"]},
+    "status": {"enum": ["candidate", "verified", "rejected", "promoted"]},
+    "source_url": {"type": "string"},
+    "source_method": {"type": "string"},
+    "evidence_ids": {"type": "array", "items": {"type": "string"}},
+    "reason": {"type": "string"}
+  },
+  "additionalProperties": true
+}

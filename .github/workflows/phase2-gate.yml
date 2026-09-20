@@ -1,0 +1,25 @@
+name: Phase 2 Source Gate
+
+on:
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  phase2:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: "3.11"
+      - run: python -m pip install -r requirements.txt
+      - run: python -m source_engine validate
+      - run: python -m pytest -q
+      - run: python -m source_engine candidate-audit
+      - run: python -m source_engine schema-validate
+      - run: python -m source_engine conflict
+      - run: python -m source_engine audit

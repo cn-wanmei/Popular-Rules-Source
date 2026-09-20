@@ -2,36 +2,57 @@
 
 ## Normalization
 
-- Lowercase, strip scheme/port/path, strip trailing dots
-- IDNA / Punycode normalization
-- Reject IP literals, localhost, example.com, private/malformed labels
+统一进行：
 
-## Allow policy
+- lower-case
+- strip scheme/path/query/fragment
+- strip trailing dot
+- IDNA / Punycode
+- reject IP literals
+- reject malformed labels
+- reject example / localhost
 
-Each service declares:
+## Allow Policy
 
-- `allowed_host_exact`
-- `allowed_host_suffixes`
+每个 Service 至少定义：
 
-A candidate domain must match allow policy **after** extraction.
+- allowed_host_exact
+- allowed_host_suffixes
+
+Candidate 提取以后再执行 Allow Policy。
 
 ## Classification
 
-| Class | Enter service domain list? |
-| ----- | -------------------------- |
+| Classification | Service List |
+|---|---|
 | service | Yes |
 | shared | No |
 | external_dependency | No |
 | provider | No |
 | infrastructure | No |
+| candidate | Review only |
 | unknown | No |
 
-## Wildcards
+## Wildcard
 
-Only when official source explicitly expresses `*.example.com`.
-Never promote `example.com` to `*.example.com` automatically.
+只有源数据明确表达 wildcard 才保留 wildcard 语义。
+
+绝不从 apex 自动扩大为 wildcard。
+
+## Override
+
+Override 必须有 reason 或 evidence，并重新经过 Service Allow Policy、Exclusion 和 Tombstone。
 
 ## Removal
 
-Official list removal → `REMOVAL_CANDIDATE` → secondary checks → explicit revoke / tombstone.
-Never auto-delete on a single fetch anomaly.
+~~~text
+Official removed
+   ↓
+REMOVAL_CANDIDATE
+   ↓
+Secondary Verification
+   ↓
+Explicit Revoke
+   ↓
+Tombstone
+~~~
