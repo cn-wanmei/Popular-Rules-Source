@@ -7,12 +7,16 @@ from pathlib import Path
 
 import yaml
 
+from .diff import domain_diff
 from .extract import extract_domains
 from .fetch import FetchError, fetch
 from .normalize import normalize_domain, service_asset_id
-from .policy import assess_count_change, load_exclusion_suffixes, is_excluded
+from .overrides import apply_overrides, load_service_overrides
+from .policy import assess_count_change, is_excluded, load_exclusion_suffixes
+from .tombstone import filter_revoked
 
 PARSER_VERSION = "domain-extractor-v2"
+GENERATOR_VERSION = "1.1.0"
 
 
 def load_yaml(path: str) -> dict:
@@ -127,8 +131,18 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
 
     blocked_suffixes = load_exclusion_suffixes()
     domains = {d for d in domains if not is_excluded(d, blocked_suffixes)}
+    domains = filter_revoked(service_id, domains)
+    domains = apply_overrides(domains, load_service_overrides(service_id))
     sorted_domains = sorted(domains)
     previous = latest_domains(service_id)
+    # last-known-good retained by latest_domains when new build is blocked
+    diff = domain_diff(previous, sorted_domains)
+    used_last_known_good = False
+    if errors and not sorted_domains and previous:
+        # Fetch failures must not replace last-known-good with empty list
+        sorted_domains = list(previous)
+        used_last_known_good = True
+        diff = domain_diff(previous, sorted_domains)
     assessment = assess_count_change(
         len(previous),
         len(sorted_domains),
@@ -167,6 +181,7 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
         "service_id": service_id,
         "created_at": now.isoformat(),
         "parser_version": PARSER_VERSION,
+        "generator_version": GENERATOR_VERSION,
         "source_count": len(cfg.get("official_sources", [])),
         "domain_count": len(sorted_domains),
         "domains": sorted_domains,
@@ -178,12 +193,14 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
             "removal_ratio": assessment.removal_ratio,
             "growth_ratio": assessment.growth_ratio,
         },
+        "domain_diff": diff,
         "errors": errors,
         "release_state": (
-            "BLOCKED" if errors and not [e for e in evidence_items if e["source_method"] == "official_web"]
-            else "REVIEW" if errors or assessment.status != "OK"
+            "BLOCKED" if assessment.status == "BLOCK_EMPTY" and not used_last_known_good
+            else "REVIEW" if used_last_known_good or errors or assessment.status != "OK"
             else "CANDIDATE"
         ),
+        "last_known_good": used_last_known_good,
     }
 
     snapshot_dir = Path("snapshots") / snapshot_id

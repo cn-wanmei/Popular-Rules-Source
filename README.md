@@ -57,6 +57,10 @@ python -m source_engine generate --service qqmail
 python -m source_engine generate --all
 python -m source_engine release --service qqmail
 python -m source_engine test-determinism
+python -m source_engine dod
+python -m source_engine discover --service 1688
+python -m source_engine revoke --service 1688 --domain bad.example.com
+python -m source_engine promote --service 1688 --snapshot <snap-id>
 pytest -q
 ```
 

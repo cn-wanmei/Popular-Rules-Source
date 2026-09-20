@@ -39,8 +39,20 @@ def validate_config() -> list[str]:
     return errors
 
 
+def validate_schemas_present() -> list[str]:
+    required = [
+        "schemas/service.schema.json",
+        "schemas/asset.schema.json",
+        "schemas/evidence.schema.json",
+        "schemas/snapshot.schema.json",
+        "schemas/release.schema.json",
+        "schemas/exclusion.schema.json",
+    ]
+    return [f"missing schema: {r}" for r in required if not Path(r).exists()]
+
+
 def run_validation() -> None:
-    errors = validate_config()
+    errors = validate_config() + validate_schemas_present()
     if errors:
         raise ValidationError("\n".join(errors))
     print(f"validation: PASS ({len(load_services()['services'])} services)")

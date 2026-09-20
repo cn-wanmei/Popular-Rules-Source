@@ -12,6 +12,9 @@ validate:
 audit:
 	$(PYTHON) -m source_engine audit
 
+dod:
+	$(PYTHON) -m source_engine dod
+
 reconcile:
 	$(PYTHON) -m source_engine reconcile
 
@@ -21,4 +24,4 @@ generate:
 determinism:
 	$(PYTHON) -m source_engine test-determinism
 
-.PHONY: install test validate audit reconcile generate determinism
+.PHONY: install test validate audit dod reconcile generate determinism

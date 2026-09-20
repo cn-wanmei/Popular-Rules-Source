@@ -1,0 +1,21 @@
+version: 1
+schema: popular_rules_source_release_v1
+repository: cn-wanmei/Popular-Rules-Source
+gates:
+  block_on:
+    - schema_error
+    - invalid_evidence
+    - unresolved_conflict
+    - unexpected_empty
+    - determinism_fail
+  review_on:
+    - large_removal
+    - large_growth
+    - fetch_degraded
+promotion:
+  target_project: cn-wanmei/Popular-Rules-Collection
+  input_kind: supplemental_source_release
+retention:
+  snapshots_days: 180
+  release_evidence_days: 180
+  tombstones: permanent
