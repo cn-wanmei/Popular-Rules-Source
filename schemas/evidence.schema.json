@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Popular Rules Source Evidence",
+  "type": "object",
+  "required": ["evidence_id", "service_id", "source_url", "source_method", "retrieved_at", "content_hash", "parser_version", "status"],
+  "properties": {
+    "evidence_id": {"type": "string"},
+    "service_id": {"type": "string"},
+    "source_url": {"type": "string", "format": "uri"},
+    "resolved_url": {"type": "string", "format": "uri"},
+    "source_method": {"type": "string"},
+    "retrieved_at": {"type": "string"},
+    "content_hash": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "parser_version": {"type": "string"},
+    "confidence": {"enum": ["high", "medium", "low", "unknown"]},
+    "status": {"enum": ["verified", "candidate", "rejected", "stale", "revoked"]},
+    "domains_extracted": {"type": "integer", "minimum": 0}
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Popular Rules Source Snapshot",
+  "type": "object",
+  "required": ["schema", "snapshot_id", "service_id", "created_at", "domain_count", "domains", "assets", "evidence", "release_state"],
+  "properties": {
+    "schema": {"const": "source_snapshot_v1"},
+    "snapshot_id": {"type": "string"},
+    "service_id": {"type": "string"},
+    "created_at": {"type": "string"},
+    "domain_count": {"type": "integer", "minimum": 0},
+    "domains": {"type": "array", "items": {"type": "string"}},
+    "assets": {"type": "array", "items": {"$ref": "asset.schema.json"}},
+    "evidence": {"type": "array", "items": {"type": "object"}},
+    "release_state": {"enum": ["BLOCKED", "REVIEW", "CANDIDATE", "PUBLISHED"]},
+    "errors": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

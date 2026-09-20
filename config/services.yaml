@@ -1,0 +1,91 @@
+version: 1
+services:
+  "1688":
+    display_name: "1688"
+    ecosystem: alibaba
+    status: review
+    official_sources:
+      - "https://open.1688.com/"
+    seed_domains:
+      - "open.1688.com"
+    allowed_host_suffixes:
+      - "1688.com"
+  cainiao:
+    display_name: "菜鸟"
+    ecosystem: alibaba
+    status: review
+    official_sources:
+      - "https://open.cainiao.com/"
+    seed_domains:
+      - "open.cainiao.com"
+    allowed_host_suffixes:
+      - "cainiao.com"
+  dingding:
+    display_name: "钉钉"
+    ecosystem: alibaba
+    status: review
+    official_sources:
+      - "https://open.dingtalk.com/"
+    seed_domains:
+      - "open.dingtalk.com"
+    allowed_host_suffixes:
+      - "dingtalk.com"
+  qqmail:
+    display_name: "QQ邮箱"
+    ecosystem: tencent
+    status: review
+    official_sources:
+      - "https://mail.qq.com/"
+    seed_domains:
+      - "mail.qq.com"
+      - "imap.qq.com"
+      - "smtp.qq.com"
+      - "pop.qq.com"
+    allowed_host_exact:
+      - "mail.qq.com"
+      - "imap.qq.com"
+      - "smtp.qq.com"
+      - "pop.qq.com"
+    allowed_host_suffixes: []
+  qqmusic:
+    display_name: "QQ音乐"
+    ecosystem: tencent
+    status: review
+    official_sources:
+      - "https://y.qq.com/"
+    seed_domains:
+      - "y.qq.com"
+    allowed_host_suffixes:
+      - "y.qq.com"
+  taobao:
+    display_name: "淘宝"
+    ecosystem: alibaba
+    status: review
+    official_sources:
+      - "https://open.taobao.com/"
+    seed_domains:
+      - "open.taobao.com"
+    allowed_host_suffixes:
+      - "taobao.com"
+  tencentcloud:
+    display_name: "腾讯云"
+    ecosystem: tencent
+    status: partial
+    official_sources:
+      - "https://cloud.tencent.com/document/api"
+      - "https://cloud.tencent.com/api"
+    seed_domains:
+      - "cloud.tencent.com"
+    allowed_host_suffixes:
+      - "cloud.tencent.com"
+      - "tencentcloudapi.com"
+  tmall:
+    display_name: "天猫"
+    ecosystem: alibaba
+    status: review
+    official_sources:
+      - "https://www.tmall.com/"
+    seed_domains:
+      - "www.tmall.com"
+    allowed_host_suffixes:
+      - "tmall.com"
