@@ -1,0 +1,14 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+dist/
+build/
+*.egg-info/
+raw/
+generated/
+snapshots/
+reports/
+!reports/.gitkeep
+!generated/.gitkeep
+!snapshots/.gitkeep
