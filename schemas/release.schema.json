@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Popular Rules Source Release",
+  "type": "object",
+  "required": ["schema", "repository", "commit", "snapshot_id", "version"],
+  "properties": {
+    "schema": {"const": "popular_rules_source_release_v1"},
+    "repository": {"type": "string"},
+    "commit": {"type": "string"},
+    "snapshot_id": {"type": "string"},
+    "version": {"type": "string"},
+    "created_at": {"type": "string"},
+    "checksums": {"type": "object"},
+    "validation": {"type": "object"},
+    "reconciliation": {"type": "object"}
+  },
+  "additionalProperties": false
+}
