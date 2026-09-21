@@ -1,0 +1,158 @@
+name: Durable Source Bridge
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "snapshots/**"
+      - "releases/**"
+      - "generated/source/**"
+      - "reports/durable-bridge/**"
+  workflow_dispatch:
+    inputs:
+      services:
+        description: "Comma-separated services; default qqmail,qqmusic,taobao,tencentcloud,tmall"
+        required: false
+        default: "qqmail,qqmusic,taobao,tencentcloud,tmall"
+        type: string
+
+permissions:
+  contents: write
+
+env:
+  PYTHON_VERSION: "3.11"
+
+jobs:
+  release:
+    name: Release ${{ matrix.service }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        service: [qqmail, qqmusic, taobao, tencentcloud, tmall]
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - run: python -m pip install -r requirements.txt
+      - name: Validate source configuration
+        run: python -m source_engine validate
+      - name: Generate immutable snapshot
+        run: python -m source_engine generate --service "${{ matrix.service }}"
+      - name: Validate snapshot schema
+        run: python -m source_engine schema-validate
+      - name: Create durable release
+        run: python -m source_engine release --service "${{ matrix.service }}"
+      - name: Verify release contract
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          import sys
+
+          service = "${{ matrix.service }}"
+          roots = sorted((Path("releases") / service).glob("*/release.json"))
+          if not roots:
+              raise SystemExit(f"no durable release produced for {service}")
+          release_path = roots[-1]
+          release = json.loads(release_path.read_text(encoding="utf-8"))
+          required = {"service_id", "snapshot_id", "content_digest", "checksums", "validation"}
+          missing = sorted(required - release.keys())
+          if missing:
+              raise SystemExit(f"release contract missing: {missing}")
+          if release["service_id"] != service:
+              raise SystemExit("service_id mismatch")
+          snapshot = Path("snapshots") / release["snapshot_id"]
+          for name in ("domains.txt", "provenance.json", "manifest.json", "checksums.json"):
+              if not (snapshot / name).is_file():
+                  raise SystemExit(f"snapshot artifact missing: {snapshot / name}")
+          print(json.dumps({"service": service, "release": str(release_path), "snapshot_id": release["snapshot_id"], "content_digest": release["content_digest"]}, ensure_ascii=False))
+          PY
+      - name: Upload durable candidate
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
+        with:
+          name: durable-${{ matrix.service }}
+          if-no-files-found: warn
+          path: |
+            snapshots/
+            releases/
+            generated/source/${{ matrix.service }}/
+
+  persist:
+    name: Persist durable snapshots
+    needs: release
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/download-artifact@v5
+        with:
+          pattern: durable-*
+          path: durable-artifacts
+      - name: Merge verified artifacts and write bridge report
+        run: |
+          python - <<'PY'
+          import json
+          import shutil
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          root = Path.cwd()
+          artifact_root = root / "durable-artifacts"
+          services = ["qqmail", "qqmusic", "taobao", "tencentcloud", "tmall"]
+          report = {"schema": "popular_rules_source_durable_bridge_v1", "created_at": datetime.now(timezone.utc).isoformat(), "services": {}}
+
+          for service in services:
+              source_root = artifact_root / f"durable-{service}"
+              releases = sorted((source_root / "releases" / service).glob("*/release.json")) if (source_root / "releases" / service).exists() else []
+              if not releases:
+                  report["services"][service] = {"status": "BLOCKED", "reason": "no durable release artifact"}
+                  continue
+
+              release_path = releases[-1]
+              release = json.loads(release_path.read_text(encoding="utf-8"))
+              snapshot_id = release["snapshot_id"]
+              snapshot = source_root / "snapshots" / snapshot_id
+              required = ["domains.txt", "provenance.json", "manifest.json", "checksums.json"]
+              missing = [name for name in required if not (snapshot / name).is_file()]
+              if missing:
+                  report["services"][service] = {"status": "BLOCKED", "reason": "snapshot artifact missing", "missing": missing, "snapshot_id": snapshot_id}
+                  continue
+
+              for rel in [Path("snapshots") / snapshot_id, Path("releases") / service / snapshot_id, Path("generated") / "source" / service]:
+                  src = source_root / rel
+                  if src.exists():
+                      dst = root / rel
+                      if dst.exists():
+                          shutil.rmtree(dst) if dst.is_dir() else dst.unlink()
+                      shutil.copytree(src, dst) if src.is_dir() else shutil.copy2(src, dst)
+
+              report["services"][service] = {
+                  "status": "PERSISTED",
+                  "snapshot_id": snapshot_id,
+                  "content_digest": release["content_digest"],
+                  "release_path": str(Path("releases") / service / snapshot_id / "release.json"),
+                  "source_ref": "main@" + "${{ github.sha }}",
+              }
+
+          out = root / "reports" / "durable-bridge"
+          out.mkdir(parents=True, exist_ok=True)
+          (out / "latest.json").write_text(json.dumps(report, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+          print(json.dumps(report, ensure_ascii=False, indent=2))
+          PY
+      - name: Commit persisted snapshots
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add snapshots releases generated/source reports/durable-bridge/latest.json
+          if git diff --cached --quiet; then
+            echo "No durable snapshot changes to persist."
+            exit 0
+          fi
+          git commit -m "chore(source): persist durable immutable snapshots [skip ci]"
+          git push origin main
