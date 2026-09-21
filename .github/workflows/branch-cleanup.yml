@@ -27,7 +27,9 @@ jobs:
               'phase2/promote-cainiao-production-20260921',
               'phase2/promote-qqmail-production-20260921',
               'phase2/source-main-gate-trigger-20260921',
-              'fix/strict-lineage-bridge-20260921'
+              'fix/strict-lineage-bridge-20260921',
+              'automation/source-refresh-35575756606',
+              'chore/audit-cleanup-docs-20260920'
             ];
             for (const branch of branches) {
               try {
