@@ -142,10 +142,6 @@
       "value": "www.taobao.com"
     }
   ],
-  "content_digest": "d865dad40f26ed85eb11a09b67004b2417285aedc726e6f546af64a2529e0ad2",
-  "official_extracted": 15,
   "schema": "source_provenance_v2",
-  "service_id": "taobao",
-  "snapshot_id": "snap-taobao-d865dad40f26ed85eb11a09b",
-  "unverified_candidate_count": 0
+  "service_id": "taobao"
 }

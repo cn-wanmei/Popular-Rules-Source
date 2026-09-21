@@ -1,0 +1,17 @@
+{
+  "domains": [
+    "1688.com",
+    "open.1688.com",
+    "www.1688.com"
+  ],
+  "generator_version": "2.0.0",
+  "official_source_hashes": [
+    "339e2b215b02cf543132ca8bfeed9398c949ea4bb68cabef742cb64ea5a2429c",
+    "c824f8203118e60b93fc6adabe99e2b621e13fb23ce6111c2d5d677c4b7b2088"
+  ],
+  "parser_version": "domain-extractor-v3",
+  "schema": "source_snapshot_content_v1",
+  "service_config_digest": "b6d69dcef753c0305268f8a225dcce364f58cc3de61a9d1f82a62f54e11207b7",
+  "service_id": "1688",
+  "unverified_candidate_domains": []
+}

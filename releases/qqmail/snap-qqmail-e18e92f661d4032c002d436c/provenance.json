@@ -11,10 +11,6 @@
       "value": "mail.qq.com"
     }
   ],
-  "content_digest": "e18e92f661d4032c002d436c39682fcc322a808af1c2aa2889c6f92707f89934",
-  "official_extracted": 1,
   "schema": "source_provenance_v2",
-  "service_id": "qqmail",
-  "snapshot_id": "snap-qqmail-e18e92f661d4032c002d436c",
-  "unverified_candidate_count": 0
+  "service_id": "qqmail"
 }

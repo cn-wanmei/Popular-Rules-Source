@@ -61,10 +61,6 @@
       "value": "www.dingtalk.com"
     }
   ],
-  "content_digest": "a8d439dd579c51318213ff4d805373b5b3a157061bcf4529783c3dcad7a0980d",
-  "official_extracted": 6,
   "schema": "source_provenance_v2",
-  "service_id": "dingding",
-  "snapshot_id": "snap-dingding-a8d439dd579c51318213ff4d",
-  "unverified_candidate_count": 0
+  "service_id": "dingding"
 }

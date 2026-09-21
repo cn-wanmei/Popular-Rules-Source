@@ -1,0 +1,15 @@
+{
+  "domains": [
+    "mail.qq.com"
+  ],
+  "generator_version": "2.0.0",
+  "official_source_hashes": [
+    "816779f28a15b5196aceb14edca4bea63421de7820083074da3de5c7643fbc3c",
+    "d6d0f88ad500be87d590e1617f52ae5e8f23a2227e4da64c24e70b326d61ecbc"
+  ],
+  "parser_version": "domain-extractor-v3",
+  "schema": "source_snapshot_content_v1",
+  "service_config_digest": "b46d160b5e4506e578742a4ed3bd27eabfd557b12d12de6a4280ec9494abfc86",
+  "service_id": "qqmail",
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,26 @@
+{
+  "checksums": {
+    "domains.txt": "88646cd8d663976d7e4c72bc3ce43c760b059faa12bf72e81c8a760ef2563fc0",
+    "provenance.json": "d989f10adafd8d4226bc69353e6c2437f7ef5aae8a46f7f9d67bb007b7b2818d",
+    "snapshot_content.json": "9c2d10af3d24f77850a3344527a38b5f05234ef10ce7403b9ab9bc51cc58c0e4"
+  },
+  "content_digest": "d865dad40f26ed85eb11a09b67004b2417285aedc726e6f546af64a2529e0ad2",
+  "created_at": "2026-09-21T11:52:59.181563+00:00",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "taobao",
+  "snapshot_id": "snap-taobao-d865dad40f26ed85eb11a09b",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 1.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.3.1"
+}

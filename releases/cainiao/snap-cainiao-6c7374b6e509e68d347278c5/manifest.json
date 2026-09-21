@@ -1,0 +1,68 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:4a5a76ae772e2978cd068b962bcef484aad56810082ee4141bcdc74ea6c89d23",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cainiao-001-d6cf6b18d3e4"
+      ],
+      "service_id": "cainiao",
+      "type": "domain",
+      "value": "gpn.cainiao.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 1.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "6c7374b6e509e68d347278c5bcfc25686e771e0127d3941228262153a6c2d032",
+  "created_at": "2026-09-21T11:52:52.418165+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [],
+    "added_count": 0,
+    "current_count": 1,
+    "previous_count": 1,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
+      "gpn.cainiao.com"
+    ],
+    "unchanged_count": 1
+  },
+  "domains": [
+    "gpn.cainiao.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "confidence": "high",
+      "content_hash": "d6cf6b18d3e45cc707e040cc152ca3f94316bd39e01bd6d14c71e5f06d44fbcc",
+      "domains_extracted": 1,
+      "evidence_id": "EV-cainiao-001-d6cf6b18d3e4",
+      "parser_version": "domain-extractor-v3",
+      "resolved_url": "https://gpn.cainiao.com/",
+      "retrieved_at": "2026-09-21T11:52:51.711959+00:00",
+      "service_id": "cainiao",
+      "source_method": "official_web",
+      "source_url": "https://gpn.cainiao.com/",
+      "status": "verified"
+    }
+  ],
+  "generator_version": "2.0.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "parser_version": "domain-extractor-v3",
+  "previous_domain_count": 1,
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "fa51d88d6f8c98adbc1751238e517a471d545b8eea10052598e640661d2df8f7",
+  "service_id": "cainiao",
+  "snapshot_content_sha256": "6c7374b6e509e68d347278c5bcfc25686e771e0127d3941228262153a6c2d032",
+  "snapshot_id": "snap-cainiao-6c7374b6e509e68d347278c5",
+  "source_count": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}
