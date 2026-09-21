@@ -89,10 +89,12 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
     for idx, source_url in enumerate(cfg.get("official_sources", []), 1):
         used = None
         meta = None
+        selected_domains: tuple[str, ...] = ()
+        empty_success: tuple[str, dict] | None = None
         source_errors: list[str] = []
         for adapter_name in adapter_names_for(service_id):
             try:
-                result = extract_with_adapter(
+                extraction = extract_with_adapter(
                     service_id=service_id,
                     adapter_name=adapter_name,
                     source_url=str(source_url),
@@ -100,19 +102,23 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
                     suffixes=suffixes,
                     adapter_policy=adapter_policy,
                 )
-                if result.domains:
-                    domains.update(result.domains)
+                if extraction.domains:
+                    selected_domains = extraction.domains
                     used = adapter_name
-                    meta = result.evidence
+                    meta = extraction.evidence
                     break
-                source_errors.append(f"{adapter_name}: zero official domains")
+                if empty_success is None:
+                    empty_success = (adapter_name, extraction.evidence)
             except Exception as exc:
                 source_errors.append(f"{adapter_name}: {exc}")
+        if used is None and empty_success is not None:
+            used, meta = empty_success
+            selected_domains = ()
         if used is None:
-            errors.append(f"{source_url}: " + " | ".join(source_errors))
+            errors.append(f"{source_url}: " + " | ".join(source_errors or ["no adapter produced evidence"]))
             continue
 
-        domain_list = sorted(set(result.domains))
+        domain_list = sorted(set(selected_domains))
         content_hash = str((meta or {}).get("content_hash") or _digest(meta or {}))
         evidence_id = f"EV-{service_id}-{idx:03d}-{content_hash[:12]}"
         evidence = {
