@@ -2,88 +2,70 @@
 
 ## Role
 
-Popular-Rules-Source 是 Popular-Rules-Collection 的 Supplemental Source / Evidence Supply Layer。
+Popular-Rules-Source is the upstream Evidence Supply Layer for Popular-Rules-Collection.
 
-它负责 Source 侧的采集、证据、边界、材料化、Snapshot 与 Release Candidate；不负责 Collection Canonical、Semantic IR、V3 Runtime、客户端 Adapter 和最终发布树。
+It owns discovery, official evidence, boundary policy, Gap Detection, Repair, immutable Snapshot/Release, provenance identity and reconciliation.
 
-## Invariant
-
-~~~text
-Source ≠ Canonical ≠ Runtime ≠ Generated
-~~~
+It does not own Collection Canonical, Semantic IR, client adapters or final distribution.
 
 ## Pipeline
 
-~~~text
-Official Source
-      ↓
-Fetch / Raw Hash
-      ↓
-Extract
-      ↓
-Normalize
-      ↓
-Service Boundary
-      ↓
-Exclusion
-      ↓
-Evidence Binding
-      ↓
-Diff / Conflict
-      ↓
-Immutable Snapshot
-      ↓
-Release Candidate
-      ↓
-Collection Reconciliation
-~~~
+    Official Sources
+         ↓
+    Fetch / Retry / Health
+         ↓
+    Extract / Adapter Contract
+         ↓
+    Normalize / Boundary / Exclusion
+         ↓
+    Evidence Binding
+         ↓
+    Gap Engine / Repair
+         ↓
+    Immutable Snapshot
+         ↓
+    Evidence Gate
+         ↓
+    Durable Release
+         ↓
+    Immutable Seal
+         ↓
+    Collection Auto Handoff
 
-## Source authority
+## Lifecycle SSOT
 
-Authority、source method、evidence strength、service ownership、classification 五个维度独立维护。
+`config/source_canary_state.yaml` is the only lifecycle state database.
 
-“官方网页出现过某 Host”不等于“该 Host 属于目标服务”。
+`config/services.yaml` is static service definition.
 
-## Materialization
+Snapshot identity lives in the immutable snapshot manifest.
 
-只有 service classification 可以进入服务域名 Source。
+Collection consumes the Source immutable binding from its own `sources/immutable_registry.yaml`.
 
-shared、external_dependency、provider、infrastructure、unknown、candidate 均不能直接进入 Production。
+## Provenance v2
 
-## Authoring 与生成
+Every releasable service has:
 
-authoring 是人工输入。  
-generated/source 是构建输出。  
-Seed-only 结果必须为 REVIEW。
+- content digest
+- evidence digest
+- policy digest
+- generator digest
+- release digest
+- immutable source reference
+- verified input commit
 
-## Snapshot
+Collection must verify all of them for equality before acquisition.
 
-Snapshot ID 由内容摘要决定；运行时间只是元数据。
+## Adapter architecture
 
-已经存在的 Snapshot 不允许覆写。
+The adapter contract supports official_web, official_json, official_api, official_manifest, official_sdk and official_browser.
 
-## Collection Integration
+Browser/JS execution is a controlled official-source adapter, not a general-purpose crawler. It is allowed only for explicitly configured official origins and must emit deterministic evidence metadata.
 
-~~~text
-Popular-Rules-Source
-        ↓
-Immutable Source Release
-        ↓
-Popular-Rules-Collection
-        ↓
-V3 Collection / Canonical / IR
-        ↓
-7 Clients
-~~~
+## Fail-closed boundaries
 
-当前 Collection 中 PRS Source Registry 入口保持 disabled，直到官方-evidence-only Source Release 通过 Reconciliation 和 Production Gate。
-
-## Forbidden
-
-- 猜域名 / IP
-- ASN → Product 直接归属
-- CDN → Product 直接归属
-- Fixture → Production
-- 一次 Fetch 失败自动删源
-- 修改已发布 Snapshot
-- 直接写 Collection Canonical
+- third-party hosts are not automatically first-party service assets;
+- provider/ASN infrastructure never establishes product ownership;
+- external cross-checks are auxiliary evidence only;
+- fetch degradation retains Last Known Good and blocks unsafe replacement;
+- immutable artifacts are never rewritten.
