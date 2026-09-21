@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   cleanup-legacy:
-    if: github.event_name == 'push' && startsWith(github.event.head_commit.message, 'chore(repo): cleanup legacy branches')
+    if: "github.event_name == 'push' && startsWith(github.event.head_commit.message, 'chore(repo): cleanup legacy branches')"
     runs-on: ubuntu-latest
     steps:
       - name: Delete confirmed obsolete branches
