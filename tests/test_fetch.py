@@ -73,3 +73,36 @@ def test_fetch_keeps_fail_closed_after_retry_budget(monkeypatch):
         raise AssertionError("persistent timeout must remain a FetchError")
 
     assert calls["count"] == 2
+
+
+class _ForbiddenResponse(_Response):
+    status_code = 403
+
+    def raise_for_status(self):
+        raise requests.HTTPError(response=self)
+
+
+def test_fetch_does_not_retry_non_transient_4xx(monkeypatch):
+    calls = {"count": 0}
+
+    def fake_get(*args, **kwargs):
+        calls["count"] += 1
+        return _ForbiddenResponse()
+
+    monkeypatch.setattr(fetch.requests, "get", fake_get)
+    monkeypatch.setattr(fetch.time, "sleep", lambda _: None)
+
+    try:
+        fetch.fetch(
+            "https://example.com/",
+            timeout=45,
+            max_bytes=1024,
+            user_agent="test",
+            retry_attempts=3,
+            retry_backoff_seconds=0,
+        )
+    except fetch.FetchError:
+        pass
+    else:
+        raise AssertionError("403 must fail without retry")
+    assert calls["count"] == 1
