@@ -5,6 +5,10 @@ on:
   workflow_run:
     workflows: ["Durable Source Bridge"]
     types: [completed]
+  push:
+    branches: [main]
+    paths:
+      - "reports/durable-bridge/latest.json"
   workflow_dispatch:
 
 permissions:
@@ -13,7 +17,8 @@ permissions:
 jobs:
   handoff:
     if: >-
-      ${{ github.event_name == 'workflow_dispatch' ||
+      ${{ github.event_name == 'push' ||
+          github.event_name == 'workflow_dispatch' ||
           github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     steps:

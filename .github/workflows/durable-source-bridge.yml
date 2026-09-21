@@ -10,6 +10,7 @@ on:
       - "config/source_canary_state.yaml"
       - ".github/workflows/branch-cleanup.yml"
       - ".github/workflows/durable-source-bridge.yml"
+      - ".github/workflows/collection-handoff.yml"
   workflow_dispatch:
     inputs:
       services:
@@ -177,6 +178,7 @@ jobs:
                   "policy_digest": release.get("policy_digest"),
                   "generator_digest": release.get("generator_digest"),
                   "release_digest": release.get("release_digest"),
+                  "release_identity_version": release.get("release_identity_version"),
                   "release_path": str(Path("releases") / service / snapshot_id / "release.json"),
               }
 
