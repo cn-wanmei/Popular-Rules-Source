@@ -83,6 +83,8 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
                 timeout=int(adapter_policy["timeout_seconds"]),
                 max_bytes=int(adapter_policy["max_bytes"]),
                 user_agent=str(adapter_policy["user_agent"]),
+                retry_attempts=int(adapter_policy.get("retry_attempts", 1)),
+                retry_backoff_seconds=float(adapter_policy.get("retry_backoff_seconds", 1)),
             )
         except FetchError as exc:
             errors.append(str(exc))

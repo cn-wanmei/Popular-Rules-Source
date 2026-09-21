@@ -3,7 +3,9 @@ adapters:
   official_web:
     enabled: true
     method: html_domain_extraction
-    timeout_seconds: 30
+    timeout_seconds: 45
+    retry_attempts: 2
+    retry_backoff_seconds: 2
     max_bytes: 5000000
     user_agent: "Popular-Rules-Source/1.x"
   official_json:
