@@ -1,0 +1,87 @@
+{
+  "schema": "phase2_service_completion_derived_v1",
+  "services": {
+    "1688": {
+      "blockers": [],
+      "declared_state": "production",
+      "domain_count": 3,
+      "enabled": true,
+      "production_activated": true,
+      "release_digest": null,
+      "snapshot_id": "snap-1688-b48b14f407530d49052090e7",
+      "verified": true
+    },
+    "cainiao": {
+      "blockers": [],
+      "declared_state": "production",
+      "domain_count": 1,
+      "enabled": true,
+      "production_activated": true,
+      "release_digest": null,
+      "snapshot_id": "snap-cainiao-f98c960e71406bdad7f6f2aa",
+      "verified": true
+    },
+    "dingding": {
+      "blockers": [],
+      "declared_state": "production",
+      "domain_count": 6,
+      "enabled": true,
+      "production_activated": true,
+      "release_digest": null,
+      "snapshot_id": "snap-dingding-a8d439dd579c51318213ff4d",
+      "verified": true
+    },
+    "qqmail": {
+      "blockers": [],
+      "declared_state": "production",
+      "domain_count": 1,
+      "enabled": true,
+      "production_activated": true,
+      "release_digest": null,
+      "snapshot_id": "snap-qqmail-e18e92f661d4032c002d436c",
+      "verified": true
+    },
+    "qqmusic": {
+      "blockers": [],
+      "declared_state": "production",
+      "domain_count": 1,
+      "enabled": true,
+      "production_activated": true,
+      "release_digest": null,
+      "snapshot_id": "snap-qqmusic-e903c9a62ef0a67f01a7d15d",
+      "verified": true
+    },
+    "taobao": {
+      "blockers": [],
+      "declared_state": "verified",
+      "domain_count": 14,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": "snap-taobao-f4c1d298c6aec90f470a3681",
+      "verified": true
+    },
+    "tencentcloud": {
+      "blockers": [],
+      "declared_state": "production",
+      "domain_count": 1,
+      "enabled": true,
+      "production_activated": true,
+      "release_digest": null,
+      "snapshot_id": "snap-tencentcloud-b971976c1cdd15a737dcc2c1",
+      "verified": true
+    },
+    "tmall": {
+      "blockers": [],
+      "declared_state": "verified",
+      "domain_count": 8,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": "snap-tmall-e789778d5553d7ddf454595c",
+      "verified": true
+    }
+  },
+  "source_of_truth": "config/source_canary_state.yaml",
+  "state_drift": []
+}

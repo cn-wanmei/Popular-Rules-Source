@@ -1,0 +1,101 @@
+{
+  "schema": "popular_rules_source_lifecycle_report_v1",
+  "services": {
+    "1688": {
+      "content_digest": "b48b14f407530d49052090e7e2b05ce2719eb16c910bac4e1113e5dbdaf2b79a",
+      "domain_count": 3,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "CANDIDATE",
+      "snapshot_id": "snap-1688-b48b14f407530d49052090e7",
+      "state": "production"
+    },
+    "cainiao": {
+      "content_digest": "f98c960e71406bdad7f6f2aa8817b6506fdd34436838d81da45e4b743fc9a202",
+      "domain_count": 1,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "CANDIDATE",
+      "snapshot_id": "snap-cainiao-f98c960e71406bdad7f6f2aa",
+      "state": "production"
+    },
+    "dingding": {
+      "content_digest": "a8d439dd579c51318213ff4d805373b5b3a157061bcf4529783c3dcad7a0980d",
+      "domain_count": 6,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "CANDIDATE",
+      "snapshot_id": "snap-dingding-a8d439dd579c51318213ff4d",
+      "state": "production"
+    },
+    "qqmail": {
+      "content_digest": "e18e92f661d4032c002d436c39682fcc322a808af1c2aa2889c6f92707f89934",
+      "domain_count": 1,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "CANDIDATE",
+      "snapshot_id": "snap-qqmail-e18e92f661d4032c002d436c",
+      "state": "production"
+    },
+    "qqmusic": {
+      "content_digest": "e903c9a62ef0a67f01a7d15df1e139cf7800032767302fc416faaa04a9abc289",
+      "domain_count": 1,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "CANDIDATE",
+      "snapshot_id": "snap-qqmusic-e903c9a62ef0a67f01a7d15d",
+      "state": "production"
+    },
+    "taobao": {
+      "content_digest": "f4c1d298c6aec90f470a3681c921d481725838ff09ffea2611ed84bd11d558fb",
+      "domain_count": 14,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "CANDIDATE",
+      "snapshot_id": "snap-taobao-f4c1d298c6aec90f470a3681",
+      "state": "verified"
+    },
+    "tencentcloud": {
+      "content_digest": "b971976c1cdd15a737dcc2c187faf9fc7f57e9b64a1c4950fa070da00cb6962a",
+      "domain_count": 1,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "CANDIDATE",
+      "snapshot_id": "snap-tencentcloud-b971976c1cdd15a737dcc2c1",
+      "state": "production"
+    },
+    "tmall": {
+      "content_digest": "e789778d5553d7ddf454595c6ef8a74bd6b66800ebf77c65afd56ed9003e4fce",
+      "domain_count": 8,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "CANDIDATE",
+      "snapshot_id": "snap-tmall-e789778d5553d7ddf454595c",
+      "state": "verified"
+    }
+  }
+}
