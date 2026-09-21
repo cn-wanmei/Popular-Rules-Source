@@ -6,7 +6,7 @@ runtime:
   max_bytes: 5000000
   user_agent: Popular-Rules-Source/3.x
 contract:
-  required_fields: [source_url, parser, fixture, evidence_mapping, regression_test]
+  required_fields: [parser, fixture, evidence_mapping, regression_test]
   authority: official_only
 
 adapters:
