@@ -1,47 +1,35 @@
 # Evidence Policy
 
-## Dimensions
+## Evidence model
 
-Evidence 分为：
+Evidence is an auditable relation between an asset and an authoritative source.
 
-~~~text
-authority
-source_method
-evidence_strength
-confidence
-service_scope
-~~~
+Required identity dimensions:
 
-## Grades
+`authority` · `source_method` · `strength` · `confidence` · `service_scope` · `content_hash` · `parser_version`.
 
-| Grade | 示例 | 作用 |
-|---|---|---|
-| S0 | 官方机器可读列表 / 官方 API / 官方配置 | Production-capable |
-| S1 | 官方技术 Endpoint / 文档 / SDK | Production-capable after boundary validation |
-| S2 | 高质量外部交叉证据 | Auxiliary |
-| S3 | Blog / Forum / 单一第三方规则 | Discovery only |
+## Production
 
-## Required Fields
+Production-capable evidence must be official and bound to the exact service scope.
 
-evidence_id、service_id、asset、asset_type、source_url、source_method、retrieved_at、content_hash、parser_version、confidence、status。
+Provider, ASN, CDN and shared infrastructure evidence is not sufficient to establish Product Service ownership.
 
-## Positive / Negative
+## Provenance v2
 
-必须可以解释：
+Each durable release exposes independent:
 
-~~~text
-Why included?
-Why excluded?
-~~~
+- `content_digest`
+- `evidence_digest`
+- `policy_digest`
+- `generator_digest`
+- `release_digest`
 
-排除证据覆盖 Shared Infrastructure、Provider CDN、External Dependency、Ambiguous Ownership、Wrong Product Scope。
+Collection verifies equality for every field before immutable acquisition.
+
+## Negative evidence
+
+Every exclusion decision should be explainable: shared infrastructure, external dependency, ambiguous ownership, wrong product scope or explicit policy/tombstone.
 
 ## Seed
 
-Authoring Seed 的 Evidence 为：
-
-source_method = authoring_seed  
-confidence = unknown  
-status = candidate
-
-Seed 不能直接提升为 Production Evidence。
+Authoring Seed is a candidate source only. It cannot become production evidence without a valid official evidence chain.

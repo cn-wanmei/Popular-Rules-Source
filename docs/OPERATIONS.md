@@ -1,45 +1,27 @@
 # Operations
 
-## Active CI
+## Standard repair
 
-| Workflow | 作用 |
-|---|---|
-| validate.yml | 配置、单元、Snapshot Schema、Conflict、Audit |
-| generate.yml | 定时官方抓取，创建自动刷新 PR |
-| reconcile.yml | 与 Collection Registry / Intentional 状态进行对账 |
-| release.yml | 手动 Release Gate，输出 Artifact，不直接发布到 Collection |
+    python -m source_engine gap --service taobao
+    python -m source_engine repair --service taobao
+    python -m source_engine generate --service taobao
+    python -m source_engine schema-validate
+    python -m source_engine release --service taobao
 
-## CLI
+Use Gap output before repair. Repair must attach official evidence; it must never insert an unexplained domain directly into a Release.
 
-~~~bash
-python -m source_engine validate
-python -m source_engine audit
-python -m source_engine gap
-python -m source_engine reconcile
-python -m source_engine discover --service 1688
-python -m source_engine generate --service 1688
-python -m source_engine release --service 1688
-python -m source_engine schema-validate
-python -m source_engine conflict
-python -m source_engine health
-~~~
+## Verification
 
-## Operational Rule
+    python -m source_engine health
+    python -m source_engine candidate-audit
+    python -m source_engine conflict
+    python -m source_engine reconcile
+    python -m source_engine qualify
 
-Fetch failure 不等于 service coverage = 0。
+## Immutable seal
 
-失败时保留 Last Known Good，并把 Source Health 标记为 degraded/blocked。
+After a successful Source main change, Durable Bridge produces a persistent 8/8 service seal. Collection Auto Handoff then compares the seal against `sources/immutable_registry.yaml` and opens a normal Collection PR when the immutable identity changes.
 
-## Metrics
+## State
 
-重点关注：
-
-- verified coverage
-- evidence completeness
-- conflict rate
-- false attribution rate
-- reconciliation completeness
-- source freshness
-- deterministic reproducibility
-
-不要用域名数量作为唯一质量指标。
+Do not maintain a second lifecycle database. Edit `config/source_canary_state.yaml` only; generated completion reports are derived evidence.
