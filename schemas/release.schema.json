@@ -9,11 +9,16 @@
     "service_id": {"type": "string"},
     "snapshot_id": {"type": "string"},
     "content_digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "evidence_digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "policy_digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "generator_digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "release_digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
     "version": {"type": "string"},
     "created_at": {"type": "string"},
     "checksums": {"type": "object"},
     "validation": {"type": "object"},
-    "reconciliation": {"type": "object"}
+    "reconciliation": {"type": "object"},
+    "lineage": {"type": "object"}
   },
   "additionalProperties": false
 }
