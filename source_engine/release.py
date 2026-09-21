@@ -23,8 +23,23 @@ def create_release(
     release_root.mkdir(parents=True, exist_ok=True)
     release_file = release_root / "release.json"
 
+    expected_identity = {
+        "service_id": service_id,
+        "snapshot_id": manifest["snapshot_id"],
+        "content_digest": manifest["content_digest"],
+        "evidence_digest": manifest.get("evidence_digest"),
+        "policy_digest": manifest.get("policy_digest"),
+        "generator_digest": manifest.get("generator_digest"),
+        "release_digest": manifest.get("release_digest"),
+        "release_identity_version": manifest.get("release_identity_version"),
+    }
     if release_file.exists():
-        return json.loads(release_file.read_text(encoding="utf-8"))
+        existing = json.loads(release_file.read_text(encoding="utf-8"))
+        if all(existing.get(key) == value for key, value in expected_identity.items()):
+            return existing
+        raise RuntimeError(
+            "immutable release collision: existing release identity does not match current snapshot"
+        )
 
     snapshot_dir = Path("snapshots") / manifest["snapshot_id"]
     required = ("domains.txt", "provenance.json", "manifest.json", "checksums.json")
@@ -45,6 +60,7 @@ def create_release(
         "policy_digest": manifest.get("policy_digest"),
         "generator_digest": manifest.get("generator_digest"),
         "release_digest": manifest.get("release_digest"),
+        "release_identity_version": manifest.get("release_identity_version"),
         "version": version,
         "created_at": datetime.now(timezone.utc).isoformat(),
         "checksums": json.loads(
