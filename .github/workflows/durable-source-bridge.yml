@@ -70,7 +70,7 @@ jobs:
               raise SystemExit(f"release contract missing: {missing}")
           if release["service_id"] != service:
               raise SystemExit("service_id mismatch")
-          for key in ("content_digest", "evidence_digest", "policy_digest", "generator_digest", "release_digest"):
+          for key in ("content_digest", "evidence_digest", "policy_digest", "generator_digest", "release_digest", "release_identity_version"):
               value = str(release.get(key) or "")
               if len(value) != 64 or any(ch not in "0123456789abcdef" for ch in value.lower()):
                   raise SystemExit(f"invalid {key} for {service}: {value}")
