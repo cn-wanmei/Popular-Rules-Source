@@ -55,7 +55,7 @@ jobs:
           for sid, item in sorted(services.items()):
               if item.get("status") != "PERSISTED":
                   raise SystemExit(f"{sid}: durable status is {item.get('status')}")
-              for key in ("snapshot_id", "content_digest", "evidence_digest", "policy_digest", "generator_digest", "release_digest", "release_path"):
+              for key in ("snapshot_id", "content_digest", "evidence_digest", "policy_digest", "generator_digest", "release_digest", "release_identity_version", "release_path"):
                   if not str(item.get(key) or "").strip():
                       raise SystemExit(f"{sid}: missing {key}")
           PY
@@ -105,6 +105,7 @@ jobs:
                   "policy_digest": str(item["policy_digest"]),
                   "generator_digest": str(item["generator_digest"]),
                   "release_digest": str(item["release_digest"]),
+                  "release_identity_version": str(item["release_identity_version"]),
               }
               for key, value in expected.items():
                   if release.get(key) != value:
@@ -127,6 +128,7 @@ jobs:
                   "policy_digest": str(item["policy_digest"]),
                   "generator_digest": str(item["generator_digest"]),
                   "release_digest": str(item["release_digest"]),
+                  "release_identity_version": str(item["release_identity_version"]),
                   "expected_sha256": expected_sha256,
               })
           registry["schema"] = "popular_rules_collection_immutable_source_registry_v2"
