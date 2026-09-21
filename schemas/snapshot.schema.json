@@ -7,6 +7,10 @@
     "schema": {"const": "source_snapshot_v2"},
     "snapshot_id": {"type": "string"},
     "content_digest": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "evidence_digest": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "policy_digest": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "generator_digest": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "release_digest": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
     "service_id": {"type": "string"},
     "created_at": {"type": "string"},
     "domain_count": {"type": "integer", "minimum": 0},
@@ -14,8 +18,6 @@
     "assets": {"type": "array", "items": {"$ref": "asset.schema.json"}},
     "evidence": {"type": "array", "items": {"type": "object"}},
     "release_state": {"enum": ["BLOCKED", "REVIEW", "CANDIDATE", "PUBLISHED"]},
-    "seed_only_count": {"type": "integer", "minimum": 0},
-    "seed_only_domains": {"type": "array", "items": {"type": "string"}},
     "errors": {"type": "array", "items": {"type": "string"}}
   },
   "additionalProperties": true
