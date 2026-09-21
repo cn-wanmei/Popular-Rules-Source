@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "0f354583693dbc07b32fd1b41d532d325dd55a9e9cce83b557a85b3a92b49908",
+    "manifest.json": "828b347d28f62d4ef218d73189dc12b84fd4ab203f6e8265b492ba8c6b32c5af",
+    "provenance.json": "fbf20d018b7a1df3ce193daa6e6e492ee9b2188396ab5bcd99e8a6295dc0b3bb",
+    "snapshot_content.json": "3a920a5bc23de74c77b2a0b530f40384fe9ca2a9662a7404ad5f300b173b6e4a"
+  },
+  "content_digest": "90c4701f7f7a9955ad205effbaf6201f0c32421e05c55ae280ef625b5d00d0f1",
+  "created_at": "2026-09-21T19:04:17.799514+00:00",
+  "evidence_digest": "7c5ae8a706b88b078c3e3b049aaa567612e345a36af21ba100fdd0531da150f6",
+  "generator_digest": "72856da3b0265844646944876ee1269eae94fb803c7da7aad7f5ae3a7760b309",
+  "policy_digest": "094cc6ab7ea3918f547f3f5b54bf5adc1bdc8cb784af7041ea220f4b38083a6e",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "e5ed4f9b034086f3d51903de2b152ef62b0b181cb405a3bbd27690416e2455e3",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "dingding",
+  "snapshot_id": "snap-dingding-e5ed4f9b034086f3d51903de",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 1.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}
