@@ -59,10 +59,16 @@ jobs:
           from pathlib import Path
 
           service = "${{ matrix.service }}"
-          roots = sorted((Path("releases") / service).glob("*/release.json"))
-          if not roots:
-              raise SystemExit(f"no durable release produced for {service}")
-          release_path = roots[-1]
+          provenance = Path("generated") / "source" / service / "provenance.json"
+          if not provenance.is_file():
+              raise SystemExit(f"generated provenance missing for {service}: {provenance}")
+          manifest = json.loads(provenance.read_text(encoding="utf-8"))
+          snapshot_id = str(manifest.get("snapshot_id") or "")
+          if not snapshot_id:
+              raise SystemExit(f"missing snapshot_id in generated provenance for {service}")
+          release_path = Path("releases") / service / snapshot_id / "release.json"
+          if not release_path.is_file():
+              raise SystemExit(f"no durable release produced for {service}: {release_path}")
           release = json.loads(release_path.read_text(encoding="utf-8"))
           required = {"service_id", "snapshot_id", "content_digest", "evidence_digest", "policy_digest", "generator_digest", "release_digest", "checksums", "validation"}
           missing = sorted(required - release.keys())
@@ -70,6 +76,8 @@ jobs:
               raise SystemExit(f"release contract missing: {missing}")
           if release["service_id"] != service:
               raise SystemExit("service_id mismatch")
+          if release["snapshot_id"] != snapshot_id:
+              raise SystemExit(f"snapshot_id mismatch: expected {snapshot_id}, got {release.get('snapshot_id')}")
           for key in ("content_digest", "evidence_digest", "policy_digest", "generator_digest", "release_digest", "release_identity_version"):
               value = str(release.get(key) or "")
               if len(value) != 64 or any(ch not in "0123456789abcdef" for ch in value.lower()):
@@ -125,7 +133,19 @@ jobs:
                   report["services"][service] = {"status": "BLOCKED", "reason": "no durable release artifact"}
                   continue
 
-              release_path = releases[-1]
+              provenance_path = source_root / "generated" / "source" / service / "provenance.json"
+              if not provenance_path.is_file():
+                  report["services"][service] = {"status": "BLOCKED", "reason": "generated provenance missing"}
+                  continue
+              manifest = json.loads(provenance_path.read_text(encoding="utf-8"))
+              snapshot_id = str(manifest.get("snapshot_id") or "")
+              if not snapshot_id:
+                  report["services"][service] = {"status": "BLOCKED", "reason": "generated provenance missing snapshot_id"}
+                  continue
+              release_path = source_root / "releases" / service / snapshot_id / "release.json"
+              if not release_path.is_file():
+                  report["services"][service] = {"status": "BLOCKED", "reason": "current durable release missing", "snapshot_id": snapshot_id}
+                  continue
               release = json.loads(release_path.read_text(encoding="utf-8"))
               snapshot_id = release["snapshot_id"]
               snapshot = source_root / "snapshots" / snapshot_id
