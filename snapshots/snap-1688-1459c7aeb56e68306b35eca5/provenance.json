@@ -1,0 +1,38 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:5173fb999d1716e2a137c1dffe622517dd62976818981a6a7dd9fb759ee0a281",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-001-64d92e5e8f3b",
+        "EV-1688-002-1d00a335d384"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "1688.com"
+    },
+    {
+      "asset_id": "sha256:cbe3e7d8516130bb7dab92e6bce1f5323c2ce5f5cfcadd52ad8c1140ec4018ef",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-001-64d92e5e8f3b"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "open.1688.com"
+    },
+    {
+      "asset_id": "sha256:e15f8b29573917b42c57523d8df44c047427cf589e61c968aa6f6aa2fbb6a63d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-001-64d92e5e8f3b",
+        "EV-1688-002-1d00a335d384"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "www.1688.com"
+    }
+  ],
+  "schema": "source_provenance_v2",
+  "service_id": "1688"
+}

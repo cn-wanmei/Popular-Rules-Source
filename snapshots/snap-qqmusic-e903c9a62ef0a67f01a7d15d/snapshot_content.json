@@ -1,0 +1,14 @@
+{
+  "domains": [
+    "y.qq.com"
+  ],
+  "generator_version": "2.0.0",
+  "official_source_hashes": [
+    "3ef42060a2e523ab25facb1adc9d470d29b6fc6fff3ff4d318388f4a03b7dc01"
+  ],
+  "parser_version": "domain-extractor-v3",
+  "schema": "source_snapshot_content_v1",
+  "service_config_digest": "832fcd27c68ce2fc879c4f2cb987f608818176b4fe1d3f82a2c8bbdbde44e691",
+  "service_id": "qqmusic",
+  "unverified_candidate_domains": []
+}

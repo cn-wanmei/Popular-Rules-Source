@@ -1,0 +1,21 @@
+{
+  "domains": [
+    "book.tmall.com",
+    "car.tmall.com",
+    "chaoshi.tmall.com",
+    "detail.tmall.com",
+    "fragment.tmall.com",
+    "jstracker.www.tmall.com",
+    "tmall.com",
+    "www.tmall.com"
+  ],
+  "generator_version": "2.0.0",
+  "official_source_hashes": [
+    "bc5e4ea99115f051cc0d991990422f25ff32503172d17a423161d18025b84fdf"
+  ],
+  "parser_version": "domain-extractor-v3",
+  "schema": "source_snapshot_content_v1",
+  "service_config_digest": "9bfeff42d6f93750fe84882a6fac78d7ae93331ba95b546a64b7768008245367",
+  "service_id": "tmall",
+  "unverified_candidate_domains": []
+}

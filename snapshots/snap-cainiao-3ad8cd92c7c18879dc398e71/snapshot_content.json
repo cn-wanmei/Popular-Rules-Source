@@ -1,0 +1,14 @@
+{
+  "domains": [
+    "gpn.cainiao.com"
+  ],
+  "generator_version": "2.0.0",
+  "official_source_hashes": [
+    "b8c0a9355476b4ef00fbb7b176096ed0dc2126187ef3d1c1b9f77a4193ec669c"
+  ],
+  "parser_version": "domain-extractor-v3",
+  "schema": "source_snapshot_content_v1",
+  "service_config_digest": "fa51d88d6f8c98adbc1751238e517a471d545b8eea10052598e640661d2df8f7",
+  "service_id": "cainiao",
+  "unverified_candidate_domains": []
+}

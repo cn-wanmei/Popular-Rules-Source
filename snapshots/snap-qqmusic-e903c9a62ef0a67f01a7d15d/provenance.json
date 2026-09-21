@@ -1,0 +1,16 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:c1fe59122d1ea1129c35c22f55acd56a035e77a692483db19a88a305d0edfa6a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qqmusic-001-3ef42060a2e5"
+      ],
+      "service_id": "qqmusic",
+      "type": "domain",
+      "value": "y.qq.com"
+    }
+  ],
+  "schema": "source_provenance_v2",
+  "service_id": "qqmusic"
+}

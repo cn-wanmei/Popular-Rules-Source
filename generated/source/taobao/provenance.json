@@ -1,0 +1,151 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:47bd7b33cabbb13170d2ae6de7db0d0846e1630c252bc1d3fd60af9ea2b05963",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-001-2d7cd6fbb9a7"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "alimarket.taobao.com"
+    },
+    {
+      "asset_id": "sha256:b0fa1fb3626ca4b3a003045e16dea52d3e5169a774979bd45f1df530dc1bce48",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-001-2d7cd6fbb9a7"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "eco.taobao.com"
+    },
+    {
+      "asset_id": "sha256:06f5b6b05d29849d9731ff70207cec17d8cd7f21d22f5df4798e98d1392b2df5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-001-2d7cd6fbb9a7"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "gw.api.taobao.com"
+    },
+    {
+      "asset_id": "sha256:78eac99a6c4ab22126a6f25b799a485b815a6ce3b9a000b63a29e6c1d75285e5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-001-2d7cd6fbb9a7"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "ju.taobao.com"
+    },
+    {
+      "asset_id": "sha256:98cf827ca9cf58848320572bb2bf4a7c6436e19d710946f7efe6d8643ffba6de",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-001-2d7cd6fbb9a7"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "login.taobao.com"
+    },
+    {
+      "asset_id": "sha256:f9ceaf686c18a9338d140a047dc1f00e5c456fe1d9e0d6e98ca265d1fb831a9b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-001-2d7cd6fbb9a7"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "my.open.taobao.com"
+    },
+    {
+      "asset_id": "sha256:0411fb754215a515477bd8ed9de67e7ba713ed7c1bbe8967601c84095a2994f3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-001-2d7cd6fbb9a7"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "oauth.taobao.com"
+    },
+    {
+      "asset_id": "sha256:7eb25b1544b30bc24c736bed0b93dfc18451faacdd6ec477845e3128cb30b20e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-001-2d7cd6fbb9a7"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "open.bbs.taobao.com"
+    },
+    {
+      "asset_id": "sha256:03f204c6e0bd766cfdf78c733b691068fa5d5e045eaf1a6a3f91a0b051ff4f19",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-001-2d7cd6fbb9a7"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "open.m.taobao.com"
+    },
+    {
+      "asset_id": "sha256:1ebd3af642ca29a464a0687cc5ed41dd8fddb6764d225d8128475940cedb083d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-001-2d7cd6fbb9a7",
+        "EV-taobao-002-06c07f1ea510"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "open.taobao.com"
+    },
+    {
+      "asset_id": "sha256:1b6ee309dd2932359b576040c0e15121cd41c958e7e914543ba9718e80b263ce",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-001-2d7cd6fbb9a7"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "tbk.bbs.taobao.com"
+    },
+    {
+      "asset_id": "sha256:278611b4dacb14b9beb816580851931bd9b8aad379febf92f65cb98de0d804af",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-001-2d7cd6fbb9a7"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "trip.taobao.com"
+    },
+    {
+      "asset_id": "sha256:7bce13688aabada141f528224a40808b663df31fc65b2058c4d72d19b64a7081",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-001-2d7cd6fbb9a7"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "work.open.taobao.com"
+    },
+    {
+      "asset_id": "sha256:e8e7632623536c3366e0bf68e8d7226fd550a2bea0e9d8c5aaec1ab450d63b3d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-001-2d7cd6fbb9a7"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "www.taobao.com"
+    }
+  ],
+  "content_digest": "935c4757381e52889bc85f0e7c6c12415e0d5280fb18caf76daf51b224f16c71",
+  "official_extracted": 15,
+  "schema": "source_provenance_v2",
+  "service_id": "taobao",
+  "snapshot_id": "snap-taobao-935c4757381e52889bc85f0e",
+  "unverified_candidate_count": 0
+}

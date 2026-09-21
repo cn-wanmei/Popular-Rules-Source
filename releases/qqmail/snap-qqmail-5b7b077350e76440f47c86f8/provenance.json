@@ -1,0 +1,16 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:616ba525328b5625af8d7f0b23f2440da36c6eff80351f3b52443f47de7257de",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qqmail-001-d6d0f88ad500"
+      ],
+      "service_id": "qqmail",
+      "type": "domain",
+      "value": "mail.qq.com"
+    }
+  ],
+  "schema": "source_provenance_v2",
+  "service_id": "qqmail"
+}

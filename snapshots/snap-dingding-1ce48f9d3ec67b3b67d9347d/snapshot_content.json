@@ -1,0 +1,20 @@
+{
+  "domains": [
+    "developers.dingtalk.com",
+    "open-dev.dingtalk.com",
+    "open.dingtalk.com",
+    "page.dingtalk.com",
+    "table.dingtalk.com",
+    "www.dingtalk.com"
+  ],
+  "generator_version": "2.0.0",
+  "official_source_hashes": [
+    "35d4920bc5b11f1ae22196edd58b71522c0a8d46045bc3dfb9d68a5493d88fb0",
+    "b5a27318b8e395990e90306c75664fdf6b298f071eb3859606c3c3a7bd005663"
+  ],
+  "parser_version": "domain-extractor-v3",
+  "schema": "source_snapshot_content_v1",
+  "service_config_digest": "10bbb6848fea3f08adabbb12e784f0bc204c84e9e673a5f44dae6337625b16de",
+  "service_id": "dingding",
+  "unverified_candidate_domains": []
+}

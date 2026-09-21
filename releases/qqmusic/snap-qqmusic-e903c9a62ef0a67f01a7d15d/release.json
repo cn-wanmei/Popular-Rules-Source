@@ -1,0 +1,26 @@
+{
+  "checksums": {
+    "domains.txt": "7b339dafb02213f9b29d7582664a1f802b9045ea27b99a47eeb6780c261a9119",
+    "provenance.json": "4b18ae740545de515041f1bf4afb8f43fc0df0f8d9636a9c3b7c9afdc763b336",
+    "snapshot_content.json": "95204dcc1e1b053c40549eb54864be8c5929b7975f2994c7177dfbfcb0eb2c11"
+  },
+  "content_digest": "e903c9a62ef0a67f01a7d15df1e139cf7800032767302fc416faaa04a9abc289",
+  "created_at": "2026-09-21T03:47:55.078927+00:00",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "qqmusic",
+  "snapshot_id": "snap-qqmusic-e903c9a62ef0a67f01a7d15d",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.3.1"
+}

@@ -1,0 +1,20 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:4a5a76ae772e2978cd068b962bcef484aad56810082ee4141bcdc74ea6c89d23",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cainiao-001-b8c0a9355476"
+      ],
+      "service_id": "cainiao",
+      "type": "domain",
+      "value": "gpn.cainiao.com"
+    }
+  ],
+  "content_digest": "3ad8cd92c7c18879dc398e7130c352e7541fb56c0797351c81e9997f7cf9bb08",
+  "official_extracted": 1,
+  "schema": "source_provenance_v2",
+  "service_id": "cainiao",
+  "snapshot_id": "snap-cainiao-3ad8cd92c7c18879dc398e71",
+  "unverified_candidate_count": 0
+}

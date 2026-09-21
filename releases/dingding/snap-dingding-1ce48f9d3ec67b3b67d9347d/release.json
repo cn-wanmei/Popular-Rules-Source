@@ -1,0 +1,26 @@
+{
+  "checksums": {
+    "domains.txt": "0f354583693dbc07b32fd1b41d532d325dd55a9e9cce83b557a85b3a92b49908",
+    "provenance.json": "883bf7f081bc1cc366e0e752cbd3f41fff4ffdb71dd5607fea80aea6cb2225f8",
+    "snapshot_content.json": "764030e14312e7cf684f88f2d54c90bab30fc65b5276a656adb4c8afefd25f11"
+  },
+  "content_digest": "1ce48f9d3ec67b3b67d9347d7fe3b934eb2578674706f2004e4c879659996992",
+  "created_at": "2026-09-21T03:47:56.480378+00:00",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "dingding",
+  "snapshot_id": "snap-dingding-1ce48f9d3ec67b3b67d9347d",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 1.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.3.1"
+}

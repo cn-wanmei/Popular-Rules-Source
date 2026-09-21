@@ -1,0 +1,20 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:616ba525328b5625af8d7f0b23f2440da36c6eff80351f3b52443f47de7257de",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qqmail-001-d6d0f88ad500"
+      ],
+      "service_id": "qqmail",
+      "type": "domain",
+      "value": "mail.qq.com"
+    }
+  ],
+  "content_digest": "5b7b077350e76440f47c86f894f9e2f698011fe70667342cf59b32d45b4d5ce2",
+  "official_extracted": 1,
+  "schema": "source_provenance_v2",
+  "service_id": "qqmail",
+  "snapshot_id": "snap-qqmail-5b7b077350e76440f47c86f8",
+  "unverified_candidate_count": 0
+}
