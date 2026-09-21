@@ -1,46 +1,38 @@
-# CI Automation Inventory
+# CI Automation
 
-## Active workflows
-
-| Workflow | Purpose | Write main? |
+| Workflow | Role | Production authority |
 |---|---|---|
-| validate.yml | Config + tests + snapshot schema + conflict + audit | No |
-| generate.yml | Official source refresh | No; creates automation PR |
-| reconcile.yml | Compare PRS state with Collection | No |
-| release.yml | Manual service-level release artifact | No; artifact only |
+| `validate.yml` | configuration, schema, tests and snapshot checks | source correctness |
+| `generate.yml` | scheduled/manual official refresh PR | candidate refresh |
+| `release.yml` | explicit service Release Gate | Source Release |
+| `durable-source-bridge.yml` | 8-service immutable durable seal | immutable Source identity |
+| `reconcile.yml` | Collection registration reconciliation | handoff evidence |
+| `phase2-gate.yml` | combined Source Gate / qualification | Source-side readiness |
 
-## Removed
+## Ownership
 
-- audit.yml：与 validate/audit 合并，旧实现已无独立价值。
-- build.yml：与 generate/release 的职责重复。
-- fixture-only Mode B workflow path：已移除。
+Source owns its own durable seal.
 
-## Automation rule
+Collection owns the cross-repository handoff PR, so Source does not need a cross-repository write Secret.
 
-Scheduled generation must never push directly to main.
+## Refresh contract
 
-The correct flow is:
+    scheduled official refresh
+        ↓
+    generated/snapshot candidate
+        ↓
+    CI / Source Gate
+        ↓
+    merge to Source main
+        ↓
+    Durable Bridge
+        ↓
+    immutable seal
+        ↓
+    Collection Auto Handoff
 
-~~~text
-Schedule
-  ↓
-Official Fetch
-  ↓
-Generate
-  ↓
-Automation Branch
-  ↓
-Pull Request
-  ↓
-CI
-  ↓
-Human / Gate approval
-  ↓
-main
-~~~
+Maintenance-only workflow changes are excluded from the Durable Bridge trigger to prevent self-triggered persistence.
 
-## Production readiness
+## Fail closed
 
-当前四条 workflow 只证明工程链可运行，不证明任何服务已经 Production。
-
-8 个目标服务均需经过 official-evidence-only qualification。
+Release and handoff stop on missing artifacts, incomplete evidence, provenance mismatch, non-determinism, unresolved conflict or degraded replacement.
