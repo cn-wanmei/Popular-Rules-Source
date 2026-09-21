@@ -24,15 +24,15 @@ services:
     content_digest: 9e1d3d6ede5f06fecde52f8de9de42ace50e05953ed81faf3bdf7cd4aacdb220
     domain_count: 3
   cainiao:
-    state: verified
-    next_gate: canary
+    state: production
+    next_gate: production
     profile: alibaba/cainiao
     official_sources: ["https://gpn.cainiao.com/"]
     coverage_state: evidence_backed_baseline
-    verification_run: 35519430221
-    verified_source_commit: adaf6f5f9bf392aedf30b6f491690c5c027428d5
-    snapshot_id: snap-cainiao-5f98d4fa8f88bb35bb2d46da
-    content_digest: 5f98d4fa8f88bb35bb2d46da0b970bb892a12078908b7da6f874af4bb31fcf39
+    verification_run: 35553832919
+    verified_source_commit: f0b29c9c9908f16c8c683cf4cc2b8a14dc073e32
+    snapshot_id: snap-cainiao-55c244d593f587615120228c
+    content_digest: 55c244d593f587615120228ce6724cb5c8dfe9ee6ae6562f8bd22433d8def8ae
     domain_count: 1
   dingding:
     state: production
