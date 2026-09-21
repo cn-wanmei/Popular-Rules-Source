@@ -41,6 +41,10 @@ def create_release(
         "service_id": service_id,
         "snapshot_id": manifest["snapshot_id"],
         "content_digest": manifest["content_digest"],
+        "evidence_digest": manifest.get("evidence_digest"),
+        "policy_digest": manifest.get("policy_digest"),
+        "generator_digest": manifest.get("generator_digest"),
+        "release_digest": manifest.get("release_digest"),
         "version": version,
         "created_at": datetime.now(timezone.utc).isoformat(),
         "checksums": json.loads(
