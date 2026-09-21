@@ -1,43 +1,39 @@
 # Promotion Contract
 
-## Flow
+## Source → Collection
 
-~~~text
-Popular-Rules-Source
+    Source Snapshot
         ↓
-Immutable Source Release
+    Evidence Gate
         ↓
-Popular-Rules-Collection Source Registry / Collect
+    Durable Release
         ↓
-V3 Engine
+    Immutable provenance v2 seal
         ↓
-7 client outputs
-~~~
+    Collection-owned handoff PR
+        ↓
+    Collection Source Gate
+        ↓
+    Collection Canary
+        ↓
+    Production / Observation
 
-PRS 不直接写 Collection Canonical、IR 或 generated client tree。
+## Binding
 
-## Current
+Collection must bind the exact Source commit and verify:
 
-Collection 已登记 PRS Source，但当前入口为 disabled。
+`snapshot_id` · `content_digest` · `evidence_digest` · `policy_digest` · `generator_digest` · `release_digest` · `expected_sha256`.
 
-原因：PRS 当前首批服务仍存在 Authoring Seed 候选，尚未完成 official-evidence-only Production Gate。
+Any equality failure blocks acquisition.
 
-## Promotion Gate
+## Ownership
 
-必须：
+Source never writes Collection Canonical, IR or client output.
 
-- Schema PASS
-- Official Evidence PASS
-- Ownership PASS
-- Boundary PASS
-- Exclusion PASS
-- Duplicate PASS
-- Conflict = 0
-- Deterministic PASS
-- Reconciliation PASS
+Collection Auto Handoff uses the Collection workflow token. No cross-repository Secret is required.
 
-## Contract Version
+## Lifecycle semantics
 
-Source Release schema 破坏性变更需要 MAJOR 版本。
+Source `production` means the Source evidence/release lifecycle is active. It does not by itself authorize Collection final production.
 
-Source Repo 与 Collection Adapter 必须协调升级。
+Collection Canary, Production and Observation remain authoritative for final publication.
