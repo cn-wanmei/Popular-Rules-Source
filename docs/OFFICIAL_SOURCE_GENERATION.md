@@ -1,79 +1,40 @@
 # Official Source Generation
 
-## Objective
+## Adapter priority
 
-给定 Service ID，优先从该服务官方来源自动提取并生成经过验证的 Domain Source。
+    official machine-readable
+          ↓
+    official API / structured JSON
+          ↓
+    official manifest / SDK
+          ↓
+    official documentation
+          ↓
+    controlled browser/JS extraction
+          ↓
+    auxiliary external cross-check
 
-## Priority
+Only explicitly configured official origins can produce production evidence.
 
-~~~text
-Official machine-readable
-        ↓
-Official API / structured
-        ↓
-Official config / SDK / manifest
-        ↓
-Official documentation
-        ↓
-Controlled runtime discovery
-        ↓
-External cross-check
-~~~
+## Adapter contract
 
-## Current production implementation
+Each adapter must declare:
 
-当前主干实际可用的是 official_web：
+- source URL/origin;
+- extraction or field-path contract;
+- parser implementation;
+- fixture and regression coverage;
+- evidence mapping;
+- deterministic output semantics.
 
-~~~text
-Official Web
-  ↓
-HTML / JSON extraction
-  ↓
-Per-service allow policy
-  ↓
-Exclusion
-  ↓
-Evidence
-  ↓
-Candidate / Release Candidate
-~~~
+Supported contract families include `official_web`, `official_json`, `official_api`, `official_manifest`, `official_sdk` and `official_browser`.
 
-Fixture-only Mode B 已从生产链删除。
+## Browser adapter
+
+Browser execution is a controlled source adapter for JS-rendered official pages. It is not general crawling.
+
+Network requests, embedded JSON and DOM values are admissible only when they resolve within the configured official boundary and can be tied to deterministic evidence metadata.
 
 ## Seed
 
-seed_domains 仅用于人工候选锚点。
-
-只要最终输出包含 seed-only domain：
-
-~~~text
-release_state = REVIEW
-~~~
-
-直到该资产获得真实官方 Evidence。
-
-## Evidence Trace
-
-~~~text
-domain
- ↓
-asset_id
- ↓
-evidence_id
- ↓
-source_url
- ↓
-content_hash
- ↓
-parser_version
- ↓
-snapshot_id
-~~~
-
-没有完整追溯链的资产不能进入 Production。
-
-## Future Adapter Contract
-
-新 Adapter 必须同时提交真实官方来源、字段契约、Parser、Fixture、Regression Test 和 Evidence Mapping。
-
-没有完整契约的 Adapter 必须保持 disabled。
+Authoring seed is a candidate anchor only. A seed-only domain remains non-production until supported by official evidence.
