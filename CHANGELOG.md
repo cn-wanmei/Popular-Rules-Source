@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.5.0 - 2026-09-22
+
+### Final Source Platform Upgrade
+
+- 建立 Gap Engine、Lifecycle SSOT、Repair CLI 与完整 Evidence Supply Layer。
+- 建立 adapter contract、Browser/JS architecture、统一 retry/health 与 provenance digest identity。
+- Durable Bridge 改为按当前生成的 immutable snapshot 精确封存，历史 Release 永不复用。
+- Source → Collection 自动 handoff 生成 immutable registry promotion PR。
+- Lifecycle 状态报告由 SSOT 派生，历史 lifecycle database 不再参与运行。
+
+
 ## 0.4.0 - 2026-09-20
 
 ### Audit correction and production-boundary cleanup
