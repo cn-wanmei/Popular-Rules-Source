@@ -9,6 +9,7 @@ on:
       - "generated/source/**"
       - "reports/durable-bridge/**"
       - ".github/workflows/branch-cleanup.yml"
+      - ".github/workflows/durable-source-bridge.yml"
   workflow_dispatch:
     inputs:
       services:
