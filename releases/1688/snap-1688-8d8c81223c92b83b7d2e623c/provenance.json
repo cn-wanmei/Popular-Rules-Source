@@ -33,10 +33,6 @@
       "value": "www.1688.com"
     }
   ],
-  "content_digest": "8d8c81223c92b83b7d2e623cf9c28ad8e217f7e276576e3b6b036c62a32c7107",
-  "official_extracted": 5,
   "schema": "source_provenance_v2",
-  "service_id": "1688",
-  "snapshot_id": "snap-1688-8d8c81223c92b83b7d2e623c",
-  "unverified_candidate_count": 0
+  "service_id": "1688"
 }

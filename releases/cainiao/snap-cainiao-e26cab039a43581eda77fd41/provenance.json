@@ -11,10 +11,6 @@
       "value": "gpn.cainiao.com"
     }
   ],
-  "content_digest": "e26cab039a43581eda77fd4113f4875209b32eff566ba253555fdfd2854802db",
-  "official_extracted": 1,
   "schema": "source_provenance_v2",
-  "service_id": "cainiao",
-  "snapshot_id": "snap-cainiao-e26cab039a43581eda77fd41",
-  "unverified_candidate_count": 0
+  "service_id": "cainiao"
 }
