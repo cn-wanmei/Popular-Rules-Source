@@ -11,6 +11,7 @@
     "policy_digest": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
     "generator_digest": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
     "release_digest": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "release_identity_version": {"const": "2"},
     "service_id": {"type": "string"},
     "created_at": {"type": "string"},
     "domain_count": {"type": "integer", "minimum": 0},
