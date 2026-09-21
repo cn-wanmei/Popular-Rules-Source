@@ -78,10 +78,16 @@ jobs:
               raise SystemExit("service_id mismatch")
           if release["snapshot_id"] != snapshot_id:
               raise SystemExit(f"snapshot_id mismatch: expected {snapshot_id}, got {release.get('snapshot_id')}")
-          for key in ("content_digest", "evidence_digest", "policy_digest", "generator_digest", "release_digest", "release_identity_version"):
+          digest_keys = ("content_digest", "evidence_digest", "policy_digest", "generator_digest", "release_digest")
+          for key in digest_keys:
               value = str(release.get(key) or "")
               if len(value) != 64 or any(ch not in "0123456789abcdef" for ch in value.lower()):
                   raise SystemExit(f"invalid {key} for {service}: {value}")
+          if str(release.get("release_identity_version") or "") != "2":
+              raise SystemExit(
+                  f"invalid release_identity_version for {service}: "
+                  f"{release.get('release_identity_version')}"
+              )
           snapshot = Path("snapshots") / release["snapshot_id"]
           for name in ("domains.txt", "provenance.json", "manifest.json", "checksums.json"):
               if not (snapshot / name).is_file():
