@@ -17,6 +17,13 @@ def _get_yaml(url: str, timeout: int = 20) -> dict:
     return data if isinstance(data, dict) else {}
 
 
+def _get_yaml_optional(url: str, timeout: int = 20) -> dict:
+    try:
+        return _get_yaml(url, timeout)
+    except (requests.RequestException, yaml.YAMLError):
+        return {}
+
+
 def _latest_manifest(service_id: str) -> dict | None:
     latest = None
     for path in Path("snapshots").glob("*/manifest.json"):
@@ -34,7 +41,7 @@ def _latest_manifest(service_id: str) -> dict | None:
 def audit_collection(service_ids: list[str]) -> dict:
     ref = os.getenv("COLLECTION_REF", "main")
     registry = _get_yaml(f"{COLLECTION_RAW_ROOT}/{ref}/sources/registry.yaml")
-    immutable = _get_yaml(f"{COLLECTION_RAW_ROOT}/{ref}/sources/immutable_registry.yaml")
+    immutable = _get_yaml_optional(f"{COLLECTION_RAW_ROOT}/{ref}/sources/immutable_registry.yaml")
     intentional = _get_yaml(f"{COLLECTION_RAW_ROOT}/{ref}/config/intentional_unmaterialized.yaml")
 
     prs_entry = next((x for x in registry.get("sources", []) if x.get("id") == "popular-rules-source"), None)
