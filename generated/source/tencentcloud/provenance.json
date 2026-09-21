@@ -4,17 +4,17 @@
       "asset_id": "sha256:f8b2105bbea1f97e120c09a64ff0077681234b99ee8491537ff99567948861ec",
       "classification": "service",
       "evidence_ids": [
-        "EV-tencentcloud-001-76a41e805b44"
+        "EV-tencentcloud-001-5f6ba39c5856"
       ],
       "service_id": "tencentcloud",
       "type": "domain",
       "value": "cloud.tencent.com"
     }
   ],
-  "content_digest": "786d692fa25ba4295e455b41955048985fbb547ac52f62e2db9808ce68504215",
+  "content_digest": "1018f12d893be4679a4d37c2a4a551a7243990c1204480e3343691a73e22fcee",
   "official_extracted": 1,
   "schema": "source_provenance_v2",
   "service_id": "tencentcloud",
-  "snapshot_id": "snap-tencentcloud-786d692fa25ba4295e455b41",
+  "snapshot_id": "snap-tencentcloud-1018f12d893be4679a4d37c2",
   "unverified_candidate_count": 0
 }

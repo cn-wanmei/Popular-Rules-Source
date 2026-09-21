@@ -4,8 +4,8 @@
       "asset_id": "sha256:5173fb999d1716e2a137c1dffe622517dd62976818981a6a7dd9fb759ee0a281",
       "classification": "service",
       "evidence_ids": [
-        "EV-1688-001-152de5043cbd",
-        "EV-1688-002-b547ce44b911"
+        "EV-1688-001-b6dcc75c92f8",
+        "EV-1688-002-afeaf4f9c246"
       ],
       "service_id": "1688",
       "type": "domain",
@@ -15,7 +15,7 @@
       "asset_id": "sha256:cbe3e7d8516130bb7dab92e6bce1f5323c2ce5f5cfcadd52ad8c1140ec4018ef",
       "classification": "service",
       "evidence_ids": [
-        "EV-1688-001-152de5043cbd"
+        "EV-1688-001-b6dcc75c92f8"
       ],
       "service_id": "1688",
       "type": "domain",
@@ -25,18 +25,18 @@
       "asset_id": "sha256:e15f8b29573917b42c57523d8df44c047427cf589e61c968aa6f6aa2fbb6a63d",
       "classification": "service",
       "evidence_ids": [
-        "EV-1688-001-152de5043cbd",
-        "EV-1688-002-b547ce44b911"
+        "EV-1688-001-b6dcc75c92f8",
+        "EV-1688-002-afeaf4f9c246"
       ],
       "service_id": "1688",
       "type": "domain",
       "value": "www.1688.com"
     }
   ],
-  "content_digest": "8d8c81223c92b83b7d2e623cf9c28ad8e217f7e276576e3b6b036c62a32c7107",
+  "content_digest": "8a90f47bad72e3de8a0c2272e0e3b02657a67d18fa17801fc3ae89e36ee7e301",
   "official_extracted": 5,
   "schema": "source_provenance_v2",
   "service_id": "1688",
-  "snapshot_id": "snap-1688-8d8c81223c92b83b7d2e623c",
+  "snapshot_id": "snap-1688-8a90f47bad72e3de8a0c2272",
   "unverified_candidate_count": 0
 }
