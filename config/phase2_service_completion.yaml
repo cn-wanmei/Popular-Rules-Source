@@ -57,13 +57,13 @@ services:
     content_digest: b360b3da2110970486ebda2e96956087dad23bdf10484609cd0954af4859ea4c
     domain_count: 1
   qqmusic:
-    state: verified
-    next_gate: canary
+    state: production
+    next_gate: production
     profile: tencent/qqmusic
     official_sources: ["https://y.qq.com/"]
     coverage_state: evidence_backed_baseline
-    verification_run: 35519430221
-    verified_source_commit: adaf6f5f9bf392aedf30b6f491690c5c027428d5
+    verification_run: 35591576962
+    verified_source_commit: 192ee4a99cd02d99faddfbad30ac4ebf914edaa8
     snapshot_id: snap-qqmusic-e903c9a62ef0a67f01a7d15d
     content_digest: e903c9a62ef0a67f01a7d15df1e139cf7800032767302fc416faaa04a9abc289
     domain_count: 1
