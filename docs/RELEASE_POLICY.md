@@ -2,47 +2,33 @@
 
 ## Release states
 
-CANDIDATE / REVIEW / BLOCKED / PUBLISHED。
+`CANDIDATE` → `PUBLISHED` is valid only for a fully evidenced immutable snapshot.
+`REVIEW` and `BLOCKED` never enter the durable release.
 
-当前主仓库不包含任何已验证的 PUBLISHED service release。
+## Release identity v2
 
-## Hard Block
+The release identity is derived from:
 
-- schema error
-- evidence linkage error
-- unresolved conflict
-- invalid domain
-- empty replacement
-- determinism failure
-- authoring-seed-only output被误标为 Production
-- exclusion / tombstone 绕过
+- content digest
+- evidence digest
+- policy digest
+- generator digest
 
-## Review
+and is sealed as `release_digest`.
 
-- source fetch degraded
-- large removal
-- large growth
-- Last Known Good retained
-- seed-only domains remain
+The Source persistence commit is the immutable transport identity used by Collection. It is intentionally distinct from the verified input commit used to prove the Source Gate.
 
-## Snapshot
+## Hard blocks
 
-Snapshot ID 内容寻址。
-
-~~~text
-snap-<service>-<content-digest>
-~~~
-
-同一 Snapshot 重跑必须复用，不得覆写。
-
-## Release
-
-Release Package 对同一 Snapshot 幂等。
-
-generated/source 只是 Source Build Output，不等于 Published。
-
-正式 Published 必须同时经过 Source Gate 与 Collection Reconciliation。
+- schema or contract failure;
+- unresolved conflict;
+- missing or incomplete official evidence;
+- empty or unsafe replacement;
+- non-deterministic output;
+- seed-only output presented as production;
+- provenance equality failure;
+- missing durable artifacts.
 
 ## Rollback
 
-只切换上游采用的 Release/Snapshot，不重写历史。
+Rollback changes the Collection binding to a previously verified immutable Source release. Historical Source snapshots are never rewritten.
