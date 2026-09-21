@@ -15,6 +15,7 @@ from .fetch import fetch, FetchError
 
 PARSER_VERSION = "domain-extractor-v4"
 GENERATOR_VERSION = "3.0.0"
+RELEASE_IDENTITY_VERSION = "2"
 
 
 def load_yaml(path: str) -> dict:
@@ -227,6 +228,7 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
     })
     generator_digest = _generator_digest()
     release_digest = _digest({
+        "release_identity_version": RELEASE_IDENTITY_VERSION,
         "content_digest": content_digest,
         "evidence_digest": evidence_digest,
         "policy_digest": policy_digest,
@@ -269,6 +271,7 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
         "policy_digest": policy_digest,
         "generator_digest": generator_digest,
         "release_digest": release_digest,
+        "release_identity_version": RELEASE_IDENTITY_VERSION,
         "snapshot_content_sha256": content_digest,
         "service_id": service_id,
         "created_at": datetime.now(timezone.utc).isoformat(),
@@ -309,6 +312,7 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
             "domains": sorted_domains,
             "official_source_hashes": sorted(x["content_hash"] for x in evidence_items),
             "content_digest": content_digest,
+            "release_identity_version": RELEASE_IDENTITY_VERSION,
         }, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
     )
@@ -323,6 +327,7 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
             "policy_digest": policy_digest,
             "generator_digest": generator_digest,
             "release_digest": release_digest,
+            "release_identity_version": RELEASE_IDENTITY_VERSION,
             "assets": assets,
             "evidence": evidence_items,
         }, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
