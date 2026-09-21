@@ -79,15 +79,15 @@ services:
     content_digest: 8bf235109eb1fae87549fea81dfdb81bc327941d6128bcb2f4f60af00e5b4f92
     domain_count: 14
   tencentcloud:
-    state: verified
-    next_gate: canary
+    state: production
+    next_gate: production
     profile: tencent/tencentcloud
     official_sources: ["https://cloud.tencent.com/document/api"]
     coverage_state: evidence_backed_baseline
-    verification_run: 35519430221
-    verified_source_commit: adaf6f5f9bf392aedf30b6f491690c5c027428d5
-    snapshot_id: snap-tencentcloud-018c6d0a2429c98a45976487
-    content_digest: 018c6d0a2429c98a45976487d44de561338ac63ae290f0975b316409f0aa273c
+    verification_run: 35593251247
+    verified_source_commit: 192ee4a99cd02d99faddfbad30ac4ebf914edaa8
+    snapshot_id: snap-tencentcloud-b5318bbe16655ce5f3eaaf84
+    content_digest: b5318bbe16655ce5f3eaaf8401b1c734a7068faab81b572a249a2c91f9856f56
     domain_count: 1
   tmall:
     state: verified
