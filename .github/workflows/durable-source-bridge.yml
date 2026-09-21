@@ -10,6 +10,9 @@ on:
       - "config/source_canary_state.yaml"
       - ".github/workflows/branch-cleanup.yml"
       - ".github/workflows/durable-source-bridge.yml"
+      - "docs/**"
+      - "README.md"
+      - ".github/workflows/**"
       - ".github/workflows/collection-handoff.yml"
   workflow_dispatch:
     inputs:
