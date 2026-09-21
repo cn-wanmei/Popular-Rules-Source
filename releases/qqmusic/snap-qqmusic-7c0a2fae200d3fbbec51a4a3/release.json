@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "7b339dafb02213f9b29d7582664a1f802b9045ea27b99a47eeb6780c261a9119",
+    "manifest.json": "be144cdbb82a64e33c7b2d60bf39d7db92db5cef7d1d551be5c5496e3f4a9bed",
+    "provenance.json": "d4a7cc5f10944b44902aab465626aa0378ef158b7020fe15702f151718522de9",
+    "snapshot_content.json": "72520976cb4a9875c9eaca688858cf4e6bc0fb456e6c451df94017df07a63f1f"
+  },
+  "content_digest": "0d46e60de5ecf9c6d4fad4c68562cb3f47a9f03164dcc802693f72ab8b60ff14",
+  "created_at": "2026-09-21T17:50:02.511300+00:00",
+  "evidence_digest": "561ad2e29159553a986957a2d4514e7755b6026e107829d585bc48bdbb158299",
+  "generator_digest": "72856da3b0265844646944876ee1269eae94fb803c7da7aad7f5ae3a7760b309",
+  "policy_digest": "58ebf7d4e8e6532b46d3c67f9530dfc90e39f5429a5c93fecf87e96d923d099d",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "7c0a2fae200d3fbbec51a4a30bfeb8e21f7a1721d10ff0beceeae466ad73bdb8",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "qqmusic",
+  "snapshot_id": "snap-qqmusic-7c0a2fae200d3fbbec51a4a3",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 1.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}
