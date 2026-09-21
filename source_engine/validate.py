@@ -3,8 +3,10 @@ from __future__ import annotations
 from pathlib import Path
 from urllib.parse import urlparse
 
+import yaml
+
+from .adapters import adapter_names_for, validate_adapter_contract
 from .build import load_services
-from .normalize import host_allowed
 from .schema_validate import validate_all_snapshots
 
 
@@ -15,25 +17,40 @@ class ValidationError(RuntimeError):
 def validate_config() -> list[str]:
     services = load_services()["services"]
     errors: list[str] = []
-    for service_id, cfg in services.items():
-        if service_id != service_id.lower() or not all(
-            c.islower() or c.isdigit() or c == "-" for c in service_id
-        ):
-            errors.append(f"{service_id}: invalid service_id")
 
+    lifecycle_path = Path("config/source_canary_state.yaml")
+    if not lifecycle_path.exists():
+        errors.append("missing lifecycle source of truth: config/source_canary_state.yaml")
+    else:
+        lifecycle = yaml.safe_load(lifecycle_path.read_text(encoding="utf-8")) or {}
+        lifecycle_services = set((lifecycle.get("services") or {}).keys())
+        if lifecycle_services != set(services):
+            errors.append(
+                "lifecycle/service mismatch: "
+                f"missing={sorted(set(services)-lifecycle_services)}, "
+                f"extra={sorted(lifecycle_services-set(services))}"
+            )
+        allowed = set(lifecycle.get("state_machine") or [])
+        for service_id, item in (lifecycle.get("services") or {}).items():
+            if str(item.get("state", "")) not in allowed:
+                errors.append(f"{service_id}: invalid lifecycle state")
+
+    for service_id, cfg in services.items():
+        if not service_id.islower():
+            errors.append(f"{service_id}: invalid service_id")
         sources = cfg.get("official_sources", [])
         if not sources:
             errors.append(f"{service_id}: no official_sources")
-        for url in sources:
-            parsed = urlparse(str(url))
+        for source_url in sources:
+            parsed = urlparse(str(source_url))
             if parsed.scheme not in {"http", "https"} or not parsed.netloc:
-                errors.append(f"{service_id}: invalid source URL {url}")
-
-        exact = tuple(cfg.get("allowed_host_exact", []))
-        suffixes = tuple(cfg.get("allowed_host_suffixes", []))
-        if not exact and not suffixes:
+                errors.append(f"{service_id}: invalid source URL {source_url}")
+        if not cfg.get("allowed_host_exact") and not cfg.get("allowed_host_suffixes"):
             errors.append(f"{service_id}: no domain allow policy")
+        if not adapter_names_for(service_id):
+            errors.append(f"{service_id}: no source adapter configured")
 
+    errors.extend(validate_adapter_contract())
     return errors
 
 
@@ -49,7 +66,7 @@ def validate_schemas_present() -> list[str]:
         "schemas/tombstone.schema.json",
         "schemas/discovery_candidate.schema.json",
     ]
-    return [f"missing schema: {path}" for path in required if not Path(path).exists()]
+    return [f"missing schema: {x}" for x in required if not Path(x).exists()]
 
 
 def run_validation() -> None:
