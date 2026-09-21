@@ -187,9 +187,27 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
         "domains": sorted_domains,
         "official_source_hashes": sorted(x["content_hash"] for x in evidence_items),
     })
+    evidence_identity = [
+        {
+            "evidence_id": item["evidence_id"],
+            "service_id": item["service_id"],
+            "source_url": item["source_url"],
+            "resolved_url": item.get("resolved_url"),
+            "source_method": item["source_method"],
+            "source_type": item.get("source_type"),
+            "authority": item["authority"],
+            "content_hash": item["content_hash"],
+            "parser_version": item["parser_version"],
+            "confidence": item["confidence"],
+            "strength": item["strength"],
+            "status": item["status"],
+            "domains_extracted": item.get("domains_extracted", 0),
+        }
+        for item in evidence_items
+    ]
     evidence_digest = _digest({
         "service_id": service_id,
-        "evidence": evidence_items,
+        "evidence": evidence_identity,
         "domain_evidence": {k: sorted(v) for k, v in sorted(domain_evidence.items())},
     })
     policy_digest = _digest({
