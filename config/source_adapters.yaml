@@ -1,4 +1,10 @@
 version: 3
+runtime:
+  timeout_seconds: 45
+  retry_attempts: 2
+  retry_backoff_seconds: 2
+  max_bytes: 5000000
+  user_agent: Popular-Rules-Source/3.x
 contract:
   required_fields: [source_url, parser, fixture, evidence_mapping, regression_test]
   authority: official_only
