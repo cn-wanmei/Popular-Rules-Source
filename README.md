@@ -16,14 +16,14 @@
 
 | Service | Lifecycle | Release | Domains | Snapshot |
 |---|---|---|---:|---|
-| 1688 | **PRODUCTION** | CANDIDATE | 3 | snap-1688-b48b14f407530d49052090e7 |
-| cainiao | **PRODUCTION** | CANDIDATE | 1 | snap-cainiao-f98c960e71406bdad7f6f2aa |
-| dingding | **PRODUCTION** | CANDIDATE | 6 | snap-dingding-a8d439dd579c51318213ff4d |
-| qqmail | **PRODUCTION** | CANDIDATE | 1 | snap-qqmail-e18e92f661d4032c002d436c |
-| qqmusic | **PRODUCTION** | CANDIDATE | 1 | snap-qqmusic-e903c9a62ef0a67f01a7d15d |
-| taobao | **VERIFIED** | CANDIDATE | 14 | snap-taobao-f4c1d298c6aec90f470a3681 |
-| tencentcloud | **PRODUCTION** | CANDIDATE | 1 | snap-tencentcloud-b971976c1cdd15a737dcc2c1 |
-| tmall | **VERIFIED** | CANDIDATE | 8 | snap-tmall-e789778d5553d7ddf454595c |
+| 1688 | **PRODUCTION** | CANDIDATE | 3 | snap-1688-79b87e018d45c6cf6ea3d5e9 |
+| cainiao | **PRODUCTION** | CANDIDATE | 1 | snap-cainiao-1d34e11a7bcd0dddb005d3b1 |
+| dingding | **PRODUCTION** | CANDIDATE | 6 | snap-dingding-a34044862e016125310d0f44 |
+| qqmail | **PRODUCTION** | CANDIDATE | 1 | snap-qqmail-2270b88d6c38795abbee9d65 |
+| qqmusic | **PRODUCTION** | CANDIDATE | 1 | snap-qqmusic-7c0a2fae200d3fbbec51a4a3 |
+| taobao | **VERIFIED** | CANDIDATE | 14 | snap-taobao-ec2009bae8427ad3ceee1abf |
+| tencentcloud | **PRODUCTION** | CANDIDATE | 1 | snap-tencentcloud-ad8e76531a37c15f32d99658 |
+| tmall | **VERIFIED** | CANDIDATE | 8 | snap-tmall-f53bba695352fcfddbdd4b18 |
 <!-- SOURCE_STATUS:END -->
 ### 三层平台能力
 
