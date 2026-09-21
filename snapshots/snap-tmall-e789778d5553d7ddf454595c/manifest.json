@@ -81,10 +81,72 @@
       "value": "www.tmall.com"
     }
   ],
+  "change_assessment": {
+    "growth_ratio": 1.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
   "content_digest": "e789778d5553d7ddf454595c6ef8a74bd6b66800ebf77c65afd56ed9003e4fce",
+  "created_at": "2026-09-21T12:21:37.344254+00:00",
+  "domain_count": 8,
+  "domain_diff": {
+    "added": [],
+    "added_count": 0,
+    "current_count": 8,
+    "previous_count": 8,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
+      "book.tmall.com",
+      "car.tmall.com",
+      "chaoshi.tmall.com",
+      "detail.tmall.com",
+      "fragment.tmall.com",
+      "jstracker.www.tmall.com",
+      "tmall.com",
+      "www.tmall.com"
+    ],
+    "unchanged_count": 8
+  },
+  "domains": [
+    "book.tmall.com",
+    "car.tmall.com",
+    "chaoshi.tmall.com",
+    "detail.tmall.com",
+    "fragment.tmall.com",
+    "jstracker.www.tmall.com",
+    "tmall.com",
+    "www.tmall.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "confidence": "high",
+      "content_hash": "055969b4c0d1ea09f09b910bb2cb21ac13d82fbc345a5085cb5ff5f063b5ff57",
+      "domains_extracted": 8,
+      "evidence_id": "EV-tmall-001-055969b4c0d1",
+      "parser_version": "domain-extractor-v3",
+      "resolved_url": "https://www.tmall.com/",
+      "retrieved_at": "2026-09-21T12:21:37.265185+00:00",
+      "service_id": "tmall",
+      "source_method": "official_web",
+      "source_url": "https://www.tmall.com/",
+      "status": "verified"
+    }
+  ],
+  "generator_version": "2.0.0",
+  "last_known_good": false,
   "official_extracted": 8,
-  "schema": "source_provenance_v2",
+  "parser_version": "domain-extractor-v3",
+  "previous_domain_count": 8,
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "9bfeff42d6f93750fe84882a6fac78d7ae93331ba95b546a64b7768008245367",
   "service_id": "tmall",
+  "snapshot_content_sha256": "e789778d5553d7ddf454595c6ef8a74bd6b66800ebf77c65afd56ed9003e4fce",
   "snapshot_id": "snap-tmall-e789778d5553d7ddf454595c",
-  "unverified_candidate_count": 0
+  "source_count": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
 }

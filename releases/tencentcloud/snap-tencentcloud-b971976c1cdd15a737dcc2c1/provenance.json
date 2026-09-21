@@ -11,10 +11,6 @@
       "value": "cloud.tencent.com"
     }
   ],
-  "content_digest": "b971976c1cdd15a737dcc2c187faf9fc7f57e9b64a1c4950fa070da00cb6962a",
-  "official_extracted": 1,
   "schema": "source_provenance_v2",
-  "service_id": "tencentcloud",
-  "snapshot_id": "snap-tencentcloud-b971976c1cdd15a737dcc2c1",
-  "unverified_candidate_count": 0
+  "service_id": "tencentcloud"
 }

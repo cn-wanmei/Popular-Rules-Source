@@ -4,7 +4,7 @@
       "asset_id": "sha256:8593604b7036b5b9a2332025dd3a4a451b7cb26523827dd55de108a25162a265",
       "classification": "service",
       "evidence_ids": [
-        "EV-dingding-001-e9809096aee9"
+        "EV-dingding-001-857e42d40b13"
       ],
       "service_id": "dingding",
       "type": "domain",
@@ -14,7 +14,7 @@
       "asset_id": "sha256:5d5b8878be30321fe4eb5cb66c018f944466306e7be732f0a3812071646f1527",
       "classification": "service",
       "evidence_ids": [
-        "EV-dingding-001-e9809096aee9"
+        "EV-dingding-001-857e42d40b13"
       ],
       "service_id": "dingding",
       "type": "domain",
@@ -24,7 +24,7 @@
       "asset_id": "sha256:2eb6e02ada3141af454db799c0d71a037a10effee3ccb30dca43cb5f0b3a00fc",
       "classification": "service",
       "evidence_ids": [
-        "EV-dingding-001-e9809096aee9"
+        "EV-dingding-001-857e42d40b13"
       ],
       "service_id": "dingding",
       "type": "domain",
@@ -61,10 +61,10 @@
       "value": "www.dingtalk.com"
     }
   ],
-  "content_digest": "a8d439dd579c51318213ff4d805373b5b3a157061bcf4529783c3dcad7a0980d",
+  "content_digest": "0064f4e27250eb186a0764032b9fae81954a582ee48a906f69a684d76d021782",
   "official_extracted": 6,
   "schema": "source_provenance_v2",
   "service_id": "dingding",
-  "snapshot_id": "snap-dingding-a8d439dd579c51318213ff4d",
+  "snapshot_id": "snap-dingding-0064f4e27250eb186a076403",
   "unverified_candidate_count": 0
 }

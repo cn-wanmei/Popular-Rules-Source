@@ -1,0 +1,14 @@
+{
+  "domains": [
+    "cloud.tencent.com"
+  ],
+  "generator_version": "2.0.0",
+  "official_source_hashes": [
+    "edc8b2f37bc7369694c177c88da2d5d7111d4c8ba6a5d65f4cb9a849ef8f5037"
+  ],
+  "parser_version": "domain-extractor-v3",
+  "schema": "source_snapshot_content_v1",
+  "service_config_digest": "abaa35e9d20284412c311a6a90ec0316adb9e98983385d355db27144f957d25b",
+  "service_id": "tencentcloud",
+  "unverified_candidate_domains": []
+}

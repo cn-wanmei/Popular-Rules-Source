@@ -4,17 +4,17 @@
       "asset_id": "sha256:4a5a76ae772e2978cd068b962bcef484aad56810082ee4141bcdc74ea6c89d23",
       "classification": "service",
       "evidence_ids": [
-        "EV-cainiao-001-d6cf6b18d3e4"
+        "EV-cainiao-001-c26c955cc462"
       ],
       "service_id": "cainiao",
       "type": "domain",
       "value": "gpn.cainiao.com"
     }
   ],
-  "content_digest": "6c7374b6e509e68d347278c5bcfc25686e771e0127d3941228262153a6c2d032",
+  "content_digest": "6b7a7c54ce094d60d6ed7cdb68785a99fd21b34c570e9257a8b957f377cbd1bf",
   "official_extracted": 1,
   "schema": "source_provenance_v2",
   "service_id": "cainiao",
-  "snapshot_id": "snap-cainiao-6c7374b6e509e68d347278c5",
+  "snapshot_id": "snap-cainiao-6b7a7c54ce094d60d6ed7cdb",
   "unverified_candidate_count": 0
 }

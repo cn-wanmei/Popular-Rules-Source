@@ -1,0 +1,26 @@
+{
+  "checksums": {
+    "domains.txt": "3aee7d20287e15c9e109c97d04571758bc4b66fd74ace8d84967827e36260991",
+    "provenance.json": "5a8c6e6562a7e596e36fbac1bf0ed07e72f8e361855486d95ea4553d5831da1c",
+    "snapshot_content.json": "e2ed8234d8e31b0e3f8cfb8da900ff946b445ba7bb2752f2f1eead1667274f55"
+  },
+  "content_digest": "b971976c1cdd15a737dcc2c187faf9fc7f57e9b64a1c4950fa070da00cb6962a",
+  "created_at": "2026-09-21T12:21:41.770297+00:00",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "tencentcloud",
+  "snapshot_id": "snap-tencentcloud-b971976c1cdd15a737dcc2c1",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 1.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.3.1"
+}

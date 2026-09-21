@@ -1,0 +1,26 @@
+{
+  "checksums": {
+    "domains.txt": "4f2521212149543f1f267cb4b7d9bb89a544f168b33bd12ecd3207aaaedd412d",
+    "provenance.json": "249d6ca35f9a52f405d94eda767c4d23071fde7dbcd4353a416213c703d3da24",
+    "snapshot_content.json": "4091f3c43fe59a87ddffbb9fd5690b3854d2d98baf189e3de2f980042cf40282"
+  },
+  "content_digest": "e789778d5553d7ddf454595c6ef8a74bd6b66800ebf77c65afd56ed9003e4fce",
+  "created_at": "2026-09-21T12:21:37.345771+00:00",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "tmall",
+  "snapshot_id": "snap-tmall-e789778d5553d7ddf454595c",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 1.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.3.1"
+}

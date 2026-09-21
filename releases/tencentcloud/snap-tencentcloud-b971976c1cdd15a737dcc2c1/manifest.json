@@ -1,0 +1,68 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:f8b2105bbea1f97e120c09a64ff0077681234b99ee8491537ff99567948861ec",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentcloud-001-edc8b2f37bc7"
+      ],
+      "service_id": "tencentcloud",
+      "type": "domain",
+      "value": "cloud.tencent.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 1.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "b971976c1cdd15a737dcc2c187faf9fc7f57e9b64a1c4950fa070da00cb6962a",
+  "created_at": "2026-09-21T12:21:41.768985+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [],
+    "added_count": 0,
+    "current_count": 1,
+    "previous_count": 1,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
+      "cloud.tencent.com"
+    ],
+    "unchanged_count": 1
+  },
+  "domains": [
+    "cloud.tencent.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "confidence": "high",
+      "content_hash": "edc8b2f37bc7369694c177c88da2d5d7111d4c8ba6a5d65f4cb9a849ef8f5037",
+      "domains_extracted": 1,
+      "evidence_id": "EV-tencentcloud-001-edc8b2f37bc7",
+      "parser_version": "domain-extractor-v3",
+      "resolved_url": "https://cloud.tencent.com/document/api",
+      "retrieved_at": "2026-09-21T12:21:41.689619+00:00",
+      "service_id": "tencentcloud",
+      "source_method": "official_web",
+      "source_url": "https://cloud.tencent.com/document/api",
+      "status": "verified"
+    }
+  ],
+  "generator_version": "2.0.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "parser_version": "domain-extractor-v3",
+  "previous_domain_count": 1,
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "abaa35e9d20284412c311a6a90ec0316adb9e98983385d355db27144f957d25b",
+  "service_id": "tencentcloud",
+  "snapshot_content_sha256": "b971976c1cdd15a737dcc2c187faf9fc7f57e9b64a1c4950fa070da00cb6962a",
+  "snapshot_id": "snap-tencentcloud-b971976c1cdd15a737dcc2c1",
+  "source_count": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

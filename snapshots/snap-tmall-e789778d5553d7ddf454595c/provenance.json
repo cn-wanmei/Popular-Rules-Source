@@ -81,10 +81,6 @@
       "value": "www.tmall.com"
     }
   ],
-  "content_digest": "e789778d5553d7ddf454595c6ef8a74bd6b66800ebf77c65afd56ed9003e4fce",
-  "official_extracted": 8,
   "schema": "source_provenance_v2",
-  "service_id": "tmall",
-  "snapshot_id": "snap-tmall-e789778d5553d7ddf454595c",
-  "unverified_candidate_count": 0
+  "service_id": "tmall"
 }
