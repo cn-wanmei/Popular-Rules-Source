@@ -72,6 +72,10 @@ def main() -> None:
     p.add_argument("--collection-ref")
     p.add_argument("--domain", action="append")
 
+    p = sub.add_parser("repair")
+    p.add_argument("--service", required=True)
+    p.add_argument("--domain", action="append", required=True)
+
     p = sub.add_parser("discover")
     p.add_argument("--service", required=True)
     p.add_argument("--live", action="store_true")
@@ -108,6 +112,12 @@ def main() -> None:
             gap(args.service, collection_ref=args.collection_ref, target_domains=args.domain),
             ensure_ascii=False, indent=2
         ))
+    elif args.command == "repair":
+        from .repair import repair
+        result = repair(args.service, args.domain)
+        print(json.dumps(result, ensure_ascii=False, indent=2))
+        if result.get("status") != "RELEASED":
+            raise SystemExit(2)
     elif args.command == "test-determinism":
         from .normalize import normalize_domain, service_asset_id
         cfg = load_services()["services"]["qqmail"]
