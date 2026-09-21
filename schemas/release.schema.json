@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Popular Rules Source Release",
   "type": "object",
-  "required": ["schema", "repository", "service_id", "snapshot_id", "content_digest", "version", "created_at", "checksums", "validation", "reconciliation"],
+  "required": ["schema", "repository", "service_id", "snapshot_id", "content_digest", "evidence_digest", "policy_digest", "generator_digest", "release_digest", "version", "created_at", "checksums", "validation", "reconciliation"],
   "properties": {
     "schema": {"const": "popular_rules_source_release_v1"},
     "repository": {"type": "string"},
