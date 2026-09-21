@@ -118,6 +118,7 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
             errors.append(f"{source_url}: " + " | ".join(source_errors or ["no adapter produced evidence"]))
             continue
 
+        domains.update(selected_domains)
         domain_list = sorted(set(selected_domains))
         content_hash = str((meta or {}).get("content_hash") or _digest(meta or {}))
         evidence_id = f"EV-{service_id}-{idx:03d}-{content_hash[:12]}"
