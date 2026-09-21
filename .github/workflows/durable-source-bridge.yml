@@ -64,12 +64,16 @@ jobs:
               raise SystemExit(f"no durable release produced for {service}")
           release_path = roots[-1]
           release = json.loads(release_path.read_text(encoding="utf-8"))
-          required = {"service_id", "snapshot_id", "content_digest", "checksums", "validation"}
+          required = {"service_id", "snapshot_id", "content_digest", "evidence_digest", "policy_digest", "generator_digest", "release_digest", "checksums", "validation"}
           missing = sorted(required - release.keys())
           if missing:
               raise SystemExit(f"release contract missing: {missing}")
           if release["service_id"] != service:
               raise SystemExit("service_id mismatch")
+          for key in ("content_digest", "evidence_digest", "policy_digest", "generator_digest", "release_digest"):
+              value = str(release.get(key) or "")
+              if len(value) != 64 or any(ch not in "0123456789abcdef" for ch in value.lower()):
+                  raise SystemExit(f"invalid {key} for {service}: {value}")
           snapshot = Path("snapshots") / release["snapshot_id"]
           for name in ("domains.txt", "provenance.json", "manifest.json", "checksums.json"):
               if not (snapshot / name).is_file():
