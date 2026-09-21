@@ -229,8 +229,7 @@ def gap(service_id: str, *, collection_ref: str | None = None, target_domains: l
     }
     Path("reports").mkdir(exist_ok=True)
     Path(f"reports/gap-{service_id}.json").write_text(
-        json.dumps(result, ensure_ascii=False, indent=2, sort_keys=True) + "
-",
+        json.dumps(result, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
     )
     return result
