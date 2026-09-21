@@ -44,6 +44,12 @@ jobs:
         run: python -m source_engine generate --service "${{ matrix.service }}"
       - name: Validate snapshot schema
         run: python -m source_engine schema-validate
+      - name: Evidence candidate gate
+        run: python -m source_engine candidate-audit
+      - name: Conflict gate
+        run: python -m source_engine conflict
+      - name: Determinism gate
+        run: python -m source_engine test-determinism
       - name: Create durable release
         run: python -m source_engine release --service "${{ matrix.service }}"
       - name: Verify release contract
