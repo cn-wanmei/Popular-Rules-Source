@@ -1,17 +1,65 @@
-version: 2
+version: 3
+contract:
+  required_fields: [source_url, parser, fixture, evidence_mapping, regression_test]
+  authority: official_only
+
 adapters:
   official_web:
     enabled: true
+    authority: official
     method: html_domain_extraction
-    timeout_seconds: 45
-    retry_attempts: 2
-    retry_backoff_seconds: 2
-    max_bytes: 5000000
-    user_agent: "Popular-Rules-Source/1.x"
+    parser: domain-extractor-v4
+    fixture: tests/fixtures/official_web.html
+    evidence_mapping: manifest.evidence[]
+    regression_test: tests/test_adapters.py
   official_json:
     enabled: false
+    authority: official
     method: structured_json
-    notes: "Disabled until a live official endpoint and field-path contract exist. Test fixtures are never production inputs."
+    parser: structured-json-v1
+    field_paths: []
+    fixture: null
+    evidence_mapping: manifest.evidence[]
+    regression_test: tests/test_adapters.py
+  official_api:
+    enabled: false
+    authority: official
+    method: http_json_api
+    parser: official-api-v1
+    field_paths: []
+    fixture: null
+    evidence_mapping: manifest.evidence[]
+    regression_test: tests/test_adapters.py
+  official_manifest:
+    enabled: false
+    authority: official
+    method: structured_manifest
+    parser: official-manifest-v1
+    field_paths: []
+    fixture: null
+    evidence_mapping: manifest.evidence[]
+    regression_test: tests/test_adapters.py
+  official_sdk:
+    enabled: false
+    authority: official
+    method: trusted_in_repo_sdk
+    parser: official-sdk-v1
+    module: ""
+    function: discover
+    fixture: null
+    evidence_mapping: manifest.evidence[]
+    regression_test: tests/test_adapters.py
+  official_browser:
+    enabled: false
+    authority: official
+    method: playwright_render_network_dom
+    parser: official-browser-v1
+    selector: ""
+    settle_ms: 1500
+    fixture: null
+    evidence_mapping: manifest.evidence[]
+    regression_test: tests/test_adapters.py
+
 services:
   "1688": {adapters: [official_web]}
   cainiao: {adapters: [official_web]}
