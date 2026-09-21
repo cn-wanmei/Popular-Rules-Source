@@ -55,7 +55,10 @@ def _domains_from_values(values: list[Any], exact: tuple[str, ...], suffixes: tu
     output: set[str] = set()
     for value in values:
         raw = value if isinstance(value, str) else json.dumps(value, ensure_ascii=False)
-        tokens = re.findall(r"https?://[^s"'<>]+|(?:[A-Za-z0-9-]+.)+[A-Za-z]{2,63}", raw)
+        tokens = re.findall(
+        r"""https?://[^\s"'<>]+|(?:[A-Za-z0-9-]+\.)+[A-Za-z]{2,63}""",
+        raw,
+    )
         for token in tokens:
             domain = normalize_domain(token)
             if domain and host_allowed(domain, exact, suffixes):
