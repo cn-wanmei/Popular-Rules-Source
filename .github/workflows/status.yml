@@ -9,6 +9,9 @@ on:
       - "releases/**"
       - ".github/workflows/status.yml"
   workflow_dispatch:
+  workflow_run:
+    workflows: ["Durable Source Bridge"]
+    types: [completed]
 
 permissions:
   contents: write
