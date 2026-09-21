@@ -74,6 +74,7 @@ def main() -> None:
 
     p = sub.add_parser("discover")
     p.add_argument("--service", required=True)
+    p.add_argument("--live", action="store_true")
 
     p = sub.add_parser("reconcile")
     p.add_argument("--service", action="append")
@@ -117,7 +118,7 @@ def main() -> None:
         print(json.dumps({"determinism": "PASS"}))
     elif args.command == "discover":
         from .discover import discover_from_config
-        print(json.dumps(discover_from_config(args.service), ensure_ascii=False, indent=2))
+        print(json.dumps(discover_from_config(args.service, live=args.live), ensure_ascii=False, indent=2))
     elif args.command == "reconcile":
         print(json.dumps(
             audit_collection(args.service or sorted(load_services()["services"])),
