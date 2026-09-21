@@ -9,6 +9,8 @@ def test_reconcile_reports_registered_but_disabled(tmp_path, monkeypatch):
     monkeypatch.chdir(tmp_path)
 
     def fake_get_yaml(url: str, timeout: int = 20) -> dict:
+        if url.endswith("/sources/immutable_registry.yaml"):
+            return {"bindings": {}}
         if url.endswith("/sources/registry.yaml"):
             return {
                 "sources": [
