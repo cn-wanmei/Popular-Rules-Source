@@ -3,7 +3,6 @@ services:
   "1688":
     display_name: "1688"
     ecosystem: alibaba
-    status: review
     official_sources:
       - "https://aop.alibaba.com/"
       - "https://www.1688.com/"
@@ -16,7 +15,6 @@ services:
   cainiao:
     display_name: "菜鸟"
     ecosystem: alibaba
-    status: review
     official_sources:
       - "https://gpn.cainiao.com/"
     allowed_host_suffixes: []
@@ -28,7 +26,6 @@ services:
   dingding:
     display_name: "钉钉"
     ecosystem: alibaba
-    status: review
     official_sources:
       - "https://open.dingtalk.com/document/development/query-the-article-list"
       - "https://www.dingtalk.com/"
@@ -41,7 +38,6 @@ services:
   qqmail:
     display_name: "QQ邮箱"
     ecosystem: tencent
-    status: review
     official_sources:
       - "https://mail.qq.com/"
       - "https://cloud.tencent.com/document/product/1270/55456"
@@ -54,7 +50,6 @@ services:
   qqmusic:
     display_name: "QQ音乐"
     ecosystem: tencent
-    status: review
     official_sources:
       - "https://y.qq.com/"
     allowed_host_suffixes: ["y.qq.com"]
@@ -66,7 +61,6 @@ services:
   taobao:
     display_name: "淘宝"
     ecosystem: alibaba
-    status: review
     official_sources:
       - "https://developer.alibaba.com/docs/doc.htm?articleId=108&docType=1&treeId=1"
       - "https://open.taobao.com/"
@@ -79,7 +73,6 @@ services:
   tencentcloud:
     display_name: "腾讯云"
     ecosystem: tencent
-    status: partial
     official_sources:
       - "https://cloud.tencent.com/document/api"
     allowed_host_suffixes: ["cloud.tencent.com", "tencentcloudapi.com"]
@@ -91,7 +84,6 @@ services:
   tmall:
     display_name: "天猫"
     ecosystem: alibaba
-    status: review
     official_sources:
       - "https://www.tmall.com/"
     allowed_host_suffixes: ["tmall.com"]

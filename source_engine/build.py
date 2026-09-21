@@ -4,24 +4,22 @@ import hashlib
 import json
 from datetime import datetime, timezone
 from pathlib import Path
-from urllib.parse import urlparse
 
-import yaml
-
+from .adapters import adapter_names_for, extract_with_adapter
 from .diff import domain_diff
-from .extract import extract_domains
-from .fetch import FetchError, fetch
 from .normalize import host_allowed, normalize_domain, service_asset_id
 from .overrides import apply_overrides, load_service_overrides
 from .policy import assess_count_change, is_excluded, load_exclusion_suffixes
 from .tombstone import filter_revoked
+from .fetch import fetch, FetchError
 
-PARSER_VERSION = "domain-extractor-v3"
-GENERATOR_VERSION = "2.0.0"
+PARSER_VERSION = "domain-extractor-v4"
+GENERATOR_VERSION = "3.0.0"
 
 
 def load_yaml(path: str) -> dict:
     with open(path, "r", encoding="utf-8") as fh:
+        import yaml
         return yaml.safe_load(fh) or {}
 
 
@@ -30,33 +28,45 @@ def load_services(path: str = "config/services.yaml") -> dict:
 
 
 def latest_domains(service_id: str) -> list[str]:
-    root = Path("snapshots")
-    if not root.exists():
-        return []
-    candidates: list[tuple[str, Path]] = []
-    for manifest_path in root.glob("*/manifest.json"):
+    candidates = []
+    for manifest_path in Path("snapshots").glob("*/manifest.json"):
         try:
             data = json.loads(manifest_path.read_text(encoding="utf-8"))
         except (OSError, json.JSONDecodeError):
             continue
-        if data.get("schema") != "source_snapshot_v2":
-            continue
-        if data.get("service_id") != service_id:
+        if data.get("schema") != "source_snapshot_v2" or data.get("service_id") != service_id:
             continue
         if data.get("release_state") not in {"CANDIDATE", "PUBLISHED"}:
             continue
-        domains_path = manifest_path.parent / "domains.txt"
-        if domains_path.exists():
-            candidates.append((data.get("created_at", ""), domains_path))
+        domains = manifest_path.parent / "domains.txt"
+        if domains.exists():
+            candidates.append((str(data.get("created_at", "")), domains))
     if not candidates:
         return []
-    _, path = sorted(candidates)[-1]
-    return [x.strip() for x in path.read_text(encoding="utf-8").splitlines() if x.strip()]
+    return [x.strip() for x in sorted(candidates)[-1][1].read_text(encoding="utf-8").splitlines() if x.strip()]
 
 
-def _service_config_digest(cfg: dict) -> str:
-    payload = json.dumps(cfg, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
-    return hashlib.sha256(payload.encode("utf-8")).hexdigest()
+def _digest(value: object) -> str:
+    raw = json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(",", ":"))
+    return hashlib.sha256(raw.encode("utf-8")).hexdigest()
+
+
+def _file_digest(path: str) -> str:
+    try:
+        return hashlib.sha256(Path(path).read_bytes()).hexdigest()
+    except OSError:
+        return ""
+
+
+def _generator_digest() -> str:
+    return _digest({
+        "version": Path("VERSION").read_text(encoding="utf-8").strip(),
+        "parser_version": PARSER_VERSION,
+        "generator_version": GENERATOR_VERSION,
+        "build": _file_digest("source_engine/build.py"),
+        "extract": _file_digest("source_engine/extract.py"),
+        "adapters": _file_digest("source_engine/adapters.py"),
+    })
 
 
 def build_service(service_id: str, config_path: str = "config/services.yaml") -> dict:
@@ -65,87 +75,84 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
         raise KeyError(f"unknown service: {service_id}")
 
     cfg = services[service_id]
-    adapter_policy = load_yaml("config/source_adapters.yaml")["adapters"]["official_web"]
+    adapters_cfg = load_yaml("config/source_adapters.yaml")
+    adapter_policy = adapters_cfg["runtime"]
     validation = load_yaml("config/validation.yaml")
     exact = tuple(cfg.get("allowed_host_exact", []))
     suffixes = tuple(cfg.get("allowed_host_suffixes", []))
-
     domains: set[str] = set()
-    domain_evidence: dict[str, set[str]] = {}
     evidence_items: list[dict] = []
+    domain_evidence: dict[str, set[str]] = {}
     errors: list[str] = []
     official_extracted = 0
 
-    for idx, source_url in enumerate(cfg.get("official_sources", []), start=1):
-        try:
-            result = fetch(
-                source_url,
-                timeout=int(adapter_policy["timeout_seconds"]),
-                max_bytes=int(adapter_policy["max_bytes"]),
-                user_agent=str(adapter_policy["user_agent"]),
-                retry_attempts=int(adapter_policy.get("retry_attempts", 1)),
-                retry_backoff_seconds=float(adapter_policy.get("retry_backoff_seconds", 1)),
-            )
-        except FetchError as exc:
-            errors.append(str(exc))
+    for idx, source_url in enumerate(cfg.get("official_sources", []), 1):
+        used = None
+        meta = None
+        selected_domains: tuple[str, ...] = ()
+        empty_success: tuple[str, dict] | None = None
+        source_errors: list[str] = []
+        for adapter_name in adapter_names_for(service_id):
+            try:
+                extraction = extract_with_adapter(
+                    service_id=service_id,
+                    adapter_name=adapter_name,
+                    source_url=str(source_url),
+                    exact=exact,
+                    suffixes=suffixes,
+                    adapter_policy=adapter_policy,
+                )
+                if extraction.domains:
+                    selected_domains = extraction.domains
+                    used = adapter_name
+                    meta = extraction.evidence
+                    break
+                if empty_success is None:
+                    empty_success = (adapter_name, extraction.evidence)
+            except Exception as exc:
+                source_errors.append(f"{adapter_name}: {exc}")
+        if used is None and empty_success is not None:
+            used, meta = empty_success
+            selected_domains = ()
+        if used is None:
+            errors.append(f"{source_url}: " + " | ".join(source_errors or ["no adapter produced evidence"]))
             continue
 
-        raw_dir = Path("raw") / result.retrieved_at[:10] / service_id
-        raw_dir.mkdir(parents=True, exist_ok=True)
-        (raw_dir / f"{idx:03d}-{result.sha256[:12]}.bin").write_bytes(result.body)
-
-        extracted = extract_domains(
-            result.body,
-            result.content_type,
-            result.url,
-            exact,
-            suffixes,
-        )
-        # When an official source is itself hosted on an explicitly allowed
-        # service host, the source URL hostname is first-party evidence too.
-        # This covers dynamic/JS-heavy official pages without widening scope:
-        # it is admitted only when the existing service allow policy accepts it.
-        source_host = normalize_domain(urlparse(result.url).hostname or "")
-        if source_host and host_allowed(source_host, exact, suffixes):
-            extracted = sorted(set(extracted) | {source_host})
-
-        evidence_id = f"EV-{service_id}-{idx:03d}-{result.sha256[:12]}"
-        evidence_items.append({
+        domain_list = sorted(set(selected_domains))
+        content_hash = str((meta or {}).get("content_hash") or _digest(meta or {}))
+        evidence_id = f"EV-{service_id}-{idx:03d}-{content_hash[:12]}"
+        evidence = {
             "evidence_id": evidence_id,
             "service_id": service_id,
             "source_url": source_url,
-            "resolved_url": result.url,
-            "source_method": "official_web",
-            "retrieved_at": result.retrieved_at,
-            "content_hash": result.sha256,
-            "parser_version": PARSER_VERSION,
+            "resolved_url": (meta or {}).get("resolved_url", source_url),
+            "source_method": (meta or {}).get("source_method", used),
+            "source_type": (meta or {}).get("source_type", used),
+            "authority": "official",
+            "retrieved_at": (meta or {}).get("retrieved_at", datetime.now(timezone.utc).isoformat()),
+            "content_hash": content_hash,
+            "parser_version": (meta or {}).get("parser_version", PARSER_VERSION),
             "confidence": "high",
+            "strength": "S3",
             "status": "verified",
-            "domains_extracted": len(extracted),
-        })
-        official_extracted += len(extracted)
-        for domain in extracted:
-            domains.add(domain)
+            "domains_extracted": len(domain_list),
+        }
+        evidence_items.append(evidence)
+        official_extracted += len(domain_list)
+        for domain in domain_list:
             domain_evidence.setdefault(domain, set()).add(evidence_id)
 
     blocked_suffixes = load_exclusion_suffixes()
     domains = {
         d for d in domains
-        if host_allowed(d, exact, suffixes)
-        and not is_excluded(d, blocked_suffixes)
+        if host_allowed(d, exact, suffixes) and not is_excluded(d, blocked_suffixes)
     }
-    revoked = domains - filter_revoked(service_id, domains)
+    revoked = set()
+    before_revocation = set(domains)
     domains = filter_revoked(service_id, domains)
+    revoked = before_revocation - domains
 
     overrides = load_service_overrides(service_id)
-    for item in overrides:
-        raw_domain = str(item.get("asset", ""))
-        domain = normalize_domain(raw_domain)
-        if domain and str(item.get("action", "")).lower() == "include":
-            evidence = item.get("evidence_ids") or item.get("evidence") or []
-            if isinstance(evidence, str):
-                evidence = [evidence]
-            domain_evidence.setdefault(domain, set()).update(map(str, evidence))
     domains = apply_overrides(
         domains,
         overrides,
@@ -155,14 +162,13 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
         revoked=revoked,
     )
     sorted_domains = sorted(domains)
-
     previous = latest_domains(service_id)
     diff = domain_diff(previous, sorted_domains)
-    used_last_known_good = False
+    last_known_good = False
     if errors and not sorted_domains and previous:
         sorted_domains = list(previous)
         diff = domain_diff(previous, sorted_domains)
-        used_last_known_good = True
+        last_known_good = True
 
     assessment = assess_count_change(
         len(previous),
@@ -171,88 +177,71 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
         float(validation["thresholds"]["max_growth_ratio_without_review"]),
     )
 
-    evidence_map = {
-        item["evidence_id"]: item
-        for item in evidence_items
-    }
-    unverified_domains = [
-        domain for domain in sorted_domains
+    unverified = [
+        d for d in sorted_domains
         if not any(
-            evidence_map.get(eid, {}).get("source_method") == "official_web"
-            for eid in domain_evidence.get(domain, set())
+            evidence.get("authority") == "official"
+            and evidence.get("status") == "verified"
+            for evidence in evidence_items
+            if evidence["evidence_id"] in domain_evidence.get(d, set())
         )
     ]
 
-    service_digest = _service_config_digest(cfg)
-
-    snapshot_content = {
-        "schema": "source_snapshot_content_v1",
+    content_digest = _digest({
+        "schema": "source_snapshot_content_v2",
         "service_id": service_id,
         "domains": sorted_domains,
-        "official_source_hashes": sorted(
-            item["content_hash"]
-            for item in evidence_items
-            if item["source_method"] == "official_web"
-        ),
-        "parser_version": PARSER_VERSION,
-        "generator_version": GENERATOR_VERSION,
-        "service_config_digest": service_digest,
-        "unverified_candidate_domains": unverified_domains,
-    }
-    snapshot_content_bytes = json.dumps(
-        snapshot_content,
-        ensure_ascii=False,
-        sort_keys=True,
-        separators=(",", ":"),
-    ).encode("utf-8")
-    content_digest = hashlib.sha256(snapshot_content_bytes).hexdigest()
-
-    snapshot_id = f"snap-{service_id}-{content_digest[:24]}"
-    created_at = datetime.now(timezone.utc).isoformat()
-
-    assets = [
+        "official_source_hashes": sorted(x["content_hash"] for x in evidence_items),
+    })
+    evidence_identity = [
         {
-            "asset_id": service_asset_id(service_id, domain),
-            "service_id": service_id,
-            "type": "domain",
-            "value": domain,
-            "classification": "service" if domain not in unverified_domains else "candidate",
-            "evidence_ids": sorted(domain_evidence.get(domain, set())),
+            "evidence_id": item["evidence_id"],
+            "service_id": item["service_id"],
+            "source_url": item["source_url"],
+            "resolved_url": item.get("resolved_url"),
+            "source_method": item["source_method"],
+            "source_type": item.get("source_type"),
+            "authority": item["authority"],
+            "content_hash": item["content_hash"],
+            "parser_version": item["parser_version"],
+            "confidence": item["confidence"],
+            "strength": item["strength"],
+            "status": item["status"],
+            "domains_extracted": item.get("domains_extracted", 0),
         }
-        for domain in sorted_domains
+        for item in evidence_items
     ]
-
-    domains_text = "\n".join(sorted_domains) + ("\n" if sorted_domains else "")
-    generated_dir = Path("generated/source") / service_id
-    generated_dir.mkdir(parents=True, exist_ok=True)
-    (generated_dir / "domains.txt").write_text(domains_text, encoding="utf-8")
-    (generated_dir / "provenance.json").write_text(
-        json.dumps(
-            {
-                "schema": "source_provenance_v2",
-                "service_id": service_id,
-                "snapshot_id": snapshot_id,
-                "content_digest": content_digest,
-                "official_extracted": official_extracted,
-                "unverified_candidate_count": len(unverified_domains),
-                "assets": assets,
-            },
-            ensure_ascii=False,
-            indent=2,
-            sort_keys=True,
-        ) + "\n",
-        encoding="utf-8",
-    )
+    evidence_digest = _digest({
+        "service_id": service_id,
+        "evidence": evidence_identity,
+        "domain_evidence": {k: sorted(v) for k, v in sorted(domain_evidence.items())},
+    })
+    policy_digest = _digest({
+        "allowed_host_exact": list(exact),
+        "allowed_host_suffixes": list(suffixes),
+        "blocked_suffixes": list(blocked_suffixes),
+        "overrides": overrides,
+        "revoked": sorted(revoked),
+        "thresholds": validation.get("thresholds") or {},
+    })
+    generator_digest = _generator_digest()
+    release_digest = _digest({
+        "content_digest": content_digest,
+        "evidence_digest": evidence_digest,
+        "policy_digest": policy_digest,
+        "generator_digest": generator_digest,
+    })
+    snapshot_id = f"snap-{service_id}-{release_digest[:24]}"
 
     release_state = "CANDIDATE"
     release_reasons: list[str] = []
     if errors:
         release_state = "REVIEW"
         release_reasons.append("source_fetch_degraded")
-    if unverified_domains:
+    if unverified:
         release_state = "REVIEW"
         release_reasons.append("contains_unverified_candidate_asset")
-    if used_last_known_good:
+    if last_known_good:
         release_state = "REVIEW"
         release_reasons.append("last_known_good_retained")
     if assessment.status != "OK":
@@ -262,21 +251,34 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
         release_state = "BLOCKED"
         release_reasons.append("empty_domain_output")
 
+    assets = [{
+        "asset_id": service_asset_id(service_id, d),
+        "service_id": service_id,
+        "type": "domain",
+        "value": d,
+        "classification": "service" if d not in unverified else "candidate",
+        "evidence_ids": sorted(domain_evidence.get(d, set())),
+    } for d in sorted_domains]
+
     manifest = {
         "schema": "source_snapshot_v2",
         "snapshot_id": snapshot_id,
         "content_digest": content_digest,
+        "evidence_digest": evidence_digest,
+        "policy_digest": policy_digest,
+        "generator_digest": generator_digest,
+        "release_digest": release_digest,
+        "snapshot_content_sha256": content_digest,
         "service_id": service_id,
-        "created_at": created_at,
+        "created_at": datetime.now(timezone.utc).isoformat(),
         "parser_version": PARSER_VERSION,
         "generator_version": GENERATOR_VERSION,
-        "service_config_digest": service_digest,
+        "service_config_digest": _digest(cfg),
         "source_count": len(cfg.get("official_sources", [])),
-        "snapshot_content_sha256": content_digest,
         "domain_count": len(sorted_domains),
         "official_extracted": official_extracted,
-        "unverified_candidate_count": len(unverified_domains),
-        "unverified_candidate_domains": unverified_domains,
+        "unverified_candidate_count": len(unverified),
+        "unverified_candidate_domains": unverified,
         "domains": sorted_domains,
         "assets": assets,
         "evidence": evidence_items,
@@ -290,31 +292,39 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
         "errors": errors,
         "release_state": release_state,
         "release_reasons": release_reasons,
-        "last_known_good": used_last_known_good,
+        "last_known_good": last_known_good,
     }
 
     snapshot_dir = Path("snapshots") / snapshot_id
+    if (snapshot_dir / "manifest.json").exists():
+        return json.loads((snapshot_dir / "manifest.json").read_text(encoding="utf-8"))
     snapshot_dir.mkdir(parents=True, exist_ok=True)
-    existing_manifest = snapshot_dir / "manifest.json"
-    if existing_manifest.exists():
-        return json.loads(existing_manifest.read_text(encoding="utf-8"))
+    domains_text = "\n".join(sorted_domains) + ("\n" if sorted_domains else "")
 
-    (snapshot_dir / "snapshot_content.json").write_bytes(
-        json.dumps(
-            snapshot_content,
-            ensure_ascii=False,
-            indent=2,
-            sort_keys=True,
-        ).encode("utf-8") + b"\n"
+    (snapshot_dir / "snapshot_content.json").write_text(
+        json.dumps({
+            "schema": "source_snapshot_content_v2",
+            "service_id": service_id,
+            "domains": sorted_domains,
+            "official_source_hashes": sorted(x["content_hash"] for x in evidence_items),
+            "content_digest": content_digest,
+        }, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+        encoding="utf-8",
     )
     (snapshot_dir / "domains.txt").write_text(domains_text, encoding="utf-8")
     (snapshot_dir / "provenance.json").write_text(
-        json.dumps(
-            {"schema": "source_provenance_v2", "service_id": service_id, "assets": assets},
-            ensure_ascii=False,
-            indent=2,
-            sort_keys=True,
-        ) + "\n",
+        json.dumps({
+            "schema": "source_provenance_v3",
+            "service_id": service_id,
+            "snapshot_id": snapshot_id,
+            "content_digest": content_digest,
+            "evidence_digest": evidence_digest,
+            "policy_digest": policy_digest,
+            "generator_digest": generator_digest,
+            "release_digest": release_digest,
+            "assets": assets,
+            "evidence": evidence_items,
+        }, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
     )
     (snapshot_dir / "manifest.json").write_text(
@@ -323,15 +333,22 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
     )
     checksums = {
         name: hashlib.sha256((snapshot_dir / name).read_bytes()).hexdigest()
-        for name in ("snapshot_content.json", "domains.txt", "provenance.json")
+        for name in ("snapshot_content.json", "domains.txt", "provenance.json", "manifest.json")
     }
     (snapshot_dir / "checksums.json").write_text(
-        json.dumps(checksums, indent=2, sort_keys=True) + "\n",
+        json.dumps(checksums, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+        encoding="utf-8",
+    )
+
+    generated = Path("generated/source") / service_id
+    generated.mkdir(parents=True, exist_ok=True)
+    (generated / "domains.txt").write_text(domains_text, encoding="utf-8")
+    (generated / "provenance.json").write_text(
+        json.dumps(manifest, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
     )
     return manifest
 
 
 def build_all(config_path: str = "config/services.yaml") -> list[dict]:
-    services = load_services(config_path)["services"]
-    return [build_service(service_id, config_path) for service_id in sorted(services)]
+    return [build_service(s, config_path) for s in sorted(load_services(config_path)["services"])]

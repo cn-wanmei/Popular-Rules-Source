@@ -59,11 +59,11 @@ jobs:
           assert collection["prs_registered"] is True
           assert collection["prs_enabled"] is False
 
-          import yaml
-          with open("config/phase2_service_completion.yaml", encoding="utf-8") as fh:
-              phase2 = yaml.safe_load(fh) or {}
+          lifecycle = __import__("yaml").safe_load(
+              open("config/source_canary_state.yaml", encoding="utf-8")
+          ) or {}
           production_services = {
-              sid for sid, item in (phase2.get("services") or {}).items()
+              sid for sid, item in (lifecycle.get("services") or {}).items()
               if isinstance(item, dict) and item.get("state") == "production"
           }
           failures = [

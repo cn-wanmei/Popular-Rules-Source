@@ -2,18 +2,23 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "title": "Popular Rules Source Release",
   "type": "object",
-  "required": ["schema", "repository", "service_id", "snapshot_id", "content_digest", "version", "created_at", "checksums", "validation", "reconciliation"],
+  "required": ["schema", "repository", "service_id", "snapshot_id", "content_digest", "evidence_digest", "policy_digest", "generator_digest", "release_digest", "version", "created_at", "checksums", "validation", "reconciliation"],
   "properties": {
     "schema": {"const": "popular_rules_source_release_v1"},
     "repository": {"type": "string"},
     "service_id": {"type": "string"},
     "snapshot_id": {"type": "string"},
     "content_digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "evidence_digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "policy_digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "generator_digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+    "release_digest": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
     "version": {"type": "string"},
     "created_at": {"type": "string"},
     "checksums": {"type": "object"},
     "validation": {"type": "object"},
-    "reconciliation": {"type": "object"}
+    "reconciliation": {"type": "object"},
+    "lineage": {"type": "object"}
   },
   "additionalProperties": false
 }
