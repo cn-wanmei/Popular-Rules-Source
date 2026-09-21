@@ -4,6 +4,8 @@
 
 ### Final Source Platform Upgrade
 
+- 收紧 Durable Release contract 校验：digest 字段按 SHA-256 校验，release identity version 按协议版本校验。
+
 - 建立 Gap Engine、Lifecycle SSOT、Repair CLI 与完整 Evidence Supply Layer。
 - 建立 adapter contract、Browser/JS architecture、统一 retry/health 与 provenance digest identity。
 - Durable Bridge 改为按当前生成的 immutable snapshot 精确封存，历史 Release 永不复用。
