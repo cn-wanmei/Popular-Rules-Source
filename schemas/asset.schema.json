@@ -12,7 +12,7 @@
     "value": { "type": "string" },
     "classification": {
       "type": "string",
-      "enum": ["service", "shared", "external_dependency", "provider", "infrastructure", "unknown"]
+      "enum": ["service", "candidate", "shared", "external_dependency", "provider", "infrastructure", "unknown"]
     },
     "source_id": { "type": "string" },
     "source_method": { "type": "string" },
