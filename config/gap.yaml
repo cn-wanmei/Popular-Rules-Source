@@ -1,0 +1,7 @@
+version: 1
+schema: popular_rules_source_gap_config_v1
+collection_raw_root: https://raw.githubusercontent.com/cn-wanmei/Popular-Rules-Collection
+service_rules_path: data/generated/canonical/service_rules.jsonl
+rules_path: data/generated/canonical/rules.jsonl
+timeout_seconds: 45
+max_bytes: 80000000
