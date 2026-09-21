@@ -1,0 +1,28 @@
+{
+  "domains": [
+    "alimarket.taobao.com",
+    "eco.taobao.com",
+    "gw.api.taobao.com",
+    "ju.taobao.com",
+    "login.taobao.com",
+    "my.open.taobao.com",
+    "oauth.taobao.com",
+    "open.bbs.taobao.com",
+    "open.m.taobao.com",
+    "open.taobao.com",
+    "tbk.bbs.taobao.com",
+    "trip.taobao.com",
+    "work.open.taobao.com",
+    "www.taobao.com"
+  ],
+  "generator_version": "2.0.0",
+  "official_source_hashes": [
+    "110b2ecb31aa3d796f0ec0131f1abc8cb2960dd356662179141f92f6f01f6aed",
+    "312ecc8b23722266455512ccc3a382f1e1ed450a11e7326c9d8ccb355ae5314a"
+  ],
+  "parser_version": "domain-extractor-v3",
+  "schema": "source_snapshot_content_v1",
+  "service_config_digest": "c3ab979f1256b05de7bd087fc8364e95773849352d6e9ec4c102d80734f45ab7",
+  "service_id": "taobao",
+  "unverified_candidate_domains": []
+}

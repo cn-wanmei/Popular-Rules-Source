@@ -142,10 +142,97 @@
       "value": "www.taobao.com"
     }
   ],
+  "change_assessment": {
+    "growth_ratio": 1.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
   "content_digest": "f4c1d298c6aec90f470a3681c921d481725838ff09ffea2611ed84bd11d558fb",
+  "created_at": "2026-09-21T15:19:25.905587+00:00",
+  "domain_count": 14,
+  "domain_diff": {
+    "added": [],
+    "added_count": 0,
+    "current_count": 14,
+    "previous_count": 14,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
+      "alimarket.taobao.com",
+      "eco.taobao.com",
+      "gw.api.taobao.com",
+      "ju.taobao.com",
+      "login.taobao.com",
+      "my.open.taobao.com",
+      "oauth.taobao.com",
+      "open.bbs.taobao.com",
+      "open.m.taobao.com",
+      "open.taobao.com",
+      "tbk.bbs.taobao.com",
+      "trip.taobao.com",
+      "work.open.taobao.com",
+      "www.taobao.com"
+    ],
+    "unchanged_count": 14
+  },
+  "domains": [
+    "alimarket.taobao.com",
+    "eco.taobao.com",
+    "gw.api.taobao.com",
+    "ju.taobao.com",
+    "login.taobao.com",
+    "my.open.taobao.com",
+    "oauth.taobao.com",
+    "open.bbs.taobao.com",
+    "open.m.taobao.com",
+    "open.taobao.com",
+    "tbk.bbs.taobao.com",
+    "trip.taobao.com",
+    "work.open.taobao.com",
+    "www.taobao.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "confidence": "high",
+      "content_hash": "312ecc8b23722266455512ccc3a382f1e1ed450a11e7326c9d8ccb355ae5314a",
+      "domains_extracted": 14,
+      "evidence_id": "EV-taobao-001-312ecc8b2372",
+      "parser_version": "domain-extractor-v3",
+      "resolved_url": "https://developer.alibaba.com/docs/doc.htm?articleId=108&docType=1&treeId=1",
+      "retrieved_at": "2026-09-21T15:19:20.636653+00:00",
+      "service_id": "taobao",
+      "source_method": "official_web",
+      "source_url": "https://developer.alibaba.com/docs/doc.htm?articleId=108&docType=1&treeId=1",
+      "status": "verified"
+    },
+    {
+      "confidence": "high",
+      "content_hash": "110b2ecb31aa3d796f0ec0131f1abc8cb2960dd356662179141f92f6f01f6aed",
+      "domains_extracted": 1,
+      "evidence_id": "EV-taobao-002-110b2ecb31aa",
+      "parser_version": "domain-extractor-v3",
+      "resolved_url": "https://open.taobao.com/index.htm",
+      "retrieved_at": "2026-09-21T15:19:21.870607+00:00",
+      "service_id": "taobao",
+      "source_method": "official_web",
+      "source_url": "https://open.taobao.com/",
+      "status": "verified"
+    }
+  ],
+  "generator_version": "2.0.0",
+  "last_known_good": false,
   "official_extracted": 15,
-  "schema": "source_provenance_v2",
+  "parser_version": "domain-extractor-v3",
+  "previous_domain_count": 14,
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "c3ab979f1256b05de7bd087fc8364e95773849352d6e9ec4c102d80734f45ab7",
   "service_id": "taobao",
+  "snapshot_content_sha256": "f4c1d298c6aec90f470a3681c921d481725838ff09ffea2611ed84bd11d558fb",
   "snapshot_id": "snap-taobao-f4c1d298c6aec90f470a3681",
-  "unverified_candidate_count": 0
+  "source_count": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
 }
