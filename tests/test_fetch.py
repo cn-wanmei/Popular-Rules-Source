@@ -106,3 +106,35 @@ def test_fetch_does_not_retry_non_transient_4xx(monkeypatch):
     else:
         raise AssertionError("403 must fail without retry")
     assert calls["count"] == 1
+
+
+def test_release_schema_contains_provenance_digests(monkeypatch, tmp_path):
+    from source_engine import release
+
+    class _Manifest(dict):
+        pass
+
+    manifest = {
+        "release_state": "CANDIDATE",
+        "snapshot_id": "snap-test-abc",
+        "content_digest": "a" * 64,
+        "evidence_digest": "b" * 64,
+        "policy_digest": "c" * 64,
+        "generator_digest": "d" * 64,
+        "release_digest": "e" * 64,
+        "change_assessment": {"status": "OK"},
+        "errors": [],
+    }
+
+    monkeypatch.chdir(tmp_path)
+    (tmp_path / "VERSION").write_text("0.5.0\n", encoding="utf-8")
+    snap = tmp_path / "snapshots" / manifest["snapshot_id"]
+    snap.mkdir(parents=True)
+    (snap / "domains.txt").write_text("example.com\n", encoding="utf-8")
+    (snap / "provenance.json").write_text("{}\n", encoding="utf-8")
+    (snap / "manifest.json").write_text("{}\n", encoding="utf-8")
+    (snap / "checksums.json").write_text("{}\n", encoding="utf-8")
+    monkeypatch.setattr(release, "build_service", lambda service_id: manifest)
+    out = release.create_release("qqmail")
+    assert out["release_digest"] == "e" * 64
+    assert out["evidence_digest"] == "b" * 64
