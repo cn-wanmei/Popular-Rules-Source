@@ -7,8 +7,8 @@
       "domain_count": 3,
       "enabled": true,
       "production_activated": true,
-      "release_digest": "af7a0562290a7243db71a1d7fd78f430acdfc3ef778257df0d83e628f4490591",
-      "snapshot_id": "snap-1688-af7a0562290a7243db71a1d7",
+      "release_digest": "39272fe7087048097f0c13f937c6bbbddbe803d6560fdf0628f452977608059f",
+      "snapshot_id": "snap-1688-39272fe7087048097f0c13f9",
       "verified": true
     },
     "cainiao": {
@@ -17,8 +17,8 @@
       "domain_count": 1,
       "enabled": true,
       "production_activated": true,
-      "release_digest": "9f6c8c1eac07a846aa22f19651ae8da4e3660ca03dc179933bae05f6b5076f30",
-      "snapshot_id": "snap-cainiao-9f6c8c1eac07a846aa22f196",
+      "release_digest": "9c79bba6516f87de3d163407d93cc00a47b3104eb1fd95e4f4d9756b39027059",
+      "snapshot_id": "snap-cainiao-9c79bba6516f87de3d163407",
       "verified": true
     },
     "dingding": {
@@ -27,8 +27,8 @@
       "domain_count": 6,
       "enabled": true,
       "production_activated": true,
-      "release_digest": "28949eac43c9a2653ce77a515a20d0a882f7d723f09d8098226297d82f8a10a1",
-      "snapshot_id": "snap-dingding-28949eac43c9a2653ce77a51",
+      "release_digest": "e4c0f3c3b4e57308277a22db2cf4f4e67f04a22ad60abe29288ecf56c9dbc4d6",
+      "snapshot_id": "snap-dingding-e4c0f3c3b4e57308277a22db",
       "verified": true
     },
     "qqmail": {
@@ -37,8 +37,8 @@
       "domain_count": 1,
       "enabled": true,
       "production_activated": true,
-      "release_digest": "6fc83616adf38758df6b98cd32d469c6ca3aaf1441ca314fe2bd307e7c823d0b",
-      "snapshot_id": "snap-qqmail-6fc83616adf38758df6b98cd",
+      "release_digest": "0f8103b3188739c880f10aff5be91528af61807e5374d76d8d217f5f57598b40",
+      "snapshot_id": "snap-qqmail-0f8103b3188739c880f10aff",
       "verified": true
     },
     "qqmusic": {
@@ -57,8 +57,8 @@
       "domain_count": 14,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "d34b149646aa56450032d01da76e536079248196318778d9673e36f83c6fd5ac",
-      "snapshot_id": "snap-taobao-d34b149646aa56450032d01d",
+      "release_digest": "1e6d38ed82f9483e344a31810593c8a846e36f41731f9993227ac18c1a9f2c7f",
+      "snapshot_id": "snap-taobao-1e6d38ed82f9483e344a3181",
       "verified": true
     },
     "tencentcloud": {
@@ -67,8 +67,8 @@
       "domain_count": 1,
       "enabled": true,
       "production_activated": true,
-      "release_digest": "88cd0f5dc164b2937a59521f86ce2995636a78c5a4e1984bc2d132f356de45b4",
-      "snapshot_id": "snap-tencentcloud-88cd0f5dc164b2937a59521f",
+      "release_digest": "621d7e757e9f59085c87f2ce127c7ee525dbe8d107be7908692076859bfdbdb1",
+      "snapshot_id": "snap-tencentcloud-621d7e757e9f59085c87f2ce",
       "verified": true
     },
     "tmall": {
@@ -77,8 +77,8 @@
       "domain_count": 8,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "42b106e61c7dad4f4aa0247727b638cb684caed734bb6bf91ad12fba1d89a4d1",
-      "snapshot_id": "snap-tmall-42b106e61c7dad4f4aa02477",
+      "release_digest": "6c5457a183ccb42575023864403bc208e8495279aada1be7bd7bf0a3c8c893b0",
+      "snapshot_id": "snap-tmall-6c5457a183ccb42575023864",
       "verified": true
     }
   },
