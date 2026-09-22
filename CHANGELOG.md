@@ -1,5 +1,13 @@
 # Changelog
 
+## 0.5.1 - 2026-09-22
+
+### Durable seal handoff contract repair
+
+- Include the exact SHA-256 of each generated service domain artifact in the Durable Source Bridge v2 seal.
+- Restore fail-closed Source → Collection automatic immutable handoff against the latest durable lineage.
+
+
 ## 0.5.0 - 2026-09-22
 
 ### Final Source Platform Upgrade
