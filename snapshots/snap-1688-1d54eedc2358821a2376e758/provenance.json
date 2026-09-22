@@ -33,34 +33,7 @@
       "value": "www.1688.com"
     }
   ],
-  "change_assessment": {
-    "growth_ratio": 1.0,
-    "removal_ratio": 0.0,
-    "status": "OK"
-  },
   "content_digest": "4f34e4745ac73f4292ebc12875392ca03bb956d273c7949b4221f4d58cace4f7",
-  "created_at": "2026-09-22T07:47:02.783653+00:00",
-  "domain_count": 3,
-  "domain_diff": {
-    "added": [],
-    "added_count": 0,
-    "current_count": 3,
-    "previous_count": 3,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [
-      "1688.com",
-      "open.1688.com",
-      "www.1688.com"
-    ],
-    "unchanged_count": 3
-  },
-  "domains": [
-    "1688.com",
-    "open.1688.com",
-    "www.1688.com"
-  ],
-  "errors": [],
   "evidence": [
     {
       "authority": "official",
@@ -97,22 +70,10 @@
   ],
   "evidence_digest": "d9bb03e3647791540930baf13400028c7582d9305f6078e7a55a4cc8c4b44a6b",
   "generator_digest": "72856da3b0265844646944876ee1269eae94fb803c7da7aad7f5ae3a7760b309",
-  "generator_version": "3.0.0",
-  "last_known_good": false,
-  "official_extracted": 5,
-  "parser_version": "domain-extractor-v4",
   "policy_digest": "94c0760280841545cc3564a71f86bf60055682905e719dd53547d841a9011be3",
-  "previous_domain_count": 3,
   "release_digest": "1d54eedc2358821a2376e758da58b62be7165aaa3be749b2e37d4b568dace2a7",
   "release_identity_version": "2",
-  "release_reasons": [],
-  "release_state": "CANDIDATE",
-  "schema": "source_snapshot_v2",
-  "service_config_digest": "1782d0902fc1e330f010a7681fda38a4284280e779b7f2460589754cef34d3ea",
+  "schema": "source_provenance_v3",
   "service_id": "1688",
-  "snapshot_content_sha256": "4f34e4745ac73f4292ebc12875392ca03bb956d273c7949b4221f4d58cace4f7",
-  "snapshot_id": "snap-1688-1d54eedc2358821a2376e758",
-  "source_count": 2,
-  "unverified_candidate_count": 0,
-  "unverified_candidate_domains": []
+  "snapshot_id": "snap-1688-1d54eedc2358821a2376e758"
 }

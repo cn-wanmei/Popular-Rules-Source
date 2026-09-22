@@ -1,0 +1,18 @@
+{
+  "content_digest": "163f698ba13e6462ecf9d08f8ea421946d933a5636597ed0f1408fe0f7ee0264",
+  "domains": [
+    "developers.dingtalk.com",
+    "open-dev.dingtalk.com",
+    "open.dingtalk.com",
+    "page.dingtalk.com",
+    "table.dingtalk.com",
+    "www.dingtalk.com"
+  ],
+  "official_source_hashes": [
+    "362dafe135ab5043d459c3db0d014ee4ccb206ba70847559ee47e6605b5bfbde",
+    "70a0b43314a89225969a56d33b5a7480b9b26e441cc5e3dbe93e055b89beecf6"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "dingding"
+}

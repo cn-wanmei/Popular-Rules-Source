@@ -1,0 +1,26 @@
+{
+  "content_digest": "b0baa35d898b5467d06df7c8bdbdc4daa1b6c5145b31a246525526a171ea6ee0",
+  "domains": [
+    "alimarket.taobao.com",
+    "eco.taobao.com",
+    "gw.api.taobao.com",
+    "ju.taobao.com",
+    "login.taobao.com",
+    "my.open.taobao.com",
+    "oauth.taobao.com",
+    "open.bbs.taobao.com",
+    "open.m.taobao.com",
+    "open.taobao.com",
+    "tbk.bbs.taobao.com",
+    "trip.taobao.com",
+    "work.open.taobao.com",
+    "www.taobao.com"
+  ],
+  "official_source_hashes": [
+    "989c6b7b70b6cd11034be77e49f0fac6e459e797c3588b0dec5bbe2d50affff9",
+    "fd26a2532e9df6285b4e527b6a83b6c7229b73065d5121c5b62f725b56149f8d"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "taobao"
+}
