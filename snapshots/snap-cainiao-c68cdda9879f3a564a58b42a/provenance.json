@@ -11,30 +11,7 @@
       "value": "gpn.cainiao.com"
     }
   ],
-  "change_assessment": {
-    "growth_ratio": 1.0,
-    "removal_ratio": 0.0,
-    "status": "OK"
-  },
   "content_digest": "a8e4f12cc9f1335051724973eafb31b49d92f0f568238ff137ca000fde83d4c5",
-  "created_at": "2026-09-22T07:47:04.502949+00:00",
-  "domain_count": 1,
-  "domain_diff": {
-    "added": [],
-    "added_count": 0,
-    "current_count": 1,
-    "previous_count": 1,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [
-      "gpn.cainiao.com"
-    ],
-    "unchanged_count": 1
-  },
-  "domains": [
-    "gpn.cainiao.com"
-  ],
-  "errors": [],
   "evidence": [
     {
       "authority": "official",
@@ -55,22 +32,10 @@
   ],
   "evidence_digest": "77516047d95f0e45077ec0144ecc185bd87b0618033bf7a2a6750b54713b0492",
   "generator_digest": "72856da3b0265844646944876ee1269eae94fb803c7da7aad7f5ae3a7760b309",
-  "generator_version": "3.0.0",
-  "last_known_good": false,
-  "official_extracted": 1,
-  "parser_version": "domain-extractor-v4",
   "policy_digest": "e60bd8a7f1574f8ed47292271b8ef2bb06d216e6e17f3d647009c4c11d080e89",
-  "previous_domain_count": 1,
   "release_digest": "c68cdda9879f3a564a58b42acbbed6f9595b7eaaa84a22e0b0b6b6342a4073b1",
   "release_identity_version": "2",
-  "release_reasons": [],
-  "release_state": "CANDIDATE",
-  "schema": "source_snapshot_v2",
-  "service_config_digest": "079605c287a858a5238af2ae84ea715ef637a504a4e47359fa118706d4c1c692",
+  "schema": "source_provenance_v3",
   "service_id": "cainiao",
-  "snapshot_content_sha256": "a8e4f12cc9f1335051724973eafb31b49d92f0f568238ff137ca000fde83d4c5",
-  "snapshot_id": "snap-cainiao-c68cdda9879f3a564a58b42a",
-  "source_count": 1,
-  "unverified_candidate_count": 0,
-  "unverified_candidate_domains": []
+  "snapshot_id": "snap-cainiao-c68cdda9879f3a564a58b42a"
 }
