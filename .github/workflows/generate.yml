@@ -62,11 +62,15 @@ jobs:
           set -e
 
           if [ "$PR_STATUS" -ne 0 ]; then
-            echo "::warning::Refresh branch pushed, but automatic PR creation is blocked by the repository GitHub Actions policy."
             printf '%s\n' "$PR_OUTPUT"
-            printf 'handoff_status=PR_CREATE_BLOCKED\nbranch=%s\nrun_id=%s\n' "$BRANCH" "$GITHUB_RUN_ID" > refresh-handoff.txt
-            printf '%s\n' "$PR_OUTPUT" > refresh-handoff-error.txt
-            exit 0
+            if grep -qiE 'GitHub Actions is not permitted to create or approve pull requests|createPullRequest' <<< "$PR_OUTPUT"; then
+              echo "::warning::Refresh branch pushed, but automatic PR creation is blocked by the repository GitHub Actions policy."
+              printf 'handoff_status=PR_CREATE_BLOCKED\nbranch=%s\nrun_id=%s\n' "$BRANCH" "$GITHUB_RUN_ID" > refresh-handoff.txt
+              printf '%s\n' "$PR_OUTPUT" > refresh-handoff-error.txt
+              exit 0
+            fi
+            echo "::error::Automatic refresh PR creation failed for a reason other than the repository PR-permission policy."
+            exit "$PR_STATUS"
           fi
 
           printf 'handoff_status=PR_CREATED\nbranch=%s\nrun_id=%s\n' "$BRANCH" "$GITHUB_RUN_ID" > refresh-handoff.txt
