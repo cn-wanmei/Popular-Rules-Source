@@ -124,12 +124,12 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 
 | Service | Lifecycle | Release | Domains | Snapshot |
 |---|---|---|---:|---|
-| 1688 | **PRODUCTION** | CANDIDATE | 3 | snap-1688-fefb01f2691399a791bd6472 |
-| cainiao | **PRODUCTION** | CANDIDATE | 1 | snap-cainiao-a65daeecbb5f2943c58cdb25 |
-| dingding | **PRODUCTION** | CANDIDATE | 6 | snap-dingding-e5ed4f9b034086f3d51903de |
-| qqmail | **PRODUCTION** | CANDIDATE | 1 | snap-qqmail-aefa9c9ee6a03206890a6a03 |
+| 1688 | **PRODUCTION** | CANDIDATE | 3 | snap-1688-af7a0562290a7243db71a1d7 |
+| cainiao | **PRODUCTION** | CANDIDATE | 1 | snap-cainiao-9f6c8c1eac07a846aa22f196 |
+| dingding | **PRODUCTION** | CANDIDATE | 6 | snap-dingding-28949eac43c9a2653ce77a51 |
+| qqmail | **PRODUCTION** | CANDIDATE | 1 | snap-qqmail-6fc83616adf38758df6b98cd |
 | qqmusic | **PRODUCTION** | CANDIDATE | 1 | snap-qqmusic-7c0a2fae200d3fbbec51a4a3 |
-| taobao | **VERIFIED** | CANDIDATE | 14 | snap-taobao-1f04b9ccf3831c97f7591a9b |
-| tencentcloud | **PRODUCTION** | CANDIDATE | 1 | snap-tencentcloud-21dbc0ad5391fcc962b64c02 |
-| tmall | **VERIFIED** | CANDIDATE | 8 | snap-tmall-4cdb859cba4c388218a0c693 |
+| taobao | **VERIFIED** | CANDIDATE | 14 | snap-taobao-d34b149646aa56450032d01d |
+| tencentcloud | **PRODUCTION** | CANDIDATE | 1 | snap-tencentcloud-88cd0f5dc164b2937a59521f |
+| tmall | **VERIFIED** | CANDIDATE | 8 | snap-tmall-42b106e61c7dad4f4aa02477 |
 <!-- SOURCE_STATUS:END -->
