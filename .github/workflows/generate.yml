@@ -63,8 +63,7 @@ jobs:
 
           if [ "$PR_STATUS" -ne 0 ]; then
             echo "::warning::Refresh branch pushed, but automatic PR creation is blocked by the repository GitHub Actions policy."
-            printf '%s
-' "$PR_OUTPUT"
+            printf '%s\n' "$PR_OUTPUT"
             printf 'handoff_status=PR_CREATE_BLOCKED\nbranch=%s\nrun_id=%s\n' "$BRANCH" "$GITHUB_RUN_ID" > refresh-handoff.txt
             printf '%s\n' "$PR_OUTPUT" > refresh-handoff-error.txt
             exit 0
