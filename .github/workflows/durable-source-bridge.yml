@@ -173,6 +173,13 @@ jobs:
                           shutil.rmtree(dst) if dst.is_dir() else dst.unlink()
                       shutil.copytree(src, dst) if src.is_dir() else shutil.copy2(src, dst)
 
+              domains_path = source_root / "generated" / "source" / service / "domains.txt"
+              if not domains_path.is_file():
+                  report["services"][service] = {"status": "BLOCKED", "reason": "generated domains artifact missing"}
+                  continue
+              import hashlib
+              expected_sha256 = hashlib.sha256(domains_path.read_bytes()).hexdigest()
+
               report["services"][service] = {
                   "status": "PERSISTED",
                   "snapshot_id": snapshot_id,
@@ -183,6 +190,7 @@ jobs:
                   "release_digest": release.get("release_digest"),
                   "release_identity_version": release.get("release_identity_version"),
                   "release_path": str(Path("releases") / service / snapshot_id / "release.json"),
+                  "expected_sha256": expected_sha256,
               }
 
           out = root / "reports" / "durable-bridge"
