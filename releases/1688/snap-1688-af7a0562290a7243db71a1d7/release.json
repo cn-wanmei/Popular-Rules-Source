@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "65e6b0d571d62de22ae4a791113306d52207f94b25f74920a5533faa1ec220bb",
+    "manifest.json": "fabb6341490ffa192f674bc27aa4039aa8937224dea9bc6f52007028a284d064",
+    "provenance.json": "0350ccb22173b6a7692f8ad06db11c12ad925f8ca5e2bb3d3ed59ade24df866b",
+    "snapshot_content.json": "0b6609a5a6547c8df5f0e7bc2362b7fa85350fcc3e9b2ba7d971cb28be50f308"
+  },
+  "content_digest": "619dd97db14596449f56702ffee60c627d29f082319e5b06c689b5320725a71a",
+  "created_at": "2026-09-22T02:07:20.909183+00:00",
+  "evidence_digest": "570ba03f7c087363b973bc163368db65a9946b6e995f3ba080e05aed5f174f43",
+  "generator_digest": "72856da3b0265844646944876ee1269eae94fb803c7da7aad7f5ae3a7760b309",
+  "policy_digest": "94c0760280841545cc3564a71f86bf60055682905e719dd53547d841a9011be3",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "af7a0562290a7243db71a1d7fd78f430acdfc3ef778257df0d83e628f4490591",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "1688",
+  "snapshot_id": "snap-1688-af7a0562290a7243db71a1d7",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 1.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}
