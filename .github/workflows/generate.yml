@@ -5,6 +5,10 @@ on:
   schedule:
     - cron: "20 2 * * *"
 
+concurrency:
+  group: generate-official-sources
+  cancel-in-progress: true
+
 permissions:
   contents: write
   pull-requests: write
@@ -33,10 +37,13 @@ jobs:
                   data.get("release_reasons", []),
               )
           PY
-      - name: Open refresh PR
+      - name: Create or hand off refresh PR
+        id: handoff
+        continue-on-error: true
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
+          set -o pipefail
           BRANCH="automation/source-refresh-${GITHUB_RUN_ID}"
           git checkout -b "$BRANCH"
           git add generated snapshots
@@ -48,4 +55,30 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "chore(source): refresh official source snapshots"
           git push --set-upstream origin "$BRANCH"
-          gh pr create             --base main             --head "$BRANCH"             --title "chore(source): refresh official source snapshots"             --body "Automated official-source refresh. CI must validate evidence, boundaries and deterministic output before merge."
+
+          set +e
+          PR_OUTPUT="$(gh pr create             --base main             --head "$BRANCH"             --title "chore(source): refresh official source snapshots"             --body "Automated official-source refresh. CI must validate evidence, boundaries and deterministic output before merge." 2>&1)"
+          PR_STATUS=$?
+          set -e
+
+          if [ "$PR_STATUS" -ne 0 ]; then
+            echo "::warning::Refresh branch pushed, but automatic PR creation is blocked by the repository GitHub Actions policy."
+            printf '%s\n' "$PR_OUTPUT"
+            printf 'handoff_status=PR_CREATE_BLOCKED\nbranch=%s\nrun_id=%s\n' "$BRANCH" "$GITHUB_RUN_ID" > refresh-handoff.txt
+            printf '%s\n' "$PR_OUTPUT" > refresh-handoff-error.txt
+            exit 0
+          fi
+
+          printf 'handoff_status=PR_CREATED\nbranch=%s\nrun_id=%s\n' "$BRANCH" "$GITHUB_RUN_ID" > refresh-handoff.txt
+          printf '%s\n' "$PR_OUTPUT" > refresh-pr-url.txt
+
+      - name: Upload refresh handoff evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-refresh-handoff-${{ github.run_id }}
+          path: |
+            refresh-handoff.txt
+            refresh-handoff-error.txt
+            refresh-pr-url.txt
+          if-no-files-found: ignore
