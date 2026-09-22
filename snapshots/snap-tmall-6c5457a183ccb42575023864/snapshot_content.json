@@ -1,0 +1,19 @@
+{
+  "content_digest": "3c577e88455eaea3ef81ab639509e4c9269ddcd250edd3a589787143500d698c",
+  "domains": [
+    "book.tmall.com",
+    "car.tmall.com",
+    "chaoshi.tmall.com",
+    "detail.tmall.com",
+    "fragment.tmall.com",
+    "jstracker.www.tmall.com",
+    "tmall.com",
+    "www.tmall.com"
+  ],
+  "official_source_hashes": [
+    "dba181eff294a0c8f5f159b53c710bdae7bc38fedb5bb100aa3b66bf6ac23ac2"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "tmall"
+}

@@ -1,0 +1,13 @@
+{
+  "content_digest": "938de22fd78a5b4ebcbbbc7f994bd5a488f1c689129975ba4fa4c743e22285e9",
+  "domains": [
+    "mail.qq.com"
+  ],
+  "official_source_hashes": [
+    "ae449c8d87c1f2a7f6e8e0ed318d6021971301e06efcb3f309264e23f4ff57a4",
+    "d6d0f88ad500be87d590e1617f52ae5e8f23a2227e4da64c24e70b326d61ecbc"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "qqmail"
+}
