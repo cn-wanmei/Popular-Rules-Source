@@ -3,8 +3,6 @@ from __future__ import annotations
 import json
 from datetime import datetime, timezone
 from pathlib import Path
-import shutil
-
 from .build import build_service
 
 
@@ -13,10 +11,9 @@ def create_release(
     repository: str = "cn-wanmei/Popular-Rules-Source",
 ) -> dict:
     manifest = build_service(service_id)
-    if manifest["release_state"] != "CANDIDATE":
-        for root in (Path("releases") / service_id, Path("generated") / "source" / service_id):
-            if root.exists():
-                shutil.rmtree(root)
+    # REVIEW snapshots are durable audit evidence and must not be discarded.
+    # Only BLOCKED is fail-closed at the release layer.
+    if manifest["release_state"] == "BLOCKED":
         raise RuntimeError(f"release blocked: {manifest['release_state']}")
 
     release_root = Path("releases") / service_id / manifest["snapshot_id"]
