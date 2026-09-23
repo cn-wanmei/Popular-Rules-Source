@@ -19,7 +19,7 @@ on:
       services:
         description: "Reserved for future selective execution"
         required: false
-        default: "1688,cainiao,dingding,qqmail,qqmusic,taobao,tencentcloud,tmall,appletv,baidunetdisk,doubao,firebase,github,googlecloud,googlefcm,tencentmeeting,wecom,youdao,wegame,honorofkings_cn,honorofkings_global,netease163mail,neteasegames,baidumaps,baiduwiki,baiduwenku,capcut,toutiao,xigua,volcengine"
+        default: "1688,cainiao,dingding,qqmail,qqmusic,taobao,tencentcloud,tmall,appletv,baidunetdisk,doubao,firebase,github,googlecloud,googlefcm,tencentmeeting,wecom,youdao,wegame,honorofkings-cn,honorofkings-global,netease163mail,neteasegames,baidumaps,baiduwiki,baiduwenku,capcut,toutiao,xigua,volcengine"
         type: string
 
 permissions:
@@ -35,7 +35,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        service: [1688, cainiao, dingding, qqmail, qqmusic, taobao, tencentcloud, tmall, appletv, baidunetdisk, doubao, firebase, github, googlecloud, googlefcm, tencentmeeting, wecom, youdao, wegame, honorofkings_cn, honorofkings_global, netease163mail, neteasegames, baidumaps, baiduwiki, baiduwenku, capcut, toutiao, xigua, volcengine]
+        service: [1688, cainiao, dingding, qqmail, qqmusic, taobao, tencentcloud, tmall, appletv, baidunetdisk, doubao, firebase, github, googlecloud, googlefcm, tencentmeeting, wecom, youdao, wegame, honorofkings-cn, honorofkings-global, netease163mail, neteasegames, baidumaps, baiduwiki, baiduwenku, capcut, toutiao, xigua, volcengine]
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
@@ -144,7 +144,7 @@ jobs:
 
           root = Path.cwd()
           artifact_root = root / "durable-artifacts"
-          services = ["1688", "cainiao", "dingding", "qqmail", "qqmusic", "taobao", "tencentcloud", "tmall", "appletv", "baidunetdisk", "doubao", "firebase", "github", "googlecloud", "googlefcm", "tencentmeeting", "wecom", "youdao", "wegame", "honorofkings_cn", "honorofkings_global", "netease163mail", "neteasegames", "baidumaps", "baiduwiki", "baiduwenku", "capcut", "toutiao", "xigua", "volcengine"]
+          services = ["1688", "cainiao", "dingding", "qqmail", "qqmusic", "taobao", "tencentcloud", "tmall", "appletv", "baidunetdisk", "doubao", "firebase", "github", "googlecloud", "googlefcm", "tencentmeeting", "wecom", "youdao", "wegame", "honorofkings-cn", "honorofkings-global", "netease163mail", "neteasegames", "baidumaps", "baiduwiki", "baiduwenku", "capcut", "toutiao", "xigua", "volcengine"]
           report = {"schema": "popular_rules_source_durable_bridge_v2", "created_at": datetime.now(timezone.utc).isoformat(), "verified_input_commit": "${{ github.sha }}", "services": {}}
 
           for service in services:
