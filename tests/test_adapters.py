@@ -16,5 +16,18 @@ def test_structured_adapter_domain_filter():
     assert found == ["open.taobao.com"]
 
 
+def test_upstream_rule_domain_filter():
+    found = _domains_from_values(
+        ["DOMAIN-SUFFIX,drive.google.com\nDOMAIN,www.googleapis.com\n+.ignored.example"],
+        ("www.googleapis.com",),
+        ("drive.google.com",),
+    )
+    assert found == ["drive.google.com", "www.googleapis.com"]
+
+
 def test_official_fixture_exists():
     assert Path("tests/fixtures/official_web.html").exists()
+
+
+def test_upstream_fixture_exists():
+    assert Path("tests/fixtures/upstream_rule.list").exists()
