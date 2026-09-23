@@ -1,0 +1,23 @@
+{
+  "content_digest": "b35d38a44b2feef82aec6fe7b46ce7096ab380fab0bb3d94674ac54933192860",
+  "domains": [
+    "account-cn.alibabacloud.com",
+    "alibabacloud.co.in",
+    "alibabacloud.com",
+    "alibabacloud.com.au",
+    "alibabacloud.com.hk",
+    "alibabacloud.com.my",
+    "alibabacloud.com.sg",
+    "alibabacloud.com.tw",
+    "alicloud.com",
+    "api.alibabacloud.com",
+    "cn.alibabacloud.com",
+    "status.alibabacloud.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "alibabacloud",
+  "source_hashes": [
+    "3ade01da88be899e5161139a57fe7cce350eede74a462fb24bb0c5ceddb76098"
+  ]
+}

@@ -1,0 +1,642 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:40ffa66a2e1634351ddff627db16cd2d2563f2f692edf2a61808829a605d1a29",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "blox.com"
+    },
+    {
+      "asset_id": "sha256:99fc983a19353e2737b002f29fcfada837d6639248785b9db5f1951d04cbc7f4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "d1unuk07s6td74.cloudfront.net"
+    },
+    {
+      "asset_id": "sha256:f03d0407ac4f7d17b38173fdef29a2f742fe0f86dd6afe6aa8844e09fe455a95",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "goblocks.com"
+    },
+    {
+      "asset_id": "sha256:f904e989cd801c722cea6679102002bf0e2d4653abfe8e59a6a47a553d6123b3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "goblox.com"
+    },
+    {
+      "asset_id": "sha256:ad30f39410ea95de53a0e1a1be0714966f47a8becb345ac086af9339dfa8ce2e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "gooblox.com"
+    },
+    {
+      "asset_id": "sha256:7526bf542333d0f5a6fcb9fad9888b0664704124fca6511aa18fe1daf7af4d05",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "humancoexperience.com"
+    },
+    {
+      "asset_id": "sha256:fef486d60166a499d9cbfd8f2775fcd6980fb5848f2631c46fba30c02f37a84c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "rblx.co"
+    },
+    {
+      "asset_id": "sha256:2b1fd3c9a569d6d63c0ea0e34999cf38da838bc0b9458461a9c1b842a6789a49",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "rblx.com"
+    },
+    {
+      "asset_id": "sha256:0b4fe5bf3cda63493e05e0ebd09573cc3d51537a7a851f76e7109c2e9e1b33d7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "rblx.org"
+    },
+    {
+      "asset_id": "sha256:56bb04363d33cf8d6668c7d35d0ebcde01b478590d6afdd02e7ebe2840e27fae",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "rbx.com"
+    },
+    {
+      "asset_id": "sha256:75f2b33c55ec3757e0864796fb2401cd07618089cbc6707a105c55c549e22cb7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "rbxcdn.com"
+    },
+    {
+      "asset_id": "sha256:1298ef0f4d7175b131348c00dcce55e2911872d7f5631f0d5f0755acd257f755",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "rbxinfra.net"
+    },
+    {
+      "asset_id": "sha256:e969bb844a45bdbe839464515f44bf0eb287c7954c17ce2050d0826926487a51",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "rbxlabs.com"
+    },
+    {
+      "asset_id": "sha256:a407bbe94fec4a1ac22b5dbebb9b3ed57b36315b3208522385fc6556f6ebe530",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "rbxtrk.com"
+    },
+    {
+      "asset_id": "sha256:5f0f7c3389966d253541702d297f49c26aa2c7237dc91689df49b652762e052c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "ro-blox.com"
+    },
+    {
+      "asset_id": "sha256:8ed7d4807dfb5cffb24739b97d49ac6bb7c5bdef72780ff014e1fee064e1ad9b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roadblocks.com"
+    },
+    {
+      "asset_id": "sha256:86e5b424994e6e5cbab2c3cf973e77eb5a1c02a4f705155309e3e9649723260e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblocks.com"
+    },
+    {
+      "asset_id": "sha256:e3c385df303678894c13da5b8140f87de832dd946ff431bf1ec4c14d63ba0477",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblox-api.arkoselabs.com"
+    },
+    {
+      "asset_id": "sha256:ce450cf21ce1c7fd10c91ff35c2e009710c1d4675d42df1d40d197efcb1e4a4e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblox-poc.global.ssl.fastly.net"
+    },
+    {
+      "asset_id": "sha256:ee0c743370d265cb44953f502e52e785eae08df5448d803b19c87ca9a554564c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblox.ca"
+    },
+    {
+      "asset_id": "sha256:c56357f591673f7b49fabd6a4e79849712b2b1ea690b85d63415c260744be327",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblox.cc"
+    },
+    {
+      "asset_id": "sha256:b7f808f925d3a96f5bc411598bdf05033e58de7996a70c709eed9f8166fe9aa7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblox.cl"
+    },
+    {
+      "asset_id": "sha256:a804d76cb8f868b23ed1760d095961309a8811528fc825bd3b96b105b72689b1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblox.co.jp"
+    },
+    {
+      "asset_id": "sha256:ea66f315def608be5852d616f8982a1a90b35091c275dc06abca9ca3088807e2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblox.co.uk"
+    },
+    {
+      "asset_id": "sha256:4e944a8c8cc0a4aede4f2e071c3187c6e1ffc381cbe5b4ac43f7441a519a5f8a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblox.com"
+    },
+    {
+      "asset_id": "sha256:d6ff3aa91f85f41d820b246b5429eb92058389fd54266f18ca823b821841d148",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblox.de"
+    },
+    {
+      "asset_id": "sha256:097f23f7086de3b59f5e05fab061ab1ce57e7c1ddb779940aa97997a19d58fe6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblox.dk"
+    },
+    {
+      "asset_id": "sha256:4df3a62f4afaca23857c5fa0d369943910822d8d8120e998c02d6f48ab45af57",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblox.eu"
+    },
+    {
+      "asset_id": "sha256:9c632ab79b7a61fb2ff3a89ad9e6d07894ac4c06e59cbb529813ae4cc41fbfab",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblox.fr"
+    },
+    {
+      "asset_id": "sha256:97c53a9e4d9a065433e840c3becd576a857069ad44cd599ab12af0f65ce1a028",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblox.hu"
+    },
+    {
+      "asset_id": "sha256:8a5c7476dfc0250d1cae172ffe710b039cffa2078b795b38be3b521772189715",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblox.it"
+    },
+    {
+      "asset_id": "sha256:edc3e082e5a4a2831b3ddf2dde7d7683f6007f7f476577b1ac58f7c7610ebd31",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblox.jp"
+    },
+    {
+      "asset_id": "sha256:56bc6d41138cf9e5035acd766225faae4d9577dc076093422f96fc7d306bb625",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblox.kr"
+    },
+    {
+      "asset_id": "sha256:0e8daa120ded55083935ece2378b865438a76b76b30c1c30b443af61125f5f36",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblox.mx"
+    },
+    {
+      "asset_id": "sha256:2ed827971c1c9b83f66f853105bd58680c6950c6d327e7129a8bd938c3873190",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblox.net"
+    },
+    {
+      "asset_id": "sha256:6218fa32fa2ec3598627f08c024d53d13776ba6904d269cd2bd5854cecfecb5d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblox.org"
+    },
+    {
+      "asset_id": "sha256:986d4648b8348b89823d538b4b33509a1ebf1bcfcc42a85a501d1d2b09ae14fb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblox.ph"
+    },
+    {
+      "asset_id": "sha256:ef8ff0c420c8c2ea6cf4489d343ce6875b9a9affc86657f0ca403408625d0cad",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblox.pt"
+    },
+    {
+      "asset_id": "sha256:161a81110f39637ce94a7882512f429d758bb927b0a35fe2e59d17a3e2cf0459",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblox.sk"
+    },
+    {
+      "asset_id": "sha256:6fc09035fc2f971d6b9d7beb7b748cfc2a86ed15679ce6ecb99c15bc3febe670",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblox.tv"
+    },
+    {
+      "asset_id": "sha256:826c5be871b0cf91105d682b1607f7eae90641b99500ee71ead9561abc294400",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblox.uk"
+    },
+    {
+      "asset_id": "sha256:1d7388dc52258316f083a211ea34bc607c7206c90c325e05eb2e2c4ca050418d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblox.us"
+    },
+    {
+      "asset_id": "sha256:437a1fd6f518b139f20280695106d92c8c6bd086503ce4ceefc8b076faf3a625",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "roblox.vn"
+    },
+    {
+      "asset_id": "sha256:62f55c2c70e3bccbfca64c388a79bdc82431bac6761c0b8af7bf92bbbdc08627",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "robloxcorp.s.llnwi.net"
+    },
+    {
+      "asset_id": "sha256:5cd4f9859b6d43c35e95417904030a772491d1602c28db80e16c2ab015353c26",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "robloxlabs.com"
+    },
+    {
+      "asset_id": "sha256:a4dee89b075b0bff4066d8649421207f36b7c66701f61007c43a66156093a62e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "rowblocks.com"
+    },
+    {
+      "asset_id": "sha256:9ea2f75cd8aae924c6e76d37b25446a8c1cb1b4829522d520c709d57cbca8fea",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roblox-001-d739c312372b"
+      ],
+      "service_id": "roblox",
+      "type": "domain",
+      "value": "rowblox.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "45af99014ad0d13e734fffe512d9f678ef36b5a5e4bc0805329d60256c984d2a",
+  "created_at": "2026-09-23T07:51:09.102169+00:00",
+  "domain_count": 47,
+  "domain_diff": {
+    "added": [
+      "blox.com",
+      "d1unuk07s6td74.cloudfront.net",
+      "goblocks.com",
+      "goblox.com",
+      "gooblox.com",
+      "humancoexperience.com",
+      "rblx.co",
+      "rblx.com",
+      "rblx.org",
+      "rbx.com",
+      "rbxcdn.com",
+      "rbxinfra.net",
+      "rbxlabs.com",
+      "rbxtrk.com",
+      "ro-blox.com",
+      "roadblocks.com",
+      "roblocks.com",
+      "roblox-api.arkoselabs.com",
+      "roblox-poc.global.ssl.fastly.net",
+      "roblox.ca",
+      "roblox.cc",
+      "roblox.cl",
+      "roblox.co.jp",
+      "roblox.co.uk",
+      "roblox.com",
+      "roblox.de",
+      "roblox.dk",
+      "roblox.eu",
+      "roblox.fr",
+      "roblox.hu",
+      "roblox.it",
+      "roblox.jp",
+      "roblox.kr",
+      "roblox.mx",
+      "roblox.net",
+      "roblox.org",
+      "roblox.ph",
+      "roblox.pt",
+      "roblox.sk",
+      "roblox.tv",
+      "roblox.uk",
+      "roblox.us",
+      "roblox.vn",
+      "robloxcorp.s.llnwi.net",
+      "robloxlabs.com",
+      "rowblocks.com",
+      "rowblox.com"
+    ],
+    "added_count": 47,
+    "current_count": 47,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "blox.com",
+    "d1unuk07s6td74.cloudfront.net",
+    "goblocks.com",
+    "goblox.com",
+    "gooblox.com",
+    "humancoexperience.com",
+    "rblx.co",
+    "rblx.com",
+    "rblx.org",
+    "rbx.com",
+    "rbxcdn.com",
+    "rbxinfra.net",
+    "rbxlabs.com",
+    "rbxtrk.com",
+    "ro-blox.com",
+    "roadblocks.com",
+    "roblocks.com",
+    "roblox-api.arkoselabs.com",
+    "roblox-poc.global.ssl.fastly.net",
+    "roblox.ca",
+    "roblox.cc",
+    "roblox.cl",
+    "roblox.co.jp",
+    "roblox.co.uk",
+    "roblox.com",
+    "roblox.de",
+    "roblox.dk",
+    "roblox.eu",
+    "roblox.fr",
+    "roblox.hu",
+    "roblox.it",
+    "roblox.jp",
+    "roblox.kr",
+    "roblox.mx",
+    "roblox.net",
+    "roblox.org",
+    "roblox.ph",
+    "roblox.pt",
+    "roblox.sk",
+    "roblox.tv",
+    "roblox.uk",
+    "roblox.us",
+    "roblox.vn",
+    "robloxcorp.s.llnwi.net",
+    "robloxlabs.com",
+    "rowblocks.com",
+    "rowblox.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "d739c312372b6a837446227442f1030c55bc78f861c54bdfdc744f634ce8b12f",
+      "domains_extracted": 48,
+      "evidence_id": "EV-roblox-001-d739c312372b",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/roblox.list",
+      "retrieved_at": "2026-09-23T07:51:09.087895+00:00",
+      "service_id": "roblox",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/roblox.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "952d93a71378a5ca888f8305c3c04e26db9abf14f979b530aee65903d85eb687",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 0,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+  "previous_domain_count": 0,
+  "release_digest": "36d3732a073e69dc0d883708b9450802462e9e6483d87f03ce1ba6dfbdf0846b",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "7fd11ff583dd769a2df9a6bafc668306b3a9e351c84fb481f0eeda3a2941d2e8",
+  "service_id": "roblox",
+  "snapshot_content_sha256": "45af99014ad0d13e734fffe512d9f678ef36b5a5e4bc0805329d60256c984d2a",
+  "snapshot_id": "snap-roblox-36d3732a073e69dc0d883708",
+  "source_bindings": [
+    {
+      "adapter": "upstream_rule",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/roblox.list"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  },
+  "trusted_extracted": 48,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

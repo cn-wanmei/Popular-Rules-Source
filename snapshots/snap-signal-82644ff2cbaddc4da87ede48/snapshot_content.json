@@ -1,0 +1,19 @@
+{
+  "content_digest": "7db91717b26af2108a12e3178f8fe973fca34d44fb2ebbce2f2dfdd69ba99200",
+  "domains": [
+    "signal.art",
+    "signal.group",
+    "signal.link",
+    "signal.me",
+    "signal.org",
+    "signal.tube",
+    "signalusers.org",
+    "whispersystems.org"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "signal",
+  "source_hashes": [
+    "955b49e46b8cff93a8dd471afdbe8c54373ff17a206468ae3b8a0fb5a6ff2a21"
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:06f529dd5e3a94f2074b47e33a842e3c207ed343e27b169b6fcb20607ba5b096",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-perplexity-001-f07ed9821d70"
+      ],
+      "service_id": "perplexity",
+      "type": "domain",
+      "value": "perplexity.ai"
+    },
+    {
+      "asset_id": "sha256:3d3285836fdc4a52d5095f28ba681281ef68d701969a3d90c25c13de72021d47",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-perplexity-001-f07ed9821d70"
+      ],
+      "service_id": "perplexity",
+      "type": "domain",
+      "value": "perplexity.com"
+    },
+    {
+      "asset_id": "sha256:e259025de4cc392bc9f052a48af0b58a5fd2976eb66ab0258a038122e0145692",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-perplexity-001-f07ed9821d70"
+      ],
+      "service_id": "perplexity",
+      "type": "domain",
+      "value": "pplx-res.cloudinary.com"
+    },
+    {
+      "asset_id": "sha256:3b922452558c1227281c322f762a0192741710cf770980d811d48e87c8c9381c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-perplexity-001-f07ed9821d70"
+      ],
+      "service_id": "perplexity",
+      "type": "domain",
+      "value": "pplx.ai"
+    }
+  ],
+  "content_digest": "87ca59f295227a08c595d84079fcb904ca8a4d5a4269fee11f3ad840d2af5976",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "f07ed9821d704b8a42efcf9f7965e1a1418a9c5a12f35dcbdfbe3d4925d69201",
+      "domains_extracted": 5,
+      "evidence_id": "EV-perplexity-001-f07ed9821d70",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/perplexity.list",
+      "retrieved_at": "2026-09-23T07:51:07.282870+00:00",
+      "service_id": "perplexity",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/perplexity.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "0f5bc6279feb999bd4472600989a4d71c62ea90fd22338ddbd71de7fde204e32",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+  "release_digest": "5843c1ce73203b9d968be9fcfa8f07402960bda96bfec00c2a8dccad6793d7ec",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "perplexity",
+  "snapshot_id": "snap-perplexity-5843c1ce73203b9d968be9fc",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}

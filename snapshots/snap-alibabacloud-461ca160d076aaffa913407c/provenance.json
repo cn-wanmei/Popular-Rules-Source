@@ -1,0 +1,157 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:365396c65f0299fe6d4aa6ff0495ca810757fd51949f1cef94b40aff2d7e9aa5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-alibabacloud-001-3ade01da88be"
+      ],
+      "service_id": "alibabacloud",
+      "type": "domain",
+      "value": "account-cn.alibabacloud.com"
+    },
+    {
+      "asset_id": "sha256:abd12d8659534cbbe20ab587f3881a8ebccb0ff1fae11d16f6c24187088877eb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-alibabacloud-001-3ade01da88be"
+      ],
+      "service_id": "alibabacloud",
+      "type": "domain",
+      "value": "alibabacloud.co.in"
+    },
+    {
+      "asset_id": "sha256:24eba19228ab5f631ed63be72b216db51e230cf629e19738b832f66faeee5ba8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-alibabacloud-001-3ade01da88be"
+      ],
+      "service_id": "alibabacloud",
+      "type": "domain",
+      "value": "alibabacloud.com"
+    },
+    {
+      "asset_id": "sha256:e47dcbbdada9f06666a7f9b773908ecd68af58e9de3c2be2cb6c45f21625e82b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-alibabacloud-001-3ade01da88be"
+      ],
+      "service_id": "alibabacloud",
+      "type": "domain",
+      "value": "alibabacloud.com.au"
+    },
+    {
+      "asset_id": "sha256:66fec58c426272d17c979256f9427cd85bde0bc72a52bad73f0efdf95e1f39dc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-alibabacloud-001-3ade01da88be"
+      ],
+      "service_id": "alibabacloud",
+      "type": "domain",
+      "value": "alibabacloud.com.hk"
+    },
+    {
+      "asset_id": "sha256:42e886b2e7bea76d7222e109f11c3adac97fe85d4ed7416b0d7cd9baf7b65914",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-alibabacloud-001-3ade01da88be"
+      ],
+      "service_id": "alibabacloud",
+      "type": "domain",
+      "value": "alibabacloud.com.my"
+    },
+    {
+      "asset_id": "sha256:3b1ea0bffc8161f23430dae766b1d8a7141a233231a3f366ae3b3c1a83bfdb42",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-alibabacloud-001-3ade01da88be"
+      ],
+      "service_id": "alibabacloud",
+      "type": "domain",
+      "value": "alibabacloud.com.sg"
+    },
+    {
+      "asset_id": "sha256:c0e8847235a30a90549a052dd110d95b82fe8c6ad9ca415c86865b8c366d37d3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-alibabacloud-001-3ade01da88be"
+      ],
+      "service_id": "alibabacloud",
+      "type": "domain",
+      "value": "alibabacloud.com.tw"
+    },
+    {
+      "asset_id": "sha256:d284e8ff172071f1aef8337153248aea265f3bb7fafed48ed0260db190fd1daf",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-alibabacloud-001-3ade01da88be"
+      ],
+      "service_id": "alibabacloud",
+      "type": "domain",
+      "value": "alicloud.com"
+    },
+    {
+      "asset_id": "sha256:eaf47ec6af4345e4a8c2a37c861d364bd8def646029dd9585c7aa21c9f800859",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-alibabacloud-001-3ade01da88be"
+      ],
+      "service_id": "alibabacloud",
+      "type": "domain",
+      "value": "api.alibabacloud.com"
+    },
+    {
+      "asset_id": "sha256:5317ea06573e808690cb076dba205e09cb3cfae52703975db98b341aaed39c3f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-alibabacloud-001-3ade01da88be"
+      ],
+      "service_id": "alibabacloud",
+      "type": "domain",
+      "value": "cn.alibabacloud.com"
+    },
+    {
+      "asset_id": "sha256:37220caa8f56c7bd644c0b93cf3b25ea411b7f4c18abddbee93f04583cb0036c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-alibabacloud-001-3ade01da88be"
+      ],
+      "service_id": "alibabacloud",
+      "type": "domain",
+      "value": "status.alibabacloud.com"
+    }
+  ],
+  "content_digest": "b35d38a44b2feef82aec6fe7b46ce7096ab380fab0bb3d94674ac54933192860",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "3ade01da88be899e5161139a57fe7cce350eede74a462fb24bb0c5ceddb76098",
+      "domains_extracted": 12,
+      "evidence_id": "EV-alibabacloud-001-3ade01da88be",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/alibabacloud.list",
+      "retrieved_at": "2026-09-23T07:51:06.575298+00:00",
+      "service_id": "alibabacloud",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/alibabacloud.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "e83a1ac708e9ae0095ffb66e845c5310dd8ef5511495b378b5fbb5bed92d75ac",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+  "release_digest": "461ca160d076aaffa913407cec0ab2f66c7e24fd98102c34bee05f04afa29886",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "alibabacloud",
+  "snapshot_id": "snap-alibabacloud-461ca160d076aaffa913407c",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}

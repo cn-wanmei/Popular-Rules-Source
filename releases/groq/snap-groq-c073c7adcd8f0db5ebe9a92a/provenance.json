@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:26c604038445ea9cc6007a678b0eb8c57f03baebb340676679e77fd50377a71d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-groq-001-7b15edad3da6"
+      ],
+      "service_id": "groq",
+      "type": "domain",
+      "value": "groq.com"
+    }
+  ],
+  "content_digest": "88efc1a66cdffe57858d1067819be3e176fe946795bd9dbff08355ab7ce2c98c",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "7b15edad3da6fcfc18dc648c1a072636b5fa8116fc51538f4d1e9583ebf21ea4",
+      "domains_extracted": 1,
+      "evidence_id": "EV-groq-001-7b15edad3da6",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/groq.list",
+      "retrieved_at": "2026-09-23T07:51:09.894513+00:00",
+      "service_id": "groq",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/groq.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "eed60e927f41c66a40cfa5295be617a77c72851b664552d8fd6e3be9b243c12a",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+  "release_digest": "c073c7adcd8f0db5ebe9a92af7b84d77505c173aa305b96f9edabe50bd68fcb8",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "groq",
+  "snapshot_id": "snap-groq-c073c7adcd8f0db5ebe9a92a",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}

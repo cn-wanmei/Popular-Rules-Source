@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "67f5861b31232701f884efd38d9436dd89183fccbd01d6f10d791b9ef6fbf4b8",
+    "manifest.json": "de7f503128cf7bada314d27da97936616de39a57ce1120ba6098129830c7e510",
+    "provenance.json": "9c43d4ea366757beaeab7090fe56e58506b3ada8ef60fd57473dfa13772eb7fa",
+    "snapshot_content.json": "68dfc66f97ec482e011f1cfc8bdff28012323e0845885f6d3296a66974f9aa8b"
+  },
+  "content_digest": "74e48c56d6a5727806021cf7f2e0a9e9d3ac8cb12b7358d681f5f220bba046e1",
+  "created_at": "2026-09-23T07:51:11.880121+00:00",
+  "evidence_digest": "767ab522ab9394e41bc9d36150ff99618d617f0d2ebb8fa4112a5c6c7a31098a",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "c41977bf6c8dade8b423273a5458334309cc33735237c1030fa6260c640d6183",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "huggingface",
+  "snapshot_id": "snap-huggingface-c41977bf6c8dade8b423273a",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

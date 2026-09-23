@@ -1,0 +1,126 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:cc31f594295b0a56d34e5785681545ed5ed4b5696567d045eb4b85a01d07f3bb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-messenger-001-230d53d14bed"
+      ],
+      "service_id": "messenger",
+      "type": "domain",
+      "value": "fbmessenger.com"
+    },
+    {
+      "asset_id": "sha256:18d9d955ea2e664c87736e85ea6faa1551ea53074f24e75bac3809abb2b0d07b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-messenger-001-230d53d14bed"
+      ],
+      "service_id": "messenger",
+      "type": "domain",
+      "value": "m.me"
+    },
+    {
+      "asset_id": "sha256:3449497d19d318893d4c2a5b6423afd5c41b4c2e725021b4381976ec77a87dcb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-messenger-001-230d53d14bed"
+      ],
+      "service_id": "messenger",
+      "type": "domain",
+      "value": "messenger.com"
+    },
+    {
+      "asset_id": "sha256:b1aa552a80c8f5ccdf7d98f0af886f349533361babf4814fdb41ea81098e0164",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-messenger-001-230d53d14bed"
+      ],
+      "service_id": "messenger",
+      "type": "domain",
+      "value": "nbabot.net"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "afe8fa86464c22479db5c1609a1f7f9f23c6ae71394f81d3cad19a2229247ab9",
+  "created_at": "2026-09-23T07:51:12.429671+00:00",
+  "domain_count": 4,
+  "domain_diff": {
+    "added": [
+      "fbmessenger.com",
+      "m.me",
+      "messenger.com",
+      "nbabot.net"
+    ],
+    "added_count": 4,
+    "current_count": 4,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "fbmessenger.com",
+    "m.me",
+    "messenger.com",
+    "nbabot.net"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "230d53d14bed2582219d43b73e9a08590bb3ca5e784d7b13207d3ce0f2f0bb1e",
+      "domains_extracted": 4,
+      "evidence_id": "EV-messenger-001-230d53d14bed",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/messenger.list",
+      "retrieved_at": "2026-09-23T07:51:12.415479+00:00",
+      "service_id": "messenger",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/messenger.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "4f0ed0ad9b4f0063f3b6e59aca2f8bda4cf4239d7ecb21fd30dbf16ff90dc366",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 0,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+  "previous_domain_count": 0,
+  "release_digest": "0a0d45654f4b394bb85deabf1dc9c23fe94681a7f03b4f6c4c032112fec1b1a9",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "af5c30438c84eabeef5a6a99277e134b1d921061bc8048860c216521e5b3cab8",
+  "service_id": "messenger",
+  "snapshot_content_sha256": "afe8fa86464c22479db5c1609a1f7f9f23c6ae71394f81d3cad19a2229247ab9",
+  "snapshot_id": "snap-messenger-0a0d45654f4b394bb85deabf",
+  "source_bindings": [
+    {
+      "adapter": "upstream_rule",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/messenger.list"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  },
+  "trusted_extracted": 4,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,174 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:3d4956a1ff7dce9f10a02d779d4ab4d2b29d729fc1bac39fcf7c8dacf8e8e301",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-signal-001-955b49e46b8c"
+      ],
+      "service_id": "signal",
+      "type": "domain",
+      "value": "signal.art"
+    },
+    {
+      "asset_id": "sha256:b14574bc983b10fe95cccb476c13b6311f608e5c016926a4c448eeccb88c00af",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-signal-001-955b49e46b8c"
+      ],
+      "service_id": "signal",
+      "type": "domain",
+      "value": "signal.group"
+    },
+    {
+      "asset_id": "sha256:58fbfe7c812b346575e1f773a4db43739205a105d14fe00e2a5d07b39c8c5ff4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-signal-001-955b49e46b8c"
+      ],
+      "service_id": "signal",
+      "type": "domain",
+      "value": "signal.link"
+    },
+    {
+      "asset_id": "sha256:b7e5891005138c9ad30f45ed6e4ad2bb52d7f159d98da22ecb1aca0a3b1203d5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-signal-001-955b49e46b8c"
+      ],
+      "service_id": "signal",
+      "type": "domain",
+      "value": "signal.me"
+    },
+    {
+      "asset_id": "sha256:2d994af84dbca90200c0096ee2ad1bd91de66a7c7f00a7d6da5a5bb6248cfb4e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-signal-001-955b49e46b8c"
+      ],
+      "service_id": "signal",
+      "type": "domain",
+      "value": "signal.org"
+    },
+    {
+      "asset_id": "sha256:eccd33087f4eb831720f63b5dc06f3478862d66ede3e6462a6839e31bc1b2c6d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-signal-001-955b49e46b8c"
+      ],
+      "service_id": "signal",
+      "type": "domain",
+      "value": "signal.tube"
+    },
+    {
+      "asset_id": "sha256:db9e4fedc1a2bfe327be8795d679e308fcb583fa4375897082abe268468e36db",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-signal-001-955b49e46b8c"
+      ],
+      "service_id": "signal",
+      "type": "domain",
+      "value": "signalusers.org"
+    },
+    {
+      "asset_id": "sha256:f404c763a5afae1bef31393b5576308d24c5d73b5b0d6a5340730f58e2d764de",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-signal-001-955b49e46b8c"
+      ],
+      "service_id": "signal",
+      "type": "domain",
+      "value": "whispersystems.org"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "7db91717b26af2108a12e3178f8fe973fca34d44fb2ebbce2f2dfdd69ba99200",
+  "created_at": "2026-09-23T07:51:05.663316+00:00",
+  "domain_count": 8,
+  "domain_diff": {
+    "added": [
+      "signal.art",
+      "signal.group",
+      "signal.link",
+      "signal.me",
+      "signal.org",
+      "signal.tube",
+      "signalusers.org",
+      "whispersystems.org"
+    ],
+    "added_count": 8,
+    "current_count": 8,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "signal.art",
+    "signal.group",
+    "signal.link",
+    "signal.me",
+    "signal.org",
+    "signal.tube",
+    "signalusers.org",
+    "whispersystems.org"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "955b49e46b8cff93a8dd471afdbe8c54373ff17a206468ae3b8a0fb5a6ff2a21",
+      "domains_extracted": 8,
+      "evidence_id": "EV-signal-001-955b49e46b8c",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/signal.list",
+      "retrieved_at": "2026-09-23T07:51:05.653675+00:00",
+      "service_id": "signal",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/signal.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "d85fae12a0e34d459328ff79e6c6ecbce831762ddebffba973180833bd6ea5f7",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 0,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+  "previous_domain_count": 0,
+  "release_digest": "82644ff2cbaddc4da87ede48d44752f3c277a4cae9be2ab2097165733cc11940",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "f22a365a21e5522ac23704dc6a55eb5d126a78f68808bda3b72c6b4d79238af6",
+  "service_id": "signal",
+  "snapshot_content_sha256": "7db91717b26af2108a12e3178f8fe973fca34d44fb2ebbce2f2dfdd69ba99200",
+  "snapshot_id": "snap-signal-82644ff2cbaddc4da87ede48",
+  "source_bindings": [
+    {
+      "adapter": "upstream_rule",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/signal.list"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  },
+  "trusted_extracted": 8,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

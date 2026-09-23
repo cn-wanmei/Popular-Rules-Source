@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:73c3a7bb853f6da0ffa6946f286f901c0573e607951ac0d99a3de495f606ee6c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-deepseek-001-fcb7018ebebc"
+      ],
+      "service_id": "deepseek",
+      "type": "domain",
+      "value": "deepseek.com"
+    },
+    {
+      "asset_id": "sha256:5f9e149964baa3c8fc505aea29bb7fd89f60fc201f82dee8183e72cc3fed8c01",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-deepseek-001-fcb7018ebebc"
+      ],
+      "service_id": "deepseek",
+      "type": "domain",
+      "value": "deepseeksvc.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "fe8a0928038519346854c53651fdad0b23a5ca2a59d456a89b955f7f31daee6c",
+  "created_at": "2026-09-23T07:51:07.563886+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "deepseek.com",
+      "deepseeksvc.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "deepseek.com",
+    "deepseeksvc.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "fcb7018ebebc5716a7c8351c14c07455ebc68cbadb0a0954ffe6ac4d46bc8502",
+      "domains_extracted": 2,
+      "evidence_id": "EV-deepseek-001-fcb7018ebebc",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/deepseek.list",
+      "retrieved_at": "2026-09-23T07:51:07.549956+00:00",
+      "service_id": "deepseek",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/deepseek.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "8472fbd6aacb22687254c4a1c4588ede0a045e5fe982600f653052344507509b",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 0,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+  "previous_domain_count": 0,
+  "release_digest": "e74c191a25236d73593d589baa8ad8b72736fa8f73868270433c7f9a2922a36a",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "d3a3e86155b7dad6e6eaa71fc2466c8cb66a5ad4ed5ac9a5d5f2c11b0b24e58c",
+  "service_id": "deepseek",
+  "snapshot_content_sha256": "fe8a0928038519346854c53651fdad0b23a5ca2a59d456a89b955f7f31daee6c",
+  "snapshot_id": "snap-deepseek-e74c191a25236d73593d589b",
+  "source_bindings": [
+    {
+      "adapter": "upstream_rule",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/deepseek.list"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

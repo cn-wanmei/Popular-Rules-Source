@@ -1,0 +1,114 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:f8c33b3f31baaabc048933c9a91ea03d89b4875cafe5ecc7ebed7b6ce85756d2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-huggingface-001-8ee30c1014ac"
+      ],
+      "service_id": "huggingface",
+      "type": "domain",
+      "value": "hf.co"
+    },
+    {
+      "asset_id": "sha256:f8104cc286f369d14bd7741ab67c8e66906a66c2115da1a7fc4ef568837347c3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-huggingface-001-8ee30c1014ac"
+      ],
+      "service_id": "huggingface",
+      "type": "domain",
+      "value": "hf.space"
+    },
+    {
+      "asset_id": "sha256:091bb141cf877625a3cb6ae09d46567982be9ac08c77d15a62133827fcc1fd42",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-huggingface-001-8ee30c1014ac"
+      ],
+      "service_id": "huggingface",
+      "type": "domain",
+      "value": "huggingface.co"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "74e48c56d6a5727806021cf7f2e0a9e9d3ac8cb12b7358d681f5f220bba046e1",
+  "created_at": "2026-09-23T07:51:06.489894+00:00",
+  "domain_count": 3,
+  "domain_diff": {
+    "added": [
+      "hf.co",
+      "hf.space",
+      "huggingface.co"
+    ],
+    "added_count": 3,
+    "current_count": 3,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "hf.co",
+    "hf.space",
+    "huggingface.co"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "8ee30c1014ac23d5e0481ef3263177078c917d2d21fea7bf6d5760efbd0df678",
+      "domains_extracted": 3,
+      "evidence_id": "EV-huggingface-001-8ee30c1014ac",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/huggingface.list",
+      "retrieved_at": "2026-09-23T07:51:06.478306+00:00",
+      "service_id": "huggingface",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/huggingface.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "767ab522ab9394e41bc9d36150ff99618d617f0d2ebb8fa4112a5c6c7a31098a",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 0,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+  "previous_domain_count": 0,
+  "release_digest": "c41977bf6c8dade8b423273a5458334309cc33735237c1030fa6260c640d6183",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "4d23d311dd74f0079815b2d80d59a6f768064c33a609f19c5f557cff9624e166",
+  "service_id": "huggingface",
+  "snapshot_content_sha256": "74e48c56d6a5727806021cf7f2e0a9e9d3ac8cb12b7358d681f5f220bba046e1",
+  "snapshot_id": "snap-huggingface-c41977bf6c8dade8b423273a",
+  "source_bindings": [
+    {
+      "adapter": "upstream_rule",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/huggingface.list"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  },
+  "trusted_extracted": 3,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}
