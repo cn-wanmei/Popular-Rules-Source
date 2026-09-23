@@ -56,7 +56,7 @@ def _domains_from_values(values: list[Any], exact: tuple[str, ...], suffixes: tu
     for value in values:
         raw = value if isinstance(value, str) else json.dumps(value, ensure_ascii=False)
         tokens = re.findall(
-            r"""https?://[^\s"'<>]+|(?:[A-Za-z0-9-]+\.)+[A-Za-z]{2,63}""",
+            r"""https?://[^s"'<>]+|(?:[A-Za-z0-9-]+.)+[A-Za-z]{2,63}""",
             raw,
         )
         for token in tokens:
@@ -79,7 +79,8 @@ def extract_with_adapter(
     if not spec or spec.get("enabled") is not True:
         raise AdapterContractError(f"adapter disabled or undefined: {adapter_name}")
 
-    allowed_authorities = set(_config().get("contract", {}).get("authorities") or ["official"])
+    contract = _config().get("contract") or {}
+    allowed_authorities = set(contract.get("authorities") or ["official"])
     authority = str(spec.get("authority") or "")
     if authority not in allowed_authorities:
         raise AdapterContractError(
@@ -143,8 +144,11 @@ def extract_with_adapter(
         if source_host and host_allowed(source_host, exact, suffixes):
             domains = sorted(set(domains) | {source_host})
     elif adapter_name == "upstream_rule":
-        text = result.body.decode("utf-8", errors="replace")
-        domains = _domains_from_values([text], exact, suffixes)
+        domains = _domains_from_values(
+            [result.body.decode("utf-8", errors="replace")],
+            exact,
+            suffixes,
+        )
     elif adapter_name in {"official_json", "official_api", "official_manifest"}:
         payload = json.loads(result.body.decode("utf-8"))
         paths = list(spec.get("field_paths") or [])
