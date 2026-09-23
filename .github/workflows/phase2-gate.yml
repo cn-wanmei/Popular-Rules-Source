@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       # Exact Collection registration input for Batch2 Gate.
-      COLLECTION_REF: bddddbe2c5c12ddcf3ebbb6a50c3ff50f8ff7b63
+      COLLECTION_REF: d351d186b936ad8d1a21764bd232461d7a5d906f
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
@@ -92,8 +92,6 @@ jobs:
               canonical(sid)
               for sid in build.load_services()["services"].keys()
           }
-          print("COLLECTION_REGISTERED_DEBUG", sorted(repr(value) for value in registered))
-          print("COLLECTION_REQUIRED_DEBUG", sorted(repr(value) for value in required))
           missing = sorted(required - registered)
           if missing:
               raise SystemExit(f"Collection registration reconciliation failed: {missing}")
