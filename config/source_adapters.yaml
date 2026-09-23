@@ -70,6 +70,7 @@ services:
   "1688": {adapters: [official_web]}
   cainiao: {adapters: [official_web]}
   dingding: {adapters: [official_web]}
+  qq: {adapters: [official_web]}
   qqmail: {adapters: [official_web]}
   qqmusic: {adapters: [official_web]}
   taobao: {adapters: [official_web]}
