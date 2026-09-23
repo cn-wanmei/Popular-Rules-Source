@@ -1,0 +1,195 @@
+name: Phase 3 Batch3 Durable Release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/phase3-batch3-release.yml"
+
+permissions:
+  contents: write
+
+env:
+  PYTHON_VERSION: "3.11"
+
+jobs:
+  release:
+    name: Release Batch3 ${{ matrix.service }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        service:
+          - alibabacloud
+          - deepseek
+          - perplexity
+          - groq
+          - huggingface
+          - signal
+          - messenger
+          - roblox
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - run: python -m pip install -r requirements.txt
+      - run: python -m source_engine validate
+      - name: Generate immutable snapshot
+        run: python -m source_engine generate --service "${{ matrix.service }}"
+      - run: python -m source_engine schema-validate
+      - run: python -m source_engine candidate-audit
+      - run: python -m source_engine conflict
+      - run: python -m source_engine audit
+      - run: python -m source_engine qualify
+      - name: Create durable release
+        run: python -m source_engine release --service "${{ matrix.service }}"
+      - name: Verify release contract
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          service = "${{ matrix.service }}"
+          provenance = Path("generated") / "source" / service / "provenance.json"
+          if not provenance.is_file():
+              raise SystemExit(f"generated provenance missing: {provenance}")
+          manifest = json.loads(provenance.read_text(encoding="utf-8"))
+          snapshot_id = str(manifest.get("snapshot_id") or "")
+          if not snapshot_id:
+              raise SystemExit("missing snapshot_id")
+          release_path = Path("releases") / service / snapshot_id / "release.json"
+          if not release_path.is_file():
+              raise SystemExit(f"durable release missing: {release_path}")
+          release = json.loads(release_path.read_text(encoding="utf-8"))
+          required = {
+              "service_id", "snapshot_id", "content_digest", "evidence_digest",
+              "policy_digest", "generator_digest", "release_digest",
+              "release_identity_version", "checksums", "validation",
+          }
+          missing = sorted(required - set(release))
+          if missing:
+              raise SystemExit(f"release contract missing: {missing}")
+          if release["service_id"] != service or release["snapshot_id"] != snapshot_id:
+              raise SystemExit("release identity mismatch")
+          if str(release.get("release_identity_version")) != "2":
+              raise SystemExit("release identity version mismatch")
+          for key in ("content_digest", "evidence_digest", "policy_digest", "generator_digest", "release_digest"):
+              value = str(release.get(key) or "")
+              if len(value) != 64 or any(ch not in "0123456789abcdef" for ch in value.lower()):
+                  raise SystemExit(f"invalid {key}")
+          print(json.dumps({
+              "service": service,
+              "snapshot_id": snapshot_id,
+              "release_digest": release["release_digest"],
+          }, ensure_ascii=False))
+          PY
+      - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: batch3-durable-${{ matrix.service }}
+          path: |
+            snapshots/
+            releases/
+            generated/source/${{ matrix.service }}/
+
+  persist:
+    name: Persist Batch3 immutable releases
+    needs: release
+    if: ${{ always() && needs.release.result != 'cancelled' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/download-artifact@v5
+        with:
+          pattern: batch3-durable-*
+          path: durable-artifacts
+          merge-multiple: false
+      - name: Persist successful Batch3 release identities
+        run: |
+          python - <<'PY'
+          import json
+          import shutil
+          from datetime import datetime, timezone
+          from pathlib import Path
+
+          services = [
+              "alibabacloud",
+              "deepseek",
+              "perplexity",
+              "groq",
+              "huggingface",
+              "signal",
+              "messenger",
+              "roblox",
+          ]
+          root = Path.cwd()
+          artifacts = root / "durable-artifacts"
+          report = {
+              "schema": "popular_rules_source_phase3_batch3_release_v1",
+              "created_at": datetime.now(timezone.utc).isoformat(),
+              "verified_input_commit": "${{ github.sha }}",
+              "services": {},
+          }
+
+          for service in services:
+              source_root = artifacts / f"batch3-durable-{service}"
+              provenance = source_root / "generated" / "source" / service / "provenance.json"
+              if not provenance.is_file():
+                  report["services"][service] = {"status": "FAILED_OR_BLOCKED"}
+                  continue
+
+              manifest = json.loads(provenance.read_text(encoding="utf-8"))
+              snapshot_id = str(manifest["snapshot_id"])
+              release_path = source_root / "releases" / service / snapshot_id / "release.json"
+              if not release_path.is_file():
+                  report["services"][service] = {"status": "FAILED_OR_BLOCKED"}
+                  continue
+
+              release = json.loads(release_path.read_text(encoding="utf-8"))
+              for rel in [
+                  Path("snapshots") / snapshot_id,
+                  Path("releases") / service / snapshot_id,
+                  Path("generated") / "source" / service,
+              ]:
+                  src = source_root / rel
+                  dst = root / rel
+                  if not src.exists():
+                      raise SystemExit(f"missing artifact path: {src}")
+                  if dst.exists():
+                      shutil.rmtree(dst) if dst.is_dir() else dst.unlink()
+                  shutil.copytree(src, dst) if src.is_dir() else shutil.copy2(src, dst)
+
+              report["services"][service] = {
+                  "status": "PERSISTED",
+                  "snapshot_id": snapshot_id,
+                  "content_digest": release["content_digest"],
+                  "evidence_digest": release["evidence_digest"],
+                  "policy_digest": release["policy_digest"],
+                  "generator_digest": release["generator_digest"],
+                  "release_digest": release["release_digest"],
+                  "release_identity_version": release["release_identity_version"],
+                  "release_path": str(Path("releases") / service / snapshot_id / "release.json"),
+              }
+
+          persisted = [sid for sid, item in report["services"].items() if item.get("status") == "PERSISTED"]
+          if not persisted:
+              raise SystemExit("no Batch3 immutable releases persisted")
+
+          out = root / "reports" / "durable-bridge"
+          out.mkdir(parents=True, exist_ok=True)
+          (out / "phase3-batch3-latest.json").write_text(
+              json.dumps(report, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
+              encoding="utf-8",
+          )
+          print(json.dumps(report, ensure_ascii=False, indent=2))
+          PY
+      - name: Commit persisted Batch3 releases
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f snapshots releases generated/source reports/durable-bridge/phase3-batch3-latest.json
+          git commit -m "chore(source): persist phase3 batch3 immutable releases [skip ci]"
+          git push origin main
