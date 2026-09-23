@@ -100,3 +100,17 @@ services:
   baidutieba: {adapters: [upstream_rule]}
   neteasemusic: {adapters: [upstream_rule]}
   douyin: {adapters: [upstream_rule]}
+  appletv: {adapters: [upstream_rule]}
+  siri: {adapters: [upstream_rule]}
+  youtube: {adapters: [upstream_rule]}
+  googlefcm: {adapters: [upstream_rule]}
+  xbox: {adapters: [upstream_rule]}
+  github: {adapters: [upstream_rule]}
+  tencentvideo: {adapters: [upstream_rule]}
+  firebase: {adapters: [official_web]}
+  googlecloud: {adapters: [official_web]}
+  wecom: {adapters: [official_web]}
+  tencentmeeting: {adapters: [official_web]}
+  baidunetdisk: {adapters: [official_web]}
+  youdao: {adapters: [official_web]}
+  doubao: {adapters: [official_web]}
