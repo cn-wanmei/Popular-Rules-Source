@@ -13,11 +13,50 @@ def create_release(
     repository: str = "cn-wanmei/Popular-Rules-Source",
 ) -> dict:
     manifest = build_service(service_id)
-    if manifest["release_state"] != "CANDIDATE":
-        for root in (Path("releases") / service_id, Path("generated") / "source" / service_id):
-            if root.exists():
-                shutil.rmtree(root)
-        raise RuntimeError(f"release blocked: {manifest['release_state']}")
+    release_state = str(manifest.get("release_state") or "BLOCKED")
+
+    # REVIEW is a valid audit outcome: keep the generated snapshot/provenance
+    # for inspection and preserve any previously durable release. REVIEW must
+    # never delete last-known-good production artifacts or fail the whole bridge.
+    if release_state == "REVIEW":
+        review_root = Path("reports") / "release-review" / service_id
+        review_root.mkdir(parents=True, exist_ok=True)
+        review_file = review_root / f"{manifest['snapshot_id']}.json"
+        review_file.write_text(
+            json.dumps(
+                {
+                    "schema": "popular_rules_source_release_review_v1",
+                    "service_id": service_id,
+                    "snapshot_id": manifest["snapshot_id"],
+                    "release_state": release_state,
+                    "release_reasons": manifest.get("release_reasons", []),
+                    "content_digest": manifest.get("content_digest"),
+                    "evidence_digest": manifest.get("evidence_digest"),
+                    "policy_digest": manifest.get("policy_digest"),
+                    "generator_digest": manifest.get("generator_digest"),
+                    "release_digest": manifest.get("release_digest"),
+                    "change_assessment": manifest.get("change_assessment", {}),
+                    "errors": manifest.get("errors", []),
+                },
+                ensure_ascii=False,
+                indent=2,
+                sort_keys=True,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
+        return {
+            "schema": "popular_rules_source_review_result_v1",
+            "service_id": service_id,
+            "snapshot_id": manifest["snapshot_id"],
+            "release_state": release_state,
+            "review_path": str(review_file),
+            "release_reasons": manifest.get("release_reasons", []),
+            "content_digest": manifest.get("content_digest"),
+        }
+
+    if release_state != "CANDIDATE":
+        raise RuntimeError(f"release blocked: {release_state}")
 
     release_root = Path("releases") / service_id / manifest["snapshot_id"]
     release_root.mkdir(parents=True, exist_ok=True)
