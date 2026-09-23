@@ -101,6 +101,8 @@ jobs:
               canonical(sid)
               for sid in build.load_services()["services"].keys()
           }
+          print("COLLECTION_REGISTERED_DEBUG", sorted(repr(value) for value in registered))
+          print("COLLECTION_REQUIRED_DEBUG", sorted(repr(value) for value in required))
           missing = sorted(required - registered)
           if missing:
               raise SystemExit(f"Collection registration reconciliation failed: {missing}")
