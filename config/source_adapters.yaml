@@ -124,6 +124,14 @@ services:
   doubao: {adapters: [official_web]}
 
   applenews: {adapters: [upstream_rule]}
+  applemedia: {adapters: [upstream_rule]}
+  copilot: {adapters: [upstream_rule]}
+  claude: {adapters: [upstream_rule]}
+  gemini: {adapters: [upstream_rule]}
+  openai: {adapters: [upstream_rule]}
+  telegram: {adapters: [upstream_rule]}
+  discord: {adapters: [upstream_rule]}
+  netflix: {adapters: [upstream_rule]}
   baidu: {adapters: [upstream_rule]}
   bing: {adapters: [upstream_rule]}
   tiktok: {adapters: [upstream_rule]}
