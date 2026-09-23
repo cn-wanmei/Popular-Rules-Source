@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-09-23T11:42:46.322123+00:00",
+  "created_at": "2026-09-23T11:46:14.256448+00:00",
   "schema": "popular_rules_source_phase10_release_v1",
   "services": {
     "appledev": {
@@ -112,8 +112,16 @@
       "snapshot_id": "snap-honorofkings_global-93adcb6eadecef0136b16c7d",
       "status": "PERSISTED"
     },
-    "neteaseemail": {
-      "status": "FAILED_OR_BLOCKED"
+    "neteasemail": {
+      "content_digest": "a91ff805543bac2f1df2f683c738bcc617b50e938350dbf92f291a4425a81cd1",
+      "evidence_digest": "950a9294ac8035158f1d3bfba9c30e211803a41ff0c47e426c710844fe8e13ef",
+      "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+      "policy_digest": "8033e063d641efa1725c7ced7d9a5ef0674537ce86b4b30a7804befea5d39856",
+      "release_digest": "817c44ccb4b6b36d7b108a883a90402cc071704ed1cc697b18b8db0c0baaf169",
+      "release_identity_version": "2",
+      "release_path": "releases/neteasemail/snap-neteasemail-817c44ccb4b6b36d7b108a88/release.json",
+      "snapshot_id": "snap-neteasemail-817c44ccb4b6b36d7b108a88",
+      "status": "PERSISTED"
     },
     "neteasemusic": {
       "content_digest": "618883a29cdfbf0e3d87b9997c6c99357f00299b2e460c7363c24e76ad28e1d3",
@@ -182,5 +190,5 @@
       "status": "PERSISTED"
     }
   },
-  "verified_input_commit": "3febbb5bddc60feb4053acfe72894d84421ccee6"
+  "verified_input_commit": "d12f774a1dde78319e9f9f5022fd4bad036d5e43"
 }
