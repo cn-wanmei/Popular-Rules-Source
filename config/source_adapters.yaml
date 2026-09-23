@@ -19,18 +19,18 @@ adapters:
     evidence_mapping: manifest.evidence[]
     regression_test: tests/test_adapters.py
   upstream_rule:
+    enabled: true
+    authority: upstream
+    method: text_rule_domain_extraction
+    parser: upstream-rule-v1
+    fixture: tests/fixtures/upstream_rule.list
+    evidence_mapping: manifest.evidence[]
+    regression_test: tests/test_adapters.py
   github_rule:
     enabled: true
     authority: upstream
     method: github_contents_api_rule
     parser: github-rule-v1
-    fixture: tests/fixtures/upstream_rule.list
-    evidence_mapping: manifest.evidence[]
-    regression_test: tests/test_adapters.py
-    enabled: true
-    authority: upstream
-    method: text_rule_domain_extraction
-    parser: upstream-rule-v1
     fixture: tests/fixtures/upstream_rule.list
     evidence_mapping: manifest.evidence[]
     regression_test: tests/test_adapters.py
@@ -108,21 +108,6 @@ services:
   baidutieba: {adapters: [upstream_rule]}
   neteasemusic: {adapters: [upstream_rule]}
   douyin: {adapters: [upstream_rule]}
-  appletv: {adapters: [upstream_rule]}
-  siri: {adapters: [upstream_rule]}
-  youtube: {adapters: [upstream_rule]}
-  googlefcm: {adapters: [upstream_rule]}
-  xbox: {adapters: [upstream_rule]}
-  github: {adapters: [upstream_rule]}
-  tencentvideo: {adapters: [upstream_rule]}
-  firebase: {adapters: [official_web]}
-  googlecloud: {adapters: [official_web]}
-  wecom: {adapters: [official_web]}
-  tencentmeeting: {adapters: [official_web]}
-  baidunetdisk: {adapters: [official_web]}
-  youdao: {adapters: [official_web]}
-  doubao: {adapters: [official_web]}
-
   appletv: {adapters: [github_rule]}
   siri: {adapters: [github_rule]}
   youtube: {adapters: [github_rule]}
@@ -130,3 +115,10 @@ services:
   xbox: {adapters: [github_rule]}
   github: {adapters: [github_rule]}
   tencentvideo: {adapters: [github_rule]}
+  firebase: {adapters: [official_web]}
+  googlecloud: {adapters: [official_web]}
+  wecom: {adapters: [official_web]}
+  tencentmeeting: {adapters: [official_web]}
+  baidunetdisk: {adapters: [official_web]}
+  youdao: {adapters: [official_web]}
+  doubao: {adapters: [official_web]}
