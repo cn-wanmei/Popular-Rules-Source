@@ -101,3 +101,5 @@ jobs:
           )
           PY
       - run: python -m source_engine qualify
+
+# CI validation checkpoint: use current Collection main for cross-repo registration reconciliation.
