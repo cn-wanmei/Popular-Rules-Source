@@ -19,6 +19,14 @@ adapters:
     evidence_mapping: manifest.evidence[]
     regression_test: tests/test_adapters.py
   upstream_rule:
+  github_rule:
+    enabled: true
+    authority: upstream
+    method: github_contents_api_rule
+    parser: github-rule-v1
+    fixture: tests/fixtures/upstream_rule.list
+    evidence_mapping: manifest.evidence[]
+    regression_test: tests/test_adapters.py
     enabled: true
     authority: upstream
     method: text_rule_domain_extraction
@@ -114,3 +122,11 @@ services:
   baidunetdisk: {adapters: [official_web]}
   youdao: {adapters: [official_web]}
   doubao: {adapters: [official_web]}
+
+  appletv: {adapters: [github_rule]}
+  siri: {adapters: [github_rule]}
+  youtube: {adapters: [github_rule]}
+  googlefcm: {adapters: [github_rule]}
+  xbox: {adapters: [github_rule]}
+  github: {adapters: [github_rule]}
+  tencentvideo: {adapters: [github_rule]}
