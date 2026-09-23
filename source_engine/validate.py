@@ -36,7 +36,7 @@ def validate_config() -> list[str]:
                 errors.append(f"{service_id}: invalid lifecycle state")
 
     for service_id, cfg in services.items():
-        if not service_id or any(not (c.islower() or c.isdigit() or c == "-") for c in service_id):
+        if not service_id or any(not (c.islower() or c.isdigit() or c in {"-", "_"}) for c in service_id):
             errors.append(f"{service_id}: invalid service_id")
         sources = cfg.get("official_sources", [])
         if not sources:
