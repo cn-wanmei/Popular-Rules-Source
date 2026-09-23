@@ -1,0 +1,40 @@
+{
+  "content_digest": "e3a0c243bf776e733c3317679a409b88a6257a1f6e58697764a3ba92cbbfc7ef",
+  "domains": [
+    "bytedapm.com",
+    "bytegecko-i18n.com",
+    "byteintlapi.com",
+    "byteoversea.com",
+    "capcut.com",
+    "ibytedtos.com",
+    "ibyteimg.com",
+    "ipstatp.com",
+    "isnssdk.com",
+    "lf16-effectcdn.byteeffecttos-g.com",
+    "lf16-pkgcdn.pitaya-clientai.com",
+    "marscode.com",
+    "muscdn.com",
+    "musical.ly",
+    "p16-tiktokcdn-com.akamaized.net",
+    "sgpstatp.com",
+    "snssdk.com",
+    "tik-tokapi.com",
+    "tiktok.com",
+    "tiktokcdn-us.com",
+    "tiktokcdn.com",
+    "tiktokd.net",
+    "tiktokd.org",
+    "tiktokmusic.app",
+    "tiktokv.com",
+    "tiktokv.us",
+    "trae-api-sg.mchost.guru",
+    "trae.ai",
+    "ttwebview.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "tiktok",
+  "source_hashes": [
+    "5d91baca6a8aa09b662971170fe89a3d771c47f191028a8b7a9b7128f48e0401"
+  ]
+}

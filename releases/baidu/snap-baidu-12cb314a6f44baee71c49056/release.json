@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "926d8e021b6f1a2a3b92cd74e750493701260defd163ccf390a5d046eb4bb3a4",
+    "manifest.json": "bc62fa327b0973daffdb1070c46ee62ef1d9892b4a862a010b0e29c0e1f26994",
+    "provenance.json": "8ef7cfa538ca07b4263c60c2f54b8a29dfaa9c30225409f4f251f3de652db679",
+    "snapshot_content.json": "9309d70062cb1549a5103a4c62f08ebca61d8e96891e888656d61bd00a61c82d"
+  },
+  "content_digest": "f33ec94e48e9e59d7ea818cb49e75254cadc1151f58dbeaaea96706fd6c0b37c",
+  "created_at": "2026-09-23T10:44:45.495Z",
+  "evidence_digest": "649d4d7c51b1d201ea0d95f95a8c37e6239362e3ef1db3cfa19bcbcde8440732",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "9c1690c82927ffb43c733444aa18017d56e8070582bc6d8ba3121362cd9356e8",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "12cb314a6f44baee71c49056edbe745670ee1d16ebcfde7df07f300b9ce2c140",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "baidu",
+  "snapshot_id": "snap-baidu-12cb314a6f44baee71c49056",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0,
+      "removal_ratio": 0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

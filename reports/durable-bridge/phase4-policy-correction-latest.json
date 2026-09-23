@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-09-23T10:44:45.495Z",
+  "parent_commit": "16eb69189a0fab3903ce88729eff7ff4fe625c5e",
+  "reason": "manual bridge policy digest corrected to engine-sorted exclusion suffix order",
+  "schema": "phase4_policy_digest_correction_v1",
+  "services": {
+    "applenews": {
+      "corrected_policy_digest": "9c1690c82927ffb43c733444aa18017d56e8070582bc6d8ba3121362cd9356e8",
+      "corrected_release_digest": "d79f669856813f2232441a1f75205465e2d29596e9b0dd8a798d666569e78f89",
+      "corrected_snapshot_id": "snap-applenews-d79f669856813f2232441a1f",
+      "old_reason": "policy_digest used unsorted exclusion suffix sequence",
+      "old_release_path": "releases/applenews/snap-applenews-bab2441b83a9381991262abb/release.json"
+    },
+    "baidu": {
+      "corrected_policy_digest": "9c1690c82927ffb43c733444aa18017d56e8070582bc6d8ba3121362cd9356e8",
+      "corrected_release_digest": "12cb314a6f44baee71c49056edbe745670ee1d16ebcfde7df07f300b9ce2c140",
+      "corrected_snapshot_id": "snap-baidu-12cb314a6f44baee71c49056",
+      "old_reason": "policy_digest used unsorted exclusion suffix sequence",
+      "old_release_path": "releases/baidu/snap-baidu-d4750fd40c6e1042256ee4c8/release.json"
+    },
+    "bing": {
+      "corrected_policy_digest": "9c1690c82927ffb43c733444aa18017d56e8070582bc6d8ba3121362cd9356e8",
+      "corrected_release_digest": "ca4ee0da4665d61b81b670a6d515e48144ca0fe9b1689d9327ec1ee723749c42",
+      "corrected_snapshot_id": "snap-bing-ca4ee0da4665d61b81b670a6",
+      "old_reason": "policy_digest used unsorted exclusion suffix sequence",
+      "old_release_path": "releases/bing/snap-bing-ac5e74d33b3ae0e99136f261/release.json"
+    },
+    "tiktok": {
+      "corrected_policy_digest": "9c1690c82927ffb43c733444aa18017d56e8070582bc6d8ba3121362cd9356e8",
+      "corrected_release_digest": "5e3d1c0ed7550d26495f0f240befe586723a7b0b1ff0ae20b469348289286cab",
+      "corrected_snapshot_id": "snap-tiktok-5e3d1c0ed7550d26495f0f24",
+      "old_reason": "policy_digest used unsorted exclusion suffix sequence",
+      "old_release_path": "releases/tiktok/snap-tiktok-9f40d3f10588df933d255891/release.json"
+    }
+  }
+}

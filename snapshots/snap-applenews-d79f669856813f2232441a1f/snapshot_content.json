@@ -1,0 +1,13 @@
+{
+  "content_digest": "06d10cf8787340ee748cae8f8a7ebb02bb4b389151301241d7d22449c31d8832",
+  "domains": [
+    "gspe1-ssl.ls.apple.com",
+    "news-client-search.apple.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "applenews",
+  "source_hashes": [
+    "8f33f16efb0f9f6d8ae361ab6b68fd8bd4f087db805e81ec6fcf4148aecac0f3"
+  ]
+}
