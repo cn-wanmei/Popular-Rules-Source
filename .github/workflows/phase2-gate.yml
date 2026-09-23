@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       # Exact Collection registration input for Batch2 Gate.
-      COLLECTION_REF: d351d186b936ad8d1a21764bd232461d7a5d906f
+      COLLECTION_REF: 084223ec36c48131ac6bea7ffdfb7661434ef6c8
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
