@@ -198,3 +198,5 @@ jobs:
           git add -f snapshots releases generated/source reports/durable-bridge/phase3-batch3-latest.json
           git commit -m "chore(source): persist phase3 batch4 immutable releases [skip ci]"
           git push origin main
+
+# Trigger durable Batch4 after direct repository writes.
