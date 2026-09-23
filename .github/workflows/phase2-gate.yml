@@ -16,9 +16,6 @@ jobs:
     permissions:
       contents: read
     runs-on: ubuntu-latest
-    env:
-      # Exact Collection registration input for Batch2 Gate.
-      COLLECTION_REF: 084223ec36c48131ac6bea7ffdfb7661434ef6c8
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
@@ -48,6 +45,23 @@ jobs:
       - run: python -m source_engine schema-validate
       - run: python -m source_engine conflict
       - run: python -m source_engine audit
+      - name: Resolve current Collection main commit
+        run: |
+          python - <<'PY'
+          import os
+          import requests
+          
+          response = requests.get(
+              "https://api.github.com/repos/cn-wanmei/Popular-Rules-Collection/git/ref/heads/main",
+              timeout=20,
+              headers={"Accept": "application/vnd.github+json", "User-Agent": "Popular-Rules-Source/3.x"},
+          )
+          response.raise_for_status()
+          sha = response.json()["object"]["sha"]
+          with open(os.environ["GITHUB_ENV"], "a", encoding="utf-8") as out:
+              out.write(f"COLLECTION_REF={sha}\n")
+          print(f"Resolved Collection main commit: {sha}")
+          PY
       - name: Reconcile Collection registration before promotion
         run: |
           python - <<'PY'
