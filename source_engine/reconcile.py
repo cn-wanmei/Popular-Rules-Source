@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import base64
 import json
 import os
 import re
@@ -25,13 +26,23 @@ def _get_yaml(url: str, timeout: int = 20) -> dict:
 
 
 def _get_collection_yaml(path: str, ref: str, timeout: int = 20) -> dict:
+    # Use the GitHub Contents API rather than raw.githubusercontent.com so a mutable
+    # branch ref is resolved by GitHub itself and does not hit a stale raw-file cache.
     response = requests.get(
-        f"{COLLECTION_RAW_ROOT}/{ref}/{path}",
+        f"https://api.github.com/repos/cn-wanmei/Popular-Rules-Collection/contents/{path}",
+        params={"ref": ref},
         timeout=timeout,
-        headers={"User-Agent": "Popular-Rules-Source/3.x"},
+        headers={
+            "User-Agent": "Popular-Rules-Source/3.x",
+            "Accept": "application/vnd.github+json",
+        },
     )
     response.raise_for_status()
-    data = yaml.safe_load(response.text) or {}
+    payload = response.json()
+    if not isinstance(payload, dict) or payload.get("encoding") != "base64":
+        raise ValueError(f"unexpected GitHub Contents response for {path}@{ref}")
+    content = base64.b64decode(payload.get("content", "")).decode("utf-8")
+    data = yaml.safe_load(content) or {}
     return data if isinstance(data, dict) else {}
 
 
