@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import base64
 import importlib
 import json
 import re
@@ -66,7 +67,12 @@ def _domains_from_values(values: list[Any], exact: tuple[str, ...], suffixes: tu
     return sorted(output)
 
 
-def _domains_from_rule_text(text: str, exact: tuple[str, ...], suffixes: tuple[str, ...]) -> list[str]:
+def _domains_from_rule_text(
+    text: str,
+    exact: tuple[str, ...],
+    suffixes: tuple[str, ...],
+    source_bound: bool = False,
+) -> list[str]:
     output: set[str] = set()
     for raw_line in text.splitlines():
         line = raw_line.strip()
@@ -87,7 +93,7 @@ def _domains_from_rule_text(text: str, exact: tuple[str, ...], suffixes: tuple[s
         if value.startswith("+."):
             value = value[2:]
         domain = normalize_domain(value)
-        if domain and host_allowed(domain, exact, suffixes):
+        if domain and (source_bound or host_allowed(domain, exact, suffixes)):
             output.add(domain)
     return sorted(output)
 
@@ -100,6 +106,7 @@ def extract_with_adapter(
     exact: tuple[str, ...],
     suffixes: tuple[str, ...],
     adapter_policy: dict[str, Any],
+    boundary_mode: str = "configured",
 ) -> AdapterExtraction:
     spec = adapter_specs().get(adapter_name)
     if not spec or spec.get("enabled") is not True:
@@ -122,6 +129,33 @@ def extract_with_adapter(
         "strength": "S3" if authority == "official" else "S2",
         "status": "verified",
     }
+
+    if adapter_name == "github_rule":
+        payload = json.loads(result.body.decode("utf-8"))
+        encoded = str(payload.get("content") or "").replace("\n", "")
+        if not encoded:
+            raise AdapterContractError("github_rule response has no content field")
+        try:
+            text_body = base64.b64decode(encoded).decode("utf-8", errors="replace")
+        except (ValueError, UnicodeError) as exc:
+            raise AdapterContractError("github_rule content is not valid base64") from exc
+        domains = _domains_from_rule_text(
+            text_body,
+            exact,
+            suffixes,
+            source_bound=boundary_mode == "source_bound",
+        )
+        return AdapterExtraction(
+            tuple(domains),
+            {
+                **common,
+                "source_url": source_url,
+                "resolved_url": result.url,
+                "retrieved_at": result.retrieved_at,
+                "content_hash": result.sha256,
+                "domains_extracted": len(domains),
+            },
+        )
 
     if adapter_name == "official_sdk":
         module_name = str(spec.get("module") or "")
@@ -174,6 +208,7 @@ def extract_with_adapter(
             result.body.decode("utf-8", errors="replace"),
             exact,
             suffixes,
+            source_bound=boundary_mode == "source_bound",
         )
     elif adapter_name in {"official_json", "official_api", "official_manifest"}:
         payload = json.loads(result.body.decode("utf-8"))

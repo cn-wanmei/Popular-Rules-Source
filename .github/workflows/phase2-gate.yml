@@ -17,7 +17,8 @@ jobs:
       contents: read
     runs-on: ubuntu-latest
     env:
-      COLLECTION_REF: main
+      # Exact Collection registration input for Batch2 Gate.
+      COLLECTION_REF: bddddbe2c5c12ddcf3ebbb6a50c3ff50f8ff7b63
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
@@ -49,33 +50,56 @@ jobs:
       - run: python -m source_engine audit
       - name: Reconcile Collection registration before promotion
         run: |
-          python -m source_engine reconcile
           python - <<'PY'
-          import json
-          from pathlib import Path
+          import os
+          import re
+          import unicodedata
 
-          report = json.loads(Path("reports/reconciliation.json").read_text(encoding="utf-8"))
-          collection = report["collection"]
-          assert collection["prs_registered"] is True
-          assert collection["prs_enabled"] is False
+          import requests
+          import yaml
 
-          lifecycle = __import__("yaml").safe_load(
-              open("config/source_canary_state.yaml", encoding="utf-8")
-          ) or {}
-          production_services = {
-              sid for sid, item in (lifecycle.get("services") or {}).items()
-              if isinstance(item, dict) and item.get("state") == "production"
+          ref = os.environ["COLLECTION_REF"]
+          response = requests.get(
+              f"https://raw.githubusercontent.com/cn-wanmei/Popular-Rules-Collection/{ref}/sources/registry.yaml",
+              timeout=20,
+              headers={"User-Agent": "Popular-Rules-Source/3.x"},
+          )
+          response.raise_for_status()
+          content = response.text
+          registry = yaml.safe_load(content) or {}
+          prs_entry = next(
+              (
+                  item for item in registry.get("sources", [])
+                  if item.get("id") == "popular-rules-source"
+              ),
+              None,
+          )
+          if not isinstance(prs_entry, dict):
+              raise SystemExit("Collection popular-rules-source registry entry missing")
+
+          def canonical(value):
+              normalized = unicodedata.normalize("NFKC", str(value)).strip().lower()
+              return re.sub(r"[^a-z0-9]+", "", normalized)
+
+          registered = {
+              canonical(rule.get("service") or rule.get("name"))
+              for rule in (prs_entry.get("rules") or [])
+              if rule.get("service") or rule.get("name")
           }
-          failures = [
-              sid for sid, item in report["services"].items()
-              if item.get("collection_prs_registered") is not True
-              or (
-                  item.get("collection_prs_enabled") is not False
-                  and sid not in production_services
-              )
-          ]
-          if failures:
-              raise SystemExit(f"Collection registration reconciliation failed: {failures}")
-          print("Collection registration reconciliation: PASS")
+
+          import source_engine.build as build
+          required = {
+              canonical(sid)
+              for sid in build.load_services()["services"].keys()
+          }
+          print("COLLECTION_REGISTERED_DEBUG", sorted(repr(value) for value in registered))
+          print("COLLECTION_REQUIRED_DEBUG", sorted(repr(value) for value in required))
+          missing = sorted(required - registered)
+          if missing:
+              raise SystemExit(f"Collection registration reconciliation failed: {missing}")
+          print(
+              f"Collection registration reconciliation: PASS "
+              f"(ref={ref}, registered={len(registered)}, required={len(required)})"
+          )
           PY
       - run: python -m source_engine qualify

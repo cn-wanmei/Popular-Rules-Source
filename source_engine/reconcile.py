@@ -2,6 +2,8 @@ from __future__ import annotations
 
 import json
 import os
+import re
+import unicodedata
 from pathlib import Path
 
 import requests
@@ -10,8 +12,24 @@ import yaml
 COLLECTION_RAW_ROOT = "https://raw.githubusercontent.com/cn-wanmei/Popular-Rules-Collection"
 
 
+def _canonical_service_id(value: object) -> str:
+    normalized = unicodedata.normalize("NFKC", str(value)).strip().lower()
+    return re.sub(r"[^a-z0-9]+", "", normalized)
+
+
 def _get_yaml(url: str, timeout: int = 20) -> dict:
     response = requests.get(url, timeout=timeout, headers={"User-Agent": "Popular-Rules-Source/3.x"})
+    response.raise_for_status()
+    data = yaml.safe_load(response.text) or {}
+    return data if isinstance(data, dict) else {}
+
+
+def _get_collection_yaml(path: str, ref: str, timeout: int = 20) -> dict:
+    response = requests.get(
+        f"{COLLECTION_RAW_ROOT}/{ref}/{path}",
+        timeout=timeout,
+        headers={"User-Agent": "Popular-Rules-Source/3.x"},
+    )
     response.raise_for_status()
     data = yaml.safe_load(response.text) or {}
     return data if isinstance(data, dict) else {}
@@ -40,13 +58,13 @@ def _latest_manifest(service_id: str) -> dict | None:
 
 def audit_collection(service_ids: list[str]) -> dict:
     ref = os.getenv("COLLECTION_REF", "main")
-    registry = _get_yaml(f"{COLLECTION_RAW_ROOT}/{ref}/sources/registry.yaml")
-    immutable = _get_yaml_optional(f"{COLLECTION_RAW_ROOT}/{ref}/sources/immutable_registry.yaml")
-    intentional = _get_yaml(f"{COLLECTION_RAW_ROOT}/{ref}/config/intentional_unmaterialized.yaml")
+    registry = _get_collection_yaml("sources/registry.yaml", ref)
+    immutable = _get_collection_yaml("sources/immutable_registry.yaml", ref)
+    intentional = _get_collection_yaml("config/intentional_unmaterialized.yaml", ref)
 
     prs_entry = next((x for x in registry.get("sources", []) if x.get("id") == "popular-rules-source"), None)
     prs_rules = {
-        str(rule.get("service") or rule.get("name"))
+        _canonical_service_id(rule.get("service") or rule.get("name") or "")
         for rule in (prs_entry or {}).get("rules", []) or []
         if rule.get("service") or rule.get("name")
     }
@@ -63,6 +81,7 @@ def audit_collection(service_ids: list[str]) -> dict:
         "services": {},
     }
     intentional_services = set((intentional.get("services") or {}).keys())
+    registered_services = set(result["collection"]["prs_services"])
 
     for service_id in sorted(service_ids):
         latest = _latest_manifest(service_id)
@@ -72,7 +91,7 @@ def audit_collection(service_ids: list[str]) -> dict:
             "source_release_digest": (latest or {}).get("release_digest"),
             "source_domain_count": (latest or {}).get("domain_count", 0),
             "source_state": (latest or {}).get("release_state", "NO_SNAPSHOT"),
-            "collection_prs_registered": service_id in prs_rules,
+            "collection_prs_registered": _canonical_service_id(service_id) in registered_services,
             "collection_prs_enabled": bool((prs_entry or {}).get("enabled", False)),
             "collection_intentional": service_id in intentional_services,
             "immutable_binding_exact": (

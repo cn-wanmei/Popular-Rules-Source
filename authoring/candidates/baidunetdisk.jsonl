@@ -1,0 +1,1 @@
+{"candidate_id":"HF2-baidunetdisk-001","service_id":"baidunetdisk","value":"pan.baidu.com","asset_type":"domain","status":"candidate","source_url":"https://pan.baidu.com/","source_method":"official_web_candidate_chain","reason":"No dedicated upstream service rule was found; the official Baidu Netdisk root is the bounded Source candidate."}

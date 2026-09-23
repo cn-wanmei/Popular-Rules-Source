@@ -92,6 +92,7 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
     exact = tuple(cfg.get("allowed_host_exact", []))
     suffixes = tuple(cfg.get("allowed_host_suffixes", []))
     bindings = _source_bindings(cfg)
+    boundary_mode = str((cfg.get("boundary") or {}).get("mode") or "configured")
     allowed_authorities = set(
         (cfg.get("source_policy") or {}).get("allowed_authorities")
         or ["official"]
@@ -127,6 +128,7 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
                     exact=exact,
                     suffixes=suffixes,
                     adapter_policy=adapter_policy,
+                    boundary_mode=boundary_mode,
                 )
                 if extraction.domains:
                     selected_domains = extraction.domains
