@@ -109,3 +109,5 @@ def audit_collection(service_ids: list[str]) -> dict:
         encoding="utf-8",
     )
     return result
+
+# CI checkpoint after switching Collection ref reads to the GitHub Contents API.
