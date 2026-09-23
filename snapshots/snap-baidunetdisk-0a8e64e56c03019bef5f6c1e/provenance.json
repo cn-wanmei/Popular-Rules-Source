@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:26812c96b6e9be05939fb5c2ed43a975ab781f53b56993fff9fc3fe627e7cf1b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidunetdisk-001-929f69512ea9"
+      ],
+      "service_id": "baidunetdisk",
+      "type": "domain",
+      "value": "pan.baidu.com"
+    },
+    {
+      "asset_id": "sha256:42ab3bf9435073dc181f23a3b5a556b763b939160398c88642419ed15a5635cf",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidunetdisk-001-929f69512ea9"
+      ],
+      "service_id": "baidunetdisk",
+      "type": "domain",
+      "value": "webpush.pan.baidu.com"
+    }
+  ],
+  "content_digest": "3a8261bda6064e8188c613778d7c9d34ad57cd04d83b22a17125835ff427966a",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "929f69512ea992ee32473f49b9539bffcd1b6fffb9e4341ab2a08693b1881b45",
+      "domains_extracted": 2,
+      "evidence_id": "EV-baidunetdisk-001-929f69512ea9",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://pan.baidu.com/",
+      "retrieved_at": "2026-09-23T07:30:21.329868+00:00",
+      "service_id": "baidunetdisk",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://pan.baidu.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "fbf7dce84148acfe49edade5ccd835e531be01b2458cfac4502088d647fb1516",
+  "generator_digest": "7219ee0f6ac041bb585edefea0602b062e704fea081c18294c2698a26f5b1151",
+  "policy_digest": "21cda7c04409602f4f1efdbd49f8e2cb5dc825c1bda82352c5e7ae624dd86a1f",
+  "release_digest": "0a8e64e56c03019bef5f6c1ec825acb309fca70cf20baf8ee72cb5089fc40929",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "baidunetdisk",
+  "snapshot_id": "snap-baidunetdisk-0a8e64e56c03019bef5f6c1e",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

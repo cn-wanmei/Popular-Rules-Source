@@ -1,0 +1,126 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:40832766eb8c0a6ffb66df98ae4447821dfab465ef319df454f53a60e65a8019",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-doubao-001-b191069754fc"
+      ],
+      "service_id": "doubao",
+      "type": "domain",
+      "value": "lf-flow-web-cdn.doubao.com"
+    },
+    {
+      "asset_id": "sha256:daaee758e23791751595712fe8c1fbe2208a7297415d2376e7e1aa719650f01c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-doubao-001-b191069754fc"
+      ],
+      "service_id": "doubao",
+      "type": "domain",
+      "value": "opt.doubao.com"
+    },
+    {
+      "asset_id": "sha256:2412e65d68ea96f25e1c0fbf1e63a71558c6cd19ad79e34f758833bfc3915915",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-doubao-001-b191069754fc"
+      ],
+      "service_id": "doubao",
+      "type": "domain",
+      "value": "u002fwww.doubao.com"
+    },
+    {
+      "asset_id": "sha256:f90c6f5b093a5e8741216821b5095ed8ce45f29ac28c16c0c31f9749fd8e4747",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-doubao-001-b191069754fc"
+      ],
+      "service_id": "doubao",
+      "type": "domain",
+      "value": "www.doubao.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 1.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "3b511efda08c74b04d66cfb5961d5ba7a017cd45bee28be6be912feaed31e1c0",
+  "created_at": "2026-09-23T07:30:25.126503+00:00",
+  "domain_count": 4,
+  "domain_diff": {
+    "added": [],
+    "added_count": 0,
+    "current_count": 4,
+    "previous_count": 4,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
+      "lf-flow-web-cdn.doubao.com",
+      "opt.doubao.com",
+      "u002fwww.doubao.com",
+      "www.doubao.com"
+    ],
+    "unchanged_count": 4
+  },
+  "domains": [
+    "lf-flow-web-cdn.doubao.com",
+    "opt.doubao.com",
+    "u002fwww.doubao.com",
+    "www.doubao.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "b191069754fc3dce8ecd213dd8878058c04534df105183a7829f1299cedcfab0",
+      "domains_extracted": 4,
+      "evidence_id": "EV-doubao-001-b191069754fc",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://www.doubao.com/chat/",
+      "retrieved_at": "2026-09-23T07:30:25.077182+00:00",
+      "service_id": "doubao",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://www.doubao.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "6a0bc599999843f75276afcc146bfe4ef0b2f603d05d12637ec60b8747c770eb",
+  "generator_digest": "7219ee0f6ac041bb585edefea0602b062e704fea081c18294c2698a26f5b1151",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 4,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "d0a03d558d8760c1eab7a78de59a4fb5662ff0ba0ef4efa4c8f100cd7013ad98",
+  "previous_domain_count": 4,
+  "release_digest": "9a5b57cdb4a46ae1210f2e4bba99a62ec3d55a300da0814fb922cc2e9bff51e6",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "7782653f06a99a1c505f07b45fc0845b2af8bc13a5411b240b39c1c92a7552b3",
+  "service_id": "doubao",
+  "snapshot_content_sha256": "3b511efda08c74b04d66cfb5961d5ba7a017cd45bee28be6be912feaed31e1c0",
+  "snapshot_id": "snap-doubao-9a5b57cdb4a46ae1210f2e4b",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.doubao.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 4,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,187 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:0197c739b56b9f4f4e4edc56399b1ff816920b91ca448c55fbdd316caf28ef52",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youdao-001-839bda45e67c"
+      ],
+      "service_id": "youdao",
+      "type": "domain",
+      "value": "ai.youdao.com"
+    },
+    {
+      "asset_id": "sha256:3af5195e558c183f0493332485319ce39acdec57f81403c041049004a78240f3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youdao-001-839bda45e67c"
+      ],
+      "service_id": "youdao",
+      "type": "domain",
+      "value": "baoku.youdao.com"
+    },
+    {
+      "asset_id": "sha256:2749605821c8a9f1db0d5630edaf6a5b7e1da19234ae974a6258ed024c907d89",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youdao-001-839bda45e67c"
+      ],
+      "service_id": "youdao",
+      "type": "domain",
+      "value": "c.youdao.com"
+    },
+    {
+      "asset_id": "sha256:9d11f4f32567853c229dba43f6693d347c9eaf5c44adf144ae4794976e11f324",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youdao-001-839bda45e67c"
+      ],
+      "service_id": "youdao",
+      "type": "domain",
+      "value": "dsp.youdao.com"
+    },
+    {
+      "asset_id": "sha256:d3dcefb0a058d66a01f7779ebb204969cb624d35e1242e4d1f05808e021d4c0e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youdao-001-839bda45e67c"
+      ],
+      "service_id": "youdao",
+      "type": "domain",
+      "value": "f.youdao.com"
+    },
+    {
+      "asset_id": "sha256:0caec8cc8a293dfdbaa488514ce2abd4b62a55aac8511da7db0cba12b5a3f763",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youdao-001-839bda45e67c"
+      ],
+      "service_id": "youdao",
+      "type": "domain",
+      "value": "hr.youdao.com"
+    },
+    {
+      "asset_id": "sha256:a307b5ef83023f669e8b3f390c0999b7974aa6bcc376faefba61d4796f4ed8aa",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youdao-001-839bda45e67c"
+      ],
+      "service_id": "youdao",
+      "type": "domain",
+      "value": "ir.youdao.com"
+    },
+    {
+      "asset_id": "sha256:480ef0c3744818fd2a49f660748bb89155d5b539b7f018860b783c88d6427127",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youdao-001-839bda45e67c"
+      ],
+      "service_id": "youdao",
+      "type": "domain",
+      "value": "ke.youdao.com"
+    },
+    {
+      "asset_id": "sha256:e3b9fa63e0770632cbb011efb3b6cb2a18e5713d672f5bec877821fca3559c9f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youdao-001-839bda45e67c"
+      ],
+      "service_id": "youdao",
+      "type": "domain",
+      "value": "lobsterai.youdao.com"
+    },
+    {
+      "asset_id": "sha256:e250d12f83c62948c439b8de3bac78934cd11fc95966b6bd3e0ca69391aded6a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youdao-001-839bda45e67c"
+      ],
+      "service_id": "youdao",
+      "type": "domain",
+      "value": "school.youdao.com"
+    },
+    {
+      "asset_id": "sha256:b73b0e71bb02580a55cff3cb55a348782c012cf43ea6754ee769afeb24531166",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youdao-001-839bda45e67c"
+      ],
+      "service_id": "youdao",
+      "type": "domain",
+      "value": "shared.youdao.com"
+    },
+    {
+      "asset_id": "sha256:c78ffa1694c349f08b8f73aad434d08a8588d089d4272d4b6ad02a02245b46b4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youdao-001-839bda45e67c"
+      ],
+      "service_id": "youdao",
+      "type": "domain",
+      "value": "smart.youdao.com"
+    },
+    {
+      "asset_id": "sha256:56ca380f23ccfc9e3bf4c88a420841d97a1f0aada0f0b195a744766ea07a2899",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youdao-001-839bda45e67c"
+      ],
+      "service_id": "youdao",
+      "type": "domain",
+      "value": "tongdao.youdao.com"
+    },
+    {
+      "asset_id": "sha256:125f414b7ffaa4ddecb49320c2985093e949c352f03b20ebc193f2d94fa54e03",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youdao-001-839bda45e67c"
+      ],
+      "service_id": "youdao",
+      "type": "domain",
+      "value": "www.youdao.com"
+    },
+    {
+      "asset_id": "sha256:10ebc904cbc254e5deddb3bfa78377e4cf27f83734087bee8a7cac9bee980af0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youdao-001-839bda45e67c"
+      ],
+      "service_id": "youdao",
+      "type": "domain",
+      "value": "zhihui.youdao.com"
+    }
+  ],
+  "content_digest": "382ab110a436aabb4b56e8331c900f84ec93837f7b5d312df68caeb81e9f8d22",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "839bda45e67c7da4e4cc4052498280578f003584ed0d8810efa06736c4e791c2",
+      "domains_extracted": 15,
+      "evidence_id": "EV-youdao-001-839bda45e67c",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://www.youdao.com/",
+      "retrieved_at": "2026-09-23T07:30:15.537862+00:00",
+      "service_id": "youdao",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://www.youdao.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "1904ca5f590cc5cf006e0e3d848017e8ba7dd1269c67a409beade223373921d4",
+  "generator_digest": "7219ee0f6ac041bb585edefea0602b062e704fea081c18294c2698a26f5b1151",
+  "policy_digest": "661a62e8dbbc219a341bb0c0fd4caf76cbd8589235031aa71f355f4e45b7ee39",
+  "release_digest": "b0e2b0246cd52df7418f5c1432a5b94e3825e2db6586c8194964b85c5367aae4",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "youdao",
+  "snapshot_id": "snap-youdao-b0e2b0246cd52df7418f5c14",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}
