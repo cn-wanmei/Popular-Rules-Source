@@ -69,6 +69,9 @@ jobs:
           }
           required_services = {str(sid).strip() for sid in report["services"].keys()}
           registered_services = {str(value).strip() for value in collection["prs_services"]}
+          debug_ids = ["baidunetdisk", "googlecloud", "siri", "tencentmeeting", "wecom", "youdao"]
+          for sid in debug_ids:
+              print("REG_DEBUG", repr(sid), [hex(ord(ch)) for ch in sid], sid in required_services, sid in registered_services)
           failures = sorted(required_services - registered_services)
           if failures:
               raise SystemExit(f"Collection registration reconciliation failed: {failures}")
