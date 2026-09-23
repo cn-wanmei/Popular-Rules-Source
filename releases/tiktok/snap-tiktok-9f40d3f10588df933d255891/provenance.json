@@ -1,0 +1,327 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:0daa621607b4a6680a6f551c556ab1e36ae1483bfc3df5f6ef109287a8b1d46f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "bytedapm.com"
+    },
+    {
+      "asset_id": "sha256:286ebc9675cc08d8e14f61bf61355fe3b9cbb96582949d7870061522367250c8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "bytegecko-i18n.com"
+    },
+    {
+      "asset_id": "sha256:2ad0ece870183822d2e44599d18c8ab9ccade5bddd2b8dea3834049b431ff9a3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "byteintlapi.com"
+    },
+    {
+      "asset_id": "sha256:d07c0e7231d150d0940f688c25fc90c8bb2778176641cf741e4896c39538d270",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "byteoversea.com"
+    },
+    {
+      "asset_id": "sha256:be7e7c6f0bf22e8500deb81e0ba3b0593d331f00da99e161fbb69d8f61f118e1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "capcut.com"
+    },
+    {
+      "asset_id": "sha256:feb1c13fecb56706b6268f2f0f74f6c72c32dc7483a4d5f6e86c8d61e898122a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "ibytedtos.com"
+    },
+    {
+      "asset_id": "sha256:b15d868993726327cc65b2159132afc75846e6ac1bbe5babcab98ff2dd9a5e00",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "ibyteimg.com"
+    },
+    {
+      "asset_id": "sha256:70aad6b8d6d2f3f7096758724d2f8bc5dcd596e402226a2c4ca4732e3f828f70",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "ipstatp.com"
+    },
+    {
+      "asset_id": "sha256:404ec74349b14b6da3be21a5a0432c0f581107e9f380604b2567a6cbbe5f735e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "isnssdk.com"
+    },
+    {
+      "asset_id": "sha256:0a1d11bbdd855cc7008839a40bde203f64ab782707b22fc19dfc5d9239189539",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "lf16-effectcdn.byteeffecttos-g.com"
+    },
+    {
+      "asset_id": "sha256:cb54514ac8f77c08313af472817beed0669cf0f6f0cbf051688521691f8f8bab",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "lf16-pkgcdn.pitaya-clientai.com"
+    },
+    {
+      "asset_id": "sha256:1aebb2cd423e70ac944516a0b7db1f5cadf7fc2fefefe511415b6b0417b023c9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "marscode.com"
+    },
+    {
+      "asset_id": "sha256:0f003cc3a7a146f5217dd4a50f61ccc25ea24cc0c3f749715e3554b60288bf65",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "muscdn.com"
+    },
+    {
+      "asset_id": "sha256:7542f40878401bf01a31411517f5c2db16c324aaf261dd7e7d95d21df8bb3199",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "musical.ly"
+    },
+    {
+      "asset_id": "sha256:4c4bfeafa51cc3e743f3a482d12ab15fb98b118de1cd3f1ce7cea95b31ac1e8b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "p16-tiktokcdn-com.akamaized.net"
+    },
+    {
+      "asset_id": "sha256:87bd580a1a98d8632b2342a9b45e0edb5bf07c1b55dd9c5fd7de44994599c058",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "sgpstatp.com"
+    },
+    {
+      "asset_id": "sha256:ff9d57f1b3b9c3bc1a1e9080c587badab17c4f1db72a277ba0afddfe5090b811",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "snssdk.com"
+    },
+    {
+      "asset_id": "sha256:5645849f0e2f456e438a1ea775cefa9094efec4b70c93fa899155d5e0b833639",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "tik-tokapi.com"
+    },
+    {
+      "asset_id": "sha256:f17809bf5470cdfed0ad46ae4d3830bbc4ccb9634cbf090512ef907c1b4166ba",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "tiktok.com"
+    },
+    {
+      "asset_id": "sha256:51f766750ca11247e0cbce1302290997671a26adf366af3a379e074dccc0ddee",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "tiktokcdn-us.com"
+    },
+    {
+      "asset_id": "sha256:d10c63c148d326a5130cbd9b5e294407c0afc728bebcfd2cd4a3a237852f2bc2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "tiktokcdn.com"
+    },
+    {
+      "asset_id": "sha256:4329e85dbe07f7c55d05b555c39d34750054b9580760321074d8dd3dbaa2ad45",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "tiktokd.net"
+    },
+    {
+      "asset_id": "sha256:150f9b135ddfde6eebb8c72d2cb6408bd6db757ae361f85694f0d7aee0ac8758",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "tiktokd.org"
+    },
+    {
+      "asset_id": "sha256:7a9dd6aa44dc124f54bcea2898ac5d80ed1b8342311648f21f5ec1447843a276",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "tiktokmusic.app"
+    },
+    {
+      "asset_id": "sha256:014d5b66f53fd8db9399b6b1847ce2dac8efcfe7acf29fe226b556f93fccd34a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "tiktokv.com"
+    },
+    {
+      "asset_id": "sha256:1329ba03bad6fbb8fd8ae98afa3ea873886d399e578d0c2b2110cca695012823",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "tiktokv.us"
+    },
+    {
+      "asset_id": "sha256:f43ce254d42c4174f031b569cf159493d811ae64b115f7f2f6482066ce6b6494",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "trae-api-sg.mchost.guru"
+    },
+    {
+      "asset_id": "sha256:8074c4d93c4fbdcc7ab2cf0b00e22630cfa8f73d8acec26f8f44ecd4cdb79a9d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "trae.ai"
+    },
+    {
+      "asset_id": "sha256:f8e26c426597899540cc85d7d2d9bf14ba4caa4106e2eaccd099fc13ec737839",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tiktok-001-7146b733ee23"
+      ],
+      "service_id": "tiktok",
+      "type": "domain",
+      "value": "ttwebview.com"
+    }
+  ],
+  "content_digest": "1a72610eaabb12fac263e6086b35652115f6e6f1594ab9c8d102aaf3a031a4f8",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "7146b733ee239b6818d496aec1640cf1e962b39cda823388ce98d83761a6c885",
+      "domains_extracted": 29,
+      "evidence_id": "EV-tiktok-001-7146b733ee23",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.list",
+      "retrieved_at": "2026-09-23T10:40:50.491Z",
+      "service_id": "tiktok",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "8353301ff1067f5047c4d570d3391620043237f95604dfbb70071f6416ae950d",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "e9c5f2a02dd25bc0df638dbff8274d8643ac6ea6d1de46cf9e466b564b665897",
+  "release_digest": "9f40d3f10588df933d255891155be799e4a848d2a422423589a7ebec5218ae52",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "tiktok",
+  "snapshot_id": "snap-tiktok-9f40d3f10588df933d255891",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}

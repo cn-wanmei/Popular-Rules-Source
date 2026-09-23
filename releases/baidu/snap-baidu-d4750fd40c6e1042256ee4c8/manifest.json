@@ -1,0 +1,3090 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:5f75ed4b17139ccd753b474bbd63efeb8fee8e8a13f4b803a8e2208d27659a6c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "17swan.com"
+    },
+    {
+      "asset_id": "sha256:f733f5ac1d1021f12ac2003644e05f47eacc4a7253e9b33581a53d8ec0395145",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "37swan.com"
+    },
+    {
+      "asset_id": "sha256:8c49d493ea305f4e941b5b5b8083d90bb9b4bcbb937174a698bd2f624d5d416b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "91.com"
+    },
+    {
+      "asset_id": "sha256:6b4e75bd29652b7bcb76ad0cfb0732089c55d3764e62a457e29301bfc911b532",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "911dns.cn"
+    },
+    {
+      "asset_id": "sha256:58c67cfa158cbb2cdf99e442f2f7fa69150e7938e1daa622375d5c76dee3fb8f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "911dns.com.cn"
+    },
+    {
+      "asset_id": "sha256:e149b9d2d2dd2de2fee9bc5d8a7a853c4e0dc0f19ab318b6e0f6d5a8d4753418",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "aicdn.work"
+    },
+    {
+      "asset_id": "sha256:b535765bcb673932c84eab29a3952da49049e6b3f2f90a4ab6202e9cdb3ebd34",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "aipage.com"
+    },
+    {
+      "asset_id": "sha256:172e9f9dfa9fb9245ed761941f22566b29b28d6240af5e9d7b23b35ae59d7405",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "aiqicha.cn"
+    },
+    {
+      "asset_id": "sha256:42eb28e776eb9a93126ed63196d6073eb474eb5aacf1b23c1d6d38f330968839",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "aiqicha.com"
+    },
+    {
+      "asset_id": "sha256:2feaa52bee5040ed6e217c4e89eaed29bc5d0cf33277c522a044a60d4db78cbd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "apollo-platform.com"
+    },
+    {
+      "asset_id": "sha256:ab6367738f043b1dcc6bb63ed0d3f45914ba9356e51df89717f37ba0e7db6743",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "apollo-share.com"
+    },
+    {
+      "asset_id": "sha256:dfb292f6872bc12e8c590ed4d76ffde42d203a6fecd956c781ae907c9f83e2b4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "apollo.auto"
+    },
+    {
+      "asset_id": "sha256:686e5719d4d2799aba88bf591686d6d64a87fe13b2f268c910e598dba647ebbc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baeapps.com"
+    },
+    {
+      "asset_id": "sha256:0614755106fe28fb6377b9fd08679bf6dfafbb5dd0d6d84a69e8eeba7c09ac78",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baetyl.tech"
+    },
+    {
+      "asset_id": "sha256:15894e19c5b39660765088499dcd09c5d1778e6022ef79bb0a1d17405b02d8e1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidu-1img.cn"
+    },
+    {
+      "asset_id": "sha256:457daf464d0993f152044f4225b6d080d073bcd090f50d1c894676bcdd629492",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidu-2img.cn"
+    },
+    {
+      "asset_id": "sha256:d91064964b456f6035a1a62202cb8a45fd6b04f617001c0486cdfbd8306ce3e4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidu-3img.cn"
+    },
+    {
+      "asset_id": "sha256:4d4c86182b9d4da9115fd917c9f468e34659d2314c3f095396ef5ecaca4851ba",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidu-bank.cn"
+    },
+    {
+      "asset_id": "sha256:f53b544f9dc7c52bcfaf15733dc78a5c65a6f6abb3ec14cf5db0dff26f22f313",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidu-bank.com"
+    },
+    {
+      "asset_id": "sha256:114b0a3bca9838e063f02b9f6551d23bebed5add47cc50e7d507a3c12f2b50e3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidu-cdn.cn"
+    },
+    {
+      "asset_id": "sha256:a871aa8075363484ac2c62973110eee379589a4489651e2a14748a565c052db5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidu-cdn.com"
+    },
+    {
+      "asset_id": "sha256:ec9e1259b623cfef81661059346a0e1a4fe80231f4be1a2956942c2237861c3c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidu-cdn.net"
+    },
+    {
+      "asset_id": "sha256:c0698cf95cc8f34c6fe52a45440f468520f3a59051ad500331a455e5adf250f7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidu-img.cn"
+    },
+    {
+      "asset_id": "sha256:d5aaf197cfcdebdfdd79ea595ce39d5e2b3c1b0e65e72df624555abd47085264",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidu-int.com"
+    },
+    {
+      "asset_id": "sha256:188676a093bd32858cc0ac3443597281e9705966082234052360eab927d6938c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidu-itm.com"
+    },
+    {
+      "asset_id": "sha256:4f191ee0d0ce0cab08e036dcfe81072aa10554133ddebf2458947f0c1a97f598",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidu-tech.com"
+    },
+    {
+      "asset_id": "sha256:6f01bf9cfa4153a68d2af007709c25d2b91c6ab8d5139621c9e7eaa77aa78f42",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidu.cn"
+    },
+    {
+      "asset_id": "sha256:c4c1272a0f62b5b7ef0c8dd9b9589e9b49ab7cc9e1ff01fb6d5823f4c5e7b071",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidu.com"
+    },
+    {
+      "asset_id": "sha256:1b99f889342c556f8dc5dbf1817e3784902c54bc7557cce609fc5e4ff84648a5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidu.com.cn"
+    },
+    {
+      "asset_id": "sha256:ecc5a9b2da16bec298592f83e8a1cb10232a91c1b2578829aa7c176a1aa50e5a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidu.com.hk"
+    },
+    {
+      "asset_id": "sha256:400ba42d58b1205235abe7b21a3ccea98d3bd1c5213d8dc7c2f67f5402a55987",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidu.hk"
+    },
+    {
+      "asset_id": "sha256:7b7d12b2baaf6882585785c18369c70e9443151036f009a4367ba18a15dd15b5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidu.mobi"
+    },
+    {
+      "asset_id": "sha256:b8eaab764fe4ce669bd049826820ff5aeb5a25495f503db8b05edcb514cd7277",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baiduads.com"
+    },
+    {
+      "asset_id": "sha256:aed42d1ab277155baf5f34ce2257f6058ce97d1f1362d0225c4e29bda5088209",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baiduapp.com"
+    },
+    {
+      "asset_id": "sha256:837fb361ba4357741572d5f7ab163b8a265317a51075b8af7c67a19256df9ebb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidubce.cn"
+    },
+    {
+      "asset_id": "sha256:c18034c29eeb8f6f78abacb033f66798514ae895745968b6b24f129e84651708",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidubce.com"
+    },
+    {
+      "asset_id": "sha256:2f48ea8fde4db6d4df4ceadd8f99612f55e81e8df8685333f814558137dbac85",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidubce.com.cn"
+    },
+    {
+      "asset_id": "sha256:20ee5d0bc94d0899775694b37d1270fbfa1a8617b13e55c7b1fcfc3f3341315f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidubce.net.cn"
+    },
+    {
+      "asset_id": "sha256:538593d1ebf731ff7ce59d0451ff9f8fabb689f41f55683def2a63e65d7328a2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidubcr.com"
+    },
+    {
+      "asset_id": "sha256:5ffa32f4568582398d3cc4b97304431a4ee1ebfe452bce683f3258fe4e9cca6c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidubos.com"
+    },
+    {
+      "asset_id": "sha256:d2e47a45a3b0e7f68ba726652f0452c5e88a52ed56474cf3c48e2a450e5adcf0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baiducloudapi.com"
+    },
+    {
+      "asset_id": "sha256:9e59f45a7c5af7f606d34ace8609aecdd33ef143869cc6113ca089f333b2c179",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baiducontent.com"
+    },
+    {
+      "asset_id": "sha256:3cc3661b4d0ccfe40dc4206d3103e7d82c1422d5c1968eb8e00c673011a42cf0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baiduhui.com"
+    },
+    {
+      "asset_id": "sha256:cc65a2a07ae2e1332d115cf6144439112f765614388af3c08c36e41f4146d756",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidupcs.cn"
+    },
+    {
+      "asset_id": "sha256:0b14e44ca41626726454699aec86fbda003881a1a5d8f9243e0620626ddafcff",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidupcs.com"
+    },
+    {
+      "asset_id": "sha256:7046dd3551e646e195ca2d9181459badccf22d251d36aee1b40ad6573daa6c5b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidupcs.com.cn"
+    },
+    {
+      "asset_id": "sha256:dda1fc706c5c2c7bb89c067126fae3596de3b55bd737caf78f3881e7a08ea517",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidupcs.net"
+    },
+    {
+      "asset_id": "sha256:d8e9c830315de0987cc80ba12ce5bba27dae1dbb3f7102a25fa1f2097f9a6ace",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baidustatic.com"
+    },
+    {
+      "asset_id": "sha256:eedd1dda2f26652dd8f01c5bdd7cc5836e1177bbc3f9ecf9285eee8b0882e975",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baiduux.com"
+    },
+    {
+      "asset_id": "sha256:9a5641621220c58853a74118061d67eb32344ba99fa484802a699e8ce402a907",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baiduwaf.com"
+    },
+    {
+      "asset_id": "sha256:d0166a011b1ec637f952a0786869268a5a113d9b4d675b7c9d6c736e9745da8f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baiduwebgame.com"
+    },
+    {
+      "asset_id": "sha256:27367c288954e30564a8c76d27b80c224ff984a82c050048cc7098e6daaea411",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baiduxiaodai.cn"
+    },
+    {
+      "asset_id": "sha256:56aee6eee1467e733f58b4b6946f47b22a4e8e0dffd9554ccbd36259431de34c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baiduxiaodai.com"
+    },
+    {
+      "asset_id": "sha256:e317fc081de36f8f0a98aab7ef0bed7b68e7fc5cda9c7cf2c8261551913a7bf4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baiduyangguang.org"
+    },
+    {
+      "asset_id": "sha256:e63fc8ff36cba45862a7ded4dc010460771f5b5b98fd08d918affa4584e9ef90",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baiduyuncdn.cn"
+    },
+    {
+      "asset_id": "sha256:1076302bde9b516f6ad8bc27a41c7a67cd296ee8df7347fffa2899b5bdc5c1e8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baiduyuncdn.com"
+    },
+    {
+      "asset_id": "sha256:d854e9f1bc50be558526c7c6b0be99d93ee488f0cea164bb2e621722d6911fb2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baiduyuncdn.net"
+    },
+    {
+      "asset_id": "sha256:ce83777cbfe571655b35128a1ba4f1d694b020af555656da52905118a68b8175",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baiduyundns.cn"
+    },
+    {
+      "asset_id": "sha256:1f30706baa48367893d0a4e0ad621658ef5c6df125d0ab94f9688208f30686c0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baiduyundns.com"
+    },
+    {
+      "asset_id": "sha256:b33245faa67753d5e3d30672142c28bfda847044c6e0c47cb4483e6c4f67f48d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baiduyundns.net"
+    },
+    {
+      "asset_id": "sha256:a70d088399d9e31e755ba37ef88a9cbb0b16b108db48e548ba631ada2f0f8b4c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baiduyunwaf.com"
+    },
+    {
+      "asset_id": "sha256:5fee81059d201c56e0d6459116faa2d3aa8a1702c93882b266597db83d34bcaa",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baifae.com"
+    },
+    {
+      "asset_id": "sha256:f0570849ab9302d54412b9f31e30981e1496b584b82362a77a307cb12ce376f2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baifubao.com"
+    },
+    {
+      "asset_id": "sha256:65524d494f700bc736a405f006432bd1623d1a62768261015d38ca0c9e5aad95",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baihangbao.cn"
+    },
+    {
+      "asset_id": "sha256:26e76d0676ded21e129556b0bdefa62d265cc1cb269c6053ee757c8dd8caf051",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baihangbao.com"
+    },
+    {
+      "asset_id": "sha256:a7c0c7454f58aef3e07fecbbbbedc4023586706e14546107167570174ecdfb9e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baihangdai.cn"
+    },
+    {
+      "asset_id": "sha256:60f9005ac6253618a30f25775872126a9b5ec8d02e6f4b40d6b3c47f0c866b39",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baihangdai.com"
+    },
+    {
+      "asset_id": "sha256:0c3c928b58b5591a5d5533b05949841ea2e6848524b0063be01f9969c4ce362d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baijincdn.cn"
+    },
+    {
+      "asset_id": "sha256:df3e5111de10f50b1b3d3a606c6b5204d3f79e200780ad94003aeaa4085e56b3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "baijincdn.com"
+    },
+    {
+      "asset_id": "sha256:fcb4e6c481f3f6781259cfbff7b665464d5e83d1bb07c2eba7a39683586dc91d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bakshifen.com"
+    },
+    {
+      "asset_id": "sha256:fb0c2b94f574fd36f31d770e54d07c687cfcfbc723491a12faa721e64baa92e5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bce-cdn.cn"
+    },
+    {
+      "asset_id": "sha256:3061e9aa4dd4cf188994923cec21b3a053082f6c7d832a30484fc7e4bf2c833a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bce-cdn.com"
+    },
+    {
+      "asset_id": "sha256:bc93223e892ffc8c4613e2db934ab9ec18a27ca8a6fbcbeca54db85696fc7959",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bce-cdn.net"
+    },
+    {
+      "asset_id": "sha256:336dbbe6027f9af4b0cb9add4316182c7c5f6b2a092e5ee5f06ade91f38c1684",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bceapp.com"
+    },
+    {
+      "asset_id": "sha256:6408e617bd1cb69d528789e12aba8ed8bbb9c42359a0e19899aa35aa5856bbc3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bcebos.com"
+    },
+    {
+      "asset_id": "sha256:88fb04c6f129be385020431edee129e0fc8097ebeda3bc0a85947f0d83414e4f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bcedns.cn"
+    },
+    {
+      "asset_id": "sha256:dca053001eada12d04ead5d6f99b528eef2d7b8ccd377604836e995cae4da779",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bcedns.com"
+    },
+    {
+      "asset_id": "sha256:739181d199c09543e448aad4bf0354455daea5960bed2c5bdbc3ab1e2b4e6a75",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bcedns.net"
+    },
+    {
+      "asset_id": "sha256:26f77d5d2082945e539199bb27c01c450aeb8e9cbfb08b20e7bd83b671f3d01c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bcedocument.com"
+    },
+    {
+      "asset_id": "sha256:89a75c1dab85af9061d7e1fe67e3e6dd19ef491f88a559c6d75f4dcb5a7a477e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bcehost.com"
+    },
+    {
+      "asset_id": "sha256:a294a98226a000000fb0d2b2e3a3d874545f552903bf1f8fe72dbde24f443894",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bcehosts.com"
+    },
+    {
+      "asset_id": "sha256:279a634604c5a1ac6af5a2e89724158acbb2d5d36a388c07c703edd6ff3dd5dc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bceidaas.com"
+    },
+    {
+      "asset_id": "sha256:86da3513ea8fcc1f950d43b7b4caf8e8919e75bde51132008701bc0770c182b6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bceimg.cn"
+    },
+    {
+      "asset_id": "sha256:c247fb4142d8859613eb7d6631fdcbd583894e1db0afc7546b767ac9ba406e88",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bceimg.com"
+    },
+    {
+      "asset_id": "sha256:d557fcb3efbe3920dd55162846e79b4a48fdbf23137e2020a5d4dd3487d1f9f3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bcelive.com"
+    },
+    {
+      "asset_id": "sha256:5119d39ef674ba02f092323db091ff77b2755e9f891b11ae4a5835d99eee40b6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bcevod.com"
+    },
+    {
+      "asset_id": "sha256:44b4baa2bc37fc12c6e63b907666ab50b32841501a590fafcf24f564d1e16957",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bcewaf.com"
+    },
+    {
+      "asset_id": "sha256:94a708a8c3d5eff2a8c81bc6c2a0e039fd817413dfed2142a068f0b556622b71",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bchdemo.site"
+    },
+    {
+      "asset_id": "sha256:43194db0e230b1921114929f07ecc74a8a23a0fd13f4f44075497ce978a85ab7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bdbae.com"
+    },
+    {
+      "asset_id": "sha256:94f3b68b03307800c42df62406170122fea210139a596132c8e9b1419bd7745d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bdcloudapi.com"
+    },
+    {
+      "asset_id": "sha256:9032aecbd5e06c474c371bef2db42e0eb02b9e3f0befe2bd6537b2c93b628bad",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bddns.cn"
+    },
+    {
+      "asset_id": "sha256:8239cdf00898c66675b31f5916218cc5aa97e1dab6148ac2b9b37f67afce5d8c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bdeceimg.com"
+    },
+    {
+      "asset_id": "sha256:190c23af2c41f2d9f55ff986d5794e9900232bc84822c18325ac370f5f914611",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bdimg.com"
+    },
+    {
+      "asset_id": "sha256:c55e0f04c4eaa152b390bbc86d043f39e8e38d4a5f611939cc78803305fbcf56",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bdstatic.cn"
+    },
+    {
+      "asset_id": "sha256:b4dc6becd1c98128834c1c56d99a4bd9caee6c1af8f11d895a3149bfb530883c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bdstatic.com"
+    },
+    {
+      "asset_id": "sha256:14c4c5f3c996dbe28d5e8dbd2288bbf2cf279fef5edf9b182facf8c475159c61",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bdtjrcv.com"
+    },
+    {
+      "asset_id": "sha256:9933201124a89cdd01eed12ca0e658f11411068101be8ec986784b9c5c4c9b30",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bduapp.com"
+    },
+    {
+      "asset_id": "sha256:d14c42fbd87d82ecd034cd306218c00d00bf4f33ce81e5f87b915326cef7cb2b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bdurl.net"
+    },
+    {
+      "asset_id": "sha256:919ef88c1cc466e3f28d488ff9b7c5d70543b4ed9efa12d44845c156c17bc166",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bdycdn.cn"
+    },
+    {
+      "asset_id": "sha256:4c52c624d2003e79b4833d3a0547bd7f08580ec2caa7300c1049d46547be4b2a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bdycdn.com"
+    },
+    {
+      "asset_id": "sha256:193da35e94dc098466e9abeafadf4df292a15138d3873062f661a713305adcff",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bdycdn.net"
+    },
+    {
+      "asset_id": "sha256:1a32963bb645467b49f901a1ec7b0ad3ea373dc4d48902504e67ed272c252882",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bdydns.cn"
+    },
+    {
+      "asset_id": "sha256:af1f991d6c738b0a5521fe72db8e36a0b182ce85ff218d122ec222969f74e5dc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bdydns.com"
+    },
+    {
+      "asset_id": "sha256:68a4d788015fbe1d6c3c03faf3c4fb3a34d9b80317e63a9c11e721ddda08ff03",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bdydns.net"
+    },
+    {
+      "asset_id": "sha256:3237c7e94cd63d57a7d18be1413d38b3781fc35b7ac3df0fae41e3ed120324fc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bdymkt.com"
+    },
+    {
+      "asset_id": "sha256:9946889e4d0dc4b58baf9b1d74943ac12989391be06b96d7af3b8eeb02990a05",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bdysite.com"
+    },
+    {
+      "asset_id": "sha256:a8935ed33d5e7f8eff3a06779d78d2f93e60ae1eb43943b5642304008f1556aa",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bdysites.com"
+    },
+    {
+      "asset_id": "sha256:166d378f10e77ef6ed9b8763c0db3ba42d4d95fc2a5773c96bea1b47db572152",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bfe-networks.com"
+    },
+    {
+      "asset_id": "sha256:7c6daa5582450b5b0d32d2060810cef1df55f7c1428c0efa0f4d38f4cc501f15",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "bfe-networks.net"
+    },
+    {
+      "asset_id": "sha256:3b894215760037948fc0f6c4d6104195de91e726e9f3de67a76ee8219bc01591",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "chuanke.com"
+    },
+    {
+      "asset_id": "sha256:8056164fcf0a27f7ff9f0796676f180008c8960bed5cc7e48c5200d70f744f56",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "cloud-control.top"
+    },
+    {
+      "asset_id": "sha256:4ed12fafe0e08ba0ad8f97f56ee4128f9b365f8012dda0ea7e6f8f4184667d25",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "clouda.com"
+    },
+    {
+      "asset_id": "sha256:c996160f1fac12b280139140a46659f55452efffb37eab809eda8fad97a43001",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "cloudajs.org"
+    },
+    {
+      "asset_id": "sha256:42a23e1a1794054ebda8877803e6aa0b335329d9cec0a12075540d6b115266e5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "content4ads.com"
+    },
+    {
+      "asset_id": "sha256:bff9eeb7f8bfa18a9932fe988eca663ad1e143f64e357cf0d7fa7a60a7ccb6ad",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "daoru.in"
+    },
+    {
+      "asset_id": "sha256:ab8aceb607485e3e6c1d141eaa3cdfa9c8d45566156cf6e1292ca146af820b9c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "data-schema.org.cn"
+    },
+    {
+      "asset_id": "sha256:29c6e059979775d1021d93a0f709e5c6bf8ce2cd83d41abd419de09f9a833aa8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "dlnel.com"
+    },
+    {
+      "asset_id": "sha256:75dadd8949b904e3dc833b09158809c60ce45d3ac7f3190778c631a110c82c7a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "dlnel.org"
+    },
+    {
+      "asset_id": "sha256:0bcb5366b607b345a1420a410041e480a5888abe18cd7fd09ae2cf3e34a0b1f6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "dmhmusic.com"
+    },
+    {
+      "asset_id": "sha256:4e0c035a20348ab694e66c0c5d8e47af6635087bbd281b0a166ca933575632ef",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "dnsproxy.cn"
+    },
+    {
+      "asset_id": "sha256:faedabed8cc1b8e325100ad5e56bbad82b14d6fc6e53e8449788ccda282a4a1f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "dnsproxy.com.cn"
+    },
+    {
+      "asset_id": "sha256:b37f86bb995278ce0363227323e85ae79322a55ccb33a509b993805e3be49707",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "du-xiaomai.com"
+    },
+    {
+      "asset_id": "sha256:4855502634d0ca54f22fbaa457e7c5bc9e38241645c15c03195653581d026cc6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "duapp-preview.com"
+    },
+    {
+      "asset_id": "sha256:05b1607a97dd31d85517768fdc492cc3564919ee5893d1b4d31da1284a427b1a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "duapp.com"
+    },
+    {
+      "asset_id": "sha256:8c57ea25bbdc25512346250bf1968dc6048fa1e2dbb80e18fd96f64ee4ec1105",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "duapp.net"
+    },
+    {
+      "asset_id": "sha256:886795852e33ec04a6fd711319878ee3410b5408625488c33bfc07a3f30b9e2b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "duapps.com"
+    },
+    {
+      "asset_id": "sha256:948f72e8af8a50d3bff3cdf9cdbb59fa5b5a349369d850f4d7308500687290de",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "dulife.com"
+    },
+    {
+      "asset_id": "sha256:0a6e8d28d0396dcfb57810f640d591c1b5fa527211cf85c46caa7f143e88f953",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "dulightapp.com"
+    },
+    {
+      "asset_id": "sha256:c3d417fd8109387f727343f4e5992a9916e394b95023ec517cce83df0ab8bc6d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "dumall.com"
+    },
+    {
+      "asset_id": "sha256:0696e527008f2e3b5273dd470489fce197445d392c5c1da7830ffd21b1bc6652",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "dusdn.cn"
+    },
+    {
+      "asset_id": "sha256:5e74761f8bff7a1d1b315c4353cf03b253a1503f658d552219f79ad0b5c58aaf",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "dusdn.com"
+    },
+    {
+      "asset_id": "sha256:21ef0b675d47a4580909281ba479a98581d7d7b32e5016f7c99dd4b092f8d527",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "dusdn.net"
+    },
+    {
+      "asset_id": "sha256:b545b632348fb279bb5e6a0433e6ef3f82c0c723d632d18800e55d63d88165fc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "dushifen.com"
+    },
+    {
+      "asset_id": "sha256:b303cadf4f9d376013ea7149722f21bbbede02d7f2c45c274701396e217b2df8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "duurl.cn"
+    },
+    {
+      "asset_id": "sha256:a5cf52a697fa4eaa80c6a589969e359cabb2ca9ac948ed4052b7cf362e383e1f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "duxiaomai.net"
+    },
+    {
+      "asset_id": "sha256:99cff7504afad09abec66bfc5bcd82e325987fa8c190cec78c53bb7c418c6b51",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "duxuetang.cn"
+    },
+    {
+      "asset_id": "sha256:b36bea4dd16e51db9b82b97a4f64c9d6745fd67d3401b52f8f95b62691e98340",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "duxuetang.com"
+    },
+    {
+      "asset_id": "sha256:f18e422b06627d7cabd7c66e9cec44b01b20e923d91b87a3bfb0ac1b6cffc722",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "dwz.cn"
+    },
+    {
+      "asset_id": "sha256:0ec1db51335d36b0f486a1ddeb9bb2e676c5ffc8df3b8a79c3ae26075e164ee2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "estrongs.com"
+    },
+    {
+      "asset_id": "sha256:b31bff9e8c4f0287d47b86fb5379676c3f9137907c00227fb6cd88e0d0044390",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "eyoubaidu.com"
+    },
+    {
+      "asset_id": "sha256:8dbd25a94b29e0ea45094fc3351ad0ac1b7ac1db2c9e1b15cf88800583490e86",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "fhldns.cn"
+    },
+    {
+      "asset_id": "sha256:ea13a7b2fadd0ef5cdb68ff635c7709c68c33e0c3dddba94955487a267e3fd64",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "fhldns.com"
+    },
+    {
+      "asset_id": "sha256:556c93236732fa31ffc6e751521552110c18b71dc30429a94e9306570885debd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "fhldns.com.cn"
+    },
+    {
+      "asset_id": "sha256:3fe33cf73ca68968f225bf89d4f7b23197df6a66870cc4791b46a4e80916462e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "fhldns.net"
+    },
+    {
+      "asset_id": "sha256:f1ab730ac0045b782b3a2c958fa0780f72eb019c84edb4605f9e97a3d73c8e5f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "game-client.com"
+    },
+    {
+      "asset_id": "sha256:6b1079ebcb5a1ff3d0dd002a82625f22065daab4b098b03420a8fcc0133b33f5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "haluan2u.com"
+    },
+    {
+      "asset_id": "sha256:01289cfcd8666b2d18dea8c33f3bd8c03663fafbf22d62c5e04eb933d5c1f460",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "hao123.com"
+    },
+    {
+      "asset_id": "sha256:ef013748720483deeebf4c12b2a864ad4271c25d892fc89e8b82586a76ff94b3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "hao123.net"
+    },
+    {
+      "asset_id": "sha256:136fba4ba4f4e8b8915f272d085dac01448264e5b92f746fe458579c823fc5f6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "hao123img.com"
+    },
+    {
+      "asset_id": "sha256:3f024ae7b4b5889c46b15525fa622b6db4ccecf10edc597e73a6df1c068a97b0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "hao222.com"
+    },
+    {
+      "asset_id": "sha256:4ac1472af87792bd938c951ec8ce7afff94dea03b3db6c8fbf34c6c2847da392",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "hao222.net"
+    },
+    {
+      "asset_id": "sha256:62dbb6b4961ee597ab2bbd8cc81126700706d8c096b815ef5e6bd448cbd0453d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "haokan.com"
+    },
+    {
+      "asset_id": "sha256:ab5ffc234e97c8209115f21f1698a3f71c21cb92b4027009628e878d690ce50e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "hiapk.com"
+    },
+    {
+      "asset_id": "sha256:c448c5578d92333d556ed5dc55761bf62bf7d96e3af451f8cc1bacf63afccc96",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "hongmeiti.cn"
+    },
+    {
+      "asset_id": "sha256:68d6cac021e79d2937f57221d689042eb71cb2ee948f389618c0530affcde5ca",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "hongmeiti.com"
+    },
+    {
+      "asset_id": "sha256:e28061c57c5dd444bb8b51cc85ac4e7db8415762923c4e10bfe1a4887549622c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "hongmeiti.com.cn"
+    },
+    {
+      "asset_id": "sha256:8906c31a01fee0f37c32a09d03b7a572ab26afb58ade1e127b808a85ea12fc09",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "hongmeiti.net"
+    },
+    {
+      "asset_id": "sha256:c74e025fe03571f112e60e569bab00c58d9b7cab73963adb8cc96b1c3da45427",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "huoyanyunying.com"
+    },
+    {
+      "asset_id": "sha256:261cb846e87bb562b6949a19a7f504433300945e87b7ce84776f5ae31ec20fb6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "ja-cloud.com"
+    },
+    {
+      "asset_id": "sha256:2820d8ca61333293dd0f7bbf87d406fb2b7332ee901bdb54548f0123e7e8f6d3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "jingling.cn"
+    },
+    {
+      "asset_id": "sha256:b0ad9eed90c3d3b505a09e2a07f9f8186183230009de969039b4fa099994d2ce",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "jomocdn.cn"
+    },
+    {
+      "asset_id": "sha256:bf18598c5fdadd9342fb955dfb843d0cfce7b032d87ca5db3892f3eaecc00da9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "jomocdn.net"
+    },
+    {
+      "asset_id": "sha256:0034b336e8bc5ce827442aff678e707c0041e4407ecbaba7e1965cf028215489",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "jomodns.cn"
+    },
+    {
+      "asset_id": "sha256:9e8605baf9aeb0cec9466c6a620a7c9b03cbd8b6177dcadcdf2683b47e880650",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "jomodns.com"
+    },
+    {
+      "asset_id": "sha256:12e126d6e05f81397470d3bc5428c32e3cdc2e18c52f759f9a11d26f406391e8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "jomodns.net"
+    },
+    {
+      "asset_id": "sha256:634e9f72aea5b72dfaeff039238bfc1e9e4ed9322749fa8286e6853751071aac",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "jpaas.cn"
+    },
+    {
+      "asset_id": "sha256:8d8c111fc72f4be13e3d5b251612fb7a116dd859111d9e669672e11d920ee17e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "kanduoduo.com.cn"
+    },
+    {
+      "asset_id": "sha256:e2f65fa7956961bd5f6292404aaa1935b7eec61369c980f800463959d85ef19d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "lasmasas.com"
+    },
+    {
+      "asset_id": "sha256:ad15f6639ea020fc2f2c3f48d16a37adb2f74ee16fc138f3054e47c78900ec9e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "micro-game-client.com"
+    },
+    {
+      "asset_id": "sha256:de98c6ea33d3d0ee2bd43d89dbeebc99a358aa2de6e3cd84a0ef63fa48aac226",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "mipcdn.com"
+    },
+    {
+      "asset_id": "sha256:41f4fcaebccac88ebcf552c4cb7b4523b2f98c73633dcc9eeb31b24a1f06f63b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "mipengine.com"
+    },
+    {
+      "asset_id": "sha256:dfcf5ec628703d59be92b39d3c8889dfda10523992b21fffc41ee0205c9a9031",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "mipengine.org"
+    },
+    {
+      "asset_id": "sha256:34b0ecca7f981f33dcb9494733eecfadc046ffd091e71af437939fa1c11d2a7f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "mipplan.com"
+    },
+    {
+      "asset_id": "sha256:1265b7a052ad3c679f6ccaedbce1f41e69e9dbb0657f3f158c2b84a0f34d9063",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "mipplan.org"
+    },
+    {
+      "asset_id": "sha256:0469712a577b52e54aa143d14230caf016511d2901ed81e4cb44ce749dd502cf",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "nhmuni.com"
+    },
+    {
+      "asset_id": "sha256:6241b2f7d99775ca091ebc8944a796dc1c430f317fe4453ac9e9aa73b608c22b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "nuomi.com"
+    },
+    {
+      "asset_id": "sha256:ae2d06c6e73d169db852137d3c3f70bd488defa4c63f79fe8acde403b8d4a53e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "oasesalliance.com"
+    },
+    {
+      "asset_id": "sha256:4ad65da651737e0ceaa36b40f84987ba51eb8dcb50269f73031872d21051dfb9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "oortos.tech"
+    },
+    {
+      "asset_id": "sha256:dc5a55697a0804f208642b83b101af66f8c9f3b2f8e92e803841462bfbd5d11d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "openintelliedge.tech"
+    },
+    {
+      "asset_id": "sha256:9fa02902cceabed55e9e7241ab3c66a768dd68f61410ed71553a48e636f47e35",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "openrasp.cn"
+    },
+    {
+      "asset_id": "sha256:34970490ef70097e193de1463fed036dcde63861e804158c47d6ad5850857644",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "openrasp.com"
+    },
+    {
+      "asset_id": "sha256:b5a3a49cb66910cf3752e7d79bb69095cfdce1aa036bebe8a03a33b7f76eb370",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "openrasp.com.cn"
+    },
+    {
+      "asset_id": "sha256:2ab99c507509841bbeb1a373b992db9006ddcf2cec40bb1274cd8f9d880c8f00",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "openrasp.info"
+    },
+    {
+      "asset_id": "sha256:662db8f3dbd56be025f57e795ca4d82a6b97b8a5972e6e211f05cf648a82a207",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "openrasp.net"
+    },
+    {
+      "asset_id": "sha256:96a8ca58cb583e095d50b2354d4eae65e118a0c1c8cc98e1fb63e98672f69711",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "openrasp.net.cn"
+    },
+    {
+      "asset_id": "sha256:11bfbdf47af245be4450ca99ac4cd49e118b1f0b947af689b60a225871d94e5d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "openrasp.org"
+    },
+    {
+      "asset_id": "sha256:88888f3f4f14bdcf437c52f8135bbc44a628f98cb9f32d788ce2a65bcd47eaa0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "openrasp.org.cn"
+    },
+    {
+      "asset_id": "sha256:557c057cb81b84c1a93509cd8dcbb36787cbea7441e421289608b4127f629e8b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "paddlepaddle.org.cn"
+    },
+    {
+      "asset_id": "sha256:ca41a4cf4667e1f33efe90225da81b5b3e3aca6298070a8be00efdd18be7d160",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "popincdn.com"
+    },
+    {
+      "asset_id": "sha256:9c26211b401c9e413ae57905ad3feb3c8ed25d957d5b65aae5cd9d6373c41127",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "pubbcsapp.com"
+    },
+    {
+      "asset_id": "sha256:b3828e1ee96ccd2927b97467748a1163b696b1356f19daf8bc5c5a0d32fe529a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "qianqian.com"
+    },
+    {
+      "asset_id": "sha256:2e052603122cd4cfa5dbfde157a8920c24eb48ceb2e6c02a972e29923081fedb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "qxllq.com"
+    },
+    {
+      "asset_id": "sha256:685bcda0d5c2fa8acb8673e0d86f4b2f361dada7de6a951c56ce46225d7cb518",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "sanguows.com"
+    },
+    {
+      "asset_id": "sha256:ed00c2f7a9a0ea9d8bb179952479a1db29f1a5f35cbe0a7e28355de229202d14",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "searchcraft.cn"
+    },
+    {
+      "asset_id": "sha256:b70058a213eeac773312f37db3db6d4b22ddcfc37e4ebe9671ba8b5e04a27229",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "sg.work"
+    },
+    {
+      "asset_id": "sha256:6d25b32e15dd07f57bf89e148c94931ba2beb13324b68a91de1d5aa70a4eb8ed",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "shifen.com"
+    },
+    {
+      "asset_id": "sha256:2678452e68160b40c6b2b90e9559dd4d624064494cd7358cd014e414111c19ad",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "siteapp-static.com"
+    },
+    {
+      "asset_id": "sha256:12658318bc885f257d6a5d5773149e91482969625dd3ccdd85cd211d87d6d4de",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "smartapps.cn"
+    },
+    {
+      "asset_id": "sha256:975955ace1add74def0f34aad556d3779fb9a98ee6b945c0cc901a8de7103d61",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "submusic.cn"
+    },
+    {
+      "asset_id": "sha256:e8dbd31210cd86febf271d6c78a4a7ffb8711e2270e25ee99aad0dd2f21bf3ce",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "swan366.com"
+    },
+    {
+      "asset_id": "sha256:abdb416dfd01098fb87655a78c7f65b2fd3cbc76d6254f39c641d4175190ad24",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "taihe.com"
+    },
+    {
+      "asset_id": "sha256:3fb862b9cccae48bdf96ed4aaca15171b4c144fefc018ad7367c6006c7369e0a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "tieba.com"
+    },
+    {
+      "asset_id": "sha256:ff1fa0addbddea49d75c071f247677d01beda4075bbd433fe61924f098dd6022",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "tiebaimg.com"
+    },
+    {
+      "asset_id": "sha256:86a7b6b97d04aacca18e12f0baabdbc8f4c08a71c42dd23ba9e480c17b54d2c3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "tradaquan.com"
+    },
+    {
+      "asset_id": "sha256:0d10eede5da7c8b8ae6575264c95423a6f820840068877616a21255af5711461",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "ttplayer.com"
+    },
+    {
+      "asset_id": "sha256:1c36142e3cfd48fdd8e76fcae463d3f049cdc5153cb2248f2c83940c7fc2d61e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "umaz.cn"
+    },
+    {
+      "asset_id": "sha256:9da416de2695b6466d8b8316edde71d34d95cf34e7a96d392b22f7d97856ac8a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "videomind.cloud"
+    },
+    {
+      "asset_id": "sha256:d71dc73f113a40231b9a3ab18ce4d2f50cc612fc35661d47827998cddf830a7c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "videomind.cn"
+    },
+    {
+      "asset_id": "sha256:a2cb6c62c8b6166bedf747a7c037f6511b331b3da86355b26d1f6da7c0853519",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "videomind.net"
+    },
+    {
+      "asset_id": "sha256:778b3d6358dfb4dd9bba2113a390b0ca7a0a461067b87f13dd3142c4c923092c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "vplay8.com"
+    },
+    {
+      "asset_id": "sha256:af291caf6d23fab8e24ef08ace867ad188891a84219a5af1f229866ee1ccf125",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "webgamehome.com"
+    },
+    {
+      "asset_id": "sha256:92f3e09cf6976325c1596f0d58f324361495f2aff7f15ac23d83f611c8624721",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "wenku.in"
+    },
+    {
+      "asset_id": "sha256:c2c9283644c1320e0c8efe1177efdd01a85fc0fa52f3e3a8397dab45f9a7cca2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "wshifen.com"
+    },
+    {
+      "asset_id": "sha256:4b325eb637d2eb5a85a586cd1371d763e00f90d64708e219b10103a56707c6c5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "wssanguo.com"
+    },
+    {
+      "asset_id": "sha256:feedd8426a2b1b3caec14da7f2d40f4c23bf0f58016a8077c7e423050476e9f2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "xianfae.com"
+    },
+    {
+      "asset_id": "sha256:d4faf7d2e376adbb2060db036b56b9af2e022f2ea2e5269e33b6413e992b829c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "xiaodutv.cn"
+    },
+    {
+      "asset_id": "sha256:75ea15b9ac247d5aeb71b1e8386bc4fccccf020e5218a12c8dbce7f483700bb5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "xiaodutv.com"
+    },
+    {
+      "asset_id": "sha256:fd8f15782e3790d6bac820fc790d89b558d1aa4190c01394291b799f0f118874",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "xiaoduzaijia.cn"
+    },
+    {
+      "asset_id": "sha256:76ffbc603ad3d545cbcb38a413bdcf0751046459ff2feaf8076953ce22af4ec8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "xiaoduzaijia.com.cn"
+    },
+    {
+      "asset_id": "sha256:ca169defe4a64c60b566388ddc46ad8263875c7c27ac41169f064caad5db4b05",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "xinzhi.com"
+    },
+    {
+      "asset_id": "sha256:4ad76bf0ef3f7d96526b5d2ed8f9202d7b99e20b17e440bbca33cd39d41b5fc1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "yeyingkf.com"
+    },
+    {
+      "asset_id": "sha256:c53a5645b79c45f67c11b6a57e7c13b20375c79157bd92a079271871824c0506",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "yjs-cdn.com"
+    },
+    {
+      "asset_id": "sha256:94b99105c5adf635642f41b6475536a85dc60cde82d03020d3f010c864a628dc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "yjs-cdn1.com"
+    },
+    {
+      "asset_id": "sha256:1d35b06c0434d96ab67fd5ef11d26dbd53033f1547ec100d229159a21ef02cda",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "yjs-cdn10.com"
+    },
+    {
+      "asset_id": "sha256:dc3de9b7d556028001390814457a4d4af35969451c704987b8e5a3d1904b149f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "yjs-cdn2.com"
+    },
+    {
+      "asset_id": "sha256:33d82c5de545ad33cdca8c0b23014c8b281b83c2e594d9c1c5e860e5709a57d2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "yjs-cdn3.com"
+    },
+    {
+      "asset_id": "sha256:ba6864b20a8a782e1c4152517056aa8c76be5df36afc1d09838860eae8a4e05a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "yjs-cdn4.com"
+    },
+    {
+      "asset_id": "sha256:14a6614c45b890e63b093b544dfb664a88c66ed108afc7d401ba1db660d3b893",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "yjs-cdn5.com"
+    },
+    {
+      "asset_id": "sha256:2315f97f16f85560605271d28de9700d694b4f16384f6d504db6b296bd8cfaa3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "yjs-cdn6.com"
+    },
+    {
+      "asset_id": "sha256:b666f77f29de77b042bcbab1d2dd45fdc39384cae7e983a097cbeb4d39df3c98",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "yjs-cdn7.com"
+    },
+    {
+      "asset_id": "sha256:7914da1277c5e0a7f4b75ba614ebcb046570e9bee390e5c29c6ec56c1b5581a1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "yjs-cdn8.com"
+    },
+    {
+      "asset_id": "sha256:ec8ae0f514105e42d2b420ffe4537af8c4771fd0ec52fd1974461f2d47fc8b4e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "yjs-cdn9.com"
+    },
+    {
+      "asset_id": "sha256:538bea1189c24f0fb26bc4d487ffb39fa820f1522d20cdb63b1e09e5c1970866",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "yjsops.com"
+    },
+    {
+      "asset_id": "sha256:3751c5bb574831f8ba5b4c0aff1ea13f47e619f7f877aac6d51473ef758a603a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "youyou.com"
+    },
+    {
+      "asset_id": "sha256:0cb644397a4b4d13e5b0455e5501966ec6971d6c2489c4b4bed3b61205c0f462",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "youyou001.com"
+    },
+    {
+      "asset_id": "sha256:c29876879f9868b1ab7672f17f88ad3d9e721fda318ed658af62a38df54bffc5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "yunjiasu-cdn-dnssec.net"
+    },
+    {
+      "asset_id": "sha256:282a79cb651a2c29f83259231c36dede0487f59564a7bbedb6734250399a52c2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "yunjiasu-cdn.com"
+    },
+    {
+      "asset_id": "sha256:1007f450be964dfb835200316fabd8b310575a7d7da91a30a7bb84c2a87daa66",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "yunjiasu-cdn.net"
+    },
+    {
+      "asset_id": "sha256:67fbe47e2e6791fa84108624eb891e94b70c6cf667a3ec3f22d867d699b50ebd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "yunjiasu-dns.com"
+    },
+    {
+      "asset_id": "sha256:cfeb597b2758fa27539e0c92d3278116ca8c49057fd0be9349ba0b56e121e338",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "yunjiasu-dns.net"
+    },
+    {
+      "asset_id": "sha256:8b02874ab08ed0d278909dd9d64be22346c1eb0353d62a035aad384723a03a12",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "yunjiasu-test.com"
+    },
+    {
+      "asset_id": "sha256:bdab19f4938e27d36f1ee0b6301d62c56fd4496b94fd6e04257148ada73166d3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "yunjiasu.com"
+    },
+    {
+      "asset_id": "sha256:1f48b10852c374d2abce504277611bb3ac3317a034045a28759d242ad35f80da",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "yunjiasucdn.info"
+    },
+    {
+      "asset_id": "sha256:620338c3477ea1c2dad3b99ace1206440b5789c1c8c4b20131e6a932357f9fdb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "yunjiasucdn.net"
+    },
+    {
+      "asset_id": "sha256:1079a250039de2dc3d9fab15eb9937a909dc5e2cc82eba8ca20a94bf3c2fd29f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "yunjiasudns.com"
+    },
+    {
+      "asset_id": "sha256:ab445876db60aeb02616dc59aab396cdf5e6f7821df79328cd2116ff7f58a439",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "yunjiasudns.net"
+    },
+    {
+      "asset_id": "sha256:e395358dd4bf2b4d98c2d29b372a9d1902b61639958c99bcd7988c0d6b18311f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "yunjiasupreview.com"
+    },
+    {
+      "asset_id": "sha256:c121ba612dbec5f6f9c7f05c4e4d6fc2d322692d3ca92a690b896c5e0b7248a2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "yunjiasussl.com"
+    },
+    {
+      "asset_id": "sha256:8781243c68c2959fc9c8137f582644d4c4c1758240928d8c665a2a00c44547b8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "zuoyebang.cc"
+    },
+    {
+      "asset_id": "sha256:9ffe7f40c76486027d4f3bf239db36bdcd8a4c8728d25e646590a33fab759c0a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "zuoyebang.com"
+    },
+    {
+      "asset_id": "sha256:3a729575118c3ab0bd42a3dfad33eb3b7f5ecc1ca8ff7d24ec7c01e77081fd66",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-001-ac49361bba37"
+      ],
+      "service_id": "baidu",
+      "type": "domain",
+      "value": "zybang.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0,
+    "removal_ratio": 0,
+    "status": "OK"
+  },
+  "content_digest": "7727809e237517bf95020fe0b389355b5be2a8dfe04cc803662697fc7b92fc30",
+  "created_at": "2026-09-23T10:40:50.491Z",
+  "domain_count": 251,
+  "domain_diff": {
+    "added": [
+      "17swan.com",
+      "37swan.com",
+      "91.com",
+      "911dns.cn",
+      "911dns.com.cn",
+      "aicdn.work",
+      "aipage.com",
+      "aiqicha.cn",
+      "aiqicha.com",
+      "apollo-platform.com",
+      "apollo-share.com",
+      "apollo.auto",
+      "baeapps.com",
+      "baetyl.tech",
+      "baidu-1img.cn",
+      "baidu-2img.cn",
+      "baidu-3img.cn",
+      "baidu-bank.cn",
+      "baidu-bank.com",
+      "baidu-cdn.cn",
+      "baidu-cdn.com",
+      "baidu-cdn.net",
+      "baidu-img.cn",
+      "baidu-int.com",
+      "baidu-itm.com",
+      "baidu-tech.com",
+      "baidu.cn",
+      "baidu.com",
+      "baidu.com.cn",
+      "baidu.com.hk",
+      "baidu.hk",
+      "baidu.mobi",
+      "baiduads.com",
+      "baiduapp.com",
+      "baidubce.cn",
+      "baidubce.com",
+      "baidubce.com.cn",
+      "baidubce.net.cn",
+      "baidubcr.com",
+      "baidubos.com",
+      "baiducloudapi.com",
+      "baiducontent.com",
+      "baiduhui.com",
+      "baidupcs.cn",
+      "baidupcs.com",
+      "baidupcs.com.cn",
+      "baidupcs.net",
+      "baidustatic.com",
+      "baiduux.com",
+      "baiduwaf.com",
+      "baiduwebgame.com",
+      "baiduxiaodai.cn",
+      "baiduxiaodai.com",
+      "baiduyangguang.org",
+      "baiduyuncdn.cn",
+      "baiduyuncdn.com",
+      "baiduyuncdn.net",
+      "baiduyundns.cn",
+      "baiduyundns.com",
+      "baiduyundns.net",
+      "baiduyunwaf.com",
+      "baifae.com",
+      "baifubao.com",
+      "baihangbao.cn",
+      "baihangbao.com",
+      "baihangdai.cn",
+      "baihangdai.com",
+      "baijincdn.cn",
+      "baijincdn.com",
+      "bakshifen.com",
+      "bce-cdn.cn",
+      "bce-cdn.com",
+      "bce-cdn.net",
+      "bceapp.com",
+      "bcebos.com",
+      "bcedns.cn",
+      "bcedns.com",
+      "bcedns.net",
+      "bcedocument.com",
+      "bcehost.com",
+      "bcehosts.com",
+      "bceidaas.com",
+      "bceimg.cn",
+      "bceimg.com",
+      "bcelive.com",
+      "bcevod.com",
+      "bcewaf.com",
+      "bchdemo.site",
+      "bdbae.com",
+      "bdcloudapi.com",
+      "bddns.cn",
+      "bdeceimg.com",
+      "bdimg.com",
+      "bdstatic.cn",
+      "bdstatic.com",
+      "bdtjrcv.com",
+      "bduapp.com",
+      "bdurl.net",
+      "bdycdn.cn",
+      "bdycdn.com",
+      "bdycdn.net",
+      "bdydns.cn",
+      "bdydns.com",
+      "bdydns.net",
+      "bdymkt.com",
+      "bdysite.com",
+      "bdysites.com",
+      "bfe-networks.com",
+      "bfe-networks.net",
+      "chuanke.com",
+      "cloud-control.top",
+      "clouda.com",
+      "cloudajs.org",
+      "content4ads.com",
+      "daoru.in",
+      "data-schema.org.cn",
+      "dlnel.com",
+      "dlnel.org",
+      "dmhmusic.com",
+      "dnsproxy.cn",
+      "dnsproxy.com.cn",
+      "du-xiaomai.com",
+      "duapp-preview.com",
+      "duapp.com",
+      "duapp.net",
+      "duapps.com",
+      "dulife.com",
+      "dulightapp.com",
+      "dumall.com",
+      "dusdn.cn",
+      "dusdn.com",
+      "dusdn.net",
+      "dushifen.com",
+      "duurl.cn",
+      "duxiaomai.net",
+      "duxuetang.cn",
+      "duxuetang.com",
+      "dwz.cn",
+      "estrongs.com",
+      "eyoubaidu.com",
+      "fhldns.cn",
+      "fhldns.com",
+      "fhldns.com.cn",
+      "fhldns.net",
+      "game-client.com",
+      "haluan2u.com",
+      "hao123.com",
+      "hao123.net",
+      "hao123img.com",
+      "hao222.com",
+      "hao222.net",
+      "haokan.com",
+      "hiapk.com",
+      "hongmeiti.cn",
+      "hongmeiti.com",
+      "hongmeiti.com.cn",
+      "hongmeiti.net",
+      "huoyanyunying.com",
+      "ja-cloud.com",
+      "jingling.cn",
+      "jomocdn.cn",
+      "jomocdn.net",
+      "jomodns.cn",
+      "jomodns.com",
+      "jomodns.net",
+      "jpaas.cn",
+      "kanduoduo.com.cn",
+      "lasmasas.com",
+      "micro-game-client.com",
+      "mipcdn.com",
+      "mipengine.com",
+      "mipengine.org",
+      "mipplan.com",
+      "mipplan.org",
+      "nhmuni.com",
+      "nuomi.com",
+      "oasesalliance.com",
+      "oortos.tech",
+      "openintelliedge.tech",
+      "openrasp.cn",
+      "openrasp.com",
+      "openrasp.com.cn",
+      "openrasp.info",
+      "openrasp.net",
+      "openrasp.net.cn",
+      "openrasp.org",
+      "openrasp.org.cn",
+      "paddlepaddle.org.cn",
+      "popincdn.com",
+      "pubbcsapp.com",
+      "qianqian.com",
+      "qxllq.com",
+      "sanguows.com",
+      "searchcraft.cn",
+      "sg.work",
+      "shifen.com",
+      "siteapp-static.com",
+      "smartapps.cn",
+      "submusic.cn",
+      "swan366.com",
+      "taihe.com",
+      "tieba.com",
+      "tiebaimg.com",
+      "tradaquan.com",
+      "ttplayer.com",
+      "umaz.cn",
+      "videomind.cloud",
+      "videomind.cn",
+      "videomind.net",
+      "vplay8.com",
+      "webgamehome.com",
+      "wenku.in",
+      "wshifen.com",
+      "wssanguo.com",
+      "xianfae.com",
+      "xiaodutv.cn",
+      "xiaodutv.com",
+      "xiaoduzaijia.cn",
+      "xiaoduzaijia.com.cn",
+      "xinzhi.com",
+      "yeyingkf.com",
+      "yjs-cdn.com",
+      "yjs-cdn1.com",
+      "yjs-cdn10.com",
+      "yjs-cdn2.com",
+      "yjs-cdn3.com",
+      "yjs-cdn4.com",
+      "yjs-cdn5.com",
+      "yjs-cdn6.com",
+      "yjs-cdn7.com",
+      "yjs-cdn8.com",
+      "yjs-cdn9.com",
+      "yjsops.com",
+      "youyou.com",
+      "youyou001.com",
+      "yunjiasu-cdn-dnssec.net",
+      "yunjiasu-cdn.com",
+      "yunjiasu-cdn.net",
+      "yunjiasu-dns.com",
+      "yunjiasu-dns.net",
+      "yunjiasu-test.com",
+      "yunjiasu.com",
+      "yunjiasucdn.info",
+      "yunjiasucdn.net",
+      "yunjiasudns.com",
+      "yunjiasudns.net",
+      "yunjiasupreview.com",
+      "yunjiasussl.com",
+      "zuoyebang.cc",
+      "zuoyebang.com",
+      "zybang.com"
+    ],
+    "added_count": 251,
+    "current_count": 251,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "17swan.com",
+    "37swan.com",
+    "91.com",
+    "911dns.cn",
+    "911dns.com.cn",
+    "aicdn.work",
+    "aipage.com",
+    "aiqicha.cn",
+    "aiqicha.com",
+    "apollo-platform.com",
+    "apollo-share.com",
+    "apollo.auto",
+    "baeapps.com",
+    "baetyl.tech",
+    "baidu-1img.cn",
+    "baidu-2img.cn",
+    "baidu-3img.cn",
+    "baidu-bank.cn",
+    "baidu-bank.com",
+    "baidu-cdn.cn",
+    "baidu-cdn.com",
+    "baidu-cdn.net",
+    "baidu-img.cn",
+    "baidu-int.com",
+    "baidu-itm.com",
+    "baidu-tech.com",
+    "baidu.cn",
+    "baidu.com",
+    "baidu.com.cn",
+    "baidu.com.hk",
+    "baidu.hk",
+    "baidu.mobi",
+    "baiduads.com",
+    "baiduapp.com",
+    "baidubce.cn",
+    "baidubce.com",
+    "baidubce.com.cn",
+    "baidubce.net.cn",
+    "baidubcr.com",
+    "baidubos.com",
+    "baiducloudapi.com",
+    "baiducontent.com",
+    "baiduhui.com",
+    "baidupcs.cn",
+    "baidupcs.com",
+    "baidupcs.com.cn",
+    "baidupcs.net",
+    "baidustatic.com",
+    "baiduux.com",
+    "baiduwaf.com",
+    "baiduwebgame.com",
+    "baiduxiaodai.cn",
+    "baiduxiaodai.com",
+    "baiduyangguang.org",
+    "baiduyuncdn.cn",
+    "baiduyuncdn.com",
+    "baiduyuncdn.net",
+    "baiduyundns.cn",
+    "baiduyundns.com",
+    "baiduyundns.net",
+    "baiduyunwaf.com",
+    "baifae.com",
+    "baifubao.com",
+    "baihangbao.cn",
+    "baihangbao.com",
+    "baihangdai.cn",
+    "baihangdai.com",
+    "baijincdn.cn",
+    "baijincdn.com",
+    "bakshifen.com",
+    "bce-cdn.cn",
+    "bce-cdn.com",
+    "bce-cdn.net",
+    "bceapp.com",
+    "bcebos.com",
+    "bcedns.cn",
+    "bcedns.com",
+    "bcedns.net",
+    "bcedocument.com",
+    "bcehost.com",
+    "bcehosts.com",
+    "bceidaas.com",
+    "bceimg.cn",
+    "bceimg.com",
+    "bcelive.com",
+    "bcevod.com",
+    "bcewaf.com",
+    "bchdemo.site",
+    "bdbae.com",
+    "bdcloudapi.com",
+    "bddns.cn",
+    "bdeceimg.com",
+    "bdimg.com",
+    "bdstatic.cn",
+    "bdstatic.com",
+    "bdtjrcv.com",
+    "bduapp.com",
+    "bdurl.net",
+    "bdycdn.cn",
+    "bdycdn.com",
+    "bdycdn.net",
+    "bdydns.cn",
+    "bdydns.com",
+    "bdydns.net",
+    "bdymkt.com",
+    "bdysite.com",
+    "bdysites.com",
+    "bfe-networks.com",
+    "bfe-networks.net",
+    "chuanke.com",
+    "cloud-control.top",
+    "clouda.com",
+    "cloudajs.org",
+    "content4ads.com",
+    "daoru.in",
+    "data-schema.org.cn",
+    "dlnel.com",
+    "dlnel.org",
+    "dmhmusic.com",
+    "dnsproxy.cn",
+    "dnsproxy.com.cn",
+    "du-xiaomai.com",
+    "duapp-preview.com",
+    "duapp.com",
+    "duapp.net",
+    "duapps.com",
+    "dulife.com",
+    "dulightapp.com",
+    "dumall.com",
+    "dusdn.cn",
+    "dusdn.com",
+    "dusdn.net",
+    "dushifen.com",
+    "duurl.cn",
+    "duxiaomai.net",
+    "duxuetang.cn",
+    "duxuetang.com",
+    "dwz.cn",
+    "estrongs.com",
+    "eyoubaidu.com",
+    "fhldns.cn",
+    "fhldns.com",
+    "fhldns.com.cn",
+    "fhldns.net",
+    "game-client.com",
+    "haluan2u.com",
+    "hao123.com",
+    "hao123.net",
+    "hao123img.com",
+    "hao222.com",
+    "hao222.net",
+    "haokan.com",
+    "hiapk.com",
+    "hongmeiti.cn",
+    "hongmeiti.com",
+    "hongmeiti.com.cn",
+    "hongmeiti.net",
+    "huoyanyunying.com",
+    "ja-cloud.com",
+    "jingling.cn",
+    "jomocdn.cn",
+    "jomocdn.net",
+    "jomodns.cn",
+    "jomodns.com",
+    "jomodns.net",
+    "jpaas.cn",
+    "kanduoduo.com.cn",
+    "lasmasas.com",
+    "micro-game-client.com",
+    "mipcdn.com",
+    "mipengine.com",
+    "mipengine.org",
+    "mipplan.com",
+    "mipplan.org",
+    "nhmuni.com",
+    "nuomi.com",
+    "oasesalliance.com",
+    "oortos.tech",
+    "openintelliedge.tech",
+    "openrasp.cn",
+    "openrasp.com",
+    "openrasp.com.cn",
+    "openrasp.info",
+    "openrasp.net",
+    "openrasp.net.cn",
+    "openrasp.org",
+    "openrasp.org.cn",
+    "paddlepaddle.org.cn",
+    "popincdn.com",
+    "pubbcsapp.com",
+    "qianqian.com",
+    "qxllq.com",
+    "sanguows.com",
+    "searchcraft.cn",
+    "sg.work",
+    "shifen.com",
+    "siteapp-static.com",
+    "smartapps.cn",
+    "submusic.cn",
+    "swan366.com",
+    "taihe.com",
+    "tieba.com",
+    "tiebaimg.com",
+    "tradaquan.com",
+    "ttplayer.com",
+    "umaz.cn",
+    "videomind.cloud",
+    "videomind.cn",
+    "videomind.net",
+    "vplay8.com",
+    "webgamehome.com",
+    "wenku.in",
+    "wshifen.com",
+    "wssanguo.com",
+    "xianfae.com",
+    "xiaodutv.cn",
+    "xiaodutv.com",
+    "xiaoduzaijia.cn",
+    "xiaoduzaijia.com.cn",
+    "xinzhi.com",
+    "yeyingkf.com",
+    "yjs-cdn.com",
+    "yjs-cdn1.com",
+    "yjs-cdn10.com",
+    "yjs-cdn2.com",
+    "yjs-cdn3.com",
+    "yjs-cdn4.com",
+    "yjs-cdn5.com",
+    "yjs-cdn6.com",
+    "yjs-cdn7.com",
+    "yjs-cdn8.com",
+    "yjs-cdn9.com",
+    "yjsops.com",
+    "youyou.com",
+    "youyou001.com",
+    "yunjiasu-cdn-dnssec.net",
+    "yunjiasu-cdn.com",
+    "yunjiasu-cdn.net",
+    "yunjiasu-dns.com",
+    "yunjiasu-dns.net",
+    "yunjiasu-test.com",
+    "yunjiasu.com",
+    "yunjiasucdn.info",
+    "yunjiasucdn.net",
+    "yunjiasudns.com",
+    "yunjiasudns.net",
+    "yunjiasupreview.com",
+    "yunjiasussl.com",
+    "zuoyebang.cc",
+    "zuoyebang.com",
+    "zybang.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "ac49361bba37ccd12f46dff78885ef07218d9dc9deb254d71d1c0431a7eb921a",
+      "domains_extracted": 251,
+      "evidence_id": "EV-baidu-001-ac49361bba37",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Baidu/Baidu.list",
+      "retrieved_at": "2026-09-23T10:40:50.491Z",
+      "service_id": "baidu",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Baidu/Baidu.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "b5ab24a4ad93dbde4c240aa846eb917bfa8ea67628ef79e7d45cf4f645cdfdeb",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 0,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "e9c5f2a02dd25bc0df638dbff8274d8643ac6ea6d1de46cf9e466b564b665897",
+  "previous_domain_count": 0,
+  "release_digest": "d4750fd40c6e1042256ee4c8a836afc75cb2beaf3f15feed462e5d001ffd8bd6",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "a823d7514da9482e384df0456ee6ec142e25fba3ae2d1a0dcb2d72323204bfb9",
+  "service_id": "baidu",
+  "snapshot_content_sha256": "7727809e237517bf95020fe0b389355b5be2a8dfe04cc803662697fc7b92fc30",
+  "snapshot_id": "snap-baidu-d4750fd40c6e1042256ee4c8",
+  "source_bindings": [
+    {
+      "adapter": "upstream_rule",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Baidu/Baidu.list"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  },
+  "trusted_extracted": 251,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

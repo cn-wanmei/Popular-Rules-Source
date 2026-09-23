@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:f0bfe5be07a3856bfdacaeb32377407d74447c41700a1c9ec03ba6dfa10738a5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applenews-001-9cba3e13ef5b"
+      ],
+      "service_id": "applenews",
+      "type": "domain",
+      "value": "gspe1-ssl.ls.apple.com"
+    },
+    {
+      "asset_id": "sha256:129a22170fa597cb865c793777c98204ddc693fdf1ccf2c00643c5eb90b20022",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applenews-001-9cba3e13ef5b"
+      ],
+      "service_id": "applenews",
+      "type": "domain",
+      "value": "news-client-search.apple.com"
+    }
+  ],
+  "content_digest": "dfda1972d3c0939eed4cfbce0046289fa92cffcf4600aacc2314ada7c2fd7301",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "9cba3e13ef5b7a2ceb9231fd29e7b8d2aca82b28d2dcfb2db575073b580baf34",
+      "domains_extracted": 2,
+      "evidence_id": "EV-applenews-001-9cba3e13ef5b",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleNews/AppleNews.list",
+      "retrieved_at": "2026-09-23T10:40:50.491Z",
+      "service_id": "applenews",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleNews/AppleNews.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "c095ed6cd3f03a20007fe91e38babd38d81db425e1c7522e104140c576d6f032",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "e9c5f2a02dd25bc0df638dbff8274d8643ac6ea6d1de46cf9e466b564b665897",
+  "release_digest": "bab2441b83a9381991262abb40d142f588cea79dac15604b85588cfe513dff59",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "applenews",
+  "snapshot_id": "snap-applenews-bab2441b83a9381991262abb",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:a4b02ffd5340fe73705174df54f2046c077dbc95bc9fbeceae775fdf03370caa",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-bing-001-4b9fe5e5f0ce"
+      ],
+      "service_id": "bing",
+      "type": "domain",
+      "value": "bing.com"
+    },
+    {
+      "asset_id": "sha256:0cf3a5ab61957ca876d36102439aadc178d295fa16abe7354dee2231fcc11040",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-bing-001-4b9fe5e5f0ce"
+      ],
+      "service_id": "bing",
+      "type": "domain",
+      "value": "bing.com.cn"
+    },
+    {
+      "asset_id": "sha256:a961929d42e9123b1142a1afd1eefff557941d552d38ff4319aa871395e6cc27",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-bing-001-4b9fe5e5f0ce"
+      ],
+      "service_id": "bing",
+      "type": "domain",
+      "value": "bing.net"
+    },
+    {
+      "asset_id": "sha256:9937996af399fd6401cfd1d43dccde74d2ff681357dafbe09ea8bc283edbadae",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-bing-001-4b9fe5e5f0ce"
+      ],
+      "service_id": "bing",
+      "type": "domain",
+      "value": "bingads.com"
+    },
+    {
+      "asset_id": "sha256:43edfb73ef3264fe704c539a8fa70015788abf669ab55e7440a1410c29048c29",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-bing-001-4b9fe5e5f0ce"
+      ],
+      "service_id": "bing",
+      "type": "domain",
+      "value": "bingagencyawards.com"
+    },
+    {
+      "asset_id": "sha256:3a53e7de76d4335fed4999309088f4c28c0449773d2df326975f846c44bf0e03",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-bing-001-4b9fe5e5f0ce"
+      ],
+      "service_id": "bing",
+      "type": "domain",
+      "value": "bingapistatistics.com"
+    },
+    {
+      "asset_id": "sha256:e92b3b619c3873378426e2ff86972f39d1c4c43ca4a0f5889c8183d516edf94b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-bing-001-4b9fe5e5f0ce"
+      ],
+      "service_id": "bing",
+      "type": "domain",
+      "value": "bingsandbox.com"
+    },
+    {
+      "asset_id": "sha256:c8cab256c21a7ea11d7585144fcb64ad437bb8ccae3c91d0679b1d9df715fbe4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-bing-001-4b9fe5e5f0ce"
+      ],
+      "service_id": "bing",
+      "type": "domain",
+      "value": "bingvisualsearch.com"
+    },
+    {
+      "asset_id": "sha256:1dc5fb531ca2c4b25c584dcae69267977003a68829fefddd88e51f753816f6da",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-bing-001-4b9fe5e5f0ce"
+      ],
+      "service_id": "bing",
+      "type": "domain",
+      "value": "bingworld.com"
+    }
+  ],
+  "content_digest": "7bad2a191d54566d185511a6452e8a3dd045a85eb7a108d5a846214aa220d4d5",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "4b9fe5e5f0cef4c4b09a2e109ca4db00f1cc67ec45aae5c50fca3bdb72b61968",
+      "domains_extracted": 9,
+      "evidence_id": "EV-bing-001-4b9fe5e5f0ce",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bing/Bing.list",
+      "retrieved_at": "2026-09-23T10:40:50.491Z",
+      "service_id": "bing",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bing/Bing.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "bd9a5321df4249943ae79509939c1aede2b459a39a713ef36e1def656c917919",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "e9c5f2a02dd25bc0df638dbff8274d8643ac6ea6d1de46cf9e466b564b665897",
+  "release_digest": "ac5e74d33b3ae0e99136f261a71cbc7185e34459225c70ab657df5236c4a7d85",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "bing",
+  "snapshot_id": "snap-bing-ac5e74d33b3ae0e99136f261",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}

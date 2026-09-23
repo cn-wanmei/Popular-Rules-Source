@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "4522d284378586a45801098349f25e71a467ddd0574beedbb17674be393fac3e",
+    "manifest.json": "780330e1bcf09786c5e9a444604f30dfb3ff521b5d01bfda38dc727820a81938",
+    "provenance.json": "1c09e9ef4e779c4ac7ad9394a9990b63cdb6442a3b17b9bcc97b2f72dd21a176",
+    "snapshot_content.json": "94ac959c93d74bb0c044194a08bf7eb862c630af52b0a243bd3f3e9d50207202"
+  },
+  "content_digest": "dfda1972d3c0939eed4cfbce0046289fa92cffcf4600aacc2314ada7c2fd7301",
+  "created_at": "2026-09-23T10:40:50.491Z",
+  "evidence_digest": "c095ed6cd3f03a20007fe91e38babd38d81db425e1c7522e104140c576d6f032",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "e9c5f2a02dd25bc0df638dbff8274d8643ac6ea6d1de46cf9e466b564b665897",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "bab2441b83a9381991262abb40d142f588cea79dac15604b85588cfe513dff59",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "applenews",
+  "snapshot_id": "snap-applenews-bab2441b83a9381991262abb",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0,
+      "removal_ratio": 0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}
