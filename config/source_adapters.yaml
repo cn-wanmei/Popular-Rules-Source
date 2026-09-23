@@ -84,6 +84,10 @@ services:
   taobao: {adapters: [official_web]}
   tencentcloud: {adapters: [official_web]}
   tmall: {adapters: [official_web]}
+  appledev: {adapters: [upstream_rule]}
+  findmy: {adapters: [upstream_rule]}
+  azure: {adapters: [upstream_rule]}
+  feishu: {adapters: [upstream_rule]}
   appstore: {adapters: [upstream_rule]}
   testflight: {adapters: [upstream_rule]}
   icloud: {adapters: [upstream_rule]}
