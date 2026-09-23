@@ -21,6 +21,7 @@ env:
 
 jobs:
   release:
+    if: ${{ github.event_name != 'pull_request' }}
     name: Release RemainingGap ${{ matrix.service }}
     runs-on: ubuntu-latest
     strategy:
@@ -173,6 +174,7 @@ jobs:
           PY
 
   persist:
+    if: ${{ github.event_name != 'pull_request' }}
     name: Persist RemainingGap immutable releases
     needs: release
     if: ${{ always() && needs.release.result != 'cancelled' }}
