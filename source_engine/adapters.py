@@ -66,7 +66,12 @@ def _domains_from_values(values: list[Any], exact: tuple[str, ...], suffixes: tu
     return sorted(output)
 
 
-def _domains_from_rule_text(text: str, exact: tuple[str, ...], suffixes: tuple[str, ...]) -> list[str]:
+def _domains_from_rule_text(
+    text: str,
+    exact: tuple[str, ...],
+    suffixes: tuple[str, ...],
+    source_bound: bool = False,
+) -> list[str]:
     output: set[str] = set()
     for raw_line in text.splitlines():
         line = raw_line.strip()
@@ -87,7 +92,7 @@ def _domains_from_rule_text(text: str, exact: tuple[str, ...], suffixes: tuple[s
         if value.startswith("+."):
             value = value[2:]
         domain = normalize_domain(value)
-        if domain and host_allowed(domain, exact, suffixes):
+        if domain and (source_bound or host_allowed(domain, exact, suffixes)):
             output.add(domain)
     return sorted(output)
 
@@ -100,6 +105,7 @@ def extract_with_adapter(
     exact: tuple[str, ...],
     suffixes: tuple[str, ...],
     adapter_policy: dict[str, Any],
+    boundary_mode: str = "configured",
 ) -> AdapterExtraction:
     spec = adapter_specs().get(adapter_name)
     if not spec or spec.get("enabled") is not True:
@@ -174,6 +180,7 @@ def extract_with_adapter(
             result.body.decode("utf-8", errors="replace"),
             exact,
             suffixes,
+            source_bound=boundary_mode == "source_bound",
         )
     elif adapter_name in {"official_json", "official_api", "official_manifest"}:
         payload = json.loads(result.body.decode("utf-8"))
