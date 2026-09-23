@@ -91,7 +91,7 @@ jobs:
           PY
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
         with:
-          name: batch4-durable-${{ matrix.service }}
+          name: phase4-durable-${{ matrix.service }}
           path: |
             snapshots/
             releases/
@@ -109,10 +109,10 @@ jobs:
           fetch-depth: 0
       - uses: actions/download-artifact@v5
         with:
-          pattern: batch3-durable-*
+          pattern: phase4-durable-*
           path: durable-artifacts
           merge-multiple: false
-      - name: Persist successful Batch3 release identities
+      - name: Persist successful Phase4 release identities
         run: |
           python - <<'PY'
           import json
@@ -133,14 +133,14 @@ jobs:
           root = Path.cwd()
           artifacts = root / "durable-artifacts"
           report = {
-              "schema": "popular_rules_source_phase3_batch3_release_v1",
+              "schema": "popular_rules_source_phase4_release_v1",
               "created_at": datetime.now(timezone.utc).isoformat(),
               "verified_input_commit": "${{ github.sha }}",
               "services": {},
           }
 
           for service in services:
-              source_root = artifacts / f"batch3-durable-{service}"
+              source_root = artifacts / f"phase4-durable-{service}"
               provenance = source_root / "generated" / "source" / service / "provenance.json"
               if not provenance.is_file():
                   report["services"][service] = {"status": "FAILED_OR_BLOCKED"}
@@ -191,12 +191,12 @@ jobs:
           )
           print(json.dumps(report, ensure_ascii=False, indent=2))
           PY
-      - name: Commit persisted Batch3 releases
+      - name: Commit persisted Phase4 releases
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f snapshots releases generated/source reports/durable-bridge/phase3-batch3-latest.json
-          git commit -m "chore(source): persist phase3 batch4 immutable releases [skip ci]"
+          git add -f snapshots releases generated/source reports/durable-bridge/phase4-phase4.json
+          git commit -m "chore(source): persist phase4 immutable releases [skip ci]"
           git push origin main
 
 # Trigger durable Batch4 after direct repository writes.
