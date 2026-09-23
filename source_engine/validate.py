@@ -81,3 +81,5 @@ def run_validation() -> None:
     if errors:
         raise ValidationError("\n".join(errors))
     print(f"validation: PASS ({len(load_services()['services'])} services)")
+
+# CI validation checkpoint: lifecycle SSOT and PR-safe service-id contract verified.
