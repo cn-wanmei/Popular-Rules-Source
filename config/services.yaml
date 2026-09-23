@@ -724,7 +724,7 @@ services:
     source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
     boundary: {shared_infrastructure_allowed: false}
 
-  honorofkings_cn:
+  honorofkings-cn:
     display_name: "王者荣耀国服"
     ecosystem: tencent
     official_sources: ["https://pvp.qq.com/"]
@@ -734,7 +734,7 @@ services:
     source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
     boundary: {shared_infrastructure_allowed: false}
 
-  honorofkings_global:
+  honorofkings-global:
     display_name: "Honor of Kings Global"
     ecosystem: tencent
     official_sources: ["https://www.honorofkings.com/"]
