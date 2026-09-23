@@ -13,6 +13,10 @@ on:
   pull_request:
     branches: [main]
 
+concurrency:
+  group: phase10-remaining-gap-${{ github.ref }}
+  cancel-in-progress: true
+
 permissions:
   contents: write
 
