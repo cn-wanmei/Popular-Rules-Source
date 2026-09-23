@@ -53,3 +53,5 @@ def test_reconcile_reports_registered_but_disabled(tmp_path, monkeypatch):
     assert result["services"]["dingding"]["source_state"] == "CANDIDATE"
     assert result["services"]["qqmail"]["source_state"] == "NO_SNAPSHOT"
     assert (tmp_path / "reports" / "reconciliation.json").is_file()
+
+# CI checkpoint after fixing the collection YAML fetcher mock target.
