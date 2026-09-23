@@ -103,3 +103,5 @@ jobs:
       - run: python -m source_engine qualify
 
 # CI validation checkpoint: use current Collection main for cross-repo registration reconciliation.
+
+# Re-run checkpoint after Collection immutable registry YAML repair.
