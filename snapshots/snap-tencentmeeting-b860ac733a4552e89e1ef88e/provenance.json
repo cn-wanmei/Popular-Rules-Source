@@ -41,7 +41,7 @@
       "evidence_id": "EV-tencentmeeting-001-2fbea49e78e4",
       "parser_version": "domain-extractor-v4",
       "resolved_url": "https://meeting.tencent.com/",
-      "retrieved_at": "2026-09-23T11:26:46.571618+00:00",
+      "retrieved_at": "2026-09-23T11:28:26.977097+00:00",
       "service_id": "tencentmeeting",
       "source_method": "official_web",
       "source_type": "official_web",

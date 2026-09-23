@@ -21,7 +21,7 @@
       "evidence_id": "EV-qqmail-001-d14fb044d9f8",
       "parser_version": "domain-extractor-v4",
       "resolved_url": "https://mail.qq.com/",
-      "retrieved_at": "2026-09-23T11:26:50.347394+00:00",
+      "retrieved_at": "2026-09-23T11:28:22.495883+00:00",
       "service_id": "qqmail",
       "source_method": "official_web",
       "source_type": "official_web",

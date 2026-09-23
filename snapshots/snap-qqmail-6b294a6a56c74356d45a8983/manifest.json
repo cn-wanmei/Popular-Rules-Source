@@ -17,7 +17,7 @@
     "status": "OK"
   },
   "content_digest": "5695daafc911f85c95b0820fe2617c01500a10aa4943675a32bbc1f4d7bd3e7b",
-  "created_at": "2026-09-23T11:26:50.366206+00:00",
+  "created_at": "2026-09-23T11:28:22.518910+00:00",
   "domain_count": 1,
   "domain_diff": {
     "added": [],
@@ -44,7 +44,7 @@
       "evidence_id": "EV-qqmail-001-d14fb044d9f8",
       "parser_version": "domain-extractor-v4",
       "resolved_url": "https://mail.qq.com/",
-      "retrieved_at": "2026-09-23T11:26:50.347394+00:00",
+      "retrieved_at": "2026-09-23T11:28:22.495883+00:00",
       "service_id": "qqmail",
       "source_method": "official_web",
       "source_type": "official_web",

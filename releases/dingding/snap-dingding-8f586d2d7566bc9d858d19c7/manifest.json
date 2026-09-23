@@ -37,7 +37,7 @@
     "status": "OK"
   },
   "content_digest": "646b862ebff2d78a178f18d66e63b28cb3fb20af6a06ae26a35d32dc90765ad1",
-  "created_at": "2026-09-23T11:27:02.015414+00:00",
+  "created_at": "2026-09-23T11:28:35.426429+00:00",
   "domain_count": 3,
   "domain_diff": {
     "added": [],
@@ -72,7 +72,7 @@
       "evidence_id": "EV-dingding-001-b141b2790aa1",
       "parser_version": "domain-extractor-v4",
       "resolved_url": "https://www.dingtalk.com/",
-      "retrieved_at": "2026-09-23T11:27:01.997853+00:00",
+      "retrieved_at": "2026-09-23T11:28:35.406482+00:00",
       "service_id": "dingding",
       "source_method": "official_web",
       "source_type": "official_web",

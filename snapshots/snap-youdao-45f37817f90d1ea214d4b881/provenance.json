@@ -161,7 +161,7 @@
       "evidence_id": "EV-youdao-001-839bda45e67c",
       "parser_version": "domain-extractor-v4",
       "resolved_url": "https://www.youdao.com/",
-      "retrieved_at": "2026-09-23T11:26:50.296609+00:00",
+      "retrieved_at": "2026-09-23T11:28:46.418126+00:00",
       "service_id": "youdao",
       "source_method": "official_web",
       "source_type": "official_web",

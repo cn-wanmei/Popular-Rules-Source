@@ -1,0 +1,87 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:279fbda702de2497d6dac7be4843c61b927efd0e8892d65b456c5533c101fe8a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googlecloud-001-49940fb05778"
+      ],
+      "service_id": "googlecloud",
+      "type": "domain",
+      "value": "cloud.google.com"
+    },
+    {
+      "asset_id": "sha256:6adcf5c334cb08749105849b99af4237fe6179f7e083fd648eb8fbfc01267018",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googlecloud-001-49940fb05778"
+      ],
+      "service_id": "googlecloud",
+      "type": "domain",
+      "value": "console.cloud.google.com"
+    },
+    {
+      "asset_id": "sha256:57d2571fca0135cc25537faa2357fb7d7b9dd34059f0167e1aff2bd229e98928",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googlecloud-001-49940fb05778"
+      ],
+      "service_id": "googlecloud",
+      "type": "domain",
+      "value": "docs.cloud.google.com"
+    },
+    {
+      "asset_id": "sha256:7e81766e198765e6e154a7d3ab662448d84f0e58a2be2886e55154568522408a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googlecloud-001-49940fb05778"
+      ],
+      "service_id": "googlecloud",
+      "type": "domain",
+      "value": "partners.cloud.google.com"
+    },
+    {
+      "asset_id": "sha256:eaeda10bb075c322277e18a7fc64e743903d4d64154a5fdfdd0032fba9833a09",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googlecloud-001-49940fb05778"
+      ],
+      "service_id": "googlecloud",
+      "type": "domain",
+      "value": "status.cloud.google.com"
+    }
+  ],
+  "content_digest": "c54ef6ed1ffec61433467e65d33c898b36192f4246f23f6b8d85d5b3030a20a3",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "49940fb05778c9184f605588b22bdec239a524fe29235804cf724278b41de714",
+      "domains_extracted": 5,
+      "evidence_id": "EV-googlecloud-001-49940fb05778",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://cloud.google.com/",
+      "retrieved_at": "2026-09-23T11:28:49.222296+00:00",
+      "service_id": "googlecloud",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://cloud.google.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "5b5028a5b1aaf128bde07961507d19a0429f866d4ad4dc607434894223f550fe",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "7596136202ec2861d0da515eecf34c9acc223b20cb22474878a84bc856021ce6",
+  "release_digest": "a8c0fe44110b0b99bdbf2d73406ee7ac64e2249a0e3405b48d03ba4ecbf45c86",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "googlecloud",
+  "snapshot_id": "snap-googlecloud-a8c0fe44110b0b99bdbf2d73",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}
