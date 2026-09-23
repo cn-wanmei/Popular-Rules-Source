@@ -122,3 +122,12 @@ services:
   baidunetdisk: {adapters: [official_web]}
   youdao: {adapters: [official_web]}
   doubao: {adapters: [official_web]}
+
+  alibabacloud: {adapters: [upstream_rule]}
+  deepseek: {adapters: [upstream_rule]}
+  perplexity: {adapters: [upstream_rule]}
+  groq: {adapters: [upstream_rule]}
+  huggingface: {adapters: [upstream_rule]}
+  signal: {adapters: [upstream_rule]}
+  messenger: {adapters: [upstream_rule]}
+  roblox: {adapters: [upstream_rule]}
