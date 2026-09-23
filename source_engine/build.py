@@ -181,10 +181,18 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
             domain_evidence.setdefault(domain, set()).add(evidence_id)
 
     blocked_suffixes = load_exclusion_suffixes()
-    domains = {
-        d for d in domains
-        if host_allowed(d, exact, suffixes) and not is_excluded(d, blocked_suffixes)
-    }
+    if boundary_mode == "source_bound":
+        # source_bound consumes a dedicated upstream rule as the complete service boundary;
+        # do not require manual suffix/exact duplication after trusted extraction.
+        domains = {
+            d for d in domains
+            if not is_excluded(d, blocked_suffixes)
+        }
+    else:
+        domains = {
+            d for d in domains
+            if host_allowed(d, exact, suffixes) and not is_excluded(d, blocked_suffixes)
+        }
     revoked = set()
     before_revocation = set(domains)
     domains = filter_revoked(service_id, domains)
