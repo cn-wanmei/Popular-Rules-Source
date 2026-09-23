@@ -56,13 +56,39 @@ def _domains_from_values(values: list[Any], exact: tuple[str, ...], suffixes: tu
     for value in values:
         raw = value if isinstance(value, str) else json.dumps(value, ensure_ascii=False)
         tokens = re.findall(
-        r"""https?://[^\s"'<>]+|(?:[A-Za-z0-9-]+\.)+[A-Za-z]{2,63}""",
-        raw,
-    )
+            r"""https?://[A-Za-z0-9./?&_=:%#@+-]+|(?:[A-Za-z0-9-]+[.])+[A-Za-z]{2,63}""",
+            raw,
+        )
         for token in tokens:
             domain = normalize_domain(token)
             if domain and host_allowed(domain, exact, suffixes):
                 output.add(domain)
+    return sorted(output)
+
+
+def _domains_from_rule_text(text: str, exact: tuple[str, ...], suffixes: tuple[str, ...]) -> list[str]:
+    output: set[str] = set()
+    for raw_line in text.splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#"):
+            continue
+        prefix, sep, remainder = line.partition(",")
+        if not sep:
+            value = line
+        elif prefix.strip().upper() in {
+            "DOMAIN",
+            "DOMAIN-SUFFIX",
+            "HOST",
+            "HOST-SUFFIX",
+        }:
+            value = remainder.split(",", 1)[0].strip()
+        else:
+            continue
+        if value.startswith("+."):
+            value = value[2:]
+        domain = normalize_domain(value)
+        if domain and host_allowed(domain, exact, suffixes):
+            output.add(domain)
     return sorted(output)
 
 
@@ -78,16 +104,22 @@ def extract_with_adapter(
     spec = adapter_specs().get(adapter_name)
     if not spec or spec.get("enabled") is not True:
         raise AdapterContractError(f"adapter disabled or undefined: {adapter_name}")
-    if spec.get("authority") != "official":
-        raise AdapterContractError(f"{adapter_name}: authority must be official")
+
+    contract = _config().get("contract") or {}
+    allowed_authorities = set(contract.get("authorities") or ["official"])
+    authority = str(spec.get("authority") or "")
+    if authority not in allowed_authorities:
+        raise AdapterContractError(
+            f"{adapter_name}: authority {authority!r} not in contract authorities"
+        )
 
     common = {
         "source_method": adapter_name,
         "source_type": adapter_name,
-        "authority": "official",
+        "authority": authority,
         "parser_version": str(spec.get("parser")),
         "confidence": "high",
-        "strength": "S3",
+        "strength": "S3" if authority == "official" else "S2",
         "status": "verified",
     }
 
@@ -118,7 +150,10 @@ def extract_with_adapter(
             browser.close()
         domains = set(_domains_from_values(network_urls, exact, suffixes))
         domains.update(extract_domains(html.encode("utf-8"), "text/html", source_url, exact, suffixes))
-        return AdapterExtraction(tuple(sorted(domains)), {**common, "source_url": source_url, "rendered": True})
+        return AdapterExtraction(
+            tuple(sorted(domains)),
+            {**common, "source_url": source_url, "rendered": True},
+        )
 
     result = fetch(
         source_url,
@@ -134,6 +169,12 @@ def extract_with_adapter(
         source_host = normalize_domain(urlparse(result.url).hostname or "")
         if source_host and host_allowed(source_host, exact, suffixes):
             domains = sorted(set(domains) | {source_host})
+    elif adapter_name == "upstream_rule":
+        domains = _domains_from_rule_text(
+            result.body.decode("utf-8", errors="replace"),
+            exact,
+            suffixes,
+        )
     elif adapter_name in {"official_json", "official_api", "official_manifest"}:
         payload = json.loads(result.body.decode("utf-8"))
         paths = list(spec.get("field_paths") or [])
@@ -158,13 +199,16 @@ def extract_with_adapter(
 def validate_adapter_contract() -> list[str]:
     config = _config()
     required = set((config.get("contract") or {}).get("required_fields") or [])
+    allowed_authorities = set((config.get("contract") or {}).get("authorities") or ["official"])
     errors: list[str] = []
     for name, spec in adapter_specs().items():
         missing = sorted(field for field in required if field not in spec)
         if missing:
             errors.append(f"{name}: missing contract fields: {missing}")
-        if spec.get("authority") != "official":
-            errors.append(f"{name}: authority must be official")
+        if spec.get("authority") not in allowed_authorities:
+            errors.append(
+                f"{name}: authority {spec.get('authority')!r} not in {sorted(allowed_authorities)}"
+            )
     for service_id, item in (config.get("services") or {}).items():
         for name in item.get("adapters") or []:
             if name not in adapter_specs():

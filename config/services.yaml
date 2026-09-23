@@ -1,93 +1,459 @@
-version: 3
+version: 4
 services:
   "1688":
     display_name: "1688"
     ecosystem: alibaba
-    official_sources:
-      - "https://aop.alibaba.com/"
-      - "https://www.1688.com/"
+    official_sources: ["https://www.1688.com/"]
     allowed_host_suffixes: []
     allowed_host_exact: [1688.com, open.1688.com, www.1688.com]
     coverage: {domain: review, ip: unknown, cidr: none}
-    source_policy: {official_required: true, min_confidence: high}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
     boundary: {shared_infrastructure_allowed: false}
 
   cainiao:
     display_name: "菜鸟"
     ecosystem: alibaba
-    official_sources:
-      - "https://gpn.cainiao.com/"
-    allowed_host_suffixes: []
+    official_sources: ["https://gpn.cainiao.com/"]
     allowed_host_exact: [gpn.cainiao.com, link.cainiao.com, global.cainiao.com]
+    allowed_host_suffixes: []
     coverage: {domain: review}
-    source_policy: {official_required: true, min_confidence: high}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
     boundary: {shared_infrastructure_allowed: false}
 
   dingding:
     display_name: "钉钉"
     ecosystem: alibaba
-    official_sources:
-      - "https://open.dingtalk.com/document/development/query-the-article-list"
-      - "https://www.dingtalk.com/"
+    official_sources: ["https://www.dingtalk.com/"]
     allowed_host_suffixes: ["dingtalk.com"]
     allowed_host_exact: []
     coverage: {domain: review}
-    source_policy: {official_required: true, min_confidence: high}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  qq:
+    display_name: "QQ"
+    ecosystem: tencent
+    official_sources: ["https://im.qq.com/"]
+    allowed_host_exact:
+      - aq.qq.com
+      - id.qq.com
+      - im.qq.com
+      - imqq.com
+      - imqq.com.cn
+      - mqqurl.com
+      - ptlogin2.qq.com
+      - qqun.com
+      - qqurl.com
+      - qzone.com
+      - qzoneapp.com
+      - reg.qq.com
+      - ssl.ptlogin2.qq.com
+      - qzone.qq.com
+      - qun.qq.com
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
     boundary: {shared_infrastructure_allowed: false}
 
   qqmail:
     display_name: "QQ邮箱"
     ecosystem: tencent
-    official_sources:
-      - "https://mail.qq.com/"
-      - "https://cloud.tencent.com/document/product/1270/55456"
+    official_sources: ["https://mail.qq.com/"]
     allowed_host_exact: [imap.qq.com, mail.qq.com, pop.qq.com, smtp.qq.com]
     allowed_host_suffixes: []
     coverage: {domain: review, ip: none, cidr: none}
-    source_policy: {official_required: true, min_confidence: high}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
     boundary: {shared_infrastructure_allowed: false}
 
   qqmusic:
     display_name: "QQ音乐"
     ecosystem: tencent
-    official_sources:
-      - "https://y.qq.com/"
+    official_sources: ["https://y.qq.com/"]
     allowed_host_suffixes: ["y.qq.com"]
     allowed_host_exact: []
     coverage: {domain: review}
-    source_policy: {official_required: true, min_confidence: high}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
     boundary: {shared_infrastructure_allowed: false}
 
   taobao:
     display_name: "淘宝"
     ecosystem: alibaba
-    official_sources:
-      - "https://developer.alibaba.com/docs/doc.htm?articleId=108&docType=1&treeId=1"
-      - "https://open.taobao.com/"
+    official_sources: ["https://open.taobao.com/"]
     allowed_host_suffixes: ["taobao.com"]
     allowed_host_exact: []
     coverage: {domain: review}
-    source_policy: {official_required: true, min_confidence: high}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
     boundary: {shared_infrastructure_allowed: false}
 
   tencentcloud:
     display_name: "腾讯云"
     ecosystem: tencent
-    official_sources:
-      - "https://cloud.tencent.com/document/api"
+    official_sources: ["https://cloud.tencent.com/document/api"]
     allowed_host_suffixes: ["cloud.tencent.com", "tencentcloudapi.com"]
     allowed_host_exact: []
     coverage: {domain: review}
-    source_policy: {official_required: true, min_confidence: high}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
     boundary: {shared_infrastructure_allowed: false}
 
   tmall:
     display_name: "天猫"
     ecosystem: alibaba
-    official_sources:
-      - "https://www.tmall.com/"
+    official_sources: ["https://www.tmall.com/"]
     allowed_host_suffixes: ["tmall.com"]
     allowed_host_exact: []
     coverage: {domain: review}
-    source_policy: {official_required: true, min_confidence: high}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  appledev:
+    display_name: "Apple Developer"
+    ecosystem: apple
+    official_sources: ["https://developer.apple.com/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleDev/AppleDev.list", adapter: upstream_rule}
+    allowed_host_exact: []
+    allowed_host_suffixes: ["apple-cloudkit.com","apple-mapkit.com","apple.com.akadns.net","appleswift.com","appleworldwidedeveloper.hb-api.omtrdc.net","appleworldwidedeveloper.sc.omtrdc.net","calendarserver.org","carekit.org","courier-push-apple.com.akadns.net","cups.org","developer.apple.com","developerservices2.apple.com","devimages-cdn.apple.com","devstreaming-cdn.apple.com","foundationdb.org","macosforge.org","macruby.com","macruby.net","macruby.org","notary-submissions-prod.s3-accelerate.amazonaws.com","notary-submissions-prod.s3.us-west-2.amazonaws.com","p-events-delivery.akamaized.net","playgrounds-cdn.apple.com","push-apple.com.akadns.net","researchandcare.org","researchkit.cn","researchkit.com.cn","researchkit.hk","researchkit.net","researchkit.org","researchkit.tv","servicetalk.io","swift.org","swiftui.cn","swiftui.com.cn","timestamp.apple.com","webkit.org","webkitgtk.org","webobjects.com","wpewebkit.org"]
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  findmy:
+    display_name: "Find My"
+    ecosystem: apple
+    official_sources: ["https://www.icloud.com/find/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/FindMy/FindMy.list", adapter: upstream_rule}
+    allowed_host_exact: ["fmfmobile.icloud.com","fmipmobile.icloud.com","statici.icloud.com"]
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  appstore:
+    display_name: "App Store"
+    ecosystem: apple
+    official_sources: ["https://www.apple.com/app-store/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppStore/AppStore.list", adapter: upstream_rule}
+    allowed_host_exact: [apps.apple.com, itunes.apple.com]
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  testflight:
+    display_name: "TestFlight"
+    ecosystem: apple
+    official_sources: ["https://developer.apple.com/testflight/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TestFlight/TestFlight.list", adapter: upstream_rule}
+    allowed_host_exact: [beta.apple.com, testflight.apple.com]
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  icloud:
+    display_name: "iCloud"
+    ecosystem: apple
+    official_sources: ["https://www.icloud.com/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iCloud/iCloud.list", adapter: upstream_rule}
+    allowed_host_exact:
+      - apple-cloudkit.com
+      - apple-icloud.cn
+      - apple-livephotoskit.com
+      - appleicloud.cn
+      - appzones.com
+      - cdn-apple.com
+      - gc.apple.com
+      - icloud-apple.cn
+      - icloud-content.com
+      - icloud-content.com.cn
+      - icloud-isupport.com
+      - icloud-sandbox.com
+      - icloud.apple.com
+      - icloud.ch
+      - icloud.cn
+      - icloud.com
+      - icloud.com.cn
+      - icloud.de
+      - icloud.ee
+      - icloud.fi
+      - icloud.fr
+      - icloud.hu
+      - icloud.ie
+      - icloud.is
+      - icloud.jp
+      - icloud.lv
+      - icloud.net.cn
+      - icloud.om
+      - icloud.org
+      - icloud.pt
+      - icloud.ro
+      - icloud.se
+      - icloud.si
+      - icloud.sk
+      - icloud.vn
+      - icloudads.net
+      - icloudapple.cn
+      - icloudbox.net
+      - icloudbrowser.net
+      - icloude.com
+      - icloudhome.com
+      - icloudmail.net
+      - icloudmusic.net
+      - icloudnet.net
+      - icloudo.com
+      - icloudo.de
+      - icloudo.net
+      - icloudos.de
+      - icloudos.net
+      - icloudpay.net
+      - icloudsecure.net
+      - icloudsetup.com
+      - ios-icloud.com
+      - iwork.apple.com
+      - me.com
+      - myicloud.net
+      - mylcloud.net
+      - www-cdn.icloud.com.akadns.net
+      - wwwicloud.com
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  applemusic:
+    display_name: "Apple Music"
+    ecosystem: apple
+    official_sources: ["https://music.apple.com/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMusic/AppleMusic.list", adapter: upstream_rule}
+    allowed_host_exact:
+      - aod-ssl.itunes.apple.com
+      - aod.itunes.apple.com
+      - audio-ssl.itunes.apple.com
+      - audio.itunes.apple.com
+      - mvod.itunes.apple.com
+      - streamingaudio.itunes.apple.com
+    allowed_host_suffixes: [applemusic.com, blobstore.apple.com, music.apple.com]
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  googledrive:
+    display_name: "Google Drive"
+    ecosystem: google
+    official_sources: ["https://drive.google.com/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleDrive/GoogleDrive.list", adapter: upstream_rule}
+    allowed_host_exact: [www.googleapis.com]
+    allowed_host_suffixes: [docs.google.com, drive.google.com, googledrive.com, googleusercontent.com]
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  youtubemusic:
+    display_name: "YouTube Music"
+    ecosystem: google
+    official_sources: ["https://music.youtube.com/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTubeMusic/YouTubeMusic.list", adapter: upstream_rule}
+    allowed_host_exact: [music.youtube.com]
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  azure:
+    display_name: "Azure"
+    ecosystem: microsoft
+    official_sources: ["https://azure.microsoft.com/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/azure.list", adapter: upstream_rule}
+    allowed_host_exact: ["azure.microsoft.com","azuremarketplace.microsoft.com"]
+    allowed_host_suffixes: ["aadrm.com","azure-api.net","azure-devices-int.net","azure-devices.net","azure-mobile.net","azure-sphere.com","azure-test.net","azure.com","azure.net","azurecomcdn.net","azurecomm.net","azurecontainer.io","azurecosmos.net","azurecosmosdb.com","azurecosmosdb.info","azurecosmosdb.net","azuredatabricks.net","azuredevopslaunch.com","azuredigitaltwin.com","azuredigitaltwins.com","azuredigitaltwins.net","azuredns-prd.info","azuredns-prd.org","azureedge-test.net","azureedge.net","azureedge.us","azurefd.net","azureiotcentral.com","azureiotsolutions.com","azureiotsuite.com","azureplanetscale.info","azureplanetscale.net","azureserviceprofiler.com","azuresmartspaces.net","azurestackvalidation.com","azurestaticapps.net","azurewebsites.net","botframework.com","cosmosdb.info","cosmosdb.net","devopsms.com","gotcosmos.com","management-azure-devices-int.net","management-azure-devices.net","microsoftazuread-sso.com","microsoftazuresponsorships.com","microsofteca.com","microsoftiotcentral.com","msn.net","playfab.com","playfabapi.com","serverlesslibrary.net","trafficmanager.net","tryfunctions.com","windowsazure.com","azure-dns.com","azure-dns.info","azure-dns.net","azure-dns.org","21vbc.com","21vbluecloud.com","21vbluecloud.net","aadrm.cn","aggresmart.com","apihub-internal.cn","appserviceenvironment.cn","azcrmc-test.cn","azcrmc.cn","azk8s.cn","aznbcontent.cn","aztask.cn","azure-api.cn","azure-apihub.cn","azure-automation.cn","azure-connectedvehicles-stage.cn","azure-connectedvehicles.cn","azure-devices-provisioning.cn","azure-devices.cn","azure-mobile.cn","azure.cn","azurecr-test.cn","azurecr.cn","azurehdinsight.cn","azureiotsuite.cn","azuremresolver.cn","azureprivatedns.cn","azurerms.cn","azuresandbox.cn","b2clogin.cn","b3itech.cn","blueaggrestore.com","bluecloudprod.com","cegid-cloud.cn","chinacloud-mobile.cn","chinacloudapi.cn","chinacloudapp.cn","chinacloudsites.cn","hdinsightservices.cn","management-azure-devices-provisioning.cn","management-azure-devices.cn","mcchcdn.com","mgmt-azure-api.cn","microsoftazurestatus.cn","microsoftmetrics.cn","mncmsidlab1.cn","msappproxy.cn","mschcdn.cn","msftcloudes.cn","msidentity.cn","msidlabpbmc.cn","sovcloud-mx.cn","sovcloud-static.cn","sovcloud-usercontent.cn","sovcloud.cn","trafficmanager.cn","trustcenter.cn","windowsazure.cn","windowsazurestatus.cn","azchcdna.com","azchcdnb.com","azchcdnc.com","azchcdnd.com","azchcdne.com","azchcdnf.com","azchcdng.com","azchcdnh.com","azchcdni.com","azchcdnj.com","azchcdnk.com","azchcdnl.com","azchcdnm.com","azchcdnn.com","azchcdno.com","azchcdnp.com","azchcdnq.com","azchcdnr.com","azchcdns.com","azure-dns.cn","azure-dns-1.cn","azure-dns-2.cn","azure-dns-3.cn","azure-dns-4.cn","azure-dns-5.cn","azure-dns-6.cn","azure-dns-7.cn","azure-dns-8.cn","azure-dns-9.cn","azure-dns-10.cn"]
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  onedrive:
+    display_name: "OneDrive"
+    ecosystem: microsoft
+    official_sources: ["https://www.microsoft.com/microsoft-365/onedrive/online-cloud-storage"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.list", adapter: upstream_rule}
+    allowed_host_exact: []
+    allowed_host_suffixes:
+      - 1drv.com
+      - livefilestore.com
+      - microsoftpersonalcontent.com
+      - oneclient.sfx.ms
+      - onedrive.com
+      - onedrive.live.com
+      - photos.live.com
+      - sharepoint.com
+      - sharepointonline.com
+      - skydrive.wns.windows.com
+      - spoprod-a.akamaihd.net
+      - storage.live.com
+      - storage.msn.com
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  teams:
+    display_name: "Microsoft Teams"
+    ecosystem: microsoft
+    official_sources: ["https://www.microsoft.com/microsoft-teams/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Teams/Teams.list", adapter: upstream_rule}
+    allowed_host_exact: [teams.events.data.microsoft.com]
+    allowed_host_suffixes: [teams.cdn.live.net, teams.live.com, teams.microsoft.com]
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  wechat:
+    display_name: "微信"
+    ecosystem: tencent
+    official_sources: ["https://weixin.qq.com/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeChat/WeChat.list", adapter: upstream_rule}
+    allowed_host_exact:
+      - apd-pcdnwxlogin.teg.tencent-cloud.net
+      - btrace.qq.com
+      - dldir1.qq.com
+      - slife.xy-asia.com
+      - soup.v.qq.com
+      - vweixinf.tc.qq.com
+      - weixin110.qq.com
+      - wup.imtt.qq.com
+    allowed_host_suffixes:
+      - iot-tencent.com
+      - lbs.gtimg.com
+      - map.qq.com
+      - qlogo.cn
+      - qpic.cn
+      - servicewechat.com
+      - tenpay.com
+      - up-hl.3g.qq.com
+      - vweixinthumb.tc.qq.com
+      - wechat.com
+      - wechatlegal.net
+      - wechatos.net
+      - wechatpay.com
+      - weixin.com
+      - weixin.qq.com
+      - weixinbridge.com
+      - weixinsxy.com
+      - wx.gtimg.com
+      - wx.qq.com
+      - wxapp.tc.qq.com
+      - wxs.qq.com
+      - yun-hl.3g.qq.com
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  baidutieba:
+    display_name: "百度贴吧"
+    ecosystem: baidu
+    official_sources: ["https://tieba.baidu.com/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BaiDuTieBa/BaiDuTieBa.list", adapter: upstream_rule}
+    allowed_host_exact:
+      - als.baidu.com
+      - cdn.hiphotos.baidu.com
+      - cpro.baidustatic.com
+      - crab.baidu.com
+      - dlswbr.baidu.com
+      - ecma.bdimg.com
+      - feed-image.baidu.com
+      - fex.bdstatic.com
+      - gomediago.baidu.com
+      - gsp0.baidu.com
+      - gss0.bdstatic.com
+      - hmma.baidu.com
+      - mediago-static.cdn.bcebos.com
+      - miaowu.baidu.com
+      - mobads-log.baidu.com
+      - mobads.baidu.com
+      - ns-strategy.cdn.bcebos.com
+      - nsclick.baidu.com
+      - passport.baidu.com
+      - sofire.bdstatic.com
+      - tb.himg.baidu.com
+      - tb1.bdstatic.com
+      - tb2.bdstatic.com
+      - tb3.bdstatic.com
+      - tb4.bdstatic.com
+      - tb5.bdstatic.com
+      - tb6.bdstatic.com
+      - tbmsg.baidu.com
+      - tieba-ares.cdn.bcebos.com
+      - tiebac.baidu.com
+      - tiebapic.baidu.com
+    allowed_host_suffixes: [tieba.baidu.com]
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  neteasemusic:
+    display_name: "网易云音乐"
+    ecosystem: netease
+    official_sources: ["https://music.163.com/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NetEaseMusic/NetEaseMusic.list", adapter: upstream_rule}
+    allowed_host_exact: [netease.ugcvideoss.ourdvs.com]
+    allowed_host_suffixes:
+      - 163yun.com
+      - api.iplay.163.com
+      - hz.netease.com
+      - mam.netease.com
+      - music.126.com
+      - music.126.net
+      - music.163.com
+      - music.163.com.163jiasu.com
+      - yun-app.net
+    coverage: {domain: review, ip: separate}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  feishu:
+    display_name: "飞书"
+    ecosystem: bytedance
+    official_sources: ["https://www.feishu.cn/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/feishu.list", adapter: upstream_rule}
+    allowed_host_exact: []
+    allowed_host_suffixes: ["anycross.com","blmpb.com","bytedancehermestest.com","falconsending.com","fei-shu.cn","feishu-3rd-party-services.com","feishu-boe.net","feishu-customer.cn","feishu-pre.cn","feishu-pre.net","feishu-psc.cn","feishu-staging.cn","feishu.cn","feishu.net","feishuapp-cdn.net","feishuapp.cn","feishuapp.com","feishucdn.com","feishudoc.cn","feishudoc.com","feishuhuiyi.cn","feishuhuiyi.com","feishuimg-boe.com","feishuimg-pre.com","feishuimg.com","feishukacdn.com","feishumeetings.cn","feishumeetings.com","feishuoffice.cn","feishuoffice.com","feishuopenplatformrecord.com","feishupkg.com","feishustatus.cn","feishuvc.cn","feishuvc.com","getfeishu.cn","getfeishu.com","getsays.cn","getsays.com","lackvc.cn","securityfeishu.cn","securityfs.cn","statusfeishu.cn"]
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  douyin:
+    display_name: "抖音"
+    ecosystem: bytedance
+    official_sources: ["https://www.douyin.com/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DouYin/DouYin.list", adapter: upstream_rule}
+    allowed_host_exact:
+      - lf3-static.bytednsdoc.com
+      - v5-dy-o-abtest.zjcdn.com
+    allowed_host_suffixes:
+      - amemv.com
+      - douyincdn.com
+      - douyinpic.com
+      - douyinstatic.com
+      - douyinvod.com
+      - idouyinvod.com
+      - ixigua.com
+      - ixiguavideo.com
+      - pstatp.com
+      - snssdk.com
+      - toutiao.com
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
     boundary: {shared_infrastructure_allowed: false}

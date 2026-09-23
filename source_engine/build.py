@@ -11,10 +11,9 @@ from .normalize import host_allowed, normalize_domain, service_asset_id
 from .overrides import apply_overrides, load_service_overrides
 from .policy import assess_count_change, is_excluded, load_exclusion_suffixes
 from .tombstone import filter_revoked
-from .fetch import fetch, FetchError
 
 PARSER_VERSION = "domain-extractor-v4"
-GENERATOR_VERSION = "3.0.0"
+GENERATOR_VERSION = "3.1.0"
 RELEASE_IDENTITY_VERSION = "2"
 
 
@@ -70,6 +69,17 @@ def _generator_digest() -> str:
     })
 
 
+def _source_bindings(cfg: dict) -> list[dict]:
+    configured = cfg.get("source_bindings")
+    if configured:
+        return [
+            {"url": str(item["url"]), "adapter": str(item["adapter"])}
+            for item in configured
+            if item.get("url") and item.get("adapter")
+        ]
+    return [{"url": str(url), "adapter": None} for url in cfg.get("official_sources", [])]
+
+
 def build_service(service_id: str, config_path: str = "config/services.yaml") -> dict:
     services = load_services(config_path)["services"]
     if service_id not in services:
@@ -81,24 +91,39 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
     validation = load_yaml("config/validation.yaml")
     exact = tuple(cfg.get("allowed_host_exact", []))
     suffixes = tuple(cfg.get("allowed_host_suffixes", []))
+    bindings = _source_bindings(cfg)
+    allowed_authorities = set(
+        (cfg.get("source_policy") or {}).get("allowed_authorities")
+        or ["official"]
+    )
+    official_required = bool((cfg.get("source_policy") or {}).get("official_required", True))
+
     domains: set[str] = set()
     evidence_items: list[dict] = []
     domain_evidence: dict[str, set[str]] = {}
     errors: list[str] = []
     official_extracted = 0
+    trusted_extracted = 0
 
-    for idx, source_url in enumerate(cfg.get("official_sources", []), 1):
+    for idx, binding in enumerate(bindings, 1):
+        source_url = binding["url"]
+        adapter_candidates = (
+            [binding["adapter"]]
+            if binding.get("adapter")
+            else adapter_names_for(service_id)
+        )
         used = None
         meta = None
         selected_domains: tuple[str, ...] = ()
         empty_success: tuple[str, dict] | None = None
         source_errors: list[str] = []
-        for adapter_name in adapter_names_for(service_id):
+
+        for adapter_name in adapter_candidates:
             try:
                 extraction = extract_with_adapter(
                     service_id=service_id,
                     adapter_name=adapter_name,
-                    source_url=str(source_url),
+                    source_url=source_url,
                     exact=exact,
                     suffixes=suffixes,
                     adapter_policy=adapter_policy,
@@ -112,17 +137,22 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
                     empty_success = (adapter_name, extraction.evidence)
             except Exception as exc:
                 source_errors.append(f"{adapter_name}: {exc}")
+
         if used is None and empty_success is not None:
             used, meta = empty_success
             selected_domains = ()
         if used is None:
-            errors.append(f"{source_url}: " + " | ".join(source_errors or ["no adapter produced evidence"]))
+            errors.append(
+                f"{source_url}: "
+                + " | ".join(source_errors or ["no adapter produced evidence"])
+            )
             continue
 
         domains.update(selected_domains)
         domain_list = sorted(set(selected_domains))
         content_hash = str((meta or {}).get("content_hash") or _digest(meta or {}))
         evidence_id = f"EV-{service_id}-{idx:03d}-{content_hash[:12]}"
+        authority = str((meta or {}).get("authority") or "official")
         evidence = {
             "evidence_id": evidence_id,
             "service_id": service_id,
@@ -130,17 +160,21 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
             "resolved_url": (meta or {}).get("resolved_url", source_url),
             "source_method": (meta or {}).get("source_method", used),
             "source_type": (meta or {}).get("source_type", used),
-            "authority": "official",
-            "retrieved_at": (meta or {}).get("retrieved_at", datetime.now(timezone.utc).isoformat()),
+            "authority": authority,
+            "retrieved_at": (meta or {}).get(
+                "retrieved_at", datetime.now(timezone.utc).isoformat()
+            ),
             "content_hash": content_hash,
             "parser_version": (meta or {}).get("parser_version", PARSER_VERSION),
-            "confidence": "high",
-            "strength": "S3",
+            "confidence": (meta or {}).get("confidence", "high"),
+            "strength": (meta or {}).get("strength", "S3"),
             "status": "verified",
             "domains_extracted": len(domain_list),
         }
         evidence_items.append(evidence)
-        official_extracted += len(domain_list)
+        trusted_extracted += len(domain_list)
+        if authority == "official":
+            official_extracted += len(domain_list)
         for domain in domain_list:
             domain_evidence.setdefault(domain, set()).add(evidence_id)
 
@@ -182,7 +216,7 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
     unverified = [
         d for d in sorted_domains
         if not any(
-            evidence.get("authority") == "official"
+            evidence.get("authority") in allowed_authorities
             and evidence.get("status") == "verified"
             for evidence in evidence_items
             if evidence["evidence_id"] in domain_evidence.get(d, set())
@@ -193,7 +227,7 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
         "schema": "source_snapshot_content_v2",
         "service_id": service_id,
         "domains": sorted_domains,
-        "official_source_hashes": sorted(x["content_hash"] for x in evidence_items),
+        "source_hashes": sorted(x["content_hash"] for x in evidence_items),
     })
     evidence_identity = [
         {
@@ -216,7 +250,9 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
     evidence_digest = _digest({
         "service_id": service_id,
         "evidence": evidence_identity,
-        "domain_evidence": {k: sorted(v) for k, v in sorted(domain_evidence.items())},
+        "domain_evidence": {
+            k: sorted(v) for k, v in sorted(domain_evidence.items())
+        },
     })
     policy_digest = _digest({
         "allowed_host_exact": list(exact),
@@ -224,6 +260,8 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
         "blocked_suffixes": list(blocked_suffixes),
         "overrides": overrides,
         "revoked": sorted(revoked),
+        "allowed_authorities": sorted(allowed_authorities),
+        "official_required": official_required,
         "thresholds": validation.get("thresholds") or {},
     })
     generator_digest = _generator_digest()
@@ -244,6 +282,9 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
     if unverified:
         release_state = "REVIEW"
         release_reasons.append("contains_unverified_candidate_asset")
+    if official_required and official_extracted <= 0:
+        release_state = "REVIEW"
+        release_reasons.append("official_evidence_required")
     if last_known_good:
         release_state = "REVIEW"
         release_reasons.append("last_known_good_retained")
@@ -278,14 +319,17 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
         "parser_version": PARSER_VERSION,
         "generator_version": GENERATOR_VERSION,
         "service_config_digest": _digest(cfg),
-        "source_count": len(cfg.get("official_sources", [])),
+        "source_count": len(bindings),
+        "official_source_count": len(cfg.get("official_sources", [])),
         "domain_count": len(sorted_domains),
         "official_extracted": official_extracted,
+        "trusted_extracted": trusted_extracted,
         "unverified_candidate_count": len(unverified),
         "unverified_candidate_domains": unverified,
         "domains": sorted_domains,
         "assets": assets,
         "evidence": evidence_items,
+        "source_bindings": bindings,
         "previous_domain_count": len(previous),
         "change_assessment": {
             "status": assessment.status,
@@ -297,6 +341,10 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
         "release_state": release_state,
         "release_reasons": release_reasons,
         "last_known_good": last_known_good,
+        "source_policy": {
+            "allowed_authorities": sorted(allowed_authorities),
+            "official_required": official_required,
+        },
     }
 
     snapshot_dir = Path("snapshots") / snapshot_id
@@ -310,7 +358,7 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
             "schema": "source_snapshot_content_v2",
             "service_id": service_id,
             "domains": sorted_domains,
-            "official_source_hashes": sorted(x["content_hash"] for x in evidence_items),
+            "source_hashes": sorted(x["content_hash"] for x in evidence_items),
             "content_digest": content_digest,
             "release_identity_version": RELEASE_IDENTITY_VERSION,
         }, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
@@ -330,6 +378,10 @@ def build_service(service_id: str, config_path: str = "config/services.yaml") ->
             "release_identity_version": RELEASE_IDENTITY_VERSION,
             "assets": assets,
             "evidence": evidence_items,
+            "source_policy": {
+                "allowed_authorities": sorted(allowed_authorities),
+                "official_required": official_required,
+            },
         }, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
     )

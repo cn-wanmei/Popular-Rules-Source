@@ -59,13 +59,18 @@ def qualify_all() -> dict[str, Any]:
         if manifest is None:
             blockers.append("no_snapshot")
         else:
+            cfg = services[service_id]
+            source_policy = cfg.get("source_policy") or {}
+            official_required = bool(source_policy.get("official_required", True))
             if manifest.get("release_state") not in {"CANDIDATE", "PUBLISHED"}:
                 blockers.append(f"release_state:{manifest.get('release_state')}")
             if manifest.get("errors"):
                 blockers.append("source_errors")
             if int(manifest.get("unverified_candidate_count", 0) or 0):
                 blockers.append("unverified_candidates")
-            if int(manifest.get("official_extracted", 0) or 0) <= 0:
+            if int(manifest.get("trusted_extracted", 0) or 0) <= 0:
+                blockers.append("no_trusted_extraction")
+            if official_required and int(manifest.get("official_extracted", 0) or 0) <= 0:
                 blockers.append("no_official_extraction")
             if not manifest.get("evidence"):
                 blockers.append("no_evidence")
