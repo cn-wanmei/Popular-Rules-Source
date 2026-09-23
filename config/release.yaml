@@ -1,4 +1,4 @@
-version: 1
+version: 2
 schema: popular_rules_source_release_v1
 repository: cn-wanmei/Popular-Rules-Source
 gates:
@@ -8,6 +8,7 @@ gates:
     - unresolved_conflict
     - unexpected_empty
     - determinism_fail
+    - boundary_violation
   review_on:
     - large_removal
     - large_growth
@@ -15,6 +16,8 @@ gates:
 promotion:
   target_project: cn-wanmei/Popular-Rules-Collection
   input_kind: supplemental_source_release
+  accepted_authorities: [official, upstream]
+  upstream_policy: "Trusted upstream service-specific rules may satisfy release evidence when a service explicitly allows upstream authority; aggregate rules are never auto-inherited into a service."
 retention:
   snapshots_days: 180
   release_evidence_days: 180
