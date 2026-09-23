@@ -1,0 +1,12 @@
+# Dedicated QQ boundary excludes independent Tencent services and shared infra.
+items:
+  - value: qqmusic
+    reason: independent service qqmusic
+  - value: qqmail
+    reason: independent service qqmail
+  - value: qzone
+    reason: independent QQ Zone service boundary
+  - value: wechat
+    reason: independent WeChat service
+  - value: tencentcloud
+    reason: independent Tencent Cloud service
