@@ -1,0 +1,3 @@
+# Explicit include/exclude overrides for the dedicated QQ boundary.
+# No production override is declared until evidence promotion.
+items: []
