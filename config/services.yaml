@@ -155,7 +155,7 @@ services:
       - icloudmail.net
       - icloudmusic.net
       - icloudnet.net
-      - icluddo.com
+      - icloudo.com
       - icloudo.de
       - icloudo.net
       - icloudos.de
@@ -322,7 +322,7 @@ services:
       - ns-strategy.cdn.bcebos.com
       - nsclick.baidu.com
       - passport.baidu.com
-      - sof ire.bdstatic.com
+      - sofire.bdstatic.com
       - tb.himg.baidu.com
       - tb1.bdstatic.com
       - tb2.bdstatic.com
