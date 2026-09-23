@@ -1,0 +1,1 @@
+{"candidate_id":"HF2-tencentmeeting-001","service_id":"tencentmeeting","value":"meeting.tencent.com","asset_type":"domain","status":"candidate","source_url":"https://meeting.tencent.com/","source_method":"official_web_candidate_chain","reason":"No dedicated upstream service rule was found; the official Tencent Meeting root is the bounded Source candidate."}
