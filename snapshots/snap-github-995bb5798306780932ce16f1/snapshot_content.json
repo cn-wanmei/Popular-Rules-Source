@@ -1,0 +1,40 @@
+{
+  "content_digest": "6d44d4cdd5f3f22589b9b71299c03bf443224b0254a9718dec3ed89de42a837e",
+  "domains": [
+    "atom.io",
+    "dependabot.com",
+    "ghcr.io",
+    "git.io",
+    "github-atom-io-herokuapp-com.freetls.fastly.net",
+    "github-avatars.oss-cn-hongkong.aliyuncs.com",
+    "github.blog",
+    "github.com",
+    "github.community",
+    "github.dev",
+    "github.io",
+    "githubapp.com",
+    "githubassets.com",
+    "githubcopilot.com",
+    "githubhackathon.com",
+    "githubnext.com",
+    "githubpreview.dev",
+    "githubstatus.com",
+    "githubuniverse.com",
+    "githubusercontent.com",
+    "myoctocat.com",
+    "npm.community",
+    "npmjs.com",
+    "npmjs.org",
+    "opensource.guide",
+    "rawgit.com",
+    "rawgithub.com",
+    "repo.new",
+    "thegithubshop.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "github",
+  "source_hashes": [
+    "ced8ab0ecda5775d04ec8ee6a57b282181108565331a6a1d85e9a26fee25d79b"
+  ]
+}

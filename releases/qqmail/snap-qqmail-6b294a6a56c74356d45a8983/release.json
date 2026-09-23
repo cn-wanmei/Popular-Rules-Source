@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "e9f05b72a86ad9be815cde834ae1cd2097877c16dcea5eacb23885f52af4f24d",
+    "manifest.json": "c8fd3bccdb375813fdbf59128bc0c33e441967379397a598117dd2f8b189c23d",
+    "provenance.json": "873524498cab6127b2a7acd354fc0291cf7490b8bf71e42c577eefd0296617c4",
+    "snapshot_content.json": "3232c87b4c426dbd425bab9ef33120e6dbff24704a7e5252e64ac99e057627cd"
+  },
+  "content_digest": "5695daafc911f85c95b0820fe2617c01500a10aa4943675a32bbc1f4d7bd3e7b",
+  "created_at": "2026-09-23T11:26:58.345880+00:00",
+  "evidence_digest": "c567a56a23d7dae0b10c46a5fdbe7422e8679be0d2a36beaf74a8b248372cae2",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "76f1bd1a05ff00cc35ab53d87022a857ca245534bae06cf5193126139e55c45d",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "6b294a6a56c74356d45a89838e2c265b58e718cc43e2dd1be8c0bd95fcfd0584",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "qqmail",
+  "snapshot_id": "snap-qqmail-6b294a6a56c74356d45a8983",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 1.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:616ba525328b5625af8d7f0b23f2440da36c6eff80351f3b52443f47de7257de",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qqmail-001-d14fb044d9f8"
+      ],
+      "service_id": "qqmail",
+      "type": "domain",
+      "value": "mail.qq.com"
+    }
+  ],
+  "content_digest": "5695daafc911f85c95b0820fe2617c01500a10aa4943675a32bbc1f4d7bd3e7b",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "d14fb044d9f8ca402418888692439010eacabfbaed82710d899b3d6c76a68aed",
+      "domains_extracted": 1,
+      "evidence_id": "EV-qqmail-001-d14fb044d9f8",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://mail.qq.com/",
+      "retrieved_at": "2026-09-23T11:26:50.347394+00:00",
+      "service_id": "qqmail",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://mail.qq.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "c567a56a23d7dae0b10c46a5fdbe7422e8679be0d2a36beaf74a8b248372cae2",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "76f1bd1a05ff00cc35ab53d87022a857ca245534bae06cf5193126139e55c45d",
+  "release_digest": "6b294a6a56c74356d45a89838e2c265b58e718cc43e2dd1be8c0bd95fcfd0584",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "qqmail",
+  "snapshot_id": "snap-qqmail-6b294a6a56c74356d45a8983",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:f4e4f9341b11fca7a262963c8ecca2d90a25a51523dab2695404424629e4e4aa",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googlefcm-001-9794f848f293"
+      ],
+      "service_id": "googlefcm",
+      "type": "domain",
+      "value": "alt1-mtalk.google.com"
+    },
+    {
+      "asset_id": "sha256:2ca1927692c34d6b0100a72c5f6713f5cd104671c5ccdcea03cdc03d50433c5b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googlefcm-001-9794f848f293"
+      ],
+      "service_id": "googlefcm",
+      "type": "domain",
+      "value": "alt2-mtalk.google.com"
+    },
+    {
+      "asset_id": "sha256:c4c65e34acbe568d9eda841e96e4df6125c4a407734170964e7cb9ee72f70d7f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googlefcm-001-9794f848f293"
+      ],
+      "service_id": "googlefcm",
+      "type": "domain",
+      "value": "alt3-mtalk.google.com"
+    },
+    {
+      "asset_id": "sha256:007f5bc0dbab1c9e7c66a1a8f21d33a32d3d20eaa7473e9f1941961964c6a995",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googlefcm-001-9794f848f293"
+      ],
+      "service_id": "googlefcm",
+      "type": "domain",
+      "value": "alt4-mtalk.google.com"
+    },
+    {
+      "asset_id": "sha256:91fe1cadf788a9cf85c9f2e56ce5c5dca12e44f8e82aca29fae821b0ebdc05b1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googlefcm-001-9794f848f293"
+      ],
+      "service_id": "googlefcm",
+      "type": "domain",
+      "value": "alt5-mtalk.google.com"
+    },
+    {
+      "asset_id": "sha256:1d006bafeb62c9c77103a04768cade5dfab97a6f9755513bb32ff53e3d304959",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googlefcm-001-9794f848f293"
+      ],
+      "service_id": "googlefcm",
+      "type": "domain",
+      "value": "alt6-mtalk.google.com"
+    },
+    {
+      "asset_id": "sha256:b415b33944bf0aabe0e7f5718e8ec184ae51ad9328be049dc616607e2fcb69f8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googlefcm-001-9794f848f293"
+      ],
+      "service_id": "googlefcm",
+      "type": "domain",
+      "value": "alt7-mtalk.google.com"
+    },
+    {
+      "asset_id": "sha256:3ba1607d2607a2d11a1699e3acb060ecffc1f545406cb398ee9026250c0555b2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googlefcm-001-9794f848f293"
+      ],
+      "service_id": "googlefcm",
+      "type": "domain",
+      "value": "alt8-mtalk.google.com"
+    },
+    {
+      "asset_id": "sha256:2bcf18e67dd5f07ce25a8d53500de6ef7810306517fd40eadc8738da3f2be459",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googlefcm-001-9794f848f293"
+      ],
+      "service_id": "googlefcm",
+      "type": "domain",
+      "value": "android.apis.google.com"
+    },
+    {
+      "asset_id": "sha256:0e11b4fc73af3d8e8964a91e5d7fc97304f2d44fc4cbe2229085288639e6f79c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googlefcm-001-9794f848f293"
+      ],
+      "service_id": "googlefcm",
+      "type": "domain",
+      "value": "mtalk-dev.google.com"
+    },
+    {
+      "asset_id": "sha256:13bb7b4b57d7f5c75e963263e34693372e17cdcb1562fa1b7e7517faae59809b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googlefcm-001-9794f848f293"
+      ],
+      "service_id": "googlefcm",
+      "type": "domain",
+      "value": "mtalk-staging.google.com"
+    },
+    {
+      "asset_id": "sha256:1a1a7250cc30d956146a052e5ef6335c1eca999c0de6c7e4366cd1df5cc6b84f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googlefcm-001-9794f848f293"
+      ],
+      "service_id": "googlefcm",
+      "type": "domain",
+      "value": "mtalk.google.com"
+    },
+    {
+      "asset_id": "sha256:7875921145ed94aee98a40f6c4ceef422a6d681d337b67435bd16ad7824aab6b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googlefcm-001-9794f848f293"
+      ],
+      "service_id": "googlefcm",
+      "type": "domain",
+      "value": "mtalk4.google.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "7f6f0b0aebe1b7f01c29314122a04f65a831b4b54bc748d9888aecd1ff482364",
+  "created_at": "2026-09-23T11:27:43.731326+00:00",
+  "domain_count": 13,
+  "domain_diff": {
+    "added": [
+      "alt1-mtalk.google.com",
+      "alt2-mtalk.google.com",
+      "alt3-mtalk.google.com",
+      "alt4-mtalk.google.com",
+      "alt5-mtalk.google.com",
+      "alt6-mtalk.google.com",
+      "alt7-mtalk.google.com",
+      "alt8-mtalk.google.com",
+      "android.apis.google.com",
+      "mtalk-dev.google.com",
+      "mtalk-staging.google.com",
+      "mtalk.google.com",
+      "mtalk4.google.com"
+    ],
+    "added_count": 13,
+    "current_count": 13,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "alt1-mtalk.google.com",
+    "alt2-mtalk.google.com",
+    "alt3-mtalk.google.com",
+    "alt4-mtalk.google.com",
+    "alt5-mtalk.google.com",
+    "alt6-mtalk.google.com",
+    "alt7-mtalk.google.com",
+    "alt8-mtalk.google.com",
+    "android.apis.google.com",
+    "mtalk-dev.google.com",
+    "mtalk-staging.google.com",
+    "mtalk.google.com",
+    "mtalk4.google.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "9794f848f2935db94be703f797921f8c512a1ddd213c20c47c1f884dccbd82ca",
+      "domains_extracted": 15,
+      "evidence_id": "EV-googlefcm-001-9794f848f293",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleFCM/GoogleFCM.list",
+      "retrieved_at": "2026-09-23T11:27:43.713647+00:00",
+      "service_id": "googlefcm",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleFCM/GoogleFCM.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "6aa37de7f752f4744814c9c8d543bcd915ca3729351db927034f82a33b9d59c8",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 0,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+  "previous_domain_count": 0,
+  "release_digest": "0a56c2f6cc053405abb62c45ddf4bfe3dfa7920f4abf37fb5d240db9e087bbac",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "cf3afb57e8baabeae4f942969b9e5141d90bc5d173d28455e7e795421ed37462",
+  "service_id": "googlefcm",
+  "snapshot_content_sha256": "7f6f0b0aebe1b7f01c29314122a04f65a831b4b54bc748d9888aecd1ff482364",
+  "snapshot_id": "snap-googlefcm-0a56c2f6cc053405abb62c45",
+  "source_bindings": [
+    {
+      "adapter": "upstream_rule",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleFCM/GoogleFCM.list"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  },
+  "trusted_extracted": 15,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

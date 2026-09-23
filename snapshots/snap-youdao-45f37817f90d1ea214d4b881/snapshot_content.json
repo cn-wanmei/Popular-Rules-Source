@@ -1,0 +1,26 @@
+{
+  "content_digest": "382ab110a436aabb4b56e8331c900f84ec93837f7b5d312df68caeb81e9f8d22",
+  "domains": [
+    "ai.youdao.com",
+    "baoku.youdao.com",
+    "c.youdao.com",
+    "dsp.youdao.com",
+    "f.youdao.com",
+    "hr.youdao.com",
+    "ir.youdao.com",
+    "ke.youdao.com",
+    "lobsterai.youdao.com",
+    "school.youdao.com",
+    "shared.youdao.com",
+    "smart.youdao.com",
+    "tongdao.youdao.com",
+    "www.youdao.com",
+    "zhihui.youdao.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "youdao",
+  "source_hashes": [
+    "839bda45e67c7da4e4cc4052498280578f003584ed0d8810efa06736c4e791c2"
+  ]
+}
