@@ -51,30 +51,21 @@ jobs:
       - name: Reconcile Collection registration before promotion
         run: |
           python - <<'PY'
-          import base64
           import os
           import re
           import unicodedata
-          from pathlib import Path
 
           import requests
           import yaml
 
           ref = os.environ["COLLECTION_REF"]
           response = requests.get(
-              "https://api.github.com/repos/cn-wanmei/Popular-Rules-Collection/contents/sources/registry.yaml",
-              params={"ref": ref},
+              f"https://raw.githubusercontent.com/cn-wanmei/Popular-Rules-Collection/{ref}/sources/registry.yaml",
               timeout=20,
-              headers={
-                  "Accept": "application/vnd.github+json",
-                  "User-Agent": "Popular-Rules-Source/3.x",
-              },
+              headers={"User-Agent": "Popular-Rules-Source/3.x"},
           )
           response.raise_for_status()
-          payload = response.json()
-          content = base64.b64decode(
-              str(payload["content"]).replace("\\n", "")
-          ).decode("utf-8")
+          content = response.text
           registry = yaml.safe_load(content) or {}
           prs_entry = next(
               (
