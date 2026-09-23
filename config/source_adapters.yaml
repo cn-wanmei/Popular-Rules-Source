@@ -1,4 +1,4 @@
-version: 3
+version: 4
 runtime:
   timeout_seconds: 45
   retry_attempts: 2
@@ -7,7 +7,7 @@ runtime:
   user_agent: Popular-Rules-Source/3.x
 contract:
   required_fields: [parser, fixture, evidence_mapping, regression_test]
-  authority: official_only
+  authorities: [official, upstream]
 
 adapters:
   official_web:
@@ -16,6 +16,14 @@ adapters:
     method: html_domain_extraction
     parser: domain-extractor-v4
     fixture: tests/fixtures/official_web.html
+    evidence_mapping: manifest.evidence[]
+    regression_test: tests/test_adapters.py
+  upstream_rule:
+    enabled: true
+    authority: upstream
+    method: text_rule_domain_extraction
+    parser: upstream-rule-v1
+    fixture: tests/fixtures/upstream_rule.list
     evidence_mapping: manifest.evidence[]
     regression_test: tests/test_adapters.py
   official_json:
@@ -75,3 +83,15 @@ services:
   taobao: {adapters: [official_web]}
   tencentcloud: {adapters: [official_web]}
   tmall: {adapters: [official_web]}
+  appstore: {adapters: [upstream_rule]}
+  testflight: {adapters: [upstream_rule]}
+  icloud: {adapters: [upstream_rule]}
+  applemusic: {adapters: [upstream_rule]}
+  googledrive: {adapters: [upstream_rule]}
+  youtubemusic: {adapters: [upstream_rule]}
+  onedrive: {adapters: [upstream_rule]}
+  teams: {adapters: [upstream_rule]}
+  wechat: {adapters: [upstream_rule]}
+  baidutieba: {adapters: [upstream_rule]}
+  neteasemusic: {adapters: [upstream_rule]}
+  douyin: {adapters: [upstream_rule]}
