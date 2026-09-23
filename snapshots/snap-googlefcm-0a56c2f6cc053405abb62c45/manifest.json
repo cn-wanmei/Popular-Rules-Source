@@ -137,7 +137,7 @@
     "status": "OK"
   },
   "content_digest": "7f6f0b0aebe1b7f01c29314122a04f65a831b4b54bc748d9888aecd1ff482364",
-  "created_at": "2026-09-23T11:27:43.731326+00:00",
+  "created_at": "2026-09-23T11:27:21.930993+00:00",
   "domain_count": 13,
   "domain_diff": {
     "added": [
@@ -188,7 +188,7 @@
       "evidence_id": "EV-googlefcm-001-9794f848f293",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleFCM/GoogleFCM.list",
-      "retrieved_at": "2026-09-23T11:27:43.713647+00:00",
+      "retrieved_at": "2026-09-23T11:27:21.913544+00:00",
       "service_id": "googlefcm",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",

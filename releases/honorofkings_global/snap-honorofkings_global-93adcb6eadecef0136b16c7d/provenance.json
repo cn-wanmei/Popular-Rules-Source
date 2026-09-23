@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:32d91cab74cd4bbd446e5dd4257d6a2b7ed34e073ee6792c102e84f90c512bb5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-honorofkings_global-001-417db49a1444"
+      ],
+      "service_id": "honorofkings_global",
+      "type": "domain",
+      "value": "honorofkings.com"
+    },
+    {
+      "asset_id": "sha256:5722b07cfc55f19e7bb5195100890f7b88b9f3f153d0467f793c6817d45da611",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-honorofkings_global-001-417db49a1444"
+      ],
+      "service_id": "honorofkings_global",
+      "type": "domain",
+      "value": "www.honorofkings.com"
+    }
+  ],
+  "content_digest": "a65a9070a8efb6ef57dd2a698711cdbb30a9ba3963e8c009bf538d47b65590af",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "417db49a1444e93f86164ccdebc4d716d8d2aef4352dedfe667182ab73c2ee37",
+      "domains_extracted": 2,
+      "evidence_id": "EV-honorofkings_global-001-417db49a1444",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://www.honorofkings.com/",
+      "retrieved_at": "2026-09-23T11:28:06.627175+00:00",
+      "service_id": "honorofkings_global",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://www.honorofkings.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "733edbee49f42727e7ad36e9b529cd06e634f05ba4b1ee43e5a41384c4a4151c",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "4ba44b3e8b8a3a36eb1f7c340fdb0a9b5ed59db996c29122cef22b0be5f8fbc0",
+  "release_digest": "93adcb6eadecef0136b16c7d38b5b470b7d4116e89cf3845083c44312dda769b",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "honorofkings_global",
+  "snapshot_id": "snap-honorofkings_global-93adcb6eadecef0136b16c7d",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "content_digest": "618883a29cdfbf0e3d87b9997c6c99357f00299b2e460c7363c24e76ad28e1d3",
+  "domains": [
+    "163yun.com",
+    "api.iplay.163.com",
+    "hz.netease.com",
+    "mam.netease.com",
+    "music.126.com",
+    "music.126.net",
+    "music.163.com",
+    "music.163.com.163jiasu.com",
+    "netease.ugcvideoss.ourdvs.com",
+    "yun-app.net"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "neteasemusic",
+  "source_hashes": [
+    "cc46a2967df8ad49e642d389847a5edb6b2b19c4803f79f0113ae393b6046ad5"
+  ]
+}

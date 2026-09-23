@@ -1,0 +1,594 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:a771c276bd9d513d1f6abdbe3584b1bdc36f5581ca04203ee63a0cd8a7aad3c8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "anycross.com"
+    },
+    {
+      "asset_id": "sha256:3bfef33c6dca14f52bebc5994a7423088595347aa54d323ccb0b6ed9564eb931",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "blmpb.com"
+    },
+    {
+      "asset_id": "sha256:d7d1b8a87b6fce556d51834999ad05963a545a7e330c1628229ea5baaaa2c011",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "bytedancehermestest.com"
+    },
+    {
+      "asset_id": "sha256:ef00288118425157b4714b1df8dbae64f00825be2adaba1db9e015cea3aaa9de",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "falconsending.com"
+    },
+    {
+      "asset_id": "sha256:ceb21c251404aedb5654743407a189dee42196611c6a3637acdcb86664c280ce",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "fei-shu.cn"
+    },
+    {
+      "asset_id": "sha256:b0b14606838e910be9e8e396fbbf72e80b272b67cae92765cc0d24dc2e5b6c4e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishu-3rd-party-services.com"
+    },
+    {
+      "asset_id": "sha256:160357d185d93809176496f6164550d169034eac7427210c24669353b60c5151",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishu-boe.net"
+    },
+    {
+      "asset_id": "sha256:513e1365ba1feb7ebe0ece62954a4dc05d1779839443e805271ad840f75036c6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishu-customer.cn"
+    },
+    {
+      "asset_id": "sha256:44d0f09ea4600a49b855b4778e2fe786cbe5f5363a464955693b8f19ce4de4ed",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishu-pre.cn"
+    },
+    {
+      "asset_id": "sha256:bd56ae05b9d47dcc88c7db34636426d8853479834f4d5addd020edc5db8564c1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishu-pre.net"
+    },
+    {
+      "asset_id": "sha256:3395f562244e32aeb4f5c15c40e723986b7e24b278fd0216f0ddf98bb6da6e29",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishu-psc.cn"
+    },
+    {
+      "asset_id": "sha256:6565371418d8f93c2637a074613fa671b451c6aeaad6c20d980772b084cfcb90",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishu-staging.cn"
+    },
+    {
+      "asset_id": "sha256:e56d871f6f39d87ef219b3ee44aadca8d91b4bcf12d0ac8efa90007a1795cacf",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishu.cn"
+    },
+    {
+      "asset_id": "sha256:d65c65603036f3866a08b9b95641be603a95eae169afd7e64301ee865ed3968c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishu.net"
+    },
+    {
+      "asset_id": "sha256:96d43c2287365724302364fb4e4bfc85245865d6359763104918c849d12d5ab8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishuapp-cdn.net"
+    },
+    {
+      "asset_id": "sha256:736d9ef11443d8e38ca4ce14db36b2329c7b6f00ba854e80847a9148af364eaa",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishuapp.cn"
+    },
+    {
+      "asset_id": "sha256:c82042cdc145b8ffff542749be1c6b7c9b30b3ba4dbe757723d0e732c60037e0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishuapp.com"
+    },
+    {
+      "asset_id": "sha256:2ffeb52a783da371c87005079592407613aca9974cebd39c14e6839c4967135e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishucdn.com"
+    },
+    {
+      "asset_id": "sha256:3942f4ea613a9f74d966558c1369abe3fb4256964a574ef155533b88441363e2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishudoc.cn"
+    },
+    {
+      "asset_id": "sha256:95bd2396f1e96c49fc324d15664e4cc72f671bae5d24f1942d4607c19a4082e8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishudoc.com"
+    },
+    {
+      "asset_id": "sha256:b81b067cdc988b3c6fe1f749f08b5331f7050567e12730c910cdee8920d3fc1b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishuhuiyi.cn"
+    },
+    {
+      "asset_id": "sha256:42235bccb3306b62311f6a51ab6e6a611dd38af87ba18f57c4f0178121635cc7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishuhuiyi.com"
+    },
+    {
+      "asset_id": "sha256:a2ec98b32904ac9a41672a678fd38d1960968ecde020f9176b4bb9901199fab4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishuimg-boe.com"
+    },
+    {
+      "asset_id": "sha256:bde7024674a0105c58da1b235c1c4a584d7227f5efa55f5a8c36607134ee7c4e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishuimg-pre.com"
+    },
+    {
+      "asset_id": "sha256:268f290c6c80b47424ff6d4c29de8004f0e83121c846d37818d21a479ab0d9af",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishuimg.com"
+    },
+    {
+      "asset_id": "sha256:f348e62ba9381973bb753ed73d9b0aa77244313caea16c0f61157932ca64460c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishukacdn.com"
+    },
+    {
+      "asset_id": "sha256:7c06482e4acdbc57fcb38bed914ec1a9cf8bc89c915827d458393053ffee3072",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishumeetings.cn"
+    },
+    {
+      "asset_id": "sha256:8c9b263719899b8b90202a31ba5d52f0f2f321bfcb26feb1a900035a20e00b6d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishumeetings.com"
+    },
+    {
+      "asset_id": "sha256:1893c29b427667b2367a0f035d58bad120e947deb291d03b7984170e6e9c3a1d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishuoffice.cn"
+    },
+    {
+      "asset_id": "sha256:c9d9486553c336c60241b222664ce6e36dbafb635c042ec4eb91a3d68912831d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishuoffice.com"
+    },
+    {
+      "asset_id": "sha256:dbbb096620d43d75844f4eb4ca659c63582fd864701dec195b6f30308b98168a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishuopenplatformrecord.com"
+    },
+    {
+      "asset_id": "sha256:e3097ee1edc8da913493f102897bd33e00ef4ee9da1b9515af1c5d0c0bd06c72",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishupkg.com"
+    },
+    {
+      "asset_id": "sha256:a2c5fd0bdb0f775418ad75a58f01ef3391012674d74d1d4c83b6ef9a0fdf2584",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishustatus.cn"
+    },
+    {
+      "asset_id": "sha256:9037ba9c690d3c1466b8f17f3d1b57e77a0c2f91c32b29ddbf1dd4c70cf93c94",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishuvc.cn"
+    },
+    {
+      "asset_id": "sha256:3b1048e4175ee160ecb555ad91faf6d74d4dfafd2ca3238a52562de8a414f1d8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "feishuvc.com"
+    },
+    {
+      "asset_id": "sha256:00323d44aaa561bcbf6d062ceaffa3017ed501216196f207e012b19f4316c76f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "getfeishu.cn"
+    },
+    {
+      "asset_id": "sha256:56eb7f466c7f76c92f769f3b1c43969b7b1edb0da399e9aa8f723d47086a8ff2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "getfeishu.com"
+    },
+    {
+      "asset_id": "sha256:4f0f93eeb36d8ef360020c4a5bb406448215fc2f2dc1e4d736bbe811a5070c8f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "getsays.cn"
+    },
+    {
+      "asset_id": "sha256:f99a6356fe874c3f270a7b004b1dca3e242d02bbcd3a73b1bf7686b391a56ce4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "getsays.com"
+    },
+    {
+      "asset_id": "sha256:27631d28435dac01248a42588846a7fd3b33db1f45d73fc1edbd264dbe825d8a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "lackvc.cn"
+    },
+    {
+      "asset_id": "sha256:3003c4d801f723628d9ccca22c97240bb15a51cb3e07ca4f2b9dd5afa0f60d84",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "securityfeishu.cn"
+    },
+    {
+      "asset_id": "sha256:8fe99e54eaaecd79e080e8e4ca7bf2847aae22316b85c99c6a53483897b64702",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "securityfs.cn"
+    },
+    {
+      "asset_id": "sha256:ca397e4206d83cf01b8991022a1c43da6852c7a5d9d445f9ea04649f48004cb3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-feishu-001-1354726cbeb2"
+      ],
+      "service_id": "feishu",
+      "type": "domain",
+      "value": "statusfeishu.cn"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "b5691f9763d1c0cfdf10727bde56aec2f0ca0b7036b0f7eabef5a43f0ad572aa",
+  "created_at": "2026-09-23T11:28:02.085419+00:00",
+  "domain_count": 43,
+  "domain_diff": {
+    "added": [
+      "anycross.com",
+      "blmpb.com",
+      "bytedancehermestest.com",
+      "falconsending.com",
+      "fei-shu.cn",
+      "feishu-3rd-party-services.com",
+      "feishu-boe.net",
+      "feishu-customer.cn",
+      "feishu-pre.cn",
+      "feishu-pre.net",
+      "feishu-psc.cn",
+      "feishu-staging.cn",
+      "feishu.cn",
+      "feishu.net",
+      "feishuapp-cdn.net",
+      "feishuapp.cn",
+      "feishuapp.com",
+      "feishucdn.com",
+      "feishudoc.cn",
+      "feishudoc.com",
+      "feishuhuiyi.cn",
+      "feishuhuiyi.com",
+      "feishuimg-boe.com",
+      "feishuimg-pre.com",
+      "feishuimg.com",
+      "feishukacdn.com",
+      "feishumeetings.cn",
+      "feishumeetings.com",
+      "feishuoffice.cn",
+      "feishuoffice.com",
+      "feishuopenplatformrecord.com",
+      "feishupkg.com",
+      "feishustatus.cn",
+      "feishuvc.cn",
+      "feishuvc.com",
+      "getfeishu.cn",
+      "getfeishu.com",
+      "getsays.cn",
+      "getsays.com",
+      "lackvc.cn",
+      "securityfeishu.cn",
+      "securityfs.cn",
+      "statusfeishu.cn"
+    ],
+    "added_count": 43,
+    "current_count": 43,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "anycross.com",
+    "blmpb.com",
+    "bytedancehermestest.com",
+    "falconsending.com",
+    "fei-shu.cn",
+    "feishu-3rd-party-services.com",
+    "feishu-boe.net",
+    "feishu-customer.cn",
+    "feishu-pre.cn",
+    "feishu-pre.net",
+    "feishu-psc.cn",
+    "feishu-staging.cn",
+    "feishu.cn",
+    "feishu.net",
+    "feishuapp-cdn.net",
+    "feishuapp.cn",
+    "feishuapp.com",
+    "feishucdn.com",
+    "feishudoc.cn",
+    "feishudoc.com",
+    "feishuhuiyi.cn",
+    "feishuhuiyi.com",
+    "feishuimg-boe.com",
+    "feishuimg-pre.com",
+    "feishuimg.com",
+    "feishukacdn.com",
+    "feishumeetings.cn",
+    "feishumeetings.com",
+    "feishuoffice.cn",
+    "feishuoffice.com",
+    "feishuopenplatformrecord.com",
+    "feishupkg.com",
+    "feishustatus.cn",
+    "feishuvc.cn",
+    "feishuvc.com",
+    "getfeishu.cn",
+    "getfeishu.com",
+    "getsays.cn",
+    "getsays.com",
+    "lackvc.cn",
+    "securityfeishu.cn",
+    "securityfs.cn",
+    "statusfeishu.cn"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "1354726cbeb21c1f37a5f8b5a675eaa522927f5f8acff118edb8c8a6aa2ba708",
+      "domains_extracted": 43,
+      "evidence_id": "EV-feishu-001-1354726cbeb2",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/feishu.list",
+      "retrieved_at": "2026-09-23T11:28:02.070440+00:00",
+      "service_id": "feishu",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/feishu.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "df166673194a9607433f5539135c3df57c4808f260f88824926cd7e8afbbd3f7",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 0,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "bddc163b10901803c2fcdafa51621b776f049831eb042b8b051e3ee18a5ca311",
+  "previous_domain_count": 0,
+  "release_digest": "774ba504c00dc3a9c58bb77b0cba8c9458b323718aa5eeedf8ee10fc7e8c0211",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "60cfe70850e99bb3f8e76c1f67bbd32d52c7fd2e0c598454412298fb2f8cae7c",
+  "service_id": "feishu",
+  "snapshot_content_sha256": "b5691f9763d1c0cfdf10727bde56aec2f0ca0b7036b0f7eabef5a43f0ad572aa",
+  "snapshot_id": "snap-feishu-774ba504c00dc3a9c58bb77b",
+  "source_bindings": [
+    {
+      "adapter": "upstream_rule",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/feishu.list"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  },
+  "trusted_extracted": 43,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

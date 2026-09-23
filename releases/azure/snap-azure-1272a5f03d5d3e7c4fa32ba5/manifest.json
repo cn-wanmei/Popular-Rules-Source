@@ -1,0 +1,1866 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:c99706218dfd8486e72adfe0b818d3d14c821096394c9265408d7bb1d6081383",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "21vbc.com"
+    },
+    {
+      "asset_id": "sha256:9a11286a582057d20fd2d78bd72142d4f00c9b8cc22f0f72b71c1bb618535cca",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "21vbluecloud.com"
+    },
+    {
+      "asset_id": "sha256:a545585b1065fef41e188469fbec17aaaef633fb952e5d72ef96c02e4dfa20e7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "21vbluecloud.net"
+    },
+    {
+      "asset_id": "sha256:8cefbff9fe96ae69f88c77384ac9bf7bd2e06987d5e5264ed43c8393db0dc0f6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "aadrm.cn"
+    },
+    {
+      "asset_id": "sha256:c52e570714049d19b965d610ebc14d9226779d426577ec267da60782165ab659",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "aadrm.com"
+    },
+    {
+      "asset_id": "sha256:b84a6eafe033cccbc2aea64df2c37aaecceda8c55cd88ad315fdaf3ee165f99f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "aggresmart.com"
+    },
+    {
+      "asset_id": "sha256:8a4b2070071e66dcd12f08df927449f5c738148b8a973aa22a25d9b241b8dd2a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "apihub-internal.cn"
+    },
+    {
+      "asset_id": "sha256:be22071c6479df203bde17427fb647d48828af17097436f5cccd9ce9be726c9d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "appserviceenvironment.cn"
+    },
+    {
+      "asset_id": "sha256:8553f6a0afce268bdab0c87072c63d86dbb915b5dd0a6be134073b578ac1027c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azchcdna.com"
+    },
+    {
+      "asset_id": "sha256:ddb7b26e228f5b60acab5e94a650bb42f6ec28ff8adbb149c85213dcbc4e8665",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azchcdnb.com"
+    },
+    {
+      "asset_id": "sha256:cb9785c27703f4dfc847e879a9fb38ec0ca5686e075d3441a9f0ba8e387d5bbc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azchcdnc.com"
+    },
+    {
+      "asset_id": "sha256:752839c758177017b5744ae44f77969e9180b62f53b71f8d12d255ed544689d5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azchcdnd.com"
+    },
+    {
+      "asset_id": "sha256:433ab0ba3629e20bedd8042aace011b39546b8c9bd276422475e7ae4dd69f9f2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azchcdne.com"
+    },
+    {
+      "asset_id": "sha256:0aaf80de82455f5d8ab1a5f94a73a96b7a281a17bbb31e9cb951bc3c5d6b1958",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azchcdnf.com"
+    },
+    {
+      "asset_id": "sha256:0ea0328984cd8cd5b9d21b44c8448c05db8343ee6160ce2c222be23a0723cee3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azchcdng.com"
+    },
+    {
+      "asset_id": "sha256:00021a38640cb759457a1fdc3a995061faf47b03a8f2403fda349c05907413f0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azchcdnh.com"
+    },
+    {
+      "asset_id": "sha256:65661c4827699874e8e54e7c24b43d5041a821ce552fa0e7d8871eaa690ad151",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azchcdni.com"
+    },
+    {
+      "asset_id": "sha256:b0718eae554e9089d3e01e70d6f8ccb264e8f62377f65f0c6dd6cae5124d52ea",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azchcdnj.com"
+    },
+    {
+      "asset_id": "sha256:632c28546655203a7eabcf61d57d426738f94a6a53f41509dabe16e2777318d6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azchcdnk.com"
+    },
+    {
+      "asset_id": "sha256:e883d57498faf316997e615713d35fdc20844ef877fbf4790484620805d17970",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azchcdnl.com"
+    },
+    {
+      "asset_id": "sha256:2928cec3687767e7243f129ad4f8f2bddc85b6a5a727b3e0427ee12f337e3cf9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azchcdnm.com"
+    },
+    {
+      "asset_id": "sha256:f51eb371bc9eca27c0fde0d9a08fe55882ea036295bd4f7f8e5109dd0126cbe3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azchcdnn.com"
+    },
+    {
+      "asset_id": "sha256:27ea34d2c8d40fdbe05b7c6d864d5f6663b7251fed0f728985fd2c1f93e189da",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azchcdno.com"
+    },
+    {
+      "asset_id": "sha256:caf1d2a6fd17a3adf53e3aab322246d75a7130bce9e06a9027692d1ad753c629",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azchcdnp.com"
+    },
+    {
+      "asset_id": "sha256:cef0cd75563525f1ef4b7c0d1539dd0a8d2a6e0f152a2d050ce7ad59d16d9614",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azchcdnq.com"
+    },
+    {
+      "asset_id": "sha256:d5a7510f6abcd14430a4970f67a06ec1446fb9cfc3ec4f71d697b04cc96c83cd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azchcdnr.com"
+    },
+    {
+      "asset_id": "sha256:4f537f56826f5d19973fea28c0a90b5a528f653ff7e0235a18b68abfbae54ea4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azchcdns.com"
+    },
+    {
+      "asset_id": "sha256:adc3916008ff8385f2b5070ce8f0e84071606c9ff861ecdc643090d3f8ef06da",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azcrmc-test.cn"
+    },
+    {
+      "asset_id": "sha256:90dc94bc5de289d111a4ce07a995bb9ddef178231e1c94cde06cbf490586b801",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azcrmc.cn"
+    },
+    {
+      "asset_id": "sha256:527d9f101886d792b85901179514704ae62d695db4205034370a7a880dde5848",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azk8s.cn"
+    },
+    {
+      "asset_id": "sha256:7216e9525d39126ef8cd3ddda9357727914ac7333887426b8e1ce25b16642cfb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "aznbcontent.cn"
+    },
+    {
+      "asset_id": "sha256:a2272c224e147765dbea2115d15401908cca0427a2b4c3e43458adfac8636fde",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "aztask.cn"
+    },
+    {
+      "asset_id": "sha256:8163effca044618e61b8a01fe503920da0178a45a56862dcc4187df060097623",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-api.cn"
+    },
+    {
+      "asset_id": "sha256:817974c83466d6421ab8fe3c5c92a935e078ad31c04dab6f4fde79eaf8c1ce2f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-api.net"
+    },
+    {
+      "asset_id": "sha256:5e806597a89edadcf3b9acfdd08f0b084bf718843a3fd97f5600866835f9c846",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-apihub.cn"
+    },
+    {
+      "asset_id": "sha256:ef359e0390819b79927d524ab31de68dfd529872ae9dbc385b04d7a042f3d597",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-automation.cn"
+    },
+    {
+      "asset_id": "sha256:6ebf66c1fdc5249e7f14d5fcbc5f742d9d08ec8a59fdf8b36e34b0ea738d131c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-connectedvehicles-stage.cn"
+    },
+    {
+      "asset_id": "sha256:46285d5b1c3ecec15eb5c9402ea3fb688b72ad8fde81e034a7f4977b0ca66a80",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-connectedvehicles.cn"
+    },
+    {
+      "asset_id": "sha256:d8c4e6054bbe8db0cd45d87af7c0f8572c34d6eb45f1086a5699b2901661f0a4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-devices-int.net"
+    },
+    {
+      "asset_id": "sha256:f2fe78be3edb794bc0212d922eaf00584685fa9f43e0edd295932c0e12f47f57",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-devices-provisioning.cn"
+    },
+    {
+      "asset_id": "sha256:0df49b6c43a9090d1b77a6c5e47607b6f01cf6dcc7409f243f792654e8370547",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-devices.cn"
+    },
+    {
+      "asset_id": "sha256:a65709287546111403b6622876c495f454c24cf6e266fb0a9e6467fa678389d0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-devices.net"
+    },
+    {
+      "asset_id": "sha256:7a2dcb3ce50f0055e803877c90ab7dae2700d694b5a10cf2ec107941dd2d55f7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-dns-1.cn"
+    },
+    {
+      "asset_id": "sha256:0f4974c7ef7b83cb69e6d95af7ebca54118c8f55adfbac994524da7fec868bbb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-dns-10.cn"
+    },
+    {
+      "asset_id": "sha256:ff300f189a833206b9bd838c0caea127995512f0ce34d80c24cb31ec2e438ebd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-dns-2.cn"
+    },
+    {
+      "asset_id": "sha256:aaf622769ce9b65ebdd09b8fb60e801ec55f2d82e3e221d673b65e2dca2d4b24",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-dns-3.cn"
+    },
+    {
+      "asset_id": "sha256:f91ba3b82c9f1e22d5b88d6ca1f04a323f21238b14740577e25f67230f2f99a7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-dns-4.cn"
+    },
+    {
+      "asset_id": "sha256:8357e2211190268d88f03b80bb4f0f2d1bd5b9b133503549bc6fba1ca38f2efc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-dns-5.cn"
+    },
+    {
+      "asset_id": "sha256:28405dc25f8968afbea32e6fb5c998168371def69b0e44c45773db382161ac54",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-dns-6.cn"
+    },
+    {
+      "asset_id": "sha256:9e0e0640115efd6ef7b065a21a80d286ca9756b7c97850bd74978c5de2b6099f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-dns-7.cn"
+    },
+    {
+      "asset_id": "sha256:c02881ad97c9a4c83d2d7d73d46ac0e0e4ab67dd6e7872c2b67c0b3dd7c2f2b2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-dns-8.cn"
+    },
+    {
+      "asset_id": "sha256:a9b6ec9ad5a2b3304791d9111cf15fe6c265efb22d719c5eb440b15d129eeb92",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-dns-9.cn"
+    },
+    {
+      "asset_id": "sha256:4cb39f09904106cb250842999b05727d88a2165803581bd29c85b35898d6313b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-dns.cn"
+    },
+    {
+      "asset_id": "sha256:e158e6da40dd67ae7758616df16047f0b18902f6c2a98e466f6f646ed5388dbb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-dns.com"
+    },
+    {
+      "asset_id": "sha256:e36ffb3ffc79a0feb043c09a3d678f4d83fb3a5cfaafb32a918fc3f7c4d432cf",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-dns.info"
+    },
+    {
+      "asset_id": "sha256:e1d12014c667a8da766dfc088019d5da1e02b36d3734e6405b44bad4aa434f12",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-dns.net"
+    },
+    {
+      "asset_id": "sha256:89f978c7c65c7e8d0d2838cc3272e44ce5f24e00f242f5533ce0de95a1f087c9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-dns.org"
+    },
+    {
+      "asset_id": "sha256:cf33de2a136874ae118164f01e09ee88d45b00123341f341c6e06bdf32e5fc8d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-mobile.cn"
+    },
+    {
+      "asset_id": "sha256:09c8ec2b48abdd9e7c55d2ef889e93b5e96bee2d4f54e4322ff29cca1c7aba92",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-mobile.net"
+    },
+    {
+      "asset_id": "sha256:0bba676832bd483199079ca4b02e2cb5b715463864dff4aae318d216d8c5640e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-sphere.com"
+    },
+    {
+      "asset_id": "sha256:2671c8079ceed9f2f6502dd05081a3250a1d3e5dbc4bd4d984f5218fd8c636d9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure-test.net"
+    },
+    {
+      "asset_id": "sha256:9a857bc021f417cf2bf1bcca2dbf1e4ebafdf84d427cca8fb36019a8559f2f7c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure.cn"
+    },
+    {
+      "asset_id": "sha256:83c3a7f20d2d14c65e67fe9e81e412d4e7ff86d1600d877c3d7c252b6ab1128d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure.com"
+    },
+    {
+      "asset_id": "sha256:b10d3e92a734e8bd1203ff4e7352aaaf8991a09070b4744ecd6e853dcfb5a9b3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure.microsoft.com"
+    },
+    {
+      "asset_id": "sha256:4d5ee13fc289a7d1d5d6f692c80780d23970e5adefafac0ddfe4965a156481a9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azure.net"
+    },
+    {
+      "asset_id": "sha256:e94b08634d70e090ba5e2432181dc83c4817f1a77fc946d5d80eafabc1d5d47c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azurecomcdn.net"
+    },
+    {
+      "asset_id": "sha256:b6e2856fb83cfcc040d6c81f484b58b9a1ad91cbf5b9b20ab54bcf433f899346",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azurecomm.net"
+    },
+    {
+      "asset_id": "sha256:58dde9fd6c19da16753fac883bcf7598cd9a5505745ec9db5755b8403ba21fbc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azurecontainer.io"
+    },
+    {
+      "asset_id": "sha256:8c1b6862a081534ee4e34e0f8429d6aa5a42cab98fa6a5b9b4d0766ef9da4b93",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azurecosmos.net"
+    },
+    {
+      "asset_id": "sha256:96f566d531fb352f6eead516c3a6fb56a98f9b30cc56b1d3afe93d0d11ee9092",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azurecosmosdb.com"
+    },
+    {
+      "asset_id": "sha256:ebafd3678fc332aa12bb2c9a89eb880d368c8388240098db31a9c1fd903ae414",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azurecosmosdb.info"
+    },
+    {
+      "asset_id": "sha256:188d422514993d1dc02f27f01e7866b27fb72e285cdd7af5200f32b21d0b6b90",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azurecosmosdb.net"
+    },
+    {
+      "asset_id": "sha256:cf1712b18bfbe21ffcc59cbb611e7bd7d46861a3be2b31a929e69d0b2657d14c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azurecr-test.cn"
+    },
+    {
+      "asset_id": "sha256:eff3283d51fbbbb49e4c96039020934c07074d15506eb4269b6d95b6921f6afc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azurecr.cn"
+    },
+    {
+      "asset_id": "sha256:0de30d596acabeddf9563183df265d9593c8da945a73d9d0cf6d0d6130dbb936",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azuredatabricks.net"
+    },
+    {
+      "asset_id": "sha256:4ae29953b8ed684012fcc2928c995d4dbc129ccbc3eb7a1cd5f76531ac1c0824",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azuredevopslaunch.com"
+    },
+    {
+      "asset_id": "sha256:35efa0bc644d2d94142856fa4dbef61ec3ddd4d090a98eefea5ec2afee0d55a9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azuredigitaltwin.com"
+    },
+    {
+      "asset_id": "sha256:a40a2864e7180f660dc90d6b9f35f4af93f09712c3e13d40b3bd486ac1b31e04",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azuredigitaltwins.com"
+    },
+    {
+      "asset_id": "sha256:716a49e8b9e1c243df3023e4b7758570159c5bd488f8255dd37fc460dd91bd3f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azuredigitaltwins.net"
+    },
+    {
+      "asset_id": "sha256:55d39e7ea5b9c8481aa0a6442e4d26f22471fe885f4f89a26d8a1c318b21c997",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azuredns-prd.info"
+    },
+    {
+      "asset_id": "sha256:f0e3c2a0340ef93cfa90cfb6739ef24467517edd44350099a3c31931ea5507b7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azuredns-prd.org"
+    },
+    {
+      "asset_id": "sha256:fcaf233835d9ee38a9a1bae014494a63d547515e5a65407247d29bf083b04d46",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azureedge-test.net"
+    },
+    {
+      "asset_id": "sha256:a88924c35b6db834615e26c6bdd82917ce710b2125f256bd1c775bf59edea46d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azureedge.net"
+    },
+    {
+      "asset_id": "sha256:f12be22a9f9fdd33d5b45fae83a3e5865bed71d2c58ec8ec936463267a3c7728",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azureedge.us"
+    },
+    {
+      "asset_id": "sha256:d3628a78b9ed4fd3d6a176976fd3b2cce57eb63670254f35da85c744782ee6a1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azurefd.net"
+    },
+    {
+      "asset_id": "sha256:930d0a3dce80b9b20f3ac82f011ab484da53a8bebec137199c50f5d0648bc8ad",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azurehdinsight.cn"
+    },
+    {
+      "asset_id": "sha256:048fe5e6140a19dec15108fd2a53b9a006a08f6197f9268fd55d701cde900829",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azureiotcentral.com"
+    },
+    {
+      "asset_id": "sha256:439e34d53251542d9ffff20441707544a4bf453e52d0e89d22cac54c5d732505",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azureiotsolutions.com"
+    },
+    {
+      "asset_id": "sha256:3f7ddd72fd20f4c8b8afc87669b2de6f2f0b3576bacbe032185af56344dcf6f5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azureiotsuite.cn"
+    },
+    {
+      "asset_id": "sha256:6122ed4025fa882061e9af62d71357b8acd765d3a052dbcd8806e92d8086cd12",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azureiotsuite.com"
+    },
+    {
+      "asset_id": "sha256:4b839f21be75cf8ab89be56a3f6577d2beae0565adb7cadb9143eb9b5759be13",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azuremarketplace.microsoft.com"
+    },
+    {
+      "asset_id": "sha256:e7d4c92050062216d41d08d27d6cb5569c5876522692b8c8d07f83e5edc800f7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azuremresolver.cn"
+    },
+    {
+      "asset_id": "sha256:781c3c6cf956c99f1475c2e5dca1c4e5a45abe79b1b49de06391b3169482a0bf",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azureplanetscale.info"
+    },
+    {
+      "asset_id": "sha256:638f82b47c10523a9eabe275f9ffc99f485026229e37a3fb3cea9c14368f970d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azureplanetscale.net"
+    },
+    {
+      "asset_id": "sha256:e55924d9a3e35be05b0c64fce5fd227aef27b4fda770d00c378ba246ff34e7f0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azureprivatedns.cn"
+    },
+    {
+      "asset_id": "sha256:9d5211d122093da22006260c75dd4f076efd43e1cfefe5dde28d699cd2a4b7a4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azurerms.cn"
+    },
+    {
+      "asset_id": "sha256:1343ca7795f9b651a0f91d310c57367dad9ff70113fbc89ff266cb1637bb3dfb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azuresandbox.cn"
+    },
+    {
+      "asset_id": "sha256:b84562130b9757c7e63337a08c4cfe09ff8f943d992f5bfbef580d1ecb6484b3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azureserviceprofiler.com"
+    },
+    {
+      "asset_id": "sha256:d628de542cfce4decc4a95b2889d7c8ed7ba7fa343d92b125ecefc136747726a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azuresmartspaces.net"
+    },
+    {
+      "asset_id": "sha256:491be2302505b5c1a0c69eb9d15a991c323dc6ad0f7b61088424dbf6b6378760",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azurestackvalidation.com"
+    },
+    {
+      "asset_id": "sha256:ca64542b3cc388f75c93560125be8028b1263ca3f150df468d4f139f53fef9f6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azurestaticapps.net"
+    },
+    {
+      "asset_id": "sha256:4d3b6bb5fb95bf93554162f4bc480e05d7df13f34a85ff9e77105f75b5259c6d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "azurewebsites.net"
+    },
+    {
+      "asset_id": "sha256:4a95a971631a056d1c8b7b6d0b4ceacef595c0fdf947d9dba1e52cef3e460c34",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "b2clogin.cn"
+    },
+    {
+      "asset_id": "sha256:9fc76535c9af6de100685494f8eb2a5a28b553731011195ee922fb5e5755ec74",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "b3itech.cn"
+    },
+    {
+      "asset_id": "sha256:75969b72b740b5ed8c799d74c7234002ffcb9baf4252920e074648fd79ef038d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "blueaggrestore.com"
+    },
+    {
+      "asset_id": "sha256:eaf8362d30b18d752f6c53f8a9cf3f58819fb6cc0f2834aeeaf8a22c6999a811",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "bluecloudprod.com"
+    },
+    {
+      "asset_id": "sha256:55a01b835434bcfa594db84568ae2c1b48bf1fb8f22953bbbb0020c2071f70c5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "botframework.com"
+    },
+    {
+      "asset_id": "sha256:5bd2d1955ca3e844229462acdabe260cb8bdf4027d702e969a6f5e9b2161ea09",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "cegid-cloud.cn"
+    },
+    {
+      "asset_id": "sha256:c748e82f734f40d515085cd85defc739d360f4458c5401b282d9b78a220aa438",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "chinacloud-mobile.cn"
+    },
+    {
+      "asset_id": "sha256:abc9f778c9bf97252549be558fca3dc2c70c7af6e3f6415e0a3d9c71b39f0458",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "chinacloudapi.cn"
+    },
+    {
+      "asset_id": "sha256:f15c0d7516016f392f7a30e9ea562ecc8d2a78b99c88d5b40f2139ae454d54d6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "chinacloudapp.cn"
+    },
+    {
+      "asset_id": "sha256:d1c2be9745b5dc56107cc0dcd1875bf9961257b841bafc7cb829c0d309b93d32",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "chinacloudsites.cn"
+    },
+    {
+      "asset_id": "sha256:47840d8731291f723618a1695bb8725471462630df168fbf616a2ab40beb2f7a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "cosmosdb.info"
+    },
+    {
+      "asset_id": "sha256:704f3574c83e406864bfa132127ac9b167aa9e2575045f951e790e456d924946",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "cosmosdb.net"
+    },
+    {
+      "asset_id": "sha256:dea2e84c4cd6184ae1655ca622fae55cfe3723ec86ab7e788bb428cea2fcb7c4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "devopsms.com"
+    },
+    {
+      "asset_id": "sha256:e7907b4912f59a1de885bd3306cc5f25e568d28c960963d331c746832593c07c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "gotcosmos.com"
+    },
+    {
+      "asset_id": "sha256:6be35b313d4a0b722fc24ea246c56eebdf18a34a81cd54cd8445f2f27ca3c077",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "hdinsightservices.cn"
+    },
+    {
+      "asset_id": "sha256:23dbb14f9993ad58e92f6e0e5eb183f8ea1fca18c22f27fd5559ea8ab0b7f54e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "management-azure-devices-int.net"
+    },
+    {
+      "asset_id": "sha256:c911f0a8c2efaacaf0fc1ea759ef8e38ce5fca3d7488f7488f0161096e7d6501",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "management-azure-devices-provisioning.cn"
+    },
+    {
+      "asset_id": "sha256:e5a8fe6d93ba9e97ab9dc2d9f73e4f462f21eda8fa20f69029510e76ffa6e68b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "management-azure-devices.cn"
+    },
+    {
+      "asset_id": "sha256:e772befceefb341ba5cff4f343c538becadfff226fdafe345f4f488835180875",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "management-azure-devices.net"
+    },
+    {
+      "asset_id": "sha256:d57b53583844a1ff7fa457ff2ad677196e2e77c0a2b1a50da939392f59342204",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "mcchcdn.com"
+    },
+    {
+      "asset_id": "sha256:99d749edde6c6b3134c631ec8f367774fc63d9250b33035eb83edb9f98a965ad",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "mgmt-azure-api.cn"
+    },
+    {
+      "asset_id": "sha256:1e9869d495c7b1e2d8e20bec56e408b96d2c757d2192a10e03cfcb69d7a80282",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "microsoftazuread-sso.com"
+    },
+    {
+      "asset_id": "sha256:d7ff0d8e66d31b952b0d87017e99121523068ab2df322b9148c31c994159291f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "microsoftazuresponsorships.com"
+    },
+    {
+      "asset_id": "sha256:666d62fc4373d196b83dbf3136a01fc3918e89b79ae15407facbcc34d4ccbd98",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "microsoftazurestatus.cn"
+    },
+    {
+      "asset_id": "sha256:6b4611974022a396aa615697b55c2626096e0dbf1d5d9b69c6bf8fe20e931f04",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "microsofteca.com"
+    },
+    {
+      "asset_id": "sha256:9f123162924c3ee2a8bf84a28616489ad3766392da085142c23246e242e9af8a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "microsoftiotcentral.com"
+    },
+    {
+      "asset_id": "sha256:cd27119a17918c1dacb51ba6b2366808750905dccffad90e74dcc908a85d8e78",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "microsoftmetrics.cn"
+    },
+    {
+      "asset_id": "sha256:a6fd51c8a04ebfc9acd431a6eeff67bfea8be3177255d249ef52e961afdf32e5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "mncmsidlab1.cn"
+    },
+    {
+      "asset_id": "sha256:2baef94180b2eea3224541f55a927ba662bb58696de21ffced622557a16ba414",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "msappproxy.cn"
+    },
+    {
+      "asset_id": "sha256:56af51c7cc263bc5fbe61c5b2b0e0f5d37cd5614c88ac04e4324e6a8cbca7032",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "msftcloudes.cn"
+    },
+    {
+      "asset_id": "sha256:c9b75b7012f2b2150d01e34d8f12e63684d73f0f0ac76a195c22f96b73adef98",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "msidentity.cn"
+    },
+    {
+      "asset_id": "sha256:f1d0f08cf642939b5e42bfa0b5c5c4b8be4ad82166a5a62faf5d9ec3d418a088",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "msidlabpbmc.cn"
+    },
+    {
+      "asset_id": "sha256:31c0c024b62e68b4444be140416d46137b839ed147a7e62c318e916472be41dd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "msn.net"
+    },
+    {
+      "asset_id": "sha256:e95bd423c5ec27e573d3aadf67443b089e439506d1d413e1aa15ce6a782f75b6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "playfab.com"
+    },
+    {
+      "asset_id": "sha256:7efac2c68731500c683a9443ac16fb3d647e093fbbc85993a9b2759354e18e4a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "playfabapi.com"
+    },
+    {
+      "asset_id": "sha256:ba5347eef0275655b08f0b9500f4e44643fe764d0b2c63379f0ddb7837434f10",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "serverlesslibrary.net"
+    },
+    {
+      "asset_id": "sha256:ab17c739b1386e3e5188e4761a8ab45826f7cced9a3c604c6f5ce3502d34fb57",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "sovcloud-mx.cn"
+    },
+    {
+      "asset_id": "sha256:7c3eca4047a66e1bd6be089aa985253988b44b5b93b185f056b5b118e10a6db1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "sovcloud-static.cn"
+    },
+    {
+      "asset_id": "sha256:f9c134a6adea0209c37ae03ee3805bc32fd8ba1dba85cd3a21342acfd467cbe2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "sovcloud-usercontent.cn"
+    },
+    {
+      "asset_id": "sha256:162d607a9c63a8f41ef414d28260fe6470aed3d0293406145beb4772ff8d8a8f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "sovcloud.cn"
+    },
+    {
+      "asset_id": "sha256:9ad9306fda40879c0fc39619de652cd518e2411715e9cf8838c805b3419a7215",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "trafficmanager.cn"
+    },
+    {
+      "asset_id": "sha256:c23b5bc56208eb3026ec642ddb50484a894522fe8f96ad31e1070e40acebdf7a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "trafficmanager.net"
+    },
+    {
+      "asset_id": "sha256:f60e252a20ba05c830943bec1e0962d6a061f77d3d30961aea1f1912ca838c52",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "trustcenter.cn"
+    },
+    {
+      "asset_id": "sha256:8e29ff3ac3a0cf2675d2b7d0f66af0479afec09bcada36548912df7aa3a7abf0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "tryfunctions.com"
+    },
+    {
+      "asset_id": "sha256:99c6d0c986f690badb8736b1d8f27e11e306c4be381244ea4fc9ba61728db851",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "windowsazure.cn"
+    },
+    {
+      "asset_id": "sha256:be65ed0bdba7b724e23b91f7eab60f5adb5830023f3da2e5f4de73537c05f57e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "windowsazure.com"
+    },
+    {
+      "asset_id": "sha256:a956530394b474792d1e75d1d4fefdf01924a19937948b42dda5d01503aac2dd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-azure-001-8294f7e67749"
+      ],
+      "service_id": "azure",
+      "type": "domain",
+      "value": "windowsazurestatus.cn"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "a16f317a7f5dea1e04c4523d7e9872a3ba5136673f6b6898b7716b09025a60f5",
+  "created_at": "2026-09-23T11:27:44.603752+00:00",
+  "domain_count": 149,
+  "domain_diff": {
+    "added": [
+      "21vbc.com",
+      "21vbluecloud.com",
+      "21vbluecloud.net",
+      "aadrm.cn",
+      "aadrm.com",
+      "aggresmart.com",
+      "apihub-internal.cn",
+      "appserviceenvironment.cn",
+      "azchcdna.com",
+      "azchcdnb.com",
+      "azchcdnc.com",
+      "azchcdnd.com",
+      "azchcdne.com",
+      "azchcdnf.com",
+      "azchcdng.com",
+      "azchcdnh.com",
+      "azchcdni.com",
+      "azchcdnj.com",
+      "azchcdnk.com",
+      "azchcdnl.com",
+      "azchcdnm.com",
+      "azchcdnn.com",
+      "azchcdno.com",
+      "azchcdnp.com",
+      "azchcdnq.com",
+      "azchcdnr.com",
+      "azchcdns.com",
+      "azcrmc-test.cn",
+      "azcrmc.cn",
+      "azk8s.cn",
+      "aznbcontent.cn",
+      "aztask.cn",
+      "azure-api.cn",
+      "azure-api.net",
+      "azure-apihub.cn",
+      "azure-automation.cn",
+      "azure-connectedvehicles-stage.cn",
+      "azure-connectedvehicles.cn",
+      "azure-devices-int.net",
+      "azure-devices-provisioning.cn",
+      "azure-devices.cn",
+      "azure-devices.net",
+      "azure-dns-1.cn",
+      "azure-dns-10.cn",
+      "azure-dns-2.cn",
+      "azure-dns-3.cn",
+      "azure-dns-4.cn",
+      "azure-dns-5.cn",
+      "azure-dns-6.cn",
+      "azure-dns-7.cn",
+      "azure-dns-8.cn",
+      "azure-dns-9.cn",
+      "azure-dns.cn",
+      "azure-dns.com",
+      "azure-dns.info",
+      "azure-dns.net",
+      "azure-dns.org",
+      "azure-mobile.cn",
+      "azure-mobile.net",
+      "azure-sphere.com",
+      "azure-test.net",
+      "azure.cn",
+      "azure.com",
+      "azure.microsoft.com",
+      "azure.net",
+      "azurecomcdn.net",
+      "azurecomm.net",
+      "azurecontainer.io",
+      "azurecosmos.net",
+      "azurecosmosdb.com",
+      "azurecosmosdb.info",
+      "azurecosmosdb.net",
+      "azurecr-test.cn",
+      "azurecr.cn",
+      "azuredatabricks.net",
+      "azuredevopslaunch.com",
+      "azuredigitaltwin.com",
+      "azuredigitaltwins.com",
+      "azuredigitaltwins.net",
+      "azuredns-prd.info",
+      "azuredns-prd.org",
+      "azureedge-test.net",
+      "azureedge.net",
+      "azureedge.us",
+      "azurefd.net",
+      "azurehdinsight.cn",
+      "azureiotcentral.com",
+      "azureiotsolutions.com",
+      "azureiotsuite.cn",
+      "azureiotsuite.com",
+      "azuremarketplace.microsoft.com",
+      "azuremresolver.cn",
+      "azureplanetscale.info",
+      "azureplanetscale.net",
+      "azureprivatedns.cn",
+      "azurerms.cn",
+      "azuresandbox.cn",
+      "azureserviceprofiler.com",
+      "azuresmartspaces.net",
+      "azurestackvalidation.com",
+      "azurestaticapps.net",
+      "azurewebsites.net",
+      "b2clogin.cn",
+      "b3itech.cn",
+      "blueaggrestore.com",
+      "bluecloudprod.com",
+      "botframework.com",
+      "cegid-cloud.cn",
+      "chinacloud-mobile.cn",
+      "chinacloudapi.cn",
+      "chinacloudapp.cn",
+      "chinacloudsites.cn",
+      "cosmosdb.info",
+      "cosmosdb.net",
+      "devopsms.com",
+      "gotcosmos.com",
+      "hdinsightservices.cn",
+      "management-azure-devices-int.net",
+      "management-azure-devices-provisioning.cn",
+      "management-azure-devices.cn",
+      "management-azure-devices.net",
+      "mcchcdn.com",
+      "mgmt-azure-api.cn",
+      "microsoftazuread-sso.com",
+      "microsoftazuresponsorships.com",
+      "microsoftazurestatus.cn",
+      "microsofteca.com",
+      "microsoftiotcentral.com",
+      "microsoftmetrics.cn",
+      "mncmsidlab1.cn",
+      "msappproxy.cn",
+      "msftcloudes.cn",
+      "msidentity.cn",
+      "msidlabpbmc.cn",
+      "msn.net",
+      "playfab.com",
+      "playfabapi.com",
+      "serverlesslibrary.net",
+      "sovcloud-mx.cn",
+      "sovcloud-static.cn",
+      "sovcloud-usercontent.cn",
+      "sovcloud.cn",
+      "trafficmanager.cn",
+      "trafficmanager.net",
+      "trustcenter.cn",
+      "tryfunctions.com",
+      "windowsazure.cn",
+      "windowsazure.com",
+      "windowsazurestatus.cn"
+    ],
+    "added_count": 149,
+    "current_count": 149,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "21vbc.com",
+    "21vbluecloud.com",
+    "21vbluecloud.net",
+    "aadrm.cn",
+    "aadrm.com",
+    "aggresmart.com",
+    "apihub-internal.cn",
+    "appserviceenvironment.cn",
+    "azchcdna.com",
+    "azchcdnb.com",
+    "azchcdnc.com",
+    "azchcdnd.com",
+    "azchcdne.com",
+    "azchcdnf.com",
+    "azchcdng.com",
+    "azchcdnh.com",
+    "azchcdni.com",
+    "azchcdnj.com",
+    "azchcdnk.com",
+    "azchcdnl.com",
+    "azchcdnm.com",
+    "azchcdnn.com",
+    "azchcdno.com",
+    "azchcdnp.com",
+    "azchcdnq.com",
+    "azchcdnr.com",
+    "azchcdns.com",
+    "azcrmc-test.cn",
+    "azcrmc.cn",
+    "azk8s.cn",
+    "aznbcontent.cn",
+    "aztask.cn",
+    "azure-api.cn",
+    "azure-api.net",
+    "azure-apihub.cn",
+    "azure-automation.cn",
+    "azure-connectedvehicles-stage.cn",
+    "azure-connectedvehicles.cn",
+    "azure-devices-int.net",
+    "azure-devices-provisioning.cn",
+    "azure-devices.cn",
+    "azure-devices.net",
+    "azure-dns-1.cn",
+    "azure-dns-10.cn",
+    "azure-dns-2.cn",
+    "azure-dns-3.cn",
+    "azure-dns-4.cn",
+    "azure-dns-5.cn",
+    "azure-dns-6.cn",
+    "azure-dns-7.cn",
+    "azure-dns-8.cn",
+    "azure-dns-9.cn",
+    "azure-dns.cn",
+    "azure-dns.com",
+    "azure-dns.info",
+    "azure-dns.net",
+    "azure-dns.org",
+    "azure-mobile.cn",
+    "azure-mobile.net",
+    "azure-sphere.com",
+    "azure-test.net",
+    "azure.cn",
+    "azure.com",
+    "azure.microsoft.com",
+    "azure.net",
+    "azurecomcdn.net",
+    "azurecomm.net",
+    "azurecontainer.io",
+    "azurecosmos.net",
+    "azurecosmosdb.com",
+    "azurecosmosdb.info",
+    "azurecosmosdb.net",
+    "azurecr-test.cn",
+    "azurecr.cn",
+    "azuredatabricks.net",
+    "azuredevopslaunch.com",
+    "azuredigitaltwin.com",
+    "azuredigitaltwins.com",
+    "azuredigitaltwins.net",
+    "azuredns-prd.info",
+    "azuredns-prd.org",
+    "azureedge-test.net",
+    "azureedge.net",
+    "azureedge.us",
+    "azurefd.net",
+    "azurehdinsight.cn",
+    "azureiotcentral.com",
+    "azureiotsolutions.com",
+    "azureiotsuite.cn",
+    "azureiotsuite.com",
+    "azuremarketplace.microsoft.com",
+    "azuremresolver.cn",
+    "azureplanetscale.info",
+    "azureplanetscale.net",
+    "azureprivatedns.cn",
+    "azurerms.cn",
+    "azuresandbox.cn",
+    "azureserviceprofiler.com",
+    "azuresmartspaces.net",
+    "azurestackvalidation.com",
+    "azurestaticapps.net",
+    "azurewebsites.net",
+    "b2clogin.cn",
+    "b3itech.cn",
+    "blueaggrestore.com",
+    "bluecloudprod.com",
+    "botframework.com",
+    "cegid-cloud.cn",
+    "chinacloud-mobile.cn",
+    "chinacloudapi.cn",
+    "chinacloudapp.cn",
+    "chinacloudsites.cn",
+    "cosmosdb.info",
+    "cosmosdb.net",
+    "devopsms.com",
+    "gotcosmos.com",
+    "hdinsightservices.cn",
+    "management-azure-devices-int.net",
+    "management-azure-devices-provisioning.cn",
+    "management-azure-devices.cn",
+    "management-azure-devices.net",
+    "mcchcdn.com",
+    "mgmt-azure-api.cn",
+    "microsoftazuread-sso.com",
+    "microsoftazuresponsorships.com",
+    "microsoftazurestatus.cn",
+    "microsofteca.com",
+    "microsoftiotcentral.com",
+    "microsoftmetrics.cn",
+    "mncmsidlab1.cn",
+    "msappproxy.cn",
+    "msftcloudes.cn",
+    "msidentity.cn",
+    "msidlabpbmc.cn",
+    "msn.net",
+    "playfab.com",
+    "playfabapi.com",
+    "serverlesslibrary.net",
+    "sovcloud-mx.cn",
+    "sovcloud-static.cn",
+    "sovcloud-usercontent.cn",
+    "sovcloud.cn",
+    "trafficmanager.cn",
+    "trafficmanager.net",
+    "trustcenter.cn",
+    "tryfunctions.com",
+    "windowsazure.cn",
+    "windowsazure.com",
+    "windowsazurestatus.cn"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "8294f7e677491cd0a5db5e425141f88c3a998646386afcccf51b4c823b41054a",
+      "domains_extracted": 149,
+      "evidence_id": "EV-azure-001-8294f7e67749",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/azure.list",
+      "retrieved_at": "2026-09-23T11:27:44.581633+00:00",
+      "service_id": "azure",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/azure.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "0dadf87a287e012746bf8e9a4f38c8629d26da7130d49129b47481968b4a9bfd",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 0,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "6c22e3375e375f6b2cdc3f162877ace7d51d8fe849faff4ddf973383dcee81a5",
+  "previous_domain_count": 0,
+  "release_digest": "1272a5f03d5d3e7c4fa32ba5cd21db05e41b0375f979c152ec79791be3db0618",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "ccee60fbd089ddf114096fbe3e9d864ea553d63a38ed457dc0989278624d8e32",
+  "service_id": "azure",
+  "snapshot_content_sha256": "a16f317a7f5dea1e04c4523d7e9872a3ba5136673f6b6898b7716b09025a60f5",
+  "snapshot_id": "snap-azure-1272a5f03d5d3e7c4fa32ba5",
+  "source_bindings": [
+    {
+      "adapter": "upstream_rule",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/azure.list"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  },
+  "trusted_extracted": 149,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

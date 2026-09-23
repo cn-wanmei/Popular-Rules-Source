@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "74c638e6478c8f9f404ed8aaf6ee2f06d78bf889354f5785620077b3efdf4be7",
+    "manifest.json": "481604e22702311932ad56cb57109756dc0a4d50c0965aaf1f05a358bc817dc2",
+    "provenance.json": "99b7f67250a1c5ca7b85d8e6faa6fd36a9095b5dbbd361eb1e527975f0581a38",
+    "snapshot_content.json": "4aecd31f94e03469416c5b9a9e0346e2e8a5d410e0db2aa77ce150d0000573ec"
+  },
+  "content_digest": "b5691f9763d1c0cfdf10727bde56aec2f0ca0b7036b0f7eabef5a43f0ad572aa",
+  "created_at": "2026-09-23T11:28:08.141655+00:00",
+  "evidence_digest": "df166673194a9607433f5539135c3df57c4808f260f88824926cd7e8afbbd3f7",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "bddc163b10901803c2fcdafa51621b776f049831eb042b8b051e3ee18a5ca311",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "774ba504c00dc3a9c58bb77b0cba8c9458b323718aa5eeedf8ee10fc7e8c0211",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "feishu",
+  "snapshot_id": "snap-feishu-774ba504c00dc3a9c58bb77b",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

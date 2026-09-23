@@ -1,0 +1,137 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:ed64aebef0db457aac8179d38a6bcde2a136c97ece785cdee3ef3ac12664b3ee",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-neteasemusic-001-cc46a2967df8"
+      ],
+      "service_id": "neteasemusic",
+      "type": "domain",
+      "value": "163yun.com"
+    },
+    {
+      "asset_id": "sha256:a986c272501207f073edc49b2c6c8cc501146be2bdf839b6f406cc6030bc9f36",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-neteasemusic-001-cc46a2967df8"
+      ],
+      "service_id": "neteasemusic",
+      "type": "domain",
+      "value": "api.iplay.163.com"
+    },
+    {
+      "asset_id": "sha256:324eaf868d1db61424fe8860fbcf22c32c43848ead979f79bed881d267731889",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-neteasemusic-001-cc46a2967df8"
+      ],
+      "service_id": "neteasemusic",
+      "type": "domain",
+      "value": "hz.netease.com"
+    },
+    {
+      "asset_id": "sha256:bc002041ed206e693eea67a1133ab521f504812b026c2ad2570461302e1295de",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-neteasemusic-001-cc46a2967df8"
+      ],
+      "service_id": "neteasemusic",
+      "type": "domain",
+      "value": "mam.netease.com"
+    },
+    {
+      "asset_id": "sha256:973947f78dfee8a29172b22c24408743579f83de7b602051b4064de53cada06f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-neteasemusic-001-cc46a2967df8"
+      ],
+      "service_id": "neteasemusic",
+      "type": "domain",
+      "value": "music.126.com"
+    },
+    {
+      "asset_id": "sha256:76c362f45d83fbf82dbd50898e76de716afdb00e10b87289cb302f83dded1b9a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-neteasemusic-001-cc46a2967df8"
+      ],
+      "service_id": "neteasemusic",
+      "type": "domain",
+      "value": "music.126.net"
+    },
+    {
+      "asset_id": "sha256:b7f38e6b0fd44d6a25f4e03c48f58b428eeeafb8c26db920d6cb421deeb61313",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-neteasemusic-001-cc46a2967df8"
+      ],
+      "service_id": "neteasemusic",
+      "type": "domain",
+      "value": "music.163.com"
+    },
+    {
+      "asset_id": "sha256:59d4e2b5b32cc9aa4bf1aa4ff7ea6403b5cd251e599e76315e43b72e1dfafb73",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-neteasemusic-001-cc46a2967df8"
+      ],
+      "service_id": "neteasemusic",
+      "type": "domain",
+      "value": "music.163.com.163jiasu.com"
+    },
+    {
+      "asset_id": "sha256:5f288a73bda04f46996b1733444a5938be0ecc6e1bf1c58b5590eda8bd189058",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-neteasemusic-001-cc46a2967df8"
+      ],
+      "service_id": "neteasemusic",
+      "type": "domain",
+      "value": "netease.ugcvideoss.ourdvs.com"
+    },
+    {
+      "asset_id": "sha256:33f501a5fdcfb3e50698e55f3895f05c9af396aad40825af2ef610214b79aba2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-neteasemusic-001-cc46a2967df8"
+      ],
+      "service_id": "neteasemusic",
+      "type": "domain",
+      "value": "yun-app.net"
+    }
+  ],
+  "content_digest": "618883a29cdfbf0e3d87b9997c6c99357f00299b2e460c7363c24e76ad28e1d3",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "cc46a2967df8ad49e642d389847a5edb6b2b19c4803f79f0113ae393b6046ad5",
+      "domains_extracted": 10,
+      "evidence_id": "EV-neteasemusic-001-cc46a2967df8",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NetEaseMusic/NetEaseMusic.list",
+      "retrieved_at": "2026-09-23T11:27:21.561928+00:00",
+      "service_id": "neteasemusic",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/NetEaseMusic/NetEaseMusic.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "9f550d29171152bcb0ced5af74c108e01a567f013812c19d37979e962dd6364f",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "e925b917a4e953bf920a3d3c2e94d1fc1e658c2dc0e7ae9789e7c8616c0ec544",
+  "release_digest": "e44060214727df2dca508867a3fa1750123b6cd6f255c9669adb9fcb1e810755",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "neteasemusic",
+  "snapshot_id": "snap-neteasemusic-e44060214727df2dca508867",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}

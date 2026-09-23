@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "133447f12552d5b34801e4025ebe1aeb48015ddc46f0536743bb777db05d408b",
+    "manifest.json": "050a1175476d8b4a20e76c0a0e6ab2ae6ccf96358fc0c7e348dcce4be050ec43",
+    "provenance.json": "327f7586c7b3e4ab7c96708901daca7ee4bb62d3571619ce4236fc685e573d3f",
+    "snapshot_content.json": "cc40c5d3b3d871b53533f9e488a937dcabc09fe405cefbc7c479376c466f786f"
+  },
+  "content_digest": "da8e479d82f2530446da5833a01af1f2379b79e959b56438c281cc79f4612773",
+  "created_at": "2026-09-23T11:27:51.830154+00:00",
+  "evidence_digest": "ab3861679402d0f169c79f4e8ab3d704973eadca1c423a1174c29bfb38fb6161",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "be1a85faaec0bb69f03aae37f5ab72fa04f6979ae42645bf4579020e3d29a91a",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "xbox",
+  "snapshot_id": "snap-xbox-be1a85faaec0bb69f03aae37",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

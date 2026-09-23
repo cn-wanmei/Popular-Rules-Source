@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:2e628a73805f397e2ee8813af23b793e8c7c09b964cb1ecff757878052d8985a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qq-001-4a7662449edc"
+      ],
+      "service_id": "qq",
+      "type": "domain",
+      "value": "im.qq.com"
+    }
+  ],
+  "content_digest": "5b9573a7da00db54470714896ae8224403aafa4a6e3521c75415834d6a7aae08",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "4a7662449edcbedbadb613e882544d8fe4b1e5da5649744b4833707711589db6",
+      "domains_extracted": 1,
+      "evidence_id": "EV-qq-001-4a7662449edc",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://im.qq.com/",
+      "retrieved_at": "2026-09-23T11:27:12.379589+00:00",
+      "service_id": "qq",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://im.qq.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "83f6ca702ddfc1ab199ec5974a896fa0226a315ebd373d4fb52c077b7b3e6013",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "72df8f41fee32b270e4d773963947ae985afae4c70253c968ba8ea62ab34e74b",
+  "release_digest": "73cd58e3f219de9a16769f918518961c73829559550da1939bed7b324c139852",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "qq",
+  "snapshot_id": "snap-qq-73cd58e3f219de9a16769f91",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

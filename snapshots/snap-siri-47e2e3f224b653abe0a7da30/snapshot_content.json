@@ -1,0 +1,12 @@
+{
+  "content_digest": "1d851bb995202ee6dc202e1fa1dfee60c575076116e66ae388c4abd9c4dbb7b8",
+  "domains": [
+    "guzzoni.apple.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "siri",
+  "source_hashes": [
+    "670cbd631e045fdcf1ec65882e5f0d67bd4feebf847a6e0b5ca762578bc9fe90"
+  ]
+}

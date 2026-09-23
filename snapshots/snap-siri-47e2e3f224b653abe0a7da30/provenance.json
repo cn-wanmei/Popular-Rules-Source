@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:571cbc8fec3597ccf7e6b1bf858a19a3da46d2c43b4b24f1ec75e43c934289d7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-siri-001-670cbd631e04"
+      ],
+      "service_id": "siri",
+      "type": "domain",
+      "value": "guzzoni.apple.com"
+    }
+  ],
+  "content_digest": "1d851bb995202ee6dc202e1fa1dfee60c575076116e66ae388c4abd9c4dbb7b8",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "670cbd631e045fdcf1ec65882e5f0d67bd4feebf847a6e0b5ca762578bc9fe90",
+      "domains_extracted": 1,
+      "evidence_id": "EV-siri-001-670cbd631e04",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Siri/Siri.list",
+      "retrieved_at": "2026-09-23T11:27:21.738116+00:00",
+      "service_id": "siri",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Siri/Siri.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "4c4448eefe3b88a3cd71cbaa0412192fee7cb42ee768407e717ecd0cef6bc65f",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+  "release_digest": "47e2e3f224b653abe0a7da30c5c3dc5900b59646dc4430a9f3a91bc5e6a142fe",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "siri",
+  "snapshot_id": "snap-siri-47e2e3f224b653abe0a7da30",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}

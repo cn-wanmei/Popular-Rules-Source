@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "42e429a1ca8a8a588d4f5394e0b54866612ee8ed86d972636b7c58786fffa128",
+    "manifest.json": "216d5d35b0a999010219f3759c96ed662d119e6972efe991b2fc22064a89ae82",
+    "provenance.json": "da5dda74a3c686518724a2e63adf60dda15fa38ce19b422c3dbd9f1c9b58e753",
+    "snapshot_content.json": "ec9ad82d5ce1cbb04599152f9de6ecc72458bd39a4878000b30e9c2ad67d4d39"
+  },
+  "content_digest": "6571d910903bce7bb525d0901761910424b847797d9aa28d868c6a40088ed098",
+  "created_at": "2026-09-23T11:28:30.008835+00:00",
+  "evidence_digest": "4b57b99d9d94c53b48afbe974f496ed8baf1a0a3186dba6f02ec6eaebdc1738b",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "fca0694176fab00f253a2b8165f0e07220af625dfae0c0ee47b2d10e4830e169",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "0f9aebbb855d26eaea22e764528ed8385477ca4ad49e1147214b08d3532568a9",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "appledev",
+  "snapshot_id": "snap-appledev-0f9aebbb855d26eaea22e764",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

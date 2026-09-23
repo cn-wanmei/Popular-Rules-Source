@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "1bebcfa45f4f4448a8342dc3ed62adbbe1c11da216c2e656dc235523fa98460e",
+    "manifest.json": "5e2eda74844ecb7524c3c88c83bc9986cacd8c344514338adda0fd2aa8ec5c7a",
+    "provenance.json": "0a2a204f04c38407b30498ddc81ce0a703d9698cd6991342ce92b4e1d2a58d08",
+    "snapshot_content.json": "94dc3054021506e380665a20b9fe4a99db778f5f9ba08cc6e32665fe54b58dc0"
+  },
+  "content_digest": "618883a29cdfbf0e3d87b9997c6c99357f00299b2e460c7363c24e76ad28e1d3",
+  "created_at": "2026-09-23T11:27:28.820398+00:00",
+  "evidence_digest": "9f550d29171152bcb0ced5af74c108e01a567f013812c19d37979e962dd6364f",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "e925b917a4e953bf920a3d3c2e94d1fc1e658c2dc0e7ae9789e7c8616c0ec544",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "e44060214727df2dca508867a3fa1750123b6cd6f255c9669adb9fcb1e810755",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "neteasemusic",
+  "snapshot_id": "snap-neteasemusic-e44060214727df2dca508867",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

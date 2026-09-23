@@ -1,0 +1,114 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:2c4851bf5c783c0e01f150e2001f02e01a744a91870624d58db5aea69d54ee7f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-findmy-001-c4944fd32c12"
+      ],
+      "service_id": "findmy",
+      "type": "domain",
+      "value": "fmfmobile.icloud.com"
+    },
+    {
+      "asset_id": "sha256:5ca604c51d8b8836ce569a09b29232b1f0218b01281cbca1be51c513dfaca3d8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-findmy-001-c4944fd32c12"
+      ],
+      "service_id": "findmy",
+      "type": "domain",
+      "value": "fmipmobile.icloud.com"
+    },
+    {
+      "asset_id": "sha256:c37d681e033f717192d110ec01f3cc6c5ad4583b67d0b5bc11f4cc21d7e0d022",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-findmy-001-c4944fd32c12"
+      ],
+      "service_id": "findmy",
+      "type": "domain",
+      "value": "statici.icloud.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "34612edff0aabe88d492ea519b122619b695de05b8c866c202b076ca6ab2fe45",
+  "created_at": "2026-09-23T11:28:10.431381+00:00",
+  "domain_count": 3,
+  "domain_diff": {
+    "added": [
+      "fmfmobile.icloud.com",
+      "fmipmobile.icloud.com",
+      "statici.icloud.com"
+    ],
+    "added_count": 3,
+    "current_count": 3,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "fmfmobile.icloud.com",
+    "fmipmobile.icloud.com",
+    "statici.icloud.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "c4944fd32c127c4fd855401e515054a66e93b57f9552206fb880b986a5201398",
+      "domains_extracted": 3,
+      "evidence_id": "EV-findmy-001-c4944fd32c12",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/FindMy/FindMy.list",
+      "retrieved_at": "2026-09-23T11:28:10.413844+00:00",
+      "service_id": "findmy",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/FindMy/FindMy.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "86029f64f84a66cedd341a7c0e97319b4d8de59ad4870a5dd6380e6dc7cd1663",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 0,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "e974e77badd7d342ab201c31d40b8d76a0849031aeafbe1241b5de420c807b70",
+  "previous_domain_count": 0,
+  "release_digest": "685aad71cf0c0a95171921dea154ba4e89d22ff27eca834cd47e86f42f17498a",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "2378333e4881a800d2f35a1a2f5ae28aeeeef4951bdc58b33e0bbde73415871e",
+  "service_id": "findmy",
+  "snapshot_content_sha256": "34612edff0aabe88d492ea519b122619b695de05b8c866c202b076ca6ab2fe45",
+  "snapshot_id": "snap-findmy-685aad71cf0c0a95171921de",
+  "source_bindings": [
+    {
+      "adapter": "upstream_rule",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/FindMy/FindMy.list"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  },
+  "trusted_extracted": 3,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

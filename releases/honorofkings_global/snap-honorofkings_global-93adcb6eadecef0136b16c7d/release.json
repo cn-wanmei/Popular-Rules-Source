@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "dbf2e6a868c722d919abaf57d554add4034fcf1d3ec46b01c67e4496d43b27d8",
+    "manifest.json": "a612b9540875c166c8834ae09d4d2589a601b03e87d5b0929f33ee33599d4f0d",
+    "provenance.json": "0fed74905de6e134d09af6bb7b79408d831775a321e6bf5c30144d87d6233e5a",
+    "snapshot_content.json": "7dfaaf1bd17131f1734c54129254c23372766b72be6fd9e9daacdb64e0012c8a"
+  },
+  "content_digest": "a65a9070a8efb6ef57dd2a698711cdbb30a9ba3963e8c009bf538d47b65590af",
+  "created_at": "2026-09-23T11:28:12.844263+00:00",
+  "evidence_digest": "733edbee49f42727e7ad36e9b529cd06e634f05ba4b1ee43e5a41384c4a4151c",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "4ba44b3e8b8a3a36eb1f7c340fdb0a9b5ed59db996c29122cef22b0be5f8fbc0",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "93adcb6eadecef0136b16c7d38b5b470b7d4116e89cf3845083c44312dda769b",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "honorofkings_global",
+  "snapshot_id": "snap-honorofkings_global-93adcb6eadecef0136b16c7d",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 1.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}
