@@ -30,6 +30,31 @@ services:
     source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
     boundary: {shared_infrastructure_allowed: false}
 
+  qq:
+    display_name: "QQ"
+    ecosystem: tencent
+    official_sources: ["https://im.qq.com/"]
+    allowed_host_exact:
+      - aq.qq.com
+      - id.qq.com
+      - im.qq.com
+      - imqq.com
+      - imqq.com.cn
+      - mqqurl.com
+      - ptlogin2.qq.com
+      - qqun.com
+      - qqurl.com
+      - qzone.com
+      - qzoneapp.com
+      - reg.qq.com
+      - ssl.ptlogin2.qq.com
+      - qzone.qq.com
+      - qun.qq.com
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
   qqmail:
     display_name: "QQ邮箱"
     ecosystem: tencent
