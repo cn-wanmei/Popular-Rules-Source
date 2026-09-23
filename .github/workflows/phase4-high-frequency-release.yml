@@ -202,3 +202,4 @@ jobs:
           git push origin main
 
 # Trigger durable Batch4 after direct repository writes.
+# PR execution path validates and persists the generated release.
