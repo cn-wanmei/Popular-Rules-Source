@@ -1,0 +1,7 @@
+service_id: qq
+status: review
+display_name:
+  zh: QQ
+  en: QQ
+ecosystem: tencent
+authoring_note: "QQ is an independent Tencent product service. This authoring unit intentionally excludes QQ Music, QQ Mail, WeChat, Qzone and Tencent Cloud."
