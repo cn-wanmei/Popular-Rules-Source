@@ -1,6 +1,6 @@
 from pathlib import Path
 
-from source_engine.adapters import _domains_from_values, validate_adapter_contract
+from source_engine.adapters import _domains_from_rule_text, _domains_from_values, validate_adapter_contract
 
 
 def test_adapter_contract_is_complete():
@@ -31,3 +31,12 @@ def test_official_fixture_exists():
 
 def test_upstream_fixture_exists():
     assert Path("tests/fixtures/upstream_rule.list").exists()
+
+
+def test_upstream_rule_parser_handles_rule_syntax():
+    found = _domains_from_rule_text(
+        "DOMAIN-SUFFIX,drive.google.com\nDOMAIN,www.googleapis.com\nHOST-SUFFIX,music.youtube.com\n+.ignored.example\n",
+        ("www.googleapis.com",),
+        ("drive.google.com", "music.youtube.com"),
+    )
+    assert found == ["drive.google.com", "music.youtube.com", "www.googleapis.com"]
