@@ -73,14 +73,17 @@ def _domains_from_rule_text(text: str, exact: tuple[str, ...], suffixes: tuple[s
         if not line or line.startswith("#"):
             continue
         prefix, sep, remainder = line.partition(",")
-        if not sep or prefix.strip().upper() not in {
+        if not sep:
+            value = line
+        elif prefix.strip().upper() in {
             "DOMAIN",
             "DOMAIN-SUFFIX",
             "HOST",
             "HOST-SUFFIX",
         }:
+            value = remainder.split(",", 1)[0].strip()
+        else:
             continue
-        value = remainder.split(",", 1)[0].strip()
         if value.startswith("+."):
             value = value[2:]
         domain = normalize_domain(value)
