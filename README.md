@@ -125,11 +125,28 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | Service | Lifecycle | Release | Domains | Snapshot |
 |---|---|---|---:|---|
 | 1688 | **PRODUCTION** | CANDIDATE | 3 | snap-1688-39272fe7087048097f0c13f9 |
+| appledev | **VERIFIED** | NO_SNAPSHOT | 0 | none |
+| applemusic | **VERIFIED** | NO_SNAPSHOT | 0 | none |
+| appstore | **VERIFIED** | NO_SNAPSHOT | 0 | none |
+| azure | **VERIFIED** | NO_SNAPSHOT | 0 | none |
+| baidutieba | **VERIFIED** | NO_SNAPSHOT | 0 | none |
 | cainiao | **PRODUCTION** | CANDIDATE | 1 | snap-cainiao-9c79bba6516f87de3d163407 |
 | dingding | **PRODUCTION** | CANDIDATE | 6 | snap-dingding-e4c0f3c3b4e57308277a22db |
+| douyin | **VERIFIED** | NO_SNAPSHOT | 0 | none |
+| feishu | **VERIFIED** | NO_SNAPSHOT | 0 | none |
+| findmy | **VERIFIED** | NO_SNAPSHOT | 0 | none |
+| googledrive | **VERIFIED** | NO_SNAPSHOT | 0 | none |
+| icloud | **VERIFIED** | NO_SNAPSHOT | 0 | none |
+| neteasemusic | **VERIFIED** | NO_SNAPSHOT | 0 | none |
+| onedrive | **VERIFIED** | NO_SNAPSHOT | 0 | none |
+| qq | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | qqmail | **PRODUCTION** | CANDIDATE | 1 | snap-qqmail-0f8103b3188739c880f10aff |
 | qqmusic | **PRODUCTION** | CANDIDATE | 1 | snap-qqmusic-7c0a2fae200d3fbbec51a4a3 |
 | taobao | **VERIFIED** | CANDIDATE | 14 | snap-taobao-1e6d38ed82f9483e344a3181 |
+| teams | **VERIFIED** | NO_SNAPSHOT | 0 | none |
 | tencentcloud | **PRODUCTION** | CANDIDATE | 1 | snap-tencentcloud-621d7e757e9f59085c87f2ce |
+| testflight | **VERIFIED** | NO_SNAPSHOT | 0 | none |
 | tmall | **VERIFIED** | CANDIDATE | 8 | snap-tmall-6c5457a183ccb42575023864 |
+| wechat | **VERIFIED** | NO_SNAPSHOT | 0 | none |
+| youtubemusic | **VERIFIED** | NO_SNAPSHOT | 0 | none |
 <!-- SOURCE_STATUS:END -->
