@@ -1,0 +1,187 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:ff019be64e12db6a440f4893fbeda2ff07d6ec1de90855ac28d8c54ed9f0f1b2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qq-001-ba70eff642d3"
+      ],
+      "service_id": "qq",
+      "type": "domain",
+      "value": "aq.qq.com"
+    },
+    {
+      "asset_id": "sha256:abd9b82fb92c168794f266c591b33ad2c8bd5ed3c035e679f63ec17d2d290875",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qq-001-ba70eff642d3"
+      ],
+      "service_id": "qq",
+      "type": "domain",
+      "value": "id.qq.com"
+    },
+    {
+      "asset_id": "sha256:2e628a73805f397e2ee8813af23b793e8c7c09b964cb1ecff757878052d8985a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qq-001-ba70eff642d3"
+      ],
+      "service_id": "qq",
+      "type": "domain",
+      "value": "im.qq.com"
+    },
+    {
+      "asset_id": "sha256:3b038d9c34f58890808df0e376cfe300384b869eead60c4cf4e2be9505dd0064",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qq-001-ba70eff642d3"
+      ],
+      "service_id": "qq",
+      "type": "domain",
+      "value": "imqq.com"
+    },
+    {
+      "asset_id": "sha256:3828e7f61ed3b2f38788ce480e232d77469883214e55f150bf5c97ab9b6ff61c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qq-001-ba70eff642d3"
+      ],
+      "service_id": "qq",
+      "type": "domain",
+      "value": "imqq.com.cn"
+    },
+    {
+      "asset_id": "sha256:95e8088c6e40e9230764511d5c177863fd77c1536e0d1d4281e75da35b998d8a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qq-001-ba70eff642d3"
+      ],
+      "service_id": "qq",
+      "type": "domain",
+      "value": "mqqurl.com"
+    },
+    {
+      "asset_id": "sha256:5303066d6106294b488c055a919faff38d1f78a10609763ac5445a57970e933c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qq-001-ba70eff642d3"
+      ],
+      "service_id": "qq",
+      "type": "domain",
+      "value": "ptlogin2.qq.com"
+    },
+    {
+      "asset_id": "sha256:4a872120e2793ab8a686fb9acc012a4d3e7e969501024b9f84455836b34d2df2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qq-001-ba70eff642d3"
+      ],
+      "service_id": "qq",
+      "type": "domain",
+      "value": "qqun.com"
+    },
+    {
+      "asset_id": "sha256:8582fe01663226462b64917790f0f6a8200bc5c6eeeb98146f8076b144d73dd1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qq-001-ba70eff642d3"
+      ],
+      "service_id": "qq",
+      "type": "domain",
+      "value": "qqurl.com"
+    },
+    {
+      "asset_id": "sha256:a9a52ca03ea24731765777b1e00054bf8343b0945e761c90bd198495b727ace9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qq-001-ba70eff642d3"
+      ],
+      "service_id": "qq",
+      "type": "domain",
+      "value": "qun.qq.com"
+    },
+    {
+      "asset_id": "sha256:de997fee3ad5ed9bda9973bc6bbeba6cf76560b1c774a0b3195f19b5abc75346",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qq-001-ba70eff642d3"
+      ],
+      "service_id": "qq",
+      "type": "domain",
+      "value": "qzone.com"
+    },
+    {
+      "asset_id": "sha256:479a13cafdc9c30c43551b0b2ac729faf9abb6dcb4d621d37243f899ab461732",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qq-001-ba70eff642d3"
+      ],
+      "service_id": "qq",
+      "type": "domain",
+      "value": "qzone.qq.com"
+    },
+    {
+      "asset_id": "sha256:4b80af66fe212fddbfff3e4376d224f19b717aaed5effc9e5b7b7ed18b648b47",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qq-001-ba70eff642d3"
+      ],
+      "service_id": "qq",
+      "type": "domain",
+      "value": "qzoneapp.com"
+    },
+    {
+      "asset_id": "sha256:bfd79571dac52d4a4b1ac937053ebb2c4b561d7c18105434c7a0d3ae66c947fd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qq-001-ba70eff642d3"
+      ],
+      "service_id": "qq",
+      "type": "domain",
+      "value": "reg.qq.com"
+    },
+    {
+      "asset_id": "sha256:3c83b9e60bc902b3ccf4382b774bddeb3ef48fbd1eb91904817012c2ed562f70",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qq-001-ba70eff642d3"
+      ],
+      "service_id": "qq",
+      "type": "domain",
+      "value": "ssl.ptlogin2.qq.com"
+    }
+  ],
+  "content_digest": "bca8f813211b84089944658b808628d92d25124b28ece2895a69f8481bfec4d3",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "ba70eff642d3552176a41320d478b9c00ae8befb0e4a7b280a5dbc688f48cb63",
+      "domains_extracted": 15,
+      "evidence_id": "EV-qq-001-ba70eff642d3",
+      "parser_version": "official-web-v1",
+      "resolved_url": "https://im.qq.com/",
+      "retrieved_at": "2026-09-23T10:57:30.163Z",
+      "service_id": "qq",
+      "source_method": "official_web",
+      "source_type": "official",
+      "source_url": "https://im.qq.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "f622a75da1c8bddbd0bd110033b745c80a631ab019d46bb281bcbbecad547aad",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "f61b83c08e1573627508c86312b2d51a7bd4578ae196e2b0f976b1bde9aabed1",
+  "release_digest": "42284c05d41505b9e118a7f19a049ae0c32363103e94db7cac29c239b97c9702",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "qq",
+  "snapshot_id": "snap-qq-42284c05d41505b9e118a7f1",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

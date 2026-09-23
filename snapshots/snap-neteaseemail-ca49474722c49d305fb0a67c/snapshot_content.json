@@ -1,0 +1,16 @@
+{
+  "content_digest": "9296334130a453d5460a776f39ef35ed5e0c18f687cc1451b009367781c1d590",
+  "domains": [
+    "mail.126.com",
+    "mail.163.com",
+    "mail.yeah.net"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "neteaseemail",
+  "source_hashes": [
+    "6d2a0c0ae5e76f9e54ff6783befd9095c86b4e082587e126407f907475593b8a",
+    "b221e6e8578c647d5219741a2510bdc204863c0ac8ad8e1dcb68559713a91133",
+    "5dcd362498e7acb69acfa07c9c3821a2b15891ba2271049a2e846f06296c90fa"
+  ]
+}

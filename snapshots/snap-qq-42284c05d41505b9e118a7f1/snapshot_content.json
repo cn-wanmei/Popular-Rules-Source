@@ -1,0 +1,26 @@
+{
+  "content_digest": "bca8f813211b84089944658b808628d92d25124b28ece2895a69f8481bfec4d3",
+  "domains": [
+    "aq.qq.com",
+    "id.qq.com",
+    "im.qq.com",
+    "imqq.com",
+    "imqq.com.cn",
+    "mqqurl.com",
+    "ptlogin2.qq.com",
+    "qqun.com",
+    "qqurl.com",
+    "qun.qq.com",
+    "qzone.com",
+    "qzone.qq.com",
+    "qzoneapp.com",
+    "reg.qq.com",
+    "ssl.ptlogin2.qq.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "qq",
+  "source_hashes": [
+    "ba70eff642d3552176a41320d478b9c00ae8befb0e4a7b280a5dbc688f48cb63"
+  ]
+}

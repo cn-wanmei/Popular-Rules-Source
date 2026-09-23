@@ -1,0 +1,97 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:32d91cab74cd4bbd446e5dd4257d6a2b7ed34e073ee6792c102e84f90c512bb5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-honorofkings_global-001-27a65b178fe7"
+      ],
+      "service_id": "honorofkings_global",
+      "type": "domain",
+      "value": "honorofkings.com"
+    },
+    {
+      "asset_id": "sha256:5722b07cfc55f19e7bb5195100890f7b88b9f3f153d0467f793c6817d45da611",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-honorofkings_global-001-27a65b178fe7"
+      ],
+      "service_id": "honorofkings_global",
+      "type": "domain",
+      "value": "www.honorofkings.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0,
+    "removal_ratio": 0,
+    "status": "OK"
+  },
+  "content_digest": "67674cc06147d4cce0c477d9cb62142463d12bcc60b89383d26a5775157b8289",
+  "created_at": "2026-09-23T10:57:30.163Z",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "honorofkings.com",
+      "www.honorofkings.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "honorofkings.com",
+    "www.honorofkings.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "27a65b178fe754319b3b1f5682cc2769dea3e5520dac4096bf23f629363b8312",
+      "domains_extracted": 2,
+      "evidence_id": "EV-honorofkings_global-001-27a65b178fe7",
+      "parser_version": "official-web-v1",
+      "resolved_url": "https://www.honorofkings.com/",
+      "retrieved_at": "2026-09-23T10:57:30.163Z",
+      "service_id": "honorofkings_global",
+      "source_method": "official_web",
+      "source_type": "official",
+      "source_url": "https://www.honorofkings.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "a7b580012d453895bc4a173487ce801fcfa92fd5fe1493ec14fc0bffebe470dd",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "c2c4987920dc31609831b57754e93946f0fffb163036f746e954f34221281720",
+  "previous_domain_count": 0,
+  "release_digest": "fe8b3504fe8ce38843ef700996725fd4dc1581a19ae7a1524fe15a35ca4193d0",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "346c3330602717160e3c608c8482a0c9efb9584c4692a5271122de7d50884e82",
+  "service_id": "honorofkings_global",
+  "snapshot_content_sha256": "67674cc06147d4cce0c477d9cb62142463d12bcc60b89383d26a5775157b8289",
+  "snapshot_id": "snap-honorofkings_global-fe8b3504fe8ce38843ef7009",
+  "source_bindings": [],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 0,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

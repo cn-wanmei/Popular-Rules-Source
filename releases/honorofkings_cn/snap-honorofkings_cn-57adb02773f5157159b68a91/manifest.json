@@ -1,0 +1,85 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:acba7d4f4736d5c39846aa1dc36aac12eeb2a700aa4f6a3bc36365999e663678",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-honorofkings_cn-001-f73e1d51ac8f"
+      ],
+      "service_id": "honorofkings_cn",
+      "type": "domain",
+      "value": "pvp.qq.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0,
+    "removal_ratio": 0,
+    "status": "OK"
+  },
+  "content_digest": "7fc1bf6018b8658b5afaffa1ef9cfadb611c6897e8e88cf18a0aed83d0d2f282",
+  "created_at": "2026-09-23T10:57:30.163Z",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "pvp.qq.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "pvp.qq.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "f73e1d51ac8f1f83a48ff178ad4c793f3cd31000c14aaa17aea82b65c7ac0d97",
+      "domains_extracted": 1,
+      "evidence_id": "EV-honorofkings_cn-001-f73e1d51ac8f",
+      "parser_version": "official-web-v1",
+      "resolved_url": "https://pvp.qq.com/",
+      "retrieved_at": "2026-09-23T10:57:30.163Z",
+      "service_id": "honorofkings_cn",
+      "source_method": "official_web",
+      "source_type": "official",
+      "source_url": "https://pvp.qq.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "951005cb237df6b5241599df6fc03e658c2136f716127cce74a9dc63fb880e48",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "3dc2eeaac4a02dd24067a7f77461ea0b10a76f51df759eea61a3ca0dc94cba2a",
+  "previous_domain_count": 0,
+  "release_digest": "57adb02773f5157159b68a91e7b844b358f37eff0c56e82096f01cf06efd8be9",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "b527df8d1a7656e197475869f5c8bd651ec94a0356c18727afbfd996def0d79e",
+  "service_id": "honorofkings_cn",
+  "snapshot_content_sha256": "7fc1bf6018b8658b5afaffa1ef9cfadb611c6897e8e88cf18a0aed83d0d2f282",
+  "snapshot_id": "snap-honorofkings_cn-57adb02773f5157159b68a91",
+  "source_bindings": [],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 0,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}
