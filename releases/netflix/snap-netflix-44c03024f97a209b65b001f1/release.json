@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "b1e1bb7d32f176618ef7335b6e5ea5ced9bca71e540e694a40bf48a34d3ac5bf",
+    "manifest.json": "6d7e7e38d7b3c19ff400c1612a0ddd1aa573363a43d4cea39f5f1780adc22039",
+    "provenance.json": "c0320f499787a805d17f19536f0c402ccddb169a2a49e4b7492cec831ab9a075",
+    "snapshot_content.json": "086c20d789fd8199493d5831399fd9132accd99fc9b3c08efe5a2530d1e11a9c"
+  },
+  "content_digest": "cd1651259d94ee21a9384bd8c78b0a6aeccc49eb8faf6b36a5a413a645c605cd",
+  "created_at": "2026-09-23T10:46:02.990Z",
+  "evidence_digest": "be781ac9f95ccabf56d6338c64a1a446153fc53806e520497b214a5a70fe1796",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "2da5b541320044b1147670c9748ea5593404ff4b88e8e82f74c7823a83a45afa",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "44c03024f97a209b65b001f1d4fd81cd65a8450bd58673ec3dbabb5225822b1e",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "netflix",
+  "snapshot_id": "snap-netflix-44c03024f97a209b65b001f1",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0,
+      "removal_ratio": 0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

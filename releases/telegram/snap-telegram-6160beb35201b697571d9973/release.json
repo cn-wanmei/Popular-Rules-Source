@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "3abc15984247e8fad7a150abd0aeeeceb2a437b86ab1dd7fd2dd04ff2f113eae",
+    "manifest.json": "2eca09bca21734a77588d0358d70a830a0b23b9b59e54b41d10d0b242293cee1",
+    "provenance.json": "63cb4d3ad641289faceab8a925e1c2841ea426b0744603b7795973a7d85408fb",
+    "snapshot_content.json": "03a9773b4b736fe8cb009f112cb699ecd0638cd8dcdbb14c3d4559108da2e928"
+  },
+  "content_digest": "e1decb4fe0958ca923ac03b453975b0eff2d1fde016188e75aa2e3c695049a17",
+  "created_at": "2026-09-23T10:46:02.990Z",
+  "evidence_digest": "9de479ce19bbdd7f51595d035b2dedacbb51c1200557848bbeb3a78d10261505",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "2da5b541320044b1147670c9748ea5593404ff4b88e8e82f74c7823a83a45afa",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "6160beb35201b697571d99735d339152084eb93586313755b6addb40175ce1cc",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "telegram",
+  "snapshot_id": "snap-telegram-6160beb35201b697571d9973",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0,
+      "removal_ratio": 0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

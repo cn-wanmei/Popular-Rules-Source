@@ -1,0 +1,618 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:da41cba1961c55dc8b418dc935c228733ca787b47948e19e27c140a2403f569d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "algolia.net"
+    },
+    {
+      "asset_id": "sha256:041d3ab3f59c3508465a642a674573901593ae76d0b54fa3a9ea36eb4b0bdb70",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "api.microsoftapp.net"
+    },
+    {
+      "asset_id": "sha256:99cb4139c4a4c071481ce66570b56e932fc5b36a80ea7ed9c12c9dc46590f61a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "api.msn.com"
+    },
+    {
+      "asset_id": "sha256:de7c8cea6c12a746c27600b986e19b5d5ceff80d6d8ffe48eb3fe6ecb73e5263",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "api.statsig.com"
+    },
+    {
+      "asset_id": "sha256:675e2e456f09662099729bfa40182bd9eb7597e6aa776581273145e8f26d684c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "assets.msn.com"
+    },
+    {
+      "asset_id": "sha256:a396f08bc32f296337a6e5813f43d624d092529b8d98b0cd30ae07f1707d9bf4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "auth0.com"
+    },
+    {
+      "asset_id": "sha256:dd3f0e9a3e87180dc86b132fc05177c085ded5e725ee0c3cbe2de78028e99772",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "bing-shopping.microsoft-falcon.io"
+    },
+    {
+      "asset_id": "sha256:ed98f760e3ed0cd7cdf185dbeddabb589f084c4687498f45b0bbd8dd7d13cfd3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "browser-intake-datadoghq.com"
+    },
+    {
+      "asset_id": "sha256:a3f4e586bd5c381ce27cd2b40fb6ec3658eafeceefa22f68f586b6344b537a8a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "chat.openai.com.cdn.cloudflare.net"
+    },
+    {
+      "asset_id": "sha256:85b1feab06ff1596b61434e2322653a844f7ac867c09455b02e7e7907db020d6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "chatgpt.com"
+    },
+    {
+      "asset_id": "sha256:666011ca85a22224ef9b3cfd06f1a5fdbd8d7f68abacb03c6c78d3cf5bb5403d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "chatgpt.livekit.cloud"
+    },
+    {
+      "asset_id": "sha256:5507b2c5396f4986485b257fd530f9202e63f124a8a7a759580422781752cd05",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "client-api.arkoselabs.com"
+    },
+    {
+      "asset_id": "sha256:a537affee738385738301382597bbe40955a745f37e4a3275bddcc72f6ca9e03",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "copilot.microsoft.com"
+    },
+    {
+      "asset_id": "sha256:01881405a540e2b657bddd5c2e4d22752f51d47167cbfb497bb854c0d69973eb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "edgeservices.bing.com"
+    },
+    {
+      "asset_id": "sha256:b0ce1cb1dc36fe7df424a0fd37137b0400c59a42304799ae30dd8599b26034b1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "events.statsigapi.net"
+    },
+    {
+      "asset_id": "sha256:0b816a136c863df707ca0e51ddd71488721ab74a67375847ea016c708de4f947",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "featuregates.org"
+    },
+    {
+      "asset_id": "sha256:df48a71f76748b38ee377b6de734105a926e51185eaf947c9a82cfe106c7e53d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "gateway.bingviz.microsoft.net"
+    },
+    {
+      "asset_id": "sha256:c247d7523a5fd6a930df38bc85f689052040682a60e0b8029c2679a70101c332",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "gateway.bingviz.microsoftapp.net"
+    },
+    {
+      "asset_id": "sha256:d445d066d0ff872e0e88132fc23ff392febca4648fa2c5d6c2d1faa6720f0114",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "host.livekit.cloud"
+    },
+    {
+      "asset_id": "sha256:62a8ad7cf62f46b4c8c2f9bf9d9f47511bc98715ac760ef9075f2296d9950cf5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "identrust.com"
+    },
+    {
+      "asset_id": "sha256:c8a45e71407ea0a2987de543447eaa1d4390bf53bac24e32400066e14c4a8fc0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "in.appcenter.ms"
+    },
+    {
+      "asset_id": "sha256:7f330e0d5e15a09de434bd7d56cee0f76ab1b185787393c0b8a2595d1027bc3a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "intercom.io"
+    },
+    {
+      "asset_id": "sha256:e12dd7a5ec41cf219910c630b917908da59829f2899990f59c1a853f3c07fe28",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "intercomcdn.com"
+    },
+    {
+      "asset_id": "sha256:53835b12e5de0aec9f89bdcc084667114d309363ca1594d4df3c24840e648a3f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "launchdarkly.com"
+    },
+    {
+      "asset_id": "sha256:4b29108b07bf06330155748f651c20a1fada8005a40ab5b5fb32180b8675da61",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "location.microsoft.com"
+    },
+    {
+      "asset_id": "sha256:80eb8672da6ab5ead4783e3f40b66012314eaec70a802faa7caccb5cb0a9f577",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "oaistatic.com"
+    },
+    {
+      "asset_id": "sha256:07685daddf160a539a80c9990842af348c882e67d1d02e8145ec5a74b766ee46",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "oaiusercontent.com"
+    },
+    {
+      "asset_id": "sha256:80b66979d429eaec4b737e52d97d0fc939550971dbb109249b3d15f0c376e955",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "observeit.net"
+    },
+    {
+      "asset_id": "sha256:9412a25a261a037f9fa2dd44c60a54fef92e3d6bf8238bb60f6ac055267ebe4c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "odc.officeapps.live.com"
+    },
+    {
+      "asset_id": "sha256:e60d1b7f271eb1d9444c07ca67dff450b73d5a48a26d90bacf471397174c0c33",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "openai-api.arkoselabs.com"
+    },
+    {
+      "asset_id": "sha256:b75090a55d43cec2f75ce3072fadc424cf63c8ef4ad6497b70d9371b360824e8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "openai.com"
+    },
+    {
+      "asset_id": "sha256:52d48b14a27de39e6e75fe3fd52e15333c42a8635f78674582ac70c3c3f4c042",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "openaiapi-site.azureedge.net"
+    },
+    {
+      "asset_id": "sha256:ec6f56faa10a2ad6bba27c0ef0a28c8ad45ebd9eb2471b2059c139acbdc0f66c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "openaicom.imgix.net"
+    },
+    {
+      "asset_id": "sha256:96b2b617c865401fafcff3e86e404a326e222c40cc28cbe751803acfff35959d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "openaicomproductionae4b.blob.core.windows.net"
+    },
+    {
+      "asset_id": "sha256:1425d8051b3c220b2950135ffafd015a26d9407b2bb8683d7d7bd7bf1a1518eb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "production-openaicom-storage.azureedge.net"
+    },
+    {
+      "asset_id": "sha256:da2aae7481a56648fccd6ec3388c462e85f893d655ced04773b436249d44ee9c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "r.bing.com"
+    },
+    {
+      "asset_id": "sha256:be69b1fb8d217b4fbd040169c49ca7e8d0af8298e2fe612ae6ea2da5e4355853",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "segment.io"
+    },
+    {
+      "asset_id": "sha256:44da4f17c63120db3c95525dc977d7a0706c5ba6a7f3d418fa99d73fde2168d7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "self.events.data.microsoft.com"
+    },
+    {
+      "asset_id": "sha256:cdb617a810ec50886fc623afbfce5eea9403e4b19be0ac2a9652223d1bc97fb3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "sentry.io"
+    },
+    {
+      "asset_id": "sha256:4d8e50435acfd041beac2e5de6718eef9759897ad8b5a5536cdb3067220a83e8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "services.bingapis.com"
+    },
+    {
+      "asset_id": "sha256:3df40da437e46f4472fec4d0318925962617386ffe5937e65eb485e0946161cf",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "static.cloudflareinsights.com"
+    },
+    {
+      "asset_id": "sha256:8ab7a60ab7cf5c8a06945f837c4ac66ffcf80791a87c5a9553a3a76703233d7b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "stripe.com"
+    },
+    {
+      "asset_id": "sha256:3accf44f0590a03ca9cc86f904d55f398fd3a9dedebed29afa6bb30ed916cf02",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "sydney.bing.com"
+    },
+    {
+      "asset_id": "sha256:658a87d9e22289f236a2117ab6283f133aea498f2f9247e6d10a30ef335e7ba7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "turn.livekit.cloud"
+    },
+    {
+      "asset_id": "sha256:8303743e4546cc5533e94a6d32ce3420be2aca826fca2f6aba620d530f360102",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-copilot-001-12773330de34"
+      ],
+      "service_id": "copilot",
+      "type": "domain",
+      "value": "www.bing.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0,
+    "removal_ratio": 0,
+    "status": "OK"
+  },
+  "content_digest": "75ee528ac909dd61679359fef9ebca6ddb59642b2bbe8992c9b7e9be111465ee",
+  "created_at": "2026-09-23T10:46:02.990Z",
+  "domain_count": 45,
+  "domain_diff": {
+    "added": [
+      "algolia.net",
+      "api.microsoftapp.net",
+      "api.msn.com",
+      "api.statsig.com",
+      "assets.msn.com",
+      "auth0.com",
+      "bing-shopping.microsoft-falcon.io",
+      "browser-intake-datadoghq.com",
+      "chat.openai.com.cdn.cloudflare.net",
+      "chatgpt.com",
+      "chatgpt.livekit.cloud",
+      "client-api.arkoselabs.com",
+      "copilot.microsoft.com",
+      "edgeservices.bing.com",
+      "events.statsigapi.net",
+      "featuregates.org",
+      "gateway.bingviz.microsoft.net",
+      "gateway.bingviz.microsoftapp.net",
+      "host.livekit.cloud",
+      "identrust.com",
+      "in.appcenter.ms",
+      "intercom.io",
+      "intercomcdn.com",
+      "launchdarkly.com",
+      "location.microsoft.com",
+      "oaistatic.com",
+      "oaiusercontent.com",
+      "observeit.net",
+      "odc.officeapps.live.com",
+      "openai-api.arkoselabs.com",
+      "openai.com",
+      "openaiapi-site.azureedge.net",
+      "openaicom.imgix.net",
+      "openaicomproductionae4b.blob.core.windows.net",
+      "production-openaicom-storage.azureedge.net",
+      "r.bing.com",
+      "segment.io",
+      "self.events.data.microsoft.com",
+      "sentry.io",
+      "services.bingapis.com",
+      "static.cloudflareinsights.com",
+      "stripe.com",
+      "sydney.bing.com",
+      "turn.livekit.cloud",
+      "www.bing.com"
+    ],
+    "added_count": 45,
+    "current_count": 45,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "algolia.net",
+    "api.microsoftapp.net",
+    "api.msn.com",
+    "api.statsig.com",
+    "assets.msn.com",
+    "auth0.com",
+    "bing-shopping.microsoft-falcon.io",
+    "browser-intake-datadoghq.com",
+    "chat.openai.com.cdn.cloudflare.net",
+    "chatgpt.com",
+    "chatgpt.livekit.cloud",
+    "client-api.arkoselabs.com",
+    "copilot.microsoft.com",
+    "edgeservices.bing.com",
+    "events.statsigapi.net",
+    "featuregates.org",
+    "gateway.bingviz.microsoft.net",
+    "gateway.bingviz.microsoftapp.net",
+    "host.livekit.cloud",
+    "identrust.com",
+    "in.appcenter.ms",
+    "intercom.io",
+    "intercomcdn.com",
+    "launchdarkly.com",
+    "location.microsoft.com",
+    "oaistatic.com",
+    "oaiusercontent.com",
+    "observeit.net",
+    "odc.officeapps.live.com",
+    "openai-api.arkoselabs.com",
+    "openai.com",
+    "openaiapi-site.azureedge.net",
+    "openaicom.imgix.net",
+    "openaicomproductionae4b.blob.core.windows.net",
+    "production-openaicom-storage.azureedge.net",
+    "r.bing.com",
+    "segment.io",
+    "self.events.data.microsoft.com",
+    "sentry.io",
+    "services.bingapis.com",
+    "static.cloudflareinsights.com",
+    "stripe.com",
+    "sydney.bing.com",
+    "turn.livekit.cloud",
+    "www.bing.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "12773330de34b84b7fd2f3f2af598480ea62d8574d8e9b8ae9d011a53c044d39",
+      "domains_extracted": 45,
+      "evidence_id": "EV-copilot-001-12773330de34",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Copilot/Copilot.list",
+      "retrieved_at": "2026-09-23T10:46:02.990Z",
+      "service_id": "copilot",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Copilot/Copilot.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "6e7a66122b3b0329ec2e119eb6b853b20b78087120a1fc538fe7f9e27eac438e",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 0,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "2da5b541320044b1147670c9748ea5593404ff4b88e8e82f74c7823a83a45afa",
+  "previous_domain_count": 0,
+  "release_digest": "faa83bc25fd7cfe3613e5095276bf106f1e44a207d2a44d7e7b48944f1cf9a45",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "2ea35fca5bdcb3ac563ca871fb695a037a2b3a0c23bd5bcd0537dfa97091dacf",
+  "service_id": "copilot",
+  "snapshot_content_sha256": "75ee528ac909dd61679359fef9ebca6ddb59642b2bbe8992c9b7e9be111465ee",
+  "snapshot_id": "snap-copilot-faa83bc25fd7cfe3613e5095",
+  "source_bindings": [
+    {
+      "adapter": "upstream_rule",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Copilot/Copilot.list"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  },
+  "trusted_extracted": 45,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

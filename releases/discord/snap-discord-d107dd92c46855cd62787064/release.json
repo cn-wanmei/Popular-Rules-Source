@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "a88efb6fe6e8357437b4a53ac73bf25add9b27549bc0faebd41b6cd8ff2447ba",
+    "manifest.json": "7f6074d53cb738bca0cf227c6aa837973c41bf12e9cca26ca05f094c52e577ca",
+    "provenance.json": "db28433f9ad41b54581e140fb0ca910d95532be0b4c281c97f0e88f96c446115",
+    "snapshot_content.json": "652524b9ddab770c5e25adac1729672596566971c6379908f89d1ecbb1d1ff19"
+  },
+  "content_digest": "8f996912e0484f5828628f50a353cabe15128cae86560489b9a5abbfbf5c1caa",
+  "created_at": "2026-09-23T10:46:02.990Z",
+  "evidence_digest": "f97f94efa77cab1bce71c462f7113d9535465427b6d9d60db0cee73be406bc57",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "2da5b541320044b1147670c9748ea5593404ff4b88e8e82f74c7823a83a45afa",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "d107dd92c46855cd6278706453370b41e8e06fe81e5d7b83fc4037f86aa49ad1",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "discord",
+  "snapshot_id": "snap-discord-d107dd92c46855cd62787064",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0,
+      "removal_ratio": 0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

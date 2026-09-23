@@ -1,0 +1,702 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:a6659cbc4d11c6b206205a2c986fd03631f9eabd9a1e78aa0d75d1d5eda3df31",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "aod.itunes.apple.com"
+    },
+    {
+      "asset_id": "sha256:b1561e731fa575afa8c495cb3ad43ebcd4b84fa38faa3fb92b40c1cd78c0c31d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "apple.comscoreresearch.com"
+    },
+    {
+      "asset_id": "sha256:fcdc853cf6a5936d0d020baf5574fcc36204bd058b8ddeca154550009d5b3b00",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "apple.news"
+    },
+    {
+      "asset_id": "sha256:f37be5048ab3f7bca0c3fa1ed3033712e212fb78ccc5825014405b5a861b94f4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "appleenews.com"
+    },
+    {
+      "asset_id": "sha256:062460a8cf444476b93ab22d9e8b542d74764f91a2050905f467b0a4e48b203b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "applemusic.berlin"
+    },
+    {
+      "asset_id": "sha256:c86c4e057d40f60596ebd820220e7cc5e103cbef25a5ebfeebff6c248652ba82",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "applemusic.co"
+    },
+    {
+      "asset_id": "sha256:ce2677b225b2bf91ce3963ffe29f73a6f1038021b8d64b1830a0eb7b61a95710",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "applemusic.com"
+    },
+    {
+      "asset_id": "sha256:35d4c349272d31222191ddd8beb3823b8d42c9b373ca3732114ae1d5ed43553b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "applemusic.com.au"
+    },
+    {
+      "asset_id": "sha256:c51ef15c620ae21578f6dcb7c12641236296ffd3d6f7a92e6a0217c394370f1f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "applemusic.hamburg"
+    },
+    {
+      "asset_id": "sha256:e7d13b1671beb74ad368d258c0cebfb47039320932591ab5905ceb228556ed5d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "applemusic.wang"
+    },
+    {
+      "asset_id": "sha256:8fb6c81af7f49b09e146af20afb18cea7159f506af5fb66dac50b4f61c2a463e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "applemusicconnect.com"
+    },
+    {
+      "asset_id": "sha256:c45b4727295dc9b3a22674fd0e4ff190ed8e556e0a46c8e8ae558ce5ef3c0f27",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "applemusicfestival.com"
+    },
+    {
+      "asset_id": "sha256:5e4862391d45c012871dd2be97ea2bfa7e3e74389403b75580d8b9cfce15741f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "applenews.berlin"
+    },
+    {
+      "asset_id": "sha256:a4cc4f3b68f9753a0cfdb991c6465694c6df8e3a65a7484129e047dc09c7f032",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "applenews.hamburg"
+    },
+    {
+      "asset_id": "sha256:e4b51e11240f7e5e101a9e1cb7daea47b50e1a26355cc24eb3cb1e89a53e4963",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "applenews.tv"
+    },
+    {
+      "asset_id": "sha256:ed6f3df513ec5f0d9141f8e630508606eae7d5a2d87ef5f482a13d47b60cd562",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "applenewsformat.com"
+    },
+    {
+      "asset_id": "sha256:0d2b16244b5c32d579ee7c97c6b54c62fafcf716be2ee4c49f9921307ea0c653",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "appletv.com"
+    },
+    {
+      "asset_id": "sha256:ba8a748ca4ce194b62c788b4849f20854f0b1bc4ce52c938aab7fc24ad2964dd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "appletv.fr"
+    },
+    {
+      "asset_id": "sha256:bdbb57cc9b330f070e49c558e862cc5a99f50bdf98569f7442310705274ca7a3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "appletv.wang"
+    },
+    {
+      "asset_id": "sha256:80b37c8ecefbfe35d73d8c7163c05eb9af3e4760e324b2c54cb74dda616fee41",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "appletv4.cn"
+    },
+    {
+      "asset_id": "sha256:8bc66b7b5a0acdbeb32fade4effe932a39c8395674580e950c7d2ea3de7228da",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "appletv4.com.cn"
+    },
+    {
+      "asset_id": "sha256:525d214cd1040a9471649fdb5670f2d418c210519030927cf8746da43b9bf0d6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "appletvapp.apple"
+    },
+    {
+      "asset_id": "sha256:ca67bd5f07e0cc9b0e68ed271c608f79b454d51ca05f9c7d38ec1dd2514f2615",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "audio-ssl.itunes.apple.com"
+    },
+    {
+      "asset_id": "sha256:31a5ce0c92934a36d8214cfea9827c97a7c713f364a4b6adaff1e833b0401565",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "audio.itunes.apple.com"
+    },
+    {
+      "asset_id": "sha256:9e8c6730008a645340ab680df3cf4f832673e207172720cc986db1f70ed4c066",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "blobstore.apple.com"
+    },
+    {
+      "asset_id": "sha256:c6f9e3a53f3802d5ba9b81c026cc6504a2f3fae11a1ff3437510e25dc3e579d5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "hls-amt.itunes.apple.com"
+    },
+    {
+      "asset_id": "sha256:ee4a269803100b1a142b8fbcc5ccd4bd6ad06c52709c31696c5d6f3b24b22cc0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "hls.itunes.apple.com"
+    },
+    {
+      "asset_id": "sha256:885fd4db5ca5a4e326ac1efcf2dcc997a8b31fb9acb5d0e1ec46ec21fa06e9b0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "i-book.com"
+    },
+    {
+      "asset_id": "sha256:a136cbf33b47d47ff086a99878247c5448f27e9116d6a1e767ca0236c4513a98",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "i-book.net"
+    },
+    {
+      "asset_id": "sha256:74c4920294a08d6fd3644958b665c41c1a67a68d7dab046a1f6d709b28fd5bbb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "ibook.co.nz"
+    },
+    {
+      "asset_id": "sha256:5a2a50449bd31f2d3b42dd390bbd614c1af4fd404e1b0ecca70308b5008463b6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "ibook.com"
+    },
+    {
+      "asset_id": "sha256:666702f56a0215370e0cf39877c3ca7c7a45522aba29b9066fd6cff502349720",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "ibook.eu"
+    },
+    {
+      "asset_id": "sha256:34123caedf6b8809c6bb5cc872c1e0e2dfee3befb2e999396b6dc1e924c63f58",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "ibook.net"
+    },
+    {
+      "asset_id": "sha256:dc31759c2464af9fbd66b83d95f37ed0c5e12e9475f31de0e782a2a6f6f68a34",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "ibookpartner.com"
+    },
+    {
+      "asset_id": "sha256:5cc36e1354883ed1e741d50e627d47bafa5331a9955a6ccc4a813bd93dfa1107",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "ibooksauthor.com"
+    },
+    {
+      "asset_id": "sha256:a3ea99960a6c777e0bee0dd0013465e0e755fd9587b244f299c3fc047a34151c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "imovie.eu"
+    },
+    {
+      "asset_id": "sha256:7ee16726d236c4a63743382b2101937c6c4bcb53bb338c3b53e351176ba19cfa",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "imoviegallery.com"
+    },
+    {
+      "asset_id": "sha256:43c17fbe33643f6e0b7cde8ccfd607a63c0614e272341afb519e8862ef5b476a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "imoviestage.com"
+    },
+    {
+      "asset_id": "sha256:fdf35bf015fef2ac02f4334188ebd3aebab653d8f81c529447e88157483bd60a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "iphoto.eu"
+    },
+    {
+      "asset_id": "sha256:a6b56443038644fbb24016c8fc617d09c9b7f6f36de35c90431175dad8766388",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "iphoto.no"
+    },
+    {
+      "asset_id": "sha256:4e3e205718003b7f743e733b2808e2513af3534acb2ec62554a1fb6e812db24b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "iphoto.se"
+    },
+    {
+      "asset_id": "sha256:908e01f1a57bdc343063d1b3cebf61bf941711e60f8a0c9fc704c1da7ce37f99",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "iphoto.wang"
+    },
+    {
+      "asset_id": "sha256:4febc8db3c42390ab5cd6eac41edd1be14a0fb5d4d0f42f1d3e64570ba319cb7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "musickit.net"
+    },
+    {
+      "asset_id": "sha256:a4a813130b1630d9079c57bf40ced539f310862749e895b4c16e26aece85b69a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "mvod.itunes.apple.com"
+    },
+    {
+      "asset_id": "sha256:584c3db499d96eb0130a88625eba5fb925db538bffd0b180ac0725d407d52117",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "news-assets.apple.com"
+    },
+    {
+      "asset_id": "sha256:d3ee37f7ce38b721b6432a9c251fcd4debd3f074fcea632bb43e2a5193ce4533",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "news-client.apple.com"
+    },
+    {
+      "asset_id": "sha256:b79ffddaeab1d0d3b0c36afbfc577bc283be442989270b33f4ee6ef0ec2ef6fd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "news-edge.apple.com"
+    },
+    {
+      "asset_id": "sha256:6a80101d1810188d040ab737452903ab63f9fb843d7179afd2c661c1041f143b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "news-events.apple.com"
+    },
+    {
+      "asset_id": "sha256:1f80825ac6af6bcbb78afba6f76c21d41b691a6faa2aa664ca2eceee9d6b14a7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "play-edge.itunes.apple.com"
+    },
+    {
+      "asset_id": "sha256:ffad30e08de34e4817c4d925f0b3dc36d517b71d7c844d1b09b0903cb2f271fa",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "streamingaudio.itunes.apple.com"
+    },
+    {
+      "asset_id": "sha256:5d4f1bdd634aacb73157d7481b427cf8f879567214e5ea7bf2daa91a3f39a01c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "tv.apple.com"
+    },
+    {
+      "asset_id": "sha256:0713913e5957dd53efea7b43f570263911e7e75c48aaa2904c54f3c939d21e79",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemedia-001-0757b8eab284"
+      ],
+      "service_id": "applemedia",
+      "type": "domain",
+      "value": "wwwapplemusic.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0,
+    "removal_ratio": 0,
+    "status": "OK"
+  },
+  "content_digest": "9f0615abbf33f49c6fc97d1dd363173897160c527388e7d7a704e457bad46ae8",
+  "created_at": "2026-09-23T10:46:02.990Z",
+  "domain_count": 52,
+  "domain_diff": {
+    "added": [
+      "aod.itunes.apple.com",
+      "apple.comscoreresearch.com",
+      "apple.news",
+      "appleenews.com",
+      "applemusic.berlin",
+      "applemusic.co",
+      "applemusic.com",
+      "applemusic.com.au",
+      "applemusic.hamburg",
+      "applemusic.wang",
+      "applemusicconnect.com",
+      "applemusicfestival.com",
+      "applenews.berlin",
+      "applenews.hamburg",
+      "applenews.tv",
+      "applenewsformat.com",
+      "appletv.com",
+      "appletv.fr",
+      "appletv.wang",
+      "appletv4.cn",
+      "appletv4.com.cn",
+      "appletvapp.apple",
+      "audio-ssl.itunes.apple.com",
+      "audio.itunes.apple.com",
+      "blobstore.apple.com",
+      "hls-amt.itunes.apple.com",
+      "hls.itunes.apple.com",
+      "i-book.com",
+      "i-book.net",
+      "ibook.co.nz",
+      "ibook.com",
+      "ibook.eu",
+      "ibook.net",
+      "ibookpartner.com",
+      "ibooksauthor.com",
+      "imovie.eu",
+      "imoviegallery.com",
+      "imoviestage.com",
+      "iphoto.eu",
+      "iphoto.no",
+      "iphoto.se",
+      "iphoto.wang",
+      "musickit.net",
+      "mvod.itunes.apple.com",
+      "news-assets.apple.com",
+      "news-client.apple.com",
+      "news-edge.apple.com",
+      "news-events.apple.com",
+      "play-edge.itunes.apple.com",
+      "streamingaudio.itunes.apple.com",
+      "tv.apple.com",
+      "wwwapplemusic.com"
+    ],
+    "added_count": 52,
+    "current_count": 52,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "aod.itunes.apple.com",
+    "apple.comscoreresearch.com",
+    "apple.news",
+    "appleenews.com",
+    "applemusic.berlin",
+    "applemusic.co",
+    "applemusic.com",
+    "applemusic.com.au",
+    "applemusic.hamburg",
+    "applemusic.wang",
+    "applemusicconnect.com",
+    "applemusicfestival.com",
+    "applenews.berlin",
+    "applenews.hamburg",
+    "applenews.tv",
+    "applenewsformat.com",
+    "appletv.com",
+    "appletv.fr",
+    "appletv.wang",
+    "appletv4.cn",
+    "appletv4.com.cn",
+    "appletvapp.apple",
+    "audio-ssl.itunes.apple.com",
+    "audio.itunes.apple.com",
+    "blobstore.apple.com",
+    "hls-amt.itunes.apple.com",
+    "hls.itunes.apple.com",
+    "i-book.com",
+    "i-book.net",
+    "ibook.co.nz",
+    "ibook.com",
+    "ibook.eu",
+    "ibook.net",
+    "ibookpartner.com",
+    "ibooksauthor.com",
+    "imovie.eu",
+    "imoviegallery.com",
+    "imoviestage.com",
+    "iphoto.eu",
+    "iphoto.no",
+    "iphoto.se",
+    "iphoto.wang",
+    "musickit.net",
+    "mvod.itunes.apple.com",
+    "news-assets.apple.com",
+    "news-client.apple.com",
+    "news-edge.apple.com",
+    "news-events.apple.com",
+    "play-edge.itunes.apple.com",
+    "streamingaudio.itunes.apple.com",
+    "tv.apple.com",
+    "wwwapplemusic.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "0757b8eab284f2309bd099e195b8a44f748328e6bb834d8119ba88fe6f88a5ed",
+      "domains_extracted": 52,
+      "evidence_id": "EV-applemedia-001-0757b8eab284",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMedia/AppleMedia.list",
+      "retrieved_at": "2026-09-23T10:46:02.990Z",
+      "service_id": "applemedia",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMedia/AppleMedia.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "868d01084ae47ba551a15dbedc2017d4d7e8ebf22c930a4aeaa13d13eeea88fe",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 0,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "2da5b541320044b1147670c9748ea5593404ff4b88e8e82f74c7823a83a45afa",
+  "previous_domain_count": 0,
+  "release_digest": "66f80c88e1491611ceed31316e491ba5f702512bf9d4db3244995a6a4881bf60",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "5ecbc92b54d2ad4e41ffc6ed4b7eea020d978653cead55514953808145b7b230",
+  "service_id": "applemedia",
+  "snapshot_content_sha256": "9f0615abbf33f49c6fc97d1dd363173897160c527388e7d7a704e457bad46ae8",
+  "snapshot_id": "snap-applemedia-66f80c88e1491611ceed3131",
+  "source_bindings": [
+    {
+      "adapter": "upstream_rule",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMedia/AppleMedia.list"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  },
+  "trusted_extracted": 52,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

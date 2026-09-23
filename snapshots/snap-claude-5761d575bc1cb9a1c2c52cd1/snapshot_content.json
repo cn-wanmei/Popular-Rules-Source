@@ -1,0 +1,14 @@
+{
+  "content_digest": "04999f1cbf3cd882e18ebd164db57158b7e21cfb3aa90a9d9dc269cfabac0225",
+  "domains": [
+    "anthropic.com",
+    "cdn.usefathom.com",
+    "claude.ai"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "claude",
+  "source_hashes": [
+    "870e7e25d798e7f00338507f773b0eea4dfd15e25e9df0a27d5ae421ae1ab378"
+  ]
+}

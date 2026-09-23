@@ -1,0 +1,347 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:150bc6d937e38225d3da58023530debd84560cfcbb9eb0de2e0af99028b6f21e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "ai.com"
+    },
+    {
+      "asset_id": "sha256:bb4352d08df1618ba9c048e09643019295dd20e3a879bbdc55a3d3c8282a1cdf",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "algolia.net"
+    },
+    {
+      "asset_id": "sha256:1c34b5d35f84ec50a24ea5ba1d43e588bbbd357b57505a39e61193bde64a0732",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "api.statsig.com"
+    },
+    {
+      "asset_id": "sha256:accc34b4e844eb06edeb2fe477cbc61352ce2326528f8af4b55f13155d154dea",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "auth0.com"
+    },
+    {
+      "asset_id": "sha256:38563012b916e2c4822e0e479e67f93a87aae95eb50354dfb3c4ccae5c433fa6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "browser-intake-datadoghq.com"
+    },
+    {
+      "asset_id": "sha256:861fad69d33c61426a679f2db158358e4c881766ccb91bd96165a744881a516d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "chat.openai.com.cdn.cloudflare.net"
+    },
+    {
+      "asset_id": "sha256:25431c6b24da51e376dbded93e4d410a0aae281d4e2395ea74d4c4c8a26c672a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "chatgpt.com"
+    },
+    {
+      "asset_id": "sha256:ff60c24cd5b1ddd123c72dc072440b98a6f7c40e67b6d76e7d1cad938fb86d24",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "chatgpt.livekit.cloud"
+    },
+    {
+      "asset_id": "sha256:0b621fb89ae38a98e64f8ca07e8945c22c8444005968042e1444c47f659a51c1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "client-api.arkoselabs.com"
+    },
+    {
+      "asset_id": "sha256:c6426495954f49f89f5e8f9fbfee66f29f0fb2ad0071a6848fe382c533ea5d42",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "events.statsigapi.net"
+    },
+    {
+      "asset_id": "sha256:7258d67990b9bca8e8f9202c9afbe1ece7a58e7445eeaa18be4c275b36d8c2fc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "featuregates.org"
+    },
+    {
+      "asset_id": "sha256:33b21b15defcb8868c148400ee2d172047314704a202aeac231d619b6ac2a8fe",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "host.livekit.cloud"
+    },
+    {
+      "asset_id": "sha256:5e43609c4008fb0a8c416b01daa3c6fc8640fc627d6d9e582716e101003fe253",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "identrust.com"
+    },
+    {
+      "asset_id": "sha256:e48226e19891ee65db24b38d4c6ce60dc75bb7d4b3fe09953be10b471c0a2ca4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "intercom.io"
+    },
+    {
+      "asset_id": "sha256:a5b4413d80365bd89e9d2660dee0e372745d4dc1e873389e53adc1650dbef572",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "intercomcdn.com"
+    },
+    {
+      "asset_id": "sha256:d9ef609645da1ef12b311bc61c3e4b417b4bc26f4e937a5e342e3fc18d9b2517",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "launchdarkly.com"
+    },
+    {
+      "asset_id": "sha256:c142dafb53f073a199e1afaf2fa1de8764a6f480974f32385c2db46189e1a387",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "oaistatic.com"
+    },
+    {
+      "asset_id": "sha256:0af56e7c781c06efddb5212139ad598cd2019052659d65e397259b6033ee1918",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "oaiusercontent.com"
+    },
+    {
+      "asset_id": "sha256:8e570c2a6babb4904700bcac08d812194238415fce09f81d0ee4629e0cfa0d16",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "observeit.net"
+    },
+    {
+      "asset_id": "sha256:46b0d6dbc80cde6e131ed714a3380625e4ec1da47bf5b780ae713b7f500fef2f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "openai-api.arkoselabs.com"
+    },
+    {
+      "asset_id": "sha256:fc286aea8506cf373ffbade2724af7d43e85606d9edf7ffbfbc3f9814dc8cb92",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "openai.com"
+    },
+    {
+      "asset_id": "sha256:c55e2aea60139f8ed983548d1a16dc4dfbc05779e2183523c2e0aff562d62b2d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "openaiapi-site.azureedge.net"
+    },
+    {
+      "asset_id": "sha256:0c8bff400ec74298cedcd7eb2d038a89f4e62b00a2d8adfd475474f0b57d9e2b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net"
+    },
+    {
+      "asset_id": "sha256:61118a99b166038679399e4f89f656f2dad3bab3a96a3b40aa8fa623d4ea285c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "openaicom.imgix.net"
+    },
+    {
+      "asset_id": "sha256:d8e855711ac2e3d7d82bb5a6577f23c4f8ea33e7dd91c1d8bb7948be3db05b17",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "openaicomproductionae4b.blob.core.windows.net"
+    },
+    {
+      "asset_id": "sha256:3e66d449a4fd65a468b595e83e99596dcbb0c0800dceb30f9be52ce29d63dd17",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "production-openaicom-storage.azureedge.net"
+    },
+    {
+      "asset_id": "sha256:f5f53a08eece4ef3a5479fac532de69260ae09c640c60e893eeea92e82d73b3c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "segment.io"
+    },
+    {
+      "asset_id": "sha256:ab5b5d7aa8a20ef5737048882821c243df5400f8cd7f4f7aaea74d076c3191ea",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "sentry.io"
+    },
+    {
+      "asset_id": "sha256:4e4655f49712b9faa985fa5193d2ab6adeaed691ffedf738db5c0d4dd900c1d3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "static.cloudflareinsights.com"
+    },
+    {
+      "asset_id": "sha256:29c68027b2b3a44a1153e6e4823759df070d5ca08956fd6d26752213626f442c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "stripe.com"
+    },
+    {
+      "asset_id": "sha256:7d64b9618cc889f4aab01633ed9ca75f3edb66ce555d579ab6a01d9bc34666bf",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-001-6f4047cdbf69"
+      ],
+      "service_id": "openai",
+      "type": "domain",
+      "value": "turn.livekit.cloud"
+    }
+  ],
+  "content_digest": "bd11e98368b5f5502e1f2ab561270dbfea6f7986ed2522b3327c8e0e7cb877fb",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "6f4047cdbf6953cf5d9b38c4ccd6da7bc6f1acb91b7a87134f25d5b8f5d2408b",
+      "domains_extracted": 31,
+      "evidence_id": "EV-openai-001-6f4047cdbf69",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.list",
+      "retrieved_at": "2026-09-23T10:46:02.990Z",
+      "service_id": "openai",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "7cc478d173473b2cf4a574b7a0e26ae4af94df159140837eeb691957ba863f2a",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "2da5b541320044b1147670c9748ea5593404ff4b88e8e82f74c7823a83a45afa",
+  "release_digest": "959bece38ef894600083c410ab15613039c59f19e5f538819184cbcf276ea6e2",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "openai",
+  "snapshot_id": "snap-openai-959bece38ef894600083c410",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}

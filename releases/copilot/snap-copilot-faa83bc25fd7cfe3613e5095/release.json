@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "e5741c46735293337436c3e05ca2688a771eef1d263181c9104fd6463da2ce2a",
+    "manifest.json": "e344c85477b3687768de2089d41cbe9e5a1e925c6f18dd05f608f3e407481044",
+    "provenance.json": "037cbf52644da07d32030950f9b9302feeae49734e0733b5ea8427656fb3a64b",
+    "snapshot_content.json": "446f9b273e23762839174701f0329a80efd543637b3c05fa63b549101f22567d"
+  },
+  "content_digest": "75ee528ac909dd61679359fef9ebca6ddb59642b2bbe8992c9b7e9be111465ee",
+  "created_at": "2026-09-23T10:46:02.990Z",
+  "evidence_digest": "6e7a66122b3b0329ec2e119eb6b853b20b78087120a1fc538fe7f9e27eac438e",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "2da5b541320044b1147670c9748ea5593404ff4b88e8e82f74c7823a83a45afa",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "faa83bc25fd7cfe3613e5095276bf106f1e44a207d2a44d7e7b48944f1cf9a45",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "copilot",
+  "snapshot_id": "snap-copilot-faa83bc25fd7cfe3613e5095",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0,
+      "removal_ratio": 0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

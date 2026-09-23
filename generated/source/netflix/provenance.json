@@ -1,0 +1,450 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:fc38414037dbabac05a5123ec1dce27844933e5e14894b9859f134a45289f74b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "cookielaw.org"
+    },
+    {
+      "asset_id": "sha256:8218e5b0d35d19349249d38c442a35797f2a1035ec97fcdfae5945a831ff8a38",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "e13252.dscg.akamaiedge.net"
+    },
+    {
+      "asset_id": "sha256:794a5373b7ec6907fa350dafdfa1b078a380c383fd0a764a39e40d6e6ad3b935",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "fast.com"
+    },
+    {
+      "asset_id": "sha256:cdd00a571dd55111777a488a07bf4596914cd8ae89e7123f64f0984f1a525a9a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "flxvpn.net"
+    },
+    {
+      "asset_id": "sha256:c5684834b6e3e4f8f14a86e5df0fb59a99515918bc3944b2846d1f05e22a76a6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "h-netflix.online-metrix.net"
+    },
+    {
+      "asset_id": "sha256:b6665b31abcfac1d67df826b39d797aa10c18785a4c6501a0dfa8b12cde71ee5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "netflix.ca"
+    },
+    {
+      "asset_id": "sha256:8df0af3ae4fac10ad9476ffb1a702117248e7e21cd5713d850c0881fd3b33ac7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "netflix.com"
+    },
+    {
+      "asset_id": "sha256:1370316efca62a10f679b799e80f6685e94197fb6f652068f0917cb971f22029",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "netflix.com.au"
+    },
+    {
+      "asset_id": "sha256:67d43a11a4c643f07a5d2f6bc9f8cb110c8d1691cb4ada134c92d0140ebd6d8a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "netflix.com.edgesuite.net"
+    },
+    {
+      "asset_id": "sha256:bb8957211bd2b298702a930b5227888f7dac7917f3c7e813245c6011a66312af",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "netflix.net"
+    },
+    {
+      "asset_id": "sha256:cb2482d4f8edfba1101d469a78b0b1171541e53d7e3d89ee2b4888502e350819",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "netflixdnstest0.com"
+    },
+    {
+      "asset_id": "sha256:17244e4b084fbcd2aa0c3ec8bfc98403ebc5bbe30ee150380a5fc050dd1d6ff2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "netflixdnstest1.com"
+    },
+    {
+      "asset_id": "sha256:40a8a9d4b89188f4d9b330c1df405f75eddb6b7206567f63a850aab00b4f4676",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "netflixdnstest10.com"
+    },
+    {
+      "asset_id": "sha256:1b03c4695de8f2578221a19844e8891981326715dc457c3b38a05e83012b676e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "netflixdnstest2.com"
+    },
+    {
+      "asset_id": "sha256:1d96c90a3e7ba5c3da15326d6c144522a78ad691f2d964262948ee04742d8dcd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "netflixdnstest3.com"
+    },
+    {
+      "asset_id": "sha256:33ffe30c5f473509a2dc3429b4c4cc4da33ff9f09721635944171d20c6dd62d4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "netflixdnstest4.com"
+    },
+    {
+      "asset_id": "sha256:bf707c690327714362f5f5b4c592c121dd3da5a89c17a383bc12c3f8ee46d8c7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "netflixdnstest5.com"
+    },
+    {
+      "asset_id": "sha256:e8f6b43dd158861d3b83a5b94148b059ba1f708d477221c673ccefdb107c6931",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "netflixdnstest6.com"
+    },
+    {
+      "asset_id": "sha256:1ac5eb29b0551404c76153ae1b19e516987ab25413a1417d921c892523302a3e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "netflixdnstest7.com"
+    },
+    {
+      "asset_id": "sha256:2e136f5a5ddd8add509e68c8dac0b26d4f554b8197e0a16069e65e9ea0a205bf",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "netflixdnstest8.com"
+    },
+    {
+      "asset_id": "sha256:121ecb6f1f3797950782e3a1a800a65949761dff9023fa404f2b380104411fbb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "netflixdnstest9.com"
+    },
+    {
+      "asset_id": "sha256:b538247ee6d33adf28e58a39a7b65bf8b436bb89c4f29eb54af8348afb0e6db0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "netflixinvestor.com"
+    },
+    {
+      "asset_id": "sha256:05fe1e359ab347ad752c550552e157dadfe297532bb0f31a51bd338bd9b3e3b2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "netflixstudios.com"
+    },
+    {
+      "asset_id": "sha256:799079e005f773c1addf722e6384004c52da4027b611f4ab0f76ee4c7ae70960",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "netflixtechblog.com"
+    },
+    {
+      "asset_id": "sha256:f97a1e3b7c13e0b3a85707b431bad9c049bf2ed1d9b60414469ed2feece1844c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "nflxext.com"
+    },
+    {
+      "asset_id": "sha256:8a056c52a797c2b12a2c87956c4c075ad4357cf91545eb57ade789f271b06a3b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "nflximg.com"
+    },
+    {
+      "asset_id": "sha256:8ff4d86fdfda7d3f45b601947c03affb279967cfdd5656b9087ed0a2439e7c2a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "nflximg.net"
+    },
+    {
+      "asset_id": "sha256:ffca8089bddbdffc77254e60f1c3d7b9f6ff029ed221f091224ed5f5f5435180",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "nflxsearch.net"
+    },
+    {
+      "asset_id": "sha256:e5d4d4cb31642de31b3c786d912efb9ce6381f66abf4fdd9b42c20e218083e59",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "nflxso.net"
+    },
+    {
+      "asset_id": "sha256:2de8c6c6d0bb42d24404f10222eeb4abe50dc5a6a8cb89c41d8d7216bb17a01e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "nflxvideo.net"
+    },
+    {
+      "asset_id": "sha256:6d9b860dfc390e20c668a6adeb705f4321b61ee29064c4d8103852c589f17ae8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netflix-001-9ceac35682ac"
+      ],
+      "service_id": "netflix",
+      "type": "domain",
+      "value": "onetrust.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0,
+    "removal_ratio": 0,
+    "status": "OK"
+  },
+  "content_digest": "cd1651259d94ee21a9384bd8c78b0a6aeccc49eb8faf6b36a5a413a645c605cd",
+  "created_at": "2026-09-23T10:46:02.990Z",
+  "domain_count": 31,
+  "domain_diff": {
+    "added": [
+      "cookielaw.org",
+      "e13252.dscg.akamaiedge.net",
+      "fast.com",
+      "flxvpn.net",
+      "h-netflix.online-metrix.net",
+      "netflix.ca",
+      "netflix.com",
+      "netflix.com.au",
+      "netflix.com.edgesuite.net",
+      "netflix.net",
+      "netflixdnstest0.com",
+      "netflixdnstest1.com",
+      "netflixdnstest10.com",
+      "netflixdnstest2.com",
+      "netflixdnstest3.com",
+      "netflixdnstest4.com",
+      "netflixdnstest5.com",
+      "netflixdnstest6.com",
+      "netflixdnstest7.com",
+      "netflixdnstest8.com",
+      "netflixdnstest9.com",
+      "netflixinvestor.com",
+      "netflixstudios.com",
+      "netflixtechblog.com",
+      "nflxext.com",
+      "nflximg.com",
+      "nflximg.net",
+      "nflxsearch.net",
+      "nflxso.net",
+      "nflxvideo.net",
+      "onetrust.com"
+    ],
+    "added_count": 31,
+    "current_count": 31,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "cookielaw.org",
+    "e13252.dscg.akamaiedge.net",
+    "fast.com",
+    "flxvpn.net",
+    "h-netflix.online-metrix.net",
+    "netflix.ca",
+    "netflix.com",
+    "netflix.com.au",
+    "netflix.com.edgesuite.net",
+    "netflix.net",
+    "netflixdnstest0.com",
+    "netflixdnstest1.com",
+    "netflixdnstest10.com",
+    "netflixdnstest2.com",
+    "netflixdnstest3.com",
+    "netflixdnstest4.com",
+    "netflixdnstest5.com",
+    "netflixdnstest6.com",
+    "netflixdnstest7.com",
+    "netflixdnstest8.com",
+    "netflixdnstest9.com",
+    "netflixinvestor.com",
+    "netflixstudios.com",
+    "netflixtechblog.com",
+    "nflxext.com",
+    "nflximg.com",
+    "nflximg.net",
+    "nflxsearch.net",
+    "nflxso.net",
+    "nflxvideo.net",
+    "onetrust.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "9ceac35682ac97d17223d90e08c4e56b52c072b1698d746a2d22444110318b57",
+      "domains_extracted": 31,
+      "evidence_id": "EV-netflix-001-9ceac35682ac",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.list",
+      "retrieved_at": "2026-09-23T10:46:02.990Z",
+      "service_id": "netflix",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "be781ac9f95ccabf56d6338c64a1a446153fc53806e520497b214a5a70fe1796",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 0,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "2da5b541320044b1147670c9748ea5593404ff4b88e8e82f74c7823a83a45afa",
+  "previous_domain_count": 0,
+  "release_digest": "44c03024f97a209b65b001f1d4fd81cd65a8450bd58673ec3dbabb5225822b1e",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "26b2fb15f25aa9411bec0c53faddf7787599633d788c6a5b6f77f8850839e67e",
+  "service_id": "netflix",
+  "snapshot_content_sha256": "cd1651259d94ee21a9384bd8c78b0a6aeccc49eb8faf6b36a5a413a645c605cd",
+  "snapshot_id": "snap-netflix-44c03024f97a209b65b001f1",
+  "source_bindings": [
+    {
+      "adapter": "upstream_rule",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.list"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  },
+  "trusted_extracted": 31,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

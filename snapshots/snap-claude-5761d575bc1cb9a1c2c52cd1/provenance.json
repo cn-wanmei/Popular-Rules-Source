@@ -1,0 +1,67 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:cc0cf32281db2d4481a588d7facaccda45fc9a0ead98ed1e4104a2c77d1f5e75",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-claude-001-870e7e25d798"
+      ],
+      "service_id": "claude",
+      "type": "domain",
+      "value": "anthropic.com"
+    },
+    {
+      "asset_id": "sha256:766573951445b7a3b2beaf66663be4e07261fad391973d90406814ceea35170d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-claude-001-870e7e25d798"
+      ],
+      "service_id": "claude",
+      "type": "domain",
+      "value": "cdn.usefathom.com"
+    },
+    {
+      "asset_id": "sha256:455a6697498624842630a6e69926b321ac9fb48bf1c0cf6cc267a9cfa5a7267a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-claude-001-870e7e25d798"
+      ],
+      "service_id": "claude",
+      "type": "domain",
+      "value": "claude.ai"
+    }
+  ],
+  "content_digest": "04999f1cbf3cd882e18ebd164db57158b7e21cfb3aa90a9d9dc269cfabac0225",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "870e7e25d798e7f00338507f773b0eea4dfd15e25e9df0a27d5ae421ae1ab378",
+      "domains_extracted": 3,
+      "evidence_id": "EV-claude-001-870e7e25d798",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.list",
+      "retrieved_at": "2026-09-23T10:46:02.990Z",
+      "service_id": "claude",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "ea7639cfcc66e8f5f89ab1df1720ce28bdc0e08dbca3d2583b4af09b84322ac3",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "2da5b541320044b1147670c9748ea5593404ff4b88e8e82f74c7823a83a45afa",
+  "release_digest": "5761d575bc1cb9a1c2c52cd1347d021d060b955aeda64a02dce3ea38e4becadb",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "claude",
+  "snapshot_id": "snap-claude-5761d575bc1cb9a1c2c52cd1",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "content_digest": "bd11e98368b5f5502e1f2ab561270dbfea6f7986ed2522b3327c8e0e7cb877fb",
+  "domains": [
+    "ai.com",
+    "algolia.net",
+    "api.statsig.com",
+    "auth0.com",
+    "browser-intake-datadoghq.com",
+    "chat.openai.com.cdn.cloudflare.net",
+    "chatgpt.com",
+    "chatgpt.livekit.cloud",
+    "client-api.arkoselabs.com",
+    "events.statsigapi.net",
+    "featuregates.org",
+    "host.livekit.cloud",
+    "identrust.com",
+    "intercom.io",
+    "intercomcdn.com",
+    "launchdarkly.com",
+    "oaistatic.com",
+    "oaiusercontent.com",
+    "observeit.net",
+    "openai-api.arkoselabs.com",
+    "openai.com",
+    "openaiapi-site.azureedge.net",
+    "openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net",
+    "openaicom.imgix.net",
+    "openaicomproductionae4b.blob.core.windows.net",
+    "production-openaicom-storage.azureedge.net",
+    "segment.io",
+    "sentry.io",
+    "static.cloudflareinsights.com",
+    "stripe.com",
+    "turn.livekit.cloud"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "openai",
+  "source_hashes": [
+    "6f4047cdbf6953cf5d9b38c4ccd6da7bc6f1acb91b7a87134f25d5b8f5d2408b"
+  ]
+}

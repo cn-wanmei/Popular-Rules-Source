@@ -1,0 +1,414 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:d32af2e7231f30928ff007e08823accca379af549d5a393c547e286623fdfb31",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "airhorn.solutions"
+    },
+    {
+      "asset_id": "sha256:daa2c93b0ffb26bf6e64e853d0d09b0bf981553a4fa77375c8ae7cefd94c5e35",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "airhornbot.com"
+    },
+    {
+      "asset_id": "sha256:179ffea9d674145aef5ba1fefc81b973934398b7782ac9c64d4c177630cb0dfc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "bigbeans.solutions"
+    },
+    {
+      "asset_id": "sha256:05be785e1ad8e86a5c2d3d2ec635174e35f28f58a712e475ac0c621fd9b23b3f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "dis.gd"
+    },
+    {
+      "asset_id": "sha256:41725b8938be29f72b1a0aa67abf6bf9565af331a2fb1d49a46eebd6e5fd60bb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "discord-activities.com"
+    },
+    {
+      "asset_id": "sha256:1738c92a4dad903cebb62b4de0cf9273a459e4a3b3629ebc66cba6cfd9ba3b72",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "discord.co"
+    },
+    {
+      "asset_id": "sha256:323bc44f5749b02f2b71bd291a47fbed05ddadbac3f873f8e09edfb38e7f1846",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "discord.com"
+    },
+    {
+      "asset_id": "sha256:2cef70b6c6280303c8c06eaf03706dd49db20feee165e64056a12fb4f96c7eeb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "discord.design"
+    },
+    {
+      "asset_id": "sha256:85f72b9fb3f75d19223ae93a064701892221f64ab837c14569812584e73c76fb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "discord.dev"
+    },
+    {
+      "asset_id": "sha256:b6e34e5c4c2e37e6270bb15b34a5ab3a0c69e29ee4dd1f5e3a87646ddb0a8c19",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "discord.gg"
+    },
+    {
+      "asset_id": "sha256:71d5c2809efc64a99cfca3092313042b0c08f2875c14cec0ac63a6fa0bd882fa",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "discord.gift"
+    },
+    {
+      "asset_id": "sha256:c51236ed4b19bedc832777a4e47cd15659f8ec68e45894221153374830454f2a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "discord.gifts"
+    },
+    {
+      "asset_id": "sha256:115fd25ee1eb046e42cec219117aeb1635404b60cc193dce99d4d015f4a2cf91",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "discord.media"
+    },
+    {
+      "asset_id": "sha256:ef370d7d1a8e853fd86d3a3182408ef4cb0737c6c69befd30929eee5cb6bab73",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "discord.new"
+    },
+    {
+      "asset_id": "sha256:4c93109ed66d43de483d2c7b3249d41cf6b0072019f47b47797c4a08618b5575",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "discord.store"
+    },
+    {
+      "asset_id": "sha256:9abb92941fdef1e301d1e1f67fce96386c816d08a4c65ff4c38275e73350535c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "discord.tools"
+    },
+    {
+      "asset_id": "sha256:37e9dcf11ca52f0a367b1346b27f9d39117911015cc053437b04ca0dbbf87790",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "discordactivities.com"
+    },
+    {
+      "asset_id": "sha256:794503ef72ec3b4cc7888cc82909b289c5fe3c9d650e28867001e0b70d5f5661",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "discordapp.com"
+    },
+    {
+      "asset_id": "sha256:0e78df568aaf3c3148d1adb0935f66edd55b469042d6f071ab60f1bdc9076f9f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "discordapp.io"
+    },
+    {
+      "asset_id": "sha256:22492146f26a714b31332bbaa1ce392f10dfa43f4d1ea5e4bf9e2f4479ce9598",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "discordapp.net"
+    },
+    {
+      "asset_id": "sha256:4ec9bdce98321456a6a11d84d63f066e777c2bebcc8c607523e3cac121e4b6b6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "discordapp.page.link"
+    },
+    {
+      "asset_id": "sha256:863f2e1d8d87bab660fb7234a88c6d2b963c3aa3320d8c8d291077cd93bdd2e2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "discordcdn.com"
+    },
+    {
+      "asset_id": "sha256:a7be805b9e4b6b581d13445ae90f8c87defc8d57aae10d2acc41629f2d4981f9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "discordmerch.com"
+    },
+    {
+      "asset_id": "sha256:b1cc221e766be815e2ef10714fd7a79fb293bc3533f3ee6e3972c8975a429e66",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "discordpartygames.com"
+    },
+    {
+      "asset_id": "sha256:a6c06ed7c8e447e67660144ee5f4c06ff5a396dddf18eda2538e88a98e42687d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "discordsays.com"
+    },
+    {
+      "asset_id": "sha256:d16f4bcd4c3e382e4acc31e6225a45be084b8b98f3810892542cb391b0c7891c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "discordstatus.com"
+    },
+    {
+      "asset_id": "sha256:0ac5e4bfba50fdd70770f9133bd5dece0a701c717963ca9f72b6b74e20b7ff04",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "hammerandchisel.ssl.zendesk.com"
+    },
+    {
+      "asset_id": "sha256:d23426bef93ed1c611e997a96f5d5e35d8cb5c57ef2335ee3b3fad7896c13f39",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-discord-001-3d18c8fe716d"
+      ],
+      "service_id": "discord",
+      "type": "domain",
+      "value": "watchanimeattheoffice.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0,
+    "removal_ratio": 0,
+    "status": "OK"
+  },
+  "content_digest": "8f996912e0484f5828628f50a353cabe15128cae86560489b9a5abbfbf5c1caa",
+  "created_at": "2026-09-23T10:46:02.990Z",
+  "domain_count": 28,
+  "domain_diff": {
+    "added": [
+      "airhorn.solutions",
+      "airhornbot.com",
+      "bigbeans.solutions",
+      "dis.gd",
+      "discord-activities.com",
+      "discord.co",
+      "discord.com",
+      "discord.design",
+      "discord.dev",
+      "discord.gg",
+      "discord.gift",
+      "discord.gifts",
+      "discord.media",
+      "discord.new",
+      "discord.store",
+      "discord.tools",
+      "discordactivities.com",
+      "discordapp.com",
+      "discordapp.io",
+      "discordapp.net",
+      "discordapp.page.link",
+      "discordcdn.com",
+      "discordmerch.com",
+      "discordpartygames.com",
+      "discordsays.com",
+      "discordstatus.com",
+      "hammerandchisel.ssl.zendesk.com",
+      "watchanimeattheoffice.com"
+    ],
+    "added_count": 28,
+    "current_count": 28,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "airhorn.solutions",
+    "airhornbot.com",
+    "bigbeans.solutions",
+    "dis.gd",
+    "discord-activities.com",
+    "discord.co",
+    "discord.com",
+    "discord.design",
+    "discord.dev",
+    "discord.gg",
+    "discord.gift",
+    "discord.gifts",
+    "discord.media",
+    "discord.new",
+    "discord.store",
+    "discord.tools",
+    "discordactivities.com",
+    "discordapp.com",
+    "discordapp.io",
+    "discordapp.net",
+    "discordapp.page.link",
+    "discordcdn.com",
+    "discordmerch.com",
+    "discordpartygames.com",
+    "discordsays.com",
+    "discordstatus.com",
+    "hammerandchisel.ssl.zendesk.com",
+    "watchanimeattheoffice.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "3d18c8fe716de06891ba3d6c34dba254cb65138a10f79e1a1a0628b5237ecb2c",
+      "domains_extracted": 28,
+      "evidence_id": "EV-discord-001-3d18c8fe716d",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Discord/Discord.list",
+      "retrieved_at": "2026-09-23T10:46:02.990Z",
+      "service_id": "discord",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Discord/Discord.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "f97f94efa77cab1bce71c462f7113d9535465427b6d9d60db0cee73be406bc57",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 0,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "2da5b541320044b1147670c9748ea5593404ff4b88e8e82f74c7823a83a45afa",
+  "previous_domain_count": 0,
+  "release_digest": "d107dd92c46855cd6278706453370b41e8e06fe81e5d7b83fc4037f86aa49ad1",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "cd89f608156c5a0285e60fe489ed68a7971fea7b469d9f1d6325dfd68b95cf09",
+  "service_id": "discord",
+  "snapshot_content_sha256": "8f996912e0484f5828628f50a353cabe15128cae86560489b9a5abbfbf5c1caa",
+  "snapshot_id": "snap-discord-d107dd92c46855cd62787064",
+  "source_bindings": [
+    {
+      "adapter": "upstream_rule",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Discord/Discord.list"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  },
+  "trusted_extracted": 28,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

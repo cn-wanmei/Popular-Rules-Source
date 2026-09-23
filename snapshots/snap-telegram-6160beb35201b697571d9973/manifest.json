@@ -1,0 +1,366 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:8bfdc4d06d7ae77f68293e8b8dedab291e09a75a06c2ee9d76b75a34c2ebf9a7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-telegram-001-0e99a027795b"
+      ],
+      "service_id": "telegram",
+      "type": "domain",
+      "value": "api.imem.app"
+    },
+    {
+      "asset_id": "sha256:b3e150262ea4afc53c03de75e79e994f171205bee20169e9b5ebe628a6eacd8c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-telegram-001-0e99a027795b"
+      ],
+      "service_id": "telegram",
+      "type": "domain",
+      "value": "api.swiftgram.app"
+    },
+    {
+      "asset_id": "sha256:0dc203e79cc0fedc9051d0466b69c3aec34cc0c26e9fdde557c8cf6d801bafab",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-telegram-001-0e99a027795b"
+      ],
+      "service_id": "telegram",
+      "type": "domain",
+      "value": "cdn-telegram.org"
+    },
+    {
+      "asset_id": "sha256:27b89f8dbe49dd25a3d199d59d9819d2f66ee5ece26e13cf76cd427cea5c16b6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-telegram-001-0e99a027795b"
+      ],
+      "service_id": "telegram",
+      "type": "domain",
+      "value": "comments.app"
+    },
+    {
+      "asset_id": "sha256:e2992ec2f954941c660d9fe8c4c159e1a6cfe8009cba49a3da74c701b8b9a7ad",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-telegram-001-0e99a027795b"
+      ],
+      "service_id": "telegram",
+      "type": "domain",
+      "value": "contest.com"
+    },
+    {
+      "asset_id": "sha256:ca7c42ef8ab9bf8573f31d2a82ab2379a108e56cc46d87423c3dec32c69917ab",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-telegram-001-0e99a027795b"
+      ],
+      "service_id": "telegram",
+      "type": "domain",
+      "value": "graph.org"
+    },
+    {
+      "asset_id": "sha256:c1542ddd6e4377e7137fb82257b70302af145b481e5d1d2db0450fa2bb0dbbd6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-telegram-001-0e99a027795b"
+      ],
+      "service_id": "telegram",
+      "type": "domain",
+      "value": "legra.ph"
+    },
+    {
+      "asset_id": "sha256:ba62783c0c4aac3c10efff738c9d5675800eb8c70c5cf562c6c86b7286aa8d2a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-telegram-001-0e99a027795b"
+      ],
+      "service_id": "telegram",
+      "type": "domain",
+      "value": "mbrx.app"
+    },
+    {
+      "asset_id": "sha256:9fde655d947e19e13017296a34c54d17b80bcf92e725be11b12f682feb103956",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-telegram-001-0e99a027795b"
+      ],
+      "service_id": "telegram",
+      "type": "domain",
+      "value": "quiz.directory"
+    },
+    {
+      "asset_id": "sha256:ebb569863d0baf4ac4c6e4716a5934d42c7d9d56c8b16a15564abbe7cbf356e2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-telegram-001-0e99a027795b"
+      ],
+      "service_id": "telegram",
+      "type": "domain",
+      "value": "stel.com"
+    },
+    {
+      "asset_id": "sha256:ee4bf31d79f16d98d20a7d7d073376b49a090dc994db2b345acdfc260dc2b6a3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-telegram-001-0e99a027795b"
+      ],
+      "service_id": "telegram",
+      "type": "domain",
+      "value": "t.me"
+    },
+    {
+      "asset_id": "sha256:f12dc93fc3bc9e211c31fdb629ac56924d5c30ef8b9ae80ace1c7df7ecd34d92",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-telegram-001-0e99a027795b"
+      ],
+      "service_id": "telegram",
+      "type": "domain",
+      "value": "tdesktop.com"
+    },
+    {
+      "asset_id": "sha256:17075422aaff2b1e27a30fc24988e062f28133a6258b123cc4dd1914526701ff",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-telegram-001-0e99a027795b"
+      ],
+      "service_id": "telegram",
+      "type": "domain",
+      "value": "telega.one"
+    },
+    {
+      "asset_id": "sha256:d899d007074acb1840363e1011952789fee86486b5a272021c766736e274e9b5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-telegram-001-0e99a027795b"
+      ],
+      "service_id": "telegram",
+      "type": "domain",
+      "value": "telegra.ph"
+    },
+    {
+      "asset_id": "sha256:52a581160da0d37699fdb1646b332fa58ec2942a3545093547ca1b0fc5797922",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-telegram-001-0e99a027795b"
+      ],
+      "service_id": "telegram",
+      "type": "domain",
+      "value": "telegram-cdn.org"
+    },
+    {
+      "asset_id": "sha256:c41012b0ba74f9691cd6afe23649964cf4553f566c19ce8413e77bbeb53cdcad",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-telegram-001-0e99a027795b"
+      ],
+      "service_id": "telegram",
+      "type": "domain",
+      "value": "telegram.dog"
+    },
+    {
+      "asset_id": "sha256:b2e56ffe26f5089bc4b92e0709ab4a6b353b9d27f43ada325a8cf15987e42d55",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-telegram-001-0e99a027795b"
+      ],
+      "service_id": "telegram",
+      "type": "domain",
+      "value": "telegram.me"
+    },
+    {
+      "asset_id": "sha256:a3f90a7cbba21c596092999bf282c673ec0caac638d92ee2275f3bdf09a9cc44",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-telegram-001-0e99a027795b"
+      ],
+      "service_id": "telegram",
+      "type": "domain",
+      "value": "telegram.org"
+    },
+    {
+      "asset_id": "sha256:24059c92b978a83783a3dc2972305d4375fad24eb2234e97e770966ada4e2f06",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-telegram-001-0e99a027795b"
+      ],
+      "service_id": "telegram",
+      "type": "domain",
+      "value": "telegram.space"
+    },
+    {
+      "asset_id": "sha256:0d6c1182ea5552c83e6976a56c8caae4bcb64a824e0f795c4d135b3f647735d2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-telegram-001-0e99a027795b"
+      ],
+      "service_id": "telegram",
+      "type": "domain",
+      "value": "telegramdownload.com"
+    },
+    {
+      "asset_id": "sha256:a79e4e116fa0c59da2f838c240656c3bdaccca3c908c04d32a147dab1331dd2f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-telegram-001-0e99a027795b"
+      ],
+      "service_id": "telegram",
+      "type": "domain",
+      "value": "telesco.pe"
+    },
+    {
+      "asset_id": "sha256:e33832c8ac3c18c9d1111a8b9d14c77e3e4225834762ee2349405bde0be55c0e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-telegram-001-0e99a027795b"
+      ],
+      "service_id": "telegram",
+      "type": "domain",
+      "value": "tg.dev"
+    },
+    {
+      "asset_id": "sha256:c3bce0d10fa16c1a3500434a690bef2ed8d230a40eff3f9a8972c33691a7edbd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-telegram-001-0e99a027795b"
+      ],
+      "service_id": "telegram",
+      "type": "domain",
+      "value": "tx.me"
+    },
+    {
+      "asset_id": "sha256:010f7136d1cde60eb1e1937d58316a282f1ce724ce1fd56bd1f187d0fb44dcfc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-telegram-001-0e99a027795b"
+      ],
+      "service_id": "telegram",
+      "type": "domain",
+      "value": "usercontent.dev"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0,
+    "removal_ratio": 0,
+    "status": "OK"
+  },
+  "content_digest": "e1decb4fe0958ca923ac03b453975b0eff2d1fde016188e75aa2e3c695049a17",
+  "created_at": "2026-09-23T10:46:02.990Z",
+  "domain_count": 24,
+  "domain_diff": {
+    "added": [
+      "api.imem.app",
+      "api.swiftgram.app",
+      "cdn-telegram.org",
+      "comments.app",
+      "contest.com",
+      "graph.org",
+      "legra.ph",
+      "mbrx.app",
+      "quiz.directory",
+      "stel.com",
+      "t.me",
+      "tdesktop.com",
+      "telega.one",
+      "telegra.ph",
+      "telegram-cdn.org",
+      "telegram.dog",
+      "telegram.me",
+      "telegram.org",
+      "telegram.space",
+      "telegramdownload.com",
+      "telesco.pe",
+      "tg.dev",
+      "tx.me",
+      "usercontent.dev"
+    ],
+    "added_count": 24,
+    "current_count": 24,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "api.imem.app",
+    "api.swiftgram.app",
+    "cdn-telegram.org",
+    "comments.app",
+    "contest.com",
+    "graph.org",
+    "legra.ph",
+    "mbrx.app",
+    "quiz.directory",
+    "stel.com",
+    "t.me",
+    "tdesktop.com",
+    "telega.one",
+    "telegra.ph",
+    "telegram-cdn.org",
+    "telegram.dog",
+    "telegram.me",
+    "telegram.org",
+    "telegram.space",
+    "telegramdownload.com",
+    "telesco.pe",
+    "tg.dev",
+    "tx.me",
+    "usercontent.dev"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "0e99a027795b51c495e3bd97c854b147898c5e598ece47bd79515a419aab25e1",
+      "domains_extracted": 24,
+      "evidence_id": "EV-telegram-001-0e99a027795b",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.list",
+      "retrieved_at": "2026-09-23T10:46:02.990Z",
+      "service_id": "telegram",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "9de479ce19bbdd7f51595d035b2dedacbb51c1200557848bbeb3a78d10261505",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 0,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "2da5b541320044b1147670c9748ea5593404ff4b88e8e82f74c7823a83a45afa",
+  "previous_domain_count": 0,
+  "release_digest": "6160beb35201b697571d99735d339152084eb93586313755b6addb40175ce1cc",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "7f57c76406e6e1fd99b112b585807bad1a06561db995fb816302511b6d15bf8a",
+  "service_id": "telegram",
+  "snapshot_content_sha256": "e1decb4fe0958ca923ac03b453975b0eff2d1fde016188e75aa2e3c695049a17",
+  "snapshot_id": "snap-telegram-6160beb35201b697571d9973",
+  "source_bindings": [
+    {
+      "adapter": "upstream_rule",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.list"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  },
+  "trusted_extracted": 24,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

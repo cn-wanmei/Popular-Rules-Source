@@ -1,0 +1,186 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:59c6b385afb5e4fb7ecb5dfeaa006c3f36fcd706ddcde61fe32bf9a4f876d839",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-gemini-001-db8f69154426"
+      ],
+      "service_id": "gemini",
+      "type": "domain",
+      "value": "ai.google.dev"
+    },
+    {
+      "asset_id": "sha256:426df33c1756fd25a86c019d18b387fe6da6f5d8a35686424da62fb291cb4dcd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-gemini-001-db8f69154426"
+      ],
+      "service_id": "gemini",
+      "type": "domain",
+      "value": "alkalimakersuite-pa.clients6.google.com"
+    },
+    {
+      "asset_id": "sha256:b81776982b0b26c3c67f19ca702e9d96ee42466ec44d0204a03fedb76d186961",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-gemini-001-db8f69154426"
+      ],
+      "service_id": "gemini",
+      "type": "domain",
+      "value": "apis.google.com"
+    },
+    {
+      "asset_id": "sha256:b43ab099a5581e436350a86fd35d7889f441715f7c8848ede6d2802a074d56fc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-gemini-001-db8f69154426"
+      ],
+      "service_id": "gemini",
+      "type": "domain",
+      "value": "bard.google.com"
+    },
+    {
+      "asset_id": "sha256:f83fc6b330a2c7c42bd610687e4f901356f290d4f6074cca174195127cfdf2b4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-gemini-001-db8f69154426"
+      ],
+      "service_id": "gemini",
+      "type": "domain",
+      "value": "deepmind.com"
+    },
+    {
+      "asset_id": "sha256:f0df35525cc8c385f64cc27e027b54b8e53c338f6369d47357d1d432e6c7f197",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-gemini-001-db8f69154426"
+      ],
+      "service_id": "gemini",
+      "type": "domain",
+      "value": "deepmind.google"
+    },
+    {
+      "asset_id": "sha256:3d7dbecdec306fe00c23aa64da921464191b803cd503fef09e199f256d56cb86",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-gemini-001-db8f69154426"
+      ],
+      "service_id": "gemini",
+      "type": "domain",
+      "value": "gemini.google.com"
+    },
+    {
+      "asset_id": "sha256:bec0a8045aefbd1cee0b49b143e749d86853813584a1393cf6cdf79edf548664",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-gemini-001-db8f69154426"
+      ],
+      "service_id": "gemini",
+      "type": "domain",
+      "value": "generativeai.google"
+    },
+    {
+      "asset_id": "sha256:fce74f82b7a33f4ab089e24e6baa3610592ca1b1458d6defe706bc18463e9dc8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-gemini-001-db8f69154426"
+      ],
+      "service_id": "gemini",
+      "type": "domain",
+      "value": "makersuite.google.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0,
+    "removal_ratio": 0,
+    "status": "OK"
+  },
+  "content_digest": "d5e5842666a62dcd98f68002b7377146aa937d911bab9a3c5552cb00220689e2",
+  "created_at": "2026-09-23T10:46:02.990Z",
+  "domain_count": 9,
+  "domain_diff": {
+    "added": [
+      "ai.google.dev",
+      "alkalimakersuite-pa.clients6.google.com",
+      "apis.google.com",
+      "bard.google.com",
+      "deepmind.com",
+      "deepmind.google",
+      "gemini.google.com",
+      "generativeai.google",
+      "makersuite.google.com"
+    ],
+    "added_count": 9,
+    "current_count": 9,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "ai.google.dev",
+    "alkalimakersuite-pa.clients6.google.com",
+    "apis.google.com",
+    "bard.google.com",
+    "deepmind.com",
+    "deepmind.google",
+    "gemini.google.com",
+    "generativeai.google",
+    "makersuite.google.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "db8f69154426dca76792ab80b3ad6b0e2d078ebe0e52e76faec1724245a4ec49",
+      "domains_extracted": 9,
+      "evidence_id": "EV-gemini-001-db8f69154426",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.list",
+      "retrieved_at": "2026-09-23T10:46:02.990Z",
+      "service_id": "gemini",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "bd9dec9ce9b5a3b8b9b5f261550876cd621168dc0f20e9a2301d3e70f0d82447",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 0,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "2da5b541320044b1147670c9748ea5593404ff4b88e8e82f74c7823a83a45afa",
+  "previous_domain_count": 0,
+  "release_digest": "15a1d7df0f1f42afaab98ebaaf4274007056a970a62e85ca46e2d13eb1ec7053",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "ab091521a293b9e8ac8a131f09c328ff4eae0a8d5b91bfccfb7782e50f631794",
+  "service_id": "gemini",
+  "snapshot_content_sha256": "d5e5842666a62dcd98f68002b7377146aa937d911bab9a3c5552cb00220689e2",
+  "snapshot_id": "snap-gemini-15a1d7df0f1f42afaab98eba",
+  "source_bindings": [
+    {
+      "adapter": "upstream_rule",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.list"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  },
+  "trusted_extracted": 9,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}
