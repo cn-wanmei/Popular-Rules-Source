@@ -45,7 +45,14 @@ def validate_config() -> list[str]:
             parsed = urlparse(str(source_url))
             if parsed.scheme not in {"http", "https"} or not parsed.netloc:
                 errors.append(f"{service_id}: invalid source URL {source_url}")
-        if not cfg.get("allowed_host_exact") and not cfg.get("allowed_host_suffixes"):
+        boundary_mode = str((cfg.get("boundary") or {}).get("mode") or "configured")
+        if boundary_mode == "source_bound":
+            if not any(
+                str(item.get("adapter", "")) == "upstream_rule"
+                for item in (cfg.get("source_bindings") or [])
+            ):
+                errors.append(f"{service_id}: source_bound requires upstream source binding")
+        elif not cfg.get("allowed_host_exact") and not cfg.get("allowed_host_suffixes"):
             errors.append(f"{service_id}: no domain allow policy")
         if not adapter_names_for(service_id):
             errors.append(f"{service_id}: no source adapter configured")
