@@ -10,8 +10,6 @@ on:
       - "source_engine/**"
       - "tests/**"
   workflow_dispatch:
-  pull_request:
-    types: [opened, synchronize, reopened]
 
 permissions:
   contents: write
