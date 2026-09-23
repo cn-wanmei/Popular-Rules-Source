@@ -1,0 +1,15 @@
+# QQ source discovery chain.
+# Upstream aggregate evidence is used only for candidate discovery; it is not
+# treated as official evidence for promotion.
+upstream_cross_reference:
+  - source: blackmatrix7/ios_rule_script
+    path: rule/Clash/Tencent/Tencent.list
+    ref: 51d2e1dd8429a91be575157d6f8ed051c93559f8
+    method: aggregate_cross_reference
+official_discovery:
+  - https://qq.com/
+  - https://im.qq.com/
+  - https://aq.qq.com/
+  - https://qun.qq.com/
+  - https://mobile.qq.com/
+  - https://ssl.ptlogin2.qq.com/
