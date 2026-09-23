@@ -70,6 +70,17 @@ jobs:
           snapshot_id = str(manifest.get("snapshot_id") or "")
           if not snapshot_id:
               raise SystemExit(f"missing snapshot_id in generated provenance for {service}")
+          release_state = str(manifest.get("release_state") or "BLOCKED")
+          if release_state == "REVIEW":
+              print(json.dumps({
+                  "service": service,
+                  "status": "REVIEW",
+                  "snapshot_id": snapshot_id,
+                  "release_reasons": manifest.get("release_reasons", []),
+              }, ensure_ascii=False))
+              raise SystemExit(0)
+          if release_state != "CANDIDATE":
+              raise SystemExit(f"source release blocked for {service}: {release_state}")
           release_path = Path("releases") / service / snapshot_id / "release.json"
           if not release_path.is_file():
               raise SystemExit(f"no durable release produced for {service}: {release_path}")
@@ -138,32 +149,67 @@ jobs:
 
           for service in services:
               source_root = artifact_root / f"durable-{service}"
-              releases = sorted((source_root / "releases" / service).glob("*/release.json")) if (source_root / "releases" / service).exists() else []
-              if not releases:
-                  report["services"][service] = {"status": "BLOCKED", "reason": "no durable release artifact"}
-                  continue
-
               provenance_path = source_root / "generated" / "source" / service / "provenance.json"
               if not provenance_path.is_file():
                   report["services"][service] = {"status": "BLOCKED", "reason": "generated provenance missing"}
                   continue
               manifest = json.loads(provenance_path.read_text(encoding="utf-8"))
               snapshot_id = str(manifest.get("snapshot_id") or "")
+              release_state = str(manifest.get("release_state") or "BLOCKED")
               if not snapshot_id:
                   report["services"][service] = {"status": "BLOCKED", "reason": "generated provenance missing snapshot_id"}
                   continue
-              release_path = source_root / "releases" / service / snapshot_id / "release.json"
-              if not release_path.is_file():
-                  report["services"][service] = {"status": "BLOCKED", "reason": "current durable release missing", "snapshot_id": snapshot_id}
-                  continue
-              release = json.loads(release_path.read_text(encoding="utf-8"))
-              snapshot_id = release["snapshot_id"]
+
               snapshot = source_root / "snapshots" / snapshot_id
               required = ["domains.txt", "provenance.json", "manifest.json", "checksums.json"]
               missing = [name for name in required if not (snapshot / name).is_file()]
               if missing:
-                  report["services"][service] = {"status": "BLOCKED", "reason": "snapshot artifact missing", "missing": missing, "snapshot_id": snapshot_id}
+                  report["services"][service] = {
+                      "status": "BLOCKED",
+                      "reason": "snapshot artifact missing",
+                      "missing": missing,
+                      "snapshot_id": snapshot_id,
+                  }
                   continue
+
+              # REVIEW snapshots are durable audit evidence, but they must not
+              # replace the currently published generated artifact/release.
+              if release_state == "REVIEW":
+                  dst = root / "snapshots" / snapshot_id
+                  if dst.exists():
+                      shutil.rmtree(dst)
+                  shutil.copytree(snapshot, dst)
+                  report["services"][service] = {
+                      "status": "REVIEW",
+                      "snapshot_id": snapshot_id,
+                      "content_digest": manifest.get("content_digest"),
+                      "evidence_digest": manifest.get("evidence_digest"),
+                      "policy_digest": manifest.get("policy_digest"),
+                      "generator_digest": manifest.get("generator_digest"),
+                      "release_digest": manifest.get("release_digest"),
+                      "release_identity_version": manifest.get("release_identity_version"),
+                      "release_reasons": manifest.get("release_reasons", []),
+                      "review_snapshot_path": str(Path("snapshots") / snapshot_id),
+                  }
+                  continue
+
+              if release_state != "CANDIDATE":
+                  report["services"][service] = {
+                      "status": "BLOCKED",
+                      "reason": f"unsupported release state: {release_state}",
+                      "snapshot_id": snapshot_id,
+                  }
+                  continue
+
+              release_path = source_root / "releases" / service / snapshot_id / "release.json"
+              if not release_path.is_file():
+                  report["services"][service] = {
+                      "status": "BLOCKED",
+                      "reason": "current durable release missing",
+                      "snapshot_id": snapshot_id,
+                  }
+                  continue
+              release = json.loads(release_path.read_text(encoding="utf-8"))
 
               for rel in [Path("snapshots") / snapshot_id, Path("releases") / service / snapshot_id, Path("generated") / "source" / service]:
                   src = source_root / rel
@@ -198,7 +244,7 @@ jobs:
           (out / "latest.json").write_text(json.dumps(report, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
           incomplete = sorted(
               service for service, item in report["services"].items()
-              if item.get("status") != "PERSISTED"
+              if item.get("status") == "BLOCKED"
           )
           if incomplete:
               raise SystemExit(f"durable bridge fail-closed: incomplete services: {incomplete}")
