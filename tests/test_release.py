@@ -122,3 +122,39 @@ def test_release_identity_version_is_explicit_in_release_contract(tmp_path, monk
     )
     doc = release.create_release("dingding")
     assert doc["release_identity_version"] == "2"
+
+
+
+def test_create_release_persists_review_snapshot(tmp_path, monkeypatch):
+    monkeypatch.chdir(tmp_path)
+    (tmp_path / "VERSION").write_text("0.5.0\n", encoding="utf-8")
+    snapshot_id = "snap-qq-review"
+    snapshot = tmp_path / "snapshots" / snapshot_id
+    snapshot.mkdir(parents=True)
+    for name, payload in {
+        "domains.txt": "im.qq.com\n",
+        "provenance.json": "{}\n",
+        "manifest.json": "{}\n",
+        "checksums.json": "{}\n",
+    }.items():
+        (snapshot / name).write_text(payload, encoding="utf-8")
+    monkeypatch.setattr(
+        release,
+        "build_service",
+        lambda service_id: {
+            "service_id": service_id,
+            "snapshot_id": snapshot_id,
+            "content_digest": "a" * 64,
+            "evidence_digest": "b" * 64,
+            "policy_digest": "c" * 64,
+            "generator_digest": "d" * 64,
+            "release_digest": "e" * 64,
+            "release_identity_version": "2",
+            "release_state": "REVIEW",
+            "change_assessment": {"status": "OK"},
+            "errors": [],
+        },
+    )
+    doc = release.create_release("qq")
+    assert doc["validation"]["release_state"] == "REVIEW"
+    assert (tmp_path / "releases" / "qq" / snapshot_id / "release.json").is_file()
