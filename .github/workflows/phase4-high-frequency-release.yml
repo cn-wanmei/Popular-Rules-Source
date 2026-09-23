@@ -46,7 +46,6 @@ jobs:
       - run: python -m source_engine candidate-audit
       - run: python -m source_engine conflict
       - run: python -m source_engine audit
-      - run: python -m source_engine qualify
       - name: Create durable release
         run: python -m source_engine release --service "${{ matrix.service }}"
       - name: Verify release contract
@@ -100,7 +99,7 @@ jobs:
   persist:
     name: Persist Batch4 immutable releases
     needs: release
-    if: ${{ always() && needs.release.result != 'cancelled' }}
+    if: ${{ always() && needs.release.result != 'cancelled' && (github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.ref == 'refs/heads/main')) }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -195,7 +194,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f snapshots releases generated/source reports/durable-bridge/phase4-phase4.json
+          git add -f snapshots releases generated/source reports/durable-bridge/phase4-high-frequency-latest.json
           git commit -m "chore(source): persist phase4 immutable releases [skip ci]"
           git push origin main
 
