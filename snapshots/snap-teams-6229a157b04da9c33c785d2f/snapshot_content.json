@@ -1,0 +1,15 @@
+{
+  "content_digest": "563f80231062e824df9a8c2e25f3df58b2b8120acbf3a058f47ba235cb66ed9b",
+  "domains": [
+    "teams.cdn.live.net",
+    "teams.events.data.microsoft.com",
+    "teams.live.com",
+    "teams.microsoft.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "teams",
+  "source_hashes": [
+    "798202ddb4c44c7d3661fa7c304646e58d9296e2678e39a5ea575a2c79f50a3f"
+  ]
+}

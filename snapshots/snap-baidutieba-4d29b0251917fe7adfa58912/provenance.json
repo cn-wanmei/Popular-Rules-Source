@@ -1,0 +1,357 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:7cad6cb7d17a288b06a6c5c31cc74bb31bd6cd2967771296b5272b61b5688a9d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "als.baidu.com"
+    },
+    {
+      "asset_id": "sha256:f2d905bd36b198532599a8b5dda3bb9a3652b8381d3df1ae7222ba0d373983b7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "cdn.hiphotos.baidu.com"
+    },
+    {
+      "asset_id": "sha256:fc717353ce0c8347ac392d96cc3cfa8081227b333db019e089c30f7432285bdb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "cpro.baidustatic.com"
+    },
+    {
+      "asset_id": "sha256:86828089f252358c604df64482752a09489ddd95990a5158db6d097d29400101",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "crab.baidu.com"
+    },
+    {
+      "asset_id": "sha256:c9f0d0bf3248ecf62e2419627de96ca1e691a26c8d8cc43db5998a1e577769e0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "dlswbr.baidu.com"
+    },
+    {
+      "asset_id": "sha256:47e1b189881d5ec6bbf569b6d39e600e0b92f24f286ca75dbc74f1fc7c6a30bd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "ecma.bdimg.com"
+    },
+    {
+      "asset_id": "sha256:706ae2e0f309b10577562c3e356b47d864c077857589ea8b0ece3424d04ded13",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "feed-image.baidu.com"
+    },
+    {
+      "asset_id": "sha256:c399afb702bfb2c60afc8b705e9880ab4470d6c38e7205b2ce74cbaf8b6e5c39",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "fex.bdstatic.com"
+    },
+    {
+      "asset_id": "sha256:a4a8a4162e54ed5e7c39353640096459528eced1e905f21a81252b031d688561",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "gomediago.baidu.com"
+    },
+    {
+      "asset_id": "sha256:3d3a3881dbb2fa296cead2a6ab0d7303cfcc062c8ee8619734aa1b5d8a86b64b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "gsp0.baidu.com"
+    },
+    {
+      "asset_id": "sha256:0c5c1c659044d888dfdf399a464c233989c09837be6a7e0826da8ffed31c9750",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "gss0.bdstatic.com"
+    },
+    {
+      "asset_id": "sha256:a856a51092cdc07f60559b31a9f62c982c179b2e0c374d3151765723d973de4d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "hmma.baidu.com"
+    },
+    {
+      "asset_id": "sha256:7df70a25e900c2c274c808ebfaa2c8cc98836600e3df2179835beb0d1216fd9d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "mediago-static.cdn.bcebos.com"
+    },
+    {
+      "asset_id": "sha256:a47847cc8a8903df7c920154036596c96862ca671cadd8872b071dcdb3e704e0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "miaowu.baidu.com"
+    },
+    {
+      "asset_id": "sha256:2f8cd6a1f1af4630b2061372810062493b48b6df9db8b5c898283fc85ee8088a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "mobads-log.baidu.com"
+    },
+    {
+      "asset_id": "sha256:99a9fd20737cb6f10a40456144feb43ca143181689f5b4bb597efb1e6096129d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "mobads.baidu.com"
+    },
+    {
+      "asset_id": "sha256:b77e2797888da90952da85bee3e48ddc5946a9673761948b72bd18219828a041",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "ns-strategy.cdn.bcebos.com"
+    },
+    {
+      "asset_id": "sha256:90572261d8133163a20cf79b477c07f63f7369a37682b10bed6a7ea959033094",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "nsclick.baidu.com"
+    },
+    {
+      "asset_id": "sha256:05b0c405b9dd765d340b6eacef7bc0d2f3376ca287defc00f8ff5f2ff9571653",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "passport.baidu.com"
+    },
+    {
+      "asset_id": "sha256:971cca6d8c1f725b2875dd2f930f5befe5b02474df3aa8c66f7dbed98a1e8eb8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "sofire.bdstatic.com"
+    },
+    {
+      "asset_id": "sha256:b9e19c3e8534418298832873a3a1cf703b9b646e5d60efc626531fd4f6fb7efc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "tb.himg.baidu.com"
+    },
+    {
+      "asset_id": "sha256:8073da726e97ab8532e4f4be78bb8c6607932dd202fc596e6f8e02b2e9c04786",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "tb1.bdstatic.com"
+    },
+    {
+      "asset_id": "sha256:b0ca4856038141ce8dc4fa81e5c22717a0bc3353b8e978b398a9d1a1a2664103",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "tb2.bdstatic.com"
+    },
+    {
+      "asset_id": "sha256:a9f332928d1a5d921b7790a640e9c5a7fc71236a149319c68b1f10676eb0dfad",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "tb3.bdstatic.com"
+    },
+    {
+      "asset_id": "sha256:0b7e670fb5db2e7b42fd0a0503c907315f22b73291a2ef4c20f7fc82d28ff042",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "tb4.bdstatic.com"
+    },
+    {
+      "asset_id": "sha256:816de4c68551195f9c119593229261ca8d7f45d9623bbf1d1db0dc0bfb65e8a3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "tb5.bdstatic.com"
+    },
+    {
+      "asset_id": "sha256:8de1db1a9bd79d87b32d8597c1170c6368b51a6dea45ced5534b61fef31c952a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "tb6.bdstatic.com"
+    },
+    {
+      "asset_id": "sha256:a1c688022fb41ca0633ed5f14785466e6145fe231e8089321b48f40f09085a3c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "tbmsg.baidu.com"
+    },
+    {
+      "asset_id": "sha256:e5823c15c21eba30f24619a346ede485ee0983dae3f3bcf448e197dd23cba063",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "tieba-ares.cdn.bcebos.com"
+    },
+    {
+      "asset_id": "sha256:6e177b3e917d550399e0bce4c5002882cbc6b912116e029088e19c3b2344c3a8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "tieba.baidu.com"
+    },
+    {
+      "asset_id": "sha256:3aa7544adde411e785b8aec5fff18aaa0920b24173b6d603c13accad9837f2c0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "tiebac.baidu.com"
+    },
+    {
+      "asset_id": "sha256:8a4cc65ecaac7072bc0761892e697d334e185c99b325e24c08fa73d4e5ae4339",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidutieba-001-1a675077eee5"
+      ],
+      "service_id": "baidutieba",
+      "type": "domain",
+      "value": "tiebapic.baidu.com"
+    }
+  ],
+  "content_digest": "c093d9d06fb7cd526b2c0ffc6d5b032a59fd51d500a4776f5f3d284b030f6000",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "1a675077eee52f8640ce97e64a80ab4cbfe1270920ecb1516c61e0c140a2bba2",
+      "domains_extracted": 32,
+      "evidence_id": "EV-baidutieba-001-1a675077eee5",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BaiDuTieBa/BaiDuTieBa.list",
+      "retrieved_at": "2026-09-23T10:52:26.785Z",
+      "service_id": "baidutieba",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BaiDuTieBa/BaiDuTieBa.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "ffca3abec840dad77c847597faa29f0aa4a51a4ce9b46d1625fa80b6b51e97b2",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "3017d41cdccb12178de4c89f24ded143888b83d5ae15b911901d0c602e550999",
+  "release_digest": "4d29b0251917fe7adfa58912d05f14a9a1a5cd9acf899ceafbd53cb99270f21a",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "baidutieba",
+  "snapshot_id": "snap-baidutieba-4d29b0251917fe7adfa58912",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}

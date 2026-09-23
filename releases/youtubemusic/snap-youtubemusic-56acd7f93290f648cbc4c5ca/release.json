@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "8262f564847f4121a2579bb771d861b12c820b4364482be15328ec81be3beecf",
+    "manifest.json": "05d3856662c753039b6d788b3d426e3de3c169076fd1b61d48c0af9c70c9d5de",
+    "provenance.json": "d044344d6d2200779480dab2615d62dfda7ae90c4182eb9489ffe19b6c981434",
+    "snapshot_content.json": "aed1280abf2bb75f0e740aeb5c71345b265d77ee64065aeb33d8bc42ccfdfb0f"
+  },
+  "content_digest": "d4b0e7451fd3009fc8f075e055fe68b7c4acc4e4f566f7f513d8674064ca7fed",
+  "created_at": "2026-09-23T10:52:26.785Z",
+  "evidence_digest": "35f2941d2b08fd2b38955156f1f7cea22104da89b56a9f5558cca4a0f128fbaa",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "2a41ecbeb54c4633de1ba02e3341dffbe2a37521f0014faab882501f447abfd5",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "56acd7f93290f648cbc4c5ca7aee22148cf2468d79a2caeaa06c48344a4efebe",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "youtubemusic",
+  "snapshot_id": "snap-youtubemusic-56acd7f93290f648cbc4c5ca",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0,
+      "removal_ratio": 0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

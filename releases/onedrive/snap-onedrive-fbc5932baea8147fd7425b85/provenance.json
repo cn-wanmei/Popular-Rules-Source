@@ -1,0 +1,167 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:ce9b7f45273e5aa9f36ee5f70161d66616179f0192b0db3e361f0f5523157f68",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-onedrive-001-cf4f6b24e434"
+      ],
+      "service_id": "onedrive",
+      "type": "domain",
+      "value": "1drv.com"
+    },
+    {
+      "asset_id": "sha256:2dd074e8fb2576fb988b1651c01137d96035cebc70fb53f4d5ab1d89eea64ecb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-onedrive-001-cf4f6b24e434"
+      ],
+      "service_id": "onedrive",
+      "type": "domain",
+      "value": "livefilestore.com"
+    },
+    {
+      "asset_id": "sha256:06fa7790a32ef759168dc1a55433cd48cce659893c97ac693ce56d9a40f1ce6e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-onedrive-001-cf4f6b24e434"
+      ],
+      "service_id": "onedrive",
+      "type": "domain",
+      "value": "microsoftpersonalcontent.com"
+    },
+    {
+      "asset_id": "sha256:89c168e9c5c1a97907dc1362aff37ab57fd6ef754015366f67105d5ae3538116",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-onedrive-001-cf4f6b24e434"
+      ],
+      "service_id": "onedrive",
+      "type": "domain",
+      "value": "oneclient.sfx.ms"
+    },
+    {
+      "asset_id": "sha256:0306ee3eaa6bd5c62006520c995962c2172d4d1dc85aaf0cd1ff6df44e143ba3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-onedrive-001-cf4f6b24e434"
+      ],
+      "service_id": "onedrive",
+      "type": "domain",
+      "value": "onedrive.com"
+    },
+    {
+      "asset_id": "sha256:58faa174d839ffa902591f7c980d2d60ec62fa12bd6e8540ac7ec5ab714bb309",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-onedrive-001-cf4f6b24e434"
+      ],
+      "service_id": "onedrive",
+      "type": "domain",
+      "value": "onedrive.live.com"
+    },
+    {
+      "asset_id": "sha256:2fb84c3d51f821f5f5546cf5e77411ce65551b6b38be5986db228f9f13c36542",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-onedrive-001-cf4f6b24e434"
+      ],
+      "service_id": "onedrive",
+      "type": "domain",
+      "value": "photos.live.com"
+    },
+    {
+      "asset_id": "sha256:a6cc7c2a94f5ca2bc8321b7e117ac38ed0fd4d9c5949b973d49a960c1d68652f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-onedrive-001-cf4f6b24e434"
+      ],
+      "service_id": "onedrive",
+      "type": "domain",
+      "value": "sharepoint.com"
+    },
+    {
+      "asset_id": "sha256:21bd53bd877b2a48386a01871d10fa8689e3faa6ee7100efd3b1479e64104563",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-onedrive-001-cf4f6b24e434"
+      ],
+      "service_id": "onedrive",
+      "type": "domain",
+      "value": "sharepointonline.com"
+    },
+    {
+      "asset_id": "sha256:8e48013e9dd040a4a18a833cc185c34bda9871305e7480cb14ed35e6ff27d0e0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-onedrive-001-cf4f6b24e434"
+      ],
+      "service_id": "onedrive",
+      "type": "domain",
+      "value": "skydrive.wns.windows.com"
+    },
+    {
+      "asset_id": "sha256:5eaa12b0405848e69012ad7df18af8ac48f36669e1893a3cd07920bc2b40206a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-onedrive-001-cf4f6b24e434"
+      ],
+      "service_id": "onedrive",
+      "type": "domain",
+      "value": "spoprod-a.akamaihd.net"
+    },
+    {
+      "asset_id": "sha256:906162c335fde718414f4cf92e52eb869d04a7bd7244a6bd91fda672faa041f6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-onedrive-001-cf4f6b24e434"
+      ],
+      "service_id": "onedrive",
+      "type": "domain",
+      "value": "storage.live.com"
+    },
+    {
+      "asset_id": "sha256:d55d3389093d03b0a6a604f0bf709cffb190882b68dd350ce704f5a7344d5e78",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-onedrive-001-cf4f6b24e434"
+      ],
+      "service_id": "onedrive",
+      "type": "domain",
+      "value": "storage.msn.com"
+    }
+  ],
+  "content_digest": "1090a865fdb375152535274115046431d18260f268e879edbd8d25e4f733c335",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "cf4f6b24e434b6c6033b70fc88cf7e33f5aaa0f353f6963ced770f5fa1ae6c9b",
+      "domains_extracted": 13,
+      "evidence_id": "EV-onedrive-001-cf4f6b24e434",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.list",
+      "retrieved_at": "2026-09-23T10:52:26.785Z",
+      "service_id": "onedrive",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "b663143d570dc6412d4ffa021e0462a450e9e3cba58166310a81742184c4c82d",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "c05ae46fd11057a58c69c8fdd53e0da3e26d69bc55470cf34cf64e7d3a29ff8f",
+  "release_digest": "fbc5932baea8147fd7425b853fa3c473effc2efc3bd5d1ef62aac19ac0fccbe5",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "onedrive",
+  "snapshot_id": "snap-onedrive-fbc5932baea8147fd7425b85",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}
