@@ -1,0 +1,156 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:823fa491273b4627d135104e9efb1caa3009affcfa31f1ba1f33c4dc9918e397",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-neteasemail-002-8b93b702bb01"
+      ],
+      "service_id": "neteasemail",
+      "type": "domain",
+      "value": "mail.126.com"
+    },
+    {
+      "asset_id": "sha256:2fd2cdc123b9c8375f4d1e6ccb3d0c768cc2b5ccfa1a04a535a1702d68351fd3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-neteasemail-001-fef085fd35e9",
+        "EV-neteasemail-002-8b93b702bb01",
+        "EV-neteasemail-003-528f3ce93501"
+      ],
+      "service_id": "neteasemail",
+      "type": "domain",
+      "value": "mail.163.com"
+    },
+    {
+      "asset_id": "sha256:4f0afd3eee683d64e40a474998224f94810ad00cf5367fc2ccc9cdb36b617bb7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-neteasemail-003-528f3ce93501"
+      ],
+      "service_id": "neteasemail",
+      "type": "domain",
+      "value": "mail.yeah.net"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "a91ff805543bac2f1df2f683c738bcc617b50e938350dbf92f291a4425a81cd1",
+  "created_at": "2026-09-23T11:29:48.183109+00:00",
+  "domain_count": 3,
+  "domain_diff": {
+    "added": [
+      "mail.126.com",
+      "mail.163.com",
+      "mail.yeah.net"
+    ],
+    "added_count": 3,
+    "current_count": 3,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "mail.126.com",
+    "mail.163.com",
+    "mail.yeah.net"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "fef085fd35e9cc19dd41319b25ce706098ad14498e80ef64b7ba600e51f4284b",
+      "domains_extracted": 1,
+      "evidence_id": "EV-neteasemail-001-fef085fd35e9",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://mail.163.com/",
+      "retrieved_at": "2026-09-23T11:29:46.235452+00:00",
+      "service_id": "neteasemail",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://mail.163.com/",
+      "status": "verified",
+      "strength": "S3"
+    },
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "8b93b702bb01208106a4cc0d1436d018678b4d16ed59138f7b1dcc64cdff7070",
+      "domains_extracted": 2,
+      "evidence_id": "EV-neteasemail-002-8b93b702bb01",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://mail.126.com/",
+      "retrieved_at": "2026-09-23T11:29:47.145302+00:00",
+      "service_id": "neteasemail",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://mail.126.com/",
+      "status": "verified",
+      "strength": "S3"
+    },
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "528f3ce9350145a62b5e305f5bcbc23e762d73981570036c854d52db9d818be2",
+      "domains_extracted": 2,
+      "evidence_id": "EV-neteasemail-003-528f3ce93501",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://mail.yeah.net/",
+      "retrieved_at": "2026-09-23T11:29:48.166376+00:00",
+      "service_id": "neteasemail",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://mail.yeah.net/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "950a9294ac8035158f1d3bfba9c30e211803a41ff0c47e426c710844fe8e13ef",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 5,
+  "official_source_count": 3,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "8033e063d641efa1725c7ced7d9a5ef0674537ce86b4b30a7804befea5d39856",
+  "previous_domain_count": 0,
+  "release_digest": "817c44ccb4b6b36d7b108a883a90402cc071704ed1cc697b18b8db0c0baaf169",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "ec13023b6bf72c3ae2e9528d3d3c447bf4daf4ba540b246ed586b01fd5cd05c3",
+  "service_id": "neteasemail",
+  "snapshot_content_sha256": "a91ff805543bac2f1df2f683c738bcc617b50e938350dbf92f291a4425a81cd1",
+  "snapshot_id": "snap-neteasemail-817c44ccb4b6b36d7b108a88",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://mail.163.com/"
+    },
+    {
+      "adapter": null,
+      "url": "https://mail.126.com/"
+    },
+    {
+      "adapter": null,
+      "url": "https://mail.yeah.net/"
+    }
+  ],
+  "source_count": 3,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 5,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "2aebbb6663c3a4d3e1349f17a7c0ad4e00612bdaa90def806ff72318ae41b0ec",
+    "manifest.json": "a62b6823a88bc1486315a27381feaa2aa282ac578e8b0e089d158eb32cdf4f2f",
+    "provenance.json": "590a3b6ba5b859a06a17caca2f0c21b82da1ba507c1af728433812b932f56e7f",
+    "snapshot_content.json": "3245a8086adfbf36bd1b692c04c63cf391b3aabe7e608ad61209c722f1e01089"
+  },
+  "content_digest": "a91ff805543bac2f1df2f683c738bcc617b50e938350dbf92f291a4425a81cd1",
+  "created_at": "2026-09-23T11:29:55.256305+00:00",
+  "evidence_digest": "950a9294ac8035158f1d3bfba9c30e211803a41ff0c47e426c710844fe8e13ef",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "8033e063d641efa1725c7ced7d9a5ef0674537ce86b4b30a7804befea5d39856",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "817c44ccb4b6b36d7b108a883a90402cc071704ed1cc697b18b8db0c0baaf169",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "neteasemail",
+  "snapshot_id": "snap-neteasemail-817c44ccb4b6b36d7b108a88",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

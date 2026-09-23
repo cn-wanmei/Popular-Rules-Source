@@ -291,86 +291,7 @@
       "value": "ttwebview.com"
     }
   ],
-  "change_assessment": {
-    "growth_ratio": 1.0,
-    "removal_ratio": 0.0,
-    "status": "OK"
-  },
   "content_digest": "1a72610eaabb12fac263e6086b35652115f6e6f1594ab9c8d102aaf3a031a4f8",
-  "created_at": "2026-09-23T11:29:45.178069+00:00",
-  "domain_count": 29,
-  "domain_diff": {
-    "added": [],
-    "added_count": 0,
-    "current_count": 29,
-    "previous_count": 29,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [
-      "bytedapm.com",
-      "bytegecko-i18n.com",
-      "byteintlapi.com",
-      "byteoversea.com",
-      "capcut.com",
-      "ibytedtos.com",
-      "ibyteimg.com",
-      "ipstatp.com",
-      "isnssdk.com",
-      "lf16-effectcdn.byteeffecttos-g.com",
-      "lf16-pkgcdn.pitaya-clientai.com",
-      "marscode.com",
-      "muscdn.com",
-      "musical.ly",
-      "p16-tiktokcdn-com.akamaized.net",
-      "sgpstatp.com",
-      "snssdk.com",
-      "tik-tokapi.com",
-      "tiktok.com",
-      "tiktokcdn-us.com",
-      "tiktokcdn.com",
-      "tiktokd.net",
-      "tiktokd.org",
-      "tiktokmusic.app",
-      "tiktokv.com",
-      "tiktokv.us",
-      "trae-api-sg.mchost.guru",
-      "trae.ai",
-      "ttwebview.com"
-    ],
-    "unchanged_count": 29
-  },
-  "domains": [
-    "bytedapm.com",
-    "bytegecko-i18n.com",
-    "byteintlapi.com",
-    "byteoversea.com",
-    "capcut.com",
-    "ibytedtos.com",
-    "ibyteimg.com",
-    "ipstatp.com",
-    "isnssdk.com",
-    "lf16-effectcdn.byteeffecttos-g.com",
-    "lf16-pkgcdn.pitaya-clientai.com",
-    "marscode.com",
-    "muscdn.com",
-    "musical.ly",
-    "p16-tiktokcdn-com.akamaized.net",
-    "sgpstatp.com",
-    "snssdk.com",
-    "tik-tokapi.com",
-    "tiktok.com",
-    "tiktokcdn-us.com",
-    "tiktokcdn.com",
-    "tiktokd.net",
-    "tiktokd.org",
-    "tiktokmusic.app",
-    "tiktokv.com",
-    "tiktokv.us",
-    "trae-api-sg.mchost.guru",
-    "trae.ai",
-    "ttwebview.com"
-  ],
-  "errors": [],
   "evidence": [
     {
       "authority": "upstream",
@@ -391,36 +312,16 @@
   ],
   "evidence_digest": "8353301ff1067f5047c4d570d3391620043237f95604dfbb70071f6416ae950d",
   "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
-  "generator_version": "3.1.0",
-  "last_known_good": false,
-  "official_extracted": 0,
-  "official_source_count": 1,
-  "parser_version": "domain-extractor-v4",
   "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
-  "previous_domain_count": 29,
   "release_digest": "df0d82d481b22c2cbe3c5905ef4f0b1fd45c2c7f93a0eca5b439c8c4ce32dbb4",
   "release_identity_version": "2",
-  "release_reasons": [],
-  "release_state": "CANDIDATE",
-  "schema": "source_snapshot_v2",
-  "service_config_digest": "c220be7cb0b7898e277ef2700c9326da31b6b2f999c318e40feacf3cdd658560",
+  "schema": "source_provenance_v3",
   "service_id": "tiktok",
-  "snapshot_content_sha256": "1a72610eaabb12fac263e6086b35652115f6e6f1594ab9c8d102aaf3a031a4f8",
   "snapshot_id": "snap-tiktok-df0d82d481b22c2cbe3c5905",
-  "source_bindings": [
-    {
-      "adapter": "upstream_rule",
-      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.list"
-    }
-  ],
-  "source_count": 1,
   "source_policy": {
     "allowed_authorities": [
       "upstream"
     ],
     "official_required": false
-  },
-  "trusted_extracted": 29,
-  "unverified_candidate_count": 0,
-  "unverified_candidate_domains": []
+  }
 }
