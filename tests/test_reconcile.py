@@ -25,7 +25,7 @@ def test_reconcile_reports_registered_but_disabled(tmp_path, monkeypatch):
             return {"services": {}}
         raise AssertionError(url)
 
-    monkeypatch.setattr(reconcile, "_get_yaml", fake_get_yaml)
+    monkeypatch.setattr(reconcile, "_get_collection_yaml", lambda path, ref, timeout=20: fake_get_yaml(f"{ref}/{path}", timeout))
 
     snapshot_dir = tmp_path / "snapshots" / "snap-dingding"
     snapshot_dir.mkdir(parents=True)
