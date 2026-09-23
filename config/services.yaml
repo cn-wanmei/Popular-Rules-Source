@@ -35,6 +35,41 @@ services:
     source_policy: {official_required: true, min_confidence: high}
     boundary: {shared_infrastructure_allowed: false}
 
+  qq:
+    display_name: "QQ"
+    ecosystem: tencent
+    official_sources:
+      - "https://qq.com/"
+      - "https://im.qq.com/"
+      - "https://aq.qq.com/"
+      - "https://qun.qq.com/"
+      - "https://mobile.qq.com/"
+      - "https://ssl.ptlogin2.qq.com/"
+    allowed_host_suffixes: []
+    allowed_host_exact:
+      - qq.com
+      - qq.com.cn
+      - im.qq.com
+      - mobile.qq.com
+      - qun.qq.com
+      - aq.qq.com
+      - ptlogin2.qq.com
+      - ssl.ptlogin2.qq.com
+      - check.ptlogin2.qq.com
+      - sso.ptlogin2.qq.com
+      - qlogo.cn
+      - qpic.cn
+      - idqqimg.com
+      - udqqimg.com
+      - qstatic.com
+      - qqurl.com
+      - mqqurl.com
+      - qqwebapp.com
+      - qqun.com
+    coverage: {domain: review, ip: none, cidr: none}
+    source_policy: {official_required: true, min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
   qqmail:
     display_name: "QQ邮箱"
     ecosystem: tencent
