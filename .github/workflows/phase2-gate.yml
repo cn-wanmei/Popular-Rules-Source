@@ -17,7 +17,8 @@ jobs:
       contents: read
     runs-on: ubuntu-latest
     env:
-      COLLECTION_REF: main
+      # Pin Collection gate input to the registration commit merged by PR #171.
+      COLLECTION_REF: 1e664a510a9aeb5f1383d9a3c74fb33c5b8cbd8b
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
