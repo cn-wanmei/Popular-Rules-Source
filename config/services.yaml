@@ -612,3 +612,100 @@ services:
     source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
     boundary: {shared_infrastructure_allowed: false}
 
+
+
+  alibabacloud:
+    display_name: "Alibaba Cloud"
+    ecosystem: alibaba
+    official_sources: ["https://www.alibabacloud.com/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/alibabacloud.list", adapter: upstream_rule}
+    allowed_host_exact: []
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false, mode: source_bound}
+
+  deepseek:
+    display_name: "DeepSeek"
+    ecosystem: deepseek
+    official_sources: ["https://www.deepseek.com/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/deepseek.list", adapter: upstream_rule}
+    allowed_host_exact: []
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false, mode: source_bound}
+
+  perplexity:
+    display_name: "Perplexity"
+    ecosystem: perplexity
+    official_sources: ["https://www.perplexity.ai/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/perplexity.list", adapter: upstream_rule}
+    allowed_host_exact: []
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false, mode: source_bound}
+
+  groq:
+    display_name: "Groq"
+    ecosystem: groq
+    official_sources: ["https://groq.com/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/groq.list", adapter: upstream_rule}
+    allowed_host_exact: []
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false, mode: source_bound}
+
+  huggingface:
+    display_name: "Hugging Face"
+    ecosystem: huggingface
+    official_sources: ["https://huggingface.co/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/huggingface.list", adapter: upstream_rule}
+    allowed_host_exact: []
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false, mode: source_bound}
+
+  signal:
+    display_name: "Signal"
+    ecosystem: signal
+    official_sources: ["https://signal.org/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/signal.list", adapter: upstream_rule}
+    allowed_host_exact: []
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false, mode: source_bound}
+
+  messenger:
+    display_name: "Messenger"
+    ecosystem: meta
+    official_sources: ["https://www.messenger.com/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/messenger.list", adapter: upstream_rule}
+    allowed_host_exact: []
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false, mode: source_bound}
+
+  roblox:
+    display_name: "Roblox"
+    ecosystem: roblox
+    official_sources: ["https://www.roblox.com/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/roblox.list", adapter: upstream_rule}
+    allowed_host_exact: []
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false, mode: source_bound}
