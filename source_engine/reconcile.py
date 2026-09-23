@@ -86,6 +86,7 @@ def audit_collection(service_ids: list[str]) -> dict:
         "services": {},
     }
     intentional_services = set((intentional.get("services") or {}).keys())
+    registered_services = set(result["collection"]["prs_services"])
 
     for service_id in sorted(service_ids):
         latest = _latest_manifest(service_id)
@@ -95,7 +96,7 @@ def audit_collection(service_ids: list[str]) -> dict:
             "source_release_digest": (latest or {}).get("release_digest"),
             "source_domain_count": (latest or {}).get("domain_count", 0),
             "source_state": (latest or {}).get("release_state", "NO_SNAPSHOT"),
-            "collection_prs_registered": _canonical_service_id(service_id) in prs_rules,
+            "collection_prs_registered": _canonical_service_id(service_id) in registered_services,
             "collection_prs_enabled": bool((prs_entry or {}).get("enabled", False)),
             "collection_intentional": service_id in intentional_services,
             "immutable_binding_exact": (
