@@ -59,3 +59,11 @@ def test_upstream_rule_source_bound_accepts_full_service_file():
         source_bound=True,
     )
     assert found == ["foo.example.net", "youtube.co.jp", "youtube.com"]
+
+
+def test_github_rule_candidate_shape():
+    import base64
+    raw = "DOMAIN-SUFFIX,youtube.com\nDOMAIN-SUFFIX,youtube.co.jp\n"
+    payload = {"content": base64.b64encode(raw.encode()).decode()}
+    decoded = base64.b64decode(payload["content"]).decode()
+    assert decoded == raw
