@@ -286,3 +286,5 @@ jobs:
           git push origin main
 
 # Trigger durable RemainingGap after direct repository writes.
+
+# PR verification checkpoint for the remaining service durable-release matrix.
