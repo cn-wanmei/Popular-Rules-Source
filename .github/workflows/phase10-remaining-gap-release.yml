@@ -21,7 +21,7 @@ env:
 
 jobs:
   release:
-    if: ${{ github.event_name != 'pull_request' }}
+    if: ${{ github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.ref == 'refs/heads/main') }}
     name: Release RemainingGap ${{ matrix.service }}
     runs-on: ubuntu-latest
     strategy:
@@ -58,7 +58,6 @@ jobs:
       - run: python -m source_engine candidate-audit
       - run: python -m source_engine conflict
       - run: python -m source_engine audit
-      - run: python -m source_engine qualify
       - name: Create durable release
         run: python -m source_engine release --service "${{ matrix.service }}"
       - name: Verify release contract
@@ -146,7 +145,6 @@ jobs:
       - run: python -m source_engine candidate-audit
       - run: python -m source_engine conflict
       - run: python -m source_engine audit
-      - run: python -m source_engine qualify
       - run: python -m source_engine release --service "${{ matrix.service }}"
       - name: Verify durable release contract
         run: |
@@ -173,11 +171,23 @@ jobs:
           print(json.dumps({"service": service, "snapshot_id": sid, "release_digest": release["release_digest"]}, ensure_ascii=False))
           PY
 
+  pr-qualify:
+    name: Verify Collection reconciliation
+    if: ${{ github.event_name == 'pull_request' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - run: python -m pip install -r requirements.txt
+      - run: python -m source_engine validate
+      - run: python -m source_engine qualify
+
   persist:
-    if: ${{ github.event_name != 'pull_request' }}
     name: Persist RemainingGap immutable releases
     needs: release
-    if: ${{ always() && needs.release.result != 'cancelled' }}
+    if: ${{ always() && needs.release.result != 'cancelled' && (github.event_name == 'workflow_dispatch' || (github.event_name == 'push' && github.ref == 'refs/heads/main')) }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
@@ -281,7 +291,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f snapshots releases generated/source reports/durable-bridge/phase10-remaining-gap.json
+          git add -f snapshots releases generated/source reports/durable-bridge/phase10-remaining-gap-latest.json
           git commit -m "chore(source): persist phase10 immutable releases [skip ci]"
           git push origin main
 
