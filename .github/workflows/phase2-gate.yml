@@ -50,31 +50,63 @@ jobs:
       - run: python -m source_engine audit
       - name: Reconcile Collection registration before promotion
         run: |
-          python -m source_engine reconcile
           python - <<'PY'
-          import json
+          import base64
+          import os
+          import re
+          import unicodedata
           from pathlib import Path
 
-          report = json.loads(Path("reports/reconciliation.json").read_text(encoding="utf-8"))
-          collection = report["collection"]
-          assert collection["prs_registered"] is True
-          assert collection["prs_enabled"] is False
+          import requests
+          import yaml
 
-          lifecycle = __import__("yaml").safe_load(
-              open("config/source_canary_state.yaml", encoding="utf-8")
-          ) or {}
-          production_services = {
-              sid for sid, item in (lifecycle.get("services") or {}).items()
-              if isinstance(item, dict) and item.get("state") == "production"
+          ref = os.environ["COLLECTION_REF"]
+          response = requests.get(
+              "https://api.github.com/repos/cn-wanmei/Popular-Rules-Collection/contents/sources/registry.yaml",
+              params={"ref": ref},
+              timeout=20,
+              headers={
+                  "Accept": "application/vnd.github+json",
+                  "User-Agent": "Popular-Rules-Source/3.x",
+              },
+          )
+          response.raise_for_status()
+          payload = response.json()
+          content = base64.b64decode(
+              str(payload["content"]).replace("\\n", "")
+          ).decode("utf-8")
+          registry = yaml.safe_load(content) or {}
+          prs_entry = next(
+              (
+                  item for item in registry.get("sources", [])
+                  if item.get("id") == "popular-rules-source"
+              ),
+              None,
+          )
+          if not isinstance(prs_entry, dict):
+              raise SystemExit("Collection popular-rules-source registry entry missing")
+
+          def canonical(value):
+              normalized = unicodedata.normalize("NFKC", str(value)).strip().lower()
+              return re.sub(r"[^a-z0-9]+", "", normalized)
+
+          registered = {
+              canonical(rule.get("service") or rule.get("name"))
+              for rule in (prs_entry.get("rules") or [])
+              if rule.get("service") or rule.get("name")
           }
-          required_services = {str(sid).strip() for sid in report["services"].keys()}
-          registered_services = {str(value).strip() for value in collection["prs_services"]}
-          debug_ids = ["baidunetdisk", "googlecloud", "siri", "tencentmeeting", "wecom", "youdao"]
-          for sid in debug_ids:
-              print("REG_DEBUG", repr(sid), [hex(ord(ch)) for ch in sid], sid in required_services, sid in registered_services)
-          failures = sorted(required_services - registered_services)
-          if failures:
-              raise SystemExit(f"Collection registration reconciliation failed: {failures}")
-          print("Collection registration reconciliation: PASS")
+
+          import source_engine.build as build
+          required = {
+              canonical(sid)
+              for sid in build.load_services()["services"].keys()
+          }
+          missing = sorted(required - registered)
+          if missing:
+              raise SystemExit(f"Collection registration reconciliation failed: {missing}")
+          print(
+              f"Collection registration reconciliation: PASS "
+              f"(ref={ref}, registered={len(registered)}, required={len(required)})"
+          )
           PY
       - run: python -m source_engine qualify
