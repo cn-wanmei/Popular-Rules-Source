@@ -1,6 +1,6 @@
 # Candidate domain inventory for audit/reference only.
 # This file is NOT an official source and MUST NOT be used as production evidence.
-version: 1
+version: 2
 services:
   "1688": {domains: [1688.com, air.1688.com, buy.1688.com, cart.1688.com, detail.1688.com, fuwu.1688.com, login.1688.com, m.1688.com, member.1688.com, offer.1688.com, open.1688.com, order.1688.com, page-open.1688.com, search.1688.com, trade.1688.com, winport.1688.com, www.1688.com]}
   taobao: {domains: [2.taobao.com, bbs.taobao.com, buy.taobao.com, cart.taobao.com, eco.taobao.com, favorite.taobao.com, goods.taobao.com, gw.api.taobao.com, h5.m.taobao.com, huodong.taobao.com, i.taobao.com, item.taobao.com, login.taobao.com, m.taobao.com, oauth.taobao.com, open.taobao.com, pc.taobao.com, pcdetail.taobao.com, s.taobao.com, taobao.com, trade.taobao.com, web.m.taobao.com, world.taobao.com, www.taobao.com]}
@@ -9,4 +9,5 @@ services:
   dingding: {domains: [open.dingtalk.com, oapi.dingtalk.com, login.dingtalk.com, www.dingtalk.com, h5.dingtalk.com]}
   qqmail: {domains: [mail.qq.com, imap.qq.com, smtp.qq.com, pop.qq.com, exmail.qq.com]}
   qqmusic: {domains: [y.qq.com, u.y.qq.com, c.y.qq.com, dl.stream.qqmusic.qq.com]}
+  qq: {domains: [aq.qq.com, check.ptlogin2.qq.com, idqqimg.com, im.qq.com, mobile.qq.com, mqqurl.com, ptlogin2.qq.com, qq.com, qq.com.cn, qpic.cn, qlogo.cn, qqurl.com, qqun.com, qqwebapp.com, qstatic.com, qun.qq.com, sso.ptlogin2.qq.com, ssl.ptlogin2.qq.com, udqqimg.com]}
   tencentcloud: {domains: [bill.cloud.tencent.com, capi.cloud.tencent.com, cloud.tencent.com, console.cloud.tencent.com, iaas.cloud.tencent.com, tencentcloudapi.com, yun.tencent.com]}
