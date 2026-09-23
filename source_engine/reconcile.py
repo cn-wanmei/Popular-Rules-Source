@@ -1,6 +1,5 @@
 from __future__ import annotations
 
-import base64
 import json
 import os
 import re
@@ -10,7 +9,7 @@ from pathlib import Path
 import requests
 import yaml
 
-COLLECTION_API_ROOT = "https://api.github.com/repos/cn-wanmei/Popular-Rules-Collection"
+COLLECTION_RAW_ROOT = "https://raw.githubusercontent.com/cn-wanmei/Popular-Rules-Collection"
 
 
 def _canonical_service_id(value: object) -> str:
@@ -27,17 +26,13 @@ def _get_yaml(url: str, timeout: int = 20) -> dict:
 
 def _get_collection_yaml(path: str, ref: str, timeout: int = 20) -> dict:
     response = requests.get(
-        f"{COLLECTION_API_ROOT}/contents/{path}",
-        params={"ref": ref},
+        f"{COLLECTION_RAW_ROOT}/{ref}/{path}",
         timeout=timeout,
-        headers={"User-Agent": "Popular-Rules-Source/3.x", "Accept": "application/vnd.github+json"},
+        headers={"User-Agent": "Popular-Rules-Source/3.x"},
     )
     response.raise_for_status()
-    payload = response.json()
-    encoded = str(payload.get("content") or "").replace("\n", "")
-    if payload.get("encoding") != "base64" or not encoded:
-        raise RuntimeError(f"unexpected GitHub Contents response for {path}@{ref}")
-    return yaml.safe_load(base64.b64decode(encoded).decode("utf-8")) or {}
+    data = yaml.safe_load(response.text) or {}
+    return data if isinstance(data, dict) else {}
 
 
 def _get_yaml_optional(url: str, timeout: int = 20) -> dict:
