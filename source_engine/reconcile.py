@@ -3,12 +3,19 @@ from __future__ import annotations
 import base64
 import json
 import os
+import re
+import unicodedata
 from pathlib import Path
 
 import requests
 import yaml
 
 COLLECTION_API_ROOT = "https://api.github.com/repos/cn-wanmei/Popular-Rules-Collection"
+
+
+def _canonical_service_id(value: object) -> str:
+    normalized = unicodedata.normalize("NFKC", str(value)).strip().lower()
+    return re.sub(r"[^a-z0-9]+", "", normalized)
 
 
 def _get_yaml(url: str, timeout: int = 20) -> dict:
@@ -62,7 +69,7 @@ def audit_collection(service_ids: list[str]) -> dict:
 
     prs_entry = next((x for x in registry.get("sources", []) if x.get("id") == "popular-rules-source"), None)
     prs_rules = {
-        str(rule.get("service") or rule.get("name") or "").strip()
+        _canonical_service_id(rule.get("service") or rule.get("name") or "")
         for rule in (prs_entry or {}).get("rules", []) or []
         if rule.get("service") or rule.get("name")
     }
@@ -88,7 +95,7 @@ def audit_collection(service_ids: list[str]) -> dict:
             "source_release_digest": (latest or {}).get("release_digest"),
             "source_domain_count": (latest or {}).get("domain_count", 0),
             "source_state": (latest or {}).get("release_state", "NO_SNAPSHOT"),
-            "collection_prs_registered": str(service_id).strip() in prs_rules,
+            "collection_prs_registered": _canonical_service_id(service_id) in prs_rules,
             "collection_prs_enabled": bool((prs_entry or {}).get("enabled", False)),
             "collection_intentional": service_id in intentional_services,
             "immutable_binding_exact": (
