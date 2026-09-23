@@ -38,6 +38,18 @@
       "snapshot_id": null,
       "verified": false
     },
+    "appletv": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
     "appstore": {
       "blockers": [
         "no_snapshot"
@@ -55,6 +67,18 @@
         "no_snapshot"
       ],
       "declared_state": "verified",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
+    "baidunetdisk": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
       "domain_count": 0,
       "enabled": true,
       "production_activated": false,
@@ -100,6 +124,18 @@
       "snapshot_id": "snap-dingding-e4c0f3c3b4e57308277a22db",
       "verified": false
     },
+    "doubao": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
     "douyin": {
       "blockers": [
         "no_snapshot"
@@ -136,11 +172,59 @@
       "snapshot_id": null,
       "verified": false
     },
+    "firebase": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
+    "github": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
+    "googlecloud": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
     "googledrive": {
       "blockers": [
         "no_snapshot"
       ],
       "declared_state": "verified",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
+    "googlefcm": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
       "domain_count": 0,
       "enabled": true,
       "production_activated": false,
@@ -222,6 +306,18 @@
       "snapshot_id": "snap-qqmusic-7c0a2fae200d3fbbec51a4a3",
       "verified": false
     },
+    "siri": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
     "taobao": {
       "blockers": [
         "no_trusted_extraction"
@@ -259,6 +355,30 @@
       "snapshot_id": "snap-tencentcloud-621d7e757e9f59085c87f2ce",
       "verified": false
     },
+    "tencentmeeting": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
+    "tencentvideo": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
     "testflight": {
       "blockers": [
         "no_snapshot"
@@ -288,6 +408,54 @@
         "no_snapshot"
       ],
       "declared_state": "verified",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
+    "wecom": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
+    "xbox": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
+    "youdao": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
+    "youtube": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
       "domain_count": 0,
       "enabled": true,
       "production_activated": false,
