@@ -696,6 +696,102 @@ services:
     source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
     boundary: {shared_infrastructure_allowed: false}
 
+
+  applemedia:
+    display_name: "Apple Media"
+    ecosystem: apple
+    official_sources: ["https://www.apple.com/services/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMedia/AppleMedia.list", adapter: upstream_rule}
+    allowed_host_exact: []
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false, mode: source_bound}
+
+  copilot:
+    display_name: "Microsoft Copilot"
+    ecosystem: microsoft
+    official_sources: ["https://copilot.microsoft.com/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Copilot/Copilot.list", adapter: upstream_rule}
+    allowed_host_exact: []
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false, mode: source_bound}
+
+  claude:
+    display_name: "Claude"
+    ecosystem: anthropic
+    official_sources: ["https://claude.ai/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.list", adapter: upstream_rule}
+    allowed_host_exact: []
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false, mode: source_bound}
+
+  gemini:
+    display_name: "Google Gemini"
+    ecosystem: google
+    official_sources: ["https://gemini.google.com/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.list", adapter: upstream_rule}
+    allowed_host_exact: []
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false, mode: source_bound}
+
+  openai:
+    display_name: "OpenAI"
+    ecosystem: openai
+    official_sources: ["https://openai.com/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OpenAI/OpenAI.list", adapter: upstream_rule}
+    allowed_host_exact: []
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false, mode: source_bound}
+
+  telegram:
+    display_name: "Telegram"
+    ecosystem: telegram
+    official_sources: ["https://telegram.org/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Telegram/Telegram.list", adapter: upstream_rule}
+    allowed_host_exact: []
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false, mode: source_bound}
+
+  discord:
+    display_name: "Discord"
+    ecosystem: discord
+    official_sources: ["https://discord.com/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Discord/Discord.list", adapter: upstream_rule}
+    allowed_host_exact: []
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false, mode: source_bound}
+
+  netflix:
+    display_name: "Netflix"
+    ecosystem: netflix
+    official_sources: ["https://www.netflix.com/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.list", adapter: upstream_rule}
+    allowed_host_exact: []
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false, mode: source_bound}
   alibabacloud:
     display_name: "Alibaba Cloud"
     ecosystem: alibaba
