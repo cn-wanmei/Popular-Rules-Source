@@ -125,7 +125,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | Service | Lifecycle | Release | Domains | Snapshot |
 |---|---|---|---:|---|
 | 1688 | **PRODUCTION** | CANDIDATE | 3 | snap-1688-39272fe7087048097f0c13f9 |
-| alibabacloud | **REVIEW** | NO_SNAPSHOT | 0 | none |
+| alibabacloud | **REVIEW** | CANDIDATE | 12 | snap-alibabacloud-461ca160d076aaffa913407c |
 | appledev | **VERIFIED** | NO_SNAPSHOT | 0 | none |
 | applemusic | **VERIFIED** | NO_SNAPSHOT | 0 | none |
 | appletv | **REVIEW** | NO_SNAPSHOT | 0 | none |
@@ -134,7 +134,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | baidunetdisk | **REVIEW** | CANDIDATE | 2 | snap-baidunetdisk-0a8e64e56c03019bef5f6c1e |
 | baidutieba | **VERIFIED** | NO_SNAPSHOT | 0 | none |
 | cainiao | **PRODUCTION** | CANDIDATE | 1 | snap-cainiao-9c79bba6516f87de3d163407 |
-| deepseek | **REVIEW** | NO_SNAPSHOT | 0 | none |
+| deepseek | **REVIEW** | CANDIDATE | 2 | snap-deepseek-e74c191a25236d73593d589b |
 | dingding | **PRODUCTION** | CANDIDATE | 6 | snap-dingding-e4c0f3c3b4e57308277a22db |
 | doubao | **REVIEW** | CANDIDATE | 4 | snap-doubao-9a5b57cdb4a46ae1210f2e4b |
 | douyin | **VERIFIED** | NO_SNAPSHOT | 0 | none |
@@ -145,18 +145,18 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | googlecloud | **REVIEW** | CANDIDATE | 5 | snap-googlecloud-13cf610100c06a4ea5b42d73 |
 | googledrive | **VERIFIED** | NO_SNAPSHOT | 0 | none |
 | googlefcm | **REVIEW** | NO_SNAPSHOT | 0 | none |
-| groq | **REVIEW** | NO_SNAPSHOT | 0 | none |
-| huggingface | **REVIEW** | NO_SNAPSHOT | 0 | none |
+| groq | **REVIEW** | CANDIDATE | 1 | snap-groq-c073c7adcd8f0db5ebe9a92a |
+| huggingface | **REVIEW** | CANDIDATE | 3 | snap-huggingface-c41977bf6c8dade8b423273a |
 | icloud | **VERIFIED** | NO_SNAPSHOT | 0 | none |
-| messenger | **REVIEW** | NO_SNAPSHOT | 0 | none |
+| messenger | **REVIEW** | CANDIDATE | 4 | snap-messenger-0a0d45654f4b394bb85deabf |
 | neteasemusic | **VERIFIED** | NO_SNAPSHOT | 0 | none |
 | onedrive | **VERIFIED** | NO_SNAPSHOT | 0 | none |
-| perplexity | **REVIEW** | NO_SNAPSHOT | 0 | none |
+| perplexity | **REVIEW** | CANDIDATE | 4 | snap-perplexity-5843c1ce73203b9d968be9fc |
 | qq | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | qqmail | **PRODUCTION** | CANDIDATE | 1 | snap-qqmail-0f8103b3188739c880f10aff |
 | qqmusic | **PRODUCTION** | CANDIDATE | 1 | snap-qqmusic-7c0a2fae200d3fbbec51a4a3 |
-| roblox | **REVIEW** | NO_SNAPSHOT | 0 | none |
-| signal | **REVIEW** | NO_SNAPSHOT | 0 | none |
+| roblox | **REVIEW** | CANDIDATE | 47 | snap-roblox-36d3732a073e69dc0d883708 |
+| signal | **REVIEW** | CANDIDATE | 8 | snap-signal-82644ff2cbaddc4da87ede48 |
 | siri | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | taobao | **VERIFIED** | CANDIDATE | 14 | snap-taobao-1e6d38ed82f9483e344a3181 |
 | teams | **VERIFIED** | NO_SNAPSHOT | 0 | none |
