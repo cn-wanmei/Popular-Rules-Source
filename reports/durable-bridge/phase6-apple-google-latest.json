@@ -1,0 +1,62 @@
+{
+  "created_at": "2026-09-23T10:51:35.396Z",
+  "schema": "popular_rules_source_phase6_apple_google_release_v1",
+  "services": {
+    "applemusic": {
+      "content_digest": "ed7f03ecbf0e65d6055de1758e8be6758a3e1b1bfe25afbd67c4f24ac1aed007",
+      "evidence_digest": "be0d71c994df61206bb0e1210aee5e48282690e428a33bcf0c72474d9d99a9e6",
+      "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+      "policy_digest": "768f4482825e81cab263d62267bfd653ad983f454f22f1ca2b321dda8ad9c1c1",
+      "release_digest": "3b672c7c1ed52f0df7b897fa18f837a1f6aeb1ad110c4ee97476b7307f6608ad",
+      "release_identity_version": "2",
+      "release_path": "releases/applemusic/snap-applemusic-3b672c7c1ed52f0df7b897fa/release.json",
+      "snapshot_id": "snap-applemusic-3b672c7c1ed52f0df7b897fa",
+      "status": "PERSISTED"
+    },
+    "appstore": {
+      "content_digest": "470529b3a2c5835f7a1c8e52229eb7adc4d8f0dbec0d1b07661c9b4476df3d1c",
+      "evidence_digest": "ea7990795a72e0470eeeaec75bd6467dc89153cba91d7373010fbfe7b942f7b6",
+      "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+      "policy_digest": "4b2111cd8b2cd9fbdb9faafb9aec8a51b1c3f107d5cbfbd283359abac48c75dd",
+      "release_digest": "ad9887965cf7199654327ddef664afd6f4da8ab656f428a0eda6afcc03a55e1e",
+      "release_identity_version": "2",
+      "release_path": "releases/appstore/snap-appstore-ad9887965cf7199654327dde/release.json",
+      "snapshot_id": "snap-appstore-ad9887965cf7199654327dde",
+      "status": "PERSISTED"
+    },
+    "googledrive": {
+      "content_digest": "bdf2381867e98fde7c6d10bcced6ce5465ef9e4f1790d78905816904593e85f9",
+      "evidence_digest": "b8a0518a2b67890ecb86dd5aed17ed2a417c81c769b516ee18c2c1befcfb262a",
+      "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+      "policy_digest": "b107935f895a642dacb5630e10359a0ffd8c5dadabc332ec01cf378b10094030",
+      "release_digest": "02103e6fb8fc4685d8e65a7a683249ead8eb5eb624f95cc19b78427a8e30fda4",
+      "release_identity_version": "2",
+      "release_path": "releases/googledrive/snap-googledrive-02103e6fb8fc4685d8e65a7a/release.json",
+      "snapshot_id": "snap-googledrive-02103e6fb8fc4685d8e65a7a",
+      "status": "PERSISTED"
+    },
+    "icloud": {
+      "content_digest": "94cebbd23c02eafb107927c4692b4f39377adb3e99d3462e0e5ce26194eb9b43",
+      "evidence_digest": "d4a2808240a83062fc462ecf0bb40b1cb09dd699a86f879ec1960e0bb9212133",
+      "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+      "policy_digest": "7c61b91745114de9c298c6a20cad1cd5a317b54a22d81dffd3488684266efc27",
+      "release_digest": "6a7847125f008375cb98e14cfbcb660cf58efcb88bafbb3de9e603b2b71c067b",
+      "release_identity_version": "2",
+      "release_path": "releases/icloud/snap-icloud-6a7847125f008375cb98e14c/release.json",
+      "snapshot_id": "snap-icloud-6a7847125f008375cb98e14c",
+      "status": "PERSISTED"
+    },
+    "testflight": {
+      "content_digest": "892baeedfa6911d40dd9953d77211bb23dcdd32ce987685477b545442c17837a",
+      "evidence_digest": "a384b8b809f1b9f428b09a35809ded07eaa1a76e4b50df77ceb622a777ab8d84",
+      "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+      "policy_digest": "22d90b177736717cae4f98ae4f5c555073b13453dfb02a612ce5b9ac7f6aaa08",
+      "release_digest": "aef28e222598764f34a5f052f1762158c959ec0b6cabbd317bd16bd0fb2af076",
+      "release_identity_version": "2",
+      "release_path": "releases/testflight/snap-testflight-aef28e222598764f34a5f052/release.json",
+      "snapshot_id": "snap-testflight-aef28e222598764f34a5f052",
+      "status": "PERSISTED"
+    }
+  },
+  "verified_input_commit": "69eeda8c051d505ca8af3c9fb5d0c85cfedb8c91"
+}

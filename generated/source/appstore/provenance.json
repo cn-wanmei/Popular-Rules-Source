@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:b9f7312297165be095cfdfb19f65271561075ae81558b34a2d2534e5d5dab1be",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appstore-001-245ea6eb4c7f"
+      ],
+      "service_id": "appstore",
+      "type": "domain",
+      "value": "apps.apple.com"
+    },
+    {
+      "asset_id": "sha256:75492f8680528bb0af7aba9ae546f2ec1361846b210e2b82fed81af7c2bc6755",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appstore-001-245ea6eb4c7f"
+      ],
+      "service_id": "appstore",
+      "type": "domain",
+      "value": "itunes.apple.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0,
+    "removal_ratio": 0,
+    "status": "OK"
+  },
+  "content_digest": "470529b3a2c5835f7a1c8e52229eb7adc4d8f0dbec0d1b07661c9b4476df3d1c",
+  "created_at": "2026-09-23T10:51:35.396Z",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "apps.apple.com",
+      "itunes.apple.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "apps.apple.com",
+    "itunes.apple.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "245ea6eb4c7fa160824476c937be4f15f3925d83fba1d94bb3b6cc58562feb90",
+      "domains_extracted": 2,
+      "evidence_id": "EV-appstore-001-245ea6eb4c7f",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppStore/AppStore.list",
+      "retrieved_at": "2026-09-23T10:51:35.396Z",
+      "service_id": "appstore",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppStore/AppStore.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "ea7990795a72e0470eeeaec75bd6467dc89153cba91d7373010fbfe7b942f7b6",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 0,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "4b2111cd8b2cd9fbdb9faafb9aec8a51b1c3f107d5cbfbd283359abac48c75dd",
+  "previous_domain_count": 0,
+  "release_digest": "ad9887965cf7199654327ddef664afd6f4da8ab656f428a0eda6afcc03a55e1e",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "2a82bef21e81350bf7385ee90cf2710c63c139ceaa8ac8f6874cf7fee9ca43c6",
+  "service_id": "appstore",
+  "snapshot_content_sha256": "470529b3a2c5835f7a1c8e52229eb7adc4d8f0dbec0d1b07661c9b4476df3d1c",
+  "snapshot_id": "snap-appstore-ad9887965cf7199654327dde",
+  "source_bindings": [
+    {
+      "adapter": "upstream_rule",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppStore/AppStore.list"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

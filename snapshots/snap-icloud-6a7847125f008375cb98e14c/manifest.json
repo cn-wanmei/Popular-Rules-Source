@@ -1,0 +1,798 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:1b53c92cd7f6b67ffa9018babb7bbdc5f4a96cd668f5259a90a0b0bd944cb297",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "apple-cloudkit.com"
+    },
+    {
+      "asset_id": "sha256:fc2120e38d94efb4fdf95db9b69e71e547d93e08ff9000d6ba2e03e91ad28ea7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "apple-icloud.cn"
+    },
+    {
+      "asset_id": "sha256:47f065ebc3e4f77d2f536a574a4fbe1fe3ac396d605d1c3166f5f8e24d1df4c8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "apple-livephotoskit.com"
+    },
+    {
+      "asset_id": "sha256:eb6a791da1e88de478e1b93e46ad7f1f00aa26be238af1ca24809367716e651a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "appleicloud.cn"
+    },
+    {
+      "asset_id": "sha256:b63bc790db360a6a575d59622e8f979ff51d49f885dac6bbfd07249a1390a608",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "applemx-icloud.com"
+    },
+    {
+      "asset_id": "sha256:1527ca0fb0b93b7eeb296f508bd8a6f9b8379efe7bcc5a4ade03e3ba91804a69",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "apzones.com"
+    },
+    {
+      "asset_id": "sha256:ee68727a3b0cd5b35c2368a255f17e8d88e1d2805f1e82067695035252d61db8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "cdn-apple.com"
+    },
+    {
+      "asset_id": "sha256:7913991a9e360f64d56f485ea6cdb41d7aad5e5a8ece0202ae3960334187e28e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "gc.apple.com"
+    },
+    {
+      "asset_id": "sha256:5a6277a1452870e58aca292ca52df7aff5ad38ef050857d5aed765dc4bbb9e43",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud-apple.cn"
+    },
+    {
+      "asset_id": "sha256:823b3514dc747c8aa6be7c190fb640ab6ff995cadcf48f96ea01d94924f4c885",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud-content.com"
+    },
+    {
+      "asset_id": "sha256:feb40999339eb2bb12b9e390e55244b323afe6d0038b7600690219f3e2d8001a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud-content.com.cn"
+    },
+    {
+      "asset_id": "sha256:ab242c2bb82df34f11727595abad6f6ed0c5112d63386fcbc9dce2d6b2a5f1c4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud-isupport.com"
+    },
+    {
+      "asset_id": "sha256:52f4ab56558e4f92c896a21a27155af93677647027b7a15e7778bba603515aa0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud-sandbox.com"
+    },
+    {
+      "asset_id": "sha256:3f2f54319180c55981ec2b9790fefa25277efadc40553031e3a01f455d97091c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud.apple.com"
+    },
+    {
+      "asset_id": "sha256:934316ea806ed06498bf0d8c457caef6213ce32de76577fe9f69c9a9ff32b7f8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud.ch"
+    },
+    {
+      "asset_id": "sha256:4a59f25c9d20e93c280fee6152e19fcca718d30396beedffa89e1adce01221bb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud.cn"
+    },
+    {
+      "asset_id": "sha256:21deb7c2c652eb125077aeb637f7bcf30a078fb1f97d12e8c6fc200d9265acb3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud.com"
+    },
+    {
+      "asset_id": "sha256:bf53ab90754444f098adc3525baa998e54ce622c5193ebcce4ee6a6639b0cb7d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud.com.cn"
+    },
+    {
+      "asset_id": "sha256:c48eb9e7b306c35c4daabe9293bd8863b9b5e3563dd9d2f199ba20086906ca98",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud.de"
+    },
+    {
+      "asset_id": "sha256:f5237a22612585a890439aa8786445a4c8ffe1f71fb18a75acde4aae23206a46",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud.ee"
+    },
+    {
+      "asset_id": "sha256:f66b0231a2f26ab93455baea92f2ecd805d4b7bb6d3b8b19bf03dd651ec0e89e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud.fi"
+    },
+    {
+      "asset_id": "sha256:3ea7acef15c2b0a10251c1dc4c6c0a897a18592d9302168dfc8cbb5cdd031ab7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud.fr"
+    },
+    {
+      "asset_id": "sha256:855ba4ece01eb3b1809ae2f7cfb50f585717629ed7722eb0ba2c85eb3c2ed7ca",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud.hu"
+    },
+    {
+      "asset_id": "sha256:83213a610e91f1adf1ddf9433c2b16e8eaf056ddfde60d5f39f7cab46ef1f7d8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud.ie"
+    },
+    {
+      "asset_id": "sha256:d4f0d97866b74f4abd91acc264c6fa2b33856219f622321e34887b53d3812957",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud.is"
+    },
+    {
+      "asset_id": "sha256:f10d643eb4bdb3fa09aca601f6ff3abae423c3252d65e63717d4139431d03806",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud.jp"
+    },
+    {
+      "asset_id": "sha256:406758b152651780c667cc9c1a76e2004afbbe3fca452957cf90ff55e1e2e8d3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud.lv"
+    },
+    {
+      "asset_id": "sha256:775d0de0b200931cf3c330463546e2f65f9455b0e1cae945767a37753768ba10",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud.net.cn"
+    },
+    {
+      "asset_id": "sha256:516357f6d1300784f530ce54a3ba926e6e891411452ce09710dbf1eb5290c2f3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud.om"
+    },
+    {
+      "asset_id": "sha256:18bb5b1c4bb16930d1db35b73bd58f97d02ab71c0b178bc8b25b39d87832a947",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud.org"
+    },
+    {
+      "asset_id": "sha256:11add937790dfa8da025590f60b290728e207d1672dc8444b5eaaa1911912c40",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud.pt"
+    },
+    {
+      "asset_id": "sha256:5b0db65e76ca71ca5eb9c3c9e016a47cc1dd593150c2392a16dea16a06289bc1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud.ro"
+    },
+    {
+      "asset_id": "sha256:672fb65002528abd817fa3b706d8a4b08724e43d4ef2e10c85c1e2abf9e73d9c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud.se"
+    },
+    {
+      "asset_id": "sha256:990138d53ec12f355d384e6adc0e85f2a6b032af7ba0b28947895c9932a4dcd0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud.si"
+    },
+    {
+      "asset_id": "sha256:51eabadb67af9ec5577bd187495e781467e4f800aa08146ea221e8aa455dacdd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud.sk"
+    },
+    {
+      "asset_id": "sha256:14320e5101d9204f64ba4ff6c293b69492fd5a8478a2d8f795ec474140ffa331",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloud.vn"
+    },
+    {
+      "asset_id": "sha256:22be20bffef896389f323329fb881e150776c2558a77effcbb38ca3057b802bf",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloudads.net"
+    },
+    {
+      "asset_id": "sha256:732b8f105dbbc984c378a042080caf7d2bd1f2f31123a656fd71cd1eb628c497",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloudapple.cn"
+    },
+    {
+      "asset_id": "sha256:af60172c5dae1793c8f9a2bc1de0e535c703a0277635eb3971d666acca8ced12",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloudbox.net"
+    },
+    {
+      "asset_id": "sha256:c029eb76f0dc0514c004fa629e5331cc70db0f9c7d04154f4a53c387da342c33",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloudbrowser.net"
+    },
+    {
+      "asset_id": "sha256:d7615cf8066a0f7fde3c79a60eebbebcb7e912d355e3c3b62baf95123c9afb87",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloude.com"
+    },
+    {
+      "asset_id": "sha256:65ff7fca517de91f4f25ced53080b9f2547b0408ae7fbcfc66acba9028816ef9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloudhome.com"
+    },
+    {
+      "asset_id": "sha256:c05f590fbab87151712696aef77038bd2984f314c7d6bcdc904d8ab3b4b3852d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloudmail.net"
+    },
+    {
+      "asset_id": "sha256:75eaf39c5ec550d923318d46fe45a390c53586c1a3898f9e1646f787939197a9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloudmusic.net"
+    },
+    {
+      "asset_id": "sha256:902d59dc206499986e6921f81f2719dbd4c5ed818b4145c14f7c7cee6aa16c3b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloudnet.net"
+    },
+    {
+      "asset_id": "sha256:ef453c36937a98aad2f5fa5d9e19eeb4f694b0297169450300023e1294ba3306",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloudo.com"
+    },
+    {
+      "asset_id": "sha256:3e51619b955ceeb7f2684354ad09bc0be3f821ee2d87b6b32e52a2e21df700d1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloudo.de"
+    },
+    {
+      "asset_id": "sha256:76b0a19916a1c5ec4fa09177e73cd2a48b0ddc37361974b1a06b3092a9ca475a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloudo.net"
+    },
+    {
+      "asset_id": "sha256:fb310cd7722367c9269bd69f1cc47ccb75878b98d7929812f3b32af52133a1c9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloudos.de"
+    },
+    {
+      "asset_id": "sha256:a86b94ed0464d780562bd3591cd1a56c68efa59144d1ef73cdc89a04043149f8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloudos.net"
+    },
+    {
+      "asset_id": "sha256:55e3a5e4cf8a70478c85cfc89fd25f01aae4889664b52e1cad8f1a845de0c4d1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloudpay.net"
+    },
+    {
+      "asset_id": "sha256:702ebd4c479f7eaca9a92b79ff97e67f9d9536f276ee14399ffb5bf208718222",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloudsecure.net"
+    },
+    {
+      "asset_id": "sha256:a506b37adfc3a0b8777e2398d98b0c0e6a747ec3ed4cbc1329dd13727328cd84",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "icloudsetup.com"
+    },
+    {
+      "asset_id": "sha256:023b003d59c81c5cb13f29d2ce4b86fe31acfab04e30aa167b0c060a63c73dec",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "ios-icloud.com"
+    },
+    {
+      "asset_id": "sha256:eafff8e743e5f0fee3abfa32342c9e98b5226d669eebc3dceda9179c6a1cc4ad",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "iwork.apple.com"
+    },
+    {
+      "asset_id": "sha256:e1d63b661d739fc62607d0e01e2f302b62690b9a6535088435c5b0120d6ccb59",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "me.com"
+    },
+    {
+      "asset_id": "sha256:3d77765069ec7d64e7495c33c9d7fdf9bbf2d3e4bae6395064b148a01078fad9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "myicloud.net"
+    },
+    {
+      "asset_id": "sha256:81d63314014ab3ecc3d5224cdcc7fa17f4ddbb262d1497f8bb41482806c97801",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "mylcloud.net"
+    },
+    {
+      "asset_id": "sha256:be5f56d3cdfe4bc96521acbe01429d4b416c415919808f1869a9a3c51525d285",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "www-cdn.icloud.com.akadns.net"
+    },
+    {
+      "asset_id": "sha256:ac31bc9bdb47430813350d3012ea5e543d6cb58a27eb6df18024e72370a7f228",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-icloud-001-e34e2c63cb43"
+      ],
+      "service_id": "icloud",
+      "type": "domain",
+      "value": "wwwicloud.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0,
+    "removal_ratio": 0,
+    "status": "OK"
+  },
+  "content_digest": "94cebbd23c02eafb107927c4692b4f39377adb3e99d3462e0e5ce26194eb9b43",
+  "created_at": "2026-09-23T10:51:35.396Z",
+  "domain_count": 60,
+  "domain_diff": {
+    "added": [
+      "apple-cloudkit.com",
+      "apple-icloud.cn",
+      "apple-livephotoskit.com",
+      "appleicloud.cn",
+      "applemx-icloud.com",
+      "apzones.com",
+      "cdn-apple.com",
+      "gc.apple.com",
+      "icloud-apple.cn",
+      "icloud-content.com",
+      "icloud-content.com.cn",
+      "icloud-isupport.com",
+      "icloud-sandbox.com",
+      "icloud.apple.com",
+      "icloud.ch",
+      "icloud.cn",
+      "icloud.com",
+      "icloud.com.cn",
+      "icloud.de",
+      "icloud.ee",
+      "icloud.fi",
+      "icloud.fr",
+      "icloud.hu",
+      "icloud.ie",
+      "icloud.is",
+      "icloud.jp",
+      "icloud.lv",
+      "icloud.net.cn",
+      "icloud.om",
+      "icloud.org",
+      "icloud.pt",
+      "icloud.ro",
+      "icloud.se",
+      "icloud.si",
+      "icloud.sk",
+      "icloud.vn",
+      "icloudads.net",
+      "icloudapple.cn",
+      "icloudbox.net",
+      "icloudbrowser.net",
+      "icloude.com",
+      "icloudhome.com",
+      "icloudmail.net",
+      "icloudmusic.net",
+      "icloudnet.net",
+      "icloudo.com",
+      "icloudo.de",
+      "icloudo.net",
+      "icloudos.de",
+      "icloudos.net",
+      "icloudpay.net",
+      "icloudsecure.net",
+      "icloudsetup.com",
+      "ios-icloud.com",
+      "iwork.apple.com",
+      "me.com",
+      "myicloud.net",
+      "mylcloud.net",
+      "www-cdn.icloud.com.akadns.net",
+      "wwwicloud.com"
+    ],
+    "added_count": 60,
+    "current_count": 60,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "apple-cloudkit.com",
+    "apple-icloud.cn",
+    "apple-livephotoskit.com",
+    "appleicloud.cn",
+    "applemx-icloud.com",
+    "apzones.com",
+    "cdn-apple.com",
+    "gc.apple.com",
+    "icloud-apple.cn",
+    "icloud-content.com",
+    "icloud-content.com.cn",
+    "icloud-isupport.com",
+    "icloud-sandbox.com",
+    "icloud.apple.com",
+    "icloud.ch",
+    "icloud.cn",
+    "icloud.com",
+    "icloud.com.cn",
+    "icloud.de",
+    "icloud.ee",
+    "icloud.fi",
+    "icloud.fr",
+    "icloud.hu",
+    "icloud.ie",
+    "icloud.is",
+    "icloud.jp",
+    "icloud.lv",
+    "icloud.net.cn",
+    "icloud.om",
+    "icloud.org",
+    "icloud.pt",
+    "icloud.ro",
+    "icloud.se",
+    "icloud.si",
+    "icloud.sk",
+    "icloud.vn",
+    "icloudads.net",
+    "icloudapple.cn",
+    "icloudbox.net",
+    "icloudbrowser.net",
+    "icloude.com",
+    "icloudhome.com",
+    "icloudmail.net",
+    "icloudmusic.net",
+    "icloudnet.net",
+    "icloudo.com",
+    "icloudo.de",
+    "icloudo.net",
+    "icloudos.de",
+    "icloudos.net",
+    "icloudpay.net",
+    "icloudsecure.net",
+    "icloudsetup.com",
+    "ios-icloud.com",
+    "iwork.apple.com",
+    "me.com",
+    "myicloud.net",
+    "mylcloud.net",
+    "www-cdn.icloud.com.akadns.net",
+    "wwwicloud.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "e34e2c63cb431ab0a1838d218aba4d8ddb102774f49727f3de44bc8261227475",
+      "domains_extracted": 60,
+      "evidence_id": "EV-icloud-001-e34e2c63cb43",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iCloud/iCloud.list",
+      "retrieved_at": "2026-09-23T10:51:35.396Z",
+      "service_id": "icloud",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iCloud/iCloud.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "d4a2808240a83062fc462ecf0bb40b1cb09dd699a86f879ec1960e0bb9212133",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 0,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "7c61b91745114de9c298c6a20cad1cd5a317b54a22d81dffd3488684266efc27",
+  "previous_domain_count": 0,
+  "release_digest": "6a7847125f008375cb98e14cfbcb660cf58efcb88bafbb3de9e603b2b71c067b",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "bb54bea38f58740e32ee8ab971fd4934fe46c534f7fc1c87dfa904ab11b1f6c9",
+  "service_id": "icloud",
+  "snapshot_content_sha256": "94cebbd23c02eafb107927c4692b4f39377adb3e99d3462e0e5ce26194eb9b43",
+  "snapshot_id": "snap-icloud-6a7847125f008375cb98e14c",
+  "source_bindings": [
+    {
+      "adapter": "upstream_rule",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/iCloud/iCloud.list"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  },
+  "trusted_extracted": 60,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

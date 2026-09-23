@@ -1,0 +1,126 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:13b645521b04f0322f1ffc16d92c9f70408edfe9d121601052dd4be4f399ec62",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googledrive-001-7a65da91de1a"
+      ],
+      "service_id": "googledrive",
+      "type": "domain",
+      "value": "docs.google.com"
+    },
+    {
+      "asset_id": "sha256:6db4e86ad38d5c5bc2c95ca7ad0424f2c5f9c12cb76265a9674715c2060eb0ae",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googledrive-001-7a65da91de1a"
+      ],
+      "service_id": "googledrive",
+      "type": "domain",
+      "value": "drive.google.com"
+    },
+    {
+      "asset_id": "sha256:8a86cd041369adbfb4795fcadebecfb1b98b4caa9ab8693bfd56acab5b43a116",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googledrive-001-7a65da91de1a"
+      ],
+      "service_id": "googledrive",
+      "type": "domain",
+      "value": "googledrive.com"
+    },
+    {
+      "asset_id": "sha256:be04e02eb29e71d39c8e31b279b99ab810329f641926af43e7e21c9dc1e1b75d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googledrive-001-7a65da91de1a"
+      ],
+      "service_id": "googledrive",
+      "type": "domain",
+      "value": "googleusercontent.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0,
+    "removal_ratio": 0,
+    "status": "OK"
+  },
+  "content_digest": "bdf2381867e98fde7c6d10bcced6ce5465ef9e4f1790d78905816904593e85f9",
+  "created_at": "2026-09-23T10:51:35.396Z",
+  "domain_count": 4,
+  "domain_diff": {
+    "added": [
+      "docs.google.com",
+      "drive.google.com",
+      "googledrive.com",
+      "googleusercontent.com"
+    ],
+    "added_count": 4,
+    "current_count": 4,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "docs.google.com",
+    "drive.google.com",
+    "googledrive.com",
+    "googleusercontent.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "7a65da91de1a31482825b65cdb25482220f2f9d4914bde5ab6ac35fdd97a7a3b",
+      "domains_extracted": 4,
+      "evidence_id": "EV-googledrive-001-7a65da91de1a",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleDrive/GoogleDrive.list",
+      "retrieved_at": "2026-09-23T10:51:35.396Z",
+      "service_id": "googledrive",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleDrive/GoogleDrive.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "b8a0518a2b67890ecb86dd5aed17ed2a417c81c769b516ee18c2c1befcfb262a",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 0,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "b107935f895a642dacb5630e10359a0ffd8c5dadabc332ec01cf378b10094030",
+  "previous_domain_count": 0,
+  "release_digest": "02103e6fb8fc4685d8e65a7a683249ead8eb5eb624f95cc19b78427a8e30fda4",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "899169bec8e61f9facb0115fb1e59c12a5c5607cf11964dce5d32e678c1ce400",
+  "service_id": "googledrive",
+  "snapshot_content_sha256": "bdf2381867e98fde7c6d10bcced6ce5465ef9e4f1790d78905816904593e85f9",
+  "snapshot_id": "snap-googledrive-02103e6fb8fc4685d8e65a7a",
+  "source_bindings": [
+    {
+      "adapter": "upstream_rule",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleDrive/GoogleDrive.list"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  },
+  "trusted_extracted": 4,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:7a664bad796d5047940c43e5fe1d5f09983e6380594f7abbd476c3fb2839096a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-testflight-001-06b2eb437c4a"
+      ],
+      "service_id": "testflight",
+      "type": "domain",
+      "value": "beta.apple.com"
+    },
+    {
+      "asset_id": "sha256:350cfc02a0b1ea56e0d9a2842478079a5b2f05705a8a30112656a1508cf867b1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-testflight-001-06b2eb437c4a"
+      ],
+      "service_id": "testflight",
+      "type": "domain",
+      "value": "testflight.apple.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0,
+    "removal_ratio": 0,
+    "status": "OK"
+  },
+  "content_digest": "892baeedfa6911d40dd9953d77211bb23dcdd32ce987685477b545442c17837a",
+  "created_at": "2026-09-23T10:51:35.396Z",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "beta.apple.com",
+      "testflight.apple.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "beta.apple.com",
+    "testflight.apple.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "06b2eb437c4ab26a9111168cf1be4d7efbafa8eda22b0d9c1d9343bb43092a46",
+      "domains_extracted": 2,
+      "evidence_id": "EV-testflight-001-06b2eb437c4a",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TestFlight/TestFlight.list",
+      "retrieved_at": "2026-09-23T10:51:35.396Z",
+      "service_id": "testflight",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TestFlight/TestFlight.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "a384b8b809f1b9f428b09a35809ded07eaa1a76e4b50df77ceb622a777ab8d84",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 0,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "22d90b177736717cae4f98ae4f5c555073b13453dfb02a612ce5b9ac7f6aaa08",
+  "previous_domain_count": 0,
+  "release_digest": "aef28e222598764f34a5f052f1762158c959ec0b6cabbd317bd16bd0fb2af076",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "14d0b114f01266e444e3f06b36f99bf04450f56f92588a1b3a4b647346dabac0",
+  "service_id": "testflight",
+  "snapshot_content_sha256": "892baeedfa6911d40dd9953d77211bb23dcdd32ce987685477b545442c17837a",
+  "snapshot_id": "snap-testflight-aef28e222598764f34a5f052",
+  "source_bindings": [
+    {
+      "adapter": "upstream_rule",
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TestFlight/TestFlight.list"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

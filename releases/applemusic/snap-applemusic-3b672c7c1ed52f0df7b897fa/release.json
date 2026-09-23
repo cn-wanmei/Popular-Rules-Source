@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "c3f6f33e7ec7be14dfbba6d1e356175de3ae70f13bbeb40d1b7800d76f57f904",
+    "manifest.json": "f0f37dbed4e016a9d76cadcd1617cddbc05137790df1f1020ada416cb3b1b284",
+    "provenance.json": "24edf4fef53854f0f9ba35e7b645c89bb36c9a0c843d6cbfb757450261601509",
+    "snapshot_content.json": "b899102b0cdc795ff6f98045aabeccb183b3ca6b4a47b466598fb2857dfd1f12"
+  },
+  "content_digest": "ed7f03ecbf0e65d6055de1758e8be6758a3e1b1bfe25afbd67c4f24ac1aed007",
+  "created_at": "2026-09-23T10:51:35.396Z",
+  "evidence_digest": "be0d71c994df61206bb0e1210aee5e48282690e428a33bcf0c72474d9d99a9e6",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "768f4482825e81cab263d62267bfd653ad983f454f22f1ca2b321dda8ad9c1c1",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "3b672c7c1ed52f0df7b897fa18f837a1f6aeb1ad110c4ee97476b7307f6608ad",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "applemusic",
+  "snapshot_id": "snap-applemusic-3b672c7c1ed52f0df7b897fa",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0,
+      "removal_ratio": 0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}
