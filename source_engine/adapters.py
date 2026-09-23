@@ -66,6 +66,29 @@ def _domains_from_values(values: list[Any], exact: tuple[str, ...], suffixes: tu
     return sorted(output)
 
 
+def _domains_from_rule_text(text: str, exact: tuple[str, ...], suffixes: tuple[str, ...]) -> list[str]:
+    output: set[str] = set()
+    for raw_line in text.splitlines():
+        line = raw_line.strip()
+        if not line or line.startswith("#"):
+            continue
+        prefix, sep, remainder = line.partition(",")
+        if not sep or prefix.strip().upper() not in {
+            "DOMAIN",
+            "DOMAIN-SUFFIX",
+            "HOST",
+            "HOST-SUFFIX",
+        }:
+            continue
+        value = remainder.split(",", 1)[0].strip()
+        if value.startswith("+."):
+            value = value[2:]
+        domain = normalize_domain(value)
+        if domain and host_allowed(domain, exact, suffixes):
+            output.add(domain)
+    return sorted(output)
+
+
 def extract_with_adapter(
     *,
     service_id: str,
@@ -144,8 +167,8 @@ def extract_with_adapter(
         if source_host and host_allowed(source_host, exact, suffixes):
             domains = sorted(set(domains) | {source_host})
     elif adapter_name == "upstream_rule":
-        domains = _domains_from_values(
-            [result.body.decode("utf-8", errors="replace")],
+        domains = _domains_from_rule_text(
+            result.body.decode("utf-8", errors="replace"),
             exact,
             suffixes,
         )
