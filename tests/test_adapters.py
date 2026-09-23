@@ -40,3 +40,12 @@ def test_upstream_rule_parser_handles_rule_syntax():
         ("drive.google.com", "music.youtube.com"),
     )
     assert found == ["drive.google.com", "music.youtube.com", "www.googleapis.com"]
+
+
+def test_upstream_rule_parser_handles_geosite_entries():
+    found = _domains_from_rule_text(
+        "+.feishu.cn\nazure.microsoft.com\nazure\n",
+        ("azure.microsoft.com",),
+        ("feishu.cn",),
+    )
+    assert found == ["azure.microsoft.com", "feishu.cn"]
