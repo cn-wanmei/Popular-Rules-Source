@@ -834,3 +834,44 @@ services:
     source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
     boundary: {shared_infrastructure_allowed: false}
 
+
+  gmail:
+    display_name: "Gmail"
+    ecosystem: google
+    official_sources: ["https://mail.google.com/"]
+    allowed_host_exact: [mail.google.com]
+    allowed_host_suffixes: [gmail.com]
+    coverage: {domain: candidate}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  googlemaps:
+    display_name: "Google Maps"
+    ecosystem: google
+    official_sources: ["https://www.google.com/maps/"]
+    allowed_host_exact: [maps.google.com]
+    allowed_host_suffixes: []
+    coverage: {domain: candidate}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  outlook:
+    display_name: "Outlook"
+    ecosystem: microsoft
+    official_sources: ["https://outlook.live.com/", "https://outlook.office.com/"]
+    allowed_host_exact: [outlook.live.com, outlook.office.com, outlook.office365.com]
+    allowed_host_suffixes: [outlook.com]
+    coverage: {domain: candidate}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  office:
+    display_name: "Microsoft 365"
+    ecosystem: microsoft
+    official_sources: ["https://www.microsoft365.com/"]
+    allowed_host_exact: [www.microsoft365.com, microsoft365.com, office.com]
+    allowed_host_suffixes: [microsoft365.com, office.com]
+    coverage: {domain: candidate}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
