@@ -709,3 +709,128 @@ services:
     coverage: {domain: review}
     source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
     boundary: {shared_infrastructure_allowed: false, mode: source_bound}
+
+
+  # 2026-09-23 self-built high-frequency service coverage. These entries have
+  # no dedicated upstream ruleset in the audited BlackMatrix7 tree and are
+  # therefore owned by Popular-Rules-Source.
+  wegame:
+    display_name: "WeGame"
+    ecosystem: tencent
+    official_sources: ["https://www.wegame.com.cn/home"]
+    allowed_host_exact: [wegame.com.cn, login.wegame.com.cn, developer.wegame.com]
+    allowed_host_suffixes: []
+    coverage: {domain: candidate}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  honorofkings_cn:
+    display_name: "王者荣耀国服"
+    ecosystem: tencent
+    official_sources: ["https://pvp.qq.com/"]
+    allowed_host_exact: [pvp.qq.com]
+    allowed_host_suffixes: []
+    coverage: {domain: candidate}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  honorofkings_global:
+    display_name: "Honor of Kings Global"
+    ecosystem: tencent
+    official_sources: ["https://www.honorofkings.com/"]
+    allowed_host_exact: [www.honorofkings.com, honorofkings.com]
+    allowed_host_suffixes: [honorofkings.com]
+    coverage: {domain: candidate}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  netease163mail:
+    display_name: "网易邮箱"
+    ecosystem: netease
+    official_sources: ["https://mail.163.com/"]
+    allowed_host_exact: [mail.163.com, mail.126.com, mail.yeah.net, mail.netease.com, hw.mail.163.com]
+    allowed_host_suffixes: []
+    coverage: {domain: candidate}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  neteasegames:
+    display_name: "网易游戏"
+    ecosystem: netease
+    official_sources: ["https://game.163.com/", "https://www.neteasegames.com/"]
+    allowed_host_exact: [game.163.com, www.neteasegames.com, neteasegames.com]
+    allowed_host_suffixes: [neteasegames.com]
+    coverage: {domain: candidate}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  baidumaps:
+    display_name: "百度地图"
+    ecosystem: baidu
+    official_sources: ["https://map.baidu.com/"]
+    allowed_host_exact: [map.baidu.com, newclient.map.baidu.com]
+    allowed_host_suffixes: []
+    coverage: {domain: candidate}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  baiduwiki:
+    display_name: "百度百科"
+    ecosystem: baidu
+    official_sources: ["https://baike.baidu.com/"]
+    allowed_host_exact: [baike.baidu.com]
+    allowed_host_suffixes: []
+    coverage: {domain: candidate}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  baiduwenku:
+    display_name: "百度文库"
+    ecosystem: baidu
+    official_sources: ["https://wenku.baidu.com/"]
+    allowed_host_exact: [wenku.baidu.com]
+    allowed_host_suffixes: []
+    coverage: {domain: candidate}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  capcut:
+    display_name: "CapCut / 剪映"
+    ecosystem: bytedance
+    official_sources: ["https://www.capcut.com/", "https://www.capcut.cn/"]
+    allowed_host_exact: [www.capcut.com, capcut.com, www.capcut.cn, capcut.cn]
+    allowed_host_suffixes: [capcut.com, capcut.cn]
+    coverage: {domain: candidate}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  toutiao:
+    display_name: "今日头条"
+    ecosystem: bytedance
+    official_sources: ["https://www.toutiao.com/"]
+    allowed_host_exact: [www.toutiao.com, toutiao.com]
+    allowed_host_suffixes: [toutiao.com]
+    coverage: {domain: candidate}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  xigua:
+    display_name: "西瓜视频"
+    ecosystem: bytedance
+    official_sources: ["https://www.ixigua.com/"]
+    allowed_host_exact: [www.ixigua.com, ixigua.com, m.ixigua.com]
+    allowed_host_suffixes: [ixigua.com]
+    coverage: {domain: candidate}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  volcengine:
+    display_name: "火山引擎"
+    ecosystem: bytedance
+    official_sources: ["https://www.volcengine.com/"]
+    allowed_host_exact: [www.volcengine.com, volcengine.com, console.volcengine.com]
+    allowed_host_suffixes: [volcengine.com]
+    coverage: {domain: candidate}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
