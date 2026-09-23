@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "563c16b6a96d2275902805bbcacbc73c210caabb22749c932c78cee69c4911dd",
+    "manifest.json": "46e60256713301b56f39cade2253a0d0d9aba6075f22d864ff3baf595e195f2b",
+    "provenance.json": "97db4da42fe893f36c39f2974cdf5b9bae237e0ffe97a358d229aa4916c043a4",
+    "snapshot_content.json": "5979786cb47088ffba36db3122d2f6a47351d7e4af2729cba046fee80afc64e2"
+  },
+  "content_digest": "9f0615abbf33f49c6fc97d1dd363173897160c527388e7d7a704e457bad46ae8",
+  "created_at": "2026-09-23T11:29:55.391899+00:00",
+  "evidence_digest": "868d01084ae47ba551a15dbedc2017d4d7e8ebf22c930a4aeaa13d13eeea88fe",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "31ff5d9442c181964b8f3d56dd105f8e645280a0b26e115aafdfb9260f79f336",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "applemedia",
+  "snapshot_id": "snap-applemedia-31ff5d9442c181964b8f3d56",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 1.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

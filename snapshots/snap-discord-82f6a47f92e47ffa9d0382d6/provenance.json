@@ -281,84 +281,7 @@
       "value": "watchanimeattheoffice.com"
     }
   ],
-  "change_assessment": {
-    "growth_ratio": 1.0,
-    "removal_ratio": 0.0,
-    "status": "OK"
-  },
   "content_digest": "8f996912e0484f5828628f50a353cabe15128cae86560489b9a5abbfbf5c1caa",
-  "created_at": "2026-09-23T11:29:56.366991+00:00",
-  "domain_count": 28,
-  "domain_diff": {
-    "added": [],
-    "added_count": 0,
-    "current_count": 28,
-    "previous_count": 28,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [
-      "airhorn.solutions",
-      "airhornbot.com",
-      "bigbeans.solutions",
-      "dis.gd",
-      "discord-activities.com",
-      "discord.co",
-      "discord.com",
-      "discord.design",
-      "discord.dev",
-      "discord.gg",
-      "discord.gift",
-      "discord.gifts",
-      "discord.media",
-      "discord.new",
-      "discord.store",
-      "discord.tools",
-      "discordactivities.com",
-      "discordapp.com",
-      "discordapp.io",
-      "discordapp.net",
-      "discordapp.page.link",
-      "discordcdn.com",
-      "discordmerch.com",
-      "discordpartygames.com",
-      "discordsays.com",
-      "discordstatus.com",
-      "hammerandchisel.ssl.zendesk.com",
-      "watchanimeattheoffice.com"
-    ],
-    "unchanged_count": 28
-  },
-  "domains": [
-    "airhorn.solutions",
-    "airhornbot.com",
-    "bigbeans.solutions",
-    "dis.gd",
-    "discord-activities.com",
-    "discord.co",
-    "discord.com",
-    "discord.design",
-    "discord.dev",
-    "discord.gg",
-    "discord.gift",
-    "discord.gifts",
-    "discord.media",
-    "discord.new",
-    "discord.store",
-    "discord.tools",
-    "discordactivities.com",
-    "discordapp.com",
-    "discordapp.io",
-    "discordapp.net",
-    "discordapp.page.link",
-    "discordcdn.com",
-    "discordmerch.com",
-    "discordpartygames.com",
-    "discordsays.com",
-    "discordstatus.com",
-    "hammerandchisel.ssl.zendesk.com",
-    "watchanimeattheoffice.com"
-  ],
-  "errors": [],
   "evidence": [
     {
       "authority": "upstream",
@@ -379,36 +302,16 @@
   ],
   "evidence_digest": "640eb2f3f81448dbfdbf3d0b4be5503c7f9e97ee3b3a055dc23c626b0b598dad",
   "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
-  "generator_version": "3.1.0",
-  "last_known_good": false,
-  "official_extracted": 0,
-  "official_source_count": 1,
-  "parser_version": "domain-extractor-v4",
   "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
-  "previous_domain_count": 28,
   "release_digest": "82f6a47f92e47ffa9d0382d696c779dbce8a9c3a88b1abce9fb14c7dccb44466",
   "release_identity_version": "2",
-  "release_reasons": [],
-  "release_state": "CANDIDATE",
-  "schema": "source_snapshot_v2",
-  "service_config_digest": "cd89f608156c5a0285e60fe489ed68a7971fea7b469d9f1d6325dfd68b95cf09",
+  "schema": "source_provenance_v3",
   "service_id": "discord",
-  "snapshot_content_sha256": "8f996912e0484f5828628f50a353cabe15128cae86560489b9a5abbfbf5c1caa",
   "snapshot_id": "snap-discord-82f6a47f92e47ffa9d0382d6",
-  "source_bindings": [
-    {
-      "adapter": "upstream_rule",
-      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Discord/Discord.list"
-    }
-  ],
-  "source_count": 1,
   "source_policy": {
     "allowed_authorities": [
       "upstream"
     ],
     "official_required": false
-  },
-  "trusted_extracted": 29,
-  "unverified_candidate_count": 0,
-  "unverified_candidate_domains": []
+  }
 }
