@@ -62,7 +62,7 @@ def audit_collection(service_ids: list[str]) -> dict:
 
     prs_entry = next((x for x in registry.get("sources", []) if x.get("id") == "popular-rules-source"), None)
     prs_rules = {
-        str(rule.get("service") or rule.get("name"))
+        str(rule.get("service") or rule.get("name") or "").strip()
         for rule in (prs_entry or {}).get("rules", []) or []
         if rule.get("service") or rule.get("name")
     }
@@ -88,7 +88,7 @@ def audit_collection(service_ids: list[str]) -> dict:
             "source_release_digest": (latest or {}).get("release_digest"),
             "source_domain_count": (latest or {}).get("domain_count", 0),
             "source_state": (latest or {}).get("release_state", "NO_SNAPSHOT"),
-            "collection_prs_registered": service_id in prs_rules,
+            "collection_prs_registered": str(service_id).strip() in prs_rules,
             "collection_prs_enabled": bool((prs_entry or {}).get("enabled", False)),
             "collection_intentional": service_id in intentional_services,
             "immutable_binding_exact": (
