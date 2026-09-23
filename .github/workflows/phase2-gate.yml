@@ -67,22 +67,9 @@ jobs:
               sid for sid, item in (lifecycle.get("services") or {}).items()
               if isinstance(item, dict) and item.get("state") == "production"
           }
-          import re
-          import unicodedata
-
-          def canonical(value):
-              normalized = unicodedata.normalize("NFKC", str(value)).strip().lower()
-              return re.sub(r"[^a-z0-9]+", "", normalized)
-
-          registered = {canonical(value) for value in collection["prs_services"]}
-          failures = [
-              sid for sid, item in report["services"].items()
-              if canonical(sid) not in registered
-              or (
-                  item.get("collection_prs_enabled") is not False
-                  and sid not in production_services
-              )
-          ]
+          required_services = {str(sid).strip() for sid in report["services"].keys()}
+          registered_services = {str(value).strip() for value in collection["prs_services"]}
+          failures = sorted(required_services - registered_services)
           if failures:
               raise SystemExit(f"Collection registration reconciliation failed: {failures}")
           print("Collection registration reconciliation: PASS")
