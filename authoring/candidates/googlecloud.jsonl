@@ -1,0 +1,1 @@
+{"candidate_id":"HF2-googlecloud-001","service_id":"googlecloud","value":"cloud.google.com","asset_type":"domain","status":"candidate","source_url":"https://cloud.google.com/","source_method":"official_web_candidate_chain","reason":"No dedicated upstream service rule was found; the official Google Cloud root is the bounded Source candidate."}
