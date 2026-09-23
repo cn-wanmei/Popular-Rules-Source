@@ -47,7 +47,7 @@ jobs:
           - tencentvideo
           - siri
           - qq
-          - neteaseemail
+          - neteasemail
           - honorofkings_cn
           - honorofkings_global
     steps:
@@ -135,7 +135,7 @@ jobs:
           - tencentvideo
           - siri
           - qq
-          - neteaseemail
+          - neteasemail
           - honorofkings_cn
           - honorofkings_global
     steps:
@@ -227,7 +227,7 @@ jobs:
               "tencentvideo",
               "siri",
               "qq",
-              "neteaseemail",
+              "neteasemail",
               "honorofkings_cn",
               "honorofkings_global",
           ]
