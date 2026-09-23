@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import base64
 import importlib
 import json
 import re
@@ -128,6 +129,33 @@ def extract_with_adapter(
         "strength": "S3" if authority == "official" else "S2",
         "status": "verified",
     }
+
+    if adapter_name == "github_rule":
+        payload = json.loads(result.body.decode("utf-8"))
+        encoded = str(payload.get("content") or "").replace("\n", "")
+        if not encoded:
+            raise AdapterContractError("github_rule response has no content field")
+        try:
+            text_body = base64.b64decode(encoded).decode("utf-8", errors="replace")
+        except (ValueError, UnicodeError) as exc:
+            raise AdapterContractError("github_rule content is not valid base64") from exc
+        domains = _domains_from_rule_text(
+            text_body,
+            exact,
+            suffixes,
+            source_bound=boundary_mode == "source_bound",
+        )
+        return AdapterExtraction(
+            tuple(domains),
+            {
+                **common,
+                "source_url": source_url,
+                "resolved_url": result.url,
+                "retrieved_at": result.retrieved_at,
+                "content_hash": result.sha256,
+                "domains_extracted": len(domains),
+            },
+        )
 
     if adapter_name == "official_sdk":
         module_name = str(spec.get("module") or "")
