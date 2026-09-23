@@ -49,3 +49,13 @@ def test_upstream_rule_parser_handles_geosite_entries():
         ("feishu.cn",),
     )
     assert found == ["azure.microsoft.com", "feishu.cn"]
+
+
+def test_upstream_rule_source_bound_accepts_full_service_file():
+    found = _domains_from_rule_text(
+        "DOMAIN-SUFFIX,youtube.com\nDOMAIN-SUFFIX,youtube.co.jp\nDOMAIN,foo.example.net\n",
+        (),
+        (),
+        source_bound=True,
+    )
+    assert found == ["foo.example.net", "youtube.co.jp", "youtube.com"]
