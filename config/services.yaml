@@ -614,6 +614,88 @@ services:
 
 
 
+
+  applenews:
+    display_name: "Apple News"
+    ecosystem: apple
+    official_sources: ["https://www.apple.com/apple-news/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleNews/AppleNews.list", adapter: upstream_rule}
+    allowed_host_exact: []
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false, mode: source_bound}
+
+  baidu:
+    display_name: "百度"
+    ecosystem: baidu
+    official_sources: ["https://www.baidu.com/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Baidu/Baidu.list", adapter: upstream_rule}
+    allowed_host_exact: []
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false, mode: source_bound}
+
+  bing:
+    display_name: "Bing"
+    ecosystem: microsoft
+    official_sources: ["https://www.bing.com/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bing/Bing.list", adapter: upstream_rule}
+    allowed_host_exact: []
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false, mode: source_bound}
+
+  tiktok:
+    display_name: "TikTok"
+    ecosystem: bytedance
+    official_sources: ["https://www.tiktok.com/"]
+    source_bindings:
+      - {url: "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.list", adapter: upstream_rule}
+    allowed_host_exact: []
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false, mode: source_bound}
+
+  neteasemail:
+    display_name: "网易邮箱"
+    ecosystem: netease
+    official_sources:
+      - "https://mail.163.com/"
+      - "https://mail.126.com/"
+      - "https://mail.yeah.net/"
+    allowed_host_exact: [mail.163.com, mail.126.com, mail.yeah.net]
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  honorofkings_cn:
+    display_name: "王者荣耀（国服）"
+    ecosystem: tencent
+    official_sources: ["https://pvp.qq.com/"]
+    allowed_host_exact: [pvp.qq.com]
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  honorofkings_global:
+    display_name: "Honor of Kings（国际服）"
+    ecosystem: tencent
+    official_sources: ["https://www.honorofkings.com/"]
+    allowed_host_exact: [honorofkings.com, www.honorofkings.com]
+    allowed_host_suffixes: []
+    coverage: {domain: review}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
   alibabacloud:
     display_name: "Alibaba Cloud"
     ecosystem: alibaba
