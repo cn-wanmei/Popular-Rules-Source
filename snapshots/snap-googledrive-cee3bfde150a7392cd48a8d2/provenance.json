@@ -1,0 +1,77 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:13b645521b04f0322f1ffc16d92c9f70408edfe9d121601052dd4be4f399ec62",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googledrive-001-7a65da91de1a"
+      ],
+      "service_id": "googledrive",
+      "type": "domain",
+      "value": "docs.google.com"
+    },
+    {
+      "asset_id": "sha256:6db4e86ad38d5c5bc2c95ca7ad0424f2c5f9c12cb76265a9674715c2060eb0ae",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googledrive-001-7a65da91de1a"
+      ],
+      "service_id": "googledrive",
+      "type": "domain",
+      "value": "drive.google.com"
+    },
+    {
+      "asset_id": "sha256:8a86cd041369adbfb4795fcadebecfb1b98b4caa9ab8693bfd56acab5b43a116",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googledrive-001-7a65da91de1a"
+      ],
+      "service_id": "googledrive",
+      "type": "domain",
+      "value": "googledrive.com"
+    },
+    {
+      "asset_id": "sha256:be04e02eb29e71d39c8e31b279b99ab810329f641926af43e7e21c9dc1e1b75d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googledrive-001-7a65da91de1a"
+      ],
+      "service_id": "googledrive",
+      "type": "domain",
+      "value": "googleusercontent.com"
+    }
+  ],
+  "content_digest": "bdf2381867e98fde7c6d10bcced6ce5465ef9e4f1790d78905816904593e85f9",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "7a65da91de1a31482825b65cdb25482220f2f9d4914bde5ab6ac35fdd97a7a3b",
+      "domains_extracted": 5,
+      "evidence_id": "EV-googledrive-001-7a65da91de1a",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleDrive/GoogleDrive.list",
+      "retrieved_at": "2026-09-24T07:40:14.401692+00:00",
+      "service_id": "googledrive",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleDrive/GoogleDrive.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "81539d12445a69c4a873a8858c0d5087fc511e1adff5738a7f6113d6eb4c25fa",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "3f70aa93b1ce207f703e354d2660f994527dd53e71cd9e1f7eb955392ddd6398",
+  "release_digest": "cee3bfde150a7392cd48a8d2d9ee886af18ee65ce7a1ebf50415a84b386cfbcf",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "googledrive",
+  "snapshot_id": "snap-googledrive-cee3bfde150a7392cd48a8d2",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}
