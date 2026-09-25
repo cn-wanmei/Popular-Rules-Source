@@ -1,0 +1,77 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:9ccff6cc17f92df0cba9cbc2f95042e4779915256391a4c776e859dd5ff82acd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-teams-001-798202ddb4c4"
+      ],
+      "service_id": "teams",
+      "type": "domain",
+      "value": "teams.cdn.live.net"
+    },
+    {
+      "asset_id": "sha256:704bac4646989c4450c5c310497e83af2062065b64860345b2e1abebc252cdf2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-teams-001-798202ddb4c4"
+      ],
+      "service_id": "teams",
+      "type": "domain",
+      "value": "teams.events.data.microsoft.com"
+    },
+    {
+      "asset_id": "sha256:142186c393bc22c5c74547a217722ceeaea3ba344cf56b139d85cdd4f38b651c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-teams-001-798202ddb4c4"
+      ],
+      "service_id": "teams",
+      "type": "domain",
+      "value": "teams.live.com"
+    },
+    {
+      "asset_id": "sha256:02d522fdae7a44938248af805e6498d5d4d5017ef7c876b0924a1d2e2086e821",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-teams-001-798202ddb4c4"
+      ],
+      "service_id": "teams",
+      "type": "domain",
+      "value": "teams.microsoft.com"
+    }
+  ],
+  "content_digest": "563f80231062e824df9a8c2e25f3df58b2b8120acbf3a058f47ba235cb66ed9b",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "798202ddb4c44c7d3661fa7c304646e58d9296e2678e39a5ea575a2c79f50a3f",
+      "domains_extracted": 4,
+      "evidence_id": "EV-teams-001-798202ddb4c4",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Teams/Teams.list",
+      "retrieved_at": "2026-09-25T07:57:57.601885+00:00",
+      "service_id": "teams",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Teams/Teams.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "16d731ba94dd1cfe8d1b90856ff66611710a97a148d08c0571c7d446ad9f60f1",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "f0f808e56e88e0da4f8db37e1ead246b227749456bed82765fa4731fbe006932",
+  "release_digest": "6aa385077c2e25e0bd15816042bb0ff29338b78db772bb069dec241b0f6f627f",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "teams",
+  "snapshot_id": "snap-teams-6aa385077c2e25e0bd158160",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}

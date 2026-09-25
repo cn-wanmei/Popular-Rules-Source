@@ -1,0 +1,14 @@
+{
+  "content_digest": "34a9c9a2ea1729d68b4a16a9afe009c4b954a314376d6963dba254b97319db99",
+  "domains": [
+    "page.dingtalk.com",
+    "table.dingtalk.com",
+    "www.dingtalk.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "dingding",
+  "source_hashes": [
+    "454ccc9fbefb68d17b8e2a4dda3c44547ad4a5000b804fa59e5d201b49da9eff"
+  ]
+}

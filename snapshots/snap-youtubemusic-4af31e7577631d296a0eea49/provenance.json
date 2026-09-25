@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:31c0278e98b51d5fdfba964e7fb25dd8e787c6ca46fe247d571a0caee92b0f0e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtubemusic-001-e0101c9b966b"
+      ],
+      "service_id": "youtubemusic",
+      "type": "domain",
+      "value": "music.youtube.com"
+    }
+  ],
+  "content_digest": "d4b0e7451fd3009fc8f075e055fe68b7c4acc4e4f566f7f513d8674064ca7fed",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "e0101c9b966b34a74f739c3daae96395d6bad54785d102af7ddbc8593729b841",
+      "domains_extracted": 1,
+      "evidence_id": "EV-youtubemusic-001-e0101c9b966b",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTubeMusic/YouTubeMusic.list",
+      "retrieved_at": "2026-09-25T07:58:05.703186+00:00",
+      "service_id": "youtubemusic",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTubeMusic/YouTubeMusic.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "35f2941d2b08fd2b38955156f1f7cea22104da89b56a9f5558cca4a0f128fbaa",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "6a9a82c0d51a81f9c5cea8672e88bf4a3c8b4f3c61c42885b65a0b34f9b11674",
+  "release_digest": "4af31e7577631d296a0eea4988486d01f8d892b17954b0f8e28d6e03d064d16a",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "youtubemusic",
+  "snapshot_id": "snap-youtubemusic-4af31e7577631d296a0eea49",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}

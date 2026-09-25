@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:b9f7312297165be095cfdfb19f65271561075ae81558b34a2d2534e5d5dab1be",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appstore-001-245ea6eb4c7f"
+      ],
+      "service_id": "appstore",
+      "type": "domain",
+      "value": "apps.apple.com"
+    },
+    {
+      "asset_id": "sha256:75492f8680528bb0af7aba9ae546f2ec1361846b210e2b82fed81af7c2bc6755",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appstore-001-245ea6eb4c7f"
+      ],
+      "service_id": "appstore",
+      "type": "domain",
+      "value": "itunes.apple.com"
+    }
+  ],
+  "content_digest": "470529b3a2c5835f7a1c8e52229eb7adc4d8f0dbec0d1b07661c9b4476df3d1c",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "245ea6eb4c7fa160824476c937be4f15f3925d83fba1d94bb3b6cc58562feb90",
+      "domains_extracted": 2,
+      "evidence_id": "EV-appstore-001-245ea6eb4c7f",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppStore/AppStore.list",
+      "retrieved_at": "2026-09-25T07:57:32.929855+00:00",
+      "service_id": "appstore",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppStore/AppStore.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "ea7990795a72e0470eeeaec75bd6467dc89153cba91d7373010fbfe7b942f7b6",
+  "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
+  "policy_digest": "c52d9e06773b684801205c7d7700b70c16c484a804281e16408142c14487d128",
+  "release_digest": "4d616cf91c8481511685c580f0ee40398a82e7e4525fcca11753888c989ad674",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "appstore",
+  "snapshot_id": "snap-appstore-4d616cf91c8481511685c580",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}
