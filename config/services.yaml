@@ -70,7 +70,15 @@ services:
     ecosystem: tencent
     official_sources: ["https://y.qq.com/"]
     allowed_host_suffixes: ["y.qq.com"]
-    allowed_host_exact: []
+    allowed_host_exact:
+      - u.y.qq.com
+      - c.y.qq.com
+      - dl.stream.qqmusic.qq.com
+      - isure.stream.qqmusic.qq.com
+      - amobile.music.tc.qq.com
+      - aqqmusic.tc.qq.com
+      - mobileoc.music.tc.qq.com
+      - streamoc.music.tc.qq.com
     coverage: {domain: review}
     source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
     boundary: {shared_infrastructure_allowed: false}
