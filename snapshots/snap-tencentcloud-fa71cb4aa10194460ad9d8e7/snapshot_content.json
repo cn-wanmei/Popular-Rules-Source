@@ -1,0 +1,12 @@
+{
+  "content_digest": "3eb2ae96ec67c2c6cc016fa0a5cfdbaed747320dd3990e9ac09fc4b0199691eb",
+  "domains": [
+    "cloud.tencent.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "tencentcloud",
+  "source_hashes": [
+    "f6b1bb29cfc4f6d6da18e415dd9c80b518637001c07d5ddd59a9f9fb02fd6085"
+  ]
+}
