@@ -29,7 +29,11 @@ jobs:
               'phase2/source-main-gate-trigger-20260921',
               'fix/strict-lineage-bridge-20260921',
               'automation/source-refresh-35575756606',
-              'chore/audit-cleanup-docs-20260920'
+              'chore/audit-cleanup-docs-20260920',
+              'automation/run-phase4-20260923',
+              'fix/ci-validation-20260923',
+              'phase3/high-frequency-service-expansion-batch3-20260923',
+              'test/phase10-pr-verify-20260923'
             ];
             for (const branch of branches) {
               try {
