@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-09-23T11:46:14.256448+00:00",
+  "created_at": "2026-09-25T23:16:17.775613+00:00",
   "schema": "popular_rules_source_phase10_release_v1",
   "services": {
     "appledev": {
@@ -190,5 +190,5 @@
       "status": "PERSISTED"
     }
   },
-  "verified_input_commit": "d12f774a1dde78319e9f9f5022fd4bad036d5e43"
+  "verified_input_commit": "02b104960a37257ecc8a9f1ff86b7fcdb884b3ce"
 }
