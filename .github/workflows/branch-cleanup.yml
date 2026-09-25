@@ -18,7 +18,7 @@ jobs:
         uses: actions/github-script@f28e40c7f34bde8b3046d885e986cb6290c5673b
         with:
           script: |
-            # Audit update: 2026-09-25 — obsolete branches confirmed after PR review.
+            // Audit update: 2026-09-25 — obsolete branches confirmed after PR review.
             const branches = [
               'activate/tencentcloud-production-current',
               'activate/qqmusic-production-20260921-current',
