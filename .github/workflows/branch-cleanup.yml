@@ -33,7 +33,9 @@ jobs:
               'automation/run-phase4-20260923',
               'fix/ci-validation-20260923',
               'phase3/high-frequency-service-expansion-batch3-20260923',
-              'test/phase10-pr-verify-20260923'
+              'test/phase10-pr-verify-20260923',
+              'fix/review-safe-durable-bridge-20260923',
+              'phase2/qq-service-20260923'
             ];
             for (const branch of branches) {
               try {
