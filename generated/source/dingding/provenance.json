@@ -4,7 +4,7 @@
       "asset_id": "sha256:8af3bc5794064612470f12bf13510bb7f1e0e69fcd0f0e31f0f1786d25fc854c",
       "classification": "service",
       "evidence_ids": [
-        "EV-dingding-001-8a4b9e9093b7"
+        "EV-dingding-001-454ccc9fbefb"
       ],
       "service_id": "dingding",
       "type": "domain",
@@ -14,7 +14,7 @@
       "asset_id": "sha256:d93784b17b0e9f50c932bcb2757a9d31bc237c7159fe44f406baf8729e624848",
       "classification": "service",
       "evidence_ids": [
-        "EV-dingding-001-8a4b9e9093b7"
+        "EV-dingding-001-454ccc9fbefb"
       ],
       "service_id": "dingding",
       "type": "domain",
@@ -24,7 +24,7 @@
       "asset_id": "sha256:6b32b10ddd17a9cfb54c27b0adb69b3817c7a470e60864a2a3b89b5ebf637d45",
       "classification": "service",
       "evidence_ids": [
-        "EV-dingding-001-8a4b9e9093b7"
+        "EV-dingding-001-454ccc9fbefb"
       ],
       "service_id": "dingding",
       "type": "domain",
@@ -36,8 +36,8 @@
     "removal_ratio": 0.0,
     "status": "OK"
   },
-  "content_digest": "3ba0bb7f781f3eea12a0c83b8ab0b4ce99f5f8c736b4050ef51fcf34e78e7a99",
-  "created_at": "2026-09-25T23:14:36.367821+00:00",
+  "content_digest": "34a9c9a2ea1729d68b4a16a9afe009c4b954a314376d6963dba254b97319db99",
+  "created_at": "2026-09-25T07:57:38.639528+00:00",
   "domain_count": 3,
   "domain_diff": {
     "added": [],
@@ -63,12 +63,12 @@
     {
       "authority": "official",
       "confidence": "high",
-      "content_hash": "8a4b9e9093b7283dcb7d86335443b1b9fea32a288fa06c8ad58d00104dce3465",
+      "content_hash": "454ccc9fbefb68d17b8e2a4dda3c44547ad4a5000b804fa59e5d201b49da9eff",
       "domains_extracted": 3,
-      "evidence_id": "EV-dingding-001-8a4b9e9093b7",
+      "evidence_id": "EV-dingding-001-454ccc9fbefb",
       "parser_version": "domain-extractor-v4",
       "resolved_url": "https://www.dingtalk.com/",
-      "retrieved_at": "2026-09-25T23:14:36.343396+00:00",
+      "retrieved_at": "2026-09-25T07:57:38.613633+00:00",
       "service_id": "dingding",
       "source_method": "official_web",
       "source_type": "official_web",
@@ -77,7 +77,7 @@
       "strength": "S3"
     }
   ],
-  "evidence_digest": "a13f61a4c5d19018c5c4ee57385bbd8822bcd59379af5c9982a1a42d6697445e",
+  "evidence_digest": "908695e97748a94fdae74a98a24393d90cb37da2d3ae78cfd8bdfba21b986306",
   "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
   "generator_version": "3.1.0",
   "last_known_good": false,
@@ -86,15 +86,15 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "cfe3591541d8facb101548dfa5faf385b0607ce3250325f33fc3ec97940775b9",
   "previous_domain_count": 3,
-  "release_digest": "b3ed8aa626ef40fbdcd7f27d9ce043c9ef84e600aa96ea6b2c6635d18079912b",
+  "release_digest": "b9abab2ce6401505d89e2cc7eae3355b53204fef2a8a4910533a7c7b28c733de",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
   "schema": "source_snapshot_v2",
   "service_config_digest": "9d795d445d39063572367ff60430cb63bd1a03f6ea2ffcbda819c51b26da502d",
   "service_id": "dingding",
-  "snapshot_content_sha256": "3ba0bb7f781f3eea12a0c83b8ab0b4ce99f5f8c736b4050ef51fcf34e78e7a99",
-  "snapshot_id": "snap-dingding-b3ed8aa626ef40fbdcd7f27d",
+  "snapshot_content_sha256": "34a9c9a2ea1729d68b4a16a9afe009c4b954a314376d6963dba254b97319db99",
+  "snapshot_id": "snap-dingding-b9abab2ce6401505d89e2cc7",
   "source_bindings": [
     {
       "adapter": null,
