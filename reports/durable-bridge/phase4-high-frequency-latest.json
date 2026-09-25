@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-09-23T11:31:17.537446+00:00",
+  "created_at": "2026-09-25T23:14:28.882640+00:00",
   "schema": "popular_rules_source_phase4_release_v1",
   "services": {
     "applenews": {
@@ -91,5 +91,5 @@
       "status": "PERSISTED"
     }
   },
-  "verified_input_commit": "5be6cd96c63b767bc138c722a88ea5b0c0816aec"
+  "verified_input_commit": "02b104960a37257ecc8a9f1ff86b7fcdb884b3ce"
 }
