@@ -1185,3 +1185,203 @@ services:
     coverage: {domain: review, ip: unknown, cidr: none}
     source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
     boundary: {shared_infrastructure_allowed: false}
+
+  huawei-cloud:
+    display_name: "Huawei Cloud"
+    ecosystem: huawei
+    official_sources: ["https://console-intl.huaweicloud.com/console/?locale=en-us"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [console-intl.huaweicloud.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  mi-cloud:
+    display_name: "Mi Cloud"
+    ecosystem: xiaomi
+    official_sources: ["https://www.mi.com/sg/support/article/KA-07435/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [i.mi.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  jd-cloud:
+    display_name: "JD Cloud"
+    ecosystem: jingdong
+    official_sources: ["https://www.jdcloud.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [www.jdcloud.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  kugou:
+    display_name: "Kugou Music"
+    ecosystem: tencent_music
+    official_sources: ["https://www.kugou.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [www.kugou.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  kuwo:
+    display_name: "Kuwo Music"
+    ecosystem: tencent_music
+    official_sources: ["https://m.kuwo.cn/newh5app/ranklist_detail/16"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [m.kuwo.cn]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  quanmin-k-ge:
+    display_name: "全民K歌"
+    ecosystem: tencent_music
+    official_sources: ["https://kg.qq.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [kg.qq.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  amazonmusic:
+    display_name: "Amazon Music"
+    ecosystem: amazon
+    official_sources: ["https://music.amazon.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [music.amazon.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  audible:
+    display_name: "Audible"
+    ecosystem: amazon
+    official_sources: ["https://www.audible.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [audible.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  goodreads:
+    display_name: "Goodreads"
+    ecosystem: amazon
+    official_sources: ["https://www.goodreads.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [goodreads.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  adobe-firefly:
+    display_name: "Adobe Firefly"
+    ecosystem: adobe
+    official_sources: ["https://firefly.adobe.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [firefly.adobe.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  adobe-stock:
+    display_name: "Adobe Stock"
+    ecosystem: adobe
+    official_sources: ["https://stock.adobe.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [stock.adobe.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  adobe-fonts:
+    display_name: "Adobe Fonts"
+    ecosystem: adobe
+    official_sources: ["https://fonts.adobe.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [fonts.adobe.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  openai-api:
+    display_name: "OpenAI API"
+    ecosystem: openai
+    official_sources: ["https://developers.openai.com/api/docs"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [api.openai.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  openai-platform:
+    display_name: "OpenAI Platform"
+    ecosystem: openai
+    official_sources: ["https://platform.openai.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [platform.openai.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  chatgpt:
+    display_name: "ChatGPT"
+    ecosystem: openai
+    official_sources: ["https://chatgpt.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [chatgpt.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  anthropic-claude:
+    display_name: "Claude"
+    ecosystem: anthropic
+    official_sources: ["https://claude.ai/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [claude.ai]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  anthropic-platform:
+    display_name: "Claude Platform"
+    ecosystem: anthropic
+    official_sources: ["https://console.anthropic.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [platform.claude.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  xai-grok:
+    display_name: "Grok"
+    ecosystem: xai
+    official_sources: ["https://grok.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [grok.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  stripe-dashboard:
+    display_name: "Stripe Dashboard"
+    ecosystem: stripe
+    official_sources: ["https://dashboard.stripe.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [dashboard.stripe.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  venmo:
+    display_name: "Venmo"
+    ecosystem: paypal
+    official_sources: ["https://venmo.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [venmo.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
