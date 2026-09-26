@@ -32,6 +32,34 @@ jobs:
         run: |
           set -e
           services="
+          qqmail
+          qqmusic
+          taobao
+          tencentcloud
+          tmall
+          appledev
+          appstore
+          applemusic
+          applenews
+          findmy
+          icloud
+          azure
+          bing
+          claude
+          copilot
+          deepseek
+          feishu
+          gemini
+          googledrive
+          openai
+          perplexity
+          qq
+          teams
+          tiktok
+          wechat
+          xbox
+          youtube
+          youtubemusic
           gmail
           google-calendar
           google-chat
