@@ -31,34 +31,7 @@
       "value": "work.weixin.qq.com"
     }
   ],
-  "change_assessment": {
-    "growth_ratio": 1.0,
-    "removal_ratio": 0.0,
-    "status": "OK"
-  },
   "content_digest": "844dc349a7c8bfc578b30952e4818d9bd347e1e904ca043a240325fa0d1a6246",
-  "created_at": "2026-09-26T12:56:41.126721+00:00",
-  "domain_count": 3,
-  "domain_diff": {
-    "added": [],
-    "added_count": 0,
-    "current_count": 3,
-    "previous_count": 3,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [
-      "developer.work.weixin.qq.com",
-      "open.work.weixin.qq.com",
-      "work.weixin.qq.com"
-    ],
-    "unchanged_count": 3
-  },
-  "domains": [
-    "developer.work.weixin.qq.com",
-    "open.work.weixin.qq.com",
-    "work.weixin.qq.com"
-  ],
-  "errors": [],
   "evidence": [
     {
       "authority": "official",
@@ -79,36 +52,16 @@
   ],
   "evidence_digest": "7465e0bf214d7e173ce3f86ec0c861f2077daaad89dbad4e30552487041aec58",
   "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
-  "generator_version": "3.1.0",
-  "last_known_good": false,
-  "official_extracted": 3,
-  "official_source_count": 1,
-  "parser_version": "domain-extractor-v4",
   "policy_digest": "51a04f36f18976eba941cbb423e1a5cadab83d2e184e9a9ed0af3eb6f4daea45",
-  "previous_domain_count": 3,
   "release_digest": "7e43ec1fc056a357c90f73109cc8bd7ff95e978d947fef2957c53d75d7d6bb1f",
   "release_identity_version": "2",
-  "release_reasons": [],
-  "release_state": "CANDIDATE",
-  "schema": "source_snapshot_v2",
-  "service_config_digest": "2df8ad4f9c476cf05ffa62dd1d3f55c01c02e39cc47e479d852fc5167486a2b2",
+  "schema": "source_provenance_v3",
   "service_id": "wecom",
-  "snapshot_content_sha256": "844dc349a7c8bfc578b30952e4818d9bd347e1e904ca043a240325fa0d1a6246",
   "snapshot_id": "snap-wecom-7e43ec1fc056a357c90f7310",
-  "source_bindings": [
-    {
-      "adapter": null,
-      "url": "https://work.weixin.qq.com/"
-    }
-  ],
-  "source_count": 1,
   "source_policy": {
     "allowed_authorities": [
       "official"
     ],
     "official_required": true
-  },
-  "trusted_extracted": 3,
-  "unverified_candidate_count": 0,
-  "unverified_candidate_domains": []
+  }
 }
