@@ -153,7 +153,6 @@ services:
   groq: {adapters: [upstream_rule]}
   huggingface: {adapters: [upstream_rule]}
   signal: {adapters: [upstream_rule]}
-  messenger: {adapters: [upstream_rule]}
   roblox: {adapters: [upstream_rule]}
   gmail: {adapters: [self_built]}
   google-calendar: {adapters: [self_built]}
