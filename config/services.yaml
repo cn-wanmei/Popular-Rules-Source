@@ -1385,3 +1385,63 @@ services:
     coverage: {domain: review, ip: unknown, cidr: none}
     source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
     boundary: {shared_infrastructure_allowed: false}
+
+  baidumaps:
+    display_name: "Baidu Maps"
+    ecosystem: baidu
+    official_sources: ["https://map.baidu.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [map.baidu.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  baiduwenku:
+    display_name: "Baidu Wenku"
+    ecosystem: baidu
+    official_sources: ["https://wenku.baidu.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [wenku.baidu.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  baidu-zhidao:
+    display_name: "Baidu Zhidao"
+    ecosystem: baidu
+    official_sources: ["https://zhidao.baidu.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [zhidao.baidu.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  huawei-appgallery:
+    display_name: "HUAWEI AppGallery"
+    ecosystem: huawei
+    official_sources: ["https://appgallery.huawei.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [appgallery.huawei.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  kuaishou:
+    display_name: "Kuaishou"
+    ecosystem: kuaishou
+    official_sources: ["https://www.kuaishou.com/cn"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [www.kuaishou.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  kuaishou-open:
+    display_name: "Kuaishou Open Platform"
+    ecosystem: kuaishou
+    official_sources: ["https://open.kuaishou.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [open.kuaishou.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
