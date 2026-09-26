@@ -124,7 +124,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 
 | Service | Lifecycle | Release | Domains | Snapshot |
 |---|---|---|---:|---|
-| 1688 | **PRODUCTION** | CANDIDATE | 1 | snap-1688-f643fb3ec216da985a3156df |
+| 1688 | **PRODUCTION** | CANDIDATE | 2 | snap-1688-954c3b4b2e56716d074be878 |
 | alibabacloud | **REVIEW** | CANDIDATE | 12 | snap-alibabacloud-461ca160d076aaffa913407c |
 | appledev | **VERIFIED** | CANDIDATE | 38 | snap-appledev-0f9aebbb855d26eaea22e764 |
 | applemedia | **VERIFIED** | CANDIDATE | 52 | snap-applemedia-31ff5d9442c181964b8f3d56 |
@@ -137,20 +137,20 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | baidunetdisk | **REVIEW** | CANDIDATE | 2 | snap-baidunetdisk-0d9bcb5a5362097ed3bf61c9 |
 | baidutieba | **VERIFIED** | CANDIDATE | 32 | snap-baidutieba-8b4d600c509ceac6efde41b2 |
 | bing | **VERIFIED** | CANDIDATE | 9 | snap-bing-2a7e85faeb2c486827a45b4e |
-| cainiao | **PRODUCTION** | CANDIDATE | 1 | snap-cainiao-6d74f6dbe8d159865b33f44a |
+| cainiao | **PRODUCTION** | CANDIDATE | 1 | snap-cainiao-6fb6742fb29460ba81c778ea |
 | claude | **VERIFIED** | CANDIDATE | 3 | snap-claude-29e8c63e592f1f2898514fd7 |
 | copilot | **VERIFIED** | CANDIDATE | 45 | snap-copilot-ced3ecb233dd43400f0485e9 |
 | deepseek | **REVIEW** | CANDIDATE | 2 | snap-deepseek-e74c191a25236d73593d589b |
 | dingding | **PRODUCTION** | CANDIDATE | 3 | snap-dingding-b3ed8aa626ef40fbdcd7f27d |
 | discord | **VERIFIED** | CANDIDATE | 28 | snap-discord-82f6a47f92e47ffa9d0382d6 |
-| doubao | **REVIEW** | CANDIDATE | 4 | snap-doubao-1d6ed3512b976d6f6dfad2b5 |
+| doubao | **REVIEW** | CANDIDATE | 4 | snap-doubao-83627a3a7eb8c73da79a8cb4 |
 | douyin | **VERIFIED** | CANDIDATE | 13 | snap-douyin-d70de7165afed60394f679be |
 | feishu | **VERIFIED** | CANDIDATE | 43 | snap-feishu-774ba504c00dc3a9c58bb77b |
 | findmy | **VERIFIED** | CANDIDATE | 3 | snap-findmy-685aad71cf0c0a95171921de |
-| firebase | **REVIEW** | CANDIDATE | 2 | snap-firebase-d62acd9c2688b55120300c25 |
+| firebase | **REVIEW** | CANDIDATE | 2 | snap-firebase-687d093cfbb05c60602d8c99 |
 | gemini | **VERIFIED** | CANDIDATE | 9 | snap-gemini-b808a3bfa09f41603d94ed24 |
 | github | **REVIEW** | CANDIDATE | 29 | snap-github-995bb5798306780932ce16f1 |
-| googlecloud | **REVIEW** | CANDIDATE | 5 | snap-googlecloud-bef99f67054f1566a167dcfb |
+| googlecloud | **REVIEW** | CANDIDATE | 5 | snap-googlecloud-7ac90cbe3331f1a7d9668755 |
 | googledrive | **VERIFIED** | CANDIDATE | 4 | snap-googledrive-cee3bfde150a7392cd48a8d2 |
 | googlefcm | **REVIEW** | CANDIDATE | 13 | snap-googlefcm-0a56c2f6cc053405abb62c45 |
 | groq | **REVIEW** | CANDIDATE | 1 | snap-groq-c073c7adcd8f0db5ebe9a92a |
@@ -171,17 +171,17 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | roblox | **REVIEW** | CANDIDATE | 47 | snap-roblox-36d3732a073e69dc0d883708 |
 | signal | **REVIEW** | CANDIDATE | 8 | snap-signal-82644ff2cbaddc4da87ede48 |
 | siri | **REVIEW** | CANDIDATE | 1 | snap-siri-47e2e3f224b653abe0a7da30 |
-| taobao | **VERIFIED** | REVIEW | 1 | snap-taobao-b01fa138eac152fd37b95268 |
+| taobao | **VERIFIED** | REVIEW | 1 | snap-taobao-9d9ea3dd71d0ef067dd7c6a1 |
 | teams | **VERIFIED** | CANDIDATE | 4 | snap-teams-6aa385077c2e25e0bd158160 |
 | telegram | **VERIFIED** | CANDIDATE | 24 | snap-telegram-e985d44adc6d0a592feff2e5 |
-| tencentcloud | **PRODUCTION** | CANDIDATE | 1 | snap-tencentcloud-912c31fad2c509b3dbcfb34c |
+| tencentcloud | **PRODUCTION** | CANDIDATE | 1 | snap-tencentcloud-99be32d627feeda81e8555b9 |
 | tencentmeeting | **REVIEW** | CANDIDATE | 3 | snap-tencentmeeting-b860ac733a4552e89e1ef88e |
 | tencentvideo | **REVIEW** | CANDIDATE | 17 | snap-tencentvideo-0f255bfc922db6125299fcbf |
 | testflight | **VERIFIED** | CANDIDATE | 2 | snap-testflight-29c5632a2668a3c10290338d |
 | tiktok | **VERIFIED** | CANDIDATE | 29 | snap-tiktok-df0d82d481b22c2cbe3c5905 |
-| tmall | **VERIFIED** | CANDIDATE | 8 | snap-tmall-496fb446da6431992c6eaaf5 |
+| tmall | **VERIFIED** | CANDIDATE | 8 | snap-tmall-e874413d8245a8df0eb4b75e |
 | wechat | **VERIFIED** | CANDIDATE | 28 | snap-wechat-472d929bbfb735e852d4cb83 |
-| wecom | **REVIEW** | CANDIDATE | 3 | snap-wecom-5750eebc4bd5de47ff97d22d |
+| wecom | **REVIEW** | CANDIDATE | 3 | snap-wecom-ff81022ae1599758656ebf1c |
 | xbox | **REVIEW** | CANDIDATE | 42 | snap-xbox-be1a85faaec0bb69f03aae37 |
 | youdao | **REVIEW** | CANDIDATE | 15 | snap-youdao-45f37817f90d1ea214d4b881 |
 | youtube | **REVIEW** | CANDIDATE | 175 | snap-youtube-ea6794cdfc9366447a0922c2 |
