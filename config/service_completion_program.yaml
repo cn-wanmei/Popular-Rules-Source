@@ -93,3 +93,9 @@ phases:
     snowflake: [snowflake-snowsight, snowflake-marketplace, snowflake-developer, snowflake-accounts]
     stripe: [dashboard, connect, billing, docs, terminal]
     paypal: [paypal-core, venmo, xoom]
+
+verified_priority_wave:
+  p1: [huawei-cloud, mi-cloud, jd-cloud, kugou, kuwo, quanmin-k-ge]
+  p2: [amazonmusic, audible, goodreads, messenger, adobe-firefly, adobe-stock, adobe-fonts, openai-api, openai-platform, chatgpt, anthropic-claude, anthropic-platform, xai-grok, stripe-dashboard, venmo]
+  evidence_basis: official_entry_verified_2026-09-26
+  production_state: candidate_only
