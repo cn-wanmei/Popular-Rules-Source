@@ -1,0 +1,129 @@
+name: Service Completion P0-P2
+
+on:
+  push:
+    branches:
+      - feat/service-completion-p0-p2-20260926
+  pull_request:
+    branches:
+      - main
+    paths:
+      - "config/**"
+      - "source_engine/**"
+      - "self_built/**"
+      - ".github/workflows/service-completion-p0-p2.yml"
+
+jobs:
+  completion-gate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: "3.11"
+      - run: python -m pip install -r requirements.txt
+      - run: python source_engine/service_completion.py
+      - run: python -m source_engine validate
+      - run: python -m source_engine qualify
+      - name: Generate P0-C current candidate snapshots
+        if: github.event_name == 'push'
+        run: |
+          set -e
+          services="
+          qqmail
+          qqmusic
+          taobao
+          tencentcloud
+          tmall
+          appledev
+          appstore
+          applemusic
+          applenews
+          findmy
+          icloud
+          azure
+          bing
+          claude
+          copilot
+          deepseek
+          feishu
+          gemini
+          googledrive
+          openai
+          perplexity
+          qq
+          teams
+          tiktok
+          wechat
+          xbox
+          youtube
+          youtubemusic
+          huawei-cloud
+          mi-cloud
+          jd-cloud
+          kugou
+          kuwo
+          quanmin-k-ge
+          amazonmusic
+          audible
+          goodreads
+          messenger
+          adobe-firefly
+          adobe-stock
+          adobe-fonts
+          openai-api
+          openai-platform
+          chatgpt
+          anthropic-claude
+          anthropic-platform
+          xai-grok
+          stripe-dashboard
+          venmo
+          gmail
+          google-calendar
+          google-chat
+          google-contacts
+          google-docs
+          google-forms
+          google-groups
+          google-meet
+          google-sheets
+          google-sites
+          google-slides
+          google-vids
+          google-workspace-studio
+          google-maps
+          google-photos
+          google-play
+          google-news
+          google-voice
+          google-earth
+          ms365-word
+          ms365-excel
+          ms365-powerpoint
+          ms365-onenote
+          ms365-planner
+          ms365-loop
+          ms365-mesh
+          applepodcasts
+          applebooks
+          applemaps
+          "
+          for service in $services; do
+            python -m source_engine generate --service "$service"
+            python -m source_engine release --service "$service"
+          done
+      - name: Persist generated P0-C snapshots
+        if: github.event_name == 'push'
+        run: |
+          if git diff --quiet; then
+            echo "No generated snapshot changes"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add generated snapshots releases reports/service-completion-program.json
+          git commit -m "chore(completion): generate P0-C self-built official snapshots [skip ci]"
+          git push

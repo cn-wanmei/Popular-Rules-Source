@@ -67,3 +67,18 @@ def test_github_rule_candidate_shape():
     payload = {"content": base64.b64encode(raw.encode()).decode()}
     decoded = base64.b64decode(payload["content"]).decode()
     assert decoded == raw
+
+
+def test_self_built_adapter_reads_local_asset():
+    from source_engine.adapters import extract_with_adapter
+
+    extracted = extract_with_adapter(
+        service_id="gmail",
+        adapter_name="self_built",
+        source_url="https://mail.google.com/",
+        exact=("mail.google.com",),
+        suffixes=(),
+        adapter_policy={"timeout_seconds": 1, "max_bytes": 100000, "user_agent": "test"},
+    )
+    assert extracted.domains == ("mail.google.com",)
+    assert extracted.evidence["local_asset"] == "self_built/gmail/domains.list"

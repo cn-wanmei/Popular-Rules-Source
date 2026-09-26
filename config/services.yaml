@@ -895,3 +895,553 @@ services:
     coverage: {domain: review}
     source_policy: {official_required: false, allowed_authorities: [upstream], min_confidence: high}
     boundary: {shared_infrastructure_allowed: false, mode: source_bound}
+
+  gmail:
+    display_name: "Gmail"
+    ecosystem: google
+    official_sources: ["https://mail.google.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [mail.google.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  google-calendar:
+    display_name: "Google Calendar"
+    ecosystem: google
+    official_sources: ["https://calendar.google.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [calendar.google.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  google-chat:
+    display_name: "Google Chat"
+    ecosystem: google
+    official_sources: ["https://chat.google.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [chat.google.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  google-contacts:
+    display_name: "Google Contacts"
+    ecosystem: google
+    official_sources: ["https://contacts.google.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [contacts.google.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  google-docs:
+    display_name: "Google Docs"
+    ecosystem: google
+    official_sources: ["https://docs.google.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [docs.google.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  google-forms:
+    display_name: "Google Forms"
+    ecosystem: google
+    official_sources: ["https://forms.google.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [forms.google.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  google-groups:
+    display_name: "Google Groups"
+    ecosystem: google
+    official_sources: ["https://groups.google.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [groups.google.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  google-meet:
+    display_name: "Google Meet"
+    ecosystem: google
+    official_sources: ["https://meet.google.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [meet.google.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  google-sheets:
+    display_name: "Google Sheets"
+    ecosystem: google
+    official_sources: ["https://sheets.google.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [sheets.google.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  google-sites:
+    display_name: "Google Sites"
+    ecosystem: google
+    official_sources: ["https://sites.google.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [sites.google.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  google-slides:
+    display_name: "Google Slides"
+    ecosystem: google
+    official_sources: ["https://slides.google.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [slides.google.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  google-vids:
+    display_name: "Google Vids"
+    ecosystem: google
+    official_sources: ["https://vids.google.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [vids.google.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  google-workspace-studio:
+    display_name: "Google Workspace Studio"
+    ecosystem: google
+    official_sources: ["https://studio.workspace.google.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [studio.workspace.google.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  google-maps:
+    display_name: "Google Maps"
+    ecosystem: google
+    official_sources: ["https://maps.google.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [maps.google.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  google-photos:
+    display_name: "Google Photos"
+    ecosystem: google
+    official_sources: ["https://photos.google.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [photos.google.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  google-play:
+    display_name: "Google Play"
+    ecosystem: google
+    official_sources: ["https://play.google.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [play.google.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  google-news:
+    display_name: "Google News"
+    ecosystem: google
+    official_sources: ["https://news.google.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [news.google.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  google-voice:
+    display_name: "Google Voice"
+    ecosystem: google
+    official_sources: ["https://voice.google.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [voice.google.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  google-earth:
+    display_name: "Google Earth"
+    ecosystem: google
+    official_sources: ["https://earth.google.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [earth.google.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  ms365-word:
+    display_name: "Microsoft Word web"
+    ecosystem: microsoft
+    official_sources: ["https://word.cloud.microsoft/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [word.cloud.microsoft]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  ms365-excel:
+    display_name: "Microsoft Excel web"
+    ecosystem: microsoft
+    official_sources: ["https://excel.cloud.microsoft/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [excel.cloud.microsoft]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  ms365-powerpoint:
+    display_name: "Microsoft PowerPoint web"
+    ecosystem: microsoft
+    official_sources: ["https://powerpoint.cloud.microsoft/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [powerpoint.cloud.microsoft]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  ms365-onenote:
+    display_name: "Microsoft OneNote web"
+    ecosystem: microsoft
+    official_sources: ["https://onenote.cloud.microsoft/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [onenote.cloud.microsoft]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  ms365-planner:
+    display_name: "Microsoft Planner"
+    ecosystem: microsoft
+    official_sources: ["https://planner.cloud.microsoft/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [planner.cloud.microsoft]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  ms365-loop:
+    display_name: "Microsoft Loop"
+    ecosystem: microsoft
+    official_sources: ["https://loop.cloud.microsoft/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [loop.cloud.microsoft]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  ms365-mesh:
+    display_name: "Microsoft Mesh"
+    ecosystem: microsoft
+    official_sources: ["https://mesh.cloud.microsoft/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [mesh.cloud.microsoft]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  applepodcasts:
+    display_name: "Apple Podcasts"
+    ecosystem: apple
+    official_sources: ["https://podcasts.apple.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [podcasts.apple.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  applebooks:
+    display_name: "Apple Books"
+    ecosystem: apple
+    official_sources: ["https://books.apple.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [books.apple.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  applemaps:
+    display_name: "Apple Maps"
+    ecosystem: apple
+    official_sources: ["https://maps.apple.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [maps.apple.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  huawei-cloud:
+    display_name: "Huawei Cloud"
+    ecosystem: huawei
+    official_sources: ["https://console-intl.huaweicloud.com/console/?locale=en-us"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [console-intl.huaweicloud.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  mi-cloud:
+    display_name: "Mi Cloud"
+    ecosystem: xiaomi
+    official_sources: ["https://www.mi.com/sg/support/article/KA-07435/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [i.mi.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  jd-cloud:
+    display_name: "JD Cloud"
+    ecosystem: jingdong
+    official_sources: ["https://www.jdcloud.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [www.jdcloud.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  kugou:
+    display_name: "Kugou Music"
+    ecosystem: tencent_music
+    official_sources: ["https://www.kugou.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [www.kugou.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  kuwo:
+    display_name: "Kuwo Music"
+    ecosystem: tencent_music
+    official_sources: ["https://m.kuwo.cn/newh5app/ranklist_detail/16"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [m.kuwo.cn]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  quanmin-k-ge:
+    display_name: "全民K歌"
+    ecosystem: tencent_music
+    official_sources: ["https://kg.qq.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [kg.qq.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  amazonmusic:
+    display_name: "Amazon Music"
+    ecosystem: amazon
+    official_sources: ["https://music.amazon.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [music.amazon.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  audible:
+    display_name: "Audible"
+    ecosystem: amazon
+    official_sources: ["https://www.audible.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [audible.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  goodreads:
+    display_name: "Goodreads"
+    ecosystem: amazon
+    official_sources: ["https://www.goodreads.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [goodreads.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  adobe-firefly:
+    display_name: "Adobe Firefly"
+    ecosystem: adobe
+    official_sources: ["https://firefly.adobe.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [firefly.adobe.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  adobe-stock:
+    display_name: "Adobe Stock"
+    ecosystem: adobe
+    official_sources: ["https://stock.adobe.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [stock.adobe.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  adobe-fonts:
+    display_name: "Adobe Fonts"
+    ecosystem: adobe
+    official_sources: ["https://fonts.adobe.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [fonts.adobe.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  openai-api:
+    display_name: "OpenAI API"
+    ecosystem: openai
+    official_sources: ["https://developers.openai.com/api/docs"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [api.openai.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  openai-platform:
+    display_name: "OpenAI Platform"
+    ecosystem: openai
+    official_sources: ["https://platform.openai.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [platform.openai.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  chatgpt:
+    display_name: "ChatGPT"
+    ecosystem: openai
+    official_sources: ["https://chatgpt.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [chatgpt.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  anthropic-claude:
+    display_name: "Claude"
+    ecosystem: anthropic
+    official_sources: ["https://claude.ai/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [claude.ai]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  anthropic-platform:
+    display_name: "Claude Platform"
+    ecosystem: anthropic
+    official_sources: ["https://console.anthropic.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [platform.claude.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  xai-grok:
+    display_name: "Grok"
+    ecosystem: xai
+    official_sources: ["https://grok.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [grok.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  stripe-dashboard:
+    display_name: "Stripe Dashboard"
+    ecosystem: stripe
+    official_sources: ["https://dashboard.stripe.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [dashboard.stripe.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  venmo:
+    display_name: "Venmo"
+    ecosystem: paypal
+    official_sources: ["https://venmo.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [venmo.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  baidumaps:
+    display_name: "Baidu Maps"
+    ecosystem: baidu
+    official_sources: ["https://map.baidu.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [map.baidu.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  baiduwenku:
+    display_name: "Baidu Wenku"
+    ecosystem: baidu
+    official_sources: ["https://wenku.baidu.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [wenku.baidu.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  baidu-zhidao:
+    display_name: "Baidu Zhidao"
+    ecosystem: baidu
+    official_sources: ["https://zhidao.baidu.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [zhidao.baidu.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  huawei-appgallery:
+    display_name: "HUAWEI AppGallery"
+    ecosystem: huawei
+    official_sources: ["https://appgallery.huawei.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [appgallery.huawei.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  kuaishou:
+    display_name: "Kuaishou"
+    ecosystem: kuaishou
+    official_sources: ["https://www.kuaishou.com/cn"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [www.kuaishou.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}
+
+  kuaishou-open:
+    display_name: "Kuaishou Open Platform"
+    ecosystem: kuaishou
+    official_sources: ["https://open.kuaishou.com/"]
+    allowed_host_suffixes: []
+    allowed_host_exact: [open.kuaishou.com]
+    coverage: {domain: review, ip: unknown, cidr: none}
+    source_policy: {official_required: true, allowed_authorities: [official], min_confidence: high}
+    boundary: {shared_infrastructure_allowed: false}

@@ -1,0 +1,6 @@
+# Self-built candidate rule asset
+# service_id: ms365-planner
+# evidence_mode: official_web
+# status: CANDIDATE
+# Production admission requires immutable source evidence + semantic/overlap + seven-client + Collection canary.
+DOMAIN,planner.cloud.microsoft

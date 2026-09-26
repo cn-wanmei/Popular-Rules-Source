@@ -1,0 +1,101 @@
+version: 1
+schema: service_completion_program_v1
+baseline: 2026-09-26
+execution_plan: Popular-Rules-Collection_分流规则全面补全执行方案_2026-09-26.md
+company_targets: config/company_targets.yaml
+mode: parallel_with_lineage_lock
+source_role: evidence_supply_layer
+collection_role: canonical_release_layer
+
+lineage_lock:
+  sequence: [qqmail, qqmusic, taobao, tencentcloud, tmall]
+  historical_snapshots_immutable: true
+  historical_releases_immutable: true
+  rewrite_history: false
+  allow_new_identity_after_current_head: true
+
+phases:
+  P0-A:
+    objective: close_existing_lineage_without_rewriting_history
+    services: [qqmail, qqmusic, taobao, tencentcloud, tmall]
+  P0-B:
+    objective: materialize_existing_source_services_using_new_current_lineage
+    services: [appledev, appstore, applemusic, applenews, findmy, icloud, azure, bing, claude, copilot, deepseek, feishu, gemini, googledrive, openai, perplexity, qq, teams, tiktok, wechat, xbox, youtube, youtubemusic]
+    self_built_rescue: [qq, neteasemail, honorofkings_cn, honorofkings_global]
+  P0-C:
+    objective: full_official_inventory_for_google_microsoft_apple
+    status_rule: discovery_and_evidence_first
+    platform_groups:
+      google:
+        source_catalog: https://about.google/products/
+        workspace_official_inventory: https://support.google.com/a/users/answer/9333810
+        confirmed_independent_hosts:
+          - {service_id: gmail, host: mail.google.com, source: https://mail.google.com/}
+          - {service_id: google-calendar, host: calendar.google.com, source: https://calendar.google.com/}
+          - {service_id: google-chat, host: chat.google.com, source: https://chat.google.com/}
+          - {service_id: google-contacts, host: contacts.google.com, source: https://contacts.google.com/}
+          - {service_id: google-docs, host: docs.google.com, source: https://docs.google.com/}
+          - {service_id: googledrive, host: drive.google.com, source: https://drive.google.com/}
+          - {service_id: google-forms, host: forms.google.com, source: https://forms.google.com/}
+          - {service_id: google-groups, host: groups.google.com, source: https://groups.google.com/}
+          - {service_id: google-meet, host: meet.google.com, source: https://meet.google.com/}
+          - {service_id: google-sheets, host: sheets.google.com, source: https://sheets.google.com/}
+          - {service_id: google-sites, host: sites.google.com, source: https://sites.google.com/}
+          - {service_id: google-slides, host: slides.google.com, source: https://slides.google.com/}
+          - {service_id: google-vids, host: vids.google.com, source: https://vids.google.com/}
+          - {service_id: google-workspace-studio, host: studio.workspace.google.com, source: https://studio.workspace.google.com/}
+        additional_product_hosts:
+          - {service_id: google-maps, host: maps.google.com}
+          - {service_id: google-photos, host: photos.google.com}
+          - {service_id: google-play, host: play.google.com}
+          - {service_id: google-news, host: news.google.com}
+          - {service_id: google-voice, host: voice.google.com}
+          - {service_id: google-earth, host: earth.google.com}
+      microsoft:
+        source_catalog: https://www.microsoft.com/en-sg/microsoft-365/products-apps-services
+        cloud_domain_policy: https://learn.microsoft.com/microsoft-365/enterprise/cloud-microsoft-domain
+        confirmed_independent_hosts:
+          - {service_id: ms365-word, host: word.cloud.microsoft, source: https://word.cloud.microsoft/}
+          - {service_id: ms365-excel, host: excel.cloud.microsoft, source: https://excel.cloud.microsoft/}
+          - {service_id: ms365-powerpoint, host: powerpoint.cloud.microsoft, source: https://powerpoint.cloud.microsoft/}
+          - {service_id: ms365-onenote, host: onenote.cloud.microsoft, source: https://onenote.cloud.microsoft/}
+          - {service_id: ms365-planner, host: planner.cloud.microsoft, source: https://planner.cloud.microsoft/}
+          - {service_id: ms365-loop, host: loop.cloud.microsoft, source: https://loop.cloud.microsoft/}
+          - {service_id: ms365-mesh, host: mesh.cloud.microsoft, source: https://mesh.cloud.microsoft/}
+        augment_existing_nodes:
+          outlook: [outlook.cloud.microsoft, outlook.office.com, outlook.office365.com]
+          teams: [teams.cloud.microsoft]
+      apple:
+        source_catalog: https://www.apple.com/sg/services/
+        confirmed_independent_hosts:
+          - {service_id: applepodcasts, host: podcasts.apple.com, source: https://podcasts.apple.com/}
+          - {service_id: applebooks, host: books.apple.com, source: https://books.apple.com/}
+          - {service_id: applemaps, host: maps.apple.com, source: https://maps.apple.com/}
+        non_routable_or_shared_candidates: [icloud-mail, icloud-drive, icloud-photos, icloud-notes, icloud-calendar, icloud-contacts, icloud-reminders, icloud-find-devices, applearcade, applefitnessplus, applepay, applewallet]
+  P1:
+    objective: complete_domestic_core_group_service_trees
+    companies: [D001, D002, D003, D004, D005, D006, D007, D008, D009, D010, D011, D012]
+  P2:
+    objective: complete_overseas_saas_ai_cloud_payments_service_trees
+    companies: [O001, O002, O009, O014, O019, O35, O39, O40, O41, O44, O45, O46, O47, O78]
+  P2_candidate_service_trees:
+    amazon: [aws, primevideo, twitch, amazonmusic, kindle, audible, amazonpay, imdb, goodreads]
+    meta: [facebook, instagram, whatsapp, messenger, threads, meta-ai, quest, horizon]
+    oracle: [oci, mysql, java, netsuite]
+    adobe: [creative-cloud, acrobat, photoshop, lightroom, express, firefly, behance, adobe-stock, adobe-fonts, workfront, experience-cloud, marketo]
+    salesforce: [salesforce-core, slack, heroku]
+    atlassian: [jira, confluence, bitbucket, trello, loom, jira-service-management, compass, statuspage]
+    cloudflare: [workers, pages, r2, d1, kv, images, stream, zero-trust, access, gateway, warp, turnstile, dns, waf, email-routing, browser-rendering, ai-gateway]
+    openai: [openai-core, chatgpt, openai-api, openai-platform]
+    anthropic: [claude, anthropic-api, anthropic-console]
+    xai: [grok, xai-api, xai-console]
+    databricks: [databricks-workspace, databricks-sql, databricks-marketplace, databricks-accounts]
+    snowflake: [snowflake-snowsight, snowflake-marketplace, snowflake-developer, snowflake-accounts]
+    stripe: [dashboard, connect, billing, docs, terminal]
+    paypal: [paypal-core, venmo, xoom]
+
+verified_priority_wave:
+  p1: [huawei-cloud, mi-cloud, jd-cloud, kugou, kuwo, quanmin-k-ge]
+  p2: [amazonmusic, audible, goodreads, messenger, adobe-firefly, adobe-stock, adobe-fonts, openai-api, openai-platform, chatgpt, anthropic-claude, anthropic-platform, xai-grok, stripe-dashboard, venmo]
+  evidence_basis: official_entry_verified_2026-09-26
+  production_state: candidate_only

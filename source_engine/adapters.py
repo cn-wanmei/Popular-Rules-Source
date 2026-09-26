@@ -189,6 +189,40 @@ def extract_with_adapter(
             {**common, "source_url": source_url, "rendered": True},
         )
 
+    if adapter_name == "self_built":
+        asset_path = Path("self_built") / service_id / "domains.list"
+        if not asset_path.exists():
+            raise AdapterContractError(f"self_built asset missing: {asset_path}")
+        text_body = asset_path.read_text(encoding="utf-8")
+        domains = _domains_from_rule_text(
+            text_body,
+            exact,
+            suffixes,
+            source_bound=False,
+        )
+        official_source = None
+        try:
+            catalog = yaml.safe_load(Path("config/self_built_services.yaml").read_text(encoding="utf-8")) or {}
+            item = ((catalog.get("services") or {}).get(service_id)) or {}
+            sources = item.get("official_sources") or []
+            official_source = str(sources[0]) if sources else None
+        except (OSError, yaml.YAMLError):
+            official_source = None
+        if not domains:
+            raise AdapterContractError(f"self_built asset has no valid domains: {asset_path}")
+        import hashlib
+        return AdapterExtraction(
+            tuple(domains),
+            {
+                **common,
+                "source_url": official_source or f"self_built://{asset_path.as_posix()}",
+                "resolved_url": official_source or f"self_built://{asset_path.as_posix()}",
+                "retrieved_at": str(asset_path.stat().st_mtime_ns),
+                "content_hash": hashlib.sha256(asset_path.read_bytes()).hexdigest(),
+                "local_asset": asset_path.as_posix(),
+            },
+        )
+
     result = fetch(
         source_url,
         timeout=int(adapter_policy["timeout_seconds"]),

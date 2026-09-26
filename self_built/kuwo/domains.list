@@ -1,0 +1,8 @@
+# Self-built candidate rule asset
+# service_id: kuwo
+# provider: tencent_music
+# evidence_mode: official_web
+# status: CANDIDATE
+# Official entry verified during the 2026-09-26 completion run.
+# Production requires immutable Source release + Collection exact binding + semantic/overlap + seven-client + golden + canary.
+DOMAIN,m.kuwo.cn
