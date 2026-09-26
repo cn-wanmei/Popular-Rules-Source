@@ -286,7 +286,7 @@ jobs:
 
           out = root / "reports" / "durable-bridge"
           out.mkdir(parents=True, exist_ok=True)
-          (out / "phase10-remaining-gap-latest.json").write_text(
+          (out / f"phase10-remaining-gap-${{ github.run_id }}.json").write_text(
               json.dumps(report, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
               encoding="utf-8",
           )
@@ -294,10 +294,23 @@ jobs:
           PY
       - name: Commit persisted RemainingGap releases
         run: |
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f snapshots releases generated/source reports/durable-bridge/phase10-remaining-gap-latest.json
+          git add -f snapshots releases generated/source reports/durable-bridge/phase10-remaining-gap-${{ github.run_id }}.json
           git commit -m "chore(source): persist phase10 immutable releases [skip ci]"
-          git push origin main
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            if git rebase origin/main; then
+              if git push origin HEAD:main; then
+                exit 0
+              fi
+            else
+              git rebase --abort || true
+            fi
+            sleep $((attempt * 2))
+          done
+          echo "Failed to push persisted RemainingGap releases after 5 attempts" >&2
+          exit 1
 
 # Trigger durable RemainingGap after direct repository writes.
