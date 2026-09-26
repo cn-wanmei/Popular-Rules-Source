@@ -1,0 +1,74 @@
+name: P1 P2 Self-Built Fast Wave
+
+on:
+  push:
+    branches:
+      - feat/p1-p2-self-built-fast-20260926
+    paths:
+      - "self_built/**"
+      - "config/**"
+      - "source_engine/**"
+      - ".github/workflows/p1-p2-self-built-fast-wave.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: "3.11"
+      - run: python -m pip install -r requirements.txt
+      - name: Validate base state once
+        run: |
+          python source_engine/service_completion.py
+          python -m source_engine validate
+          python -m source_engine qualify
+      - name: Build and durable-release P1/P2
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from source_engine.build import build_service
+          from source_engine.release import create_release
+
+          services = [
+              "huawei-cloud", "mi-cloud", "jd-cloud", "kugou", "kuwo", "quanmin-k-ge",
+              "amazonmusic", "audible", "goodreads", "messenger",
+              "adobe-firefly", "adobe-stock", "adobe-fonts",
+              "openai-api", "openai-platform", "chatgpt",
+              "anthropic-claude", "anthropic-platform", "xai-grok",
+              "stripe-dashboard", "venmo",
+          ]
+
+          for service in services:
+              manifest = build_service(service)
+              if manifest["release_state"] == "BLOCKED":
+                  raise SystemExit(f"{service}: blocked release")
+              release = create_release(service)
+              print({
+                  "service": service,
+                  "snapshot_id": manifest["snapshot_id"],
+                  "release_digest": manifest["release_digest"],
+                  "release_state": manifest["release_state"],
+                  "release_path": f"releases/{service}/{manifest['snapshot_id']}/release.json",
+              })
+          PY
+      - name: Final schema and lifecycle status
+        run: |
+          python -m source_engine schema-validate
+          python -m source_engine status
+      - name: Persist P1/P2 immutable artifacts
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add generated snapshots releases README.md reports/service-completion-program.json
+          if git diff --cached --quiet; then
+            echo "No P1/P2 changes"
+            exit 0
+          fi
+          git commit -m "feat(source): materialize P1 P2 self-built immutable releases [skip ci]"
+          git push
