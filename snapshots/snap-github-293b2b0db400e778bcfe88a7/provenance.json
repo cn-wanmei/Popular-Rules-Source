@@ -1,0 +1,327 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:429a152a8f083b103717cd982025eae5fe9699dee60830a3f19cb2b89f1a1cc5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "atom.io"
+    },
+    {
+      "asset_id": "sha256:0543d821d2939f377e84edd2cb9f9094ef8c98e88cbb83653f11ad8065abf37b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "dependabot.com"
+    },
+    {
+      "asset_id": "sha256:be052d581f79c42c4ee5c85d68b1d1f91c2efb9952129090eb86f2aacb810e12",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "ghcr.io"
+    },
+    {
+      "asset_id": "sha256:329830158a73506c3e81d5def568521825ea3e5a4079f2289e91a2add2d934c0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "git.io"
+    },
+    {
+      "asset_id": "sha256:8f193c881fdabbf289b839918ad029a98681a493fcabd38245c9985e5d666488",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "github-atom-io-herokuapp-com.freetls.fastly.net"
+    },
+    {
+      "asset_id": "sha256:a4846b4c8fd0d728b8164257ec7bd8ca1afe85e29f4ce2bb43a4ea982e351725",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "github-avatars.oss-cn-hongkong.aliyuncs.com"
+    },
+    {
+      "asset_id": "sha256:131382649d87efb12079cfd22136eff0d393abca5f6efe5207a1a9b27e7169be",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "github.blog"
+    },
+    {
+      "asset_id": "sha256:938f18f156b9dfd33c17923537a504dcec64ac78bd3eb4fe01585899065680ec",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "github.com"
+    },
+    {
+      "asset_id": "sha256:cdd48d46bbd2cc1d9aeedb50839c2221089f0a337997b61934c2d646706b9e22",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "github.community"
+    },
+    {
+      "asset_id": "sha256:e3bdcd4c160b2eb4b7726959d3b8881da76bb4279c4830cf035cafecf0ad285b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "github.dev"
+    },
+    {
+      "asset_id": "sha256:c1863e22fe8a1e4bc8dd8559c0be84bcc97e51f3ec2ca35d909ba0230ba0c3c9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "github.io"
+    },
+    {
+      "asset_id": "sha256:d13163d86ca27f44a0231ea8150ba1e30099fe4ad0dfcf9a635f3abab13f3b69",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "githubapp.com"
+    },
+    {
+      "asset_id": "sha256:8b78dc7b89f3ebb4d85e6cb1efe164669df80f8f3ad25296ca3a3d78e58b65c4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "githubassets.com"
+    },
+    {
+      "asset_id": "sha256:59ae1b8ec7a9e9a878e247f5063b9d628055825e659664ac8691255ae006601c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "githubcopilot.com"
+    },
+    {
+      "asset_id": "sha256:9774365bdcd327e719bc53d89fa10d7217b46040543469bd90ffd53825a952f5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "githubhackathon.com"
+    },
+    {
+      "asset_id": "sha256:fb6301868562a96d43b7ddc0871d96be4a68205c2079de403d6010f2bf9113a1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "githubnext.com"
+    },
+    {
+      "asset_id": "sha256:f3938946387fb2e2440f0ed5db052880048d5fc5a6e0daa13ff544e36ed2d6a5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "githubpreview.dev"
+    },
+    {
+      "asset_id": "sha256:d57e534839c97796e9498a031807d6abb8bb528db7ad191b8e519c3c250bc34f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "githubstatus.com"
+    },
+    {
+      "asset_id": "sha256:0562e7f24f18f85c31872c41e09f91751da7a3d514249cc86f56ec416d2c99eb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "githubuniverse.com"
+    },
+    {
+      "asset_id": "sha256:4d31a46f343529687042695d097146ac2e7f0ff9f66dae512005013465e07e10",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "githubusercontent.com"
+    },
+    {
+      "asset_id": "sha256:53880bc5a079fa348653d09dcf6c37fca7a782f08e9d90efdc1cd28a2bbd9fd6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "myoctocat.com"
+    },
+    {
+      "asset_id": "sha256:91f0ad30f495e4de9f0956ef3a60b48e5c3885a715f30defe8ca7ddf719e0a30",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "npm.community"
+    },
+    {
+      "asset_id": "sha256:12116a1a9f0d50cd5f82a2253d645f3c83cf268dab48237627f6ee3c7044d09d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "npmjs.com"
+    },
+    {
+      "asset_id": "sha256:2f2784302a607f7a3de848ca87e8950a702b388865a15ae58f142a8ccfeabf84",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "npmjs.org"
+    },
+    {
+      "asset_id": "sha256:f4dc56b0b9efc532966064774a6afb061efc5d89569892c14ab86ac76dd0be07",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "opensource.guide"
+    },
+    {
+      "asset_id": "sha256:ed3d2709f265ee0c011f65287db63a62bc17a9aa60acc4bcfa27c406befddf31",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "rawgit.com"
+    },
+    {
+      "asset_id": "sha256:bdd3819e6a3f61c934f17e77a99465c3a47eb725074ee9f9028051da60fc8bf7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "rawgithub.com"
+    },
+    {
+      "asset_id": "sha256:3e6ccdb9190f8b90a0502a90b7d329d209ecb8e6d2aacbf637af115d2166deb0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "repo.new"
+    },
+    {
+      "asset_id": "sha256:5edfe40d8c55cf824cc5a2e355ede371319ccc7b9d6e4699f8077d44f29000d0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-github-001-ced8ab0ecda5"
+      ],
+      "service_id": "github",
+      "type": "domain",
+      "value": "thegithubshop.com"
+    }
+  ],
+  "content_digest": "6d44d4cdd5f3f22589b9b71299c03bf443224b0254a9718dec3ed89de42a837e",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "ced8ab0ecda5775d04ec8ee6a57b282181108565331a6a1d85e9a26fee25d79b",
+      "domains_extracted": 30,
+      "evidence_id": "EV-github-001-ced8ab0ecda5",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.list",
+      "retrieved_at": "2026-09-26T12:10:25.071390+00:00",
+      "service_id": "github",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "7658ebd09e184e732f31edf701bb59747df1a0325edeff5fa958a45c5c022d49",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+  "release_digest": "293b2b0db400e778bcfe88a7a86f5de7621a61239ac25bccb5d9ee1e2e414c05",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "github",
+  "snapshot_id": "snap-github-293b2b0db400e778bcfe88a7",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}

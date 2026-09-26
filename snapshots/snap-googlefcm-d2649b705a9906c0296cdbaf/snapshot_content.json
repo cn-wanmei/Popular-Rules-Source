@@ -1,0 +1,24 @@
+{
+  "content_digest": "7f6f0b0aebe1b7f01c29314122a04f65a831b4b54bc748d9888aecd1ff482364",
+  "domains": [
+    "alt1-mtalk.google.com",
+    "alt2-mtalk.google.com",
+    "alt3-mtalk.google.com",
+    "alt4-mtalk.google.com",
+    "alt5-mtalk.google.com",
+    "alt6-mtalk.google.com",
+    "alt7-mtalk.google.com",
+    "alt8-mtalk.google.com",
+    "android.apis.google.com",
+    "mtalk-dev.google.com",
+    "mtalk-staging.google.com",
+    "mtalk.google.com",
+    "mtalk4.google.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "googlefcm",
+  "source_hashes": [
+    "9794f848f2935db94be703f797921f8c512a1ddd213c20c47c1f884dccbd82ca"
+  ]
+}

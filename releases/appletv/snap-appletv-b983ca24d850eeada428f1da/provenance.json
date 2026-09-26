@@ -1,0 +1,107 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:5076283fab95fd6e0184a1ec9d5f2c8ecea6591104a6cc538962f9d5035c2705",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appletv-001-92ca64869704"
+      ],
+      "service_id": "appletv",
+      "type": "domain",
+      "value": "hls-amt.itunes.apple.com"
+    },
+    {
+      "asset_id": "sha256:c88bcc63aab1325023b4e3008062714374b7a6da4b0a09f71c9fb6e3387ca52e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appletv-001-92ca64869704"
+      ],
+      "service_id": "appletv",
+      "type": "domain",
+      "value": "hls.itunes.apple.com"
+    },
+    {
+      "asset_id": "sha256:658c0aad157262ba670e677627fc4f9868938831bd8a5969f3d287b6e262d312",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appletv-001-92ca64869704"
+      ],
+      "service_id": "appletv",
+      "type": "domain",
+      "value": "np-edge.itunes.apple.com"
+    },
+    {
+      "asset_id": "sha256:d636fc969c34bf4c117356d85bda50d3c19131cedd4e7ff3368802193f70f143",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appletv-001-92ca64869704"
+      ],
+      "service_id": "appletv",
+      "type": "domain",
+      "value": "play-edge.itunes.apple.com"
+    },
+    {
+      "asset_id": "sha256:a22e5aae14836360337c352e15fa65fb87df8f771d9dc84a4d961d8571d93310",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appletv-001-92ca64869704"
+      ],
+      "service_id": "appletv",
+      "type": "domain",
+      "value": "tv.apple.com"
+    },
+    {
+      "asset_id": "sha256:4a5abfa36e4a2c8f1885562390f97a0a11a447d139c08ce510b2a4ec2829f38c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appletv-001-92ca64869704"
+      ],
+      "service_id": "appletv",
+      "type": "domain",
+      "value": "tv.applemusic.com"
+    },
+    {
+      "asset_id": "sha256:dce32614d9d13a31051530967fdde6c9cf79f83ebaf4eb14a77ecc242662caba",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appletv-001-92ca64869704"
+      ],
+      "service_id": "appletv",
+      "type": "domain",
+      "value": "uts-api.itunes.apple.com"
+    }
+  ],
+  "content_digest": "8bfb08f7cb5c397e26abb0198331f4d283c5cb76eccb34c4af0d7e7e0246032e",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "92ca64869704522524fd023066ea8b11666817122e1b4f743aab3df5224dab2e",
+      "domains_extracted": 7,
+      "evidence_id": "EV-appletv-001-92ca64869704",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleTV/AppleTV.list",
+      "retrieved_at": "2026-09-26T12:09:42.362924+00:00",
+      "service_id": "appletv",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleTV/AppleTV.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "c5cd49d0be9c966c7990fde4a5cfd730549e42a54a9cfa3bfb8f5029c242ae62",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+  "release_digest": "b983ca24d850eeada428f1daa45ffc189d5d8dd382c52610bf73edcc1a15297d",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "appletv",
+  "snapshot_id": "snap-appletv-b983ca24d850eeada428f1da",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}

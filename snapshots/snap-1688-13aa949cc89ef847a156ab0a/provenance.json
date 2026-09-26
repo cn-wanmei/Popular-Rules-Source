@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:5173fb999d1716e2a137c1dffe622517dd62976818981a6a7dd9fb759ee0a281",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-001-cbd387aaf259"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "1688.com"
+    },
+    {
+      "asset_id": "sha256:e15f8b29573917b42c57523d8df44c047427cf589e61c968aa6f6aa2fbb6a63d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-001-cbd387aaf259"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "www.1688.com"
+    }
+  ],
+  "content_digest": "a06da6bbb88d11fb265ea1992b21d227a8040583f148d05c396090c5154a568a",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "cbd387aaf259b18ceacf920a64843de4997d5a057de03191f4ae4d226145a54b",
+      "domains_extracted": 2,
+      "evidence_id": "EV-1688-001-cbd387aaf259",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://www.1688.com/",
+      "retrieved_at": "2026-09-26T12:10:41.767007+00:00",
+      "service_id": "1688",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://www.1688.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "21d1a306ce0dfb075b76abda33400c92be46ff43041c49dec1b3c588c2092cb7",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "877e7af68e1242e56c8ef24540b44ea4507caf68a99cfc5df90cacfe610d954d",
+  "release_digest": "13aa949cc89ef847a156ab0a39615ff90b302f729c202908bf80f682f224bf6f",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "1688",
+  "snapshot_id": "snap-1688-13aa949cc89ef847a156ab0a",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

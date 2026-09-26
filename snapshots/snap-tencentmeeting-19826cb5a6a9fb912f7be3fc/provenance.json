@@ -1,0 +1,67 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:635cbe3f88e345e580d829251bc2eff008c5a9efb94dd155f190d20bd3798f1b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentmeeting-001-2fbea49e78e4"
+      ],
+      "service_id": "tencentmeeting",
+      "type": "domain",
+      "value": "cdn.meeting.tencent.com"
+    },
+    {
+      "asset_id": "sha256:a844b1a3fe9aecb835d6ab84b8f4e80c0b2214a426217c5222897899ebb7440d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentmeeting-001-2fbea49e78e4"
+      ],
+      "service_id": "tencentmeeting",
+      "type": "domain",
+      "value": "meeting.tencent.com"
+    },
+    {
+      "asset_id": "sha256:3f95ab11efecd79e1ba7011e276f0b2e2f21636e1bf04d9e3977ebded1b4f725",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentmeeting-001-2fbea49e78e4"
+      ],
+      "service_id": "tencentmeeting",
+      "type": "domain",
+      "value": "report.meeting.tencent.com"
+    }
+  ],
+  "content_digest": "f9ba7fb74503809c7cf5bd247ccc96167108fce4adfe1471c6165c739ee22c49",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "2fbea49e78e472b04e5cb6e71d5fc884500874bcae64b092728d099952501bff",
+      "domains_extracted": 3,
+      "evidence_id": "EV-tencentmeeting-001-2fbea49e78e4",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://meeting.tencent.com/",
+      "retrieved_at": "2026-09-26T12:10:20.119065+00:00",
+      "service_id": "tencentmeeting",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://meeting.tencent.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "965eaace994f4c05533b541705946598796f7ff5ae48863ae059eac4360a8adc",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "3007582d5d95028c4fc41eaaa7a0e1f42565b05285b580293711f683217c0a1d",
+  "release_digest": "19826cb5a6a9fb912f7be3fce61babf6375dbb04e220978079881c931c73b1ec",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "tencentmeeting",
+  "snapshot_id": "snap-tencentmeeting-19826cb5a6a9fb912f7be3fc",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:f8b2105bbea1f97e120c09a64ff0077681234b99ee8491537ff99567948861ec",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentcloud-001-7d91046fd05b"
+      ],
+      "service_id": "tencentcloud",
+      "type": "domain",
+      "value": "cloud.tencent.com"
+    }
+  ],
+  "content_digest": "73bcc88f3bac583e70a636e79369c01ad2d9e254ee3325913afa91d6170d4738",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "7d91046fd05b7927ab2eab3f72a9df0341c59a73501b5f9bb7f54adfe1a08f46",
+      "domains_extracted": 1,
+      "evidence_id": "EV-tencentcloud-001-7d91046fd05b",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://cloud.tencent.com/document/api",
+      "retrieved_at": "2026-09-26T12:09:59.936658+00:00",
+      "service_id": "tencentcloud",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://cloud.tencent.com/document/api",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "4e0f809104e144de0889b3d6a1620c02acd310d0cc470ab38d35bddfd5214c5f",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "58510f5c59ea5fddf470ff6d169b6fa0444c14a843e0409cd341c80c486546a4",
+  "release_digest": "ade52617c57ff6a0f637ff2bc1c914f5950878ece884033ce280ebb82de14f0a",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "tencentcloud",
+  "snapshot_id": "snap-tencentcloud-ade52617c57ff6a0f637ff2b",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}
