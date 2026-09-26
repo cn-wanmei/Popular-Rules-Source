@@ -97,3 +97,23 @@ services:
   applepodcasts: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
   applebooks: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
   applemaps: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
+  huawei-cloud: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
+  mi-cloud: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
+  jd-cloud: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
+  kugou: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
+  kuwo: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
+  quanmin-k-ge: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
+  amazonmusic: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
+  audible: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
+  goodreads: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
+  adobe-firefly: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
+  adobe-stock: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
+  adobe-fonts: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
+  openai-api: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
+  openai-platform: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
+  chatgpt: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
+  anthropic-claude: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
+  anthropic-platform: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
+  xai-grok: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
+  stripe-dashboard: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
+  venmo: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
