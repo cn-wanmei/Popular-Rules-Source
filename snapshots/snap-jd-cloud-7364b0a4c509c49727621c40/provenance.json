@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:70006d940b05a0dd73df1266e85af5ec756af2c0cbea15913289aa48764aad15",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-jd-cloud-001-0f97a8c7262f"
+      ],
+      "service_id": "jd-cloud",
+      "type": "domain",
+      "value": "www.jdcloud.com"
+    }
+  ],
+  "content_digest": "6ac3c70f6350afb39f0323834336b53e7a52524e1d77c0b950c41bac07fe8dbd",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "0f97a8c7262f0a9f5e72608f98cd6fdb7bcb89a392c0153587e29f109ff9588e",
+      "domains_extracted": 1,
+      "evidence_id": "EV-jd-cloud-001-0f97a8c7262f",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.jdcloud.com/",
+      "retrieved_at": "1790427215858339664",
+      "service_id": "jd-cloud",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.jdcloud.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "81f71f2ec2f25245ff64d08bbdac935aacebe65146e1b9bf4a1befc924dc014d",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "c080b5dde084a749f5ea2dac027d1b3dfa17449bd49f0eced4dfd5ac103db674",
+  "release_digest": "7364b0a4c509c49727621c4065e9f8d05d6c1c1a69bf23dc3036c5e33031aa90",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "jd-cloud",
+  "snapshot_id": "snap-jd-cloud-7364b0a4c509c49727621c40",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

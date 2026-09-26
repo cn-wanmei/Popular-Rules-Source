@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "8f5c671f8f43f1ae34a5b86ba5457f6496a04a29c6bf66b06b26f3227e416421",
+    "manifest.json": "923b5a63b78fa224b7c69a8f4fd592e7fb6009cb82f8381a6cd1e227b5d308ec",
+    "provenance.json": "4d4c5013b7b7401afdf2e4cc766d4add93d9f1c9bb6abcd0cf7a10914c457cf5",
+    "snapshot_content.json": "6e5cdbd2a00aeee3165863f3a4355ff61a07dc5dace94f634c24370f6d1365e4"
+  },
+  "content_digest": "18730e8a25795c1c1f470ed95d262bf17878124273e0b6e5d17b0931fccddfb6",
+  "created_at": "2026-09-26T12:54:00.146226+00:00",
+  "evidence_digest": "d61f72242f67346581dedb98c134316f9508a4e0ab2cddcfd4cbb49140d1160e",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "673ff06240aa813aa02bf3065822c8e00753e594ef48476bd2c203075af34641",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "ad97a6f5008ebab004dbad8a15194d4dcfd124e2ec1cffb331add43a89c8687d",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "venmo",
+  "snapshot_id": "snap-venmo-ad97a6f5008ebab004dbad8a",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

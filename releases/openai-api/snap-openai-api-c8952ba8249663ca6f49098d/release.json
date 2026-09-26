@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "4b0be0e10b2a9ede6b7705681969d42abadae56a297b2c84a8aed2a9b6619809",
+    "manifest.json": "1fc665806c01669bc11f07e955792aaae1cc1ea42fcb5d8b683c107fdbcd7c53",
+    "provenance.json": "1836c11aaccfc93bea361d5a9e3e4239802cf1eb58fac0a7e8376386c22d020e",
+    "snapshot_content.json": "77b62211d750b859d86a54b40616fe12713e074c3e36f1f582d69c28c9f58881"
+  },
+  "content_digest": "6d66b02248e5fcd0c39b01a33a284ecdad24bfb46284dc01f57690001d7c3728",
+  "created_at": "2026-09-26T12:53:57.483665+00:00",
+  "evidence_digest": "a4119fe069b1290333885cb37de2eaeb11455a023f8a5e4e110b92ce08a0b075",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "e9bc2bcff4b61b36096493919566a4b3a824058ba5cb0850a7c9ca86088645d5",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "c8952ba8249663ca6f49098dbeef7d6d0482d11c0c784fe35e3aa989f7aff67d",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "openai-api",
+  "snapshot_id": "snap-openai-api-c8952ba8249663ca6f49098d",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

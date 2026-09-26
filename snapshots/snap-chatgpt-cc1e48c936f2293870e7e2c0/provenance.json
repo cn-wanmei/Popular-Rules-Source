@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:a4ef187fc76ec52b30c44e58e52bc479f19280f6b7f39041dd5c3d761283b038",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-chatgpt-001-ff7d6e3e59f9"
+      ],
+      "service_id": "chatgpt",
+      "type": "domain",
+      "value": "chatgpt.com"
+    }
+  ],
+  "content_digest": "978b9ad0247cd0c827c59aab6343c8b59650987045ddfd25fced51198362b4f4",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "ff7d6e3e59f9fd9ec8bb6bb8ee700796ed47f42f3166c34668449c2c96d6d102",
+      "domains_extracted": 1,
+      "evidence_id": "EV-chatgpt-001-ff7d6e3e59f9",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://chatgpt.com/",
+      "retrieved_at": "1790427215858054306",
+      "service_id": "chatgpt",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://chatgpt.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "36f8bc024fc51ebdd5f1ba8d7932f29e61d840c3d9c256e2a4b857618912a073",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "aca4e8b67f32343bf1062d2839270905d180345a2c8dd14ff190b19151c4a176",
+  "release_digest": "cc1e48c936f2293870e7e2c0aac96c55937cc5d4ee6d97e785ff99bd04550d12",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "chatgpt",
+  "snapshot_id": "snap-chatgpt-cc1e48c936f2293870e7e2c0",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

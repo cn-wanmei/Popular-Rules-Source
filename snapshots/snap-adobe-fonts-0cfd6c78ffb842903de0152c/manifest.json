@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:748d1ebc2b7e96272aaecc0e6073288dda00803119f75934b350bfd202ecc165",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-adobe-fonts-001-eb414045b24b"
+      ],
+      "service_id": "adobe-fonts",
+      "type": "domain",
+      "value": "fonts.adobe.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "75fe2670c3275fb5b5c201e8d991a72268fff10ee6f39c49ce295ad09e02207c",
+  "created_at": "2026-09-26T12:53:56.923752+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "fonts.adobe.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "fonts.adobe.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "eb414045b24b22ad866173764b5df581da3027e00b312b6afe88cd69fd0c6299",
+      "domains_extracted": 1,
+      "evidence_id": "EV-adobe-fonts-001-eb414045b24b",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://fonts.adobe.com/",
+      "retrieved_at": "1790427215858054306",
+      "service_id": "adobe-fonts",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://fonts.adobe.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "d53d4f37d90eb65231ff8491299835b6d877c02d45f8b6b85ac4c7d207ffe623",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "2ef511a368e1e269e3146aa8d6c60c85f713c23ec9cee6ec789c64a71b7f5b3c",
+  "previous_domain_count": 0,
+  "release_digest": "0cfd6c78ffb842903de0152c77b344e6a358dc7c4e946796f9844b9dba8f841c",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "5b883d5ec1513f4729d46ae7900175c25c2f268669212e2309c02229697ecd6e",
+  "service_id": "adobe-fonts",
+  "snapshot_content_sha256": "75fe2670c3275fb5b5c201e8d991a72268fff10ee6f39c49ce295ad09e02207c",
+  "snapshot_id": "snap-adobe-fonts-0cfd6c78ffb842903de0152c",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://fonts.adobe.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

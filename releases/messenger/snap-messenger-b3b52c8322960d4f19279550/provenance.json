@@ -41,36 +41,7 @@
       "value": "nbabot.net"
     }
   ],
-  "change_assessment": {
-    "growth_ratio": 1.0,
-    "removal_ratio": 0.0,
-    "status": "OK"
-  },
   "content_digest": "afe8fa86464c22479db5c1609a1f7f9f23c6ae71394f81d3cad19a2229247ab9",
-  "created_at": "2026-09-26T12:53:55.769427+00:00",
-  "domain_count": 4,
-  "domain_diff": {
-    "added": [],
-    "added_count": 0,
-    "current_count": 4,
-    "previous_count": 4,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [
-      "fbmessenger.com",
-      "m.me",
-      "messenger.com",
-      "nbabot.net"
-    ],
-    "unchanged_count": 4
-  },
-  "domains": [
-    "fbmessenger.com",
-    "m.me",
-    "messenger.com",
-    "nbabot.net"
-  ],
-  "errors": [],
   "evidence": [
     {
       "authority": "upstream",
@@ -91,36 +62,16 @@
   ],
   "evidence_digest": "4f0ed0ad9b4f0063f3b6e59aca2f8bda4cf4239d7ecb21fd30dbf16ff90dc366",
   "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
-  "generator_version": "3.1.0",
-  "last_known_good": false,
-  "official_extracted": 0,
-  "official_source_count": 1,
-  "parser_version": "domain-extractor-v4",
   "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
-  "previous_domain_count": 4,
   "release_digest": "b3b52c8322960d4f1927955001aecfbc732f41033da019cbe03d86df01d296c4",
   "release_identity_version": "2",
-  "release_reasons": [],
-  "release_state": "CANDIDATE",
-  "schema": "source_snapshot_v2",
-  "service_config_digest": "af5c30438c84eabeef5a6a99277e134b1d921061bc8048860c216521e5b3cab8",
+  "schema": "source_provenance_v3",
   "service_id": "messenger",
-  "snapshot_content_sha256": "afe8fa86464c22479db5c1609a1f7f9f23c6ae71394f81d3cad19a2229247ab9",
   "snapshot_id": "snap-messenger-b3b52c8322960d4f19279550",
-  "source_bindings": [
-    {
-      "adapter": "upstream_rule",
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/messenger.list"
-    }
-  ],
-  "source_count": 1,
   "source_policy": {
     "allowed_authorities": [
       "upstream"
     ],
     "official_required": false
-  },
-  "trusted_extracted": 4,
-  "unverified_candidate_count": 0,
-  "unverified_candidate_domains": []
+  }
 }

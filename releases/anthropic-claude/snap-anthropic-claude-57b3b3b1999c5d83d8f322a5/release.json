@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "7ea97dcf861f61065b9bdadea01741c1537b798f1cd174c057c4c3f58f05f3e0",
+    "manifest.json": "9d1e46b1d2fde5fad657b3fc6b7ad73c7c596c00c303b4ca6ddf1c9e56ce9727",
+    "provenance.json": "66a53df171fc4765acdf0532c178671f550fd061244e838dcec4b453f9b45cfe",
+    "snapshot_content.json": "18d4b1518f8b72996cab4f787389ab2e9c921e39aea708e4fba4417f5521759a"
+  },
+  "content_digest": "bc85fac3fec136dc9de4edb7a5bc03acce2747b4da00809bc9ada441c3efb616",
+  "created_at": "2026-09-26T12:53:58.607395+00:00",
+  "evidence_digest": "45ab24b4a79567a7c6600c59455040cc65a156a72eb1b6a93601dd83d09f7456",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "8f24bac12c98aa1d3dcaab8cef4614be3dbaaf0cad78de28596fb0a65d9c33b7",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "57b3b3b1999c5d83d8f322a5ce8a0f06ba2cc74410220c7ec588cfd2824d0901",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "anthropic-claude",
+  "snapshot_id": "snap-anthropic-claude-57b3b3b1999c5d83d8f322a5",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

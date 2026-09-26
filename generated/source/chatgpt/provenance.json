@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:a4ef187fc76ec52b30c44e58e52bc479f19280f6b7f39041dd5c3d761283b038",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-chatgpt-001-ff7d6e3e59f9"
+      ],
+      "service_id": "chatgpt",
+      "type": "domain",
+      "value": "chatgpt.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "978b9ad0247cd0c827c59aab6343c8b59650987045ddfd25fced51198362b4f4",
+  "created_at": "2026-09-26T12:53:58.042305+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "chatgpt.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "chatgpt.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "ff7d6e3e59f9fd9ec8bb6bb8ee700796ed47f42f3166c34668449c2c96d6d102",
+      "domains_extracted": 1,
+      "evidence_id": "EV-chatgpt-001-ff7d6e3e59f9",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://chatgpt.com/",
+      "retrieved_at": "1790427215858054306",
+      "service_id": "chatgpt",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://chatgpt.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "36f8bc024fc51ebdd5f1ba8d7932f29e61d840c3d9c256e2a4b857618912a073",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "aca4e8b67f32343bf1062d2839270905d180345a2c8dd14ff190b19151c4a176",
+  "previous_domain_count": 0,
+  "release_digest": "cc1e48c936f2293870e7e2c0aac96c55937cc5d4ee6d97e785ff99bd04550d12",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "12dd07b0071b7dbd57376bb14361e94bbe0cc25c79f279c7c3b3533c6d543f20",
+  "service_id": "chatgpt",
+  "snapshot_content_sha256": "978b9ad0247cd0c827c59aab6343c8b59650987045ddfd25fced51198362b4f4",
+  "snapshot_id": "snap-chatgpt-cc1e48c936f2293870e7e2c0",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://chatgpt.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "1b4280f075e5fa97aecdfe5e5c74724dc3cb3eb6a6d866a5a8a2fd4bb1d2d390",
+    "manifest.json": "7c1bd07cdfe1fc8ac1e51ddddb06be472fdedfcbec7e1c55616174446d7d78d3",
+    "provenance.json": "835e2c7393d0a796aa6518d0f49cfe7e1d3d6a3ae9058e8dc83552b803a34d36",
+    "snapshot_content.json": "76b7f359f3329091b3b5f92608d1bd04a922fed9ca0fea88abfbecbc35b2123b"
+  },
+  "content_digest": "21283533df930bec282c79ea6842a458df4b5a35829541e20b9c929551fb5a51",
+  "created_at": "2026-09-26T12:53:52.496438+00:00",
+  "evidence_digest": "c401fb2c16096e835b83b504e19afcd55c91c25f65c4d36543edfd092b876aa9",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "a1a535a91b4b5c49d98f04bf5fd3babc65de1fb8947f6b831660066674664201",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "baad7d83f4093ace2f04705cc3ec3691b7b8f90a29c0c3616fec552c40f40f81",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "huawei-cloud",
+  "snapshot_id": "snap-huawei-cloud-baad7d83f4093ace2f04705c",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

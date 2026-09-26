@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:04e8ffbd955de83d0247bac16ad9cacfa776fb3254bd90a9620df0d2bd94eaca",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-adobe-firefly-001-b8925dd765f2"
+      ],
+      "service_id": "adobe-firefly",
+      "type": "domain",
+      "value": "firefly.adobe.com"
+    }
+  ],
+  "content_digest": "ea2b64c6f4eeeb97268c1c94a2d47fe15f450a4a5747878df83dc7a40f18df00",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "b8925dd765f2650eee2e6060ece06fdcfe86814204e589e0f69ecd3b8f1cd3a9",
+      "domains_extracted": 1,
+      "evidence_id": "EV-adobe-firefly-001-b8925dd765f2",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://firefly.adobe.com/",
+      "retrieved_at": "1790427215858054306",
+      "service_id": "adobe-firefly",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://firefly.adobe.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "e041e59d3d0cf2dea165f83694f70d7a2160d78ddb65efa2e4f3d38596422cea",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "c28cc233bd98e98e803999f18fc0877f8f5b09beb1b8daab0afb8ae1dc069d2f",
+  "release_digest": "278e98581b6f8e62e261931a737618bff3767ea493378bd608fe497a41fcff45",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "adobe-firefly",
+  "snapshot_id": "snap-adobe-firefly-278e98581b6f8e62e261931a",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}
