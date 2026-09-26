@@ -1,0 +1,167 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:8edf44d1de6a22a4dfe21ce5f7f5ca1e9e24435b303fa13113187ea5b1c31fcc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-douyin-001-020e742fe4a7"
+      ],
+      "service_id": "douyin",
+      "type": "domain",
+      "value": "amemv.com"
+    },
+    {
+      "asset_id": "sha256:4012da15777cda1c02ebfac0655e9f625d6c26e5c4a90147d85a5f1f4fdb032f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-douyin-001-020e742fe4a7"
+      ],
+      "service_id": "douyin",
+      "type": "domain",
+      "value": "douyincdn.com"
+    },
+    {
+      "asset_id": "sha256:6f7503921eb75eeb2d931d2bb45e4929f18b30884e5eb4067ad9fbe45f465bfa",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-douyin-001-020e742fe4a7"
+      ],
+      "service_id": "douyin",
+      "type": "domain",
+      "value": "douyinpic.com"
+    },
+    {
+      "asset_id": "sha256:14f229fdf8d0a082abab7c89ac2ee9ae9a1865149f208f34dc13f37bd082456f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-douyin-001-020e742fe4a7"
+      ],
+      "service_id": "douyin",
+      "type": "domain",
+      "value": "douyinstatic.com"
+    },
+    {
+      "asset_id": "sha256:c3e55c6598ba9b8cb2d2f96b0c81c513f90b1ef475d4474dba0a434107ac5af8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-douyin-001-020e742fe4a7"
+      ],
+      "service_id": "douyin",
+      "type": "domain",
+      "value": "douyinvod.com"
+    },
+    {
+      "asset_id": "sha256:c26ece8d8625d7aadf9a42b5173fbc5074b70de49b24ce2b892e8a19491ccedd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-douyin-001-020e742fe4a7"
+      ],
+      "service_id": "douyin",
+      "type": "domain",
+      "value": "idouyinvod.com"
+    },
+    {
+      "asset_id": "sha256:778619e6fc6b8219166bb677d6210cf3cfde9c21e3b4dc26800ee8f13356cda1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-douyin-001-020e742fe4a7"
+      ],
+      "service_id": "douyin",
+      "type": "domain",
+      "value": "ixigua.com"
+    },
+    {
+      "asset_id": "sha256:fd95362294c11916476eae407e314336fb28134622949bce59617fd92d327653",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-douyin-001-020e742fe4a7"
+      ],
+      "service_id": "douyin",
+      "type": "domain",
+      "value": "ixiguavideo.com"
+    },
+    {
+      "asset_id": "sha256:f55db3f6bd569cca21b1629dbff01c34c88ea4b89b2cd1ab649750e1326b06ab",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-douyin-001-020e742fe4a7"
+      ],
+      "service_id": "douyin",
+      "type": "domain",
+      "value": "lf3-static.bytednsdoc.com"
+    },
+    {
+      "asset_id": "sha256:92ef878536563b328dc961dbc1e28e2e786e3b72258ce3eed673da2d1e9a8ea8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-douyin-001-020e742fe4a7"
+      ],
+      "service_id": "douyin",
+      "type": "domain",
+      "value": "pstatp.com"
+    },
+    {
+      "asset_id": "sha256:91dbe74b5b7bca4015c09ff900aaa35c7214dd6a448b09ad958f44331832cd0a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-douyin-001-020e742fe4a7"
+      ],
+      "service_id": "douyin",
+      "type": "domain",
+      "value": "snssdk.com"
+    },
+    {
+      "asset_id": "sha256:d740ddf2e483b74c810b543e187bc7884e4ce49c645372af78bc02b024f961e0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-douyin-001-020e742fe4a7"
+      ],
+      "service_id": "douyin",
+      "type": "domain",
+      "value": "toutiao.com"
+    },
+    {
+      "asset_id": "sha256:1b08cb6eed8e2c68732a3ed0d18ef3bad611374cbdfec3f4cf99dca8ef11a2a0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-douyin-001-020e742fe4a7"
+      ],
+      "service_id": "douyin",
+      "type": "domain",
+      "value": "v5-dy-o-abtest.zjcdn.com"
+    }
+  ],
+  "content_digest": "71e34cd52461859ccd32b96a0599b5705e473f47988e292e7cee971ba2dd2442",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "020e742fe4a7084268af6aa52c4153bf5bfd54c4d7a17466f42cd3461609e32a",
+      "domains_extracted": 13,
+      "evidence_id": "EV-douyin-001-020e742fe4a7",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DouYin/DouYin.list",
+      "retrieved_at": "2026-09-26T12:18:45.619075+00:00",
+      "service_id": "douyin",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/DouYin/DouYin.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "a8e828017e2ce00fbf19a9dc09ea077a3ae0ec31fec9d5f8dbc62eb9d1b61b47",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "d28004d05d51fb8a06871a630ab44c2033d5888e724437edb24637348287b7b3",
+  "release_digest": "3780b3c2b6ee1a9abdccf245d56d8fde20b3b8be64271145c7bd39260c6d4250",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "douyin",
+  "snapshot_id": "snap-douyin-3780b3c2b6ee1a9abdccf245",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}

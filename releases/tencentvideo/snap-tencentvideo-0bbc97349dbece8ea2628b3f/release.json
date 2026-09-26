@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "6b83e05be0657dfde8e66fbfb48bc25a56e6665ae080474d007cc8ac078f0306",
+    "manifest.json": "28afb374314844fc62307444005faa661bc02c98bcf3e07d9aebe6f3d24dd0e1",
+    "provenance.json": "457e8a5521c1fd9f7dec0846c9e543ece4c116aad9bcbd86975665360946eefb",
+    "snapshot_content.json": "543aad8eb08f52306ecc2855beb2b8119f1eaa1d914ba72c59b80877e1656731"
+  },
+  "content_digest": "ec349aad951edd0b3cca859f77991910491e694979104700b3ff20628ea87ab4",
+  "created_at": "2026-09-26T12:18:58.588613+00:00",
+  "evidence_digest": "f0990d266636753f48fbeb43244d5ce53027de9001e69f902a6290103d13dceb",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "0bbc97349dbece8ea2628b3f4816848736b78f76ec0d25a1941e649da17d2e4e",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "tencentvideo",
+  "snapshot_id": "snap-tencentvideo-0bbc97349dbece8ea2628b3f",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 1.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

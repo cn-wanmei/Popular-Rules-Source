@@ -1,0 +1,207 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:679946c70fbc532340387d6db3e055aab3922e89f21883c9cac29d67a3b2f9b6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentvideo-001-2f74f99c2f48"
+      ],
+      "service_id": "tencentvideo",
+      "type": "domain",
+      "value": "00713915daab0be43def5c338c02c80b.dlied1.cdntips.net"
+    },
+    {
+      "asset_id": "sha256:3aba95a306cf0cd0ef748c85700580ada670f1857ad4f749ec996a5424a6449e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentvideo-001-2f74f99c2f48"
+      ],
+      "service_id": "tencentvideo",
+      "type": "domain",
+      "value": "17caa75e77d31e1f5a7841e0b3374569.dlied1.cdntips.net"
+    },
+    {
+      "asset_id": "sha256:d9e8585d88da952caed92d2906c1fc88ab731f88d75aca4ea188aae1918f454a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentvideo-001-2f74f99c2f48"
+      ],
+      "service_id": "tencentvideo",
+      "type": "domain",
+      "value": "apd-pcdnvodstat.teg.tencent-cloud.net"
+    },
+    {
+      "asset_id": "sha256:6ad5a1390babab0b705bed74ea2445e04b72b45eccdd42e2c7d73a2adc4f5137",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentvideo-001-2f74f99c2f48"
+      ],
+      "service_id": "tencentvideo",
+      "type": "domain",
+      "value": "dldir1.qq.com"
+    },
+    {
+      "asset_id": "sha256:a76f7ff7cc381caa9552138545e5d89f7f71dbc84c8d8b1e4bc8cd89283a19f9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentvideo-001-2f74f99c2f48"
+      ],
+      "service_id": "tencentvideo",
+      "type": "domain",
+      "value": "iacc.qq.com"
+    },
+    {
+      "asset_id": "sha256:607b756f578bd9bb1ab126a6c8c63852dbd125f037806e1f844caf038509db4c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentvideo-001-2f74f99c2f48"
+      ],
+      "service_id": "tencentvideo",
+      "type": "domain",
+      "value": "ins-eeww7kom.ias.tencent-cloud.net"
+    },
+    {
+      "asset_id": "sha256:fd657a7fc7fea9d8cc8ff3de3a635f349883706a66bbcb711c737f4304577047",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentvideo-001-2f74f99c2f48"
+      ],
+      "service_id": "tencentvideo",
+      "type": "domain",
+      "value": "ios.video.mpush.qq.com"
+    },
+    {
+      "asset_id": "sha256:93d6b735221a8f12df9b2e4767066ee78d8f20e22323e3b0b6b7197c44f70905",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentvideo-001-2f74f99c2f48"
+      ],
+      "service_id": "tencentvideo",
+      "type": "domain",
+      "value": "pgdt.gtimg.cn"
+    },
+    {
+      "asset_id": "sha256:51b4d43f3880f7d0c39522da9b7730a999e207c24128ac3801ffcdb2e11b11ce",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentvideo-001-2f74f99c2f48"
+      ],
+      "service_id": "tencentvideo",
+      "type": "domain",
+      "value": "rdelivery.qq.com"
+    },
+    {
+      "asset_id": "sha256:1a01976e1140b4b60371995f684a3482abd153e80e20544b2a925e6271aebcda",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentvideo-001-2f74f99c2f48"
+      ],
+      "service_id": "tencentvideo",
+      "type": "domain",
+      "value": "ts.qq.com"
+    },
+    {
+      "asset_id": "sha256:67533dc98e89b57a1fe151658cc9ce15ef748f5237e37faad9cae9152701a916",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentvideo-001-2f74f99c2f48"
+      ],
+      "service_id": "tencentvideo",
+      "type": "domain",
+      "value": "v.qq.com"
+    },
+    {
+      "asset_id": "sha256:4479cbc45654cf5a9ff22fe2491f552b81b124c452f8972d84923945b8683cae",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentvideo-001-2f74f99c2f48"
+      ],
+      "service_id": "tencentvideo",
+      "type": "domain",
+      "value": "v.smtcdns.com"
+    },
+    {
+      "asset_id": "sha256:47bc53ea6f8d00c5fe9965e12e4d6e4d8dc322d39cfb34da62477f2571778503",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentvideo-001-2f74f99c2f48"
+      ],
+      "service_id": "tencentvideo",
+      "type": "domain",
+      "value": "v.streaming.qq.com"
+    },
+    {
+      "asset_id": "sha256:231d285abf1525969e08c7199543f079831ed08c6bf873802e3ca1499f125cd4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentvideo-001-2f74f99c2f48"
+      ],
+      "service_id": "tencentvideo",
+      "type": "domain",
+      "value": "video-public-1258344701.shiply-cdn.qq.com"
+    },
+    {
+      "asset_id": "sha256:6750cd90357836d18265fa8a27a4b4dc81110a8a1a459ee5c7f0f5c6224cb4e4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentvideo-001-2f74f99c2f48"
+      ],
+      "service_id": "tencentvideo",
+      "type": "domain",
+      "value": "video-search-1258344701.shiply-cdn.qq.com"
+    },
+    {
+      "asset_id": "sha256:08b194d26ca077c31e4e289a8eb99c74e65471979b2bb5f4a1c111ffa9888279",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentvideo-001-2f74f99c2f48"
+      ],
+      "service_id": "tencentvideo",
+      "type": "domain",
+      "value": "video-vip-1258344701.shiply-cdn.qq.com"
+    },
+    {
+      "asset_id": "sha256:8685f6a46fc8e5049c8d7fcdef2b5ebb2725de9432be0fbf28761196b78a4e71",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentvideo-001-2f74f99c2f48"
+      ],
+      "service_id": "tencentvideo",
+      "type": "domain",
+      "value": "video.qq.com"
+    }
+  ],
+  "content_digest": "ec349aad951edd0b3cca859f77991910491e694979104700b3ff20628ea87ab4",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "2f74f99c2f48a2133044b7f725faaa21a5621fd503c640599e1ac8b5eb48890b",
+      "domains_extracted": 19,
+      "evidence_id": "EV-tencentvideo-001-2f74f99c2f48",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TencentVideo/TencentVideo.list",
+      "retrieved_at": "2026-09-26T12:18:43.838463+00:00",
+      "service_id": "tencentvideo",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TencentVideo/TencentVideo.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "f0990d266636753f48fbeb43244d5ce53027de9001e69f902a6290103d13dceb",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+  "release_digest": "0bbc97349dbece8ea2628b3f4816848736b78f76ec0d25a1941e649da17d2e4e",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "tencentvideo",
+  "snapshot_id": "snap-tencentvideo-0bbc97349dbece8ea2628b3f",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}

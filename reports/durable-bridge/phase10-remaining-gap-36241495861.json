@@ -1,0 +1,194 @@
+{
+  "created_at": "2026-09-26T12:19:57.770620+00:00",
+  "schema": "popular_rules_source_phase10_release_v1",
+  "services": {
+    "appledev": {
+      "content_digest": "6571d910903bce7bb525d0901761910424b847797d9aa28d868c6a40088ed098",
+      "evidence_digest": "4b57b99d9d94c53b48afbe974f496ed8baf1a0a3186dba6f02ec6eaebdc1738b",
+      "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+      "policy_digest": "fca0694176fab00f253a2b8165f0e07220af625dfae0c0ee47b2d10e4830e169",
+      "release_digest": "69881d2207a1d8d4377f2166452b4e5a581f2c841a3bb7a776c7936723a81a22",
+      "release_identity_version": "2",
+      "release_path": "releases/appledev/snap-appledev-69881d2207a1d8d4377f2166/release.json",
+      "snapshot_id": "snap-appledev-69881d2207a1d8d4377f2166",
+      "status": "PERSISTED"
+    },
+    "appletv": {
+      "content_digest": "8bfb08f7cb5c397e26abb0198331f4d283c5cb76eccb34c4af0d7e7e0246032e",
+      "evidence_digest": "c5cd49d0be9c966c7990fde4a5cfd730549e42a54a9cfa3bfb8f5029c242ae62",
+      "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+      "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+      "release_digest": "b983ca24d850eeada428f1daa45ffc189d5d8dd382c52610bf73edcc1a15297d",
+      "release_identity_version": "2",
+      "release_path": "releases/appletv/snap-appletv-b983ca24d850eeada428f1da/release.json",
+      "snapshot_id": "snap-appletv-b983ca24d850eeada428f1da",
+      "status": "PERSISTED"
+    },
+    "azure": {
+      "content_digest": "a16f317a7f5dea1e04c4523d7e9872a3ba5136673f6b6898b7716b09025a60f5",
+      "evidence_digest": "0dadf87a287e012746bf8e9a4f38c8629d26da7130d49129b47481968b4a9bfd",
+      "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+      "policy_digest": "6c22e3375e375f6b2cdc3f162877ace7d51d8fe849faff4ddf973383dcee81a5",
+      "release_digest": "b3a73e93d99fb11dc21e4888464ecf33428bdf5185a1a077419fe8633cac1235",
+      "release_identity_version": "2",
+      "release_path": "releases/azure/snap-azure-b3a73e93d99fb11dc21e4888/release.json",
+      "snapshot_id": "snap-azure-b3a73e93d99fb11dc21e4888",
+      "status": "PERSISTED"
+    },
+    "douyin": {
+      "content_digest": "71e34cd52461859ccd32b96a0599b5705e473f47988e292e7cee971ba2dd2442",
+      "evidence_digest": "a8e828017e2ce00fbf19a9dc09ea077a3ae0ec31fec9d5f8dbc62eb9d1b61b47",
+      "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+      "policy_digest": "d28004d05d51fb8a06871a630ab44c2033d5888e724437edb24637348287b7b3",
+      "release_digest": "3780b3c2b6ee1a9abdccf245d56d8fde20b3b8be64271145c7bd39260c6d4250",
+      "release_identity_version": "2",
+      "release_path": "releases/douyin/snap-douyin-3780b3c2b6ee1a9abdccf245/release.json",
+      "snapshot_id": "snap-douyin-3780b3c2b6ee1a9abdccf245",
+      "status": "PERSISTED"
+    },
+    "feishu": {
+      "content_digest": "b5691f9763d1c0cfdf10727bde56aec2f0ca0b7036b0f7eabef5a43f0ad572aa",
+      "evidence_digest": "df166673194a9607433f5539135c3df57c4808f260f88824926cd7e8afbbd3f7",
+      "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+      "policy_digest": "bddc163b10901803c2fcdafa51621b776f049831eb042b8b051e3ee18a5ca311",
+      "release_digest": "dd8e2cd8a4ac32fa8b355226e80ba0bcd4cc5aaca0ef76179b4ceb4afb63c5ed",
+      "release_identity_version": "2",
+      "release_path": "releases/feishu/snap-feishu-dd8e2cd8a4ac32fa8b355226/release.json",
+      "snapshot_id": "snap-feishu-dd8e2cd8a4ac32fa8b355226",
+      "status": "PERSISTED"
+    },
+    "findmy": {
+      "content_digest": "34612edff0aabe88d492ea519b122619b695de05b8c866c202b076ca6ab2fe45",
+      "evidence_digest": "86029f64f84a66cedd341a7c0e97319b4d8de59ad4870a5dd6380e6dc7cd1663",
+      "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+      "policy_digest": "e974e77badd7d342ab201c31d40b8d76a0849031aeafbe1241b5de420c807b70",
+      "release_digest": "5dbfa7a125855e4ee11e3daf0fb0670f85fc24ef6019a6955f0afef048196537",
+      "release_identity_version": "2",
+      "release_path": "releases/findmy/snap-findmy-5dbfa7a125855e4ee11e3daf/release.json",
+      "snapshot_id": "snap-findmy-5dbfa7a125855e4ee11e3daf",
+      "status": "PERSISTED"
+    },
+    "github": {
+      "content_digest": "6d44d4cdd5f3f22589b9b71299c03bf443224b0254a9718dec3ed89de42a837e",
+      "evidence_digest": "7658ebd09e184e732f31edf701bb59747df1a0325edeff5fa958a45c5c022d49",
+      "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+      "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+      "release_digest": "293b2b0db400e778bcfe88a7a86f5de7621a61239ac25bccb5d9ee1e2e414c05",
+      "release_identity_version": "2",
+      "release_path": "releases/github/snap-github-293b2b0db400e778bcfe88a7/release.json",
+      "snapshot_id": "snap-github-293b2b0db400e778bcfe88a7",
+      "status": "PERSISTED"
+    },
+    "googlefcm": {
+      "content_digest": "7f6f0b0aebe1b7f01c29314122a04f65a831b4b54bc748d9888aecd1ff482364",
+      "evidence_digest": "6aa37de7f752f4744814c9c8d543bcd915ca3729351db927034f82a33b9d59c8",
+      "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+      "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+      "release_digest": "d2649b705a9906c0296cdbaf4dc69ee3a265fd35bef82059ed3cda9cd782645f",
+      "release_identity_version": "2",
+      "release_path": "releases/googlefcm/snap-googlefcm-d2649b705a9906c0296cdbaf/release.json",
+      "snapshot_id": "snap-googlefcm-d2649b705a9906c0296cdbaf",
+      "status": "PERSISTED"
+    },
+    "honorofkings_cn": {
+      "content_digest": "5fa9ebb3ba99b2f4dd3c2fe41776fe8e3e030817c126be6be558438f6f33eba3",
+      "evidence_digest": "614bb7c4146e3aefe82aaaa87044b4e622fdabaf330ab4bb31ca664696b16958",
+      "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+      "policy_digest": "9b41e23cc49fd84b4d74aaf90cc1459df8c95394eb6bed9266193392f1222cff",
+      "release_digest": "a804aed53545aac4f58d34d88537443431ba0c92a9ac3819e0a85c5e0db49d00",
+      "release_identity_version": "2",
+      "release_path": "releases/honorofkings_cn/snap-honorofkings_cn-a804aed53545aac4f58d34d8/release.json",
+      "snapshot_id": "snap-honorofkings_cn-a804aed53545aac4f58d34d8",
+      "status": "PERSISTED"
+    },
+    "honorofkings_global": {
+      "content_digest": "a65a9070a8efb6ef57dd2a698711cdbb30a9ba3963e8c009bf538d47b65590af",
+      "evidence_digest": "733edbee49f42727e7ad36e9b529cd06e634f05ba4b1ee43e5a41384c4a4151c",
+      "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+      "policy_digest": "4ba44b3e8b8a3a36eb1f7c340fdb0a9b5ed59db996c29122cef22b0be5f8fbc0",
+      "release_digest": "9271ce0b7c8d6b9d6d1836fadc05ed115871fa0d88a94c82c942d81b93331f01",
+      "release_identity_version": "2",
+      "release_path": "releases/honorofkings_global/snap-honorofkings_global-9271ce0b7c8d6b9d6d1836fa/release.json",
+      "snapshot_id": "snap-honorofkings_global-9271ce0b7c8d6b9d6d1836fa",
+      "status": "PERSISTED"
+    },
+    "neteasemail": {
+      "content_digest": "a91ff805543bac2f1df2f683c738bcc617b50e938350dbf92f291a4425a81cd1",
+      "evidence_digest": "950a9294ac8035158f1d3bfba9c30e211803a41ff0c47e426c710844fe8e13ef",
+      "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+      "policy_digest": "8033e063d641efa1725c7ced7d9a5ef0674537ce86b4b30a7804befea5d39856",
+      "release_digest": "8f25db6f713ea62f08bd565bed4ed40fb8f80b1075f38ed397146604d38d4096",
+      "release_identity_version": "2",
+      "release_path": "releases/neteasemail/snap-neteasemail-8f25db6f713ea62f08bd565b/release.json",
+      "snapshot_id": "snap-neteasemail-8f25db6f713ea62f08bd565b",
+      "status": "PERSISTED"
+    },
+    "neteasemusic": {
+      "content_digest": "618883a29cdfbf0e3d87b9997c6c99357f00299b2e460c7363c24e76ad28e1d3",
+      "evidence_digest": "9f550d29171152bcb0ced5af74c108e01a567f013812c19d37979e962dd6364f",
+      "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+      "policy_digest": "e925b917a4e953bf920a3d3c2e94d1fc1e658c2dc0e7ae9789e7c8616c0ec544",
+      "release_digest": "34efc854219f96a2aa121d843d7799a7cdba5bc44aff5003f8c0c468b1173b5c",
+      "release_identity_version": "2",
+      "release_path": "releases/neteasemusic/snap-neteasemusic-34efc854219f96a2aa121d84/release.json",
+      "snapshot_id": "snap-neteasemusic-34efc854219f96a2aa121d84",
+      "status": "PERSISTED"
+    },
+    "qq": {
+      "content_digest": "5b9573a7da00db54470714896ae8224403aafa4a6e3521c75415834d6a7aae08",
+      "evidence_digest": "83f6ca702ddfc1ab199ec5974a896fa0226a315ebd373d4fb52c077b7b3e6013",
+      "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+      "policy_digest": "72df8f41fee32b270e4d773963947ae985afae4c70253c968ba8ea62ab34e74b",
+      "release_digest": "e8b755c0889d871584191efb71333ea6bb0f273c62d87f108bec5d1f065ee9d9",
+      "release_identity_version": "2",
+      "release_path": "releases/qq/snap-qq-e8b755c0889d871584191efb/release.json",
+      "snapshot_id": "snap-qq-e8b755c0889d871584191efb",
+      "status": "PERSISTED"
+    },
+    "siri": {
+      "content_digest": "1d851bb995202ee6dc202e1fa1dfee60c575076116e66ae388c4abd9c4dbb7b8",
+      "evidence_digest": "4c4448eefe3b88a3cd71cbaa0412192fee7cb42ee768407e717ecd0cef6bc65f",
+      "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+      "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+      "release_digest": "440b4c5a63d59b410d5e32fae526d4df7cc23b09f61029036438285a40c5e6e4",
+      "release_identity_version": "2",
+      "release_path": "releases/siri/snap-siri-440b4c5a63d59b410d5e32fa/release.json",
+      "snapshot_id": "snap-siri-440b4c5a63d59b410d5e32fa",
+      "status": "PERSISTED"
+    },
+    "tencentvideo": {
+      "content_digest": "ec349aad951edd0b3cca859f77991910491e694979104700b3ff20628ea87ab4",
+      "evidence_digest": "f0990d266636753f48fbeb43244d5ce53027de9001e69f902a6290103d13dceb",
+      "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+      "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+      "release_digest": "0bbc97349dbece8ea2628b3f4816848736b78f76ec0d25a1941e649da17d2e4e",
+      "release_identity_version": "2",
+      "release_path": "releases/tencentvideo/snap-tencentvideo-0bbc97349dbece8ea2628b3f/release.json",
+      "snapshot_id": "snap-tencentvideo-0bbc97349dbece8ea2628b3f",
+      "status": "PERSISTED"
+    },
+    "xbox": {
+      "content_digest": "da8e479d82f2530446da5833a01af1f2379b79e959b56438c281cc79f4612773",
+      "evidence_digest": "ab3861679402d0f169c79f4e8ab3d704973eadca1c423a1174c29bfb38fb6161",
+      "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+      "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+      "release_digest": "c056e17cbe3622251ba30c821071454abb4b8168fa134660050c2ac996ded9d9",
+      "release_identity_version": "2",
+      "release_path": "releases/xbox/snap-xbox-c056e17cbe3622251ba30c82/release.json",
+      "snapshot_id": "snap-xbox-c056e17cbe3622251ba30c82",
+      "status": "PERSISTED"
+    },
+    "youtube": {
+      "content_digest": "bce5ce05f54d97806f350ff4b2738b0175b402d59db5bd2ad0e9983555ded0c7",
+      "evidence_digest": "c619c76e2e5a57fad07bf9d8c33a2b83859072c12251e6da064998e5bc586405",
+      "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+      "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+      "release_digest": "58b8afe3b6062febd60fd5197a7de1d46bc83dbff25d23091c6f8355c4816273",
+      "release_identity_version": "2",
+      "release_path": "releases/youtube/snap-youtube-58b8afe3b6062febd60fd519/release.json",
+      "snapshot_id": "snap-youtube-58b8afe3b6062febd60fd519",
+      "status": "PERSISTED"
+    }
+  },
+  "verified_input_commit": "2dde90d80fd18c8357c4564c0a3f13f026f5f960"
+}

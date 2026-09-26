@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "9f2436a4bdd6a0e048de2b7134f21c66693b00a62b37772832d037db9eb84d20",
+    "manifest.json": "3b50750e974c7ad0f13ab59477453f0a1b988d1c47ce7fd5e863c44e715fa382",
+    "provenance.json": "6b26930e316542f8e460c4a003c54a1fd21c0c4cb7d45c5757cf83a8779e35bf",
+    "snapshot_content.json": "5e03261816091e974e4589171e298fc83e55fd42fe5bf9d4be2afd03e1476f8c"
+  },
+  "content_digest": "71e34cd52461859ccd32b96a0599b5705e473f47988e292e7cee971ba2dd2442",
+  "created_at": "2026-09-26T12:19:00.271136+00:00",
+  "evidence_digest": "a8e828017e2ce00fbf19a9dc09ea077a3ae0ec31fec9d5f8dbc62eb9d1b61b47",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "d28004d05d51fb8a06871a630ab44c2033d5888e724437edb24637348287b7b3",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "3780b3c2b6ee1a9abdccf245d56d8fde20b3b8be64271145c7bd39260c6d4250",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "douyin",
+  "snapshot_id": "snap-douyin-3780b3c2b6ee1a9abdccf245",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 1.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

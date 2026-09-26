@@ -1,0 +1,417 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:687e0ee61efcf926dde7db9b04c55d22b45efd784f91b68f6d1e56b3247dce73",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "apple-cloudkit.com"
+    },
+    {
+      "asset_id": "sha256:7b7ec7e0bdd757473e872b238ce58d828066511f8d6103b80b4398aea808a507",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "apple-mapkit.com"
+    },
+    {
+      "asset_id": "sha256:c5ced4141a96c458d6c6837821e24d8d36c3cc71635300909516d0bcbd026003",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "apple.com.akadns.net"
+    },
+    {
+      "asset_id": "sha256:c957912bbd61812d6f7e26ea8a323bb7a530c461e083e824415e34fe7d4c02d4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "appleswift.com"
+    },
+    {
+      "asset_id": "sha256:281b72f54426f7ca87ba723ea74c841f4a9b7b5b1611ca1d5690b6440a35039d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "appleworldwidedeveloper.hb-api.omtrdc.net"
+    },
+    {
+      "asset_id": "sha256:4c0456fa6eb4bc1cfaf85938afa1a77daaf46afaee70f249692d64981136c642",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "appleworldwidedeveloper.sc.omtrdc.net"
+    },
+    {
+      "asset_id": "sha256:978fa3c6e402950ae0f6ec8955d65d75302fb2d6b9226f49d561b1fb52b16589",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "calendarserver.org"
+    },
+    {
+      "asset_id": "sha256:9c8b075e4db841163d1d0dab277a39038a1032bc7f6fc03a584f7ab7581bf806",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "carekit.org"
+    },
+    {
+      "asset_id": "sha256:e23111d3f2b36dd4750ca3b5a697a80a82d876d4ca8291626667f4881ab01efd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "courier-push-apple.com.akadns.net"
+    },
+    {
+      "asset_id": "sha256:72ac70ab8a10855f9cd9171b2129ea1fe8aa507499b6fd87bf7cdc8baa096c83",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "cups.org"
+    },
+    {
+      "asset_id": "sha256:883009180a4da482a0a5ddf4a289f90b110699d2cb868b757386d998de42e2c2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "developer.apple.com"
+    },
+    {
+      "asset_id": "sha256:dc0c080842fdbbd01868fc3f6b4061be200c0133ce123448261da6046e84371b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "developerservices2.apple.com"
+    },
+    {
+      "asset_id": "sha256:ccac9ffa526580d50de095774386bbaeeebf3e5c47c393c6a310a553163236c4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "devimages-cdn.apple.com"
+    },
+    {
+      "asset_id": "sha256:4f21d90c2aec29bf3d838a208845350150108a95228c3f2907d8f782810bd766",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "devstreaming-cdn.apple.com"
+    },
+    {
+      "asset_id": "sha256:f14f3686ff9a811b7ce7f699064edd7f29408f38d86ec48208747846f7c54ccf",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "foundationdb.org"
+    },
+    {
+      "asset_id": "sha256:215adb2bca1cd2a02c078a83b92e84412253748875ce1a3f4c247bc9f36ccf74",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "macosforge.org"
+    },
+    {
+      "asset_id": "sha256:264683e6e23373944f4743119c31f8671bf2525536840a0f7984b46a1d484e79",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "macruby.com"
+    },
+    {
+      "asset_id": "sha256:92fe09661ad8bfddfbaa8f2dd9f6ef688e76c2f7943ae6dbe5d7d2067e26df3a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "macruby.net"
+    },
+    {
+      "asset_id": "sha256:7ec5414ebad059eb98797477aab67b1f19d87942fa37499dc81383ec553e3aeb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "macruby.org"
+    },
+    {
+      "asset_id": "sha256:0e33ca787b8b0095ef38466bd78e79599a78d94d2d14da7890cac7ede75b6bb6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "p-events-delivery.akamaized.net"
+    },
+    {
+      "asset_id": "sha256:bd6cc99cb0e576ddbc64a084f12d28f3d950745ab93751e6eea33081b25b126c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "playgrounds-cdn.apple.com"
+    },
+    {
+      "asset_id": "sha256:090a84ac37221594905a717c8327fc58fbcc092e8eaf562171af07f159b6d53d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "push-apple.com.akadns.net"
+    },
+    {
+      "asset_id": "sha256:ccf5c1c1def04bb59d9d5ae768897d39797c6fccd7713852ed8150d10130d3dc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "researchandcare.org"
+    },
+    {
+      "asset_id": "sha256:056190faf894bff49b9f2b113de4765b8eb84ac351104e6b0dc915c6a5a9f4d0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "researchkit.cn"
+    },
+    {
+      "asset_id": "sha256:adda2e0591ea61e5a490b1cae5207d336c42117cf1816dddcb4abb60fdcd4886",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "researchkit.com.cn"
+    },
+    {
+      "asset_id": "sha256:5312911bdd88eee3051e98c1d7480a9a698ca9554c047ea703ca12dcd357d0b8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "researchkit.hk"
+    },
+    {
+      "asset_id": "sha256:e7a956d16f2e6bfd8ebef0cb3002e34a65133f0cd2d2da7607dce9e5e80968c8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "researchkit.net"
+    },
+    {
+      "asset_id": "sha256:1893deefffcc12106aaf0b8a508164bb98a613977c43149e987fd7e19436a18a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "researchkit.org"
+    },
+    {
+      "asset_id": "sha256:3a8dcd75e9d3996a2f8ed69e238197a5d34328b0ffc33b801ce8d89f6c16279d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "researchkit.tv"
+    },
+    {
+      "asset_id": "sha256:392f784c229aca4fa0119028ada176cb33539f39ab88b5eadd0a2e4a2a76a42b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "servicetalk.io"
+    },
+    {
+      "asset_id": "sha256:3dfe41827d778dbbb9ff711e32d570747aa2946d08f4021e96ac0b285508864b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "swift.org"
+    },
+    {
+      "asset_id": "sha256:1d4d1b8ab8f6fb6ce9e00b517bb9e2a4a83f8b184e988cef041d4104a4359540",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "swiftui.cn"
+    },
+    {
+      "asset_id": "sha256:64de06614d8951866959b7424c14cd626e8d8429157fbbc0ac878d7028bde1e0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "swiftui.com.cn"
+    },
+    {
+      "asset_id": "sha256:e960290dc0d3b69ee425cbc9851fe07747ab732f620b9afbc88aec9b5cc7187e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "timestamp.apple.com"
+    },
+    {
+      "asset_id": "sha256:d669f1f35e6fc34f55bbfb1fc41e9cb355d2b286d012e349deaa6b0c0a7ceeec",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "webkit.org"
+    },
+    {
+      "asset_id": "sha256:3fe689bd0f324b3a217a3cdfbd2a734bb4bd28d9c0d4d7b5d39ff288ad4f107e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "webkitgtk.org"
+    },
+    {
+      "asset_id": "sha256:4d68c7918185a226af1e61a7290ffe1750368b7bde662a3ac9d8e9371dd7f8f3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "webobjects.com"
+    },
+    {
+      "asset_id": "sha256:069f1d5bcf48ceaa1bd5b7988b86887fda3728cf25b0593ae5a31d2ddf2378f2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-appledev-001-a87efe77959e"
+      ],
+      "service_id": "appledev",
+      "type": "domain",
+      "value": "wpewebkit.org"
+    }
+  ],
+  "content_digest": "6571d910903bce7bb525d0901761910424b847797d9aa28d868c6a40088ed098",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "a87efe77959e71e86592d32aed87fc66335e739da4824c2ee1160203e01f5c4d",
+      "domains_extracted": 40,
+      "evidence_id": "EV-appledev-001-a87efe77959e",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleDev/AppleDev.list",
+      "retrieved_at": "2026-09-26T12:18:46.574440+00:00",
+      "service_id": "appledev",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleDev/AppleDev.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "4b57b99d9d94c53b48afbe974f496ed8baf1a0a3186dba6f02ec6eaebdc1738b",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "fca0694176fab00f253a2b8165f0e07220af625dfae0c0ee47b2d10e4830e169",
+  "release_digest": "69881d2207a1d8d4377f2166452b4e5a581f2c841a3bb7a776c7936723a81a22",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "appledev",
+  "snapshot_id": "snap-appledev-69881d2207a1d8d4377f2166",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}

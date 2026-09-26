@@ -1,0 +1,1787 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:9a514b33d32651bdbdc3a92ce7e9d2da46bf258070debd27cf266d8b07216440",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "ggpht.cn"
+    },
+    {
+      "asset_id": "sha256:3b485fa3b2662da6b6d82f8c15b2e38a7231b3aa2703b19c869d1c4b2e3c6cd2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "ggpht.com"
+    },
+    {
+      "asset_id": "sha256:b1cf3c86827b3312adfffa7dd560450c2cf4dcef2795f64d2e3247136d973942",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "googlevideo.com"
+    },
+    {
+      "asset_id": "sha256:836a83d6957c6ad1fe4b4de6d7c9bd9e97a602380eda5c92b98e205d1b67558c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "gvt1.com"
+    },
+    {
+      "asset_id": "sha256:f96824c6c0b9bdc20750605aa96d23b9db8ee52483eb52b93d13a0208caa14f1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "gvt2.com"
+    },
+    {
+      "asset_id": "sha256:a399714921763bf1749c55a77a72e9f731e8041cd08cb95e84c31539e7f07656",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "video.google.com"
+    },
+    {
+      "asset_id": "sha256:eb0e598206e7583507ed91944bda568e8fa8862c78b493202f94554ce1f770e6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "wide-youtube.l.google.com"
+    },
+    {
+      "asset_id": "sha256:90252d831bcfa092debde9cd501388984a70e2cd6d65f8810a9fd4344de1ff60",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "withyoutube.com"
+    },
+    {
+      "asset_id": "sha256:6e9b56c832b706196ee10e20981066c707d9d567229b69d951d291a143f1761a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtu.be"
+    },
+    {
+      "asset_id": "sha256:8765d9ce09bb84a1fa41c7beea979ae025ec6a3da614324b88d9eba2dfcf7d74",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube-nocookie.com"
+    },
+    {
+      "asset_id": "sha256:521b2ff49ba01d1691918a2a516398467823e10f7b31a54b47b8babed77b3b19",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube-ui.l.google.com"
+    },
+    {
+      "asset_id": "sha256:6b273ea9c0a8113dbc4ea2a28a28e2f0b8344f3b4a8ac3fda4d9c5ba1bc1e2d0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.ae"
+    },
+    {
+      "asset_id": "sha256:390c2a62b125d8d495b2927a4ff19e0715a15e60021deda006e50cf92f1ea5f5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.al"
+    },
+    {
+      "asset_id": "sha256:af25a7cd5ed62bd4b71fcdc309d54826c4a14cfa4661cdd299eb6d4d310dfb7e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.am"
+    },
+    {
+      "asset_id": "sha256:5f103e087cce7292309523416da910a1558f1b0fb62601dc2a5d87c6dc115165",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.at"
+    },
+    {
+      "asset_id": "sha256:32376f2331be0c0c9745c701c3826a6fe3e6d67ea33a6531e30ce8169da537ea",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.az"
+    },
+    {
+      "asset_id": "sha256:fd33a61ce6927cb37fb8920f526cf31ca7e2b7ac20903e51d58032328b9c3f48",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.ba"
+    },
+    {
+      "asset_id": "sha256:3a92d0c182e136ba1f354256a441faf442fdd6d798fa9f5332d82fe136fa5015",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.be"
+    },
+    {
+      "asset_id": "sha256:cda0342333d22477bcca45553cec4b3140317f18dd5dcbc74e66a74191472210",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.bg"
+    },
+    {
+      "asset_id": "sha256:8870d4134e3ed28e0bde8c19e1a5829b71d250dfd5fcf2e22d0936267cf153ed",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.bh"
+    },
+    {
+      "asset_id": "sha256:c5ec2b7eeacf9539a3bbe420e5004e443fad59bbea269600c4e905b233731b3d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.bo"
+    },
+    {
+      "asset_id": "sha256:6c13cb6eff1821cab276aa376216dbe356baef93ce45af743c8888c5275dcd73",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.by"
+    },
+    {
+      "asset_id": "sha256:d823586f9837ba6be631c9c8ba1f0df37f7a3a61ffd1080f8fc0bd3f8c4268ee",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.ca"
+    },
+    {
+      "asset_id": "sha256:f3d4d2680543f7baa0ddcf775d2b126b1dc1a6c5fa0bac2d886a2a699ded04ab",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.cat"
+    },
+    {
+      "asset_id": "sha256:320b7a63b1e0353ed1be4049e34b17bea8aa46c518e39a4e7a97d3832d9f2302",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.ch"
+    },
+    {
+      "asset_id": "sha256:9b00a728b73621aaa1f58d306d663489aa3201fd9fbae8ca39fc7f584de8f18b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.cl"
+    },
+    {
+      "asset_id": "sha256:5400d25bc5efb27bd11b8f4aba3c33bb3af22ba076b0134976e7c5e12e7a93da",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.co"
+    },
+    {
+      "asset_id": "sha256:e717186054bee96803dce24b04fd1075c2dbb53e82a81e400242e94f72ab7a93",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.co.ae"
+    },
+    {
+      "asset_id": "sha256:a3cccb9a492d6d4d936c8be4867a42040072c4c1f77d3d589519dd4665b25c9a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.co.at"
+    },
+    {
+      "asset_id": "sha256:28266447c0a461ebbf0e1656ab37b214d4adb0bf81aa62b72a882ca9493746be",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.co.cr"
+    },
+    {
+      "asset_id": "sha256:a628956bf59cbd2f107642b193783f9f75f0b2fa0960ff838fc40e8d1948fecb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.co.hu"
+    },
+    {
+      "asset_id": "sha256:5d61f61e7567049156ac3892753da6c07b3a8b87a2aa746b5b26452d452ab582",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.co.id"
+    },
+    {
+      "asset_id": "sha256:9136e774f5d164621dd71bc7463b5eb5799104cfec3a7fe8e6835f2cd35dedf5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.co.il"
+    },
+    {
+      "asset_id": "sha256:5128ca45d5f5520412424348ccc003711670a4f5a8583eb5fecda0ab454f9428",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.co.in"
+    },
+    {
+      "asset_id": "sha256:14e015c32c3506ac63a45c09471e3c12eb3cf6e316f1f6c3e7c1816e61806e49",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.co.jp"
+    },
+    {
+      "asset_id": "sha256:946622aafd266eb037561b0e51ed01820756ffe264ff4e4f239179d72f3fd93e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.co.ke"
+    },
+    {
+      "asset_id": "sha256:4e3ce22d8f052cac67cafd18ebe4c12a191ae4ebfdb4f451ea062efabd8db435",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.co.kr"
+    },
+    {
+      "asset_id": "sha256:ff0341e94d6e905a43bb0f0496a8bbe9748d91fb70e9b2602c1a5c5a8f9db260",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.co.ma"
+    },
+    {
+      "asset_id": "sha256:2b10370f012018f57a37f2f6badb7ef255ac1b09490d7bb8583078e140815d65",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.co.nz"
+    },
+    {
+      "asset_id": "sha256:1c096496f792c9558c6b9861d778aa0fad99ef844f35df7332daa03baca4843c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.co.th"
+    },
+    {
+      "asset_id": "sha256:465de674b8575c5afdae0d0a92e01b1c8741f7752fa5cf57da1b21ea14203896",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.co.tz"
+    },
+    {
+      "asset_id": "sha256:ac3b3490b926d647156897cba9902a471dcfd8fd33702aeddd246beaaf3bff1a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.co.ug"
+    },
+    {
+      "asset_id": "sha256:a86fa6eeddef1449d79d05bb21c17855dc4666d4f1d740758e3b87e6329e319c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.co.uk"
+    },
+    {
+      "asset_id": "sha256:74188a63ad03f93cc91cb911cc041a9cce0d3d0a7721ff4f27de4cdaf1da961b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.co.ve"
+    },
+    {
+      "asset_id": "sha256:36b91b0fd60077d19390852f28ae5dac89b1dcc9d67523f0a00d1f22e0ffabc8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.co.za"
+    },
+    {
+      "asset_id": "sha256:f170d73e33f2e1b4bbfe6e223be16ffc73305d0f45acf7d6718feb8cc91a6f06",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.co.zw"
+    },
+    {
+      "asset_id": "sha256:0d7feec99d0b94414eddaf3a4723f1af553b517697a890f665bbd1ad9b828af2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com"
+    },
+    {
+      "asset_id": "sha256:1796980a11d5cafa4a578038dc851aa66f3567ef27e86ea349e47bb6e53c84c2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.ar"
+    },
+    {
+      "asset_id": "sha256:bc92eb9e8de76b1927135b8c43ebd7177cb409fd4e2171a692b22838f1da5f9d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.au"
+    },
+    {
+      "asset_id": "sha256:6c6a1eaa42b8ed3ad3fb2c68e1c735503c9c9415af32806f80a23ed6df07012c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.az"
+    },
+    {
+      "asset_id": "sha256:73057fe444686ed33cad5e692c10245ec8e5d04552dbd135387819952e470c2b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.bd"
+    },
+    {
+      "asset_id": "sha256:073e2c24fa070bbf7e042a01f5e21ca0565dc7ed289a95428ea2f922348ff918",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.bh"
+    },
+    {
+      "asset_id": "sha256:162770af23cbb002b5c79188f5cf73f076a02739ca27f0cd1ce6a961c4db8cd7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.bo"
+    },
+    {
+      "asset_id": "sha256:5e34d8f59e3281ff8d14d6bc7d759390bfe0dc6f0fe0fda2381a06c1243f0e99",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.br"
+    },
+    {
+      "asset_id": "sha256:bfd9352880b990b4826f3e08223b8942b96da1675aac4caba4518b65b33b3342",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.by"
+    },
+    {
+      "asset_id": "sha256:e20ce50f2465ccc839339e1bc32f48209e6132c4df32c8440f1b86470cd608fd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.co"
+    },
+    {
+      "asset_id": "sha256:21265b9518ea48e5aa5415b7fbfa5a89c177d85310c6bd1525b25ff9aad65638",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.do"
+    },
+    {
+      "asset_id": "sha256:d0ab9b0c47136e7db20c5092de74fc6a4bdfccb17259ac2e4d366fd28cf64830",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.ec"
+    },
+    {
+      "asset_id": "sha256:f953b714087bdf43e7ce9237b31bbfd823f78d075ff46851c2ff2cdbea8096bb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.ee"
+    },
+    {
+      "asset_id": "sha256:5992341685c8817d3fe919f266e3829bf21d6492e3bd291d3772c76e92079349",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.eg"
+    },
+    {
+      "asset_id": "sha256:f8f9382360e0ab2a2b2e09c0053f22d83ef6dae86973696a28922dfea3211cb1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.es"
+    },
+    {
+      "asset_id": "sha256:c8667bf79edb10f4a0da06fb462d98952a6f935c0ecdd7302ac593c9c82df1c7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.gh"
+    },
+    {
+      "asset_id": "sha256:72fd37782b3884d9eddc3c8a7b444d928dd6e6956e3d9ae5c357a55574708f04",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.gr"
+    },
+    {
+      "asset_id": "sha256:1bd9e28fa3f7bb09433f8a11974bcb3fd9848cf9cdeb48ee125c741597ccc68b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.gt"
+    },
+    {
+      "asset_id": "sha256:a96d74b96a9e1f37be24455c969aaeeebf92520ac193ea67783d58e6458fcd3b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.hk"
+    },
+    {
+      "asset_id": "sha256:2d7bf58f9d6f82db7bcb5dc7cc7cd7730971e3279356b90d6dfde6db61ff23c6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.hn"
+    },
+    {
+      "asset_id": "sha256:084cf07fdfe9962a5f2c314ba2014a7692a81948b5de0483277f033aa8aa4e31",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.hr"
+    },
+    {
+      "asset_id": "sha256:02b4b6f47e289bf84bf877a935c02d7223d1e2a680bb3e832ffd83620c115367",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.jm"
+    },
+    {
+      "asset_id": "sha256:8d1ded55731aac7302f787519be836fc4b8652000c62ff6d644780ad1a5f65af",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.jo"
+    },
+    {
+      "asset_id": "sha256:8c72c2d2d08b51f050d97aa00256ee2688ffd13ca43b521bae4a61be3e30a672",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.kw"
+    },
+    {
+      "asset_id": "sha256:09f031096c10aad9dda4184c6095cb8bfad2803da0eb6a6f793b5ff4115e8235",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.lb"
+    },
+    {
+      "asset_id": "sha256:7d8c723cff3cf10d1355a3823483d5a36f28c7296020d1e5485a0d0312515d0f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.lv"
+    },
+    {
+      "asset_id": "sha256:6bcd99eed64ef81aca8403db08aeb6d20f13b37f9e386473fb1eb3011350e46a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.ly"
+    },
+    {
+      "asset_id": "sha256:b26dd2fdec6c0e9ac10e331df37ab3190618be9459c727d6cc290559eaee2dac",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.mk"
+    },
+    {
+      "asset_id": "sha256:7b0ea7ff49166a91382dc9590798989091ddfe72379dea2e946d33690adf4152",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.mt"
+    },
+    {
+      "asset_id": "sha256:bda5b9c5c2f296a058e584733834da967a8f1b15f06ee70d996ce0f524f55ca9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.mx"
+    },
+    {
+      "asset_id": "sha256:c390a4bec1b80f6ab067064c81c6c87cf8c94e7d0ceff75b2a7b8c2253d134f8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.my"
+    },
+    {
+      "asset_id": "sha256:63acf5fc44bf59f0e7ef1f8f7c03962c49a997547f6eb115a9d61522a7e0f1d0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.ng"
+    },
+    {
+      "asset_id": "sha256:781ae4be7f6695f1b27071278144a0e6a0becfac1961a8d9b3d41d22e478b051",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.ni"
+    },
+    {
+      "asset_id": "sha256:4850df8fa59e4c76317fbcd30e6e6f8718412c4a45f12ef8ee2c408b5664d661",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.om"
+    },
+    {
+      "asset_id": "sha256:520c86683a70028fb5190b4de6f7de805fc6842b386b713a90f7ed79bdd55327",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.pa"
+    },
+    {
+      "asset_id": "sha256:89a7f4ee24dbc719bb870fd7f39f32044841cc0f411e0d14beee80fff299d6fc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.pe"
+    },
+    {
+      "asset_id": "sha256:4fb22a2c43d3b20f4c0f203dbbf4e0399d18a7daa22dae3c90774a2532f63588",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.ph"
+    },
+    {
+      "asset_id": "sha256:ee0cf6a621cccf2b279ba393c339491b1ada27eca89de72f30b004f8c017c72e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.pk"
+    },
+    {
+      "asset_id": "sha256:cd929352ffd2ae83e5292e7148a1b118e7a14a06d6a562b98a573191d5f1cc8d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.pt"
+    },
+    {
+      "asset_id": "sha256:aa9230d3d47a0c1e993a2b3fcf095c2b4f78c896d3187c555b4984b8aa395c11",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.py"
+    },
+    {
+      "asset_id": "sha256:4349c5fb35a57b7b0483aea80477a834b031c81a24122d7458f4ab1906d9b1dd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.qa"
+    },
+    {
+      "asset_id": "sha256:70c0c34f3db1206943f7e4a62f8795cd6a813db04719e58b349e8c75c6af4dfe",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.ro"
+    },
+    {
+      "asset_id": "sha256:4bb4247634a356307cf46a7c6183823e50295794479ed646caa2322b22103bfd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.sa"
+    },
+    {
+      "asset_id": "sha256:ee5e09c0a7937b759c15a66f7d17de07f766ae37c3f3197903621a2a72990bf1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.sg"
+    },
+    {
+      "asset_id": "sha256:53589e653b2cbd58a11b5747b006b8c1628578c299863671a1e37e1a8254ecd2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.sv"
+    },
+    {
+      "asset_id": "sha256:73d2ed2b49d73d93496bc9ec8d752e538c0854fcbae5d790b302d691b38651eb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.tn"
+    },
+    {
+      "asset_id": "sha256:5ff29fe9a19197d71c3fdd8f5fac44278042afa486b80ea05c6cbbed7c7a71b2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.tr"
+    },
+    {
+      "asset_id": "sha256:5a730b19ef15124f1609b9ea0509561447978a8665c1c158d3d50f1293dbb0b7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.tw"
+    },
+    {
+      "asset_id": "sha256:4bc22533093cbee9218d559ff8a602cc5e7bf9cd62bf6e27bf04ff5fa254b060",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.ua"
+    },
+    {
+      "asset_id": "sha256:6a36b202eb57aef29aee2f108414ed4e5fa991524d14454ed2f4d65af5542037",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.uy"
+    },
+    {
+      "asset_id": "sha256:ab29caed2fb58fe7b5a584709f1cfd5da26750ac0f254d9299368735f7fe7254",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.com.ve"
+    },
+    {
+      "asset_id": "sha256:2f01a24950458958b9df5eff349c7472e3d8c8ebb327f1277498dc864650d07b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.cr"
+    },
+    {
+      "asset_id": "sha256:6b5e4fea1a1d6b1ba62b9d8fb76667ed4142ceee32b6473c304c967a41f708fd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.cz"
+    },
+    {
+      "asset_id": "sha256:6770709fe1d496e9aee47a5e768e0723597ceb5104f89a4976586cfa607df011",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.de"
+    },
+    {
+      "asset_id": "sha256:1e7720dae73d556205c2f2ffdd589ea622dc0b7577014db4409b492c0ac64a32",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.dk"
+    },
+    {
+      "asset_id": "sha256:cde84c608178d0e30a94e289a110f5da15d49828411969671c5b05c752a92a6f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.ee"
+    },
+    {
+      "asset_id": "sha256:46367767da5abea39ab67b673bb7e9a3c57b8564ffa1720321412b915bbd8a6d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.es"
+    },
+    {
+      "asset_id": "sha256:a864b17053db9578deb13353b14544ddcc159e28ed51a8d9da51b4d65ccfc42e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.fi"
+    },
+    {
+      "asset_id": "sha256:8691fd6c20fb211b5781287438f931c9d25905f7ca988ad88db1bb43d9204119",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.fr"
+    },
+    {
+      "asset_id": "sha256:e80c3c39fdcf265324f84fc4c816bb98479163e900089229df6dda41d1e74477",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.ge"
+    },
+    {
+      "asset_id": "sha256:ae18db882ddda0d5b52a690c2d8e4a770cca6d14b25722b65cd632a20f227ae9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.gr"
+    },
+    {
+      "asset_id": "sha256:9e0f4c0785a63c00d9e5e278f7bdc077f99576a71a5b3f91f89bd738611a0105",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.gt"
+    },
+    {
+      "asset_id": "sha256:29bfc4c65addc4013be0c3d959486442442db0816843e368f52bf6184e918dc8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.hk"
+    },
+    {
+      "asset_id": "sha256:2931e2fb369fc19c1bb8a8f5521bf03654f3f52e5c3dd57e0742ab13a0bbbc8f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.hr"
+    },
+    {
+      "asset_id": "sha256:a6acc34bcbe66ca46a5a94ff0a08702a7639cf3214d6a5f2f0cc1ee98bb245d9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.hu"
+    },
+    {
+      "asset_id": "sha256:f688e45ff23df68d4a717697a7911e6326447de2598d710663a79904e2146c7b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.ie"
+    },
+    {
+      "asset_id": "sha256:c16d566e5b4018517d21d06da5d705be5ab5465ebb449758579a9637ce2ecce8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.in"
+    },
+    {
+      "asset_id": "sha256:5cc29c6f0a749d976604ee8b7cbe07be4adf05708f1e7a686fb3bab70f66ef8f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.iq"
+    },
+    {
+      "asset_id": "sha256:34eac9bfe0c26b9451e6b47d6df81b971bd425a23bc1a75b14aebc00b1b9b497",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.is"
+    },
+    {
+      "asset_id": "sha256:181f9d28d73878f83276d3b33b367ed57ba81eca5ec554b84469dafd96e42d11",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.it"
+    },
+    {
+      "asset_id": "sha256:a4bfbcd18a2e95b1f0c9cd8322ed99478857d732da6cdb330d6a01b8ad05c20d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.jo"
+    },
+    {
+      "asset_id": "sha256:fa7b317265a51b9ff12cfedddef89c3da416876b97c5fdabd2604bca51fed9c9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.jp"
+    },
+    {
+      "asset_id": "sha256:f516b37665024bec169918ddfc0ac328420de5048058d64d43b05f5fcfda667b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.kr"
+    },
+    {
+      "asset_id": "sha256:513a4188b1437a2eb5f136d573c87c3e936e6164a9951b0635f5af219a6771d2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.kz"
+    },
+    {
+      "asset_id": "sha256:a50617595016fd454dea314ab04f36aa0411a717d431c2607e37a0a3a1e7fc11",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.la"
+    },
+    {
+      "asset_id": "sha256:36d97849943e1e0e0c25db5867ae0087219197a76a31ce9b0b441dc5eaa1ac6f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.lk"
+    },
+    {
+      "asset_id": "sha256:48a3111830596071411c426f34b10b102b042637df1c22e43b0553d441f4a269",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.lt"
+    },
+    {
+      "asset_id": "sha256:13ff28e92c88c30572192c7e5ac3a09a15858072c15635501abdc0a1a01362b8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.lu"
+    },
+    {
+      "asset_id": "sha256:8119a1452ba3adeb1abd9ef1b94b9eca87abebdff98a895257126ec4fd6ad28e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.lv"
+    },
+    {
+      "asset_id": "sha256:4ebd8f7650084c28f5a5afb47641b0ca1be6aac9c0cd142e9f2f15e81d08847f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.ly"
+    },
+    {
+      "asset_id": "sha256:97525028853ead67fd5e6483c7772cf02e068446d914437bca82d3b8ae66bf47",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.ma"
+    },
+    {
+      "asset_id": "sha256:672d7b136fd1199a18115595b5ce1d6e0f889146c60040c429d52b7021249aea",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.md"
+    },
+    {
+      "asset_id": "sha256:ed3a6ad9a9285c56ad1634d7d78612b701c49c93783b69032fb728456f07994c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.me"
+    },
+    {
+      "asset_id": "sha256:d10bf62763516718c07751831c47ca9fd3ea6dab9b636e9e649a0969da6ec510",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.mk"
+    },
+    {
+      "asset_id": "sha256:bd5aea402bc35085ae7cbc05fd60850080ffc16b40d9177767237163716224bb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.mn"
+    },
+    {
+      "asset_id": "sha256:4f3173f1bd7e7eb4e12324ebeab3827207fd3f0e600fc40858813c1a7ebb70b8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.mx"
+    },
+    {
+      "asset_id": "sha256:8ca67d79e46ef08ca4af6dde8da1460ee6858287ea29090c54817d75ceea72cc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.my"
+    },
+    {
+      "asset_id": "sha256:89b55ad425aad41ceb9ebf08deac8301147cb897da8182e6534633931ea7f4d7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.ng"
+    },
+    {
+      "asset_id": "sha256:76505fa2586eee9613b0896a6e6e720c17876269f4d16a84bf2c8e70147105f2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.ni"
+    },
+    {
+      "asset_id": "sha256:285d52373d222a93495bde74b9c1cd1412a452394117309b7c621e3219e0d568",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.nl"
+    },
+    {
+      "asset_id": "sha256:a8daf60067ed6b48f5ef692406c8db2d2478e711e662fc6f3fbf7490fbd5a7a3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.no"
+    },
+    {
+      "asset_id": "sha256:b3b29e0ee132808646b9c1bdf1b4ab70162f97418ff1c35d00fd18557627b8d6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.pa"
+    },
+    {
+      "asset_id": "sha256:2885435baba6662f780f26143410f0700c0847e0f7e319467c0ca3192c786018",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.pe"
+    },
+    {
+      "asset_id": "sha256:16bb23824a157a7ea4df62c953253bcb76575e7176ef16d9ed92f6546a817d9f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.ph"
+    },
+    {
+      "asset_id": "sha256:297306c8394463c00a0407d02db684c78a6a289555d1a77302b3af8bd1909780",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.pk"
+    },
+    {
+      "asset_id": "sha256:a4e8baf9fd768542776d65b4d68d05c76cba02873295d216217c5eae5d543eea",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.pl"
+    },
+    {
+      "asset_id": "sha256:5f533f50a34a3f9f262ffe327a09d6fd7119d21322fd77b2cdc7a03f985ae8ae",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.pr"
+    },
+    {
+      "asset_id": "sha256:5399949c33939b498fb59be26d13193ba1b367407703b25a2f4c8f91dc33eb78",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.pt"
+    },
+    {
+      "asset_id": "sha256:3d5a14b96cae75e5cc2c50ad760eab8a6e508786fbba0fe0dabbe69e4b74b91a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.qa"
+    },
+    {
+      "asset_id": "sha256:ecad78ec8b2d282d65369b53bee220dc7f6b7a2bf7fcb7d2480dd025864a0075",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.ro"
+    },
+    {
+      "asset_id": "sha256:c08b4448c340688aaac616f6657fea63eb99e80a2ae8d902b0c60a9b6363ce2f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.rs"
+    },
+    {
+      "asset_id": "sha256:808795e9dc09a0e4b58042d08a45b72ca4f49fc56b7edfa0e7f17489d0cd2534",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.ru"
+    },
+    {
+      "asset_id": "sha256:11b2ccbdc20efa0996cd57e871858d178d11e66ae5528ae9e45897d956ddfe7a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.sa"
+    },
+    {
+      "asset_id": "sha256:559511dcd21d5ae8ffec1bba5ec492cc0f9e80a9286d76d54a9d456b4448fc5a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.se"
+    },
+    {
+      "asset_id": "sha256:f1661a7760e67831b6e481f473333c7d22e511444cc6d14fbf89d0724961e913",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.sg"
+    },
+    {
+      "asset_id": "sha256:2821422a066e4ae9021c81e8d68def1a25499d5c2e39aaf789a3495f59c2f112",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.si"
+    },
+    {
+      "asset_id": "sha256:95da155726e5dabf6f9485322952c0a0d752a2446bcfd39e38da2faa6d51f0a2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.sk"
+    },
+    {
+      "asset_id": "sha256:cb2d6a877db4a64b553d422a2a6dce73620f57049f06185378c21ea27c58cbb0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.sn"
+    },
+    {
+      "asset_id": "sha256:ba1c2a8796a19e5ec3ce76923272451b4dd3c8b1fc9c31ab5a6f9a4129ac84f5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.soy"
+    },
+    {
+      "asset_id": "sha256:e81b5f6d7d01c6da1a62f2962e6071895f25d38fe0997c51ccec2e861a239ec1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.sv"
+    },
+    {
+      "asset_id": "sha256:2360c162b06a9bd13696bc8f97138aabc1f0e64cd2acbf9f090a0ad31c12bc15",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.tn"
+    },
+    {
+      "asset_id": "sha256:0352aed445a9be5002dad5be31500274134fb09d317f16cbfbb49d1f974e3f59",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.tv"
+    },
+    {
+      "asset_id": "sha256:34ec45d4296b78ed47279754e60026fd1714e9b95057e3bb66f543b533a1cbe0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.ua"
+    },
+    {
+      "asset_id": "sha256:3a86b968887d0f75b40a96b65d2b3d434c042b9af64ab7d2bcc23add8733395a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.ug"
+    },
+    {
+      "asset_id": "sha256:f867578f0c57b0903cd9a2e6f0655e6013a3c572ebecafee92dbad6cc1633102",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.uy"
+    },
+    {
+      "asset_id": "sha256:b5ef90fdaa16e2818c594d9b02d2bbdbe5f5e3cbaf7f47b3e9d2a7f08430f5ea",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtube.vn"
+    },
+    {
+      "asset_id": "sha256:e94bd2165129b64e4f2c1bd26667dcd37505fe3e4069e56b0d99203e319574b6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtubeeducation.com"
+    },
+    {
+      "asset_id": "sha256:f9450cdd98d09af90f86d27dd7f8f4c8095dc98845a57878083ec6a4725fa5f7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtubefanfest.com"
+    },
+    {
+      "asset_id": "sha256:bad6c2b0bcaf009e9ae869d1514d07ef96de93cd25e1a827055f6145d2364b1a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtubegaming.com"
+    },
+    {
+      "asset_id": "sha256:b42a50b4e795d369dad51c51c85d2bee65e8e8f28777461765154c56225a424f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtubego.co.id"
+    },
+    {
+      "asset_id": "sha256:9019a5a0f1155bc2b23236c0cdf443317eec86484fe97faa4b8b4a2ea86734bc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtubego.co.in"
+    },
+    {
+      "asset_id": "sha256:285830f5782ba4b336789d20e9aa75f382246b80903a1f949cd32e30163c8a71",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtubego.com"
+    },
+    {
+      "asset_id": "sha256:75608b31f119d20819e1df6cf26d1125a82b084502266c1a47698244cd5ea8c2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtubego.com.br"
+    },
+    {
+      "asset_id": "sha256:19b41238a94521342172edd2d6aabf08247f3a7da875e95adf8489a2dd028f8c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtubego.id"
+    },
+    {
+      "asset_id": "sha256:ef20f5b51d41a8d8562c9138b009d66ccb4954efa320026450019c937e389692",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtubego.in"
+    },
+    {
+      "asset_id": "sha256:671a34f250918f20f343a662fd44d45829d2657fe35308200f2f8dbd1e83d79f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtubekids.com"
+    },
+    {
+      "asset_id": "sha256:c912cad4b6e52228c121085a7a63114153e2674b131fb5328cf14e2e77011fbb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "youtubemobilesupport.com"
+    },
+    {
+      "asset_id": "sha256:0f90cf27ba669fcf854bc58ab5d6cccf6f7a299600f550c8d70609e98451c863",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "yt.be"
+    },
+    {
+      "asset_id": "sha256:da2c7de2a18fb3a1b7f8395d1f8bfa1858da8a7d9bc9db58181f8da1ceb921b0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youtube-001-a8e4819c3ee2"
+      ],
+      "service_id": "youtube",
+      "type": "domain",
+      "value": "ytimg.com"
+    }
+  ],
+  "content_digest": "bce5ce05f54d97806f350ff4b2738b0175b402d59db5bd2ad0e9983555ded0c7",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "a8e4819c3ee2ba71c06873769310ec012a3aa2e8fc54843168ae6edef6e75280",
+      "domains_extracted": 178,
+      "evidence_id": "EV-youtube-001-a8e4819c3ee2",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.list",
+      "retrieved_at": "2026-09-26T12:18:46.841848+00:00",
+      "service_id": "youtube",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "c619c76e2e5a57fad07bf9d8c33a2b83859072c12251e6da064998e5bc586405",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+  "release_digest": "58b8afe3b6062febd60fd5197a7de1d46bc83dbff25d23091c6f8355c4816273",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "youtube",
+  "snapshot_id": "snap-youtube-58b8afe3b6062febd60fd519",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}
