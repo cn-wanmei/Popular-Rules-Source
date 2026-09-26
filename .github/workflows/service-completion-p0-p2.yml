@@ -118,12 +118,17 @@ jobs:
       - name: Persist generated P0-C snapshots
         if: github.event_name == 'push'
         run: |
-          if git diff --quiet; then
-            echo "No generated snapshot changes"
-            exit 0
-          fi
+          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add generated snapshots releases reports/service-completion-program.json
+          # Stage tracked product outputs (gitignore no longer blocks releases/reports program file)
+          git add generated snapshots || true
+          git add releases reports/service-completion-program.json 2>/dev/null || true
+          # Force-add if still ignored by residual rules
+          git add -f releases reports/service-completion-program.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No generated snapshot changes to commit"
+            exit 0
+          fi
           git commit -m "chore(completion): generate P0-C self-built official snapshots [skip ci]"
-          git push
+          git push origin HEAD:"${GITHUB_REF_NAME}"
