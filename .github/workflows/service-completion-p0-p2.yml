@@ -60,6 +60,27 @@ jobs:
           xbox
           youtube
           youtubemusic
+          huawei-cloud
+          mi-cloud
+          jd-cloud
+          kugou
+          kuwo
+          quanmin-k-ge
+          amazonmusic
+          audible
+          goodreads
+          messenger
+          adobe-firefly
+          adobe-stock
+          adobe-fonts
+          openai-api
+          openai-platform
+          chatgpt
+          anthropic-claude
+          anthropic-platform
+          xai-grok
+          stripe-dashboard
+          venmo
           gmail
           google-calendar
           google-chat
