@@ -218,3 +218,247 @@ services:
     mode: official_web
     official_sources: [https://maps.apple.com/]
     allowed_host_exact: [maps.apple.com]
+
+  huawei-cloud:
+    display_name: "Huawei Cloud"
+    ecosystem: huawei
+    mode: official_web
+    official_sources: ["https://console-intl.huaweicloud.com/console/?locale=en-us"]
+    allowed_host_exact: [console-intl.huaweicloud.com]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  mi-cloud:
+    display_name: "Mi Cloud"
+    ecosystem: xiaomi
+    mode: official_web
+    official_sources: ["https://www.mi.com/sg/support/article/KA-07435/"]
+    allowed_host_exact: [i.mi.com]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  jd-cloud:
+    display_name: "JD Cloud"
+    ecosystem: jingdong
+    mode: official_web
+    official_sources: ["https://www.jdcloud.com/"]
+    allowed_host_exact: [www.jdcloud.com]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  kugou:
+    display_name: "Kugou Music"
+    ecosystem: tencent_music
+    mode: official_web
+    official_sources: ["https://www.kugou.com/"]
+    allowed_host_exact: [www.kugou.com]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  kuwo:
+    display_name: "Kuwo Music"
+    ecosystem: tencent_music
+    mode: official_web
+    official_sources: ["https://m.kuwo.cn/newh5app/ranklist_detail/16"]
+    allowed_host_exact: [m.kuwo.cn]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  quanmin-k-ge:
+    display_name: "全民K歌"
+    ecosystem: tencent_music
+    mode: official_web
+    official_sources: ["https://kg.qq.com/"]
+    allowed_host_exact: [kg.qq.com]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  amazonmusic:
+    display_name: "Amazon Music"
+    ecosystem: amazon
+    mode: official_web
+    official_sources: ["https://music.amazon.com/"]
+    allowed_host_exact: [music.amazon.com]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  audible:
+    display_name: "Audible"
+    ecosystem: amazon
+    mode: official_web
+    official_sources: ["https://www.audible.com/"]
+    allowed_host_exact: [audible.com]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  goodreads:
+    display_name: "Goodreads"
+    ecosystem: amazon
+    mode: official_web
+    official_sources: ["https://www.goodreads.com/"]
+    allowed_host_exact: [goodreads.com]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  messenger:
+    display_name: "Messenger"
+    ecosystem: meta
+    mode: official_web
+    official_sources: ["https://messenger.com/"]
+    allowed_host_exact: [www.messenger.com]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  adobe-firefly:
+    display_name: "Adobe Firefly"
+    ecosystem: adobe
+    mode: official_web
+    official_sources: ["https://firefly.adobe.com/"]
+    allowed_host_exact: [firefly.adobe.com]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  adobe-stock:
+    display_name: "Adobe Stock"
+    ecosystem: adobe
+    mode: official_web
+    official_sources: ["https://stock.adobe.com/"]
+    allowed_host_exact: [stock.adobe.com]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  adobe-fonts:
+    display_name: "Adobe Fonts"
+    ecosystem: adobe
+    mode: official_web
+    official_sources: ["https://fonts.adobe.com/"]
+    allowed_host_exact: [fonts.adobe.com]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  openai-api:
+    display_name: "OpenAI API"
+    ecosystem: openai
+    mode: official_web
+    official_sources: ["https://developers.openai.com/api/docs"]
+    allowed_host_exact: [api.openai.com]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  openai-platform:
+    display_name: "OpenAI Platform"
+    ecosystem: openai
+    mode: official_web
+    official_sources: ["https://platform.openai.com/"]
+    allowed_host_exact: [platform.openai.com]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  chatgpt:
+    display_name: "ChatGPT"
+    ecosystem: openai
+    mode: official_web
+    official_sources: ["https://chatgpt.com/"]
+    allowed_host_exact: [chatgpt.com]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  anthropic-claude:
+    display_name: "Claude"
+    ecosystem: anthropic
+    mode: official_web
+    official_sources: ["https://claude.ai/"]
+    allowed_host_exact: [claude.ai]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  anthropic-platform:
+    display_name: "Claude Platform"
+    ecosystem: anthropic
+    mode: official_web
+    official_sources: ["https://console.anthropic.com/"]
+    allowed_host_exact: [platform.claude.com]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  xai-grok:
+    display_name: "Grok"
+    ecosystem: xai
+    mode: official_web
+    official_sources: ["https://grok.com/"]
+    allowed_host_exact: [grok.com]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  stripe-dashboard:
+    display_name: "Stripe Dashboard"
+    ecosystem: stripe
+    mode: official_web
+    official_sources: ["https://dashboard.stripe.com/"]
+    allowed_host_exact: [dashboard.stripe.com]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  venmo:
+    display_name: "Venmo"
+    ecosystem: paypal
+    mode: official_web
+    official_sources: ["https://venmo.com/"]
+    allowed_host_exact: [venmo.com]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  baidumaps:
+    display_name: "Baidu Maps"
+    ecosystem: baidu
+    mode: official_web
+    official_sources: ["https://map.baidu.com/"]
+    allowed_host_exact: [map.baidu.com]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  baiduwenku:
+    display_name: "Baidu Wenku"
+    ecosystem: baidu
+    mode: official_web
+    official_sources: ["https://wenku.baidu.com/"]
+    allowed_host_exact: [wenku.baidu.com]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  baidu-zhidao:
+    display_name: "Baidu Zhidao"
+    ecosystem: baidu
+    mode: official_web
+    official_sources: ["https://zhidao.baidu.com/"]
+    allowed_host_exact: [zhidao.baidu.com]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  huawei-appgallery:
+    display_name: "HUAWEI AppGallery"
+    ecosystem: huawei
+    mode: official_web
+    official_sources: ["https://appgallery.huawei.com/"]
+    allowed_host_exact: [appgallery.huawei.com]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  kuaishou:
+    display_name: "Kuaishou"
+    ecosystem: kuaishou
+    mode: official_web
+    official_sources: ["https://www.kuaishou.com/cn"]
+    allowed_host_exact: [www.kuaishou.com]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  kuaishou-open:
+    display_name: "Kuaishou Open Platform"
+    ecosystem: kuaishou
+    mode: official_web
+    official_sources: ["https://open.kuaishou.com/"]
+    allowed_host_exact: [open.kuaishou.com]
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
