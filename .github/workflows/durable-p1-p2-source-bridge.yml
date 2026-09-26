@@ -1,0 +1,187 @@
+name: Durable P1 P2 Source Bridge
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "generated/source/**"
+      - "snapshots/**"
+      - "releases/**"
+      - ".github/workflows/durable-p1-p2-source-bridge.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  PYTHON_VERSION: "3.11"
+
+jobs:
+  verify:
+    name: Verify \${{ matrix.service }}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        service:
+          - huawei-cloud
+          - mi-cloud
+          - jd-cloud
+          - kugou
+          - kuwo
+          - quanmin-k-ge
+          - amazonmusic
+          - audible
+          - goodreads
+          - messenger
+          - adobe-firefly
+          - adobe-stock
+          - adobe-fonts
+          - openai-api
+          - openai-platform
+          - chatgpt
+          - anthropic-claude
+          - anthropic-platform
+          - xai-grok
+          - stripe-dashboard
+          - venmo
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: main
+          fetch-depth: 1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: \${{ env.PYTHON_VERSION }}
+      - run: python -m pip install -r requirements.txt
+      - name: Validate source configuration
+        run: python -m source_engine validate
+      - name: Verify existing immutable release
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib
+          import json
+          from pathlib import Path
+
+          service="\${{ matrix.service }}"
+          provenance_path=Path("generated")/"source"/service/"provenance.json"
+          if not provenance_path.is_file():
+              raise SystemExit(f"{service}: generated provenance missing")
+          provenance=json.loads(provenance_path.read_text(encoding="utf-8"))
+          snapshot_id=str(provenance.get("snapshot_id") or "")
+          if not snapshot_id:
+              raise SystemExit(f"{service}: missing snapshot_id")
+          release_path=Path("releases")/service/snapshot_id/"release.json"
+          if not release_path.is_file():
+              raise SystemExit(f"{service}: immutable release missing: {release_path}")
+          release=json.loads(release_path.read_text(encoding="utf-8"))
+          required={"service_id","snapshot_id","content_digest","evidence_digest","policy_digest","generator_digest","release_digest","release_identity_version","checksums","validation"}
+          missing=sorted(required-set(release))
+          if missing:
+              raise SystemExit(f"{service}: release contract missing {missing}")
+          if release["service_id"] != service:
+              raise SystemExit(f"{service}: release service_id mismatch")
+          if str(release["snapshot_id"]) != snapshot_id:
+              raise SystemExit(f"{service}: snapshot mismatch")
+          if str(release.get("release_identity_version")) != "2":
+              raise SystemExit(f"{service}: release_identity_version != 2")
+          for key in ("content_digest","evidence_digest","policy_digest","generator_digest","release_digest"):
+              value=str(release.get(key) or "")
+              if len(value)!=64 or any(c not in "0123456789abcdef" for c in value.lower()):
+                  raise SystemExit(f"{service}: invalid {key}")
+          snapshot=Path("snapshots")/snapshot_id
+          for name in ("domains.txt","provenance.json","manifest.json","checksums.json"):
+              if not (snapshot/name).is_file():
+                  raise SystemExit(f"{service}: missing snapshot artifact {snapshot/name}")
+          domains=Path("generated")/"source"/service/"domains.txt"
+          if not domains.is_file() or not domains.read_text(encoding="utf-8").strip():
+              raise SystemExit(f"{service}: generated domains empty")
+          actual=hashlib.sha256(domains.read_bytes()).hexdigest()
+          checks=release.get("checksums") or {}
+          expected=str(checks.get("domains") or checks.get("domains.txt") or "")
+          if expected and expected != actual:
+              raise SystemExit(f"{service}: domains checksum mismatch")
+          print(json.dumps({
+              "service": service,
+              "snapshot_id": snapshot_id,
+              "release_digest": release["release_digest"],
+              "domains_sha256": actual,
+          }, ensure_ascii=False))
+          PY
+
+  persist:
+    name: Extend durable bridge with P1/P2
+    needs: verify
+    if: \${{ needs.verify.result == 'success' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Build merged durable bridge report
+        env:
+          P1_P2_SERVICES: huawei-cloud,mi-cloud,jd-cloud,kugou,kuwo,quanmin-k-ge,amazonmusic,audible,goodreads,messenger,adobe-firefly,adobe-stock,adobe-fonts,openai-api,openai-platform,chatgpt,anthropic-claude,anthropic-platform,xai-grok,stripe-dashboard,venmo
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import hashlib, json, os, subprocess
+          from pathlib import Path
+          from datetime import datetime, timezone
+
+          services=[x.strip() for x in os.environ["P1_P2_SERVICES"].split(",") if x.strip()]
+          report_path=Path("reports/durable-bridge/latest.json")
+          report=json.loads(report_path.read_text(encoding="utf-8")) if report_path.is_file() else {
+              "schema":"popular_rules_source_durable_bridge_v2",
+              "services":{}
+          }
+          if report.get("schema") != "popular_rules_source_durable_bridge_v2":
+              raise SystemExit("unexpected durable bridge schema")
+          source_ref=subprocess.check_output(["git","rev-parse","HEAD"],text=True).strip()
+          if len(source_ref)!=40:
+              raise SystemExit("invalid source ref")
+          report["created_at"]=datetime.now(timezone.utc).isoformat()
+          report["verified_input_commit"]=source_ref
+          report["persistence_commit"]=source_ref
+
+          for service in services:
+              provenance=json.loads((Path("generated")/"source"/service/"provenance.json").read_text(encoding="utf-8"))
+              snapshot_id=str(provenance["snapshot_id"])
+              release_path=Path("releases")/service/snapshot_id/"release.json"
+              release=json.loads(release_path.read_text(encoding="utf-8"))
+              domains=Path("generated")/"source"/service/"domains.txt"
+              item={
+                  "status":"PERSISTED",
+                  "snapshot_id":snapshot_id,
+                  "content_digest":release["content_digest"],
+                  "evidence_digest":release["evidence_digest"],
+                  "policy_digest":release["policy_digest"],
+                  "generator_digest":release["generator_digest"],
+                  "release_digest":release["release_digest"],
+                  "release_identity_version":release["release_identity_version"],
+                  "release_path":str(release_path),
+                  "expected_sha256":hashlib.sha256(domains.read_bytes()).hexdigest(),
+                  "source_ref":source_ref,
+              }
+              report.setdefault("services",{})[service]=item
+
+          report["services"]=dict(sorted(report["services"].items()))
+          report_path.parent.mkdir(parents=True,exist_ok=True)
+          report_path.write_text(json.dumps(report,ensure_ascii=False,indent=2,sort_keys=True)+"\n",encoding="utf-8")
+          print(json.dumps({
+              "schema":report["schema"],
+              "persistence_commit":report["persistence_commit"],
+              "verified_input_commit":report["verified_input_commit"],
+              "p1_p2_count":len(services),
+          },ensure_ascii=False,indent=2))
+          PY
+      - name: Persist durable bridge seal
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f reports/durable-bridge/latest.json
+          git commit -m "chore(source): extend durable bridge with P1 P2 [skip ci]"
+          git push origin main
