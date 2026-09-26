@@ -63,8 +63,8 @@ jobs:
           applemaps
           "
           for service in $services; do
-            python -m source_engine generate --service "$service" || true
-            python -m source_engine release --service "$service" || true
+            python -m source_engine generate --service "$service"
+            python -m source_engine release --service "$service"
           done
       - name: Persist generated P0-C snapshots
         if: github.event_name == 'push'
@@ -75,6 +75,6 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add generated snapshots reports/service-completion-program.json
+          git add generated snapshots releases reports/service-completion-program.json
           git commit -m "chore(completion): generate P0-C self-built official snapshots [skip ci]"
           git push
