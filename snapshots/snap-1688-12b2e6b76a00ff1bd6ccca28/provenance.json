@@ -21,33 +21,7 @@
       "value": "www.1688.com"
     }
   ],
-  "change_assessment": {
-    "growth_ratio": 2.0,
-    "removal_ratio": 0.0,
-    "status": "OK"
-  },
   "content_digest": "45492f01b1f4e1a06f57a97a29bd00e0754a23eaeea388cb9cacee0da2a0b2d9",
-  "created_at": "2026-09-26T07:50:17.567652+00:00",
-  "domain_count": 2,
-  "domain_diff": {
-    "added": [
-      "1688.com"
-    ],
-    "added_count": 1,
-    "current_count": 2,
-    "previous_count": 1,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [
-      "www.1688.com"
-    ],
-    "unchanged_count": 1
-  },
-  "domains": [
-    "1688.com",
-    "www.1688.com"
-  ],
-  "errors": [],
   "evidence": [
     {
       "authority": "official",
@@ -68,36 +42,16 @@
   ],
   "evidence_digest": "fe142e4f8864637ebb27295da23503c5ceffb5ac8727e61c7d174f50a65b9886",
   "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
-  "generator_version": "3.1.0",
-  "last_known_good": false,
-  "official_extracted": 2,
-  "official_source_count": 1,
-  "parser_version": "domain-extractor-v4",
   "policy_digest": "877e7af68e1242e56c8ef24540b44ea4507caf68a99cfc5df90cacfe610d954d",
-  "previous_domain_count": 1,
   "release_digest": "12b2e6b76a00ff1bd6ccca286e3e58af4f3702067c510efaa613d874da3cae29",
   "release_identity_version": "2",
-  "release_reasons": [],
-  "release_state": "CANDIDATE",
-  "schema": "source_snapshot_v2",
-  "service_config_digest": "6ef0c1775083b6f03aba3be31a7c8890621a6593822dfa984f148d7fbbdc97db",
+  "schema": "source_provenance_v3",
   "service_id": "1688",
-  "snapshot_content_sha256": "45492f01b1f4e1a06f57a97a29bd00e0754a23eaeea388cb9cacee0da2a0b2d9",
   "snapshot_id": "snap-1688-12b2e6b76a00ff1bd6ccca28",
-  "source_bindings": [
-    {
-      "adapter": null,
-      "url": "https://www.1688.com/"
-    }
-  ],
-  "source_count": 1,
   "source_policy": {
     "allowed_authorities": [
       "official"
     ],
     "official_required": true
-  },
-  "trusted_extracted": 2,
-  "unverified_candidate_count": 0,
-  "unverified_candidate_domains": []
+  }
 }
