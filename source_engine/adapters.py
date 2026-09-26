@@ -189,15 +189,6 @@ def extract_with_adapter(
             {**common, "source_url": source_url, "rendered": True},
         )
 
-    result = fetch(
-        source_url,
-        timeout=int(adapter_policy["timeout_seconds"]),
-        max_bytes=int(adapter_policy["max_bytes"]),
-        user_agent=str(adapter_policy["user_agent"]),
-        retry_attempts=int(adapter_policy.get("retry_attempts", 1)),
-        retry_backoff_seconds=float(adapter_policy.get("retry_backoff_seconds", 1)),
-    )
-
     if adapter_name == "self_built":
         asset_path = Path("self_built") / service_id / "domains.list"
         if not asset_path.exists():
@@ -231,6 +222,15 @@ def extract_with_adapter(
                 "local_asset": asset_path.as_posix(),
             },
         )
+
+    result = fetch(
+        source_url,
+        timeout=int(adapter_policy["timeout_seconds"]),
+        max_bytes=int(adapter_policy["max_bytes"]),
+        user_agent=str(adapter_policy["user_agent"]),
+        retry_attempts=int(adapter_policy.get("retry_attempts", 1)),
+        retry_backoff_seconds=float(adapter_policy.get("retry_backoff_seconds", 1)),
+    )
 
     if adapter_name == "official_web":
         domains = extract_domains(result.body, result.content_type, result.url, exact, suffixes)
