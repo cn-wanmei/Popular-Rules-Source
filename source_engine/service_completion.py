@@ -37,6 +37,7 @@ def main() -> int:
         failures.append(f"lineage lock mismatch: {lineage!r}")
 
     catalog = self_built.get("services") or {}
+    priority = load_yaml("config/p1_p2_self_built_official_wave.yaml").get("services") or {}
     p0c = (((program.get("phases") or {}).get("P0-C") or {}).get("platform_groups") or {})
     p0c_ids: set[str] = set()
     for group in p0c.values():
@@ -48,11 +49,17 @@ def main() -> int:
     if missing:
         failures.append(f"P0-C service IDs missing from self-built catalog/services: {missing}")
 
+    expected_priority = set(priority)
+    service_config_ids = set(services)
+    missing_priority = sorted(expected_priority - service_config_ids)
+    if missing_priority:
+        failures.append(f"priority wave missing from services.yaml: {missing_priority}")
     report = {
         "schema": "service_completion_program_audit_v1",
         "pass": not failures,
         "company_count": len(companies),
         "p0c_confirmed_service_count": len(p0c_ids),
+        "priority_wave_service_count": len(expected_priority),
         "p0a_lineage": lineage,
         "failures": failures,
     }
