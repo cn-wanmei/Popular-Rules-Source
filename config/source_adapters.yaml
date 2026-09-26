@@ -10,6 +10,15 @@ contract:
   authorities: [official, upstream]
 
 adapters:
+  self_built:
+    enabled: true
+    authority: official
+    method: local_self_built_rule_asset
+    parser: self-built-rule-v1
+    fixture: tests/fixtures/upstream_rule.list
+    evidence_mapping: manifest.evidence[]
+    regression_test: tests/test_adapters.py
+
   official_web:
     enabled: true
     authority: official
@@ -146,3 +155,59 @@ services:
   signal: {adapters: [upstream_rule]}
   messenger: {adapters: [upstream_rule]}
   roblox: {adapters: [upstream_rule]}
+  gmail: {adapters: [self_built]}
+  google-calendar: {adapters: [self_built]}
+  google-chat: {adapters: [self_built]}
+  google-contacts: {adapters: [self_built]}
+  google-docs: {adapters: [self_built]}
+  google-forms: {adapters: [self_built]}
+  google-groups: {adapters: [self_built]}
+  google-meet: {adapters: [self_built]}
+  google-sheets: {adapters: [self_built]}
+  google-sites: {adapters: [self_built]}
+  google-slides: {adapters: [self_built]}
+  google-vids: {adapters: [self_built]}
+  google-workspace-studio: {adapters: [self_built]}
+  google-maps: {adapters: [self_built]}
+  google-photos: {adapters: [self_built]}
+  google-play: {adapters: [self_built]}
+  google-news: {adapters: [self_built]}
+  google-voice: {adapters: [self_built]}
+  google-earth: {adapters: [self_built]}
+  ms365-word: {adapters: [self_built]}
+  ms365-excel: {adapters: [self_built]}
+  ms365-powerpoint: {adapters: [self_built]}
+  ms365-onenote: {adapters: [self_built]}
+  ms365-planner: {adapters: [self_built]}
+  ms365-loop: {adapters: [self_built]}
+  ms365-mesh: {adapters: [self_built]}
+  applepodcasts: {adapters: [self_built]}
+  applebooks: {adapters: [self_built]}
+  applemaps: {adapters: [self_built]}
+  huawei-cloud: {adapters: [self_built]}
+  mi-cloud: {adapters: [self_built]}
+  jd-cloud: {adapters: [self_built]}
+  kugou: {adapters: [self_built]}
+  kuwo: {adapters: [self_built]}
+  quanmin-k-ge: {adapters: [self_built]}
+  amazonmusic: {adapters: [self_built]}
+  audible: {adapters: [self_built]}
+  goodreads: {adapters: [self_built]}
+  messenger: {adapters: [self_built]}
+  adobe-firefly: {adapters: [self_built]}
+  adobe-stock: {adapters: [self_built]}
+  adobe-fonts: {adapters: [self_built]}
+  openai-api: {adapters: [self_built]}
+  openai-platform: {adapters: [self_built]}
+  chatgpt: {adapters: [self_built]}
+  anthropic-claude: {adapters: [self_built]}
+  anthropic-platform: {adapters: [self_built]}
+  xai-grok: {adapters: [self_built]}
+  stripe-dashboard: {adapters: [self_built]}
+  venmo: {adapters: [self_built]}
+  baidumaps: {adapters: [self_built]}
+  baiduwenku: {adapters: [self_built]}
+  baidu-zhidao: {adapters: [self_built]}
+  huawei-appgallery: {adapters: [self_built]}
+  kuaishou: {adapters: [self_built]}
+  kuaishou-open: {adapters: [self_built]}
