@@ -117,3 +117,9 @@ services:
   xai-grok: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
   stripe-dashboard: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
   venmo: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
+  baidumaps: {state: review, enabled: true, reason: p1_verified_official_entry, last_transition: "2026-09-26"}
+  baiduwenku: {state: review, enabled: true, reason: p1_verified_official_entry, last_transition: "2026-09-26"}
+  baidu-zhidao: {state: review, enabled: true, reason: p1_verified_official_entry, last_transition: "2026-09-26"}
+  huawei-appgallery: {state: review, enabled: true, reason: p1_verified_official_entry, last_transition: "2026-09-26"}
+  kuaishou: {state: review, enabled: true, reason: p1_verified_official_entry, last_transition: "2026-09-26"}
+  kuaishou-open: {state: review, enabled: true, reason: p1_verified_official_entry, last_transition: "2026-09-26"}
