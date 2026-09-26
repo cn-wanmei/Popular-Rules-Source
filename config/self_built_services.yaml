@@ -1,0 +1,220 @@
+version: 1
+schema: service_self_built_official_candidate_v1
+purpose: Self-built service candidates for upstream gaps; candidate files are not production evidence.
+source_policy:
+  official_evidence_required: true
+  authoring_seed_is_not_production_evidence: true
+  no_guess_domains: true
+  shared_infrastructure_requires_review: true
+services:
+  qq:
+    display_name: QQ
+    ecosystem: tencent
+    mode: official_web
+    official_sources: [https://im.qq.com/]
+    upstream_binding: null
+    current_state: review
+    note: upstream-independent self-built candidate chain
+  neteasemail:
+    display_name: NetEase Mail
+    ecosystem: netease
+    mode: official_web
+    official_sources: [https://mail.163.com/]
+    upstream_binding: null
+    current_state: review
+  honorofkings_cn:
+    display_name: Honor of Kings CN
+    ecosystem: tencent
+    mode: official_web
+    official_sources: []
+    upstream_binding: null
+    current_state: review
+    note: hold until official primary entry is reconciled
+  honorofkings_global:
+    display_name: Honor of Kings Global
+    ecosystem: tencent
+    mode: official_web
+    official_sources: []
+    upstream_binding: null
+    current_state: review
+    note: hold until official primary entry is reconciled
+  gmail:
+    display_name: Gmail
+    ecosystem: google
+    mode: official_web
+    official_sources: [https://mail.google.com/]
+    allowed_host_exact: [mail.google.com]
+  google-calendar:
+    display_name: Google Calendar
+    ecosystem: google
+    mode: official_web
+    official_sources: [https://calendar.google.com/]
+    allowed_host_exact: [calendar.google.com]
+  google-chat:
+    display_name: Google Chat
+    ecosystem: google
+    mode: official_web
+    official_sources: [https://chat.google.com/]
+    allowed_host_exact: [chat.google.com]
+  google-contacts:
+    display_name: Google Contacts
+    ecosystem: google
+    mode: official_web
+    official_sources: [https://contacts.google.com/]
+    allowed_host_exact: [contacts.google.com]
+  google-docs:
+    display_name: Google Docs
+    ecosystem: google
+    mode: official_web
+    official_sources: [https://docs.google.com/]
+    allowed_host_exact: [docs.google.com]
+  googledrive:
+    display_name: Google Drive
+    ecosystem: google
+    mode: official_web
+    official_sources: [https://drive.google.com/]
+    allowed_host_exact: [drive.google.com]
+  google-forms:
+    display_name: Google Forms
+    ecosystem: google
+    mode: official_web
+    official_sources: [https://forms.google.com/]
+    allowed_host_exact: [forms.google.com]
+  google-groups:
+    display_name: Google Groups
+    ecosystem: google
+    mode: official_web
+    official_sources: [https://groups.google.com/]
+    allowed_host_exact: [groups.google.com]
+  google-meet:
+    display_name: Google Meet
+    ecosystem: google
+    mode: official_web
+    official_sources: [https://meet.google.com/]
+    allowed_host_exact: [meet.google.com]
+  google-sheets:
+    display_name: Google Sheets
+    ecosystem: google
+    mode: official_web
+    official_sources: [https://sheets.google.com/]
+    allowed_host_exact: [sheets.google.com]
+  google-sites:
+    display_name: Google Sites
+    ecosystem: google
+    mode: official_web
+    official_sources: [https://sites.google.com/]
+    allowed_host_exact: [sites.google.com]
+  google-slides:
+    display_name: Google Slides
+    ecosystem: google
+    mode: official_web
+    official_sources: [https://slides.google.com/]
+    allowed_host_exact: [slides.google.com]
+  google-vids:
+    display_name: Google Vids
+    ecosystem: google
+    mode: official_web
+    official_sources: [https://vids.google.com/]
+    allowed_host_exact: [vids.google.com]
+  google-workspace-studio:
+    display_name: Google Workspace Studio
+    ecosystem: google
+    mode: official_web
+    official_sources: [https://studio.workspace.google.com/]
+    allowed_host_exact: [studio.workspace.google.com]
+  google-maps:
+    display_name: Google Maps
+    ecosystem: google
+    mode: official_web
+    official_sources: [https://maps.google.com/]
+    allowed_host_exact: [maps.google.com]
+  google-photos:
+    display_name: Google Photos
+    ecosystem: google
+    mode: official_web
+    official_sources: [https://photos.google.com/]
+    allowed_host_exact: [photos.google.com]
+  google-play:
+    display_name: Google Play
+    ecosystem: google
+    mode: official_web
+    official_sources: [https://play.google.com/]
+    allowed_host_exact: [play.google.com]
+  google-news:
+    display_name: Google News
+    ecosystem: google
+    mode: official_web
+    official_sources: [https://news.google.com/]
+    allowed_host_exact: [news.google.com]
+  google-voice:
+    display_name: Google Voice
+    ecosystem: google
+    mode: official_web
+    official_sources: [https://voice.google.com/]
+    allowed_host_exact: [voice.google.com]
+  google-earth:
+    display_name: Google Earth
+    ecosystem: google
+    mode: official_web
+    official_sources: [https://earth.google.com/]
+    allowed_host_exact: [earth.google.com]
+  ms365-word:
+    display_name: Microsoft Word web
+    ecosystem: microsoft
+    mode: official_web
+    official_sources: [https://word.cloud.microsoft/]
+    allowed_host_exact: [word.cloud.microsoft]
+  ms365-excel:
+    display_name: Microsoft Excel web
+    ecosystem: microsoft
+    mode: official_web
+    official_sources: [https://excel.cloud.microsoft/]
+    allowed_host_exact: [excel.cloud.microsoft]
+  ms365-powerpoint:
+    display_name: Microsoft PowerPoint web
+    ecosystem: microsoft
+    mode: official_web
+    official_sources: [https://powerpoint.cloud.microsoft/]
+    allowed_host_exact: [powerpoint.cloud.microsoft]
+  ms365-onenote:
+    display_name: Microsoft OneNote web
+    ecosystem: microsoft
+    mode: official_web
+    official_sources: [https://onenote.cloud.microsoft/]
+    allowed_host_exact: [onenote.cloud.microsoft]
+  ms365-planner:
+    display_name: Microsoft Planner
+    ecosystem: microsoft
+    mode: official_web
+    official_sources: [https://planner.cloud.microsoft/]
+    allowed_host_exact: [planner.cloud.microsoft]
+  ms365-loop:
+    display_name: Microsoft Loop
+    ecosystem: microsoft
+    mode: official_web
+    official_sources: [https://loop.cloud.microsoft/]
+    allowed_host_exact: [loop.cloud.microsoft]
+  ms365-mesh:
+    display_name: Microsoft Mesh
+    ecosystem: microsoft
+    mode: official_web
+    official_sources: [https://mesh.cloud.microsoft/]
+    allowed_host_exact: [mesh.cloud.microsoft]
+  applepodcasts:
+    display_name: Apple Podcasts
+    ecosystem: apple
+    mode: official_web
+    official_sources: [https://podcasts.apple.com/]
+    allowed_host_exact: [podcasts.apple.com]
+  applebooks:
+    display_name: Apple Books
+    ecosystem: apple
+    mode: official_web
+    official_sources: [https://books.apple.com/]
+    allowed_host_exact: [books.apple.com]
+  applemaps:
+    display_name: Apple Maps
+    ecosystem: apple
+    mode: official_web
+    official_sources: [https://maps.apple.com/]
+    allowed_host_exact: [maps.apple.com]
