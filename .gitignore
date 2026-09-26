@@ -8,7 +8,7 @@ build/
 raw/
 reports/*
 !reports/.gitkeep
-releases/
+!reports/service-completion-program.json
 *.egg-info/
 .coverage
 htmlcov/
