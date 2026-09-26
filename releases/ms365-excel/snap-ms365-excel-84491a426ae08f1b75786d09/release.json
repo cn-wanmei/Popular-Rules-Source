@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "916c0984fe631d3067d4974f18b02dbbd368ab83a964da11cccaee8276adb887",
+    "manifest.json": "d42ee4fd9a2c6c336cd6c0cdaa95975f12a35fb00831e0ec10fe1f4b00f069b5",
+    "provenance.json": "ca8f15c2bac22137323219c653e336bf306572680b5b628775bd8c83a4d5a69c",
+    "snapshot_content.json": "dcc58d7f541cc1e7d7e80f9660885403b71c2e4320f359f357e9018f139d4984"
+  },
+  "content_digest": "900bba90707aaa7eab53c646a618e1572b5f396c03615e734bde5ba67131b23e",
+  "created_at": "2026-09-26T14:09:10.370622+00:00",
+  "evidence_digest": "eea2913c7106b76494a0b92f876c6d12cc4fcfd9134866f71298cf301ae60273",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "a47e508008bb598251fecb6d9cb39eef2d6ac35a9beeb5be574a6a90ef986a27",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "84491a426ae08f1b75786d0910884a1207ae9d355b0fa1d50c53d948c74c3d34",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "ms365-excel",
+  "snapshot_id": "snap-ms365-excel-84491a426ae08f1b75786d09",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

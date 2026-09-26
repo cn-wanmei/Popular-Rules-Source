@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:5b8bf6d65c92ad0a1a84778493348256ed68f86534491fa6f79524333c5c6dbe",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-google-voice-001-b6640bc31c36"
+      ],
+      "service_id": "google-voice",
+      "type": "domain",
+      "value": "voice.google.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "2cbf69c2c1e55a7236ab85892648939e519429312ad1d02df5555774e6a5b68d",
+  "created_at": "2026-09-26T14:08:43.288393+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "voice.google.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "voice.google.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "b6640bc31c362fdf38d8ecfb317dcb00288d7704d2acf2049c768cea04a4f0b5",
+      "domains_extracted": 1,
+      "evidence_id": "EV-google-voice-001-b6640bc31c36",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://voice.google.com/",
+      "retrieved_at": "1790431195680421942",
+      "service_id": "google-voice",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://voice.google.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "7a517bd5f4aac3618427f1cce5a00e47ad63b375dcc1e38ca64b2286d10f5b9c",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "5c6042be849ebd47aef7ea129f03c60ceb44c02c9509028defd4f682252e4b9e",
+  "previous_domain_count": 0,
+  "release_digest": "d823134be8c59031aa5055d8398f6fc035e4153d65b51e3f5b948eda71cbeaf1",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "3ed392d76828b3cce56e8a0f97e84cefa85b6fa4a1ff9dace237134307a17ba8",
+  "service_id": "google-voice",
+  "snapshot_content_sha256": "2cbf69c2c1e55a7236ab85892648939e519429312ad1d02df5555774e6a5b68d",
+  "snapshot_id": "snap-google-voice-d823134be8c59031aa5055d8",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://voice.google.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

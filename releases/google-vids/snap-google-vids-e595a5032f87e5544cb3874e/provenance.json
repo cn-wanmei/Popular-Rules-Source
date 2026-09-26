@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:7b272bf6a4678cfa956b29170648eec2c869bd9a9f8cf77bad06eb54d83be902",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-google-vids-001-9fc3074f0c33"
+      ],
+      "service_id": "google-vids",
+      "type": "domain",
+      "value": "vids.google.com"
+    }
+  ],
+  "content_digest": "eec3663063d91981973eedd9437a956ee7a426a125f9d873c0e73cccf22bf0c8",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "9fc3074f0c331c34abf759e66baefa6063c617b00fdac287461671688120c04c",
+      "domains_extracted": 1,
+      "evidence_id": "EV-google-vids-001-9fc3074f0c33",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://vids.google.com/",
+      "retrieved_at": "1790431195680421942",
+      "service_id": "google-vids",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://vids.google.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "ead794d7ada25121fd06ef44ad877fa78fc5bc5e3f2dc836ab5ba83e0bdd6943",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "19bb06fe2de8fc7b5520d4339305892c3f867a47ce6709ea8c6df568a3a648a7",
+  "release_digest": "e595a5032f87e5544cb3874e0e9bed86007051e9b748e9ac0630d71612b34533",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "google-vids",
+  "snapshot_id": "snap-google-vids-e595a5032f87e5544cb3874e",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

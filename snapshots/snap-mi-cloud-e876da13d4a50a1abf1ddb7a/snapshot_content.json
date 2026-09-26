@@ -1,0 +1,12 @@
+{
+  "content_digest": "97c89cbd54189c7127ddcf737025c954a890e239f99f58fedb11a6ec18d7a97d",
+  "domains": [
+    "i.mi.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "mi-cloud",
+  "source_hashes": [
+    "272a36eedefa842f6f879f19ae0ee8871d34b2fadf45d0160dbc22b080ffebce"
+  ]
+}

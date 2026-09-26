@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:904eb43107dd8148196b47fbac64bb42645c4cb5be9aef43da4ec3c648e73ce3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-anthropic-claude-001-42d9dfe11263"
+      ],
+      "service_id": "anthropic-claude",
+      "type": "domain",
+      "value": "claude.ai"
+    }
+  ],
+  "content_digest": "bc85fac3fec136dc9de4edb7a5bc03acce2747b4da00809bc9ada441c3efb616",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "42d9dfe112632f57dad5398be67a0edd01e13489fd50817e2dda92e43543b71b",
+      "domains_extracted": 1,
+      "evidence_id": "EV-anthropic-claude-001-42d9dfe11263",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://claude.ai/",
+      "retrieved_at": "1790431195680329253",
+      "service_id": "anthropic-claude",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://claude.ai/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "45ab24b4a79567a7c6600c59455040cc65a156a72eb1b6a93601dd83d09f7456",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "8f24bac12c98aa1d3dcaab8cef4614be3dbaaf0cad78de28596fb0a65d9c33b7",
+  "release_digest": "57b3b3b1999c5d83d8f322a5ce8a0f06ba2cc74410220c7ec588cfd2824d0901",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "anthropic-claude",
+  "snapshot_id": "snap-anthropic-claude-57b3b3b1999c5d83d8f322a5",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

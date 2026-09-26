@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "38bf6a2ad023e528e18ba366fe3221a02b8d0ae0e27a19657d0feaf2a50026e3",
+    "manifest.json": "d303a0faf0b7e5d94e3956c2886135e19d559aab145880db3cf4b0f030792f78",
+    "provenance.json": "57b3a408d2113596f68801ac72dcda02f572ecad80d076cc12ac0dc8d6cd4d05",
+    "snapshot_content.json": "65ec21621389483094fc4e462391e5b8347577eb6b416a97f5f1975787c72115"
+  },
+  "content_digest": "136199a431fd24f6d0211bd5f2fd2466f15c8d9fa2ecc1b0614e20744d4d6b5e",
+  "created_at": "2026-09-26T14:09:48.927471+00:00",
+  "evidence_digest": "9bf2a98466dbcf48e5f1333e86b4455d1f17e713fc736551085cfe8bcbbd4f33",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "a119ff863569a6ba7e86ae8f5b1d5d53302f509b11dabd9cf12e132be95d5dc5",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "cb11ed05173e638e4642ab1127f9be7bdea246a633bba42f36a306977f9ca934",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "ms365-mesh",
+  "snapshot_id": "snap-ms365-mesh-cb11ed05173e638e4642ab11",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

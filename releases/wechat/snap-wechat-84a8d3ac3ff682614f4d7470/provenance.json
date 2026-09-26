@@ -1,0 +1,317 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:7b05837209c9eca050db02448f6f21c2f8f7d67313383b70a34540b96ef7cb4a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "apd-pcdnwxlogin.teg.tencent-cloud.net"
+    },
+    {
+      "asset_id": "sha256:22e59487e3b36e6929f56bb3c4c2eec350efb7e66d31bbddd0a3c214e971143e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "btrace.qq.com"
+    },
+    {
+      "asset_id": "sha256:cab0004b7b4198fa977d32f811b2ccf95e401d265516dd87280c7d3a9ff91169",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "dldir1.qq.com"
+    },
+    {
+      "asset_id": "sha256:d699f99ee2094ba520ba5300d42da58a27875dd10fc57c6dc293b920c6b30141",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "iot-tencent.com"
+    },
+    {
+      "asset_id": "sha256:d729a3d4151b6edbd7595fafacd101e68659e0ced9ae1e2bfecc95025dd6ac56",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "map.qq.com"
+    },
+    {
+      "asset_id": "sha256:903583ac223090ad8438592c224b20cd3b90344f59ce26c3645e3932800a78da",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "qlogo.cn"
+    },
+    {
+      "asset_id": "sha256:bde35449a23040dc045930f9ab44851e4cda9d049cf5a13cf3d0f011ac96eecf",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "qpic.cn"
+    },
+    {
+      "asset_id": "sha256:98720160db89467fa392c5bbc8164d6aad676a8a94d7fe276de23831df74c0ab",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "servicewechat.com"
+    },
+    {
+      "asset_id": "sha256:6b98f464072ac004a467378f04e9adddc6b1f8e6367cca2de76a508e527fb2a4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "slife.xy-asia.com"
+    },
+    {
+      "asset_id": "sha256:ac41b8ceb672d5a82cf300675b790a11b929a42204f38239e6567d98d5fc161a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "soup.v.qq.com"
+    },
+    {
+      "asset_id": "sha256:706ad60266ef962492611b0de510bffc2b21f5025c026537f7f5709308276077",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "tenpay.com"
+    },
+    {
+      "asset_id": "sha256:c21673124387dbcd3db34ca166a72bb73e6e90acdb0c29f8f6102005ea1674b1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "up-hl.3g.qq.com"
+    },
+    {
+      "asset_id": "sha256:5628efde8490240c12c2121ea2907ffd3d61cfa9417cc4e2cfe7f82bc4898151",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "vweixinf.tc.qq.com"
+    },
+    {
+      "asset_id": "sha256:38321ca2b4cd708edb8415dfa87ff20d80e9b8dc4358c5454fc637885ca1c213",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "vweixinthumb.tc.qq.com"
+    },
+    {
+      "asset_id": "sha256:48c278db36260b14c74046d55ede3eaba6bd7e8e1843874afdb9e98be22943ad",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "wechat.com"
+    },
+    {
+      "asset_id": "sha256:967aeb72ed8393bf3c245f18564339f4bf099ee949c0c66905e7a99d595a6b37",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "wechatlegal.net"
+    },
+    {
+      "asset_id": "sha256:63577e8f2e7cedf767ff0ed604121796d863590d3939bf1effa7374e2de56d48",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "wechatos.net"
+    },
+    {
+      "asset_id": "sha256:ab6cbe2c4f1c4863ac804134d1bcc2bc4d48ff8adc7dae2a14ade03c59fe4a28",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "wechatpay.com"
+    },
+    {
+      "asset_id": "sha256:c8fca0c4ea42ae277a8b680c2ca08487662b0e2d37c3dfbd3952d34055ac305e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "weixin.com"
+    },
+    {
+      "asset_id": "sha256:82e0d8af33f5e04b0240503d78fce46bb28c3701b6cc9ffbdd2f469ceb0eef34",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "weixin.qq.com"
+    },
+    {
+      "asset_id": "sha256:962d4ee3ff648709ec2f676221e2da57459f4ce3195ec3f66aa8121f6f52d2f6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "weixin110.qq.com"
+    },
+    {
+      "asset_id": "sha256:e045085dd60aa4b9589583dd56441a2cac69659738656c6a74af1eff9bc1b47c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "weixinbridge.com"
+    },
+    {
+      "asset_id": "sha256:0931833d2bcecb7379c25a8c11db93ebce4d02aa941ca6660771408723580ad6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "weixinsxy.com"
+    },
+    {
+      "asset_id": "sha256:a384e38bdcba64bb2bbfc5bcd371d335b0db6e55afc2c11b3111bf343387b239",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "wup.imtt.qq.com"
+    },
+    {
+      "asset_id": "sha256:a708a4d8a0cf5e1a6c7d7465851589157103b2fc42422612b275c7ba5a414901",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "wx.qq.com"
+    },
+    {
+      "asset_id": "sha256:84a096c8c5ad510a400dc181b503c4a75d048b5008f3e51967453b98e1317640",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "wxapp.tc.qq.com"
+    },
+    {
+      "asset_id": "sha256:dab7856266fb55b848bbf077d938ccfa683332f5779d7a33ac28e86986dae2c7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "wxs.qq.com"
+    },
+    {
+      "asset_id": "sha256:fc0053193dbd12313f7fd1ee4cfa3665f16fecbd215bee3d1f64bd703ea95859",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wechat-001-ce1f7bea4715"
+      ],
+      "service_id": "wechat",
+      "type": "domain",
+      "value": "yun-hl.3g.qq.com"
+    }
+  ],
+  "content_digest": "30c7ce7830e6ee3bd9c59dd673513670e704ce6e1090d925d3d641ce2e774b2b",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "ce1f7bea47157c267e0da7da4d5bc68915aca5c24b4c126c7e27b4127a0dfc54",
+      "domains_extracted": 30,
+      "evidence_id": "EV-wechat-001-ce1f7bea4715",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeChat/WeChat.list",
+      "retrieved_at": "2026-09-26T14:03:26.809714+00:00",
+      "service_id": "wechat",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/WeChat/WeChat.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "4453803603c623b9c90a9e14dbf817d4e89e7b63b69bd7b59604cc6cce79dd31",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "f2dc4e13f4b78ccbc70391032accd31894f4128818e0b18e4a87e53dcc17f07c",
+  "release_digest": "84a8d3ac3ff682614f4d74707143b49e1270a28f3f3b8c58b5928d8be8828350",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "wechat",
+  "snapshot_id": "snap-wechat-84a8d3ac3ff682614f4d7470",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "content_digest": "892232d9338c6e9824103de555f275e29e54af6ee2a5815823575d1dff602624",
+  "domains": [
+    "studio.workspace.google.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "google-workspace-studio",
+  "source_hashes": [
+    "79f5f15f5ac1931c7b92655d2ce80a7cd41cf7d4b805c0981c49b6be936c5318"
+  ]
+}

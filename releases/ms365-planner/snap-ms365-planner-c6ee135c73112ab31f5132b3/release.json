@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "53dec19c06510bbe4fd093e232837154fd011cf9324e00450496f4ab79544fe8",
+    "manifest.json": "8dab355ed44e624a9ad1baacf54eb5c924f8c4af5e08c651bf80f233e5ae1081",
+    "provenance.json": "00fbfd8634e098529e5926e694b269eead4f8ec46ea72226ee702fc8e4a23686",
+    "snapshot_content.json": "2350c7f6d6baf9d5ad34088a6cbe62f832e94f5b059c0ec52279a7567efa20cc"
+  },
+  "content_digest": "c2ca297ac8ade2eaa19b82a7385f9bf297f84ec9d5f8b2d6252aa1f09af404a2",
+  "created_at": "2026-09-26T14:09:33.507019+00:00",
+  "evidence_digest": "ba9fe11850a1b9ddd7e3974f7de6f2f7b46f9169e5c00ad0eabe28ad4c49819f",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "29834b2a58189263379b885b38c7b36ab63944cfd64cd09fd86be0844fcdf2e4",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "c6ee135c73112ab31f5132b3a6f35087f8b469da7b0f7e1da422f25ab3f07266",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "ms365-planner",
+  "snapshot_id": "snap-ms365-planner-c6ee135c73112ab31f5132b3",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

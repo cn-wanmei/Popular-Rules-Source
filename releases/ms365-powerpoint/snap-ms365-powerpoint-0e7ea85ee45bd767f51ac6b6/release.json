@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "6ee6978c7e095ffbe0796beaeeefd0e363e59dcc8921edc822baab087f387478",
+    "manifest.json": "e1699d1eb749fcb58b567837bb72fb5f0a269af9b36b39cf17cea089ded771c0",
+    "provenance.json": "75b533dd77205c698c9f657a97935375eb22c29d94fce3dd872630697ef07dfc",
+    "snapshot_content.json": "4c7c1323b22d9d4c8b37738ece2d91c7f1d79f57b17f615b3a8594efb9ede747"
+  },
+  "content_digest": "684746b9a44ba30b765e6ed5757a53a8a7a7718760f82666afaca3a2eb79eee5",
+  "created_at": "2026-09-26T14:09:17.980322+00:00",
+  "evidence_digest": "08e399dca0a2fc01a7eebffeb6576bfc412ec24fce2e15223b23c64b34e758f5",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "a02bf7169c788907ff2487c3eacf1e31febddf4a91ba9c4615eb608027b7922f",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "0e7ea85ee45bd767f51ac6b6d75d5de2fbad2a4d1a091a0b32220aea5ee92753",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "ms365-powerpoint",
+  "snapshot_id": "snap-ms365-powerpoint-0e7ea85ee45bd767f51ac6b6",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

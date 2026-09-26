@@ -1,0 +1,77 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:cc31f594295b0a56d34e5785681545ed5ed4b5696567d045eb4b85a01d07f3bb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-messenger-001-230d53d14bed"
+      ],
+      "service_id": "messenger",
+      "type": "domain",
+      "value": "fbmessenger.com"
+    },
+    {
+      "asset_id": "sha256:18d9d955ea2e664c87736e85ea6faa1551ea53074f24e75bac3809abb2b0d07b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-messenger-001-230d53d14bed"
+      ],
+      "service_id": "messenger",
+      "type": "domain",
+      "value": "m.me"
+    },
+    {
+      "asset_id": "sha256:3449497d19d318893d4c2a5b6423afd5c41b4c2e725021b4381976ec77a87dcb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-messenger-001-230d53d14bed"
+      ],
+      "service_id": "messenger",
+      "type": "domain",
+      "value": "messenger.com"
+    },
+    {
+      "asset_id": "sha256:b1aa552a80c8f5ccdf7d98f0af886f349533361babf4814fdb41ea81098e0164",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-messenger-001-230d53d14bed"
+      ],
+      "service_id": "messenger",
+      "type": "domain",
+      "value": "nbabot.net"
+    }
+  ],
+  "content_digest": "afe8fa86464c22479db5c1609a1f7f9f23c6ae71394f81d3cad19a2229247ab9",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "230d53d14bed2582219d43b73e9a08590bb3ca5e784d7b13207d3ce0f2f0bb1e",
+      "domains_extracted": 4,
+      "evidence_id": "EV-messenger-001-230d53d14bed",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/messenger.list",
+      "retrieved_at": "2026-09-26T14:05:04.097438+00:00",
+      "service_id": "messenger",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/messenger.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "4f0ed0ad9b4f0063f3b6e59aca2f8bda4cf4239d7ecb21fd30dbf16ff90dc366",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+  "release_digest": "b3b52c8322960d4f1927955001aecfbc732f41033da019cbe03d86df01d296c4",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "messenger",
+  "snapshot_id": "snap-messenger-b3b52c8322960d4f19279550",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}

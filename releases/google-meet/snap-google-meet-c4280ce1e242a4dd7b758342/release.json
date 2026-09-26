@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "9d6e7548a5da69d263ec1d16e72ae6fc51eccdcccde043da6b957738853ae95b",
+    "manifest.json": "c6d0c100efc4fb55d45684aab33b50da6cd68e0bcbf55520014ffabb2f596dcd",
+    "provenance.json": "49a7bcb6659d03b1f25bf03d0dd9393b07b7bd209b07668fdfa8b43587ba49a6",
+    "snapshot_content.json": "b051a52fb499dc4fb52adffdce20f2e8dc2d688524e15658d52f7e30cfe37fa4"
+  },
+  "content_digest": "42389bf58d81de5448b5d266c6e87f12fdb6d4b099948989573b0617993846fb",
+  "created_at": "2026-09-26T14:07:30.940347+00:00",
+  "evidence_digest": "ae20185e0380534f6014d3759fc0d4cb17d222646856d885343ad920b05a34db",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "7ebf9c077d47ddaa03ba7c8abb1c5b50fedc1326abbaf5d93788bf45158d63e4",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "c4280ce1e242a4dd7b758342aca0a211f0a55f5e6ef99a57c10b6a6c34a3eded",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "google-meet",
+  "snapshot_id": "snap-google-meet-c4280ce1e242a4dd7b758342",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

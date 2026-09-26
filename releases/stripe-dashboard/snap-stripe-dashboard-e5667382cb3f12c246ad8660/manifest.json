@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:17562bda82a519d1528ec48a29052bf5429c98bec784720b540035b6f87d7a5a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-stripe-dashboard-001-20e2ed1bce1f"
+      ],
+      "service_id": "stripe-dashboard",
+      "type": "domain",
+      "value": "dashboard.stripe.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "8a428c33fa4e493e80018976b613689c3f64854c207082a058a0593b53a1c01a",
+  "created_at": "2026-09-26T14:06:19.008924+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "dashboard.stripe.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "dashboard.stripe.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "20e2ed1bce1f103206c28d04dbc2e04cd47459d1f68a3187635235ed1332c421",
+      "domains_extracted": 1,
+      "evidence_id": "EV-stripe-dashboard-001-20e2ed1bce1f",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://dashboard.stripe.com/",
+      "retrieved_at": "1790431195681421949",
+      "service_id": "stripe-dashboard",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://dashboard.stripe.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "5e2966cae490d2c1413900c2d417728032a96306dc6dfb9f15124c019582b713",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "6735ba3aed6b3952e5b8595951343d875da92cd658739d6d988e1b975f3ac889",
+  "previous_domain_count": 0,
+  "release_digest": "e5667382cb3f12c246ad866075307fc8acda2243297009d3c509137856b55ede",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "5f7473eafa331b679fe7d6535cded39e45b42728444f7067fbb557048d967469",
+  "service_id": "stripe-dashboard",
+  "snapshot_content_sha256": "8a428c33fa4e493e80018976b613689c3f64854c207082a058a0593b53a1c01a",
+  "snapshot_id": "snap-stripe-dashboard-e5667382cb3f12c246ad8660",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://dashboard.stripe.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

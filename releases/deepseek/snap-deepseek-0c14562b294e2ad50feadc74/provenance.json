@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:73c3a7bb853f6da0ffa6946f286f901c0573e607951ac0d99a3de495f606ee6c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-deepseek-001-fcb7018ebebc"
+      ],
+      "service_id": "deepseek",
+      "type": "domain",
+      "value": "deepseek.com"
+    },
+    {
+      "asset_id": "sha256:5f9e149964baa3c8fc505aea29bb7fd89f60fc201f82dee8183e72cc3fed8c01",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-deepseek-001-fcb7018ebebc"
+      ],
+      "service_id": "deepseek",
+      "type": "domain",
+      "value": "deepseeksvc.com"
+    }
+  ],
+  "content_digest": "fe8a0928038519346854c53651fdad0b23a5ca2a59d456a89b955f7f31daee6c",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "fcb7018ebebc5716a7c8351c14c07455ebc68cbadb0a0954ffe6ac4d46bc8502",
+      "domains_extracted": 2,
+      "evidence_id": "EV-deepseek-001-fcb7018ebebc",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/deepseek.list",
+      "retrieved_at": "2026-09-26T14:02:18.572967+00:00",
+      "service_id": "deepseek",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/deepseek.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "8472fbd6aacb22687254c4a1c4588ede0a045e5fe982600f653052344507509b",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+  "release_digest": "0c14562b294e2ad50feadc74e069e7f36855a0518f6c129883e40eae0fb06911",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "deepseek",
+  "snapshot_id": "snap-deepseek-0c14562b294e2ad50feadc74",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}

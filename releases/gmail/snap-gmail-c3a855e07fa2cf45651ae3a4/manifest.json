@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:47c98b67b74ae51dad0386d3a8a6961971111fc1b88f224895008c5d7d4646e8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-gmail-001-cafabc15f55d"
+      ],
+      "service_id": "gmail",
+      "type": "domain",
+      "value": "mail.google.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "9a6769a01a273be3169036d6f613ef9ac5f778c1710cbe81de5cb2efde164cb5",
+  "created_at": "2026-09-26T14:06:34.071802+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "mail.google.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "mail.google.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "cafabc15f55d97cbf6ccee66b9dd6cfcb523e61dcd4c548c8834ea3271d9a8fc",
+      "domains_extracted": 1,
+      "evidence_id": "EV-gmail-001-cafabc15f55d",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://mail.google.com/",
+      "retrieved_at": "1790431195680329253",
+      "service_id": "gmail",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://mail.google.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "c759d642ba52333e02e096a29b5f4ef6722926cd08e179f59ef6b45cdff570ea",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "127ac3d768650369ff10206fdecf182fdcb674018b867961d2863ab90bd35cc0",
+  "previous_domain_count": 0,
+  "release_digest": "c3a855e07fa2cf45651ae3a473cde31e30cec5b049f917bd6b4562ab7dfda685",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "a3455942e877a8327b60e2146af10923a4f421e810bf454dbbc1fde9ed583916",
+  "service_id": "gmail",
+  "snapshot_content_sha256": "9a6769a01a273be3169036d6f613ef9ac5f778c1710cbe81de5cb2efde164cb5",
+  "snapshot_id": "snap-gmail-c3a855e07fa2cf45651ae3a4",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://mail.google.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

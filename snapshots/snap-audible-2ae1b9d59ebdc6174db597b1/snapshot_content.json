@@ -1,0 +1,12 @@
+{
+  "content_digest": "b49a984482fb73d2cbf403f2e9cdfa83eaf33f7a0ee27ac26e175cf33515e07c",
+  "domains": [
+    "audible.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "audible",
+  "source_hashes": [
+    "4c5bf28589bdf2797bf45a186328ad892d93fb686ff6cf3ca9391c7ee7a159ad"
+  ]
+}

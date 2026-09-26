@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:de909162f6cf12c27ebae9397deff9c504d3ed50465a3d3efda814ad09379d9b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-google-workspace-studio-001-79f5f15f5ac1"
+      ],
+      "service_id": "google-workspace-studio",
+      "type": "domain",
+      "value": "studio.workspace.google.com"
+    }
+  ],
+  "content_digest": "892232d9338c6e9824103de555f275e29e54af6ee2a5815823575d1dff602624",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "79f5f15f5ac1931c7b92655d2ce80a7cd41cf7d4b805c0981c49b6be936c5318",
+      "domains_extracted": 1,
+      "evidence_id": "EV-google-workspace-studio-001-79f5f15f5ac1",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://studio.workspace.google.com/",
+      "retrieved_at": "1790431195680421942",
+      "service_id": "google-workspace-studio",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://studio.workspace.google.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "d17c4df47987fb10019e25641a28d1e4ff86fe06ff2b38e2ef6d42ba8af2f28d",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "da013e4278d84dc1fa465a70071e62e404162a0f5fa926be6165178a60dda769",
+  "release_digest": "a936fad5df9362c828fb9d68e2660c27eeaff18783500e14e1e7126c349bde84",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "google-workspace-studio",
+  "snapshot_id": "snap-google-workspace-studio-a936fad5df9362c828fb9d68",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

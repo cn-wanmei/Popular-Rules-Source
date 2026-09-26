@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:b91c3a38bac98bb2cd9f310ecfa77e7472fb3fd0c53be946fe6458ca5a69b068",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-ms365-onenote-001-7e42dd7b41ae"
+      ],
+      "service_id": "ms365-onenote",
+      "type": "domain",
+      "value": "onenote.cloud.microsoft"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "04f6b919ec838d2e9a76a192fc0730a022845e39a924a6bd17dd7e0d4837541a",
+  "created_at": "2026-09-26T14:09:21.809247+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "onenote.cloud.microsoft"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "onenote.cloud.microsoft"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "7e42dd7b41ae1b1f4e704005b0182c23bfe0234dfdc9033eded01accd08b6a15",
+      "domains_extracted": 1,
+      "evidence_id": "EV-ms365-onenote-001-7e42dd7b41ae",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://onenote.cloud.microsoft/",
+      "retrieved_at": "1790431195681421949",
+      "service_id": "ms365-onenote",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://onenote.cloud.microsoft/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "aa6e69460d12606e91c9e2242fff8c2c517cf43ca009ce4fa61d657ca95c3675",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "60e2f987f68008d0b40de1eab9a2548cc36296a74b0184c116fb2282e60874ea",
+  "previous_domain_count": 0,
+  "release_digest": "5115ce5bb375c71660f5b78fa7cfd8792b07ca07c7abea1699352b5e026a2025",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "24102a4e5435213f32bf07dd50c0df94b17f6cc28149090e6882024c2ca3e7cb",
+  "service_id": "ms365-onenote",
+  "snapshot_content_sha256": "04f6b919ec838d2e9a76a192fc0730a022845e39a924a6bd17dd7e0d4837541a",
+  "snapshot_id": "snap-ms365-onenote-5115ce5bb375c71660f5b78f",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://onenote.cloud.microsoft/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

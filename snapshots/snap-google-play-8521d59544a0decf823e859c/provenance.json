@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:a15790b76d2a9e6b8c1d90aa2dddb707335620f3006fc3e62506ee7b5ff5776e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-google-play-001-5090d51ee758"
+      ],
+      "service_id": "google-play",
+      "type": "domain",
+      "value": "play.google.com"
+    }
+  ],
+  "content_digest": "f977283927cdedf852a04bd1406d728efd35a697cff65638fb902ef19945b64b",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "5090d51ee75890bf5852eeaa7470bb24b844bae08584fde24d4d48ba5b0dc3b0",
+      "domains_extracted": 1,
+      "evidence_id": "EV-google-play-001-5090d51ee758",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://play.google.com/",
+      "retrieved_at": "1790431195680421942",
+      "service_id": "google-play",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://play.google.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "3918f0f9ee3c482b63a17d5beb1abbb433765af55608aa84a5723706845bb4df",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "cdffbf1a20e3dfb898506d29a7e6e9de6096d10efe57f8528d945187835ee592",
+  "release_digest": "8521d59544a0decf823e859c686551ac687083dcadf0b67f8a4af4dea35d5c33",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "google-play",
+  "snapshot_id": "snap-google-play-8521d59544a0decf823e859c",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

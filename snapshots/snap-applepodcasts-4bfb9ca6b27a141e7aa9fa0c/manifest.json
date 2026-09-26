@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:cb2eb228fbaa3f66514a46d66efc61a755bab244d6d9a7ef3e93ff9b5bc98c71",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applepodcasts-001-d87eaa454036"
+      ],
+      "service_id": "applepodcasts",
+      "type": "domain",
+      "value": "podcasts.apple.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "41fd6c0d491112b4359434c653ce5dd64e857d0dd7eeab02b164d31899a529f0",
+  "created_at": "2026-09-26T14:09:52.778952+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "podcasts.apple.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "podcasts.apple.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "d87eaa454036f5892974e561be80659e3a5eb64effa6eb6269e1834c15230089",
+      "domains_extracted": 1,
+      "evidence_id": "EV-applepodcasts-001-d87eaa454036",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://podcasts.apple.com/",
+      "retrieved_at": "1790431195680329253",
+      "service_id": "applepodcasts",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://podcasts.apple.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "53707ba503e864e0813778af5449e1020a1a4bef75339c170fd509c4a1badd91",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "6fe04fbe2ee61f01e9359b960f17fca8f1eedc81f29a12f5b0dbf937f7afcf33",
+  "previous_domain_count": 0,
+  "release_digest": "4bfb9ca6b27a141e7aa9fa0c9574d0ad11460ca07b78ce0c5c3658e9164b3157",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "2134f3b27e2b3a1c33850739b85798b85940a897d3a7ca43011dc318e9eca2a9",
+  "service_id": "applepodcasts",
+  "snapshot_content_sha256": "41fd6c0d491112b4359434c653ce5dd64e857d0dd7eeab02b164d31899a529f0",
+  "snapshot_id": "snap-applepodcasts-4bfb9ca6b27a141e7aa9fa0c",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://podcasts.apple.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:a6927fda4ce0d19d223db8915d3a3c099272d6f494fed9693fe3f9edce85ccd3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemaps-001-33c8d3114116"
+      ],
+      "service_id": "applemaps",
+      "type": "domain",
+      "value": "maps.apple.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "83ac9508a8a35f00d5feb3a2761bf2e1cd56d7c159c7eb8270d92c83cb08a663",
+  "created_at": "2026-09-26T14:10:08.247558+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "maps.apple.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "maps.apple.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "33c8d31141162b8569b7073d545a36ff17e3011fcfe382ccbbfbed678aa4f4d7",
+      "domains_extracted": 1,
+      "evidence_id": "EV-applemaps-001-33c8d3114116",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://maps.apple.com/",
+      "retrieved_at": "1790431195680329253",
+      "service_id": "applemaps",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://maps.apple.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "458e27d5cab91fb38a357807ba7b9d5e4924c0adbb1161aaafd8dba94a5dc547",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "fc13cfbec4a34076817d10cb8b02f5d901d1cbce3b093fe3791690f239b1a38e",
+  "previous_domain_count": 0,
+  "release_digest": "71a1a34ed238b4cf742e293e29242961b105f6b4c15c19dd47471857f2484d1a",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "493d8ca7e7f344b9a63a11c48a28e5a9912edd87ab0c023d677e4252b0c9b8d1",
+  "service_id": "applemaps",
+  "snapshot_content_sha256": "83ac9508a8a35f00d5feb3a2761bf2e1cd56d7c159c7eb8270d92c83cb08a663",
+  "snapshot_id": "snap-applemaps-71a1a34ed238b4cf742e293e",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://maps.apple.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

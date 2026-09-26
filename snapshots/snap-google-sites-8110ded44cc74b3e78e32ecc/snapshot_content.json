@@ -1,0 +1,12 @@
+{
+  "content_digest": "cec96d9bdf7916510d7c1a6bd00a980f1720795d6f199e0f965870983fae2d1c",
+  "domains": [
+    "sites.google.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "google-sites",
+  "source_hashes": [
+    "4f15ada9195f4695435a4de8d70695a2b24cfe4770bdeda9178dcbbd9f698623"
+  ]
+}

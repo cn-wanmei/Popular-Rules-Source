@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:5b8bf6d65c92ad0a1a84778493348256ed68f86534491fa6f79524333c5c6dbe",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-google-voice-001-b6640bc31c36"
+      ],
+      "service_id": "google-voice",
+      "type": "domain",
+      "value": "voice.google.com"
+    }
+  ],
+  "content_digest": "2cbf69c2c1e55a7236ab85892648939e519429312ad1d02df5555774e6a5b68d",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "b6640bc31c362fdf38d8ecfb317dcb00288d7704d2acf2049c768cea04a4f0b5",
+      "domains_extracted": 1,
+      "evidence_id": "EV-google-voice-001-b6640bc31c36",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://voice.google.com/",
+      "retrieved_at": "1790431195680421942",
+      "service_id": "google-voice",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://voice.google.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "7a517bd5f4aac3618427f1cce5a00e47ad63b375dcc1e38ca64b2286d10f5b9c",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "5c6042be849ebd47aef7ea129f03c60ceb44c02c9509028defd4f682252e4b9e",
+  "release_digest": "d823134be8c59031aa5055d8398f6fc035e4153d65b51e3f5b948eda71cbeaf1",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "google-voice",
+  "snapshot_id": "snap-google-voice-d823134be8c59031aa5055d8",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

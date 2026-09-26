@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:f35a4ab3ef3d7be9f78bbd5ef16b1350ccc43458957c842a100cc281e069bcc5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-google-maps-001-8177648407d1"
+      ],
+      "service_id": "google-maps",
+      "type": "domain",
+      "value": "maps.google.com"
+    }
+  ],
+  "content_digest": "f58beb6e394c5fe0e8f2a6df7e33de01d80597d84ff7fddbe376b7d6afebba3a",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "8177648407d1d1ed279bbc4914f70a9b0d3ea93200d916a792ae02c67dc8946c",
+      "domains_extracted": 1,
+      "evidence_id": "EV-google-maps-001-8177648407d1",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://maps.google.com/",
+      "retrieved_at": "1790431195680421942",
+      "service_id": "google-maps",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://maps.google.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "becf7354dff9ee069c1270756b7a9124ff97b1ddeb36c8677210c524de65fe6c",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "39c9682ad886be6068a9b7cb7a76739f890b9017d21658972cd67206cc915453",
+  "release_digest": "ad2f1a8bcd3a536fca6b3daca875df0742214e4a54368dbf5515d3c72e870ac8",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "google-maps",
+  "snapshot_id": "snap-google-maps-ad2f1a8bcd3a536fca6b3dac",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

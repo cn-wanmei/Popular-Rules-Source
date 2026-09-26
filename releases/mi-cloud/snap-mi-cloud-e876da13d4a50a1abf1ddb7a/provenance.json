@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:f26b3f299d8e4c3195291aee3ee07323457fb326dfad3c9bcb918f366150619e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-mi-cloud-001-272a36eedefa"
+      ],
+      "service_id": "mi-cloud",
+      "type": "domain",
+      "value": "i.mi.com"
+    }
+  ],
+  "content_digest": "97c89cbd54189c7127ddcf737025c954a890e239f99f58fedb11a6ec18d7a97d",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "272a36eedefa842f6f879f19ae0ee8871d34b2fadf45d0160dbc22b080ffebce",
+      "domains_extracted": 1,
+      "evidence_id": "EV-mi-cloud-001-272a36eedefa",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.mi.com/sg/support/article/KA-07435/",
+      "retrieved_at": "1790431195680421942",
+      "service_id": "mi-cloud",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.mi.com/sg/support/article/KA-07435/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "c036fc6fe592c11a310cb3ed970bb49ba29caf314a50fe46bbd5b6388cbc29c9",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "b089749916c8da8a8a0f07aee9620b1423dab578e725b0ba0946036ac336eb64",
+  "release_digest": "e876da13d4a50a1abf1ddb7aafc944711a499eb1f3bcc5b351b83df656125460",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "mi-cloud",
+  "snapshot_id": "snap-mi-cloud-e876da13d4a50a1abf1ddb7a",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

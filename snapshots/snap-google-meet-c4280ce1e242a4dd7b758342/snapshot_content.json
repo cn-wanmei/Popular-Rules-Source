@@ -1,0 +1,12 @@
+{
+  "content_digest": "42389bf58d81de5448b5d266c6e87f12fdb6d4b099948989573b0617993846fb",
+  "domains": [
+    "meet.google.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "google-meet",
+  "source_hashes": [
+    "98cc2311726ca06a394ade5d9ba09117a7833e0f7d0c014ef3c09249aa00b852"
+  ]
+}

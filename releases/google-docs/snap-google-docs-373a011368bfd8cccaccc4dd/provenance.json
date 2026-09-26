@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:6fe08e3115b24c6c746b6af1a1ef291c8cda2eeed01359e6ff88e5f5d4f0b11a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-google-docs-001-47af5cffbc5f"
+      ],
+      "service_id": "google-docs",
+      "type": "domain",
+      "value": "docs.google.com"
+    }
+  ],
+  "content_digest": "9c0b8ecefe02d1c45d19f2f35ba0dae1ddca77bd4a84330650bba9147164ff04",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "47af5cffbc5faea4b3ad4f753dc0b9812ff8595fdf6eff2bcddc402493aa0d4e",
+      "domains_extracted": 1,
+      "evidence_id": "EV-google-docs-001-47af5cffbc5f",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://docs.google.com/",
+      "retrieved_at": "1790431195680329253",
+      "service_id": "google-docs",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://docs.google.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "2a17e21c5eb7272f2c52ac5d2caecc6871b6831422ffc1eca23739977452be2b",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "708e1334c10ccf6cd65742d9486615a146dbbd1ac0a497a3addd38a9994b6bf4",
+  "release_digest": "373a011368bfd8cccaccc4dd97e941687cde2c536489ea7a621d79f296809a85",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "google-docs",
+  "snapshot_id": "snap-google-docs-373a011368bfd8cccaccc4dd",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

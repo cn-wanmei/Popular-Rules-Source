@@ -1,0 +1,12 @@
+{
+  "content_digest": "4a47808a40d92996a2ad5a81e7482f043aee136254aa9808c51557fea2d0003e",
+  "domains": [
+    "calendar.google.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "google-calendar",
+  "source_hashes": [
+    "eddeb78de96d2c2aa5d04d1fc48d5de3b5a15cd6c29a7fe2f2b5bb71748fcb8a"
+  ]
+}

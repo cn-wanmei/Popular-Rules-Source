@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "75a93d98ac74aaa7be66be5763f0ea9b28b36ff55a9201a0a24e401506380621",
+    "manifest.json": "93483168f2c1be2fcbc1071ce661dfac18ea15bb7d643113c6eb84dbd5de5e39",
+    "provenance.json": "9e761cd06d3081dbebd0e4497381aeaf144063489e096e74ad1dad0a8fb19495",
+    "snapshot_content.json": "d0a571c99f4d22013075cb54d0bbcdade155735b4af6d201cc89dce6daa150bb"
+  },
+  "content_digest": "83ac9508a8a35f00d5feb3a2761bf2e1cd56d7c159c7eb8270d92c83cb08a663",
+  "created_at": "2026-09-26T14:10:12.109258+00:00",
+  "evidence_digest": "458e27d5cab91fb38a357807ba7b9d5e4924c0adbb1161aaafd8dba94a5dc547",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "fc13cfbec4a34076817d10cb8b02f5d901d1cbce3b093fe3791690f239b1a38e",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "71a1a34ed238b4cf742e293e29242961b105f6b4c15c19dd47471857f2484d1a",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "applemaps",
+  "snapshot_id": "snap-applemaps-71a1a34ed238b4cf742e293e",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

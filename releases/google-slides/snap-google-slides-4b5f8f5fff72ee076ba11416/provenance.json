@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:aabde79ef8f9b257065618b2a2be58c1f398d5fe5750e6cfa15f08611da91f29",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-google-slides-001-b8110874cf56"
+      ],
+      "service_id": "google-slides",
+      "type": "domain",
+      "value": "slides.google.com"
+    }
+  ],
+  "content_digest": "78b4f6f06a800c6281dd742450ea5893b0578229ca83301dc183304007363348",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "b8110874cf56f1148f47dfa7742e872fb9207aeb831073fc7a8dfcbceab3820f",
+      "domains_extracted": 1,
+      "evidence_id": "EV-google-slides-001-b8110874cf56",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://slides.google.com/",
+      "retrieved_at": "1790431195680421942",
+      "service_id": "google-slides",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://slides.google.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "d6611f3e921186c3e19ab2318b211574545ededb0df8256af95005519a17d578",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "76fc561af4781b8943b1f7a01644d291216f68dfe7e05d122753aca8d023bffd",
+  "release_digest": "4b5f8f5fff72ee076ba114168021ef6d021d60d24550262e2b87ff07f5e32729",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "google-slides",
+  "snapshot_id": "snap-google-slides-4b5f8f5fff72ee076ba11416",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:3c3f2b3ba2430e5cb9f1caba82ee16890158e7734076a7e77f4cdb86e8b73ce1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-google-forms-001-ea67410ba4de"
+      ],
+      "service_id": "google-forms",
+      "type": "domain",
+      "value": "forms.google.com"
+    }
+  ],
+  "content_digest": "0c0f55940e659322bf320cd1c0e90137c00838d6299aca8d8953846b73d3c53e",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "ea67410ba4de21e3b49963032478654c5087c0a33530798f497bdeae031e557b",
+      "domains_extracted": 1,
+      "evidence_id": "EV-google-forms-001-ea67410ba4de",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://forms.google.com/",
+      "retrieved_at": "1790431195680421942",
+      "service_id": "google-forms",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://forms.google.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "2fdc0189fa60bff7debf0297bbf2ba7bf40cdc8061bdc2e30a4926e1fafb3ac1",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "88bf001677066715f1b449e2e384a3dc73566902e873370648cab8a35211fcff",
+  "release_digest": "559aea19004e62de9eb7175d0b6fb5ceefed3b3523851e342d9adca7a08da56e",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "google-forms",
+  "snapshot_id": "snap-google-forms-559aea19004e62de9eb7175d",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

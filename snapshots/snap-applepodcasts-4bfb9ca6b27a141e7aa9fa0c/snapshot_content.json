@@ -1,0 +1,12 @@
+{
+  "content_digest": "41fd6c0d491112b4359434c653ce5dd64e857d0dd7eeab02b164d31899a529f0",
+  "domains": [
+    "podcasts.apple.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "applepodcasts",
+  "source_hashes": [
+    "d87eaa454036f5892974e561be80659e3a5eb64effa6eb6269e1834c15230089"
+  ]
+}

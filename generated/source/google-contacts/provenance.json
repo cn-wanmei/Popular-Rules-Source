@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:7664f3a8bd28af099af371ddcfc7bab2af8df6692e7a1c9cce4ca33e58213185",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-google-contacts-001-493d2a013da5"
+      ],
+      "service_id": "google-contacts",
+      "type": "domain",
+      "value": "contacts.google.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "7824f27093403992a3d4aaae97686026a667ce01169d1f3848e7ff9ca6ce1d01",
+  "created_at": "2026-09-26T14:06:56.806070+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "contacts.google.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "contacts.google.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "493d2a013da5f549656a7e5eaf55e5ea8ebb484b2b34c3db70ea5d1233770484",
+      "domains_extracted": 1,
+      "evidence_id": "EV-google-contacts-001-493d2a013da5",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://contacts.google.com/",
+      "retrieved_at": "1790431195680329253",
+      "service_id": "google-contacts",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://contacts.google.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "c1f1b4c1a79faa7bd7abdd544a671adf2e4d1abed73ac1622d55ab7bab8de74a",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "6705f69102a81faf2b153498e72b73cf47468ce7233cb779082aef23319f59a1",
+  "previous_domain_count": 0,
+  "release_digest": "3ad5c7ecb05956597c4ae5ca1478fe0d81323f8d8b71fca038340bfd4ba1d347",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "0aa96cc982a2ce065d0f52ae6b10d849d5d144b1a4bd7af051e17e5747dee689",
+  "service_id": "google-contacts",
+  "snapshot_content_sha256": "7824f27093403992a3d4aaae97686026a667ce01169d1f3848e7ff9ca6ce1d01",
+  "snapshot_id": "snap-google-contacts-3ad5c7ecb05956597c4ae5ca",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://contacts.google.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

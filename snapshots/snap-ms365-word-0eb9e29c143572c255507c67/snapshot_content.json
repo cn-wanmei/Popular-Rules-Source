@@ -1,0 +1,12 @@
+{
+  "content_digest": "bc80d0fc0c660d2fdb15161b5b0ad806c842f2f949e7c5b037f0728769f2e1f7",
+  "domains": [
+    "word.cloud.microsoft"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "ms365-word",
+  "source_hashes": [
+    "771a5a796ab0ef7224648b713d54fec0ddd64d5a2d5dbdc60b01710b7f1160b2"
+  ]
+}

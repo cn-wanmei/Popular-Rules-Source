@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "bc3daf2addc8b598ecf10b4ed75afc6d6cd88f78002d4d0bca59bca409146f82",
+    "manifest.json": "09aa997bf295c2e303a1c7b2a7b4ca4b80851af8a5e0afdea9e1460d92d53b1a",
+    "provenance.json": "9e60a2931d5df245cd0d7075b459662df0db579a903bdee984e2a761ed84ed05",
+    "snapshot_content.json": "236f8995e40ccbe6d04a1c390c9ebc21a0c808ddbe836086917785737d01f23e"
+  },
+  "content_digest": "78b4f6f06a800c6281dd742450ea5893b0578229ca83301dc183304007363348",
+  "created_at": "2026-09-26T14:07:53.829858+00:00",
+  "evidence_digest": "d6611f3e921186c3e19ab2318b211574545ededb0df8256af95005519a17d578",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "76fc561af4781b8943b1f7a01644d291216f68dfe7e05d122753aca8d023bffd",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "4b5f8f5fff72ee076ba114168021ef6d021d60d24550262e2b87ff07f5e32729",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "google-slides",
+  "snapshot_id": "snap-google-slides-4b5f8f5fff72ee076ba11416",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

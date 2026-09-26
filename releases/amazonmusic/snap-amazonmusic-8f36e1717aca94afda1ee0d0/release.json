@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "2a8d00382c0faca08293c1f09a8286262dca252b50609649934b3896bf337134",
+    "manifest.json": "f7e7c11290743a851004424152beaf335a3b0079efad49dc351f7c51db809d0d",
+    "provenance.json": "084028e588db097df467ddc2766d96aa00e20fa1c116aad4796d45627f0bb8a7",
+    "snapshot_content.json": "56b140b8df93ad23a51e7144c2c37004b681aea3aa04f415ea9929b3c9f31e1b"
+  },
+  "content_digest": "1a87fd68b9fc5d37d39297ee03e6ba4def7c975d79b138ab0904150284095d50",
+  "created_at": "2026-09-26T14:04:45.340052+00:00",
+  "evidence_digest": "de24c5613c3a34c7f00a4ae74d96043c7ada09b608baca536246a48e5c5f9f5b",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "6dd5b9d830279b125c650beeb012ae7bbe36056523e4a6cfe6ef349c102ed832",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "8f36e1717aca94afda1ee0d06277adc767faa03e565b704f2fc892fbd3da9e81",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "amazonmusic",
+  "snapshot_id": "snap-amazonmusic-8f36e1717aca94afda1ee0d0",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

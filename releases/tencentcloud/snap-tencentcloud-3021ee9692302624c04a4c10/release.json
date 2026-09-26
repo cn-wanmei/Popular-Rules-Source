@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "3aee7d20287e15c9e109c97d04571758bc4b66fd74ace8d84967827e36260991",
+    "manifest.json": "998b452e8ec321ace1534d1f0ce7887e73c0db2591540ac710567dc4ee8ba334",
+    "provenance.json": "61506d63c97341579db761d9b4fb9f6667ca1ab83cfc9f5010ee3cc5131d2c69",
+    "snapshot_content.json": "3dde6490f7aef12866102dc61f5623619367a5c576a354e28e62734898aa483a"
+  },
+  "content_digest": "88b2b412624323e2b1bd6c19118ef0bed685b46d4b3746f791f1c2f4bdff42d0",
+  "created_at": "2026-09-26T14:00:51.321023+00:00",
+  "evidence_digest": "34534c79797de25e567da40f2caa863bf1e57bdff73ff90ae949c73d0c792dfb",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "58510f5c59ea5fddf470ff6d169b6fa0444c14a843e0409cd341c80c486546a4",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "3021ee9692302624c04a4c10a2c048722c26323f95aadd7f1fbc3c578abf76d7",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "tencentcloud",
+  "snapshot_id": "snap-tencentcloud-3021ee9692302624c04a4c10",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 1.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

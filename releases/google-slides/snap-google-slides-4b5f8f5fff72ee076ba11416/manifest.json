@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:aabde79ef8f9b257065618b2a2be58c1f398d5fe5750e6cfa15f08611da91f29",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-google-slides-001-b8110874cf56"
+      ],
+      "service_id": "google-slides",
+      "type": "domain",
+      "value": "slides.google.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "78b4f6f06a800c6281dd742450ea5893b0578229ca83301dc183304007363348",
+  "created_at": "2026-09-26T14:07:50.011704+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "slides.google.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "slides.google.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "b8110874cf56f1148f47dfa7742e872fb9207aeb831073fc7a8dfcbceab3820f",
+      "domains_extracted": 1,
+      "evidence_id": "EV-google-slides-001-b8110874cf56",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://slides.google.com/",
+      "retrieved_at": "1790431195680421942",
+      "service_id": "google-slides",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://slides.google.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "d6611f3e921186c3e19ab2318b211574545ededb0df8256af95005519a17d578",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "76fc561af4781b8943b1f7a01644d291216f68dfe7e05d122753aca8d023bffd",
+  "previous_domain_count": 0,
+  "release_digest": "4b5f8f5fff72ee076ba114168021ef6d021d60d24550262e2b87ff07f5e32729",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "83faca5001fac6a45ded695869a2d31bc0e5831dd9ad985d907f397b08cc9fd2",
+  "service_id": "google-slides",
+  "snapshot_content_sha256": "78b4f6f06a800c6281dd742450ea5893b0578229ca83301dc183304007363348",
+  "snapshot_id": "snap-google-slides-4b5f8f5fff72ee076ba11416",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://slides.google.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

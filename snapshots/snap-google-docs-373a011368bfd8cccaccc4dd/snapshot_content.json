@@ -1,0 +1,12 @@
+{
+  "content_digest": "9c0b8ecefe02d1c45d19f2f35ba0dae1ddca77bd4a84330650bba9147164ff04",
+  "domains": [
+    "docs.google.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "google-docs",
+  "source_hashes": [
+    "47af5cffbc5faea4b3ad4f753dc0b9812ff8595fdf6eff2bcddc402493aa0d4e"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:2fc6191ffe7cdc5a4b679b1050f3157f6d14269772061454721015ce17d5a54e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-google-meet-001-98cc2311726c"
+      ],
+      "service_id": "google-meet",
+      "type": "domain",
+      "value": "meet.google.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "42389bf58d81de5448b5d266c6e87f12fdb6d4b099948989573b0617993846fb",
+  "created_at": "2026-09-26T14:07:27.188304+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "meet.google.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "meet.google.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "98cc2311726ca06a394ade5d9ba09117a7833e0f7d0c014ef3c09249aa00b852",
+      "domains_extracted": 1,
+      "evidence_id": "EV-google-meet-001-98cc2311726c",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://meet.google.com/",
+      "retrieved_at": "1790431195680421942",
+      "service_id": "google-meet",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://meet.google.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "ae20185e0380534f6014d3759fc0d4cb17d222646856d885343ad920b05a34db",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "7ebf9c077d47ddaa03ba7c8abb1c5b50fedc1326abbaf5d93788bf45158d63e4",
+  "previous_domain_count": 0,
+  "release_digest": "c4280ce1e242a4dd7b758342aca0a211f0a55f5e6ef99a57c10b6a6c34a3eded",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "efcb13819b3e9c5136f017144cf6f2914f8ed06b64e0adedd24fea157d29d625",
+  "service_id": "google-meet",
+  "snapshot_content_sha256": "42389bf58d81de5448b5d266c6e87f12fdb6d4b099948989573b0617993846fb",
+  "snapshot_id": "snap-google-meet-c4280ce1e242a4dd7b758342",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://meet.google.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

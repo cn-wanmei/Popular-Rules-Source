@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:82f0be6e8c912ec6cb3578431c1dfec75dc5cf635e1196683d716e9cafa22a28",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-ms365-loop-001-1b78ef4fa3a2"
+      ],
+      "service_id": "ms365-loop",
+      "type": "domain",
+      "value": "loop.cloud.microsoft"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "f6e72ec857e90bb9c3c0afbc9f4cd0a57d4ffc54a7776eafaf99ecec6f368c84",
+  "created_at": "2026-09-26T14:09:37.353364+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "loop.cloud.microsoft"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "loop.cloud.microsoft"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "1b78ef4fa3a291258b151162b8bee6ce3e38986dd34a2446be7b386b8ea6fb17",
+      "domains_extracted": 1,
+      "evidence_id": "EV-ms365-loop-001-1b78ef4fa3a2",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://loop.cloud.microsoft/",
+      "retrieved_at": "1790431195681421949",
+      "service_id": "ms365-loop",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://loop.cloud.microsoft/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "c4c5059d1de3ee53a5d614fee4657e26081f82899aa705a78312989ac0cf2948",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "62394aac020455e41d7420c5a9ce5a9dbf85999e68f0762cb6041de20601c060",
+  "previous_domain_count": 0,
+  "release_digest": "65886fc777a8ed550f93fb6020413f61c949bad828ed1af013f701b291f979ef",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "3b6804e54cb8345c43af190d4b1d551faecc16d90553879a6873b8a8da154375",
+  "service_id": "ms365-loop",
+  "snapshot_content_sha256": "f6e72ec857e90bb9c3c0afbc9f4cd0a57d4ffc54a7776eafaf99ecec6f368c84",
+  "snapshot_id": "snap-ms365-loop-65886fc777a8ed550f93fb60",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://loop.cloud.microsoft/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

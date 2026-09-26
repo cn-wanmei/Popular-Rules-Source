@@ -1,0 +1,12 @@
+{
+  "content_digest": "04f6b919ec838d2e9a76a192fc0730a022845e39a924a6bd17dd7e0d4837541a",
+  "domains": [
+    "onenote.cloud.microsoft"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "ms365-onenote",
+  "source_hashes": [
+    "7e42dd7b41ae1b1f4e704005b0182c23bfe0234dfdc9033eded01accd08b6a15"
+  ]
+}

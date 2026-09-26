@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:17562bda82a519d1528ec48a29052bf5429c98bec784720b540035b6f87d7a5a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-stripe-dashboard-001-20e2ed1bce1f"
+      ],
+      "service_id": "stripe-dashboard",
+      "type": "domain",
+      "value": "dashboard.stripe.com"
+    }
+  ],
+  "content_digest": "8a428c33fa4e493e80018976b613689c3f64854c207082a058a0593b53a1c01a",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "20e2ed1bce1f103206c28d04dbc2e04cd47459d1f68a3187635235ed1332c421",
+      "domains_extracted": 1,
+      "evidence_id": "EV-stripe-dashboard-001-20e2ed1bce1f",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://dashboard.stripe.com/",
+      "retrieved_at": "1790431195681421949",
+      "service_id": "stripe-dashboard",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://dashboard.stripe.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "5e2966cae490d2c1413900c2d417728032a96306dc6dfb9f15124c019582b713",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "6735ba3aed6b3952e5b8595951343d875da92cd658739d6d988e1b975f3ac889",
+  "release_digest": "e5667382cb3f12c246ad866075307fc8acda2243297009d3c509137856b55ede",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "stripe-dashboard",
+  "snapshot_id": "snap-stripe-dashboard-e5667382cb3f12c246ad8660",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "content_digest": "bcfc8b2ee8c69d2e45f6b301bd41aaaf881035e8600859cc66959253ccca3557",
+  "domains": [
+    "goodreads.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "goodreads",
+  "source_hashes": [
+    "8264d7291e36b038ce33f66c18794cf172b3e5bfc05b0264e9e23a328ead7713"
+  ]
+}

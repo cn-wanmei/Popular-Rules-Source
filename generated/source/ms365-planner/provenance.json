@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:1f9ffb45f91e8ba193ed4084aae2c7dd704e7f02ba1005175d7b7fdab2964e79",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-ms365-planner-001-594f0a6afeaa"
+      ],
+      "service_id": "ms365-planner",
+      "type": "domain",
+      "value": "planner.cloud.microsoft"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "c2ca297ac8ade2eaa19b82a7385f9bf297f84ec9d5f8b2d6252aa1f09af404a2",
+  "created_at": "2026-09-26T14:09:29.578286+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "planner.cloud.microsoft"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "planner.cloud.microsoft"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "594f0a6afeaa4c1571238f230aa9460151694adf5c453f04aba06c7c052f726d",
+      "domains_extracted": 1,
+      "evidence_id": "EV-ms365-planner-001-594f0a6afeaa",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://planner.cloud.microsoft/",
+      "retrieved_at": "1790431195681421949",
+      "service_id": "ms365-planner",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://planner.cloud.microsoft/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "ba9fe11850a1b9ddd7e3974f7de6f2f7b46f9169e5c00ad0eabe28ad4c49819f",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "29834b2a58189263379b885b38c7b36ab63944cfd64cd09fd86be0844fcdf2e4",
+  "previous_domain_count": 0,
+  "release_digest": "c6ee135c73112ab31f5132b3a6f35087f8b469da7b0f7e1da422f25ab3f07266",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "72150ff0f59207253a7d197925308e5cf0edebe27a1c968e22310fb92c66c6d0",
+  "service_id": "ms365-planner",
+  "snapshot_content_sha256": "c2ca297ac8ade2eaa19b82a7385f9bf297f84ec9d5f8b2d6252aa1f09af404a2",
+  "snapshot_id": "snap-ms365-planner-c6ee135c73112ab31f5132b3",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://planner.cloud.microsoft/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:2691a32ad83bf571ffc7baf67afb23813d3acefbbf92c4530472cba5dc576a05",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-venmo-001-619cdfd6f716"
+      ],
+      "service_id": "venmo",
+      "type": "domain",
+      "value": "venmo.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "18730e8a25795c1c1f470ed95d262bf17878124273e0b6e5d17b0931fccddfb6",
+  "created_at": "2026-09-26T14:06:26.546037+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "venmo.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "venmo.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "619cdfd6f716dc7a9cb595461381d85ca59a0def26e13e3ff025e73109af36b8",
+      "domains_extracted": 1,
+      "evidence_id": "EV-venmo-001-619cdfd6f716",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://venmo.com/",
+      "retrieved_at": "1790431195681421949",
+      "service_id": "venmo",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://venmo.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "d61f72242f67346581dedb98c134316f9508a4e0ab2cddcfd4cbb49140d1160e",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "673ff06240aa813aa02bf3065822c8e00753e594ef48476bd2c203075af34641",
+  "previous_domain_count": 0,
+  "release_digest": "ad97a6f5008ebab004dbad8a15194d4dcfd124e2ec1cffb331add43a89c8687d",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "c2112273ac0ac1bb6e9e785e94b15ffb087ca21990fea053f0b27bf2ca347026",
+  "service_id": "venmo",
+  "snapshot_content_sha256": "18730e8a25795c1c1f470ed95d262bf17878124273e0b6e5d17b0931fccddfb6",
+  "snapshot_id": "snap-venmo-ad97a6f5008ebab004dbad8a",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://venmo.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

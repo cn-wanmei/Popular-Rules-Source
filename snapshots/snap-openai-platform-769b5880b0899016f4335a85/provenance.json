@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:3f4a8bcaf08cc115ceddf3085b71cb5ccf5a5a722fa4043f8b1f4292ae1b279b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-platform-001-35119cb5ebf7"
+      ],
+      "service_id": "openai-platform",
+      "type": "domain",
+      "value": "platform.openai.com"
+    }
+  ],
+  "content_digest": "55d44fda7952da68ca7b7eacbdff5501baf2dc8e4270135bf280bead04158c46",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "35119cb5ebf796e79c14fb00094c44e9a207f08dd54703eae2e3c4d1fbca2051",
+      "domains_extracted": 1,
+      "evidence_id": "EV-openai-platform-001-35119cb5ebf7",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://platform.openai.com/",
+      "retrieved_at": "1790431195681421949",
+      "service_id": "openai-platform",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://platform.openai.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "cddfa7380063c46cef33e45cc45e8683b98512b581f322e5c3e254b62752f78f",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "0ef7992c43e35a402f9a8acc513f6190c20828a28cadc7c4887cdcc2074f02c6",
+  "release_digest": "769b5880b0899016f4335a854301089f16f1e14d194aaf065bf13440be9c4d72",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "openai-platform",
+  "snapshot_id": "snap-openai-platform-769b5880b0899016f4335a85",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

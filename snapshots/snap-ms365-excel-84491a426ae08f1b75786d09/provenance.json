@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:e5a50017767873ffd936d4b3521f06c6dd9416e17df4e812707a25572b641f5f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-ms365-excel-001-7ffe26d35487"
+      ],
+      "service_id": "ms365-excel",
+      "type": "domain",
+      "value": "excel.cloud.microsoft"
+    }
+  ],
+  "content_digest": "900bba90707aaa7eab53c646a618e1572b5f396c03615e734bde5ba67131b23e",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "7ffe26d35487315a9f80cd1a1d5bdbdacd1f8a94c1892060265f13fe9587acc7",
+      "domains_extracted": 1,
+      "evidence_id": "EV-ms365-excel-001-7ffe26d35487",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://excel.cloud.microsoft/",
+      "retrieved_at": "1790431195681421949",
+      "service_id": "ms365-excel",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://excel.cloud.microsoft/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "eea2913c7106b76494a0b92f876c6d12cc4fcfd9134866f71298cf301ae60273",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "a47e508008bb598251fecb6d9cb39eef2d6ac35a9beeb5be574a6a90ef986a27",
+  "release_digest": "84491a426ae08f1b75786d0910884a1207ae9d355b0fa1d50c53d948c74c3d34",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "ms365-excel",
+  "snapshot_id": "snap-ms365-excel-84491a426ae08f1b75786d09",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

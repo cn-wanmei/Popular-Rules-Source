@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:320a7f5ca978d206d4f74b460e58d75afdf254c6575ed7f8e8cf4270f36ca0e8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-adobe-stock-001-7bd4275434dc"
+      ],
+      "service_id": "adobe-stock",
+      "type": "domain",
+      "value": "stock.adobe.com"
+    }
+  ],
+  "content_digest": "c7bc67a0e581a18cf00701fa5d293324f2a99aa74e61a165f8e4cd166de3fb6a",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "7bd4275434dc3964564bcb3ecc2ae2f579355ca5674ce2b9ba8f7cd9e096fd95",
+      "domains_extracted": 1,
+      "evidence_id": "EV-adobe-stock-001-7bd4275434dc",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://stock.adobe.com/",
+      "retrieved_at": "1790431195680329253",
+      "service_id": "adobe-stock",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://stock.adobe.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "c43bd1ef4f0087373d3b31620ad49a26f0d3cbcbab045a25b1cd4729b5e68c2e",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "199087959628609c6c79006334ace64e9be97ddb97ee68ab0ba64f6e67ad7fa0",
+  "release_digest": "fb5983c8b0ef609fde49e4e049549ea574783b195e174541ba4b8119f02a4101",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "adobe-stock",
+  "snapshot_id": "snap-adobe-stock-fb5983c8b0ef609fde49e4e0",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

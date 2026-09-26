@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:996f39c17be90d27107b29c9f7eec28db5cd5165a0f8f8d8e3102dcd086f92a1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-google-sheets-001-fd712161007b"
+      ],
+      "service_id": "google-sheets",
+      "type": "domain",
+      "value": "sheets.google.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "a857796f204216b504e7dbebaadb33722f02bf4aec6fd69ac759acdc7ef58ef5",
+  "created_at": "2026-09-26T14:07:34.803037+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "sheets.google.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "sheets.google.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "fd712161007be803ad5956660bc8d941b1bd33bd63aa5ad94451d50ba8a7b1b7",
+      "domains_extracted": 1,
+      "evidence_id": "EV-google-sheets-001-fd712161007b",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://sheets.google.com/",
+      "retrieved_at": "1790431195680421942",
+      "service_id": "google-sheets",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://sheets.google.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "a65eaf5f4c4e190aaefbf5d6e23b8b5bb9f96d195785f4d93052af1690b2d859",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "a6f3658977524842f8c179837e1c99859178a91a3e32b9e8caeab52145575399",
+  "previous_domain_count": 0,
+  "release_digest": "6de01de6e87331067661ad92f44cc64f90f0991fb93c94cefd5f03076fa6bc91",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "1110a10a3f63e0eec3da4838a5863b08370ce11dd4a2915c85fbe167c1b122fc",
+  "service_id": "google-sheets",
+  "snapshot_content_sha256": "a857796f204216b504e7dbebaadb33722f02bf4aec6fd69ac759acdc7ef58ef5",
+  "snapshot_id": "snap-google-sheets-6de01de6e87331067661ad92",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://sheets.google.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

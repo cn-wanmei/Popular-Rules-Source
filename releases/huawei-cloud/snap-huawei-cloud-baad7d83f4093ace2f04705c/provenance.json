@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:ce0495edd866629aaa2b1a074e672a1c18c4069c89cb91f4bc69d3344e50c5d2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-huawei-cloud-001-9aebe5daa8e4"
+      ],
+      "service_id": "huawei-cloud",
+      "type": "domain",
+      "value": "console-intl.huaweicloud.com"
+    }
+  ],
+  "content_digest": "21283533df930bec282c79ea6842a458df4b5a35829541e20b9c929551fb5a51",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "9aebe5daa8e429552deb4ab7dd86ca0c4515b3b44c4c556d290945e83aebaffe",
+      "domains_extracted": 1,
+      "evidence_id": "EV-huawei-cloud-001-9aebe5daa8e4",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://console-intl.huaweicloud.com/console/?locale=en-us",
+      "retrieved_at": "1790431195680421942",
+      "service_id": "huawei-cloud",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://console-intl.huaweicloud.com/console/?locale=en-us",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "c401fb2c16096e835b83b504e19afcd55c91c25f65c4d36543edfd092b876aa9",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "a1a535a91b4b5c49d98f04bf5fd3babc65de1fb8947f6b831660066674664201",
+  "release_digest": "baad7d83f4093ace2f04705cc3ec3691b7b8f90a29c0c3616fec552c40f40f81",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "huawei-cloud",
+  "snapshot_id": "snap-huawei-cloud-baad7d83f4093ace2f04705c",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

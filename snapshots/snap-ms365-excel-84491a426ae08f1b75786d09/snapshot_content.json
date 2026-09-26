@@ -1,0 +1,12 @@
+{
+  "content_digest": "900bba90707aaa7eab53c646a618e1572b5f396c03615e734bde5ba67131b23e",
+  "domains": [
+    "excel.cloud.microsoft"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "ms365-excel",
+  "source_hashes": [
+    "7ffe26d35487315a9f80cd1a1d5bdbdacd1f8a94c1892060265f13fe9587acc7"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:a1f672c4825d6578292d280ed4741584e58f0f331510a7784102c667f9464f81",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-google-groups-001-c610b1e79da4"
+      ],
+      "service_id": "google-groups",
+      "type": "domain",
+      "value": "groups.google.com"
+    }
+  ],
+  "content_digest": "fd5bf7915c931cd1f8fb83c87c1ea315940c0b127d4325ac37e5cf1db9fc0f54",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "c610b1e79da4cd65c72b9f3bba057e74f471aa091ba7f1718b8a3092077b187d",
+      "domains_extracted": 1,
+      "evidence_id": "EV-google-groups-001-c610b1e79da4",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://groups.google.com/",
+      "retrieved_at": "1790431195680421942",
+      "service_id": "google-groups",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://groups.google.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "e3297779f00be8757145aac7fb0035a45bb0276f4bf63dd598137557afb0b1cd",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "d3a62e45d714d56ba4c2d27a9fc5e338e7ded551f18b08f0068710525a421971",
+  "release_digest": "ee345194168348f5b9b4cad213be51e6fae3759b05ac43fa7a190c0325534429",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "google-groups",
+  "snapshot_id": "snap-google-groups-ee345194168348f5b9b4cad2",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

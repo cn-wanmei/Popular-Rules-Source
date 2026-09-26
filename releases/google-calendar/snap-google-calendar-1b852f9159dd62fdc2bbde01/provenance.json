@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:c672fdb5f5b74058296068a3e8d148fbe55332b05dbea46ab7e0abf325272722",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-google-calendar-001-eddeb78de96d"
+      ],
+      "service_id": "google-calendar",
+      "type": "domain",
+      "value": "calendar.google.com"
+    }
+  ],
+  "content_digest": "4a47808a40d92996a2ad5a81e7482f043aee136254aa9808c51557fea2d0003e",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "eddeb78de96d2c2aa5d04d1fc48d5de3b5a15cd6c29a7fe2f2b5bb71748fcb8a",
+      "domains_extracted": 1,
+      "evidence_id": "EV-google-calendar-001-eddeb78de96d",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://calendar.google.com/",
+      "retrieved_at": "1790431195680329253",
+      "service_id": "google-calendar",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://calendar.google.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "a3f595fe58d2309f507b79c29dee1d21f8b0646aa19199e0b594f857787ebbae",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "bc2f107827455502313dd55f51c61211b5dcb7861ad5184d482f8d6097670fc5",
+  "release_digest": "1b852f9159dd62fdc2bbde01cc24579fa9dedb2982190661967d4f143bf2e46a",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "google-calendar",
+  "snapshot_id": "snap-google-calendar-1b852f9159dd62fdc2bbde01",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

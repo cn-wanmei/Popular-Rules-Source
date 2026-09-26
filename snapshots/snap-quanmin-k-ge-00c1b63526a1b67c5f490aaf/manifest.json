@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:d8a4762637800b3057f2d850123b1c0f061c8519a16c31546fa8b398a46d436a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-quanmin-k-ge-001-1389267d386e"
+      ],
+      "service_id": "quanmin-k-ge",
+      "type": "domain",
+      "value": "kg.qq.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "7d1af70f44fba94d94bd874eb22dd287d028140572c9191d6cd64e4e76f42061",
+  "created_at": "2026-09-26T14:04:34.122876+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "kg.qq.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "kg.qq.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "1389267d386e76c79d47c5a3948b702b13640b31e26e7f8113a93d4501b53628",
+      "domains_extracted": 1,
+      "evidence_id": "EV-quanmin-k-ge-001-1389267d386e",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://kg.qq.com/",
+      "retrieved_at": "1790431195681421949",
+      "service_id": "quanmin-k-ge",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://kg.qq.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "793c2c7a38f2db720fcb0a78dc8e87833f143cb637f4411d0989cb141e034528",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "2a4acb1c6d5c4290679c7f34a282e1e40975002d337f9f718caf1396b2694f8c",
+  "previous_domain_count": 0,
+  "release_digest": "00c1b63526a1b67c5f490aaf1e434be5387f190ed394fc471f67eeabc90f5e7c",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "4eb7aea0d1eeecc9baf481e6fa43327d14550d8a2fe7cd4e7d6873ce11d834a1",
+  "service_id": "quanmin-k-ge",
+  "snapshot_content_sha256": "7d1af70f44fba94d94bd874eb22dd287d028140572c9191d6cd64e4e76f42061",
+  "snapshot_id": "snap-quanmin-k-ge-00c1b63526a1b67c5f490aaf",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://kg.qq.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

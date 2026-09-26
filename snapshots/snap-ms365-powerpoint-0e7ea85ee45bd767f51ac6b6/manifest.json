@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:e0006625ab426012994b78ba8cb2847ecbb702febf83937d7d3bdc7826401a3f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-ms365-powerpoint-001-826a82912599"
+      ],
+      "service_id": "ms365-powerpoint",
+      "type": "domain",
+      "value": "powerpoint.cloud.microsoft"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "684746b9a44ba30b765e6ed5757a53a8a7a7718760f82666afaca3a2eb79eee5",
+  "created_at": "2026-09-26T14:09:14.173296+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "powerpoint.cloud.microsoft"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "powerpoint.cloud.microsoft"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "826a82912599feb790072f1786022ca394e6760336e08dc5446eabb52617a85d",
+      "domains_extracted": 1,
+      "evidence_id": "EV-ms365-powerpoint-001-826a82912599",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://powerpoint.cloud.microsoft/",
+      "retrieved_at": "1790431195681421949",
+      "service_id": "ms365-powerpoint",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://powerpoint.cloud.microsoft/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "08e399dca0a2fc01a7eebffeb6576bfc412ec24fce2e15223b23c64b34e758f5",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "a02bf7169c788907ff2487c3eacf1e31febddf4a91ba9c4615eb608027b7922f",
+  "previous_domain_count": 0,
+  "release_digest": "0e7ea85ee45bd767f51ac6b6d75d5de2fbad2a4d1a091a0b32220aea5ee92753",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "7b397938e74ed4ad08f26842bbd001a95b33b0c4783bb94ca3e2b9721f9ed6d6",
+  "service_id": "ms365-powerpoint",
+  "snapshot_content_sha256": "684746b9a44ba30b765e6ed5757a53a8a7a7718760f82666afaca3a2eb79eee5",
+  "snapshot_id": "snap-ms365-powerpoint-0e7ea85ee45bd767f51ac6b6",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://powerpoint.cloud.microsoft/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

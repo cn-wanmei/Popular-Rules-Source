@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:c672fdb5f5b74058296068a3e8d148fbe55332b05dbea46ab7e0abf325272722",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-google-calendar-001-eddeb78de96d"
+      ],
+      "service_id": "google-calendar",
+      "type": "domain",
+      "value": "calendar.google.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "4a47808a40d92996a2ad5a81e7482f043aee136254aa9808c51557fea2d0003e",
+  "created_at": "2026-09-26T14:06:41.647730+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "calendar.google.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "calendar.google.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "eddeb78de96d2c2aa5d04d1fc48d5de3b5a15cd6c29a7fe2f2b5bb71748fcb8a",
+      "domains_extracted": 1,
+      "evidence_id": "EV-google-calendar-001-eddeb78de96d",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://calendar.google.com/",
+      "retrieved_at": "1790431195680329253",
+      "service_id": "google-calendar",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://calendar.google.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "a3f595fe58d2309f507b79c29dee1d21f8b0646aa19199e0b594f857787ebbae",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "bc2f107827455502313dd55f51c61211b5dcb7861ad5184d482f8d6097670fc5",
+  "previous_domain_count": 0,
+  "release_digest": "1b852f9159dd62fdc2bbde01cc24579fa9dedb2982190661967d4f143bf2e46a",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "6ef4aa5ce7a0aaf152732e584c84225eb298f68f6f379cfb56652278247e3223",
+  "service_id": "google-calendar",
+  "snapshot_content_sha256": "4a47808a40d92996a2ad5a81e7482f043aee136254aa9808c51557fea2d0003e",
+  "snapshot_id": "snap-google-calendar-1b852f9159dd62fdc2bbde01",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://calendar.google.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

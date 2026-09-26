@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:c531caed1735c06527208a41011216e4735cd18c7c0761a0fc086307a5cbf198",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-goodreads-001-8264d7291e36"
+      ],
+      "service_id": "goodreads",
+      "type": "domain",
+      "value": "goodreads.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "bcfc8b2ee8c69d2e45f6b301bd41aaaf881035e8600859cc66959253ccca3557",
+  "created_at": "2026-09-26T14:04:56.553108+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "goodreads.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "goodreads.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "8264d7291e36b038ce33f66c18794cf172b3e5bfc05b0264e9e23a328ead7713",
+      "domains_extracted": 1,
+      "evidence_id": "EV-goodreads-001-8264d7291e36",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.goodreads.com/",
+      "retrieved_at": "1790431195680329253",
+      "service_id": "goodreads",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.goodreads.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "bead0542fe259b8a2c4dbf9a339eb93acbf84f7c2a1a1314ee5eb69d065ff9ac",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "684cb73e62101e2d04555e94ac138a7438fe5165508d2bb2c38b5acf72877112",
+  "previous_domain_count": 0,
+  "release_digest": "eb7a2c816de0efe942519ac898f39511249fc13dc45c94bd228221553248c7c5",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "c6fb2b7c79e6eccf4f0ef9506831555315acb5df613215f18d7fdb6a93dfe9cf",
+  "service_id": "goodreads",
+  "snapshot_content_sha256": "bcfc8b2ee8c69d2e45f6b301bd41aaaf881035e8600859cc66959253ccca3557",
+  "snapshot_id": "snap-goodreads-eb7a2c816de0efe942519ac8",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.goodreads.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

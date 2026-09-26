@@ -1,0 +1,15 @@
+{
+  "company_count": 200,
+  "failures": [],
+  "p0a_lineage": [
+    "qqmail",
+    "qqmusic",
+    "taobao",
+    "tencentcloud",
+    "tmall"
+  ],
+  "p0c_confirmed_service_count": 24,
+  "pass": true,
+  "priority_wave_service_count": 21,
+  "schema": "service_completion_program_audit_v1"
+}

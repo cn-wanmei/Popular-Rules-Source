@@ -1,0 +1,127 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:49d6acd320c5e6768611f2ef4cfa53c06fb4edc5ea23e5a418388a9a325217a1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemusic-001-75415ad38f80"
+      ],
+      "service_id": "applemusic",
+      "type": "domain",
+      "value": "aod-ssl.itunes.apple.com"
+    },
+    {
+      "asset_id": "sha256:5e666aa041b866d14f3b7e44928ead13f6a4683587648ff9a62d74a4b369ad63",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemusic-001-75415ad38f80"
+      ],
+      "service_id": "applemusic",
+      "type": "domain",
+      "value": "aod.itunes.apple.com"
+    },
+    {
+      "asset_id": "sha256:1f1510a63563ae420e30eeb70c123bc76fc6a15c7e2874a2a5299812b2d656d5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemusic-001-75415ad38f80"
+      ],
+      "service_id": "applemusic",
+      "type": "domain",
+      "value": "applemusic.com"
+    },
+    {
+      "asset_id": "sha256:0bc3259c7dfc4a58c15b193e9b59d20d936d91c91f3d359c11c307f31cacb1e9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemusic-001-75415ad38f80"
+      ],
+      "service_id": "applemusic",
+      "type": "domain",
+      "value": "audio-ssl.itunes.apple.com"
+    },
+    {
+      "asset_id": "sha256:36175f9cb92ecdcbc1fca1447cc298eefed3df02529e0ae2c931bdf7eafc3a4d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemusic-001-75415ad38f80"
+      ],
+      "service_id": "applemusic",
+      "type": "domain",
+      "value": "audio.itunes.apple.com"
+    },
+    {
+      "asset_id": "sha256:cd572d641ec59de0c43c2fbc25a83377c8339fb9cc78372ebf0da6227b308566",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemusic-001-75415ad38f80"
+      ],
+      "service_id": "applemusic",
+      "type": "domain",
+      "value": "blobstore.apple.com"
+    },
+    {
+      "asset_id": "sha256:f07e44f8e6c3b3905ccddc747c01658ca23f724b46b6538127093d6fea30e8c0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemusic-001-75415ad38f80"
+      ],
+      "service_id": "applemusic",
+      "type": "domain",
+      "value": "music.apple.com"
+    },
+    {
+      "asset_id": "sha256:3142b9a1d161822fe9123e72ea0dc2c409f56432f063da6100ab9a5f66bd647f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemusic-001-75415ad38f80"
+      ],
+      "service_id": "applemusic",
+      "type": "domain",
+      "value": "mvod.itunes.apple.com"
+    },
+    {
+      "asset_id": "sha256:34bbc3b4528cdcf18b02ce197bbb23c44332bd24d61d88c23ab54274461876bb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applemusic-001-75415ad38f80"
+      ],
+      "service_id": "applemusic",
+      "type": "domain",
+      "value": "streamingaudio.itunes.apple.com"
+    }
+  ],
+  "content_digest": "ed7f03ecbf0e65d6055de1758e8be6758a3e1b1bfe25afbd67c4f24ac1aed007",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "75415ad38f805f78d18030886a0ff485562fab9a0a6cc24d84a4e707e7bad837",
+      "domains_extracted": 9,
+      "evidence_id": "EV-applemusic-001-75415ad38f80",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMusic/AppleMusic.list",
+      "retrieved_at": "2026-09-26T14:01:18.511217+00:00",
+      "service_id": "applemusic",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMusic/AppleMusic.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "be0d71c994df61206bb0e1210aee5e48282690e428a33bcf0c72474d9d99a9e6",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "ef900270799150794d83da200101890e99b9a3d92600b38d3406d9764c813335",
+  "release_digest": "da04320590fe88862d5e36fb6c08c650f0768789d2e8e290e877c1489a9d3065",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "applemusic",
+  "snapshot_id": "snap-applemusic-da04320590fe88862d5e36fb",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}

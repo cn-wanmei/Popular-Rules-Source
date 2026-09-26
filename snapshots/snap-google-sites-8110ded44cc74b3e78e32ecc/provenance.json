@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:80b8a2333c08cd356fa1b0230005839c6d9acd28b5b8cc1928fc6c9629894cf2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-google-sites-001-4f15ada9195f"
+      ],
+      "service_id": "google-sites",
+      "type": "domain",
+      "value": "sites.google.com"
+    }
+  ],
+  "content_digest": "cec96d9bdf7916510d7c1a6bd00a980f1720795d6f199e0f965870983fae2d1c",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "4f15ada9195f4695435a4de8d70695a2b24cfe4770bdeda9178dcbbd9f698623",
+      "domains_extracted": 1,
+      "evidence_id": "EV-google-sites-001-4f15ada9195f",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://sites.google.com/",
+      "retrieved_at": "1790431195680421942",
+      "service_id": "google-sites",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://sites.google.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "b6e5453e74e11869903c57ad59029b9cc8f657f8c0e9b9ee18d2b79ce1ced37c",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "b7185fe7eec309529c77f96196c727cb791e305a87e3baace499e8cebb04a695",
+  "release_digest": "8110ded44cc74b3e78e32eccad714b805df54170af7dbcf60e94db498eae173b",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "google-sites",
+  "snapshot_id": "snap-google-sites-8110ded44cc74b3e78e32ecc",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

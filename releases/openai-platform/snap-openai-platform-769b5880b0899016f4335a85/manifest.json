@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:3f4a8bcaf08cc115ceddf3085b71cb5ccf5a5a722fa4043f8b1f4292ae1b279b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-openai-platform-001-35119cb5ebf7"
+      ],
+      "service_id": "openai-platform",
+      "type": "domain",
+      "value": "platform.openai.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "55d44fda7952da68ca7b7eacbdff5501baf2dc8e4270135bf280bead04158c46",
+  "created_at": "2026-09-26T14:05:41.495197+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "platform.openai.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "platform.openai.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "35119cb5ebf796e79c14fb00094c44e9a207f08dd54703eae2e3c4d1fbca2051",
+      "domains_extracted": 1,
+      "evidence_id": "EV-openai-platform-001-35119cb5ebf7",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://platform.openai.com/",
+      "retrieved_at": "1790431195681421949",
+      "service_id": "openai-platform",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://platform.openai.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "cddfa7380063c46cef33e45cc45e8683b98512b581f322e5c3e254b62752f78f",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "0ef7992c43e35a402f9a8acc513f6190c20828a28cadc7c4887cdcc2074f02c6",
+  "previous_domain_count": 0,
+  "release_digest": "769b5880b0899016f4335a854301089f16f1e14d194aaf065bf13440be9c4d72",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "4e44cbdc0090585868af777a610322519cd8a10abe09ef3c8d48c76729fb7d45",
+  "service_id": "openai-platform",
+  "snapshot_content_sha256": "55d44fda7952da68ca7b7eacbdff5501baf2dc8e4270135bf280bead04158c46",
+  "snapshot_id": "snap-openai-platform-769b5880b0899016f4335a85",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://platform.openai.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}
