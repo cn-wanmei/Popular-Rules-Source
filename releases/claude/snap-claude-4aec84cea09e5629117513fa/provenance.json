@@ -31,34 +31,7 @@
       "value": "claude.ai"
     }
   ],
-  "change_assessment": {
-    "growth_ratio": 1.0,
-    "removal_ratio": 0.0,
-    "status": "OK"
-  },
   "content_digest": "04999f1cbf3cd882e18ebd164db57158b7e21cfb3aa90a9d9dc269cfabac0225",
-  "created_at": "2026-09-26T12:09:01.034788+00:00",
-  "domain_count": 3,
-  "domain_diff": {
-    "added": [],
-    "added_count": 0,
-    "current_count": 3,
-    "previous_count": 3,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [
-      "anthropic.com",
-      "cdn.usefathom.com",
-      "claude.ai"
-    ],
-    "unchanged_count": 3
-  },
-  "domains": [
-    "anthropic.com",
-    "cdn.usefathom.com",
-    "claude.ai"
-  ],
-  "errors": [],
   "evidence": [
     {
       "authority": "upstream",
@@ -79,36 +52,16 @@
   ],
   "evidence_digest": "ea7639cfcc66e8f5f89ab1df1720ce28bdc0e08dbca3d2583b4af09b84322ac3",
   "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
-  "generator_version": "3.1.0",
-  "last_known_good": false,
-  "official_extracted": 0,
-  "official_source_count": 1,
-  "parser_version": "domain-extractor-v4",
   "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
-  "previous_domain_count": 3,
   "release_digest": "4aec84cea09e5629117513fa51ecb98470aae41507b58947595a4af2e089cb27",
   "release_identity_version": "2",
-  "release_reasons": [],
-  "release_state": "CANDIDATE",
-  "schema": "source_snapshot_v2",
-  "service_config_digest": "726a7db5e91921bbbe0a8ab19e5a15e957c5228e9f508d19cdbade8c85be438b",
+  "schema": "source_provenance_v3",
   "service_id": "claude",
-  "snapshot_content_sha256": "04999f1cbf3cd882e18ebd164db57158b7e21cfb3aa90a9d9dc269cfabac0225",
   "snapshot_id": "snap-claude-4aec84cea09e5629117513fa",
-  "source_bindings": [
-    {
-      "adapter": "upstream_rule",
-      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.list"
-    }
-  ],
-  "source_count": 1,
   "source_policy": {
     "allowed_authorities": [
       "upstream"
     ],
     "official_required": false
-  },
-  "trusted_extracted": 3,
-  "unverified_candidate_count": 0,
-  "unverified_candidate_domains": []
+  }
 }

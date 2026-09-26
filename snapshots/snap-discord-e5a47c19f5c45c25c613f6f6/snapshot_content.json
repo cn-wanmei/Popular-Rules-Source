@@ -1,0 +1,39 @@
+{
+  "content_digest": "8f996912e0484f5828628f50a353cabe15128cae86560489b9a5abbfbf5c1caa",
+  "domains": [
+    "airhorn.solutions",
+    "airhornbot.com",
+    "bigbeans.solutions",
+    "dis.gd",
+    "discord-activities.com",
+    "discord.co",
+    "discord.com",
+    "discord.design",
+    "discord.dev",
+    "discord.gg",
+    "discord.gift",
+    "discord.gifts",
+    "discord.media",
+    "discord.new",
+    "discord.store",
+    "discord.tools",
+    "discordactivities.com",
+    "discordapp.com",
+    "discordapp.io",
+    "discordapp.net",
+    "discordapp.page.link",
+    "discordcdn.com",
+    "discordmerch.com",
+    "discordpartygames.com",
+    "discordsays.com",
+    "discordstatus.com",
+    "hammerandchisel.ssl.zendesk.com",
+    "watchanimeattheoffice.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "discord",
+  "source_hashes": [
+    "3d18c8fe716de06891ba3d6c34dba254cb65138a10f79e1a1a0628b5237ecb2c"
+  ]
+}
