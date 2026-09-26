@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:628861baca57bf34f6c3f41059c6e2bf2aacad82675c12165b2b72361caef2a1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-amazonmusic-001-ec35f2197e87"
+      ],
+      "service_id": "amazonmusic",
+      "type": "domain",
+      "value": "music.amazon.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "1a87fd68b9fc5d37d39297ee03e6ba4def7c975d79b138ab0904150284095d50",
+  "created_at": "2026-09-26T12:53:54.550313+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "music.amazon.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "music.amazon.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "ec35f2197e87d74ac6ce2a817f04dcf5ddf6c9d212f2fc0aebc566585768ee71",
+      "domains_extracted": 1,
+      "evidence_id": "EV-amazonmusic-001-ec35f2197e87",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://music.amazon.com/",
+      "retrieved_at": "1790427215858054306",
+      "service_id": "amazonmusic",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://music.amazon.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "de24c5613c3a34c7f00a4ae74d96043c7ada09b608baca536246a48e5c5f9f5b",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "6dd5b9d830279b125c650beeb012ae7bbe36056523e4a6cfe6ef349c102ed832",
+  "previous_domain_count": 0,
+  "release_digest": "8f36e1717aca94afda1ee0d06277adc767faa03e565b704f2fc892fbd3da9e81",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "7f4968f303ff330c3b53e04e39f8fe376831abce2236a094a9775340beff7070",
+  "service_id": "amazonmusic",
+  "snapshot_content_sha256": "1a87fd68b9fc5d37d39297ee03e6ba4def7c975d79b138ab0904150284095d50",
+  "snapshot_id": "snap-amazonmusic-8f36e1717aca94afda1ee0d0",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://music.amazon.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "e947a49c3fb922452428853eb2d9d4b1cbc51221aef6c55ccabad26e606c2ebe",
+    "manifest.json": "7288d1cba736312b2a9ed6d619f106618c9d2f37149c39d60856a1ca4c471c3f",
+    "provenance.json": "bf1442f0fef668cc2533f32036a732b471d4a183dfd435c339ebb5f720d0868f",
+    "snapshot_content.json": "0311ba7ae927079993cb566fa90b59638bcf6eacaf97198a18115a4fc72fffaa"
+  },
+  "content_digest": "ea2b64c6f4eeeb97268c1c94a2d47fe15f450a4a5747878df83dc7a40f18df00",
+  "created_at": "2026-09-26T12:53:56.364792+00:00",
+  "evidence_digest": "e041e59d3d0cf2dea165f83694f70d7a2160d78ddb65efa2e4f3d38596422cea",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "c28cc233bd98e98e803999f18fc0877f8f5b09beb1b8daab0afb8ae1dc069d2f",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "278e98581b6f8e62e261931a737618bff3767ea493378bd608fe497a41fcff45",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "adobe-firefly",
+  "snapshot_id": "snap-adobe-firefly-278e98581b6f8e62e261931a",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

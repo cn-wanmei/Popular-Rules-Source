@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "b590a5f3a52aa6688184795c66c8786add48785199414e4de052a4f177d3fb3c",
+    "manifest.json": "67085806b50810e89a254a87402f2989c0cb0bff972a42e0edd0d2345c4e86d0",
+    "provenance.json": "d3c156d2568865df3380cf49c7b916defbeaf0475ffa08059c318b36607a06ee",
+    "snapshot_content.json": "5a69b9d917bec50a04ccbfce9671bf0dabddaba0f2258155320531c5fbec7399"
+  },
+  "content_digest": "b49a984482fb73d2cbf403f2e9cdfa83eaf33f7a0ee27ac26e175cf33515e07c",
+  "created_at": "2026-09-26T12:53:55.111388+00:00",
+  "evidence_digest": "61cacad525f9c5398db4f7e17412298f5a3bf41dd5d425ee7d1d9e363fb52dfe",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "fa800dff743a0752ce656a3597924095cccdcf077e35f3bbd5cfd16b414fd0f3",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "2ae1b9d59ebdc6174db597b198feda5e589dc5cb4d543a027da313b4c1ca824a",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "audible",
+  "snapshot_id": "snap-audible-2ae1b9d59ebdc6174db597b1",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

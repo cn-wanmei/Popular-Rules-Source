@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:25a82c1c246dbba0e3419aa1602be132042223a190a409a0b4ee0822a4fc8533",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-audible-001-4c5bf28589bd"
+      ],
+      "service_id": "audible",
+      "type": "domain",
+      "value": "audible.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "b49a984482fb73d2cbf403f2e9cdfa83eaf33f7a0ee27ac26e175cf33515e07c",
+  "created_at": "2026-09-26T12:53:54.926577+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "audible.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "audible.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "4c5bf28589bdf2797bf45a186328ad892d93fb686ff6cf3ca9391c7ee7a159ad",
+      "domains_extracted": 1,
+      "evidence_id": "EV-audible-001-4c5bf28589bd",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.audible.com/",
+      "retrieved_at": "1790427215858054306",
+      "service_id": "audible",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.audible.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "61cacad525f9c5398db4f7e17412298f5a3bf41dd5d425ee7d1d9e363fb52dfe",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "fa800dff743a0752ce656a3597924095cccdcf077e35f3bbd5cfd16b414fd0f3",
+  "previous_domain_count": 0,
+  "release_digest": "2ae1b9d59ebdc6174db597b198feda5e589dc5cb4d543a027da313b4c1ca824a",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "8967a9f5b261329a598f1a5eb024789b5bf89492a7aa61f4573f3b9f3e574a37",
+  "service_id": "audible",
+  "snapshot_content_sha256": "b49a984482fb73d2cbf403f2e9cdfa83eaf33f7a0ee27ac26e175cf33515e07c",
+  "snapshot_id": "snap-audible-2ae1b9d59ebdc6174db597b1",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.audible.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}
