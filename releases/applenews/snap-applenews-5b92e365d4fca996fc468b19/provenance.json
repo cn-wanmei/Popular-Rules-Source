@@ -21,32 +21,7 @@
       "value": "news-client-search.apple.com"
     }
   ],
-  "change_assessment": {
-    "growth_ratio": 1.0,
-    "removal_ratio": 0.0,
-    "status": "OK"
-  },
   "content_digest": "dfda1972d3c0939eed4cfbce0046289fa92cffcf4600aacc2314ada7c2fd7301",
-  "created_at": "2026-09-26T12:09:00.519938+00:00",
-  "domain_count": 2,
-  "domain_diff": {
-    "added": [],
-    "added_count": 0,
-    "current_count": 2,
-    "previous_count": 2,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [
-      "gspe1-ssl.ls.apple.com",
-      "news-client-search.apple.com"
-    ],
-    "unchanged_count": 2
-  },
-  "domains": [
-    "gspe1-ssl.ls.apple.com",
-    "news-client-search.apple.com"
-  ],
-  "errors": [],
   "evidence": [
     {
       "authority": "upstream",
@@ -67,36 +42,16 @@
   ],
   "evidence_digest": "c095ed6cd3f03a20007fe91e38babd38d81db425e1c7522e104140c576d6f032",
   "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
-  "generator_version": "3.1.0",
-  "last_known_good": false,
-  "official_extracted": 0,
-  "official_source_count": 1,
-  "parser_version": "domain-extractor-v4",
   "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
-  "previous_domain_count": 2,
   "release_digest": "5b92e365d4fca996fc468b191b03e748265ab468536ffb154859e249453731fd",
   "release_identity_version": "2",
-  "release_reasons": [],
-  "release_state": "CANDIDATE",
-  "schema": "source_snapshot_v2",
-  "service_config_digest": "4f8f32244c0589ff67b3606af7c6fc6a55df66004bde88a026cec108f9ba13f4",
+  "schema": "source_provenance_v3",
   "service_id": "applenews",
-  "snapshot_content_sha256": "dfda1972d3c0939eed4cfbce0046289fa92cffcf4600aacc2314ada7c2fd7301",
   "snapshot_id": "snap-applenews-5b92e365d4fca996fc468b19",
-  "source_bindings": [
-    {
-      "adapter": "upstream_rule",
-      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleNews/AppleNews.list"
-    }
-  ],
-  "source_count": 1,
   "source_policy": {
     "allowed_authorities": [
       "upstream"
     ],
     "official_required": false
-  },
-  "trusted_extracted": 2,
-  "unverified_candidate_count": 0,
-  "unverified_candidate_domains": []
+  }
 }

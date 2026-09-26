@@ -21,32 +21,7 @@
       "value": "www.honorofkings.com"
     }
   ],
-  "change_assessment": {
-    "growth_ratio": 1.0,
-    "removal_ratio": 0.0,
-    "status": "OK"
-  },
   "content_digest": "a65a9070a8efb6ef57dd2a698711cdbb30a9ba3963e8c009bf538d47b65590af",
-  "created_at": "2026-09-26T12:08:53.004388+00:00",
-  "domain_count": 2,
-  "domain_diff": {
-    "added": [],
-    "added_count": 0,
-    "current_count": 2,
-    "previous_count": 2,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [
-      "honorofkings.com",
-      "www.honorofkings.com"
-    ],
-    "unchanged_count": 2
-  },
-  "domains": [
-    "honorofkings.com",
-    "www.honorofkings.com"
-  ],
-  "errors": [],
   "evidence": [
     {
       "authority": "official",
@@ -67,36 +42,16 @@
   ],
   "evidence_digest": "733edbee49f42727e7ad36e9b529cd06e634f05ba4b1ee43e5a41384c4a4151c",
   "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
-  "generator_version": "3.1.0",
-  "last_known_good": false,
-  "official_extracted": 2,
-  "official_source_count": 1,
-  "parser_version": "domain-extractor-v4",
   "policy_digest": "4ba44b3e8b8a3a36eb1f7c340fdb0a9b5ed59db996c29122cef22b0be5f8fbc0",
-  "previous_domain_count": 2,
   "release_digest": "9271ce0b7c8d6b9d6d1836fadc05ed115871fa0d88a94c82c942d81b93331f01",
   "release_identity_version": "2",
-  "release_reasons": [],
-  "release_state": "CANDIDATE",
-  "schema": "source_snapshot_v2",
-  "service_config_digest": "346c3330602717160e3c608c8482a0c9efb9584c4692a5271122de7d50884e82",
+  "schema": "source_provenance_v3",
   "service_id": "honorofkings_global",
-  "snapshot_content_sha256": "a65a9070a8efb6ef57dd2a698711cdbb30a9ba3963e8c009bf538d47b65590af",
   "snapshot_id": "snap-honorofkings_global-9271ce0b7c8d6b9d6d1836fa",
-  "source_bindings": [
-    {
-      "adapter": null,
-      "url": "https://www.honorofkings.com/"
-    }
-  ],
-  "source_count": 1,
   "source_policy": {
     "allowed_authorities": [
       "official"
     ],
     "official_required": true
-  },
-  "trusted_extracted": 2,
-  "unverified_candidate_count": 0,
-  "unverified_candidate_domains": []
+  }
 }

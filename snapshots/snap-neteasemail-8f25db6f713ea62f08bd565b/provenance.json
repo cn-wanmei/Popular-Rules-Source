@@ -33,34 +33,7 @@
       "value": "mail.yeah.net"
     }
   ],
-  "change_assessment": {
-    "growth_ratio": 1.0,
-    "removal_ratio": 0.0,
-    "status": "OK"
-  },
   "content_digest": "a91ff805543bac2f1df2f683c738bcc617b50e938350dbf92f291a4425a81cd1",
-  "created_at": "2026-09-26T12:09:23.257397+00:00",
-  "domain_count": 3,
-  "domain_diff": {
-    "added": [],
-    "added_count": 0,
-    "current_count": 3,
-    "previous_count": 3,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [
-      "mail.126.com",
-      "mail.163.com",
-      "mail.yeah.net"
-    ],
-    "unchanged_count": 3
-  },
-  "domains": [
-    "mail.126.com",
-    "mail.163.com",
-    "mail.yeah.net"
-  ],
-  "errors": [],
   "evidence": [
     {
       "authority": "official",
@@ -113,44 +86,16 @@
   ],
   "evidence_digest": "950a9294ac8035158f1d3bfba9c30e211803a41ff0c47e426c710844fe8e13ef",
   "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
-  "generator_version": "3.1.0",
-  "last_known_good": false,
-  "official_extracted": 5,
-  "official_source_count": 3,
-  "parser_version": "domain-extractor-v4",
   "policy_digest": "8033e063d641efa1725c7ced7d9a5ef0674537ce86b4b30a7804befea5d39856",
-  "previous_domain_count": 3,
   "release_digest": "8f25db6f713ea62f08bd565bed4ed40fb8f80b1075f38ed397146604d38d4096",
   "release_identity_version": "2",
-  "release_reasons": [],
-  "release_state": "CANDIDATE",
-  "schema": "source_snapshot_v2",
-  "service_config_digest": "ec13023b6bf72c3ae2e9528d3d3c447bf4daf4ba540b246ed586b01fd5cd05c3",
+  "schema": "source_provenance_v3",
   "service_id": "neteasemail",
-  "snapshot_content_sha256": "a91ff805543bac2f1df2f683c738bcc617b50e938350dbf92f291a4425a81cd1",
   "snapshot_id": "snap-neteasemail-8f25db6f713ea62f08bd565b",
-  "source_bindings": [
-    {
-      "adapter": null,
-      "url": "https://mail.163.com/"
-    },
-    {
-      "adapter": null,
-      "url": "https://mail.126.com/"
-    },
-    {
-      "adapter": null,
-      "url": "https://mail.yeah.net/"
-    }
-  ],
-  "source_count": 3,
   "source_policy": {
     "allowed_authorities": [
       "official"
     ],
     "official_required": true
-  },
-  "trusted_extracted": 5,
-  "unverified_candidate_count": 0,
-  "unverified_candidate_domains": []
+  }
 }

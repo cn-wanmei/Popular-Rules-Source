@@ -11,45 +11,7 @@
       "value": "im.qq.com"
     }
   ],
-  "change_assessment": {
-    "growth_ratio": 0.06666666666666667,
-    "removal_ratio": 0.9333333333333333,
-    "status": "REVIEW_REMOVAL"
-  },
   "content_digest": "5b9573a7da00db54470714896ae8224403aafa4a6e3521c75415834d6a7aae08",
-  "created_at": "2026-09-26T12:09:39.800085+00:00",
-  "domain_count": 1,
-  "domain_diff": {
-    "added": [],
-    "added_count": 0,
-    "current_count": 1,
-    "previous_count": 15,
-    "removed": [
-      "aq.qq.com",
-      "id.qq.com",
-      "imqq.com",
-      "imqq.com.cn",
-      "mqqurl.com",
-      "ptlogin2.qq.com",
-      "qqun.com",
-      "qqurl.com",
-      "qun.qq.com",
-      "qzone.com",
-      "qzone.qq.com",
-      "qzoneapp.com",
-      "reg.qq.com",
-      "ssl.ptlogin2.qq.com"
-    ],
-    "removed_count": 14,
-    "unchanged": [
-      "im.qq.com"
-    ],
-    "unchanged_count": 1
-  },
-  "domains": [
-    "im.qq.com"
-  ],
-  "errors": [],
   "evidence": [
     {
       "authority": "official",
@@ -70,38 +32,16 @@
   ],
   "evidence_digest": "83f6ca702ddfc1ab199ec5974a896fa0226a315ebd373d4fb52c077b7b3e6013",
   "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
-  "generator_version": "3.1.0",
-  "last_known_good": false,
-  "official_extracted": 1,
-  "official_source_count": 1,
-  "parser_version": "domain-extractor-v4",
   "policy_digest": "72df8f41fee32b270e4d773963947ae985afae4c70253c968ba8ea62ab34e74b",
-  "previous_domain_count": 15,
   "release_digest": "e8b755c0889d871584191efb71333ea6bb0f273c62d87f108bec5d1f065ee9d9",
   "release_identity_version": "2",
-  "release_reasons": [
-    "count_change:REVIEW_REMOVAL"
-  ],
-  "release_state": "REVIEW",
-  "schema": "source_snapshot_v2",
-  "service_config_digest": "a9ff9bd9e084bf338e858731198900210e735b4c08a418769f9ca53e422b68cd",
+  "schema": "source_provenance_v3",
   "service_id": "qq",
-  "snapshot_content_sha256": "5b9573a7da00db54470714896ae8224403aafa4a6e3521c75415834d6a7aae08",
   "snapshot_id": "snap-qq-e8b755c0889d871584191efb",
-  "source_bindings": [
-    {
-      "adapter": null,
-      "url": "https://im.qq.com/"
-    }
-  ],
-  "source_count": 1,
   "source_policy": {
     "allowed_authorities": [
       "official"
     ],
     "official_required": true
-  },
-  "trusted_extracted": 1,
-  "unverified_candidate_count": 0,
-  "unverified_candidate_domains": []
+  }
 }

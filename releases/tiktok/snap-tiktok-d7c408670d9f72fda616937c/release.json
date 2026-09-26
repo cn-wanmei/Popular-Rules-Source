@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "2b0a8259a1619d0052d0fc11259c0beda79bffd6e9d1cf479f78f8c478cfaf3f",
+    "manifest.json": "c7b2dfbeddfce00ec4c867edd4e9246f83f1c77dc219a2f68064b4f737cd154a",
+    "provenance.json": "c4f5813841bbe00cefaa10def5e5926e2a8204523e53faefd0fde156e1b79767",
+    "snapshot_content.json": "7d3be74fd11796a83d4b82df7f457983c80eb5468cda4e0dfcae326b3ae1cd15"
+  },
+  "content_digest": "1a72610eaabb12fac263e6086b35652115f6e6f1594ab9c8d102aaf3a031a4f8",
+  "created_at": "2026-09-26T12:09:20.053572+00:00",
+  "evidence_digest": "8353301ff1067f5047c4d570d3391620043237f95604dfbb70071f6416ae950d",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "d7c408670d9f72fda616937c2419e8311119b1827bdb34848a2d6748e3a934e6",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "tiktok",
+  "snapshot_id": "snap-tiktok-d7c408670d9f72fda616937c",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 1.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}
