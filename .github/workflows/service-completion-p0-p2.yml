@@ -64,6 +64,7 @@ jobs:
           "
           for service in $services; do
             python -m source_engine generate --service "$service" || true
+            python -m source_engine release --service "$service" || true
           done
       - name: Persist generated P0-C snapshots
         if: github.event_name == 'push'
