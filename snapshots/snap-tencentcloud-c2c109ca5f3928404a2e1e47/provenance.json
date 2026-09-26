@@ -11,30 +11,7 @@
       "value": "cloud.tencent.com"
     }
   ],
-  "change_assessment": {
-    "growth_ratio": 1.0,
-    "removal_ratio": 0.0,
-    "status": "OK"
-  },
   "content_digest": "49fe10b2854b41c59957416486edd921c860b3e153ae904bcec8331ace52d3bf",
-  "created_at": "2026-09-26T07:50:47.281199+00:00",
-  "domain_count": 1,
-  "domain_diff": {
-    "added": [],
-    "added_count": 0,
-    "current_count": 1,
-    "previous_count": 1,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [
-      "cloud.tencent.com"
-    ],
-    "unchanged_count": 1
-  },
-  "domains": [
-    "cloud.tencent.com"
-  ],
-  "errors": [],
   "evidence": [
     {
       "authority": "official",
@@ -55,36 +32,16 @@
   ],
   "evidence_digest": "3a95cd901f77d0f81d1ab3aa59af838e116bf200c16cdb688413a2eda771cdaa",
   "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
-  "generator_version": "3.1.0",
-  "last_known_good": false,
-  "official_extracted": 1,
-  "official_source_count": 1,
-  "parser_version": "domain-extractor-v4",
   "policy_digest": "58510f5c59ea5fddf470ff6d169b6fa0444c14a843e0409cd341c80c486546a4",
-  "previous_domain_count": 1,
   "release_digest": "c2c109ca5f3928404a2e1e47dca0577e1da2f759879142de1e9efecf80ad9a6b",
   "release_identity_version": "2",
-  "release_reasons": [],
-  "release_state": "CANDIDATE",
-  "schema": "source_snapshot_v2",
-  "service_config_digest": "03ca4ac7093884c42f7f5ad5859a4f18b9ae27d9054fd793eba5e5098200edd4",
+  "schema": "source_provenance_v3",
   "service_id": "tencentcloud",
-  "snapshot_content_sha256": "49fe10b2854b41c59957416486edd921c860b3e153ae904bcec8331ace52d3bf",
   "snapshot_id": "snap-tencentcloud-c2c109ca5f3928404a2e1e47",
-  "source_bindings": [
-    {
-      "adapter": null,
-      "url": "https://cloud.tencent.com/document/api"
-    }
-  ],
-  "source_count": 1,
   "source_policy": {
     "allowed_authorities": [
       "official"
     ],
     "official_required": true
-  },
-  "trusted_extracted": 1,
-  "unverified_candidate_count": 0,
-  "unverified_candidate_domains": []
+  }
 }
