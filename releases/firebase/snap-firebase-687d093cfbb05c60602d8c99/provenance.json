@@ -21,32 +21,7 @@
       "value": "firebase.google.com"
     }
   ],
-  "change_assessment": {
-    "growth_ratio": 1.0,
-    "removal_ratio": 0.0,
-    "status": "OK"
-  },
   "content_digest": "93199ec29a33b22a61fe449b1a8488c6910e00033e32332e23161827424bea67",
-  "created_at": "2026-09-26T10:23:07.778001+00:00",
-  "domain_count": 2,
-  "domain_diff": {
-    "added": [],
-    "added_count": 0,
-    "current_count": 2,
-    "previous_count": 2,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [
-      "console.firebase.google.com",
-      "firebase.google.com"
-    ],
-    "unchanged_count": 2
-  },
-  "domains": [
-    "console.firebase.google.com",
-    "firebase.google.com"
-  ],
-  "errors": [],
   "evidence": [
     {
       "authority": "official",
@@ -67,36 +42,16 @@
   ],
   "evidence_digest": "a5103832304460f96446083b4f496735c701a7eeb88ffda5b2175e62a284f8d4",
   "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
-  "generator_version": "3.1.0",
-  "last_known_good": false,
-  "official_extracted": 2,
-  "official_source_count": 1,
-  "parser_version": "domain-extractor-v4",
   "policy_digest": "de81abf06ccb4e4b84af244e4152a4683258b137dd6326b0fe1dd6e23d6b4553",
-  "previous_domain_count": 2,
   "release_digest": "687d093cfbb05c60602d8c995dc7672ddd69eb6a7862e505c67b8a65f0ff37ab",
   "release_identity_version": "2",
-  "release_reasons": [],
-  "release_state": "CANDIDATE",
-  "schema": "source_snapshot_v2",
-  "service_config_digest": "c5a1e5af184c38630ea55d49ab546e32e852a1d657fe943e9a7095440cd401f8",
+  "schema": "source_provenance_v3",
   "service_id": "firebase",
-  "snapshot_content_sha256": "93199ec29a33b22a61fe449b1a8488c6910e00033e32332e23161827424bea67",
   "snapshot_id": "snap-firebase-687d093cfbb05c60602d8c99",
-  "source_bindings": [
-    {
-      "adapter": null,
-      "url": "https://firebase.google.com/"
-    }
-  ],
-  "source_count": 1,
   "source_policy": {
     "allowed_authorities": [
       "official"
     ],
     "official_required": true
-  },
-  "trusted_extracted": 2,
-  "unverified_candidate_count": 0,
-  "unverified_candidate_domains": []
+  }
 }

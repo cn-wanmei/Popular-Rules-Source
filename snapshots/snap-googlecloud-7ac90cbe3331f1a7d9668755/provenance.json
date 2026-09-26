@@ -51,38 +51,7 @@
       "value": "status.cloud.google.com"
     }
   ],
-  "change_assessment": {
-    "growth_ratio": 1.0,
-    "removal_ratio": 0.0,
-    "status": "OK"
-  },
   "content_digest": "6ca5c0cc0be2332d1bbffdad731fc39e3fcecc5061cd7d0db76a712c5416a36b",
-  "created_at": "2026-09-26T10:23:08.521119+00:00",
-  "domain_count": 5,
-  "domain_diff": {
-    "added": [],
-    "added_count": 0,
-    "current_count": 5,
-    "previous_count": 5,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [
-      "cloud.google.com",
-      "console.cloud.google.com",
-      "docs.cloud.google.com",
-      "partners.cloud.google.com",
-      "status.cloud.google.com"
-    ],
-    "unchanged_count": 5
-  },
-  "domains": [
-    "cloud.google.com",
-    "console.cloud.google.com",
-    "docs.cloud.google.com",
-    "partners.cloud.google.com",
-    "status.cloud.google.com"
-  ],
-  "errors": [],
   "evidence": [
     {
       "authority": "official",
@@ -103,36 +72,16 @@
   ],
   "evidence_digest": "3564a8a543bb229fa797a257629e881de2a78e6a12806350fe647789af6630c7",
   "generator_digest": "4b9aa8f4f82bbf045f6d0f5e97035d5229c3105ec91cff8784c75c6ec64e8f17",
-  "generator_version": "3.1.0",
-  "last_known_good": false,
-  "official_extracted": 5,
-  "official_source_count": 1,
-  "parser_version": "domain-extractor-v4",
   "policy_digest": "7596136202ec2861d0da515eecf34c9acc223b20cb22474878a84bc856021ce6",
-  "previous_domain_count": 5,
   "release_digest": "7ac90cbe3331f1a7d966875584f82256154425568670e025f4804e57405589c3",
   "release_identity_version": "2",
-  "release_reasons": [],
-  "release_state": "CANDIDATE",
-  "schema": "source_snapshot_v2",
-  "service_config_digest": "f601c5f1163cf538d09044a9a2cdb040fabfca219e54465db81d1f055f5cf673",
+  "schema": "source_provenance_v3",
   "service_id": "googlecloud",
-  "snapshot_content_sha256": "6ca5c0cc0be2332d1bbffdad731fc39e3fcecc5061cd7d0db76a712c5416a36b",
   "snapshot_id": "snap-googlecloud-7ac90cbe3331f1a7d9668755",
-  "source_bindings": [
-    {
-      "adapter": null,
-      "url": "https://cloud.google.com/"
-    }
-  ],
-  "source_count": 1,
   "source_policy": {
     "allowed_authorities": [
       "official"
     ],
     "official_required": true
-  },
-  "trusted_extracted": 5,
-  "unverified_candidate_count": 0,
-  "unverified_candidate_domains": []
+  }
 }
