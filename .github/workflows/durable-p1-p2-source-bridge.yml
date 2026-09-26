@@ -19,7 +19,7 @@ env:
 
 jobs:
   verify:
-    name: Verify \${{ matrix.service }}
+    name: Verify ${{ matrix.service }}
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
@@ -53,7 +53,7 @@ jobs:
           fetch-depth: 1
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
         with:
-          python-version: \${{ env.PYTHON_VERSION }}
+          python-version: ${{ env.PYTHON_VERSION }}
       - run: python -m pip install -r requirements.txt
       - name: Validate source configuration
         run: python -m source_engine validate
@@ -66,7 +66,7 @@ jobs:
           import json
           from pathlib import Path
 
-          service="\${{ matrix.service }}"
+          service="${{ matrix.service }}"
           provenance_path=Path("generated")/"source"/service/"provenance.json"
           if not provenance_path.is_file():
               raise SystemExit(f"{service}: generated provenance missing")
@@ -115,7 +115,7 @@ jobs:
   persist:
     name: Extend durable bridge with P1/P2
     needs: verify
-    if: \${{ needs.verify.result == 'success' }}
+    if: ${{ needs.verify.result == 'success' }}
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
