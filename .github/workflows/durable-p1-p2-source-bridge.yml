@@ -1,4 +1,5 @@
 name: Durable P1 P2 Source Bridge
+# trigger: 2026-09-26 P1/P2 durable seal execution
 
 on:
   push:
