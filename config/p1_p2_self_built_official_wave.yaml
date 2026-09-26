@@ -7,24 +7,24 @@ production_policy:
   official_evidence_required: true
   immutable_release_required: true
 services:
-  huawei-cloud: {provider: huawei, official_source: https://console-intl.huaweicloud.com/console/?locale=en-us, exact: [console-intl.huaweicloud.com], phase: P1}
-  mi-cloud: {provider: xiaomi, official_source: https://www.mi.com/sg/support/article/KA-07435/, exact: [i.mi.com], phase: P1}
-  jd-cloud: {provider: jingdong, official_source: https://www.jdcloud.com/, exact: [www.jdcloud.com], phase: P1}
-  kugou: {provider: tencent_music, official_source: https://www.kugou.com/, exact: [www.kugou.com], phase: P1}
-  kuwo: {provider: tencent_music, official_source: https://m.kuwo.cn/newh5app/ranklist_detail/16, exact: [m.kuwo.cn], phase: P1}
-  quanmin-k-ge: {provider: tencent_music, official_source: https://kg.qq.com/, exact: [kg.qq.com], phase: P1}
-  amazonmusic: {provider: amazon, official_source: https://music.amazon.com/, exact: [music.amazon.com], phase: P2}
-  audible: {provider: amazon, official_source: https://www.audible.com/, exact: [audible.com], phase: P2}
-  goodreads: {provider: amazon, official_source: https://www.goodreads.com/, exact: [goodreads.com], phase: P2}
-  messenger: {provider: meta, official_source: https://messenger.com/, exact: [www.messenger.com], phase: P2}
-  adobe-firefly: {provider: adobe, official_source: https://firefly.adobe.com/, exact: [firefly.adobe.com], phase: P2}
-  adobe-stock: {provider: adobe, official_source: https://stock.adobe.com/, exact: [stock.adobe.com], phase: P2}
-  adobe-fonts: {provider: adobe, official_source: https://fonts.adobe.com/, exact: [fonts.adobe.com], phase: P2}
-  openai-api: {provider: openai, official_source: https://developers.openai.com/api/docs, exact: [api.openai.com], phase: P2}
-  openai-platform: {provider: openai, official_source: https://platform.openai.com/, exact: [platform.openai.com], phase: P2}
-  chatgpt: {provider: openai, official_source: https://chatgpt.com/, exact: [chatgpt.com], phase: P2}
-  anthropic-claude: {provider: anthropic, official_source: https://claude.ai/, exact: [claude.ai], phase: P2}
-  anthropic-platform: {provider: anthropic, official_source: https://console.anthropic.com/, exact: [platform.claude.com], phase: P2}
-  xai-grok: {provider: xai, official_source: https://grok.com/, exact: [grok.com], phase: P2}
-  stripe-dashboard: {provider: stripe, official_source: https://dashboard.stripe.com/, exact: [dashboard.stripe.com], phase: P2}
-  venmo: {provider: paypal, official_source: https://venmo.com/, exact: [venmo.com], phase: P2}
+  huawei-cloud: {provider: huawei, official_source: "https://console-intl.huaweicloud.com/console/?locale=en-us", exact: [console-intl.huaweicloud.com], phase: P1}
+  mi-cloud: {provider: xiaomi, official_source: "https://www.mi.com/sg/support/article/KA-07435/", exact: [i.mi.com], phase: P1}
+  jd-cloud: {provider: jingdong, official_source: "https://www.jdcloud.com/", exact: [www.jdcloud.com], phase: P1}
+  kugou: {provider: tencent_music, official_source: "https://www.kugou.com/", exact: [www.kugou.com], phase: P1}
+  kuwo: {provider: tencent_music, official_source: "https://m.kuwo.cn/newh5app/ranklist_detail/16", exact: [m.kuwo.cn], phase: P1}
+  quanmin-k-ge: {provider: tencent_music, official_source: "https://kg.qq.com/", exact: [kg.qq.com], phase: P1}
+  amazonmusic: {provider: amazon, official_source: "https://music.amazon.com/", exact: [music.amazon.com], phase: P2}
+  audible: {provider: amazon, official_source: "https://www.audible.com/", exact: [audible.com], phase: P2}
+  goodreads: {provider: amazon, official_source: "https://www.goodreads.com/", exact: [goodreads.com], phase: P2}
+  messenger: {provider: meta, official_source: "https://messenger.com/", exact: [www.messenger.com], phase: P2}
+  adobe-firefly: {provider: adobe, official_source: "https://firefly.adobe.com/", exact: [firefly.adobe.com], phase: P2}
+  adobe-stock: {provider: adobe, official_source: "https://stock.adobe.com/", exact: [stock.adobe.com], phase: P2}
+  adobe-fonts: {provider: adobe, official_source: "https://fonts.adobe.com/", exact: [fonts.adobe.com], phase: P2}
+  openai-api: {provider: openai, official_source: "https://developers.openai.com/api/docs", exact: [api.openai.com], phase: P2}
+  openai-platform: {provider: openai, official_source: "https://platform.openai.com/", exact: [platform.openai.com], phase: P2}
+  chatgpt: {provider: openai, official_source: "https://chatgpt.com/", exact: [chatgpt.com], phase: P2}
+  anthropic-claude: {provider: anthropic, official_source: "https://claude.ai/", exact: [claude.ai], phase: P2}
+  anthropic-platform: {provider: anthropic, official_source: "https://console.anthropic.com/", exact: [platform.claude.com], phase: P2}
+  xai-grok: {provider: xai, official_source: "https://grok.com/", exact: [grok.com], phase: P2}
+  stripe-dashboard: {provider: stripe, official_source: "https://dashboard.stripe.com/", exact: [dashboard.stripe.com], phase: P2}
+  venmo: {provider: paypal, official_source: "https://venmo.com/", exact: [venmo.com], phase: P2}
