@@ -219,3 +219,19 @@ services:
   samsung: {adapters: [self_built]}
   tesla: {adapters: [self_built]}
   intel: {adapters: [self_built]}
+  iflytek: {adapters: [self_built]}
+  shimo: {adapters: [self_built]}
+  xunlei: {adapters: [self_built]}
+  mgtv: {adapters: [self_built]}
+  eastmoney: {adapters: [self_built]}
+  autohome: {adapters: [self_built]}
+  qunar: {adapters: [self_built]}
+  zhipin: {adapters: [self_built]}
+  wps: {adapters: [self_built]}
+  ibm: {adapters: [self_built]}
+  amd: {adapters: [self_built]}
+  cisco: {adapters: [self_built]}
+  salesforce: {adapters: [self_built]}
+  cloudflare: {adapters: [self_built]}
+  datadog: {adapters: [self_built]}
+  mongodb: {adapters: [self_built]}

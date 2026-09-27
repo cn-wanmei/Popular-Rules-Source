@@ -679,3 +679,178 @@ services:
     - intel.com
     upstream_binding: null
     current_state: review
+  iflytek:
+    display_name: 科大讯飞
+    ecosystem: iflytek
+    mode: official_web
+    official_sources:
+    - https://www.iflytek.com/
+    allowed_host_exact:
+    - www.iflytek.com
+    - iflytek.com
+    upstream_binding: null
+    current_state: review
+  shimo:
+    display_name: 石墨文档
+    ecosystem: shimo
+    mode: official_web
+    official_sources:
+    - https://shimo.im/
+    allowed_host_exact:
+    - shimo.im
+    upstream_binding: null
+    current_state: review
+  xunlei:
+    display_name: 迅雷
+    ecosystem: xunlei
+    mode: official_web
+    official_sources:
+    - https://www.xunlei.com/
+    allowed_host_exact:
+    - www.xunlei.com
+    - xunlei.com
+    upstream_binding: null
+    current_state: review
+  mgtv:
+    display_name: 芒果TV
+    ecosystem: mgtv
+    mode: official_web
+    official_sources:
+    - https://www.mgtv.com/
+    allowed_host_exact:
+    - www.mgtv.com
+    - mgtv.com
+    upstream_binding: null
+    current_state: review
+  eastmoney:
+    display_name: 东方财富
+    ecosystem: eastmoney
+    mode: official_web
+    official_sources:
+    - https://www.eastmoney.com/
+    allowed_host_exact:
+    - www.eastmoney.com
+    - eastmoney.com
+    upstream_binding: null
+    current_state: review
+  autohome:
+    display_name: 汽车之家
+    ecosystem: autohome
+    mode: official_web
+    official_sources:
+    - https://www.autohome.com.cn/
+    allowed_host_exact:
+    - www.autohome.com.cn
+    - autohome.com.cn
+    upstream_binding: null
+    current_state: review
+  qunar:
+    display_name: 去哪儿
+    ecosystem: qunar
+    mode: official_web
+    official_sources:
+    - https://www.qunar.com/
+    allowed_host_exact:
+    - www.qunar.com
+    - qunar.com
+    upstream_binding: null
+    current_state: review
+  zhipin:
+    display_name: BOSS直聘
+    ecosystem: zhipin
+    mode: official_web
+    official_sources:
+    - https://www.zhipin.com/
+    allowed_host_exact:
+    - www.zhipin.com
+    - zhipin.com
+    upstream_binding: null
+    current_state: review
+  wps:
+    display_name: WPS
+    ecosystem: kingsoft
+    mode: official_web
+    official_sources:
+    - https://www.wps.cn/
+    allowed_host_exact:
+    - www.wps.cn
+    - wps.cn
+    upstream_binding: null
+    current_state: review
+  ibm:
+    display_name: IBM
+    ecosystem: ibm
+    mode: official_web
+    official_sources:
+    - https://www.ibm.com/
+    allowed_host_exact:
+    - www.ibm.com
+    - ibm.com
+    upstream_binding: null
+    current_state: review
+  amd:
+    display_name: AMD
+    ecosystem: amd
+    mode: official_web
+    official_sources:
+    - https://www.amd.com/
+    allowed_host_exact:
+    - www.amd.com
+    - amd.com
+    upstream_binding: null
+    current_state: review
+  cisco:
+    display_name: Cisco
+    ecosystem: cisco
+    mode: official_web
+    official_sources:
+    - https://www.cisco.com/
+    allowed_host_exact:
+    - www.cisco.com
+    - cisco.com
+    upstream_binding: null
+    current_state: review
+  salesforce:
+    display_name: Salesforce
+    ecosystem: salesforce
+    mode: official_web
+    official_sources:
+    - https://www.salesforce.com/
+    allowed_host_exact:
+    - www.salesforce.com
+    - salesforce.com
+    upstream_binding: null
+    current_state: review
+  cloudflare:
+    display_name: Cloudflare
+    ecosystem: cloudflare
+    mode: official_web
+    official_sources:
+    - https://www.cloudflare.com/
+    allowed_host_exact:
+    - www.cloudflare.com
+    - cloudflare.com
+    upstream_binding: null
+    current_state: review
+  datadog:
+    display_name: Datadog
+    ecosystem: datadog
+    mode: official_web
+    official_sources:
+    - https://www.datadoghq.com/
+    allowed_host_exact:
+    - www.datadoghq.com
+    - datadoghq.com
+    upstream_binding: null
+    current_state: review
+  mongodb:
+    display_name: MongoDB
+    ecosystem: mongodb
+    mode: official_web
+    official_sources:
+    - https://www.mongodb.com/
+    allowed_host_exact:
+    - www.mongodb.com
+    - mongodb.com
+    upstream_binding: null
+    current_state: review
