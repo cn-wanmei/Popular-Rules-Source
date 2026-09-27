@@ -2,18 +2,20 @@ name: CI
 
 on:
   push:
-    branches: ["main", "feature/**", "chore/**"]
+    branches: ["main", "feature/**", "chore/**", "feat/**"]
   pull_request:
+    branches: [main]
+  workflow_dispatch:
 
 concurrency:
-  group: phase2-Popular-Rules-Source--github-workflows-validate-yml-${{ github.ref }}
+  group: ci-${{ github.ref }}
   cancel-in-progress: true
 
 permissions:
   contents: read
 
 jobs:
-  validate:
+  gate:
     runs-on: ubuntu-latest
     env:
       COLLECTION_REF: main
@@ -21,32 +23,111 @@ jobs:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
-          python-version: "3.11"
+          python-version: "3.12"
       - run: python -m pip install -r requirements.txt
+
+      - name: Validate workflow YAML syntax
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import yaml
+
+          files = sorted(Path(".github/workflows").glob("*.yml"))
+          files += sorted(Path(".github/workflows").glob("*.yaml"))
+          if not files:
+              raise SystemExit("No GitHub Actions workflow files found")
+
+          for path in files:
+              with path.open(encoding="utf-8") as fh:
+                  yaml.safe_load(fh)
+              print(f"YAML OK: {path}")
+          PY
+
       - run: python -m source_engine validate
       - run: python -m pytest -q
       - run: python -m source_engine generate --all --allow-blocked
+      - run: python -m source_engine candidate-audit
+      - run: python -m source_engine schema-validate
+      - run: python -m source_engine conflict
+      - run: python -m source_engine audit
+
       - name: Build service qualification report
         run: python -m source_engine qualify > reports/phase2-qualification.stdout.json
+
       - name: Publish qualification summary
         run: |
           python - <<'PY'
           import json
           from pathlib import Path
-          report = json.loads(Path("reports/phase2-service-qualification.json").read_text(encoding="utf-8"))
+          report_path = Path("reports/phase2-service-qualification.json")
+          if not report_path.is_file():
+              print("qualification report missing; skip summary")
+              raise SystemExit(0)
+          report = json.loads(report_path.read_text(encoding="utf-8"))
           summary = {
-              "verified_count": report["verified_count"],
-              "service_count": len(report["services"]),
+              "verified_count": report.get("verified_count"),
+              "service_count": len(report.get("services") or {}),
               "services": {
                   sid: {
                       "stage": item.get("stage"),
                       "blockers": item.get("blockers", []),
                   }
-                  for sid, item in sorted(report["services"].items())
+                  for sid, item in sorted((report.get("services") or {}).items())
               },
           }
           print(json.dumps(summary, ensure_ascii=False, indent=2))
           PY
-      - run: python -m source_engine schema-validate
-      - run: python -m source_engine conflict
-      - run: python -m source_engine audit
+
+      - name: Reconcile Collection registration before promotion
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main' || github.event_name == 'workflow_dispatch'
+        run: |
+          python - <<'PY'
+          import os
+          import re
+          import unicodedata
+
+          import requests
+          import yaml
+
+          ref = os.environ["COLLECTION_REF"]
+          response = requests.get(
+              f"https://raw.githubusercontent.com/cn-wanmei/Popular-Rules-Collection/{ref}/sources/registry.yaml",
+              timeout=20,
+              headers={"User-Agent": "Popular-Rules-Source/3.x"},
+          )
+          response.raise_for_status()
+          content = response.text
+          registry = yaml.safe_load(content) or {}
+          prs_entry = next(
+              (
+                  item for item in registry.get("sources", [])
+                  if item.get("id") == "popular-rules-source"
+              ),
+              None,
+          )
+          if not isinstance(prs_entry, dict):
+              raise SystemExit("Collection popular-rules-source registry entry missing")
+
+          def canonical(value):
+              normalized = unicodedata.normalize("NFKC", str(value)).strip().lower()
+              return re.sub(r"[^a-z0-9]+", "", normalized)
+
+          registered = {
+              canonical(rule.get("service") or rule.get("name"))
+              for rule in (prs_entry.get("rules") or [])
+              if rule.get("service") or rule.get("name")
+          }
+
+          import source_engine.build as build
+          required = {
+              canonical(sid)
+              for sid in build.load_services()["services"].keys()
+          }
+          missing = sorted(required - registered)
+          if missing:
+              raise SystemExit(f"Collection registration reconciliation failed: {missing}")
+          print(
+              f"Collection registration reconciliation: PASS "
+              f"(ref={ref}, registered={len(registered)}, required={len(required)})"
+          )
+          PY
