@@ -1087,3 +1087,178 @@ services:
     enabled: true
     reason: batch_O4_official_seed_2026-09-27
     last_transition: '2026-09-27'
+  broadcom:
+    state: review
+    enabled: true
+    reason: wave2_O1_2026-09-27
+    last_transition: '2026-09-27'
+  asml:
+    state: review
+    enabled: true
+    reason: wave2_O1_2026-09-27
+    last_transition: '2026-09-27'
+  micron:
+    state: review
+    enabled: true
+    reason: wave2_O1_2026-09-27
+    last_transition: '2026-09-27'
+  skhynix:
+    state: review
+    enabled: true
+    reason: wave2_O1_2026-09-27
+    last_transition: '2026-09-27'
+  ti:
+    state: review
+    enabled: true
+    reason: wave2_O1_2026-09-27
+    last_transition: '2026-09-27'
+  siemens:
+    state: review
+    enabled: true
+    reason: wave2_O1_2026-09-27
+    last_transition: '2026-09-27'
+  schneider:
+    state: review
+    enabled: true
+    reason: wave2_O1_2026-09-27
+    last_transition: '2026-09-27'
+  dell:
+    state: review
+    enabled: true
+    reason: wave2_O1_2026-09-27
+    last_transition: '2026-09-27'
+  paloalto:
+    state: review
+    enabled: true
+    reason: wave2_O1_2026-09-27
+    last_transition: '2026-09-27'
+  synopsys:
+    state: review
+    enabled: true
+    reason: wave2_O2_2026-09-27
+    last_transition: '2026-09-27'
+  cadence:
+    state: review
+    enabled: true
+    reason: wave2_O2_2026-09-27
+    last_transition: '2026-09-27'
+  lamresearch:
+    state: review
+    enabled: true
+    reason: wave2_O2_2026-09-27
+    last_transition: '2026-09-27'
+  kla:
+    state: review
+    enabled: true
+    reason: wave2_O2_2026-09-27
+    last_transition: '2026-09-27'
+  hitachi:
+    state: review
+    enabled: true
+    reason: wave2_O3_2026-09-27
+    last_transition: '2026-09-27'
+  fujitsu:
+    state: review
+    enabled: true
+    reason: wave2_O3_2026-09-27
+    last_transition: '2026-09-27'
+  nec:
+    state: review
+    enabled: true
+    reason: wave2_O3_2026-09-27
+    last_transition: '2026-09-27'
+  mercadolibre:
+    state: review
+    enabled: true
+    reason: wave2_O3_2026-09-27
+    last_transition: '2026-09-27'
+  hpe:
+    state: review
+    enabled: true
+    reason: wave2_O3_2026-09-27
+    last_transition: '2026-09-27'
+  netapp:
+    state: review
+    enabled: true
+    reason: wave2_O3_2026-09-27
+    last_transition: '2026-09-27'
+  equinix:
+    state: review
+    enabled: true
+    reason: wave2_O3_2026-09-27
+    last_transition: '2026-09-27'
+  dassault:
+    state: review
+    enabled: true
+    reason: wave2_O4_2026-09-27
+    last_transition: '2026-09-27'
+  block:
+    state: review
+    enabled: true
+    reason: wave2_O4_2026-09-27
+    last_transition: '2026-09-27'
+  take2:
+    state: review
+    enabled: true
+    reason: wave2_O4_2026-09-27
+    last_transition: '2026-09-27'
+  globalfoundries:
+    state: review
+    enabled: true
+    reason: wave2_O4_2026-09-27
+    last_transition: '2026-09-27'
+  umc:
+    state: review
+    enabled: true
+    reason: wave2_O4_2026-09-27
+    last_transition: '2026-09-27'
+  pingan:
+    state: review
+    enabled: true
+    reason: wave2_D3_2026-09-27
+    last_transition: '2026-09-27'
+  lufax:
+    state: review
+    enabled: true
+    reason: wave2_D3_2026-09-27
+    last_transition: '2026-09-27'
+  atour:
+    state: review
+    enabled: true
+    reason: wave2_D3_2026-09-27
+    last_transition: '2026-09-27'
+  transsion:
+    state: review
+    enabled: true
+    reason: wave2_D4_2026-09-27
+    last_transition: '2026-09-27'
+  roborock:
+    state: review
+    enabled: true
+    reason: wave2_D4_2026-09-27
+    last_transition: '2026-09-27'
+  dreame:
+    state: review
+    enabled: true
+    reason: wave2_D4_2026-09-27
+    last_transition: '2026-09-27'
+  xgimi:
+    state: review
+    enabled: true
+    reason: wave2_D4_2026-09-27
+    last_transition: '2026-09-27'
+  internlm:
+    state: review
+    enabled: true
+    reason: wave2_D4_2026-09-27
+    last_transition: '2026-09-27'
+  birentech:
+    state: review
+    enabled: true
+    reason: wave2_D4_2026-09-27
+    last_transition: '2026-09-27'
+  kunlunxin:
+    state: review
+    enabled: true
+    reason: wave2_D4_2026-09-27
+    last_transition: '2026-09-27'
