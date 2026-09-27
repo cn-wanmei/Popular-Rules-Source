@@ -1302,3 +1302,118 @@ services:
     enabled: true
     reason: d1_child_2026-09-27
     last_transition: '2026-09-27'
+  37games:
+    state: review
+    enabled: true
+    reason: subtree_wave_2026-09-27
+    last_transition: '2026-09-27'
+  aliexpress:
+    state: review
+    enabled: true
+    reason: subtree_wave_2026-09-27
+    last_transition: '2026-09-27'
+  alipay:
+    state: review
+    enabled: true
+    reason: subtree_wave_2026-09-27
+    last_transition: '2026-09-27'
+  amap:
+    state: review
+    enabled: true
+    reason: subtree_wave_2026-09-27
+    last_transition: '2026-09-27'
+  arista:
+    state: review
+    enabled: true
+    reason: subtree_wave_2026-09-27
+    last_transition: '2026-09-27'
+  boss:
+    state: review
+    enabled: true
+    reason: subtree_wave_2026-09-27
+    last_transition: '2026-09-27'
+  eleme:
+    state: review
+    enabled: true
+    reason: subtree_wave_2026-09-27
+    last_transition: '2026-09-27'
+  fliggy:
+    state: review
+    enabled: true
+    reason: subtree_wave_2026-09-27
+    last_transition: '2026-09-27'
+  jianying:
+    state: review
+    enabled: true
+    reason: subtree_wave_2026-09-27
+    last_transition: '2026-09-27'
+  lazada:
+    state: review
+    enabled: true
+    reason: subtree_wave_2026-09-27
+    last_transition: '2026-09-27'
+  linkedin:
+    state: review
+    enabled: true
+    reason: subtree_wave_2026-09-27
+    last_transition: '2026-09-27'
+  powerbi:
+    state: review
+    enabled: true
+    reason: subtree_wave_2026-09-27
+    last_transition: '2026-09-27'
+  qqbrowser:
+    state: review
+    enabled: true
+    reason: subtree_wave_2026-09-27
+    last_transition: '2026-09-27'
+  sharepoint:
+    state: review
+    enabled: true
+    reason: subtree_wave_2026-09-27
+    last_transition: '2026-09-27'
+  shiji:
+    state: review
+    enabled: true
+    reason: subtree_wave_2026-09-27
+    last_transition: '2026-09-27'
+  supermicro:
+    state: review
+    enabled: true
+    reason: subtree_wave_2026-09-27
+    last_transition: '2026-09-27'
+  tencentdocs:
+    state: review
+    enabled: true
+    reason: subtree_wave_2026-09-27
+    last_transition: '2026-09-27'
+  toutiao:
+    state: review
+    enabled: true
+    reason: subtree_wave_2026-09-27
+    last_transition: '2026-09-27'
+  wanmei:
+    state: review
+    enabled: true
+    reason: subtree_wave_2026-09-27
+    last_transition: '2026-09-27'
+  wetv:
+    state: review
+    enabled: true
+    reason: subtree_wave_2026-09-27
+    last_transition: '2026-09-27'
+  xianyu:
+    state: review
+    enabled: true
+    reason: subtree_wave_2026-09-27
+    last_transition: '2026-09-27'
+  xigua:
+    state: review
+    enabled: true
+    reason: subtree_wave_2026-09-27
+    last_transition: '2026-09-27'
+  youku:
+    state: review
+    enabled: true
+    reason: subtree_wave_2026-09-27
+    last_transition: '2026-09-27'
