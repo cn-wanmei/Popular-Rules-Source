@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:2cb6956a7a0855e19a9352ff6b318abeb28bb50fd19255b498397d7fdd5d3190",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-grab-001-08d8b4fb47d1"
+      ],
+      "service_id": "grab",
+      "type": "domain",
+      "value": "grab.com"
+    },
+    {
+      "asset_id": "sha256:b60f6eadc5f7bae7a0cc5826db1fb6fc076af4b5bbb4ac2db81170f7d3b78cfb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-grab-001-08d8b4fb47d1"
+      ],
+      "service_id": "grab",
+      "type": "domain",
+      "value": "www.grab.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "de0cbde103a8a5d14c0f0974a9f73e861b776ec071d9774396788453196c0aa4",
+  "created_at": "2026-09-27T11:29:35.831210+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "grab.com",
+      "www.grab.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "grab.com",
+    "www.grab.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "08d8b4fb47d1a1a0edd5ec0475cedd915a56d1e37a3815ddf7b2846c686ab969",
+      "domains_extracted": 2,
+      "evidence_id": "EV-grab-001-08d8b4fb47d1",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.grab.com/",
+      "retrieved_at": "1790508533640324251",
+      "service_id": "grab",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.grab.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "b9f455f0b0d36013dc7b924982a59d625db2789c33f0da1ffc9c8a0013334a59",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "0795dafcef0e8462ad72e5c47d98bd03bfd57ac901069b91977c8a02cd33715f",
+  "previous_domain_count": 0,
+  "release_digest": "df7ca87a00ca3902947bf0e47a6ae1f091402c563d71f47745aa36d6c52cb15a",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "fd1b70faaa86367ca347f71be64f3e2140305224176fde603dcfe0b5be23d0ef",
+  "service_id": "grab",
+  "snapshot_content_sha256": "de0cbde103a8a5d14c0f0974a9f73e861b776ec071d9774396788453196c0aa4",
+  "snapshot_id": "snap-grab-df7ca87a00ca3902947bf0e4",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.grab.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "8dc04ad288ec8f3a280f5d47bc6ed7046768c2aca6998a97fd1f3d724b644335",
+    "manifest.json": "0b44f6e1a6e0813f41f4d3ae2a94e3465ec210937c095a61a29cb007c6294aab",
+    "provenance.json": "14ddafee42eee6c18aefec4ac13939303f00ab810e97e5d11c3568f8a3d66fb0",
+    "snapshot_content.json": "aa0b20f749c109322c11f6a57b56363617fa7c425148806a87932d19df04013f"
+  },
+  "content_digest": "f291ba19c323ccc8b214d546d63ab4f13592f2853d84f131c886bcb095e71358",
+  "created_at": "2026-09-27T11:30:36.104147+00:00",
+  "evidence_digest": "b1bc47386e47d6e8f0ae0ae3ae95d80246f74b4f285e5be431b96ed3188c8abb",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "fc9a816bdd25cc2f07d72ee4cd74443defffca11d02bcd0629b189dbb3396b06",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "1e6851042c68c063a98be11bd4b63d9eee4f0a31667d41e222a660bc7c18ce51",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "hitachi",
+  "snapshot_id": "snap-hitachi-1e6851042c68c063a98be11b",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

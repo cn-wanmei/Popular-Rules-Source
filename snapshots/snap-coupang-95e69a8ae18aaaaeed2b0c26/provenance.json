@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:4afc871e92a9c6a191ff8449999509f7429c97cbec18d877741d5ad417cbc557",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-coupang-001-6f9858975c20"
+      ],
+      "service_id": "coupang",
+      "type": "domain",
+      "value": "coupang.com"
+    },
+    {
+      "asset_id": "sha256:7a316a41bcb07e8c0997bfbf78657d0edc671af4d0c8ba76380f06cd0b559e54",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-coupang-001-6f9858975c20"
+      ],
+      "service_id": "coupang",
+      "type": "domain",
+      "value": "www.coupang.com"
+    }
+  ],
+  "content_digest": "f240da37238c27c7ecba9498a7fadbdc30b560baab71b05823000387d15276e9",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "6f9858975c20fe509bd190ce32139a6e77e232cdc168fc8c8a49074718be87e2",
+      "domains_extracted": 2,
+      "evidence_id": "EV-coupang-001-6f9858975c20",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.coupang.com/",
+      "retrieved_at": "1790508426343490376",
+      "service_id": "coupang",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.coupang.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "c64a2dcdda4740dad5c56eaa62df6bdbf799fd5edbbfdc7ffe0b4525e21183c4",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "24325953e1c67ccc6258b8b2b13934b308c6a0196760f2c83b5cd398bd94551b",
+  "release_digest": "95e69a8ae18aaaaeed2b0c268af23047632caffbd0e60446ef52f960a21cfbde",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "coupang",
+  "snapshot_id": "snap-coupang-95e69a8ae18aaaaeed2b0c26",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

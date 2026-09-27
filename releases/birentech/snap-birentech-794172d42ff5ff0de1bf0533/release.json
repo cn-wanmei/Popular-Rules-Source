@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "889442b1a0d9171682cb2c58e347423f40b36871b79d20388b88909506a6154b",
+    "manifest.json": "015a81a74251e887e18a6d502f89e572f3741b75f6601b1021338b1f0b430c23",
+    "provenance.json": "59957991ead5f560beb1e528e17e117eec833f00bf3f7a1ed202bc6baee1003b",
+    "snapshot_content.json": "43cbc52ee858a4a7e83fd573204bcdbe262a1f529359a72f7cb8ab21b48ab077"
+  },
+  "content_digest": "952251b7c5ba9f2224013f5db51af8c16df4b2585694e51ceef5af4fc5d20b50",
+  "created_at": "2026-09-27T11:28:46.482722+00:00",
+  "evidence_digest": "506dcc3e253834b5551326dd4931ae6ed37d14d1960db5ebeb057bddd942f656",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "b4b3745929ac5fa8a2eac465b94b2a4c800027c294d2ef7126c6e9225ec65138",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "794172d42ff5ff0de1bf0533d0b038ca06cadcf05b7ebd813c3f2e3fbb1fc177",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "birentech",
+  "snapshot_id": "snap-birentech-794172d42ff5ff0de1bf0533",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

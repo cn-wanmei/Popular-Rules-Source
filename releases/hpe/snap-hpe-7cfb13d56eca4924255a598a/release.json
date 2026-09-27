@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "8988c63d2efe3a88bd1e34c63dd04e0b6e027d93bf2454a0633a6440635988fb",
+    "manifest.json": "0868a86c360af36aa4f2559e657c997293738148ab8bca8df52376c1016d68c4",
+    "provenance.json": "05d696e197da5ae8bba649079673be3c1a3bd9f1a84f0c3cb9d1325de3c92333",
+    "snapshot_content.json": "e29079c0ddcae2cf9afb45d98a1f13bfdc5faa5f955d6d20aae1aa5f64696eaa"
+  },
+  "content_digest": "62920042e7a3e8a9f12a605f40e11ebd046655a6f6ec7a814da79c00509cf7be",
+  "created_at": "2026-09-27T11:33:10.736402+00:00",
+  "evidence_digest": "06dd9b6c28aa120a8efbd32f8e44dfae7b31dbb46a71a91cd15713cff43a130c",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "77a1ee210015c0724c3c3e6cbe386c20ea2c74e671c4af78814d0f6e7695f961",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "7cfb13d56eca4924255a598acc21e7ffb5733ab1db18e67182e1bef2b9da6846",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "hpe",
+  "snapshot_id": "snap-hpe-7cfb13d56eca4924255a598a",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

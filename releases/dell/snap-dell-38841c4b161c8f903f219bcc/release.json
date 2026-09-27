@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "feacca95cbb376b0a5930cfd089a18304cbc5547809133f64b5db23a2cfef35b",
+    "manifest.json": "282c557501575b89eabd55de7c23a8a290088951f4c391890cb8e40dc7847e8f",
+    "provenance.json": "15af5deacea58d95b60baaae999571023e6e50e731198791797ff61f22eca863",
+    "snapshot_content.json": "8c27dd5e8ea29b2fb7456e7b15edeeddc40b262d36679b6edad4ee050fb036f6"
+  },
+  "content_digest": "44ada0f087d052a497cde9f8e7590852b3dbe0f1696ae8b51bd32c75a8b988eb",
+  "created_at": "2026-09-27T11:28:11.307824+00:00",
+  "evidence_digest": "87bfeb0091afce4995dc236a1b7eed179fcdc742527ee6fe1da4df7a510d52c0",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "be709bd555cc400a7d654ec3d7be83621463cd17bb0bef38991c2bfe9f1e1f73",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "38841c4b161c8f903f219bcc040ddb66b7801c2adff5776e184bebfd049cc8e7",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "dell",
+  "snapshot_id": "snap-dell-38841c4b161c8f903f219bcc",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

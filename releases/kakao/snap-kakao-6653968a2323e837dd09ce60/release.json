@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "62eff430a2bd10de1399cf1eec53a946caa4b233b68bab87e672e7ab462d2598",
+    "manifest.json": "ccf39298d50a1e24e5f60e5b5503df381aefab3d2c6d39be9d62de59b202a50b",
+    "provenance.json": "20043bfe2aa8901498df91d9581a55f19b916d21867b041e00b1e4d0e920a938",
+    "snapshot_content.json": "e9213aa5245c89157136969b402f1159c46b5f660b5cff6a441ea3bcb0ec8e91"
+  },
+  "content_digest": "84aed8b66678bffe8bdb00c174fe33b55d09ee21cd8072c08972f5e6e677aa62",
+  "created_at": "2026-09-27T11:28:53.066475+00:00",
+  "evidence_digest": "c51b2c868f8621d85ae5452d4148bc604185a2d472b1f565014c1fff0d2c1b28",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "7d6c41338fd88c123f48f526fc0a7d705c8fc0bd5d1ab0a2b29bc78835e42b85",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "6653968a2323e837dd09ce60c1ad740a547c0cec72afe1f7f365ac901e0f675b",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "kakao",
+  "snapshot_id": "snap-kakao-6653968a2323e837dd09ce60",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

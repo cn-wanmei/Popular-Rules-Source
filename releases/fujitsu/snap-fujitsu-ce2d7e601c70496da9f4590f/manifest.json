@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:deae2b23b0558108f3e87f4eb875c560a36efc4ab505389b59445807806f745d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-fujitsu-001-91c648dada90"
+      ],
+      "service_id": "fujitsu",
+      "type": "domain",
+      "value": "fujitsu.com"
+    },
+    {
+      "asset_id": "sha256:428d2ad0fead68d15e1a21d63deb033c3b969ec3079c98a593e3ea003f612e7e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-fujitsu-001-91c648dada90"
+      ],
+      "service_id": "fujitsu",
+      "type": "domain",
+      "value": "www.fujitsu.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "7df0320fa6415aeb563cf85f165613997c774ee669081c849e8d6e48f9b1d9aa",
+  "created_at": "2026-09-27T11:28:11.678850+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "fujitsu.com",
+      "www.fujitsu.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "fujitsu.com",
+    "www.fujitsu.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "91c648dada90addb84701c882500e234de4a7add27cabc0c010d984f62aa7407",
+      "domains_extracted": 2,
+      "evidence_id": "EV-fujitsu-001-91c648dada90",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.fujitsu.com/",
+      "retrieved_at": "1790508426559071085",
+      "service_id": "fujitsu",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.fujitsu.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "349e653ebcc694d47a6e393e995255aaecbbf3a04a1c2a4b31919f67d9cba315",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "03c60b90ad3831011c82ea2fc8f546241e0babdcc4c4eaccc3ba673bfc8e8ac7",
+  "previous_domain_count": 0,
+  "release_digest": "ce2d7e601c70496da9f4590f5632280aec5dbe610151591e9d170f659677ce1f",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "073f768d82db105f5b40537ef1cb1dce86c51a0e1bcda4b0ac0b9ddd436efad5",
+  "service_id": "fujitsu",
+  "snapshot_content_sha256": "7df0320fa6415aeb563cf85f165613997c774ee669081c849e8d6e48f9b1d9aa",
+  "snapshot_id": "snap-fujitsu-ce2d7e601c70496da9f4590f",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.fujitsu.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:f98f0f9c8001df6ad6e5155a0670127380ca4768601a3ec6d99e8c5aff91bb1f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-dahua-001-e7064210a098"
+      ],
+      "service_id": "dahua",
+      "type": "domain",
+      "value": "dahuatech.com"
+    },
+    {
+      "asset_id": "sha256:87cebc8d226a8b639125f627a0f1b5fc35a0314f743e62fb6d3030ec2b0615da",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-dahua-001-e7064210a098"
+      ],
+      "service_id": "dahua",
+      "type": "domain",
+      "value": "www.dahuatech.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "37a9b60de1203154651d0a151a22c1cc1625245379853e61fb717089bffb290f",
+  "created_at": "2026-09-27T11:31:46.218984+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "dahuatech.com",
+      "www.dahuatech.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "dahuatech.com",
+    "www.dahuatech.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "e7064210a098a57b28edbaae21faa82fc7f640086e46b47d4757132ce4c427a1",
+      "domains_extracted": 2,
+      "evidence_id": "EV-dahua-001-e7064210a098",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.dahuatech.com/",
+      "retrieved_at": "1790508644641074921",
+      "service_id": "dahua",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.dahuatech.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "8aa47cb3a2f53d728b987cd9b55178dae5c8724785bfc113b1022e6292567b88",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "3007f3e584f8627a63f8c0dc8ef0f736cdd2a4b4221d4af35d6266e37b5b877f",
+  "previous_domain_count": 0,
+  "release_digest": "bf8000a4d702228a37044d1aa562f1f16161589f67424233980c32837ee0df8e",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "bf63ef22453760bbb39f0acaeef6ea698b3d5525906fbb2cf3d56b11367f910a",
+  "service_id": "dahua",
+  "snapshot_content_sha256": "37a9b60de1203154651d0a151a22c1cc1625245379853e61fb717089bffb290f",
+  "snapshot_id": "snap-dahua-bf8000a4d702228a37044d1a",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.dahuatech.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

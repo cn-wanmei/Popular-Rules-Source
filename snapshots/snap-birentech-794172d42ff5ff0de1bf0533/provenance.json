@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:9654d1a3e80fa17cbc3d822725db187718de34f1fc075dfdf4a5d2f12008a974",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-birentech-001-c7caabce2dab"
+      ],
+      "service_id": "birentech",
+      "type": "domain",
+      "value": "birentech.com"
+    },
+    {
+      "asset_id": "sha256:d10751a159cf1caef21485f446fe758b500c9f390b700d24bdc0a2d19a91bf8c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-birentech-001-c7caabce2dab"
+      ],
+      "service_id": "birentech",
+      "type": "domain",
+      "value": "www.birentech.com"
+    }
+  ],
+  "content_digest": "952251b7c5ba9f2224013f5db51af8c16df4b2585694e51ceef5af4fc5d20b50",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "c7caabce2dab0dfc3b42dfa9d460034b5fba40e0909666aa3d4f6d19c3ca72b9",
+      "domains_extracted": 2,
+      "evidence_id": "EV-birentech-001-c7caabce2dab",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.birentech.com/",
+      "retrieved_at": "1790508425910771148",
+      "service_id": "birentech",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.birentech.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "506dcc3e253834b5551326dd4931ae6ed37d14d1960db5ebeb057bddd942f656",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "b4b3745929ac5fa8a2eac465b94b2a4c800027c294d2ef7126c6e9225ec65138",
+  "release_digest": "794172d42ff5ff0de1bf0533d0b038ca06cadcf05b7ebd813c3f2e3fbb1fc177",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "birentech",
+  "snapshot_id": "snap-birentech-794172d42ff5ff0de1bf0533",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

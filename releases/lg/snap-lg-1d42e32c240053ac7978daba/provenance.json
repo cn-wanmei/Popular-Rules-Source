@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:5ff1707f019e47ff6056289c6e743089c69c6f20cd87c7fc7d7546efbeeb14bb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-lg-001-c556e7606e82"
+      ],
+      "service_id": "lg",
+      "type": "domain",
+      "value": "lg.com"
+    },
+    {
+      "asset_id": "sha256:5faa27eef2bdc4e0443df7c84e58eb71d2578262a6b6b50aadcfb3313604c2ba",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-lg-001-c556e7606e82"
+      ],
+      "service_id": "lg",
+      "type": "domain",
+      "value": "www.lg.com"
+    }
+  ],
+  "content_digest": "70101307d14ade2258d0422d5cfe9c75a98ec24d408f5913caa1aaf52dbae96b",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "c556e7606e82a13c2b06807148955024359b248dd6554444a75593a95a858af0",
+      "domains_extracted": 2,
+      "evidence_id": "EV-lg-001-c556e7606e82",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.lg.com/",
+      "retrieved_at": "1790508673602343639",
+      "service_id": "lg",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.lg.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "6b2ea774c5f6eea4647c4ee3d9f31ce441bcb0364754a0c1d42f5b4ac0f9bdb5",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "e636f7f9b2b1c86d6089939776ee2ab4fa8dfea84ccde18513e01fa66df3124c",
+  "release_digest": "1d42e32c240053ac7978dabab394f680871d7edf14fd1fd60d7a21488ed00b72",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "lg",
+  "snapshot_id": "snap-lg-1d42e32c240053ac7978daba",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

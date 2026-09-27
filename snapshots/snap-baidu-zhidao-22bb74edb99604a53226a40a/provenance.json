@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:53a4daaef0afe3df8d1c4fd78422d111d0ed1a86541a4c895052e35eed7c22bb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidu-zhidao-001-49d9b14f2cb1"
+      ],
+      "service_id": "baidu-zhidao",
+      "type": "domain",
+      "value": "zhidao.baidu.com"
+    }
+  ],
+  "content_digest": "a77f1c05d372e5e6ba5d6a1953f3360c40569e1632f8c45be41a1ea767c306f6",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "49d9b14f2cb140f75cc41ba303dd0878a5ac408dbed9a8455b7ab9bbb48b5ead",
+      "domains_extracted": 1,
+      "evidence_id": "EV-baidu-zhidao-001-49d9b14f2cb1",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://zhidao.baidu.com/",
+      "retrieved_at": "1790508425863349956",
+      "service_id": "baidu-zhidao",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://zhidao.baidu.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "868234f86901d11037261e602ba3ab257728bf059e37997e7e518baec226edee",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "e94b5b7eb2da61f092a4710a999bf48b5be368eac960cf165ca0363359657a97",
+  "release_digest": "22bb74edb99604a53226a40a1ba9de15d68ab0dfec75aeb61082f41fb6b51c6c",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "baidu-zhidao",
+  "snapshot_id": "snap-baidu-zhidao-22bb74edb99604a53226a40a",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

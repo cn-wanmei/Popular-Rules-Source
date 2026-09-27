@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "36d083e359dbf7472f15c2f9edd07b1d2ac66baae0959d6f001d79fd36fb4ad9",
+    "manifest.json": "c2cc87378e9703c3c01a5a4d982a47a0815eb7a9404bf6dcfd103ace1c8bb88e",
+    "provenance.json": "9a7b0ae969a558483e6cb931512dc15eb36d009111344942cb0a65693cc371fc",
+    "snapshot_content.json": "68e841571f39f8ac334942b85bbcf23baadb840213d05e79955b0c73dbf1491d"
+  },
+  "content_digest": "f7539f9a25c7a45a33777bac4931a6154b613e568bdd926f2d8a741d54f159f0",
+  "created_at": "2026-09-27T11:30:24.393571+00:00",
+  "evidence_digest": "69f418f44ab227a0f98ef874d165ff90e796ad6efc7b2d4d8d378c609ef46f3e",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "7ed84c7452d2701e52395802e161290152f36b030675f271aaca48748aca2d83",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "d21f4caa20bc6d2bb1874893e724d506296d93e5e2b6ecda74ba6ba0f91f4cb9",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "cambricon",
+  "snapshot_id": "snap-cambricon-d21f4caa20bc6d2bb1874893",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

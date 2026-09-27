@@ -1,0 +1,114 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:cdbce17818edd7ebba64945954edcf65783b0af6fb051d60a1c3492642802e7e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-epicgames-001-b1ce03f345ad"
+      ],
+      "service_id": "epicgames",
+      "type": "domain",
+      "value": "epicgames.com"
+    },
+    {
+      "asset_id": "sha256:dc6b44006247fb072bd0182fcf7bacc73055b82f73562eb4ab82d2c5cca933df",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-epicgames-001-b1ce03f345ad"
+      ],
+      "service_id": "epicgames",
+      "type": "domain",
+      "value": "store.epicgames.com"
+    },
+    {
+      "asset_id": "sha256:b68fc632a8e44af35f0a65b326b8f1a12f08b915ee7449763169a7fde8486473",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-epicgames-001-b1ce03f345ad"
+      ],
+      "service_id": "epicgames",
+      "type": "domain",
+      "value": "www.epicgames.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "425745d7bfcab5c94c71b398002286d5b47b544199f9f81bf9f30934ffc96ed1",
+  "created_at": "2026-09-27T11:31:05.715034+00:00",
+  "domain_count": 3,
+  "domain_diff": {
+    "added": [
+      "epicgames.com",
+      "store.epicgames.com",
+      "www.epicgames.com"
+    ],
+    "added_count": 3,
+    "current_count": 3,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "epicgames.com",
+    "store.epicgames.com",
+    "www.epicgames.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "b1ce03f345add13cd345ff1247926091a36263a17922e61c219e3c2acd4c2bc8",
+      "domains_extracted": 3,
+      "evidence_id": "EV-epicgames-001-b1ce03f345ad",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://store.epicgames.com/",
+      "retrieved_at": "1790508610925271203",
+      "service_id": "epicgames",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://store.epicgames.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "6e6023ad75f2ce60fa29a9ce143ad8c7d21cebd50abec5cea7bd5fb57278d417",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 3,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "5839a37505802e78a55e153922bd113189514b76fff01c2f6638f85c7a22f254",
+  "previous_domain_count": 0,
+  "release_digest": "f438fd86b26ddbc65fa37dfa0db0d0d244164141dce36974e122c4a0b0580ca7",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "d663963b9e094b9723245855d40f80ff3ff4a3cd21fe7871bafd4c27c1dab187",
+  "service_id": "epicgames",
+  "snapshot_content_sha256": "425745d7bfcab5c94c71b398002286d5b47b544199f9f81bf9f30934ffc96ed1",
+  "snapshot_id": "snap-epicgames-f438fd86b26ddbc65fa37dfa",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://store.epicgames.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 3,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:b69384cb1810108413ff3dc94bfa18f18e4c096fe11441728f8d5fe38b78fd7b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-hpe-001-107dc5657d00"
+      ],
+      "service_id": "hpe",
+      "type": "domain",
+      "value": "hpe.com"
+    },
+    {
+      "asset_id": "sha256:641af8b60581025e5651f1fdd71c2962e61a37d805b365d5e0a94030f528df38",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-hpe-001-107dc5657d00"
+      ],
+      "service_id": "hpe",
+      "type": "domain",
+      "value": "www.hpe.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "62920042e7a3e8a9f12a605f40e11ebd046655a6f6ec7a814da79c00509cf7be",
+  "created_at": "2026-09-27T11:32:34.166634+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "hpe.com",
+      "www.hpe.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "hpe.com",
+    "www.hpe.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "107dc5657d00869e48e8967ba722b1f3256708637689a2f75d70b9465b06c4c6",
+      "domains_extracted": 2,
+      "evidence_id": "EV-hpe-001-107dc5657d00",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.hpe.com/",
+      "retrieved_at": "1790508691710402268",
+      "service_id": "hpe",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.hpe.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "06dd9b6c28aa120a8efbd32f8e44dfae7b31dbb46a71a91cd15713cff43a130c",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "77a1ee210015c0724c3c3e6cbe386c20ea2c74e671c4af78814d0f6e7695f961",
+  "previous_domain_count": 0,
+  "release_digest": "7cfb13d56eca4924255a598acc21e7ffb5733ab1db18e67182e1bef2b9da6846",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "e3bd5d265a0d784847ffc615b65a633764c7b5ff38d54699760c9f8af8006f57",
+  "service_id": "hpe",
+  "snapshot_content_sha256": "62920042e7a3e8a9f12a605f40e11ebd046655a6f6ec7a814da79c00509cf7be",
+  "snapshot_id": "snap-hpe-7cfb13d56eca4924255a598a",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.hpe.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

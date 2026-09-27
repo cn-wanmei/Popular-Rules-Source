@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:166cb5d5445b4ffe4bb2c02e43cadcfc9f7a29e67228a222af80af774a54344b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-huawei-appgallery-001-11675d7f8428"
+      ],
+      "service_id": "huawei-appgallery",
+      "type": "domain",
+      "value": "appgallery.huawei.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "e9d93743027b84fe00fd279a21e2150492fb3eff88d5f34b92d9c06936f349b9",
+  "created_at": "2026-09-27T11:31:54.065948+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "appgallery.huawei.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "appgallery.huawei.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "11675d7f8428b3f5f80b5312eddfbc47284c8ef0e709a5d9044866ac731783fe",
+      "domains_extracted": 1,
+      "evidence_id": "EV-huawei-appgallery-001-11675d7f8428",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://appgallery.huawei.com/",
+      "retrieved_at": "1790508650246316819",
+      "service_id": "huawei-appgallery",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://appgallery.huawei.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "561f234c7241ca11ca1cf8857edae82ea4b0272f6523584f5fcea995158fb8d9",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "1bb1d0c9c74e2f0b6061cedfe51ab552c801e33dc5261f7ab51645588a051996",
+  "previous_domain_count": 0,
+  "release_digest": "c9ac2197b482ac3a9910d1e1ad975903cbb533559e395b0a39da9efc7bd1555c",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "02310c1fb2afdfa7db04658021c4485cf1daf085111858927937867231bcfb34",
+  "service_id": "huawei-appgallery",
+  "snapshot_content_sha256": "e9d93743027b84fe00fd279a21e2150492fb3eff88d5f34b92d9c06936f349b9",
+  "snapshot_id": "snap-huawei-appgallery-c9ac2197b482ac3a9910d1e1",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://appgallery.huawei.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "7de5c1ee4831dc01da1dc9b968ac92b186b2c7f54b28becd3343ba2f72b48bf4",
+    "manifest.json": "71c83e2ab2c8e10b4774ea17c251345360395d68be93a542a29ae1286d0b908f",
+    "provenance.json": "1b761672c7230e74dc8547b0c29b137b133d92d82ca5127f672bcce9ccf7b205",
+    "snapshot_content.json": "8825cf7044eaa647e132273c09b96438aeb7e612957779d9e5d55b393ac3e891"
+  },
+  "content_digest": "e9d93743027b84fe00fd279a21e2150492fb3eff88d5f34b92d9c06936f349b9",
+  "created_at": "2026-09-27T11:32:30.359129+00:00",
+  "evidence_digest": "561f234c7241ca11ca1cf8857edae82ea4b0272f6523584f5fcea995158fb8d9",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "1bb1d0c9c74e2f0b6061cedfe51ab552c801e33dc5261f7ab51645588a051996",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "c9ac2197b482ac3a9910d1e1ad975903cbb533559e395b0a39da9efc7bd1555c",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "huawei-appgallery",
+  "snapshot_id": "snap-huawei-appgallery-c9ac2197b482ac3a9910d1e1",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

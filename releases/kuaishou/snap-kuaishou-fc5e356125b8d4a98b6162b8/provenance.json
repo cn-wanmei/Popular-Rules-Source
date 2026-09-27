@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:d40b2c1287737cdda9bd4629f80296fcc21617952d0554df50df3eca096d4e2e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-kuaishou-001-ee4b5f230244"
+      ],
+      "service_id": "kuaishou",
+      "type": "domain",
+      "value": "www.kuaishou.com"
+    }
+  ],
+  "content_digest": "63c8454cd0f525d41998fb9e7a8ac8a58a4e85315c4594c9b1ef210fd2eb7207",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "ee4b5f2302448721fe05183d3597a7b8fe7deb37a6c441cb00193eb19333aba1",
+      "domains_extracted": 1,
+      "evidence_id": "EV-kuaishou-001-ee4b5f230244",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.kuaishou.com/cn",
+      "retrieved_at": "1790508682077603584",
+      "service_id": "kuaishou",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.kuaishou.com/cn",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "c46e8837ba6ea5e5a7a3fe27ffeef33494458f85b43679553ad972d6095275cf",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "9a7fb5d5e2f5949614d6669ad38a602f16312bdcf192988ca493a1b38afb6907",
+  "release_digest": "fc5e356125b8d4a98b6162b84379aab551220f2464f12b8a1786e9ff737672ba",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "kuaishou",
+  "snapshot_id": "snap-kuaishou-fc5e356125b8d4a98b6162b8",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

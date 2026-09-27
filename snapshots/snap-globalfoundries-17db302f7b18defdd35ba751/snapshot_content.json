@@ -1,0 +1,13 @@
+{
+  "content_digest": "3e4d3e8ad809aedb72da10262df691d8a719f89be847efa6d67c3116f83cdc30",
+  "domains": [
+    "gf.com",
+    "www.gf.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "globalfoundries",
+  "source_hashes": [
+    "4b74ee3fb922dc2a5437701d13fa36c74e866c1da3403548d55b315306d04db1"
+  ]
+}

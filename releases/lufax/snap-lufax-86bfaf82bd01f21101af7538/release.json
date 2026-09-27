@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "d9df309ea3f910ff20d505d83a15aecaaeafb22144fab97a6af1afd005c36ad9",
+    "manifest.json": "04063945235cdb38d698d888dab9b0ea53d23ef16031c45d3c3bd4f4d49b2675",
+    "provenance.json": "e89c3005f8b13d142ec8fabcbc65789faa0b14952ec7885e3a912a4270106788",
+    "snapshot_content.json": "731287156a188318fb8a6c366d01c3313a43c9b162ca129fc616cfc77d8b86f5"
+  },
+  "content_digest": "65c0423c50672f34b5fa8411ca41cb1a0c1e1ed2666e93c3335f39a5adfdffad",
+  "created_at": "2026-09-27T11:30:33.001624+00:00",
+  "evidence_digest": "d536c813829b760179793d2d6168536681fe16d9dc6d9820fa480d1ff530b44c",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "390555612bb128d09d4fcb6f2b881a5b46c4c2381b1d302d76a8bd36862663a1",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "86bfaf82bd01f21101af7538f3e08cf573ed4297100b38abd06a8f316a4e890c",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "lufax",
+  "snapshot_id": "snap-lufax-86bfaf82bd01f21101af7538",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:9ddee3cff935209daac20da5f27d8ad72c2ba194238b7047e3b7e93d8ba18bce",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-broadcom-001-f5d81b261d8b"
+      ],
+      "service_id": "broadcom",
+      "type": "domain",
+      "value": "broadcom.com"
+    },
+    {
+      "asset_id": "sha256:9005e66ffde85393decff285de251fc060e53333e40769cf9b559bf72794baf9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-broadcom-001-f5d81b261d8b"
+      ],
+      "service_id": "broadcom",
+      "type": "domain",
+      "value": "www.broadcom.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "f5e758ce4d0b945f1d0cca84ddd80191f97703f8139f7f3c0d309a93b902a1fb",
+  "created_at": "2026-09-27T11:28:43.381131+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "broadcom.com",
+      "www.broadcom.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "broadcom.com",
+    "www.broadcom.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "f5d81b261d8b9dd667a843cc5b74cd62e3bd5f144a6b353bd3f47d8b74d3651f",
+      "domains_extracted": 2,
+      "evidence_id": "EV-broadcom-001-f5d81b261d8b",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.broadcom.com/",
+      "retrieved_at": "1790508461160597100",
+      "service_id": "broadcom",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.broadcom.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "8f2a7fddc46a1ac787b08abe1eb02a29b39caaf32b31339bd177205ba8582e48",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "75509d0009a848d24498fa3ea03151f47a55c50c12807e807eb050720e942210",
+  "previous_domain_count": 0,
+  "release_digest": "ac0fc70c68986ce443e28b2ea54cb821e212f79c30c92822c309f4624414dd81",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "594d5f4b885812fd04a315002543f4720453727e618a9820a57abbdc2dcfb84b",
+  "service_id": "broadcom",
+  "snapshot_content_sha256": "f5e758ce4d0b945f1d0cca84ddd80191f97703f8139f7f3c0d309a93b902a1fb",
+  "snapshot_id": "snap-broadcom-ac0fc70c68986ce443e28b2e",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.broadcom.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

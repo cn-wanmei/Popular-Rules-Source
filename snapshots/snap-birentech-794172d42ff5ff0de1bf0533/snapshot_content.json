@@ -1,0 +1,13 @@
+{
+  "content_digest": "952251b7c5ba9f2224013f5db51af8c16df4b2585694e51ceef5af4fc5d20b50",
+  "domains": [
+    "birentech.com",
+    "www.birentech.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "birentech",
+  "source_hashes": [
+    "c7caabce2dab0dfc3b42dfa9d460034b5fba40e0909666aa3d4f6d19c3ca72b9"
+  ]
+}

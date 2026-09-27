@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "1f3a7a27c245ca6ea830ab79b7fe927fb8de09212c1184398ce8b0791f38fa15",
+    "manifest.json": "93fff3299ec2d61582045e144628c7314bab06a6f2314299c49178f960406036",
+    "provenance.json": "82f16ddf0944d4f47d9414481811135a3437fca738e6b3ed482582ee5b653fe7",
+    "snapshot_content.json": "27f5556b20239350d30c7f044fd637a6e32eb31e459a676cbef3d52ba5e6b7c1"
+  },
+  "content_digest": "f0f03806eab40c826743859a0ea8780b477a0d20cf4cea9f261364ec37740098",
+  "created_at": "2026-09-27T11:31:22.277005+00:00",
+  "evidence_digest": "7a1f2a6a4a49467fa4023501057396cbeffde9900be96dd3cfc1a306a558093c",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "76de6ee8b262466dda7ff0ce505e6473a6caedd2b391e518c4a2498cc4f65943",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "a088ad8c0dcb6f363911a3aba36d51c57de36245e4e4cbfce4c6a5b634817588",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "fortinet",
+  "snapshot_id": "snap-fortinet-a088ad8c0dcb6f363911a3ab",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

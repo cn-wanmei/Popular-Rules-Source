@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:deae2b23b0558108f3e87f4eb875c560a36efc4ab505389b59445807806f745d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-fujitsu-001-91c648dada90"
+      ],
+      "service_id": "fujitsu",
+      "type": "domain",
+      "value": "fujitsu.com"
+    },
+    {
+      "asset_id": "sha256:428d2ad0fead68d15e1a21d63deb033c3b969ec3079c98a593e3ea003f612e7e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-fujitsu-001-91c648dada90"
+      ],
+      "service_id": "fujitsu",
+      "type": "domain",
+      "value": "www.fujitsu.com"
+    }
+  ],
+  "content_digest": "7df0320fa6415aeb563cf85f165613997c774ee669081c849e8d6e48f9b1d9aa",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "91c648dada90addb84701c882500e234de4a7add27cabc0c010d984f62aa7407",
+      "domains_extracted": 2,
+      "evidence_id": "EV-fujitsu-001-91c648dada90",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.fujitsu.com/",
+      "retrieved_at": "1790508426559071085",
+      "service_id": "fujitsu",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.fujitsu.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "349e653ebcc694d47a6e393e995255aaecbbf3a04a1c2a4b31919f67d9cba315",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "03c60b90ad3831011c82ea2fc8f546241e0babdcc4c4eaccc3ba673bfc8e8ac7",
+  "release_digest": "ce2d7e601c70496da9f4590f5632280aec5dbe610151591e9d170f659677ce1f",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "fujitsu",
+  "snapshot_id": "snap-fujitsu-ce2d7e601c70496da9f4590f",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

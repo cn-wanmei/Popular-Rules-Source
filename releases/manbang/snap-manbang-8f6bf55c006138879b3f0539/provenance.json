@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:fe67045bddda58ee8fe958da7e599df1ac7d7e55893538f7d6c0ca3496bc34b7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-manbang-001-2ac08d511650"
+      ],
+      "service_id": "manbang",
+      "type": "domain",
+      "value": "www.ymm56.com"
+    },
+    {
+      "asset_id": "sha256:455e1a1cd287b8738e15f2af65c5b4b445dba4c17115fc46481c1d979cdad5e5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-manbang-001-2ac08d511650"
+      ],
+      "service_id": "manbang",
+      "type": "domain",
+      "value": "ymm56.com"
+    }
+  ],
+  "content_digest": "40387fcdeccd5aa8720ffca4576c3b72fea456cb644e74480c86858c83883a04",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "2ac08d51165001e7c9dc2d9e737d2ac77402b93965cc637e317f10a65fee6b2f",
+      "domains_extracted": 2,
+      "evidence_id": "EV-manbang-001-2ac08d511650",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.ymm56.com/",
+      "retrieved_at": "1790508646170502995",
+      "service_id": "manbang",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.ymm56.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "f7bc10150d6f328dbc69b91765d33d54b82f4cf6984db6adb9e0030dd6211867",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "7dfa2b129eaacfa3bcc299686a38e65080b6d299b2cc3a42d60b3418d4dd2226",
+  "release_digest": "8f6bf55c006138879b3f0539c481f557d57d225b067bd70d07d4d54b659927f7",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "manbang",
+  "snapshot_id": "snap-manbang-8f6bf55c006138879b3f0539",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

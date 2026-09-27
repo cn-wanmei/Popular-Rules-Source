@@ -1,0 +1,13 @@
+{
+  "content_digest": "e26567df97ed552b92b53c0a0166cf1930d57ef00ba8b6e43b5f9e0afee08748",
+  "domains": [
+    "jdcloud.com",
+    "www.jdcloud.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "jdcloud",
+  "source_hashes": [
+    "c099985ac88de530970c7ed23ffc407472f6b9fe67a6446f6e332383fbd0ecaf"
+  ]
+}

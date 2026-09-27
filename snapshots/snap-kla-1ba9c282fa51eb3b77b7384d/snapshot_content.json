@@ -1,0 +1,13 @@
+{
+  "content_digest": "53881085addc9dc8de57fd5eed2af5cd4c263182537a01438bebc96ba654c4cc",
+  "domains": [
+    "kla.com",
+    "www.kla.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "kla",
+  "source_hashes": [
+    "75fe1ef314c12bbaf81d14be47a1bdfbde9c6119b743c48486e4740652ba8870"
+  ]
+}

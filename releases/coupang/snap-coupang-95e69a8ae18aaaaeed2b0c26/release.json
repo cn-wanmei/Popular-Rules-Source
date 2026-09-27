@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "6bafedd8697e91ac5e36becc2bf65463a675db534957daae4923e945e3905ef1",
+    "manifest.json": "5065aa54f1885aa10f5c64636b36b3a9ccdcb9a6eca09501793c4b37f6e1a9b8",
+    "provenance.json": "2de8e730c84bfd9eafbf8e6f43722ce2ff0e81f0fd3c714d2b897bb5298ae44d",
+    "snapshot_content.json": "17e9cb1cd8b0eec6759ff8244459696a727e1120e34f7d166fa27b7ce11936e3"
+  },
+  "content_digest": "f240da37238c27c7ecba9498a7fadbdc30b560baab71b05823000387d15276e9",
+  "created_at": "2026-09-27T11:28:44.962376+00:00",
+  "evidence_digest": "c64a2dcdda4740dad5c56eaa62df6bdbf799fd5edbbfdc7ffe0b4525e21183c4",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "24325953e1c67ccc6258b8b2b13934b308c6a0196760f2c83b5cd398bd94551b",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "95e69a8ae18aaaaeed2b0c268af23047632caffbd0e60446ef52f960a21cfbde",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "coupang",
+  "snapshot_id": "snap-coupang-95e69a8ae18aaaaeed2b0c26",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

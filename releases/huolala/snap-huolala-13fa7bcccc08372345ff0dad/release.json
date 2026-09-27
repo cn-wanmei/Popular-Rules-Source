@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "a8f0819bf14ff5035a38f32be7dcec79f2bbc51fdab0a145fb99a2bf15ee8d42",
+    "manifest.json": "dfd0e04e5b32a0ab9aa9ea08f75e89a9c6605d86a3a8d27f3e0b5cc09b575ef7",
+    "provenance.json": "216e0239e62e5e85a2b978c51da025c207d6505ab60d54b7c6b4ddcc67946c39",
+    "snapshot_content.json": "192698d036256be43e39fa5cc0ca0c519d0c8d3a508916ee0952733dd7a74b84"
+  },
+  "content_digest": "094040a7c4a3cdb7c213494e1c9e8ab9ba5422a5b849acb946e0366893343250",
+  "created_at": "2026-09-27T11:30:29.142612+00:00",
+  "evidence_digest": "d1b4cd91d243d0c245305f219f55a42c77b62696817d36da22df281819012524",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "4c4db2c9b184ab285be3117f6b578de95cae34f3554415fc772813786b83aafb",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "13fa7bcccc08372345ff0dad971236a288ee2fb6fc778955d81b3c19d63f7108",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "huolala",
+  "snapshot_id": "snap-huolala-13fa7bcccc08372345ff0dad",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:7a6348f575d5f6561038e5d7f25d93f43313642ad134508032e32bf3969618a7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-kla-001-75fe1ef314c1"
+      ],
+      "service_id": "kla",
+      "type": "domain",
+      "value": "kla.com"
+    },
+    {
+      "asset_id": "sha256:646b591d30e536d0736feee957bff2d16b3e0c5cba11c3d237c4b5e1686380c4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-kla-001-75fe1ef314c1"
+      ],
+      "service_id": "kla",
+      "type": "domain",
+      "value": "www.kla.com"
+    }
+  ],
+  "content_digest": "53881085addc9dc8de57fd5eed2af5cd4c263182537a01438bebc96ba654c4cc",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "75fe1ef314c12bbaf81d14be47a1bdfbde9c6119b743c48486e4740652ba8870",
+      "domains_extracted": 2,
+      "evidence_id": "EV-kla-001-75fe1ef314c1",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.kla.com/",
+      "retrieved_at": "1790508545716285886",
+      "service_id": "kla",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.kla.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "9e4ec73a26bbcd14885dd76d17e09b8688e3df4fb77f53a54d962833d631627b",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "a6501ebe6b4656b98073f43cdf6e44061cca95b650cf158be59d6fd5dba8c795",
+  "release_digest": "1ba9c282fa51eb3b77b7384d30f48e2e930761fc673c1ed9e73c5a5badae8e34",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "kla",
+  "snapshot_id": "snap-kla-1ba9c282fa51eb3b77b7384d",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

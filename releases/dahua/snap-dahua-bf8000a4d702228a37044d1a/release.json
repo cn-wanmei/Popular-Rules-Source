@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "44bbc061ad124e9b87203535d03feeebce340918a3b7c841fd8afbe5871c5519",
+    "manifest.json": "1a3b3081d92231057f9aa633297792eb2b50cc6e81b2802824214bfe71f29780",
+    "provenance.json": "5057c74cab486922b1538062fdae0244a57f23c373e5f5fc2cbe647f18bde91f",
+    "snapshot_content.json": "15a8212a671d5ba5140fd0e81a232d1cc2f4fe5188ff7f5767a2549611652b79"
+  },
+  "content_digest": "37a9b60de1203154651d0a151a22c1cc1625245379853e61fb717089bffb290f",
+  "created_at": "2026-09-27T11:32:22.198137+00:00",
+  "evidence_digest": "8aa47cb3a2f53d728b987cd9b55178dae5c8724785bfc113b1022e6292567b88",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "3007f3e584f8627a63f8c0dc8ef0f736cdd2a4b4221d4af35d6266e37b5b877f",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "bf8000a4d702228a37044d1aa562f1f16161589f67424233980c32837ee0df8e",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "dahua",
+  "snapshot_id": "snap-dahua-bf8000a4d702228a37044d1a",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

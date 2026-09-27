@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:d3795dbad4ce404dcc3756f866d3d0ccd7e57aaf47a4ab90493e58530afbfe1d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-lamresearch-001-428903485541"
+      ],
+      "service_id": "lamresearch",
+      "type": "domain",
+      "value": "lamresearch.com"
+    },
+    {
+      "asset_id": "sha256:60de92c73bc93bf1242257eb6b025de9edefb8e82c0b72484311cb01f58333ca",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-lamresearch-001-428903485541"
+      ],
+      "service_id": "lamresearch",
+      "type": "domain",
+      "value": "www.lamresearch.com"
+    }
+  ],
+  "content_digest": "b43dc0efedb5d854afdb2a7ed52fe91fad52a90529febcdd281f1b9098188ffa",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "428903485541cec940092b31d7c110fd51b6efc11ee6e398edc68a98d123eab3",
+      "domains_extracted": 2,
+      "evidence_id": "EV-lamresearch-001-428903485541",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.lamresearch.com/",
+      "retrieved_at": "1790508535658355021",
+      "service_id": "lamresearch",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.lamresearch.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "d780988887fa7b263e25bc238a8b0153a57b82a7b0dcb68c596bd58b28684996",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "af9630d09ca5ee736ccb295041fd3984f3a8b9e7df116be2dc28cf2e58121e82",
+  "release_digest": "ff551d8ce98b44de573d829cfb7ada6d616bb10073e828aa2a599efd13e3c45c",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "lamresearch",
+  "snapshot_id": "snap-lamresearch-ff551d8ce98b44de573d829c",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "5a48d4120d0dc255210eca462f0024762b65883881249195d41f2d1e7e6af47c",
+    "manifest.json": "b28a931bd20045bd3156f6af9ea848c2a82241c6b964ad62f5d7bbf0440d5600",
+    "provenance.json": "9089b262506e2abbbaceab3b1aa044712985da7c7e7100aaf2a7983aa828c8f8",
+    "snapshot_content.json": "42e03e7b0f9397f863f2bfc490054e4aaf44e9f2a17989eb443a3d25c2940b4e"
+  },
+  "content_digest": "5b4920938b2adf797bc7ea0fcd3294e271411c477c34ae383be32ada7bb8f27d",
+  "created_at": "2026-09-27T11:31:21.028723+00:00",
+  "evidence_digest": "35fbc0234ef4dcd2faa9153138e4d8d1090ec9cf67b0f2ac5d3b11d85e5bbcbe",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "0760c3206be98f84c0c08b37afa33f4dc7603693d3b1ededccc5ee9e2f9c7df7",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "75e2c108606fe72e56369e2abf29faddd4a199c91846d41e990200a1088efe77",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "ericsson",
+  "snapshot_id": "snap-ericsson-75e2c108606fe72e56369e2a",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

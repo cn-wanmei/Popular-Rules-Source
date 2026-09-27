@@ -1,0 +1,13 @@
+{
+  "content_digest": "f0f03806eab40c826743859a0ea8780b477a0d20cf4cea9f261364ec37740098",
+  "domains": [
+    "fortinet.com",
+    "www.fortinet.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "fortinet",
+  "source_hashes": [
+    "259a63da4a1fc8a42cd093190aa8480bfa41d564a1e7d22a49b35e8f7ff82fcd"
+  ]
+}

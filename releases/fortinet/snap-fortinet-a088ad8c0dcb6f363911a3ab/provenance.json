@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:ddec00944a3975d64f3ac9df01110b0cdb1f2183c2fa09f650f4be8fc0455710",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-fortinet-001-259a63da4a1f"
+      ],
+      "service_id": "fortinet",
+      "type": "domain",
+      "value": "fortinet.com"
+    },
+    {
+      "asset_id": "sha256:3d15660a4536969e6af3ef28d4316d4bafe47b87fb7023dfff904ab70fd9f488",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-fortinet-001-259a63da4a1f"
+      ],
+      "service_id": "fortinet",
+      "type": "domain",
+      "value": "www.fortinet.com"
+    }
+  ],
+  "content_digest": "f0f03806eab40c826743859a0ea8780b477a0d20cf4cea9f261364ec37740098",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "259a63da4a1fc8a42cd093190aa8480bfa41d564a1e7d22a49b35e8f7ff82fcd",
+      "domains_extracted": 2,
+      "evidence_id": "EV-fortinet-001-259a63da4a1f",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.fortinet.com/",
+      "retrieved_at": "1790508581402078034",
+      "service_id": "fortinet",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.fortinet.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "7a1f2a6a4a49467fa4023501057396cbeffde9900be96dd3cfc1a306a558093c",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "76de6ee8b262466dda7ff0ce505e6473a6caedd2b391e518c4a2498cc4f65943",
+  "release_digest": "a088ad8c0dcb6f363911a3aba36d51c57de36245e4e4cbfce4c6a5b634817588",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "fortinet",
+  "snapshot_id": "snap-fortinet-a088ad8c0dcb6f363911a3ab",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:7e391153fd8e4fb9dc35cdf0c897a3473bd6fc96c67a653883761fa4e336b69e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-jdcloud-001-c099985ac88d"
+      ],
+      "service_id": "jdcloud",
+      "type": "domain",
+      "value": "jdcloud.com"
+    },
+    {
+      "asset_id": "sha256:0b42a1546c6d4db93fb354707c4c055aa325dc3f30682163be27d4d31fd4a1f0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-jdcloud-001-c099985ac88d"
+      ],
+      "service_id": "jdcloud",
+      "type": "domain",
+      "value": "www.jdcloud.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "e26567df97ed552b92b53c0a0166cf1930d57ef00ba8b6e43b5f9e0afee08748",
+  "created_at": "2026-09-27T11:31:57.935646+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "jdcloud.com",
+      "www.jdcloud.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "jdcloud.com",
+    "www.jdcloud.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "c099985ac88de530970c7ed23ffc407472f6b9fe67a6446f6e332383fbd0ecaf",
+      "domains_extracted": 2,
+      "evidence_id": "EV-jdcloud-001-c099985ac88d",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.jdcloud.com/",
+      "retrieved_at": "1790508649546209151",
+      "service_id": "jdcloud",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.jdcloud.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "fe49f66b9cf02d2952d262238b5d0874ec8c482e23979bb4f535feabd67202c4",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "581ea4b77029a4ba15162d2b6d0e5ff818a5261e380615c494aea37fcc0313b1",
+  "previous_domain_count": 0,
+  "release_digest": "0249ba9080d754056cd6a446118dcf91be2551a743fe9efd34b090f0b2a5e78f",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "337cee25e931d77a1da3eeee1765045a64ff536630e81894d681a7057d8f3d9c",
+  "service_id": "jdcloud",
+  "snapshot_content_sha256": "e26567df97ed552b92b53c0a0166cf1930d57ef00ba8b6e43b5f9e0afee08748",
+  "snapshot_id": "snap-jdcloud-0249ba9080d754056cd6a446",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.jdcloud.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

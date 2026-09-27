@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:d1ec5ce8e40b92952ab2a90001c536ed744233c58d2dcc5490998a624e7a7997",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-kuaishou-open-001-661135fbb3c2"
+      ],
+      "service_id": "kuaishou-open",
+      "type": "domain",
+      "value": "open.kuaishou.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "17366c797d59d73187037e3cae7d6a10b2e141848963d7e8a459db6f169b6695",
+  "created_at": "2026-09-27T11:32:54.077473+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "open.kuaishou.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "open.kuaishou.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "661135fbb3c2a202fa6c0e75b6d29ff2ed9bf90215e206373a6d2eeaff6d7d09",
+      "domains_extracted": 1,
+      "evidence_id": "EV-kuaishou-open-001-661135fbb3c2",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://open.kuaishou.com/",
+      "retrieved_at": "1790508709862557353",
+      "service_id": "kuaishou-open",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://open.kuaishou.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "3c4d7289c10d3711786e06bea8f8e5cbdfdd42d2f123dc427375b856bcea9621",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "f5b0479352bb67fe12cdc5036af8888b9ac52201641e1e2c20a630099515720e",
+  "previous_domain_count": 0,
+  "release_digest": "a37b0a3c3d40ccfaa1207456c6a3150f9638645ee1ce4c007bf22ea64f98992b",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "b42faf1fba1f563a17d13cfa45bedb90c4b96d635a412f8037dfc764398a0909",
+  "service_id": "kuaishou-open",
+  "snapshot_content_sha256": "17366c797d59d73187037e3cae7d6a10b2e141848963d7e8a459db6f169b6695",
+  "snapshot_id": "snap-kuaishou-open-a37b0a3c3d40ccfaa1207456",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://open.kuaishou.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,13 @@
+{
+  "content_digest": "f5e758ce4d0b945f1d0cca84ddd80191f97703f8139f7f3c0d309a93b902a1fb",
+  "domains": [
+    "broadcom.com",
+    "www.broadcom.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "broadcom",
+  "source_hashes": [
+    "f5d81b261d8b9dd667a843cc5b74cd62e3bd5f144a6b353bd3f47d8b74d3651f"
+  ]
+}

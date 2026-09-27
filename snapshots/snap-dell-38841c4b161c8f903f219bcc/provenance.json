@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:f764eb633788e65c4aab597abfd45ead324ad32ad368c62f2cf18c38693a4188",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-dell-001-352b6f0aa510"
+      ],
+      "service_id": "dell",
+      "type": "domain",
+      "value": "dell.com"
+    },
+    {
+      "asset_id": "sha256:a4f9466130c29d4cdf69a35a00b2f16ecc539bf6e23131f92f070a6c7558d700",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-dell-001-352b6f0aa510"
+      ],
+      "service_id": "dell",
+      "type": "domain",
+      "value": "www.dell.com"
+    }
+  ],
+  "content_digest": "44ada0f087d052a497cde9f8e7590852b3dbe0f1696ae8b51bd32c75a8b988eb",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "352b6f0aa510c024686888831750a30db2fb46927081bb4e5b0054ce03358722",
+      "domains_extracted": 2,
+      "evidence_id": "EV-dell-001-352b6f0aa510",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.dell.com/",
+      "retrieved_at": "1790508425328316019",
+      "service_id": "dell",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.dell.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "87bfeb0091afce4995dc236a1b7eed179fcdc742527ee6fe1da4df7a510d52c0",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "be709bd555cc400a7d654ec3d7be83621463cd17bb0bef38991c2bfe9f1e1f73",
+  "release_digest": "38841c4b161c8f903f219bcc040ddb66b7801c2adff5776e184bebfd049cc8e7",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "dell",
+  "snapshot_id": "snap-dell-38841c4b161c8f903f219bcc",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

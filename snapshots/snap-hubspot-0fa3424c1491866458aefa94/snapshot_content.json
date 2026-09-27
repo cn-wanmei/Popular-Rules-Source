@@ -1,0 +1,13 @@
+{
+  "content_digest": "49cfde284d2c0c8d7fe3a091363523f28fe5b48260ce3ad1ad6964383994fe8d",
+  "domains": [
+    "hubspot.com",
+    "www.hubspot.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "hubspot",
+  "source_hashes": [
+    "58250aa43876bbe6f856bf3171c71a94037915b527b190260092cc112fafd3c8"
+  ]
+}

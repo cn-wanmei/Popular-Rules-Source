@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:7ce78f135809871636da1261b5a928e70a7948be7eb335380ab1435e5d5313ad",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-globalfoundries-001-4b74ee3fb922"
+      ],
+      "service_id": "globalfoundries",
+      "type": "domain",
+      "value": "gf.com"
+    },
+    {
+      "asset_id": "sha256:47b1af957b10cc1b64938c8cee29e599b42c4f7ec668e3f98c1e1ca411f39e14",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-globalfoundries-001-4b74ee3fb922"
+      ],
+      "service_id": "globalfoundries",
+      "type": "domain",
+      "value": "www.gf.com"
+    }
+  ],
+  "content_digest": "3e4d3e8ad809aedb72da10262df691d8a719f89be847efa6d67c3116f83cdc30",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "4b74ee3fb922dc2a5437701d13fa36c74e866c1da3403548d55b315306d04db1",
+      "domains_extracted": 2,
+      "evidence_id": "EV-globalfoundries-001-4b74ee3fb922",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://gf.com/",
+      "retrieved_at": "1790508569747421391",
+      "service_id": "globalfoundries",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://gf.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "10344bb18a242042794b04391f7dba387b1c0131cc491c26716d706c67b8ae7b",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "d51be51b250f45a266521e21dee63ee543d00987eed01c0d7ac5dc4cfd52fc6e",
+  "release_digest": "17db302f7b18defdd35ba7516674d10f11458602eb7160af41fbb4aed8af5d2b",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "globalfoundries",
+  "snapshot_id": "snap-globalfoundries-17db302f7b18defdd35ba751",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

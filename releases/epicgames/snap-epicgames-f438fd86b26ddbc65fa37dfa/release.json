@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "928bc8a2e9937214e0ddd3b22804e12f7a21afc8eb11194732a05adfb925a6fd",
+    "manifest.json": "10725b0e281a65a97e3ac5d84f1344b4584738afa6a8dc9982b2cc5a2fc8a9ff",
+    "provenance.json": "f6bfce606704f311422761bac09a453c597ffc9db02f1f5e79aa61bf8a0ca8a5",
+    "snapshot_content.json": "b535e55d38f255ce6649c776733bb906a086a6e63bc8accb3641fb59ba425dd4"
+  },
+  "content_digest": "425745d7bfcab5c94c71b398002286d5b47b544199f9f81bf9f30934ffc96ed1",
+  "created_at": "2026-09-27T11:31:35.735436+00:00",
+  "evidence_digest": "6e6023ad75f2ce60fa29a9ce143ad8c7d21cebd50abec5cea7bd5fb57278d417",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "5839a37505802e78a55e153922bd113189514b76fff01c2f6638f85c7a22f254",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "f438fd86b26ddbc65fa37dfa0db0d0d244164141dce36974e122c4a0b0580ca7",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "epicgames",
+  "snapshot_id": "snap-epicgames-f438fd86b26ddbc65fa37dfa",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

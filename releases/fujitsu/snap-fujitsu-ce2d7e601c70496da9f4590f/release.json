@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "668f08979061b1654e02061c7fba391168d1064383a7cebb9abcec5cfef7cdff",
+    "manifest.json": "5cb459253c6c28767ad2edbac6c925d597df123e3328fbdf923747a34b691ad1",
+    "provenance.json": "0745b339be974d13b3f25792c7181bf16e074d4de6bb78f860bda858c55fafa6",
+    "snapshot_content.json": "2b68c7963fe10bb8a07882c8a9b900892fd961bd6f624b6641e31f85a6bcc1d1"
+  },
+  "content_digest": "7df0320fa6415aeb563cf85f165613997c774ee669081c849e8d6e48f9b1d9aa",
+  "created_at": "2026-09-27T11:28:48.564965+00:00",
+  "evidence_digest": "349e653ebcc694d47a6e393e995255aaecbbf3a04a1c2a4b31919f67d9cba315",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "03c60b90ad3831011c82ea2fc8f546241e0babdcc4c4eaccc3ba673bfc8e8ac7",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "ce2d7e601c70496da9f4590f5632280aec5dbe610151591e9d170f659677ce1f",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "fujitsu",
+  "snapshot_id": "snap-fujitsu-ce2d7e601c70496da9f4590f",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

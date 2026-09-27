@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:93486dd8fca42ee85a723f71136b8fc3679fb5f862fa1fee08a80c17ede143d4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-getapps-001-a6cc55afe378"
+      ],
+      "service_id": "getapps",
+      "type": "domain",
+      "value": "global.app.mi.com"
+    }
+  ],
+  "content_digest": "cdf3bb7746bcae26f8931a10a902850abdb6446c3832b932ddf7df25fc6eec0e",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "a6cc55afe378c4e750ee81d7fe49cffc3cc6bd9580effc792ce1de2388e8eb94",
+      "domains_extracted": 1,
+      "evidence_id": "EV-getapps-001-a6cc55afe378",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://global.app.mi.com/",
+      "retrieved_at": "1790508704162807746",
+      "service_id": "getapps",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://global.app.mi.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "bb0dad842ab9735d0830ae24c76baf242dff2dd6a38ff6bd8e940d85f4e47138",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "5d8b7fd53f7caf5e35c0bd919fd62484e90399a8a43d7c46affb59888edb52d2",
+  "release_digest": "6eb3c67a2267c1e2d1684dd5e18ca6ffdf10f749ba0407cfe051026b9bfa6dbd",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "getapps",
+  "snapshot_id": "snap-getapps-6eb3c67a2267c1e2d1684dd5",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

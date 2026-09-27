@@ -1,0 +1,13 @@
+{
+  "content_digest": "de0cbde103a8a5d14c0f0974a9f73e861b776ec071d9774396788453196c0aa4",
+  "domains": [
+    "grab.com",
+    "www.grab.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "grab",
+  "source_hashes": [
+    "08d8b4fb47d1a1a0edd5ec0475cedd915a56d1e37a3815ddf7b2846c686ab969"
+  ]
+}

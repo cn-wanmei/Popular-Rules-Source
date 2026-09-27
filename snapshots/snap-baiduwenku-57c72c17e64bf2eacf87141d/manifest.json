@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:f81ca328ab85f71f2e683e9e286a4ecc23f572d5af7e1c2e6b79bbce0733df47",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baiduwenku-001-b2445130981b"
+      ],
+      "service_id": "baiduwenku",
+      "type": "domain",
+      "value": "wenku.baidu.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "5710f9aa899f49d44ca2256a82722665f23c835d9635401f8ddbf879958ee627",
+  "created_at": "2026-09-27T11:30:23.170339+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "wenku.baidu.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "wenku.baidu.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "b2445130981ba0149d21fa07d6208b0cab3c701b6d92086408fc2f50b1265893",
+      "domains_extracted": 1,
+      "evidence_id": "EV-baiduwenku-001-b2445130981b",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://wenku.baidu.com/",
+      "retrieved_at": "1790508560984717177",
+      "service_id": "baiduwenku",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://wenku.baidu.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "aa39c90bc62745272f4819cf81782191fe5a7ed258fc49d5bcf1e7090551b2af",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "ce3be5a9950ad6a52e7bb0b7c721da2adebfd21c7e9fd704dbcdb781b9de233e",
+  "previous_domain_count": 0,
+  "release_digest": "57c72c17e64bf2eacf87141de79125609051cbaeb91ea12d0c35d62ae4e2f30f",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "22048c85cc518df11f5cfc90b391077f8ce825ea846f348c546b02a957703681",
+  "service_id": "baiduwenku",
+  "snapshot_content_sha256": "5710f9aa899f49d44ca2256a82722665f23c835d9635401f8ddbf879958ee627",
+  "snapshot_id": "snap-baiduwenku-57c72c17e64bf2eacf87141d",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://wenku.baidu.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

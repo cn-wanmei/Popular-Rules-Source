@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:4afc871e92a9c6a191ff8449999509f7429c97cbec18d877741d5ad417cbc557",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-coupang-001-6f9858975c20"
+      ],
+      "service_id": "coupang",
+      "type": "domain",
+      "value": "coupang.com"
+    },
+    {
+      "asset_id": "sha256:7a316a41bcb07e8c0997bfbf78657d0edc671af4d0c8ba76380f06cd0b559e54",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-coupang-001-6f9858975c20"
+      ],
+      "service_id": "coupang",
+      "type": "domain",
+      "value": "www.coupang.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "f240da37238c27c7ecba9498a7fadbdc30b560baab71b05823000387d15276e9",
+  "created_at": "2026-09-27T11:28:08.572513+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "coupang.com",
+      "www.coupang.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "coupang.com",
+    "www.coupang.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "6f9858975c20fe509bd190ce32139a6e77e232cdc168fc8c8a49074718be87e2",
+      "domains_extracted": 2,
+      "evidence_id": "EV-coupang-001-6f9858975c20",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.coupang.com/",
+      "retrieved_at": "1790508426343490376",
+      "service_id": "coupang",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.coupang.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "c64a2dcdda4740dad5c56eaa62df6bdbf799fd5edbbfdc7ffe0b4525e21183c4",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "24325953e1c67ccc6258b8b2b13934b308c6a0196760f2c83b5cd398bd94551b",
+  "previous_domain_count": 0,
+  "release_digest": "95e69a8ae18aaaaeed2b0c268af23047632caffbd0e60446ef52f960a21cfbde",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "031da76a952496e98e5dd201dc7837a788828b6180e2b80d575dd25b527191c9",
+  "service_id": "coupang",
+  "snapshot_content_sha256": "f240da37238c27c7ecba9498a7fadbdc30b560baab71b05823000387d15276e9",
+  "snapshot_id": "snap-coupang-95e69a8ae18aaaaeed2b0c26",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.coupang.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

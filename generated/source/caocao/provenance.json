@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:2aaf623d796bbf3e8643409ddf4eb9b311d2d481091d2773656a45bb5f3eb4d5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-caocao-001-8e8762b7958c"
+      ],
+      "service_id": "caocao",
+      "type": "domain",
+      "value": "caocaokeji.cn"
+    },
+    {
+      "asset_id": "sha256:923b4438d2340cfd7d4b714be21789b555763e4b0a6d1b769f1c27c8c28525e6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-caocao-001-8e8762b7958c"
+      ],
+      "service_id": "caocao",
+      "type": "domain",
+      "value": "www.caocaokeji.cn"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "9c241138901704c84f6dc98090fcf3c142107e698e2bb1105208f587af0c81ff",
+  "created_at": "2026-09-27T11:28:09.569107+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "caocaokeji.cn",
+      "www.caocaokeji.cn"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "caocaokeji.cn",
+    "www.caocaokeji.cn"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "8e8762b7958ccba2e35688790108e5a14724294a8e2a924a74bbc13d900f8be4",
+      "domains_extracted": 2,
+      "evidence_id": "EV-caocao-001-8e8762b7958c",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.caocaokeji.cn/",
+      "retrieved_at": "1790508425665967594",
+      "service_id": "caocao",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.caocaokeji.cn/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "1095f57eefdfe44be5a2dfbea94e581ca0e594d3cd56f35e084d08c36ba66048",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "535630ea42e8f0ee86e1e081412fa1daaf33a01ce7c1f4571225d9f5527ea253",
+  "previous_domain_count": 0,
+  "release_digest": "3bbf9c257b72eeb1e63eeb5481e536bebce3f7342f29632fe06816c7bbdbcc6e",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "e6e48df941ff423d680e0bb6a770cb0c17ec649029822a7b701dad6e8928d5b0",
+  "service_id": "caocao",
+  "snapshot_content_sha256": "9c241138901704c84f6dc98090fcf3c142107e698e2bb1105208f587af0c81ff",
+  "snapshot_id": "snap-caocao-3bbf9c257b72eeb1e63eeb54",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.caocaokeji.cn/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:b4f0fabef068167b0cc366d0c6cab2c12b78754fe8725d465e3b1a247478c972",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-ea-001-b0e42d40895b"
+      ],
+      "service_id": "ea",
+      "type": "domain",
+      "value": "ea.com"
+    },
+    {
+      "asset_id": "sha256:28d8c55e77324a55fa01c0741f08f4b7a3330e26eac91694bf72b4350f365a58",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-ea-001-b0e42d40895b"
+      ],
+      "service_id": "ea",
+      "type": "domain",
+      "value": "www.ea.com"
+    }
+  ],
+  "content_digest": "f166ab43000ab70e2a5512a994aa313adce9e54ba08f5460d1b3124e99e4f792",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "b0e42d40895b9098f7c645b262319d7974bf59ef677ea0360d82c21b2076831d",
+      "domains_extracted": 2,
+      "evidence_id": "EV-ea-001-b0e42d40895b",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.ea.com/",
+      "retrieved_at": "1790508634809085913",
+      "service_id": "ea",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.ea.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "fc7f99fcb1bca374f11fffcb8e05562b23f21589438843aa7b3926f30c7ae489",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "dfb4106687c27f25ae989d1a70cb9baf48e5cfb204e71f88cf5812cb4a407748",
+  "release_digest": "e0d2eb677f682743dd48cf3ddf744f21ad540e69007b37e89e9ba32d93ac4713",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "ea",
+  "snapshot_id": "snap-ea-e0d2eb677f682743dd48cf3d",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

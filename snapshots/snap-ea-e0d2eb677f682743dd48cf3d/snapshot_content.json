@@ -1,0 +1,13 @@
+{
+  "content_digest": "f166ab43000ab70e2a5512a994aa313adce9e54ba08f5460d1b3124e99e4f792",
+  "domains": [
+    "ea.com",
+    "www.ea.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "ea",
+  "source_hashes": [
+    "b0e42d40895b9098f7c645b262319d7974bf59ef677ea0360d82c21b2076831d"
+  ]
+}

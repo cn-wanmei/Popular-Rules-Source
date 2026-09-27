@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "4d8a69216f3a2516f6eb39f7587fc5a08acbe7965878f4a12ffdb297a0c0a46e",
+    "manifest.json": "bccfd73bfbadd1052388a01c77e0e8ceb25e70fec08ba28817eda1a810cfdeb9",
+    "provenance.json": "1e1a1fc21a73edaccd9cf3b5892d024527d69e8bd666924822583614180d15f8",
+    "snapshot_content.json": "a3ffd05f6af0b41af3f0d1796e2a2105c2894ba94c8548901eab7a56936ca916"
+  },
+  "content_digest": "20cd378aa149fa91b4e348d4d1bdb1114770b5a6d6d187a6c5be6b9d6dcb3fa3",
+  "created_at": "2026-09-27T11:30:22.251893+00:00",
+  "evidence_digest": "35fa5c85f8a60e0bcb354c8a29f140a1a9a5a70566305897b5e9cc66f73f6f8b",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "00c4d4c44daa8736319933034b3d66d0ce1a50b96a155506db7202e0f2705fa4",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "2f40b385c128e7087ab9bcbee5ed6d0a3864e3716212db42c5f4e20e4a2b98dc",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "hellobike",
+  "snapshot_id": "snap-hellobike-2f40b385c128e7087ab9bcbe",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

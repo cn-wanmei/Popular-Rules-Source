@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:b003dcec72d74840d0d2f184fc0280479bc63d6ff3957daafe9321d64d0ae0da",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-hubspot-001-58250aa43876"
+      ],
+      "service_id": "hubspot",
+      "type": "domain",
+      "value": "hubspot.com"
+    },
+    {
+      "asset_id": "sha256:92ca853635f391ea3f0f5b9949b1ddcce84a624f4f9987709de46af91834a0dd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-hubspot-001-58250aa43876"
+      ],
+      "service_id": "hubspot",
+      "type": "domain",
+      "value": "www.hubspot.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "49cfde284d2c0c8d7fe3a091363523f28fe5b48260ce3ad1ad6964383994fe8d",
+  "created_at": "2026-09-27T11:31:21.130884+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "hubspot.com",
+      "www.hubspot.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "hubspot.com",
+    "www.hubspot.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "58250aa43876bbe6f856bf3171c71a94037915b527b190260092cc112fafd3c8",
+      "domains_extracted": 2,
+      "evidence_id": "EV-hubspot-001-58250aa43876",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.hubspot.com/",
+      "retrieved_at": "1790508639559190627",
+      "service_id": "hubspot",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.hubspot.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "fbe32af05f47731bd1880f3b9c72cb55938808d210cad2a409206c60cc71a491",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "9a0b8908f6880d28ba13f2f442536429ff761404b9c3bd78272204ead8bd5af4",
+  "previous_domain_count": 0,
+  "release_digest": "0fa3424c1491866458aefa9446fcf752de086c540436749989749e8c912e8517",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "8924175c0823acabbb8bf26c16d181d3fa531bfc17da982311cbc0f9f8a297d0",
+  "service_id": "hubspot",
+  "snapshot_content_sha256": "49cfde284d2c0c8d7fe3a091363523f28fe5b48260ce3ad1ad6964383994fe8d",
+  "snapshot_id": "snap-hubspot-0fa3424c1491866458aefa94",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.hubspot.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

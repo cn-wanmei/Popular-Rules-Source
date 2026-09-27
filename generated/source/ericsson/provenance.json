@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:a9c1bea788b2d5dad52a9a22e9473dd0174b04983485ee89d5b8fb5b8ce84bdd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-ericsson-001-f959e0c5c432"
+      ],
+      "service_id": "ericsson",
+      "type": "domain",
+      "value": "ericsson.com"
+    },
+    {
+      "asset_id": "sha256:d8b7af98097ea88219fafb8b7b87fc7cf43329eaf27d23433fcc942dfd0f543a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-ericsson-001-f959e0c5c432"
+      ],
+      "service_id": "ericsson",
+      "type": "domain",
+      "value": "www.ericsson.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "5b4920938b2adf797bc7ea0fcd3294e271411c477c34ae383be32ada7bb8f27d",
+  "created_at": "2026-09-27T11:30:57.241408+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "ericsson.com",
+      "www.ericsson.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "ericsson.com",
+    "www.ericsson.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "f959e0c5c432393334f4343057403d78fe4e76bf5e793dbf688384ba653c4360",
+      "domains_extracted": 2,
+      "evidence_id": "EV-ericsson-001-f959e0c5c432",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.ericsson.com/",
+      "retrieved_at": "1790508612861242914",
+      "service_id": "ericsson",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.ericsson.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "35fbc0234ef4dcd2faa9153138e4d8d1090ec9cf67b0f2ac5d3b11d85e5bbcbe",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "0760c3206be98f84c0c08b37afa33f4dc7603693d3b1ededccc5ee9e2f9c7df7",
+  "previous_domain_count": 0,
+  "release_digest": "75e2c108606fe72e56369e2abf29faddd4a199c91846d41e990200a1088efe77",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "3864c84db6b4945bb4469be5a2f30e25ec4eba53f3a764aad2ac25de552e58ce",
+  "service_id": "ericsson",
+  "snapshot_content_sha256": "5b4920938b2adf797bc7ea0fcd3294e271411c477c34ae383be32ada7bb8f27d",
+  "snapshot_id": "snap-ericsson-75e2c108606fe72e56369e2a",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.ericsson.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

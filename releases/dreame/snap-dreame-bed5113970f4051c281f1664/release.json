@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "7584a0e037279a4c0f2f135be184d47f4000bbb57cdc83565349abb07a50c5ed",
+    "manifest.json": "4720bae446f75ecf3b7566feabcaef55ece215a9bedc4cf99daea682a65d7382",
+    "provenance.json": "a326abfc6afc4e8d7b12bb1e4e1e2e0f2a2bcf179eeaf6c7c1587d588c964821",
+    "snapshot_content.json": "c864de785344aad424a17209ce9864cafb7f4ff14ef4743fc5dbb21bc0bbc159"
+  },
+  "content_digest": "4f27cecacda79eea6768722502e2da081235280a3fbd76242df2ef1cce2ac3c5",
+  "created_at": "2026-09-27T11:31:59.728061+00:00",
+  "evidence_digest": "6ef2e75b2bcd748e2a689f3869ae07dd0d8b06e2f48b210f70455f369b0802e2",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "f98eccaf2114d9b0cc03ccc2b1a8dc85a99a594f294f7e2e1a3a18b2cbe75688",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "bed5113970f4051c281f1664929247bb122dde24c3911014abb79540635b12e8",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "dreame",
+  "snapshot_id": "snap-dreame-bed5113970f4051c281f1664",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

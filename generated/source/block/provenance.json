@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:ffbe455f3b167e8487b1d4204da80a9d3447e491304170d15fd84263764c218c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-block-001-4e7b66cfd5d8"
+      ],
+      "service_id": "block",
+      "type": "domain",
+      "value": "block.xyz"
+    },
+    {
+      "asset_id": "sha256:a7eb3f7566365d0998a347d023f30c6dcb9aa10cc0190d12b3c0e0c4b5b2608d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-block-001-4e7b66cfd5d8"
+      ],
+      "service_id": "block",
+      "type": "domain",
+      "value": "www.block.xyz"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "ad7b17f04003735b06c40120606765953eb41391a2e0e25ef38dfe5caf967c11",
+  "created_at": "2026-09-27T11:28:10.151269+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "block.xyz",
+      "www.block.xyz"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "block.xyz",
+    "www.block.xyz"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "4e7b66cfd5d85f401172c5648405b43b7af8cb355b3d51a94ec2c78a136c8b6a",
+      "domains_extracted": 2,
+      "evidence_id": "EV-block-001-4e7b66cfd5d8",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://block.xyz/",
+      "retrieved_at": "1790508428053322242",
+      "service_id": "block",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://block.xyz/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "ae88b152c3615b40443d9b51f4c4e3c85ddc5e5415072a6c1f5592accabd2041",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "0dc715a7aa101d03762ac1bc8286b4b953a5608aadb88b830d0a318133924ece",
+  "previous_domain_count": 0,
+  "release_digest": "cb6da11205c0a980ace1edc2d9aadc6abf145745de4ffb887b46bd1e11f8c010",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "f946f4494ec164665d15a23b7bf5c95395069a6e151f8d30185b899f0dc63317",
+  "service_id": "block",
+  "snapshot_content_sha256": "ad7b17f04003735b06c40120606765953eb41391a2e0e25ef38dfe5caf967c11",
+  "snapshot_id": "snap-block-cb6da11205c0a980ace1edc2",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://block.xyz/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

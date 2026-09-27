@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:3cf12aa6552594c9752143e07a0c5e4adb988842a036c9e068c5db2b12efb918",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-hellobike-001-9f9096062ed2"
+      ],
+      "service_id": "hellobike",
+      "type": "domain",
+      "value": "hellobike.com"
+    },
+    {
+      "asset_id": "sha256:f6a71836b0ebc163ec64d34cd8f44a0e3255932da716f6336df63cd3d5b288bb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-hellobike-001-9f9096062ed2"
+      ],
+      "service_id": "hellobike",
+      "type": "domain",
+      "value": "www.hellobike.com"
+    }
+  ],
+  "content_digest": "20cd378aa149fa91b4e348d4d1bdb1114770b5a6d6d187a6c5be6b9d6dcb3fa3",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "9f9096062ed2ead5beb3d7c8d70eedbba808556a8f04b604f5718abbc73f9bbd",
+      "domains_extracted": 2,
+      "evidence_id": "EV-hellobike-001-9f9096062ed2",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.hellobike.com/",
+      "retrieved_at": "1790508539058946160",
+      "service_id": "hellobike",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.hellobike.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "35fa5c85f8a60e0bcb354c8a29f140a1a9a5a70566305897b5e9cc66f73f6f8b",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "00c4d4c44daa8736319933034b3d66d0ce1a50b96a155506db7202e0f2705fa4",
+  "release_digest": "2f40b385c128e7087ab9bcbee5ed6d0a3864e3716212db42c5f4e20e4a2b98dc",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "hellobike",
+  "snapshot_id": "snap-hellobike-2f40b385c128e7087ab9bcbe",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "5e362d7ce7438330f81f288db2dcc47528eb045f37543782842ccdb3fb76dfda",
+    "manifest.json": "96ed61374cee5cbb0c84bf9cbc4c2e75713fcdc5fd81c58f382f3dcde6deead3",
+    "provenance.json": "0b5cb8c63bb7a78f0368aff879bec250dfe7efa132244c4fcb82b9b34fc9aa28",
+    "snapshot_content.json": "1941bc9ea940ae85d76de78a0fdfcf240d80f6249fa2b1654f96967fecc94ce7"
+  },
+  "content_digest": "3462b76da7d140d3cd816693a3953d533884e68d4b670d014e53c9f0bac1d677",
+  "created_at": "2026-09-27T11:28:45.259691+00:00",
+  "evidence_digest": "0fd81d8c4b1d38a35af88205a3736ef1141c5e34a43fbd32285bc0b2e429c307",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "522b2d64c53006c997054f69f3a77c36ce7f00598c9a8deabc4efbb1eb4bbca9",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "ddd455ea2301cc82ea31bd000ef961cebbc1008d5c86bbae840f9d33ac7c6ab9",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "dassault",
+  "snapshot_id": "snap-dassault-ddd455ea2301cc82ea31bd00",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

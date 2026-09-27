@@ -1,0 +1,13 @@
+{
+  "content_digest": "4f27cecacda79eea6768722502e2da081235280a3fbd76242df2ef1cce2ac3c5",
+  "domains": [
+    "dreametech.com",
+    "www.dreametech.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "dreame",
+  "source_hashes": [
+    "d5ab1110281fde1c3e69869bfeb5b27cd367fa26adb70745935edd11f4cbee20"
+  ]
+}
