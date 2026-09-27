@@ -243,6 +243,8 @@ jobs:
             echo "No durable snapshot changes to persist."
           else
             git commit -m "chore(source): persist durable immutable snapshots [skip ci]"
+            git fetch origin main
+            git pull --rebase origin main
             git push origin main
           fi
       - name: Seal bridge report with persistence commit
@@ -262,4 +264,6 @@ jobs:
           PY
           git add -f reports/durable-bridge/latest.json
           git commit -m "chore(source): seal durable bridge evidence [skip ci]"
+          git fetch origin main
+          git pull --rebase origin main
           git push origin main
