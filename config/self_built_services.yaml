@@ -854,3 +854,26 @@ services:
     - mongodb.com
     upstream_binding: null
     current_state: review
+  office:
+    display_name: Microsoft Office
+    ecosystem: microsoft
+    official_sources:
+    - https://www.office.com/
+    allowed_host_exact:
+    - www.office.com
+    - office.com
+    mode: official_web
+    upstream_binding: null
+    current_state: review
+  outlook:
+    display_name: Microsoft Outlook
+    ecosystem: microsoft
+    official_sources:
+    - https://outlook.office.com/
+    allowed_host_exact:
+    - outlook.office.com
+    - outlook.live.com
+    - outlook.office365.com
+    mode: official_web
+    upstream_binding: null
+    current_state: review
