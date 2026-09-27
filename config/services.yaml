@@ -2857,3 +2857,322 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+  iflytek:
+    display_name: 科大讯飞
+    ecosystem: iflytek
+    official_sources:
+    - https://www.iflytek.com/
+    allowed_host_exact:
+    - www.iflytek.com
+    - iflytek.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+  shimo:
+    display_name: 石墨文档
+    ecosystem: shimo
+    official_sources:
+    - https://shimo.im/
+    allowed_host_exact:
+    - shimo.im
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+  xunlei:
+    display_name: 迅雷
+    ecosystem: xunlei
+    official_sources:
+    - https://www.xunlei.com/
+    allowed_host_exact:
+    - www.xunlei.com
+    - xunlei.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+  mgtv:
+    display_name: 芒果TV
+    ecosystem: mgtv
+    official_sources:
+    - https://www.mgtv.com/
+    allowed_host_exact:
+    - www.mgtv.com
+    - mgtv.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+  eastmoney:
+    display_name: 东方财富
+    ecosystem: eastmoney
+    official_sources:
+    - https://www.eastmoney.com/
+    allowed_host_exact:
+    - www.eastmoney.com
+    - eastmoney.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+  autohome:
+    display_name: 汽车之家
+    ecosystem: autohome
+    official_sources:
+    - https://www.autohome.com.cn/
+    allowed_host_exact:
+    - www.autohome.com.cn
+    - autohome.com.cn
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+  qunar:
+    display_name: 去哪儿
+    ecosystem: qunar
+    official_sources:
+    - https://www.qunar.com/
+    allowed_host_exact:
+    - www.qunar.com
+    - qunar.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+  zhipin:
+    display_name: BOSS直聘
+    ecosystem: zhipin
+    official_sources:
+    - https://www.zhipin.com/
+    allowed_host_exact:
+    - www.zhipin.com
+    - zhipin.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+  wps:
+    display_name: WPS
+    ecosystem: kingsoft
+    official_sources:
+    - https://www.wps.cn/
+    allowed_host_exact:
+    - www.wps.cn
+    - wps.cn
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+  ibm:
+    display_name: IBM
+    ecosystem: ibm
+    official_sources:
+    - https://www.ibm.com/
+    allowed_host_exact:
+    - www.ibm.com
+    - ibm.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+  amd:
+    display_name: AMD
+    ecosystem: amd
+    official_sources:
+    - https://www.amd.com/
+    allowed_host_exact:
+    - www.amd.com
+    - amd.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+  cisco:
+    display_name: Cisco
+    ecosystem: cisco
+    official_sources:
+    - https://www.cisco.com/
+    allowed_host_exact:
+    - www.cisco.com
+    - cisco.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+  salesforce:
+    display_name: Salesforce
+    ecosystem: salesforce
+    official_sources:
+    - https://www.salesforce.com/
+    allowed_host_exact:
+    - www.salesforce.com
+    - salesforce.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+  cloudflare:
+    display_name: Cloudflare
+    ecosystem: cloudflare
+    official_sources:
+    - https://www.cloudflare.com/
+    allowed_host_exact:
+    - www.cloudflare.com
+    - cloudflare.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+  datadog:
+    display_name: Datadog
+    ecosystem: datadog
+    official_sources:
+    - https://www.datadoghq.com/
+    allowed_host_exact:
+    - www.datadoghq.com
+    - datadoghq.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+  mongodb:
+    display_name: MongoDB
+    ecosystem: mongodb
+    official_sources:
+    - https://www.mongodb.com/
+    allowed_host_exact:
+    - www.mongodb.com
+    - mongodb.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
