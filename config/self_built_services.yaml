@@ -2055,3 +2055,88 @@ services:
     - kunlunxin.com
     upstream_binding: null
     current_state: review
+  volcengine:
+    display_name: 火山引擎
+    ecosystem: bytedance
+    mode: official_web
+    official_sources:
+    - https://www.volcengine.com/
+    allowed_host_exact:
+    - www.volcengine.com
+    - volcengine.com
+    upstream_binding: null
+    current_state: review
+  capcut:
+    display_name: 剪映/CapCut
+    ecosystem: bytedance
+    mode: official_web
+    official_sources:
+    - https://www.capcut.com/
+    allowed_host_exact:
+    - www.capcut.com
+    - capcut.com
+    upstream_binding: null
+    current_state: review
+  lark:
+    display_name: Lark
+    ecosystem: bytedance
+    mode: official_web
+    official_sources:
+    - https://www.larksuite.com/
+    allowed_host_exact:
+    - www.larksuite.com
+    - larksuite.com
+    upstream_binding: null
+    current_state: review
+  qqdoc:
+    display_name: 腾讯文档
+    ecosystem: tencent
+    mode: official_web
+    official_sources:
+    - https://docs.qq.com/
+    allowed_host_exact:
+    - docs.qq.com
+    upstream_binding: null
+    current_state: review
+  wegame:
+    display_name: WeGame
+    ecosystem: tencent
+    mode: official_web
+    official_sources:
+    - https://www.wegame.com.cn/
+    allowed_host_exact:
+    - www.wegame.com.cn
+    - wegame.com.cn
+    upstream_binding: null
+    current_state: review
+  mihome:
+    display_name: 米家
+    ecosystem: xiaomi
+    mode: official_web
+    official_sources:
+    - https://home.mi.com/
+    allowed_host_exact:
+    - home.mi.com
+    upstream_binding: null
+    current_state: review
+  getapps:
+    display_name: GetApps
+    ecosystem: xiaomi
+    mode: official_web
+    official_sources:
+    - https://global.app.mi.com/
+    allowed_host_exact:
+    - global.app.mi.com
+    upstream_binding: null
+    current_state: review
+  jdcloud:
+    display_name: 京东云
+    ecosystem: jingdong
+    mode: official_web
+    official_sources:
+    - https://www.jdcloud.com/
+    allowed_host_exact:
+    - www.jdcloud.com
+    - jdcloud.com
+    upstream_binding: null
+    current_state: review

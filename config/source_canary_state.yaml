@@ -1262,3 +1262,43 @@ services:
     enabled: true
     reason: wave2_D4_2026-09-27
     last_transition: '2026-09-27'
+  volcengine:
+    state: review
+    enabled: true
+    reason: d1_child_2026-09-27
+    last_transition: '2026-09-27'
+  capcut:
+    state: review
+    enabled: true
+    reason: d1_child_2026-09-27
+    last_transition: '2026-09-27'
+  lark:
+    state: review
+    enabled: true
+    reason: d1_child_2026-09-27
+    last_transition: '2026-09-27'
+  qqdoc:
+    state: review
+    enabled: true
+    reason: d1_child_2026-09-27
+    last_transition: '2026-09-27'
+  wegame:
+    state: review
+    enabled: true
+    reason: d1_child_2026-09-27
+    last_transition: '2026-09-27'
+  mihome:
+    state: review
+    enabled: true
+    reason: d1_child_2026-09-27
+    last_transition: '2026-09-27'
+  getapps:
+    state: review
+    enabled: true
+    reason: d1_child_2026-09-27
+    last_transition: '2026-09-27'
+  jdcloud:
+    state: review
+    enabled: true
+    reason: d1_child_2026-09-27
+    last_transition: '2026-09-27'
