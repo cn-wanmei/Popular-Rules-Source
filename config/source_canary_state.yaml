@@ -637,3 +637,83 @@ services:
     enabled: true
     reason: p1_o1_self_built_candidate_2026-09-27
     last_transition: '2026-09-27'
+  iflytek:
+    state: review
+    enabled: true
+    reason: p1_p2_wave_2026-09-27
+    last_transition: '2026-09-27'
+  shimo:
+    state: review
+    enabled: true
+    reason: p1_p2_wave_2026-09-27
+    last_transition: '2026-09-27'
+  xunlei:
+    state: review
+    enabled: true
+    reason: p1_p2_wave_2026-09-27
+    last_transition: '2026-09-27'
+  mgtv:
+    state: review
+    enabled: true
+    reason: p1_p2_wave_2026-09-27
+    last_transition: '2026-09-27'
+  eastmoney:
+    state: review
+    enabled: true
+    reason: p1_p2_wave_2026-09-27
+    last_transition: '2026-09-27'
+  autohome:
+    state: review
+    enabled: true
+    reason: p1_p2_wave_2026-09-27
+    last_transition: '2026-09-27'
+  qunar:
+    state: review
+    enabled: true
+    reason: p1_p2_wave_2026-09-27
+    last_transition: '2026-09-27'
+  zhipin:
+    state: review
+    enabled: true
+    reason: p1_p2_wave_2026-09-27
+    last_transition: '2026-09-27'
+  wps:
+    state: review
+    enabled: true
+    reason: p1_p2_wave_2026-09-27
+    last_transition: '2026-09-27'
+  ibm:
+    state: review
+    enabled: true
+    reason: p1_p2_wave_2026-09-27
+    last_transition: '2026-09-27'
+  amd:
+    state: review
+    enabled: true
+    reason: p1_p2_wave_2026-09-27
+    last_transition: '2026-09-27'
+  cisco:
+    state: review
+    enabled: true
+    reason: p1_p2_wave_2026-09-27
+    last_transition: '2026-09-27'
+  salesforce:
+    state: review
+    enabled: true
+    reason: p1_p2_wave_2026-09-27
+    last_transition: '2026-09-27'
+  cloudflare:
+    state: review
+    enabled: true
+    reason: p1_p2_wave_2026-09-27
+    last_transition: '2026-09-27'
+  datadog:
+    state: review
+    enabled: true
+    reason: p1_p2_wave_2026-09-27
+    last_transition: '2026-09-27'
+  mongodb:
+    state: review
+    enabled: true
+    reason: p1_p2_wave_2026-09-27
+    last_transition: '2026-09-27'
