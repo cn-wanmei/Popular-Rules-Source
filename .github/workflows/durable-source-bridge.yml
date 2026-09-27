@@ -238,13 +238,15 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -f snapshots releases generated/source
+          git add -f snapshots releases generated/source reports/durable-bridge/latest.json || true
           if git diff --cached --quiet; then
             echo "No durable snapshot changes to persist."
           else
             git commit -m "chore(source): persist durable immutable snapshots [skip ci]"
             git fetch origin main
+            git stash push -u -m "durable-pre-rebase" || true
             git pull --rebase origin main
+            git stash pop || true
             git push origin main
           fi
       - name: Seal bridge report with persistence commit
@@ -263,7 +265,9 @@ jobs:
           path.write_text(json.dumps(data, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
           PY
           git add -f reports/durable-bridge/latest.json
-          git commit -m "chore(source): seal durable bridge evidence [skip ci]"
+          git commit -m "chore(source): seal durable bridge evidence [skip ci]" || true
           git fetch origin main
+          git stash push -u -m "durable-seal-pre-rebase" || true
           git pull --rebase origin main
+          git stash pop || true
           git push origin main
