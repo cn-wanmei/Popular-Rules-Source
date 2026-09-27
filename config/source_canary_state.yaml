@@ -717,3 +717,13 @@ services:
     enabled: true
     reason: p1_p2_wave_2026-09-27
     last_transition: '2026-09-27'
+  office:
+    state: review
+    enabled: true
+    reason: m365_hostname_reconcile_2026-09-27
+    last_transition: '2026-09-27'
+  outlook:
+    state: review
+    enabled: true
+    reason: m365_hostname_reconcile_2026-09-27
+    last_transition: '2026-09-27'
