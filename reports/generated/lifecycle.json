@@ -253,7 +253,31 @@
       "snapshot_id": null,
       "state": "review"
     },
+    "asml": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "atlassian": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
+    "atour": {
       "content_digest": null,
       "domain_count": 0,
       "enabled": true,
@@ -421,7 +445,55 @@
       "snapshot_id": "snap-bing-3f36698777489885ba7fdbfd",
       "state": "verified"
     },
+    "birentech": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
+    "block": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
+    "broadcom": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "byd": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
+    "cadence": {
       "content_digest": null,
       "domain_count": 0,
       "enabled": true,
@@ -589,6 +661,18 @@
       "snapshot_id": null,
       "state": "review"
     },
+    "dassault": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "databricks": {
       "content_digest": null,
       "domain_count": 0,
@@ -623,6 +707,18 @@
       "release_digest": "0c14562b294e2ad50feadc74e069e7f36855a0518f6c129883e40eae0fb06911",
       "release_state": "CANDIDATE",
       "snapshot_id": "snap-deepseek-0c14562b294e2ad50feadc74",
+      "state": "review"
+    },
+    "dell": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
       "state": "review"
     },
     "dingding": {
@@ -685,6 +781,18 @@
       "snapshot_id": "snap-douyin-3780b3c2b6ee1a9abdccf245",
       "state": "verified"
     },
+    "dreame": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "ea": {
       "content_digest": null,
       "domain_count": 0,
@@ -710,6 +818,18 @@
       "state": "review"
     },
     "epicgames": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
+    "equinix": {
       "content_digest": null,
       "domain_count": 0,
       "enabled": true,
@@ -781,6 +901,18 @@
       "snapshot_id": null,
       "state": "review"
     },
+    "fujitsu": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "gemini": {
       "content_digest": "d5e5842666a62dcd98f68002b7377146aa937d911bab9a3c5552cb00220689e2",
       "domain_count": 9,
@@ -803,6 +935,18 @@
       "release_digest": "293b2b0db400e778bcfe88a7a86f5de7621a61239ac25bccb5d9ee1e2e414c05",
       "release_state": "CANDIDATE",
       "snapshot_id": "snap-github-293b2b0db400e778bcfe88a7",
+      "state": "review"
+    },
+    "globalfoundries": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
       "state": "review"
     },
     "gmail": {
@@ -1153,6 +1297,18 @@
       "snapshot_id": null,
       "state": "review"
     },
+    "hitachi": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "honor": {
       "content_digest": null,
       "domain_count": 0,
@@ -1187,6 +1343,18 @@
       "release_digest": "9271ce0b7c8d6b9d6d1836fadc05ed115871fa0d88a94c82c942d81b93331f01",
       "release_state": "CANDIDATE",
       "snapshot_id": "snap-honorofkings_global-9271ce0b7c8d6b9d6d1836fa",
+      "state": "review"
+    },
+    "hpe": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
       "state": "review"
     },
     "huawei-appgallery": {
@@ -1297,6 +1465,18 @@
       "snapshot_id": null,
       "state": "review"
     },
+    "internlm": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "intuit": {
       "content_digest": null,
       "domain_count": 0,
@@ -1345,6 +1525,18 @@
       "snapshot_id": null,
       "state": "review"
     },
+    "kla": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "kuaishou": {
       "content_digest": null,
       "domain_count": 0,
@@ -1381,6 +1573,18 @@
       "snapshot_id": "snap-kugou-bd7700e11c8ff2c07e7b9321",
       "state": "review"
     },
+    "kunlunxin": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "kuwo": {
       "content_digest": "d7cc1c64bcfbb227d62d654e02e12795448cb3620883bdc042519b14abc36498",
       "domain_count": 1,
@@ -1391,6 +1595,18 @@
       "release_digest": "c36f7d9497fdd5e0b0806d936a85cc9c920b40ad60d014d09e7dfd9d8a9a91d7",
       "release_state": "CANDIDATE",
       "snapshot_id": "snap-kuwo-c36f7d9497fdd5e0b0806d93",
+      "state": "review"
+    },
+    "lamresearch": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
       "state": "review"
     },
     "lenovo": {
@@ -1429,6 +1645,18 @@
       "snapshot_id": null,
       "state": "review"
     },
+    "lufax": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "manbang": {
       "content_digest": null,
       "domain_count": 0,
@@ -1442,6 +1670,18 @@
       "state": "review"
     },
     "mediatek": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
+    "mercadolibre": {
       "content_digest": null,
       "domain_count": 0,
       "enabled": true,
@@ -1487,6 +1727,18 @@
       "release_digest": "e876da13d4a50a1abf1ddb7aafc944711a499eb1f3bcc5b351b83df656125460",
       "release_state": "CANDIDATE",
       "snapshot_id": "snap-mi-cloud-e876da13d4a50a1abf1ddb7a",
+      "state": "review"
+    },
+    "micron": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
       "state": "review"
     },
     "migu": {
@@ -1619,6 +1871,30 @@
       "release_digest": "0eb9e29c143572c255507c671b49bd4e289d6dfa33b9eb11d37595a612175878",
       "release_state": "CANDIDATE",
       "snapshot_id": "snap-ms365-word-0eb9e29c143572c255507c67",
+      "state": "review"
+    },
+    "nec": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
+    "netapp": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
       "state": "review"
     },
     "neteasemail": {
@@ -1789,6 +2065,18 @@
       "snapshot_id": null,
       "state": "review"
     },
+    "paloalto": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "panasonic": {
       "content_digest": null,
       "domain_count": 0,
@@ -1823,6 +2111,18 @@
       "release_digest": "ada0cc4943c05a38442ca859e2a7279742cc231dc3e5487bae3a9c41476518f0",
       "release_state": "CANDIDATE",
       "snapshot_id": "snap-perplexity-ada0cc4943c05a38442ca859",
+      "state": "review"
+    },
+    "pingan": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
       "state": "review"
     },
     "qihoo360": {
@@ -1933,6 +2233,18 @@
       "snapshot_id": "snap-roblox-36d3732a073e69dc0d883708",
       "state": "review"
     },
+    "roborock": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "salesforce": {
       "content_digest": null,
       "domain_count": 0,
@@ -1970,6 +2282,18 @@
       "state": "review"
     },
     "sap": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
+    "schneider": {
       "content_digest": null,
       "domain_count": 0,
       "enabled": true,
@@ -2041,6 +2365,18 @@
       "snapshot_id": null,
       "state": "review"
     },
+    "siemens": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "signal": {
       "content_digest": "7db91717b26af2108a12e3178f8fe973fca34d44fb2ebbce2f2dfdd69ba99200",
       "domain_count": 8,
@@ -2063,6 +2399,18 @@
       "release_digest": "440b4c5a63d59b410d5e32fae526d4df7cc23b09f61029036438285a40c5e6e4",
       "release_state": "CANDIDATE",
       "snapshot_id": "snap-siri-440b4c5a63d59b410d5e32fa",
+      "state": "review"
+    },
+    "skhynix": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
       "state": "review"
     },
     "snowflake": {
@@ -2125,7 +2473,31 @@
       "snapshot_id": "snap-stripe-dashboard-e5667382cb3f12c246ad8660",
       "state": "review"
     },
+    "synopsys": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "t3go": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
+    "take2": {
       "content_digest": null,
       "domain_count": 0,
       "enabled": true,
@@ -2245,6 +2617,18 @@
       "snapshot_id": "snap-testflight-922accff387fa39f172c3c41",
       "state": "verified"
     },
+    "ti": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "tiktok": {
       "content_digest": "1a72610eaabb12fac263e6086b35652115f6e6f1594ab9c8d102aaf3a031a4f8",
       "domain_count": 29,
@@ -2293,6 +2677,18 @@
       "snapshot_id": null,
       "state": "review"
     },
+    "transsion": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "tsmc": {
       "content_digest": null,
       "domain_count": 0,
@@ -2318,6 +2714,18 @@
       "state": "review"
     },
     "twilio": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
+    "umc": {
       "content_digest": null,
       "domain_count": 0,
       "enabled": true,
@@ -2471,6 +2879,18 @@
       "release_digest": "c056e17cbe3622251ba30c821071454abb4b8168fa134660050c2ac996ded9d9",
       "release_state": "CANDIDATE",
       "snapshot_id": "snap-xbox-c056e17cbe3622251ba30c82",
+      "state": "review"
+    },
+    "xgimi": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
       "state": "review"
     },
     "xunlei": {
