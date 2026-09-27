@@ -1,0 +1,6 @@
+# service_id: paloalto
+# batch: O1
+# status: CANDIDATE
+# Company-root official seed only.
+DOMAIN,www.paloaltonetworks.com
+DOMAIN,paloaltonetworks.com

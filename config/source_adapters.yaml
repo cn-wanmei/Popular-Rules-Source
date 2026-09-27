@@ -309,3 +309,38 @@ services:
   coinbase: {adapters: [self_built]}
   ea: {adapters: [self_built]}
   epicgames: {adapters: [self_built]}
+  broadcom: {adapters: [self_built]}
+  asml: {adapters: [self_built]}
+  micron: {adapters: [self_built]}
+  skhynix: {adapters: [self_built]}
+  ti: {adapters: [self_built]}
+  siemens: {adapters: [self_built]}
+  schneider: {adapters: [self_built]}
+  dell: {adapters: [self_built]}
+  paloalto: {adapters: [self_built]}
+  synopsys: {adapters: [self_built]}
+  cadence: {adapters: [self_built]}
+  lamresearch: {adapters: [self_built]}
+  kla: {adapters: [self_built]}
+  hitachi: {adapters: [self_built]}
+  fujitsu: {adapters: [self_built]}
+  nec: {adapters: [self_built]}
+  mercadolibre: {adapters: [self_built]}
+  hpe: {adapters: [self_built]}
+  netapp: {adapters: [self_built]}
+  equinix: {adapters: [self_built]}
+  dassault: {adapters: [self_built]}
+  block: {adapters: [self_built]}
+  take2: {adapters: [self_built]}
+  globalfoundries: {adapters: [self_built]}
+  umc: {adapters: [self_built]}
+  pingan: {adapters: [self_built]}
+  lufax: {adapters: [self_built]}
+  atour: {adapters: [self_built]}
+  transsion: {adapters: [self_built]}
+  roborock: {adapters: [self_built]}
+  dreame: {adapters: [self_built]}
+  xgimi: {adapters: [self_built]}
+  internlm: {adapters: [self_built]}
+  birentech: {adapters: [self_built]}
+  kunlunxin: {adapters: [self_built]}
