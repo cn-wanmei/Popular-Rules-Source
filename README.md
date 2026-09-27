@@ -226,10 +226,12 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | neteasemusic | **VERIFIED** | CANDIDATE | 10 | snap-neteasemusic-34efc854219f96a2aa121d84 |
 | netflix | **VERIFIED** | CANDIDATE | 31 | snap-netflix-5b2876cf88dc642c06b22d35 |
 | nvidia | **REVIEW** | NO_SNAPSHOT | 0 | none |
+| office | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | onedrive | **VERIFIED** | CANDIDATE | 13 | snap-onedrive-241ab9a1831b3f0a3affb85a |
 | openai | **VERIFIED** | CANDIDATE | 31 | snap-openai-cda1ed8e109c4abd8bf521dd |
 | openai-api | **REVIEW** | CANDIDATE | 1 | snap-openai-api-c8952ba8249663ca6f49098d |
 | openai-platform | **REVIEW** | CANDIDATE | 1 | snap-openai-platform-769b5880b0899016f4335a85 |
+| outlook | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | perplexity | **REVIEW** | CANDIDATE | 4 | snap-perplexity-ada0cc4943c05a38442ca859 |
 | qihoo360 | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | qq | **REVIEW** | REVIEW | 1 | snap-qq-e8b755c0889d871584191efb |

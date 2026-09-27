@@ -1063,6 +1063,18 @@
       "snapshot_id": null,
       "verified": false
     },
+    "office": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
     "onedrive": {
       "blockers": [],
       "declared_state": "verified",
@@ -1102,6 +1114,18 @@
       "release_digest": "769b5880b0899016f4335a854301089f16f1e14d194aaf065bf13440be9c4d72",
       "snapshot_id": "snap-openai-platform-769b5880b0899016f4335a85",
       "verified": true
+    },
+    "outlook": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
     },
     "perplexity": {
       "blockers": [],

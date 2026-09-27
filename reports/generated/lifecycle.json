@@ -1225,6 +1225,18 @@
       "snapshot_id": null,
       "state": "review"
     },
+    "office": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "onedrive": {
       "content_digest": "1090a865fdb375152535274115046431d18260f268e879edbd8d25e4f733c335",
       "domain_count": 13,
@@ -1271,6 +1283,18 @@
       "release_digest": "769b5880b0899016f4335a854301089f16f1e14d194aaf065bf13440be9c4d72",
       "release_state": "CANDIDATE",
       "snapshot_id": "snap-openai-platform-769b5880b0899016f4335a85",
+      "state": "review"
+    },
+    "outlook": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
       "state": "review"
     },
     "perplexity": {
