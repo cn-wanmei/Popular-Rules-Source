@@ -130,6 +130,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | adobe-stock | **REVIEW** | CANDIDATE | 1 | snap-adobe-stock-fb5983c8b0ef609fde49e4e0 |
 | alibabacloud | **REVIEW** | CANDIDATE | 12 | snap-alibabacloud-c121379a018839c4e2c1ad91 |
 | amazonmusic | **REVIEW** | CANDIDATE | 1 | snap-amazonmusic-8f36e1717aca94afda1ee0d0 |
+| amd | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | anthropic-claude | **REVIEW** | CANDIDATE | 1 | snap-anthropic-claude-57b3b3b1999c5d83d8f322a5 |
 | anthropic-platform | **REVIEW** | CANDIDATE | 1 | snap-anthropic-platform-7bf2ee650853808906839699 |
 | applebooks | **REVIEW** | CANDIDATE | 1 | snap-applebooks-1a82b91eb9b4c8feecb94c8a |
@@ -142,6 +143,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | appletv | **REVIEW** | CANDIDATE | 7 | snap-appletv-b983ca24d850eeada428f1da |
 | appstore | **VERIFIED** | CANDIDATE | 2 | snap-appstore-d141bbc12b271c916f41990c |
 | audible | **REVIEW** | CANDIDATE | 1 | snap-audible-2ae1b9d59ebdc6174db597b1 |
+| autohome | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | azure | **VERIFIED** | CANDIDATE | 149 | snap-azure-b3a73e93d99fb11dc21e4888 |
 | baidu | **VERIFIED** | CANDIDATE | 251 | snap-baidu-584ae9eeb87fa1dabd00d11f |
 | baidu-zhidao | **REVIEW** | NO_SNAPSHOT | 0 | none |
@@ -153,13 +155,17 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | byd | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | cainiao | **PRODUCTION** | CANDIDATE | 1 | snap-cainiao-179bcd0d35e42488cc41692b |
 | chatgpt | **REVIEW** | CANDIDATE | 1 | snap-chatgpt-cc1e48c936f2293870e7e2c0 |
+| cisco | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | claude | **VERIFIED** | CANDIDATE | 3 | snap-claude-4aec84cea09e5629117513fa |
+| cloudflare | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | copilot | **VERIFIED** | CANDIDATE | 45 | snap-copilot-9f6da111d1453ad19fc927d2 |
+| datadog | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | deepseek | **REVIEW** | CANDIDATE | 2 | snap-deepseek-0c14562b294e2ad50feadc74 |
 | dingding | **PRODUCTION** | CANDIDATE | 3 | snap-dingding-09ae1ecd000f1688f61e99a0 |
 | discord | **VERIFIED** | CANDIDATE | 28 | snap-discord-e5a47c19f5c45c25c613f6f6 |
 | doubao | **REVIEW** | CANDIDATE | 4 | snap-doubao-9f9124c0c24b39a949792104 |
 | douyin | **VERIFIED** | CANDIDATE | 13 | snap-douyin-3780b3c2b6ee1a9abdccf245 |
+| eastmoney | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | feishu | **VERIFIED** | CANDIDATE | 43 | snap-feishu-dd8e2cd8a4ac32fa8b355226 |
 | findmy | **VERIFIED** | CANDIDATE | 3 | snap-findmy-5dbfa7a125855e4ee11e3daf |
 | firebase | **REVIEW** | CANDIDATE | 2 | snap-firebase-a5574fd6cc7df4f1b8b30508 |
@@ -195,7 +201,9 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | huawei-appgallery | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | huawei-cloud | **REVIEW** | CANDIDATE | 1 | snap-huawei-cloud-baad7d83f4093ace2f04705c |
 | huggingface | **REVIEW** | CANDIDATE | 3 | snap-huggingface-c41977bf6c8dade8b423273a |
+| ibm | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | icloud | **VERIFIED** | CANDIDATE | 58 | snap-icloud-d3bceca16ccfbb5fe06c64f6 |
+| iflytek | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | intel | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | jd-cloud | **REVIEW** | CANDIDATE | 1 | snap-jd-cloud-7364b0a4c509c49727621c40 |
 | kuaishou | **REVIEW** | NO_SNAPSHOT | 0 | none |
@@ -204,7 +212,9 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | kuwo | **REVIEW** | CANDIDATE | 1 | snap-kuwo-c36f7d9497fdd5e0b0806d93 |
 | lenovo | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | messenger | **REVIEW** | CANDIDATE | 4 | snap-messenger-b3b52c8322960d4f19279550 |
+| mgtv | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | mi-cloud | **REVIEW** | CANDIDATE | 1 | snap-mi-cloud-e876da13d4a50a1abf1ddb7a |
+| mongodb | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | ms365-excel | **REVIEW** | CANDIDATE | 1 | snap-ms365-excel-84491a426ae08f1b75786d09 |
 | ms365-loop | **REVIEW** | CANDIDATE | 1 | snap-ms365-loop-65886fc777a8ed550f93fb60 |
 | ms365-mesh | **REVIEW** | CANDIDATE | 1 | snap-ms365-mesh-cb11ed05173e638e4642ab11 |
@@ -226,8 +236,11 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | qqmail | **PRODUCTION** | CANDIDATE | 1 | snap-qqmail-013babbee1bf9cf46a1741a1 |
 | qqmusic | **PRODUCTION** | CANDIDATE | 1 | snap-qqmusic-421df9f4465ad7fb35ed9c06 |
 | quanmin-k-ge | **REVIEW** | CANDIDATE | 1 | snap-quanmin-k-ge-00c1b63526a1b67c5f490aaf |
+| qunar | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | roblox | **REVIEW** | CANDIDATE | 47 | snap-roblox-36d3732a073e69dc0d883708 |
+| salesforce | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | samsung | **REVIEW** | NO_SNAPSHOT | 0 | none |
+| shimo | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | signal | **REVIEW** | CANDIDATE | 8 | snap-signal-ab3deea2dbc34fa008c60d6c |
 | siri | **REVIEW** | CANDIDATE | 1 | snap-siri-440b4c5a63d59b410d5e32fa |
 | stripe-dashboard | **REVIEW** | CANDIDATE | 1 | snap-stripe-dashboard-e5667382cb3f12c246ad8660 |
@@ -244,10 +257,13 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | venmo | **REVIEW** | CANDIDATE | 1 | snap-venmo-ad97a6f5008ebab004dbad8a |
 | wechat | **VERIFIED** | CANDIDATE | 28 | snap-wechat-84a8d3ac3ff682614f4d7470 |
 | wecom | **REVIEW** | CANDIDATE | 3 | snap-wecom-c6975c7fa31bc2c96407e444 |
+| wps | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | xai-grok | **REVIEW** | CANDIDATE | 1 | snap-xai-grok-0f56662ce92c5717e8909b9d |
 | xbox | **REVIEW** | CANDIDATE | 42 | snap-xbox-c056e17cbe3622251ba30c82 |
+| xunlei | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | youdao | **REVIEW** | CANDIDATE | 15 | snap-youdao-fc97f5d207d4c3358c6a4d6b |
 | youtube | **REVIEW** | CANDIDATE | 175 | snap-youtube-58b8afe3b6062febd60fd519 |
 | youtubemusic | **VERIFIED** | CANDIDATE | 1 | snap-youtubemusic-0e39136672e2e05e52470bd5 |
+| zhipin | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | zte | **REVIEW** | NO_SNAPSHOT | 0 | none |
 <!-- SOURCE_STATUS:END -->

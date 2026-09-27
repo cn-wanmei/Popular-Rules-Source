@@ -73,6 +73,18 @@
       "snapshot_id": "snap-amazonmusic-8f36e1717aca94afda1ee0d0",
       "state": "review"
     },
+    "amd": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "anthropic-claude": {
       "content_digest": "bc85fac3fec136dc9de4edb7a5bc03acce2747b4da00809bc9ada441c3efb616",
       "domain_count": 1,
@@ -217,6 +229,18 @@
       "snapshot_id": "snap-audible-2ae1b9d59ebdc6174db597b1",
       "state": "review"
     },
+    "autohome": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "azure": {
       "content_digest": "a16f317a7f5dea1e04c4523d7e9872a3ba5136673f6b6898b7716b09025a60f5",
       "domain_count": 149,
@@ -349,6 +373,18 @@
       "snapshot_id": "snap-chatgpt-cc1e48c936f2293870e7e2c0",
       "state": "review"
     },
+    "cisco": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "claude": {
       "content_digest": "04999f1cbf3cd882e18ebd164db57158b7e21cfb3aa90a9d9dc269cfabac0225",
       "domain_count": 3,
@@ -361,6 +397,18 @@
       "snapshot_id": "snap-claude-4aec84cea09e5629117513fa",
       "state": "verified"
     },
+    "cloudflare": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "copilot": {
       "content_digest": "75ee528ac909dd61679359fef9ebca6ddb59642b2bbe8992c9b7e9be111465ee",
       "domain_count": 45,
@@ -372,6 +420,18 @@
       "release_state": "CANDIDATE",
       "snapshot_id": "snap-copilot-9f6da111d1453ad19fc927d2",
       "state": "verified"
+    },
+    "datadog": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
     },
     "deepseek": {
       "content_digest": "fe8a0928038519346854c53651fdad0b23a5ca2a59d456a89b955f7f31daee6c",
@@ -432,6 +492,18 @@
       "release_state": "CANDIDATE",
       "snapshot_id": "snap-douyin-3780b3c2b6ee1a9abdccf245",
       "state": "verified"
+    },
+    "eastmoney": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
     },
     "feishu": {
       "content_digest": "b5691f9763d1c0cfdf10727bde56aec2f0ca0b7036b0f7eabef5a43f0ad572aa",
@@ -853,6 +925,18 @@
       "snapshot_id": "snap-huggingface-c41977bf6c8dade8b423273a",
       "state": "review"
     },
+    "ibm": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "icloud": {
       "content_digest": "83a8e27956b1c972e15af188a9942f46af4409191f530f5d9538fa7e1e276baf",
       "domain_count": 58,
@@ -864,6 +948,18 @@
       "release_state": "CANDIDATE",
       "snapshot_id": "snap-icloud-d3bceca16ccfbb5fe06c64f6",
       "state": "verified"
+    },
+    "iflytek": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
     },
     "intel": {
       "content_digest": null,
@@ -961,6 +1057,18 @@
       "snapshot_id": "snap-messenger-b3b52c8322960d4f19279550",
       "state": "review"
     },
+    "mgtv": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "mi-cloud": {
       "content_digest": "97c89cbd54189c7127ddcf737025c954a890e239f99f58fedb11a6ec18d7a97d",
       "domain_count": 1,
@@ -971,6 +1079,18 @@
       "release_digest": "e876da13d4a50a1abf1ddb7aafc944711a499eb1f3bcc5b351b83df656125460",
       "release_state": "CANDIDATE",
       "snapshot_id": "snap-mi-cloud-e876da13d4a50a1abf1ddb7a",
+      "state": "review"
+    },
+    "mongodb": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
       "state": "review"
     },
     "ms365-excel": {
@@ -1225,6 +1345,18 @@
       "snapshot_id": "snap-quanmin-k-ge-00c1b63526a1b67c5f490aaf",
       "state": "review"
     },
+    "qunar": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "roblox": {
       "content_digest": "45af99014ad0d13e734fffe512d9f678ef36b5a5e4bc0805329d60256c984d2a",
       "domain_count": 47,
@@ -1237,7 +1369,31 @@
       "snapshot_id": "snap-roblox-36d3732a073e69dc0d883708",
       "state": "review"
     },
+    "salesforce": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "samsung": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
+    "shimo": {
       "content_digest": null,
       "domain_count": 0,
       "enabled": true,
@@ -1441,6 +1597,18 @@
       "snapshot_id": "snap-wecom-c6975c7fa31bc2c96407e444",
       "state": "review"
     },
+    "wps": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "xai-grok": {
       "content_digest": "276034b75d9b8ca97b88a945f8b85014db98ff4ae6360618d780cb2f023406bf",
       "domain_count": 1,
@@ -1463,6 +1631,18 @@
       "release_digest": "c056e17cbe3622251ba30c821071454abb4b8168fa134660050c2ac996ded9d9",
       "release_state": "CANDIDATE",
       "snapshot_id": "snap-xbox-c056e17cbe3622251ba30c82",
+      "state": "review"
+    },
+    "xunlei": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
       "state": "review"
     },
     "youdao": {
@@ -1500,6 +1680,18 @@
       "release_state": "CANDIDATE",
       "snapshot_id": "snap-youtubemusic-0e39136672e2e05e52470bd5",
       "state": "verified"
+    },
+    "zhipin": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
     },
     "zte": {
       "content_digest": null,
