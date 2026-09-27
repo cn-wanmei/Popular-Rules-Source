@@ -1,0 +1,6 @@
+# service_id: schneider
+# batch: O1
+# status: CANDIDATE
+# Company-root official seed only.
+DOMAIN,www.se.com
+DOMAIN,se.com
