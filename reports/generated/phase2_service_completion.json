@@ -7,8 +7,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": true,
-      "release_digest": "c6fef2e490eaf7dc0ef8e5ae9d9a782d12a252ea79f965927c8f3c611abbee9b",
-      "snapshot_id": "snap-1688-c6fef2e490eaf7dc0ef8e5ae",
+      "release_digest": "4152b558b34476df1a55a8d8c4c5df5249d3a623d7c3ac8f725dbaf664b80d1b",
+      "snapshot_id": "snap-1688-4152b558b34476df1a55a8d8",
       "verified": true
     },
     "adobe-firefly": {
@@ -82,16 +82,14 @@
       "verified": true
     },
     "applebooks": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "1a82b91eb9b4c8feecb94c8aefc6cecc9575fd4fadac169e6db717ac4f1b97c1",
+      "snapshot_id": "snap-applebooks-1a82b91eb9b4c8feecb94c8a",
+      "verified": true
     },
     "appledev": {
       "blockers": [],
@@ -104,16 +102,14 @@
       "verified": true
     },
     "applemaps": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "71a1a34ed238b4cf742e293e29242961b105f6b4c15c19dd47471857f2484d1a",
+      "snapshot_id": "snap-applemaps-71a1a34ed238b4cf742e293e",
+      "verified": true
     },
     "applemedia": {
       "blockers": [],
@@ -146,16 +142,14 @@
       "verified": true
     },
     "applepodcasts": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "4bfb9ca6b27a141e7aa9fa0c9574d0ad11460ca07b78ce0c5c3658e9164b3157",
+      "snapshot_id": "snap-applepodcasts-4bfb9ca6b27a141e7aa9fa0c",
+      "verified": true
     },
     "appletv": {
       "blockers": [],
@@ -291,8 +285,8 @@
       "domain_count": 1,
       "enabled": true,
       "production_activated": true,
-      "release_digest": "87212012e2498ca9ab820c4983dd351edef5ae183f5a1736d5cac20ef310aeda",
-      "snapshot_id": "snap-cainiao-87212012e2498ca9ab820c49",
+      "release_digest": "179bcd0d35e42488cc41692b257880dc535c5d60f038f4e9c751c20583a98c87",
+      "snapshot_id": "snap-cainiao-179bcd0d35e42488cc41692b",
       "verified": true
     },
     "chatgpt": {
@@ -361,8 +355,8 @@
       "domain_count": 4,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "669cd8eae6cd90fb55ee2023c068bfd1b476b46744826174721b4da3a00a1bcd",
-      "snapshot_id": "snap-doubao-669cd8eae6cd90fb55ee2023",
+      "release_digest": "9f9124c0c24b39a94979210453babb9186ac5347235fa62f550be4e26826dd82",
+      "snapshot_id": "snap-doubao-9f9124c0c24b39a949792104",
       "verified": true
     },
     "douyin": {
@@ -401,8 +395,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "7e2496cd87aef51a2371573d8153e2b3d88029effd387f938b26dd83812d99da",
-      "snapshot_id": "snap-firebase-7e2496cd87aef51a2371573d",
+      "release_digest": "a5574fd6cc7df4f1b8b3050864ecfddb16c058d72d7cec3f29a52b5a093267c7",
+      "snapshot_id": "snap-firebase-a5574fd6cc7df4f1b8b30508",
       "verified": true
     },
     "gemini": {
@@ -426,16 +420,14 @@
       "verified": true
     },
     "gmail": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "c3a855e07fa2cf45651ae3a473cde31e30cec5b049f917bd6b4562ab7dfda685",
+      "snapshot_id": "snap-gmail-c3a855e07fa2cf45651ae3a4",
+      "verified": true
     },
     "goodreads": {
       "blockers": [],
@@ -448,220 +440,184 @@
       "verified": true
     },
     "google-calendar": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "1b852f9159dd62fdc2bbde01cc24579fa9dedb2982190661967d4f143bf2e46a",
+      "snapshot_id": "snap-google-calendar-1b852f9159dd62fdc2bbde01",
+      "verified": true
     },
     "google-chat": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "25e1acd75e54a275f491a9138475e4f56f74eb7a2742eddd8d2440fa46181b2c",
+      "snapshot_id": "snap-google-chat-25e1acd75e54a275f491a913",
+      "verified": true
     },
     "google-contacts": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "3ad5c7ecb05956597c4ae5ca1478fe0d81323f8d8b71fca038340bfd4ba1d347",
+      "snapshot_id": "snap-google-contacts-3ad5c7ecb05956597c4ae5ca",
+      "verified": true
     },
     "google-docs": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "373a011368bfd8cccaccc4dd97e941687cde2c536489ea7a621d79f296809a85",
+      "snapshot_id": "snap-google-docs-373a011368bfd8cccaccc4dd",
+      "verified": true
     },
     "google-earth": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "d9b76bf3506634dccd2b96e22b8ea2c2b7e2d3ddae95114395c92f1c829df37d",
+      "snapshot_id": "snap-google-earth-d9b76bf3506634dccd2b96e2",
+      "verified": true
     },
     "google-forms": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "559aea19004e62de9eb7175d0b6fb5ceefed3b3523851e342d9adca7a08da56e",
+      "snapshot_id": "snap-google-forms-559aea19004e62de9eb7175d",
+      "verified": true
     },
     "google-groups": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "ee345194168348f5b9b4cad213be51e6fae3759b05ac43fa7a190c0325534429",
+      "snapshot_id": "snap-google-groups-ee345194168348f5b9b4cad2",
+      "verified": true
     },
     "google-maps": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "ad2f1a8bcd3a536fca6b3daca875df0742214e4a54368dbf5515d3c72e870ac8",
+      "snapshot_id": "snap-google-maps-ad2f1a8bcd3a536fca6b3dac",
+      "verified": true
     },
     "google-meet": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "c4280ce1e242a4dd7b758342aca0a211f0a55f5e6ef99a57c10b6a6c34a3eded",
+      "snapshot_id": "snap-google-meet-c4280ce1e242a4dd7b758342",
+      "verified": true
     },
     "google-news": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "78c4526fe0a249e933aed4ff6d7f5030756cb78cf36e044070f7089e13749e79",
+      "snapshot_id": "snap-google-news-78c4526fe0a249e933aed4ff",
+      "verified": true
     },
     "google-photos": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "c2fe7615ea4cf011cdbc31dee4ae9936f822db81907c69d41418fc129e383762",
+      "snapshot_id": "snap-google-photos-c2fe7615ea4cf011cdbc31de",
+      "verified": true
     },
     "google-play": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "8521d59544a0decf823e859c686551ac687083dcadf0b67f8a4af4dea35d5c33",
+      "snapshot_id": "snap-google-play-8521d59544a0decf823e859c",
+      "verified": true
     },
     "google-sheets": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "6de01de6e87331067661ad92f44cc64f90f0991fb93c94cefd5f03076fa6bc91",
+      "snapshot_id": "snap-google-sheets-6de01de6e87331067661ad92",
+      "verified": true
     },
     "google-sites": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "8110ded44cc74b3e78e32eccad714b805df54170af7dbcf60e94db498eae173b",
+      "snapshot_id": "snap-google-sites-8110ded44cc74b3e78e32ecc",
+      "verified": true
     },
     "google-slides": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "4b5f8f5fff72ee076ba114168021ef6d021d60d24550262e2b87ff07f5e32729",
+      "snapshot_id": "snap-google-slides-4b5f8f5fff72ee076ba11416",
+      "verified": true
     },
     "google-vids": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "e595a5032f87e5544cb3874e0e9bed86007051e9b748e9ac0630d71612b34533",
+      "snapshot_id": "snap-google-vids-e595a5032f87e5544cb3874e",
+      "verified": true
     },
     "google-voice": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "d823134be8c59031aa5055d8398f6fc035e4153d65b51e3f5b948eda71cbeaf1",
+      "snapshot_id": "snap-google-voice-d823134be8c59031aa5055d8",
+      "verified": true
     },
     "google-workspace-studio": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "a936fad5df9362c828fb9d68e2660c27eeaff18783500e14e1e7126c349bde84",
+      "snapshot_id": "snap-google-workspace-studio-a936fad5df9362c828fb9d68",
+      "verified": true
     },
     "googlecloud": {
       "blockers": [],
@@ -669,8 +625,8 @@
       "domain_count": 5,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "4dbe7113d9668cfebd845de7db09d7ddf9947fa424385f6a5d4794737de8159b",
-      "snapshot_id": "snap-googlecloud-4dbe7113d9668cfebd845de7",
+      "release_digest": "c6f2f1a871af18605276753006dbcd97ec57ce256aa049bd738ba548ad8930be",
+      "snapshot_id": "snap-googlecloud-c6f2f1a871af186052767530",
       "verified": true
     },
     "googledrive": {
@@ -876,88 +832,74 @@
       "verified": true
     },
     "ms365-excel": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "84491a426ae08f1b75786d0910884a1207ae9d355b0fa1d50c53d948c74c3d34",
+      "snapshot_id": "snap-ms365-excel-84491a426ae08f1b75786d09",
+      "verified": true
     },
     "ms365-loop": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "65886fc777a8ed550f93fb6020413f61c949bad828ed1af013f701b291f979ef",
+      "snapshot_id": "snap-ms365-loop-65886fc777a8ed550f93fb60",
+      "verified": true
     },
     "ms365-mesh": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "cb11ed05173e638e4642ab1127f9be7bdea246a633bba42f36a306977f9ca934",
+      "snapshot_id": "snap-ms365-mesh-cb11ed05173e638e4642ab11",
+      "verified": true
     },
     "ms365-onenote": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "5115ce5bb375c71660f5b78fa7cfd8792b07ca07c7abea1699352b5e026a2025",
+      "snapshot_id": "snap-ms365-onenote-5115ce5bb375c71660f5b78f",
+      "verified": true
     },
     "ms365-planner": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "c6ee135c73112ab31f5132b3a6f35087f8b469da7b0f7e1da422f25ab3f07266",
+      "snapshot_id": "snap-ms365-planner-c6ee135c73112ab31f5132b3",
+      "verified": true
     },
     "ms365-powerpoint": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "0e7ea85ee45bd767f51ac6b6d75d5de2fbad2a4d1a091a0b32220aea5ee92753",
+      "snapshot_id": "snap-ms365-powerpoint-0e7ea85ee45bd767f51ac6b6",
+      "verified": true
     },
     "ms365-word": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "0eb9e29c143572c255507c671b49bd4e289d6dfa33b9eb11d37595a612175878",
+      "snapshot_id": "snap-ms365-word-0eb9e29c143572c255507c67",
+      "verified": true
     },
     "neteasemail": {
       "blockers": [],
@@ -1165,8 +1107,8 @@
       "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "a3f597f5741411565fb610d65aff6596816e7c178e07060857789fb179987110",
-      "snapshot_id": "snap-taobao-a3f597f5741411565fb610d6",
+      "release_digest": "50646cfa0e93b38a8153bf8d6d2db7549bab725e25ddc3b57963cd62fa3e28ee",
+      "snapshot_id": "snap-taobao-50646cfa0e93b38a8153bf8d",
       "verified": false
     },
     "teams": {
@@ -1195,8 +1137,8 @@
       "domain_count": 1,
       "enabled": true,
       "production_activated": true,
-      "release_digest": "ae0a12032448efcd9d6b7cba0ff278eef3601512d22fcf0dffb453c14b31dea5",
-      "snapshot_id": "snap-tencentcloud-ae0a12032448efcd9d6b7cba",
+      "release_digest": "11f2a09f18218925500878fcd89f41a522935b0c7d84b8f0e038eb07de0f703e",
+      "snapshot_id": "snap-tencentcloud-11f2a09f18218925500878fc",
       "verified": true
     },
     "tencentmeeting": {
@@ -1257,8 +1199,8 @@
       "domain_count": 8,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "69f5765cf69c3708d10ac3f831c7be50166adc20a85c7151437159240eba4976",
-      "snapshot_id": "snap-tmall-69f5765cf69c3708d10ac3f8",
+      "release_digest": "ea8c65fe854188e13fb6758440a5cf1e6535df69c471cbcdfb6c2347cee32e0b",
+      "snapshot_id": "snap-tmall-ea8c65fe854188e13fb67584",
       "verified": true
     },
     "venmo": {
@@ -1287,8 +1229,8 @@
       "domain_count": 3,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "594c6d1a2034f7d50305c0904f5e6293241d7df8a1db31887d78ab38408b290f",
-      "snapshot_id": "snap-wecom-594c6d1a2034f7d50305c090",
+      "release_digest": "c6975c7fa31bc2c96407e4444536e283417b895b66380164e0dc6733b4f9ab3e",
+      "snapshot_id": "snap-wecom-c6975c7fa31bc2c96407e444",
       "verified": true
     },
     "xai-grok": {
