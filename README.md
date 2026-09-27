@@ -169,6 +169,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | cainiao | **PRODUCTION** | CANDIDATE | 1 | snap-cainiao-a8a898392298ebaa644a783e |
 | cambricon | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | caocao | **REVIEW** | NO_SNAPSHOT | 0 | none |
+| capcut | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | chatgpt | **REVIEW** | CANDIDATE | 1 | snap-chatgpt-cc1e48c936f2293870e7e2c0 |
 | cisco | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | claude | **VERIFIED** | CANDIDATE | 3 | snap-claude-4aec84cea09e5629117513fa |
@@ -201,6 +202,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | fortinet | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | fujitsu | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | gemini | **VERIFIED** | CANDIDATE | 9 | snap-gemini-9e01a42e8140aafccd75f9ea |
+| getapps | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | github | **REVIEW** | CANDIDATE | 29 | snap-github-293b2b0db400e778bcfe88a7 |
 | globalfoundries | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | gmail | **REVIEW** | CANDIDATE | 1 | snap-gmail-c3a855e07fa2cf45651ae3a4 |
@@ -249,6 +251,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | internlm | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | intuit | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | jd-cloud | **REVIEW** | CANDIDATE | 1 | snap-jd-cloud-7364b0a4c509c49727621c40 |
+| jdcloud | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | kakao | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | kingdee | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | kla | **REVIEW** | NO_SNAPSHOT | 0 | none |
@@ -258,6 +261,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | kunlunxin | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | kuwo | **REVIEW** | CANDIDATE | 1 | snap-kuwo-c36f7d9497fdd5e0b0806d93 |
 | lamresearch | **REVIEW** | NO_SNAPSHOT | 0 | none |
+| lark | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | lenovo | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | lg | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | linecorp | **REVIEW** | NO_SNAPSHOT | 0 | none |
@@ -270,6 +274,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | mi-cloud | **REVIEW** | CANDIDATE | 1 | snap-mi-cloud-e876da13d4a50a1abf1ddb7a |
 | micron | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | migu | **REVIEW** | NO_SNAPSHOT | 0 | none |
+| mihome | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | minimax | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | mongodb | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | moonshot | **REVIEW** | NO_SNAPSHOT | 0 | none |
@@ -303,6 +308,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | pingan | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | qihoo360 | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | qq | **REVIEW** | REVIEW | 1 | snap-qq-e8b755c0889d871584191efb |
+| qqdoc | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | qqmail | **PRODUCTION** | CANDIDATE | 1 | snap-qqmail-013babbee1bf9cf46a1741a1 |
 | qqmusic | **PRODUCTION** | CANDIDATE | 1 | snap-qqmusic-421df9f4465ad7fb35ed9c06 |
 | qualcomm | **REVIEW** | NO_SNAPSHOT | 0 | none |
@@ -355,9 +361,11 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | unity | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | venmo | **REVIEW** | CANDIDATE | 1 | snap-venmo-ad97a6f5008ebab004dbad8a |
 | vipshop | **REVIEW** | NO_SNAPSHOT | 0 | none |
+| volcengine | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | wangsu | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | wechat | **VERIFIED** | CANDIDATE | 28 | snap-wechat-84a8d3ac3ff682614f4d7470 |
 | wecom | **REVIEW** | CANDIDATE | 3 | snap-wecom-019997bd4957a3511ce1304b |
+| wegame | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | workday | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | woyun | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | wps | **REVIEW** | NO_SNAPSHOT | 0 | none |

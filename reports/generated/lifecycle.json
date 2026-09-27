@@ -541,6 +541,18 @@
       "snapshot_id": null,
       "state": "review"
     },
+    "capcut": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "chatgpt": {
       "content_digest": "978b9ad0247cd0c827c59aab6343c8b59650987045ddfd25fced51198362b4f4",
       "domain_count": 1,
@@ -924,6 +936,18 @@
       "release_state": "CANDIDATE",
       "snapshot_id": "snap-gemini-9e01a42e8140aafccd75f9ea",
       "state": "verified"
+    },
+    "getapps": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
     },
     "github": {
       "content_digest": "6d44d4cdd5f3f22589b9b71299c03bf443224b0254a9718dec3ed89de42a837e",
@@ -1501,6 +1525,18 @@
       "snapshot_id": "snap-jd-cloud-7364b0a4c509c49727621c40",
       "state": "review"
     },
+    "jdcloud": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "kakao": {
       "content_digest": null,
       "domain_count": 0,
@@ -1598,6 +1634,18 @@
       "state": "review"
     },
     "lamresearch": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
+    "lark": {
       "content_digest": null,
       "domain_count": 0,
       "enabled": true,
@@ -1742,6 +1790,18 @@
       "state": "review"
     },
     "migu": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
+    "mihome": {
       "content_digest": null,
       "domain_count": 0,
       "enabled": true,
@@ -2147,6 +2207,18 @@
       "release_digest": "e8b755c0889d871584191efb71333ea6bb0f273c62d87f108bec5d1f065ee9d9",
       "release_state": "REVIEW",
       "snapshot_id": "snap-qq-e8b755c0889d871584191efb",
+      "state": "review"
+    },
+    "qqdoc": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
       "state": "review"
     },
     "qqmail": {
@@ -2773,6 +2845,18 @@
       "snapshot_id": null,
       "state": "review"
     },
+    "volcengine": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "wangsu": {
       "content_digest": null,
       "domain_count": 0,
@@ -2807,6 +2891,18 @@
       "release_digest": "019997bd4957a3511ce1304bf965575ac063a47364c37283ecb5302335476153",
       "release_state": "CANDIDATE",
       "snapshot_id": "snap-wecom-019997bd4957a3511ce1304b",
+      "state": "review"
+    },
+    "wegame": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
       "state": "review"
     },
     "workday": {

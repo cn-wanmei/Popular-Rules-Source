@@ -493,6 +493,18 @@
       "snapshot_id": null,
       "verified": false
     },
+    "capcut": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
     "chatgpt": {
       "blockers": [],
       "declared_state": "review",
@@ -852,6 +864,18 @@
       "release_digest": "9e01a42e8140aafccd75f9eadbedfa367805d1793fa03ddfeaee626739de1e15",
       "snapshot_id": "snap-gemini-9e01a42e8140aafccd75f9ea",
       "verified": true
+    },
+    "getapps": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
     },
     "github": {
       "blockers": [],
@@ -1367,6 +1391,18 @@
       "snapshot_id": "snap-jd-cloud-7364b0a4c509c49727621c40",
       "verified": true
     },
+    "jdcloud": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
     "kakao": {
       "blockers": [
         "no_snapshot"
@@ -1460,6 +1496,18 @@
       "verified": true
     },
     "lamresearch": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
+    "lark": {
       "blockers": [
         "no_snapshot"
       ],
@@ -1600,6 +1648,18 @@
       "verified": false
     },
     "migu": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
+    "mihome": {
       "blockers": [
         "no_snapshot"
       ],
@@ -1971,6 +2031,18 @@
       "production_activated": false,
       "release_digest": "e8b755c0889d871584191efb71333ea6bb0f273c62d87f108bec5d1f065ee9d9",
       "snapshot_id": "snap-qq-e8b755c0889d871584191efb",
+      "verified": false
+    },
+    "qqdoc": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
       "verified": false
     },
     "qqmail": {
@@ -2565,6 +2637,18 @@
       "snapshot_id": null,
       "verified": false
     },
+    "volcengine": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
     "wangsu": {
       "blockers": [
         "no_snapshot"
@@ -2596,6 +2680,18 @@
       "release_digest": "019997bd4957a3511ce1304bf965575ac063a47364c37283ecb5302335476153",
       "snapshot_id": "snap-wecom-019997bd4957a3511ce1304b",
       "verified": true
+    },
+    "wegame": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
     },
     "workday": {
       "blockers": [
