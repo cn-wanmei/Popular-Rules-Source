@@ -727,3 +727,363 @@ services:
     enabled: true
     reason: m365_hostname_reconcile_2026-09-27
     last_transition: '2026-09-27'
+  temu:
+    state: review
+    enabled: true
+    reason: batch_D1_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  heytap:
+    state: review
+    enabled: true
+    reason: batch_D1_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  migu:
+    state: review
+    enabled: true
+    reason: batch_D1_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  ctyun:
+    state: review
+    enabled: true
+    reason: batch_D1_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  woyun:
+    state: review
+    enabled: true
+    reason: batch_D1_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  sfexpress:
+    state: review
+    enabled: true
+    reason: batch_D2_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  beike:
+    state: review
+    enabled: true
+    reason: batch_D2_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  vipshop:
+    state: review
+    enabled: true
+    reason: batch_D2_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  tongcheng:
+    state: review
+    enabled: true
+    reason: batch_D2_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  kingdee:
+    state: review
+    enabled: true
+    reason: batch_D2_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  yonyou:
+    state: review
+    enabled: true
+    reason: batch_D2_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  sangfor:
+    state: review
+    enabled: true
+    reason: batch_D2_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  haier:
+    state: review
+    enabled: true
+    reason: batch_D2_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  wangsu:
+    state: review
+    enabled: true
+    reason: batch_D2_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  perfectworld:
+    state: review
+    enabled: true
+    reason: batch_D2_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  tonghuashun:
+    state: review
+    enabled: true
+    reason: batch_D3_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  huolala:
+    state: review
+    enabled: true
+    reason: batch_D3_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  manbang:
+    state: review
+    enabled: true
+    reason: batch_D3_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  zhaopin:
+    state: review
+    enabled: true
+    reason: batch_D3_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  wuba:
+    state: review
+    enabled: true
+    reason: batch_D3_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  anjuke:
+    state: review
+    enabled: true
+    reason: batch_D3_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  hellobike:
+    state: review
+    enabled: true
+    reason: batch_D3_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  caocao:
+    state: review
+    enabled: true
+    reason: batch_D3_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  t3go:
+    state: review
+    enabled: true
+    reason: batch_D3_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  sensetime:
+    state: review
+    enabled: true
+    reason: batch_D3_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  zhipu:
+    state: review
+    enabled: true
+    reason: batch_D4_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  moonshot:
+    state: review
+    enabled: true
+    reason: batch_D4_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  minimax:
+    state: review
+    enabled: true
+    reason: batch_D4_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  baichuan:
+    state: review
+    enabled: true
+    reason: batch_D4_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  yi:
+    state: review
+    enabled: true
+    reason: batch_D4_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  cambricon:
+    state: review
+    enabled: true
+    reason: batch_D4_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  hikvision:
+    state: review
+    enabled: true
+    reason: batch_D4_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  dahua:
+    state: review
+    enabled: true
+    reason: batch_D4_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  dji:
+    state: review
+    enabled: true
+    reason: batch_D4_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  tuya:
+    state: review
+    enabled: true
+    reason: batch_D4_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  anker:
+    state: review
+    enabled: true
+    reason: batch_D4_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  sap:
+    state: review
+    enabled: true
+    reason: batch_O1_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  sony:
+    state: review
+    enabled: true
+    reason: batch_O1_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  qualcomm:
+    state: review
+    enabled: true
+    reason: batch_O1_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  arm:
+    state: review
+    enabled: true
+    reason: batch_O1_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  tsmc:
+    state: review
+    enabled: true
+    reason: batch_O1_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  servicenow:
+    state: review
+    enabled: true
+    reason: batch_O1_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  databricks:
+    state: review
+    enabled: true
+    reason: batch_O2_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  snowflake:
+    state: review
+    enabled: true
+    reason: batch_O2_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  atlassian:
+    state: review
+    enabled: true
+    reason: batch_O2_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  workday:
+    state: review
+    enabled: true
+    reason: batch_O2_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  palantir:
+    state: review
+    enabled: true
+    reason: batch_O2_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  spacex:
+    state: review
+    enabled: true
+    reason: batch_O2_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  starlink:
+    state: review
+    enabled: true
+    reason: batch_O2_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  intuit:
+    state: review
+    enabled: true
+    reason: batch_O2_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  mediatek:
+    state: review
+    enabled: true
+    reason: batch_O2_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  nintendo:
+    state: review
+    enabled: true
+    reason: batch_O3_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  lg:
+    state: review
+    enabled: true
+    reason: batch_O3_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  panasonic:
+    state: review
+    enabled: true
+    reason: batch_O3_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  rakuten:
+    state: review
+    enabled: true
+    reason: batch_O3_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  linecorp:
+    state: review
+    enabled: true
+    reason: batch_O3_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  grab:
+    state: review
+    enabled: true
+    reason: batch_O3_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  shopee:
+    state: review
+    enabled: true
+    reason: batch_O3_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  coupang:
+    state: review
+    enabled: true
+    reason: batch_O3_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  kakao:
+    state: review
+    enabled: true
+    reason: batch_O3_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  ericsson:
+    state: review
+    enabled: true
+    reason: batch_O3_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  nokia:
+    state: review
+    enabled: true
+    reason: batch_O3_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  crowdstrike:
+    state: review
+    enabled: true
+    reason: batch_O4_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  fortinet:
+    state: review
+    enabled: true
+    reason: batch_O4_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  okta:
+    state: review
+    enabled: true
+    reason: batch_O4_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  hubspot:
+    state: review
+    enabled: true
+    reason: batch_O4_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  twilio:
+    state: review
+    enabled: true
+    reason: batch_O4_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  autodesk:
+    state: review
+    enabled: true
+    reason: batch_O4_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  unity:
+    state: review
+    enabled: true
+    reason: batch_O4_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  coinbase:
+    state: review
+    enabled: true
+    reason: batch_O4_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  ea:
+    state: review
+    enabled: true
+    reason: batch_O4_official_seed_2026-09-27
+    last_transition: '2026-09-27'
+  epicgames:
+    state: review
+    enabled: true
+    reason: batch_O4_official_seed_2026-09-27
+    last_transition: '2026-09-27'
