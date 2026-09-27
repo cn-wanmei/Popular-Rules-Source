@@ -877,3 +877,797 @@ services:
     mode: official_web
     upstream_binding: null
     current_state: review
+  temu:
+    display_name: Temu
+    ecosystem: pinduoduo
+    mode: official_web
+    official_sources:
+    - https://www.temu.com/
+    allowed_host_exact:
+    - www.temu.com
+    - temu.com
+    upstream_binding: null
+    current_state: review
+  heytap:
+    display_name: HeyTap
+    ecosystem: oppo
+    mode: official_web
+    official_sources:
+    - https://www.heytap.com/
+    allowed_host_exact:
+    - www.heytap.com
+    - heytap.com
+    upstream_binding: null
+    current_state: review
+  migu:
+    display_name: 咪咕
+    ecosystem: chinamobile
+    mode: official_web
+    official_sources:
+    - https://www.migu.cn/
+    allowed_host_exact:
+    - www.migu.cn
+    - migu.cn
+    upstream_binding: null
+    current_state: review
+  ctyun:
+    display_name: 天翼云
+    ecosystem: chinatelecom
+    mode: official_web
+    official_sources:
+    - https://www.ctyun.cn/
+    allowed_host_exact:
+    - www.ctyun.cn
+    - ctyun.cn
+    upstream_binding: null
+    current_state: review
+  woyun:
+    display_name: 联通云
+    ecosystem: chinaunicom
+    mode: official_web
+    official_sources:
+    - https://www.cucloud.cn/
+    allowed_host_exact:
+    - www.cucloud.cn
+    - cucloud.cn
+    upstream_binding: null
+    current_state: review
+  sfexpress:
+    display_name: 顺丰
+    ecosystem: sfexpress
+    mode: official_web
+    official_sources:
+    - https://www.sf-express.com/
+    allowed_host_exact:
+    - www.sf-express.com
+    - sf-express.com
+    upstream_binding: null
+    current_state: review
+  beike:
+    display_name: 贝壳
+    ecosystem: beike
+    mode: official_web
+    official_sources:
+    - https://www.ke.com/
+    allowed_host_exact:
+    - www.ke.com
+    - ke.com
+    upstream_binding: null
+    current_state: review
+  vipshop:
+    display_name: 唯品会
+    ecosystem: vipshop
+    mode: official_web
+    official_sources:
+    - https://www.vip.com/
+    allowed_host_exact:
+    - www.vip.com
+    - vip.com
+    upstream_binding: null
+    current_state: review
+  tongcheng:
+    display_name: 同程旅行
+    ecosystem: tongcheng
+    mode: official_web
+    official_sources:
+    - https://www.ly.com/
+    allowed_host_exact:
+    - www.ly.com
+    - ly.com
+    upstream_binding: null
+    current_state: review
+  kingdee:
+    display_name: 金蝶
+    ecosystem: kingdee
+    mode: official_web
+    official_sources:
+    - https://www.kingdee.com/
+    allowed_host_exact:
+    - www.kingdee.com
+    - kingdee.com
+    upstream_binding: null
+    current_state: review
+  yonyou:
+    display_name: 用友
+    ecosystem: yonyou
+    mode: official_web
+    official_sources:
+    - https://www.yonyou.com/
+    allowed_host_exact:
+    - www.yonyou.com
+    - yonyou.com
+    upstream_binding: null
+    current_state: review
+  sangfor:
+    display_name: 深信服
+    ecosystem: sangfor
+    mode: official_web
+    official_sources:
+    - https://www.sangfor.com.cn/
+    allowed_host_exact:
+    - www.sangfor.com.cn
+    - sangfor.com.cn
+    upstream_binding: null
+    current_state: review
+  haier:
+    display_name: 海尔智家
+    ecosystem: haier
+    mode: official_web
+    official_sources:
+    - https://www.haier.com/
+    allowed_host_exact:
+    - www.haier.com
+    - haier.com
+    upstream_binding: null
+    current_state: review
+  wangsu:
+    display_name: 网宿科技
+    ecosystem: wangsu
+    mode: official_web
+    official_sources:
+    - https://www.wangsu.com/
+    allowed_host_exact:
+    - www.wangsu.com
+    - wangsu.com
+    upstream_binding: null
+    current_state: review
+  perfectworld:
+    display_name: 完美世界
+    ecosystem: perfectworld
+    mode: official_web
+    official_sources:
+    - https://www.wanmei.com/
+    allowed_host_exact:
+    - www.wanmei.com
+    - wanmei.com
+    upstream_binding: null
+    current_state: review
+  tonghuashun:
+    display_name: 同花顺
+    ecosystem: tonghuashun
+    mode: official_web
+    official_sources:
+    - https://www.10jqka.com.cn/
+    allowed_host_exact:
+    - www.10jqka.com.cn
+    - 10jqka.com.cn
+    upstream_binding: null
+    current_state: review
+  huolala:
+    display_name: 货拉拉
+    ecosystem: huolala
+    mode: official_web
+    official_sources:
+    - https://www.huolala.cn/
+    allowed_host_exact:
+    - www.huolala.cn
+    - huolala.cn
+    upstream_binding: null
+    current_state: review
+  manbang:
+    display_name: 满帮
+    ecosystem: manbang
+    mode: official_web
+    official_sources:
+    - https://www.ymm56.com/
+    allowed_host_exact:
+    - www.ymm56.com
+    - ymm56.com
+    upstream_binding: null
+    current_state: review
+  zhaopin:
+    display_name: 智联招聘
+    ecosystem: zhaopin
+    mode: official_web
+    official_sources:
+    - https://www.zhaopin.com/
+    allowed_host_exact:
+    - www.zhaopin.com
+    - zhaopin.com
+    upstream_binding: null
+    current_state: review
+  wuba:
+    display_name: 58同城
+    ecosystem: wuba
+    mode: official_web
+    official_sources:
+    - https://www.58.com/
+    allowed_host_exact:
+    - www.58.com
+    - 58.com
+    upstream_binding: null
+    current_state: review
+  anjuke:
+    display_name: 安居客
+    ecosystem: wuba
+    mode: official_web
+    official_sources:
+    - https://www.anjuke.com/
+    allowed_host_exact:
+    - www.anjuke.com
+    - anjuke.com
+    upstream_binding: null
+    current_state: review
+  hellobike:
+    display_name: 哈啰
+    ecosystem: hellobike
+    mode: official_web
+    official_sources:
+    - https://www.hellobike.com/
+    allowed_host_exact:
+    - www.hellobike.com
+    - hellobike.com
+    upstream_binding: null
+    current_state: review
+  caocao:
+    display_name: 曹操出行
+    ecosystem: caocao
+    mode: official_web
+    official_sources:
+    - https://www.caocaokeji.cn/
+    allowed_host_exact:
+    - www.caocaokeji.cn
+    - caocaokeji.cn
+    upstream_binding: null
+    current_state: review
+  t3go:
+    display_name: T3出行
+    ecosystem: t3go
+    mode: official_web
+    official_sources:
+    - https://www.t3go.cn/
+    allowed_host_exact:
+    - www.t3go.cn
+    - t3go.cn
+    upstream_binding: null
+    current_state: review
+  sensetime:
+    display_name: 商汤科技
+    ecosystem: sensetime
+    mode: official_web
+    official_sources:
+    - https://www.sensetime.com/
+    allowed_host_exact:
+    - www.sensetime.com
+    - sensetime.com
+    upstream_binding: null
+    current_state: review
+  zhipu:
+    display_name: 智谱AI
+    ecosystem: zhipu
+    mode: official_web
+    official_sources:
+    - https://www.zhipuai.cn/
+    allowed_host_exact:
+    - www.zhipuai.cn
+    - zhipuai.cn
+    - chatglm.cn
+    upstream_binding: null
+    current_state: review
+  moonshot:
+    display_name: 月之暗面
+    ecosystem: moonshot
+    mode: official_web
+    official_sources:
+    - https://www.moonshot.cn/
+    allowed_host_exact:
+    - www.moonshot.cn
+    - moonshot.cn
+    upstream_binding: null
+    current_state: review
+  minimax:
+    display_name: MiniMax
+    ecosystem: minimax
+    mode: official_web
+    official_sources:
+    - https://www.minimaxi.com/
+    allowed_host_exact:
+    - www.minimaxi.com
+    - minimaxi.com
+    upstream_binding: null
+    current_state: review
+  baichuan:
+    display_name: 百川智能
+    ecosystem: baichuan
+    mode: official_web
+    official_sources:
+    - https://www.baichuan-ai.com/
+    allowed_host_exact:
+    - www.baichuan-ai.com
+    - baichuan-ai.com
+    upstream_binding: null
+    current_state: review
+  yi:
+    display_name: 零一万物
+    ecosystem: yi
+    mode: official_web
+    official_sources:
+    - https://www.lingyiwanwu.com/
+    allowed_host_exact:
+    - www.lingyiwanwu.com
+    - lingyiwanwu.com
+    upstream_binding: null
+    current_state: review
+  cambricon:
+    display_name: 寒武纪
+    ecosystem: cambricon
+    mode: official_web
+    official_sources:
+    - https://www.cambricon.com/
+    allowed_host_exact:
+    - www.cambricon.com
+    - cambricon.com
+    upstream_binding: null
+    current_state: review
+  hikvision:
+    display_name: 海康威视
+    ecosystem: hikvision
+    mode: official_web
+    official_sources:
+    - https://www.hikvision.com/
+    allowed_host_exact:
+    - www.hikvision.com
+    - hikvision.com
+    upstream_binding: null
+    current_state: review
+  dahua:
+    display_name: 大华股份
+    ecosystem: dahua
+    mode: official_web
+    official_sources:
+    - https://www.dahuatech.com/
+    allowed_host_exact:
+    - www.dahuatech.com
+    - dahuatech.com
+    upstream_binding: null
+    current_state: review
+  dji:
+    display_name: 大疆
+    ecosystem: dji
+    mode: official_web
+    official_sources:
+    - https://www.dji.com/
+    allowed_host_exact:
+    - www.dji.com
+    - dji.com
+    upstream_binding: null
+    current_state: review
+  tuya:
+    display_name: 涂鸦智能
+    ecosystem: tuya
+    mode: official_web
+    official_sources:
+    - https://www.tuya.com/
+    allowed_host_exact:
+    - www.tuya.com
+    - tuya.com
+    upstream_binding: null
+    current_state: review
+  anker:
+    display_name: 安克创新
+    ecosystem: anker
+    mode: official_web
+    official_sources:
+    - https://www.anker.com/
+    allowed_host_exact:
+    - www.anker.com
+    - anker.com
+    upstream_binding: null
+    current_state: review
+  sap:
+    display_name: SAP
+    ecosystem: sap
+    mode: official_web
+    official_sources:
+    - https://www.sap.com/
+    allowed_host_exact:
+    - www.sap.com
+    - sap.com
+    upstream_binding: null
+    current_state: review
+  sony:
+    display_name: Sony
+    ecosystem: sony
+    mode: official_web
+    official_sources:
+    - https://www.sony.com/
+    allowed_host_exact:
+    - www.sony.com
+    - sony.com
+    upstream_binding: null
+    current_state: review
+  qualcomm:
+    display_name: Qualcomm
+    ecosystem: qualcomm
+    mode: official_web
+    official_sources:
+    - https://www.qualcomm.com/
+    allowed_host_exact:
+    - www.qualcomm.com
+    - qualcomm.com
+    upstream_binding: null
+    current_state: review
+  arm:
+    display_name: Arm
+    ecosystem: arm
+    mode: official_web
+    official_sources:
+    - https://www.arm.com/
+    allowed_host_exact:
+    - www.arm.com
+    - arm.com
+    upstream_binding: null
+    current_state: review
+  tsmc:
+    display_name: TSMC
+    ecosystem: tsmc
+    mode: official_web
+    official_sources:
+    - https://www.tsmc.com/
+    allowed_host_exact:
+    - www.tsmc.com
+    - tsmc.com
+    upstream_binding: null
+    current_state: review
+  servicenow:
+    display_name: ServiceNow
+    ecosystem: servicenow
+    mode: official_web
+    official_sources:
+    - https://www.servicenow.com/
+    allowed_host_exact:
+    - www.servicenow.com
+    - servicenow.com
+    upstream_binding: null
+    current_state: review
+  databricks:
+    display_name: Databricks
+    ecosystem: databricks
+    mode: official_web
+    official_sources:
+    - https://www.databricks.com/
+    allowed_host_exact:
+    - www.databricks.com
+    - databricks.com
+    upstream_binding: null
+    current_state: review
+  snowflake:
+    display_name: Snowflake
+    ecosystem: snowflake
+    mode: official_web
+    official_sources:
+    - https://www.snowflake.com/
+    allowed_host_exact:
+    - www.snowflake.com
+    - snowflake.com
+    upstream_binding: null
+    current_state: review
+  atlassian:
+    display_name: Atlassian
+    ecosystem: atlassian
+    mode: official_web
+    official_sources:
+    - https://www.atlassian.com/
+    allowed_host_exact:
+    - www.atlassian.com
+    - atlassian.com
+    upstream_binding: null
+    current_state: review
+  workday:
+    display_name: Workday
+    ecosystem: workday
+    mode: official_web
+    official_sources:
+    - https://www.workday.com/
+    allowed_host_exact:
+    - www.workday.com
+    - workday.com
+    upstream_binding: null
+    current_state: review
+  palantir:
+    display_name: Palantir
+    ecosystem: palantir
+    mode: official_web
+    official_sources:
+    - https://www.palantir.com/
+    allowed_host_exact:
+    - www.palantir.com
+    - palantir.com
+    upstream_binding: null
+    current_state: review
+  spacex:
+    display_name: SpaceX
+    ecosystem: spacex
+    mode: official_web
+    official_sources:
+    - https://www.spacex.com/
+    allowed_host_exact:
+    - www.spacex.com
+    - spacex.com
+    upstream_binding: null
+    current_state: review
+  starlink:
+    display_name: Starlink
+    ecosystem: spacex
+    mode: official_web
+    official_sources:
+    - https://www.starlink.com/
+    allowed_host_exact:
+    - www.starlink.com
+    - starlink.com
+    upstream_binding: null
+    current_state: review
+  intuit:
+    display_name: Intuit
+    ecosystem: intuit
+    mode: official_web
+    official_sources:
+    - https://www.intuit.com/
+    allowed_host_exact:
+    - www.intuit.com
+    - intuit.com
+    upstream_binding: null
+    current_state: review
+  mediatek:
+    display_name: MediaTek
+    ecosystem: mediatek
+    mode: official_web
+    official_sources:
+    - https://www.mediatek.com/
+    allowed_host_exact:
+    - www.mediatek.com
+    - mediatek.com
+    upstream_binding: null
+    current_state: review
+  nintendo:
+    display_name: Nintendo
+    ecosystem: nintendo
+    mode: official_web
+    official_sources:
+    - https://www.nintendo.com/
+    allowed_host_exact:
+    - www.nintendo.com
+    - nintendo.com
+    upstream_binding: null
+    current_state: review
+  lg:
+    display_name: LG
+    ecosystem: lg
+    mode: official_web
+    official_sources:
+    - https://www.lg.com/
+    allowed_host_exact:
+    - www.lg.com
+    - lg.com
+    upstream_binding: null
+    current_state: review
+  panasonic:
+    display_name: Panasonic
+    ecosystem: panasonic
+    mode: official_web
+    official_sources:
+    - https://www.panasonic.com/
+    allowed_host_exact:
+    - www.panasonic.com
+    - panasonic.com
+    upstream_binding: null
+    current_state: review
+  rakuten:
+    display_name: Rakuten
+    ecosystem: rakuten
+    mode: official_web
+    official_sources:
+    - https://www.rakuten.com/
+    allowed_host_exact:
+    - www.rakuten.com
+    - rakuten.com
+    upstream_binding: null
+    current_state: review
+  linecorp:
+    display_name: LINE
+    ecosystem: line
+    mode: official_web
+    official_sources:
+    - https://line.me/
+    allowed_host_exact:
+    - line.me
+    - www.line.me
+    upstream_binding: null
+    current_state: review
+  grab:
+    display_name: Grab
+    ecosystem: grab
+    mode: official_web
+    official_sources:
+    - https://www.grab.com/
+    allowed_host_exact:
+    - www.grab.com
+    - grab.com
+    upstream_binding: null
+    current_state: review
+  shopee:
+    display_name: Shopee
+    ecosystem: sea
+    mode: official_web
+    official_sources:
+    - https://shopee.com/
+    allowed_host_exact:
+    - shopee.com
+    - www.shopee.com
+    upstream_binding: null
+    current_state: review
+  coupang:
+    display_name: Coupang
+    ecosystem: coupang
+    mode: official_web
+    official_sources:
+    - https://www.coupang.com/
+    allowed_host_exact:
+    - www.coupang.com
+    - coupang.com
+    upstream_binding: null
+    current_state: review
+  kakao:
+    display_name: Kakao
+    ecosystem: kakao
+    mode: official_web
+    official_sources:
+    - https://www.kakaocorp.com/
+    allowed_host_exact:
+    - www.kakaocorp.com
+    - kakaocorp.com
+    upstream_binding: null
+    current_state: review
+  ericsson:
+    display_name: Ericsson
+    ecosystem: ericsson
+    mode: official_web
+    official_sources:
+    - https://www.ericsson.com/
+    allowed_host_exact:
+    - www.ericsson.com
+    - ericsson.com
+    upstream_binding: null
+    current_state: review
+  nokia:
+    display_name: Nokia
+    ecosystem: nokia
+    mode: official_web
+    official_sources:
+    - https://www.nokia.com/
+    allowed_host_exact:
+    - www.nokia.com
+    - nokia.com
+    upstream_binding: null
+    current_state: review
+  crowdstrike:
+    display_name: CrowdStrike
+    ecosystem: crowdstrike
+    mode: official_web
+    official_sources:
+    - https://www.crowdstrike.com/
+    allowed_host_exact:
+    - www.crowdstrike.com
+    - crowdstrike.com
+    upstream_binding: null
+    current_state: review
+  fortinet:
+    display_name: Fortinet
+    ecosystem: fortinet
+    mode: official_web
+    official_sources:
+    - https://www.fortinet.com/
+    allowed_host_exact:
+    - www.fortinet.com
+    - fortinet.com
+    upstream_binding: null
+    current_state: review
+  okta:
+    display_name: Okta
+    ecosystem: okta
+    mode: official_web
+    official_sources:
+    - https://www.okta.com/
+    allowed_host_exact:
+    - www.okta.com
+    - okta.com
+    upstream_binding: null
+    current_state: review
+  hubspot:
+    display_name: HubSpot
+    ecosystem: hubspot
+    mode: official_web
+    official_sources:
+    - https://www.hubspot.com/
+    allowed_host_exact:
+    - www.hubspot.com
+    - hubspot.com
+    upstream_binding: null
+    current_state: review
+  twilio:
+    display_name: Twilio
+    ecosystem: twilio
+    mode: official_web
+    official_sources:
+    - https://www.twilio.com/
+    allowed_host_exact:
+    - www.twilio.com
+    - twilio.com
+    upstream_binding: null
+    current_state: review
+  autodesk:
+    display_name: Autodesk
+    ecosystem: autodesk
+    mode: official_web
+    official_sources:
+    - https://www.autodesk.com/
+    allowed_host_exact:
+    - www.autodesk.com
+    - autodesk.com
+    upstream_binding: null
+    current_state: review
+  unity:
+    display_name: Unity
+    ecosystem: unity
+    mode: official_web
+    official_sources:
+    - https://unity.com/
+    allowed_host_exact:
+    - unity.com
+    - www.unity.com
+    upstream_binding: null
+    current_state: review
+  coinbase:
+    display_name: Coinbase
+    ecosystem: coinbase
+    mode: official_web
+    official_sources:
+    - https://www.coinbase.com/
+    allowed_host_exact:
+    - www.coinbase.com
+    - coinbase.com
+    upstream_binding: null
+    current_state: review
+  ea:
+    display_name: Electronic Arts
+    ecosystem: ea
+    mode: official_web
+    official_sources:
+    - https://www.ea.com/
+    allowed_host_exact:
+    - www.ea.com
+    - ea.com
+    upstream_binding: null
+    current_state: review
+  epicgames:
+    display_name: Epic Games
+    ecosystem: epic
+    mode: official_web
+    official_sources:
+    - https://store.epicgames.com/
+    allowed_host_exact:
+    - store.epicgames.com
+    - epicgames.com
+    - www.epicgames.com
+    upstream_binding: null
+    current_state: review
