@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-09-27T04:38:58.109523+00:00",
+  "created_at": "2026-09-27T05:00:26.327509+00:00",
   "schema": "popular_rules_source_phase5_release_v1",
   "services": {
     "applemedia": {
@@ -91,5 +91,5 @@
       "status": "PERSISTED"
     }
   },
-  "verified_input_commit": "cd9670732de0019e73af678da5bb1d0202f8f217"
+  "verified_input_commit": "8a11b4cea83c547573bbad6201eeb4f00f352c2c"
 }
