@@ -205,6 +205,22 @@ jobs:
 
           out = root / "reports" / "durable-bridge"
           out.mkdir(parents=True, exist_ok=True)
+          prev_path = out / "latest.json"
+          if prev_path.is_file():
+              try:
+                  prev = json.loads(prev_path.read_text(encoding="utf-8"))
+                  prev_sv = prev.get("services") if isinstance(prev, dict) else {}
+                  if isinstance(prev_sv, dict) and prev_sv:
+                      merged = dict(prev_sv)
+                      merged.update(report.get("services") or {})
+                      report["services"] = merged
+                      report["merged_from"] = {
+                          "previous_count": len(prev_sv),
+                          "batch_count": len(report.get("services") or {}) - len(prev_sv) + len([k for k in (report.get("services") or {}) if k in prev_sv]),
+                          "merged_count": len(merged),
+                      }
+              except Exception as exc:
+                  print(f"WARN: could not merge previous durable report: {exc}")
           (out / "latest.json").write_text(json.dumps(report, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
           incomplete = sorted(
               service for service, item in report["services"].items()
