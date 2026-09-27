@@ -1,0 +1,10 @@
+# Self-built candidate rule asset
+# service_id: epicgames
+# provider: epic
+# batch: O4
+# evidence_mode: official_web
+# status: CANDIDATE
+# Company-root official seed only — sub-service tree not claimed.
+DOMAIN,store.epicgames.com
+DOMAIN,epicgames.com
+DOMAIN,www.epicgames.com

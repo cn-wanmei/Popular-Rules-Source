@@ -1,0 +1,10 @@
+# Self-built candidate rule asset
+# service_id: zhipu
+# provider: zhipu
+# batch: D4
+# evidence_mode: official_web
+# status: CANDIDATE
+# Company-root official seed only — sub-service tree not claimed.
+DOMAIN,www.zhipuai.cn
+DOMAIN,zhipuai.cn
+DOMAIN,chatglm.cn

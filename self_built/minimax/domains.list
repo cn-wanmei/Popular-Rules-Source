@@ -1,0 +1,9 @@
+# Self-built candidate rule asset
+# service_id: minimax
+# provider: minimax
+# batch: D4
+# evidence_mode: official_web
+# status: CANDIDATE
+# Company-root official seed only — sub-service tree not claimed.
+DOMAIN,www.minimaxi.com
+DOMAIN,minimaxi.com

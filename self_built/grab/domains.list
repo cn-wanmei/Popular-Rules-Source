@@ -1,0 +1,9 @@
+# Self-built candidate rule asset
+# service_id: grab
+# provider: grab
+# batch: O3
+# evidence_mode: official_web
+# status: CANDIDATE
+# Company-root official seed only — sub-service tree not claimed.
+DOMAIN,www.grab.com
+DOMAIN,grab.com

@@ -1,0 +1,9 @@
+# Self-built candidate rule asset
+# service_id: tonghuashun
+# provider: tonghuashun
+# batch: D3
+# evidence_mode: official_web
+# status: CANDIDATE
+# Company-root official seed only — sub-service tree not claimed.
+DOMAIN,www.10jqka.com.cn
+DOMAIN,10jqka.com.cn

@@ -1,0 +1,9 @@
+# Self-built candidate rule asset
+# service_id: manbang
+# provider: manbang
+# batch: D3
+# evidence_mode: official_web
+# status: CANDIDATE
+# Company-root official seed only — sub-service tree not claimed.
+DOMAIN,www.ymm56.com
+DOMAIN,ymm56.com

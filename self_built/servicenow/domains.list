@@ -1,0 +1,9 @@
+# Self-built candidate rule asset
+# service_id: servicenow
+# provider: servicenow
+# batch: O1
+# evidence_mode: official_web
+# status: CANDIDATE
+# Company-root official seed only — sub-service tree not claimed.
+DOMAIN,www.servicenow.com
+DOMAIN,servicenow.com
