@@ -1538,7 +1538,10 @@ services:
     source_bindings:
     - url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/groq.list
       adapter: upstream_rule
-    allowed_host_exact: []
+    allowed_host_exact:
+    - groq.com
+    - www.groq.com
+    - api.groq.com
     allowed_host_suffixes: []
     coverage:
       domain: review
@@ -1558,7 +1561,10 @@ services:
     source_bindings:
     - url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/huggingface.list
       adapter: upstream_rule
-    allowed_host_exact: []
+    allowed_host_exact:
+    - huggingface.co
+    - hf.co
+    - hf.space
     allowed_host_suffixes: []
     coverage:
       domain: review
@@ -3164,6 +3170,50 @@ services:
     allowed_host_exact:
     - www.mongodb.com
     - mongodb.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+  office:
+    display_name: Microsoft Office
+    ecosystem: microsoft
+    official_sources:
+    - https://www.office.com/
+    allowed_host_exact:
+    - www.office.com
+    - office.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+  outlook:
+    display_name: Microsoft Outlook
+    ecosystem: microsoft
+    official_sources:
+    - https://outlook.office.com/
+    - https://outlook.live.com/
+    allowed_host_exact:
+    - outlook.office.com
+    - outlook.live.com
+    - outlook.office365.com
+    - www.outlook.com
+    - outlook.com
     allowed_host_suffixes: []
     coverage:
       domain: review

@@ -1,0 +1,8 @@
+# Self-built candidate rule asset
+# service_id: office
+# provider: microsoft
+# evidence_mode: official_web
+# status: CANDIDATE
+# M365 hostname reconciliation 2026-09-27: independent from ms365-* web apps.
+DOMAIN,office.com
+DOMAIN,www.office.com
