@@ -1,0 +1,13 @@
+{
+  "content_digest": "f7d2b869a94a9a1647041aed9bcd309c98a401f3f5da049360ebf917cb437cac",
+  "domains": [
+    "office.com",
+    "www.office.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "office",
+  "source_hashes": [
+    "15f00ccd25544075ddd2daf9024ff322746fb05e4b834640cc398e444956ce1e"
+  ]
+}

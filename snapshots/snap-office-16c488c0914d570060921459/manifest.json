@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:067d3be0bbb493361e51463ee4e70670e23fd1b20e60113e2c13bda5567629d1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-office-001-15f00ccd2554"
+      ],
+      "service_id": "office",
+      "type": "domain",
+      "value": "office.com"
+    },
+    {
+      "asset_id": "sha256:2bf695c74e6ebe437dbe282d66df19a964ebc6b6ca76b6906f40d6ae6db32c9f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-office-001-15f00ccd2554"
+      ],
+      "service_id": "office",
+      "type": "domain",
+      "value": "www.office.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "f7d2b869a94a9a1647041aed9bcd309c98a401f3f5da049360ebf917cb437cac",
+  "created_at": "2026-09-27T04:58:44.131582+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "office.com",
+      "www.office.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "office.com",
+    "www.office.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "15f00ccd25544075ddd2daf9024ff322746fb05e4b834640cc398e444956ce1e",
+      "domains_extracted": 2,
+      "evidence_id": "EV-office-001-15f00ccd2554",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.office.com/",
+      "retrieved_at": "1790485099368402784",
+      "service_id": "office",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.office.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "844917f249a7930633759b42bca1d068a4a88711ccc8a1a74cc71ab9726f54fe",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "61a67f4145731122c8b5ba49d8888691ee8f28171a9983a9a7ef2d44eecf549d",
+  "previous_domain_count": 0,
+  "release_digest": "16c488c0914d5700609214599fed8ecf213a037235064a03bf0c4a9acfc760f1",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "942080d6505dd1645d800253066c89e7162a7397414af6bc630dcc98e9a82fca",
+  "service_id": "office",
+  "snapshot_content_sha256": "f7d2b869a94a9a1647041aed9bcd309c98a401f3f5da049360ebf917cb437cac",
+  "snapshot_id": "snap-office-16c488c0914d570060921459",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.office.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

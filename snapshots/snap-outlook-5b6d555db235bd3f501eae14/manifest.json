@@ -1,0 +1,150 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:139a1eeba23e12f3a910d1dbc76df509fcd5d66f881a047f0b06a28e4b690302",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-outlook-001-bde9fbdba495",
+        "EV-outlook-002-bde9fbdba495"
+      ],
+      "service_id": "outlook",
+      "type": "domain",
+      "value": "outlook.com"
+    },
+    {
+      "asset_id": "sha256:c91afcbafe287ff4a5373a33c8446d970e83167019c003f6283b1e3056682a53",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-outlook-001-bde9fbdba495",
+        "EV-outlook-002-bde9fbdba495"
+      ],
+      "service_id": "outlook",
+      "type": "domain",
+      "value": "outlook.live.com"
+    },
+    {
+      "asset_id": "sha256:6ef98107f892ad038db9ec4313861acefd684209a631fd433f7ed0134d809b7d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-outlook-001-bde9fbdba495",
+        "EV-outlook-002-bde9fbdba495"
+      ],
+      "service_id": "outlook",
+      "type": "domain",
+      "value": "outlook.office.com"
+    },
+    {
+      "asset_id": "sha256:b28eb0f40a92cf8d6dc9a6a1e6822b4f452cc41123d60c46fb1d0b299177424f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-outlook-001-bde9fbdba495",
+        "EV-outlook-002-bde9fbdba495"
+      ],
+      "service_id": "outlook",
+      "type": "domain",
+      "value": "outlook.office365.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "7a29eaa2dd61b55085a715b69149d645a81e16a9fd1e7a19e632b58dd77d650d",
+  "created_at": "2026-09-27T04:59:37.308463+00:00",
+  "domain_count": 4,
+  "domain_diff": {
+    "added": [
+      "outlook.com",
+      "outlook.live.com",
+      "outlook.office.com",
+      "outlook.office365.com"
+    ],
+    "added_count": 4,
+    "current_count": 4,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "outlook.com",
+    "outlook.live.com",
+    "outlook.office.com",
+    "outlook.office365.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "bde9fbdba49584e3ee8f8c45435dc2bdf67446d4383190632c88e16b7c07e717",
+      "domains_extracted": 4,
+      "evidence_id": "EV-outlook-001-bde9fbdba495",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://outlook.office.com/",
+      "retrieved_at": "1790485151918029681",
+      "service_id": "outlook",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://outlook.office.com/",
+      "status": "verified",
+      "strength": "S3"
+    },
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "bde9fbdba49584e3ee8f8c45435dc2bdf67446d4383190632c88e16b7c07e717",
+      "domains_extracted": 4,
+      "evidence_id": "EV-outlook-002-bde9fbdba495",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://outlook.office.com/",
+      "retrieved_at": "1790485151918029681",
+      "service_id": "outlook",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://outlook.live.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "b1739d863de29f33bb9b359ed87af74ff03f97d68da4755b7719e8d469ad5bbc",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 8,
+  "official_source_count": 2,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "08dfa74467f6d8b428e384d074724122e1dd7baccf6619a2da701c3fd38c1a11",
+  "previous_domain_count": 0,
+  "release_digest": "5b6d555db235bd3f501eae1490bce9836e5b2453471ec1dbe64e6686b88b6037",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "d62b5c549060c664f5e4f361e0e2da4c48780f5edaea25489eac4e0c242b34a0",
+  "service_id": "outlook",
+  "snapshot_content_sha256": "7a29eaa2dd61b55085a715b69149d645a81e16a9fd1e7a19e632b58dd77d650d",
+  "snapshot_id": "snap-outlook-5b6d555db235bd3f501eae14",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://outlook.office.com/"
+    },
+    {
+      "adapter": null,
+      "url": "https://outlook.live.com/"
+    }
+  ],
+  "source_count": 2,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 8,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}
