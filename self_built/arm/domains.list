@@ -1,0 +1,9 @@
+# Self-built candidate rule asset
+# service_id: arm
+# provider: arm
+# batch: O1
+# evidence_mode: official_web
+# status: CANDIDATE
+# Company-root official seed only — sub-service tree not claimed.
+DOMAIN,www.arm.com
+DOMAIN,arm.com
