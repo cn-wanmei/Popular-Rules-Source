@@ -352,3 +352,26 @@ services:
   mihome: {adapters: [self_built]}
   getapps: {adapters: [self_built]}
   jdcloud: {adapters: [self_built]}
+  alipay: {adapters: [self_built]}
+  fliggy: {adapters: [self_built]}
+  aliexpress: {adapters: [self_built]}
+  lazada: {adapters: [self_built]}
+  xianyu: {adapters: [self_built]}
+  amap: {adapters: [self_built]}
+  eleme: {adapters: [self_built]}
+  youku: {adapters: [self_built]}
+  sharepoint: {adapters: [self_built]}
+  powerbi: {adapters: [self_built]}
+  linkedin: {adapters: [self_built]}
+  tencentdocs: {adapters: [self_built]}
+  qqbrowser: {adapters: [self_built]}
+  wetv: {adapters: [self_built]}
+  toutiao: {adapters: [self_built]}
+  xigua: {adapters: [self_built]}
+  jianying: {adapters: [self_built]}
+  shiji: {adapters: [self_built]}
+  37games: {adapters: [self_built]}
+  wanmei: {adapters: [self_built]}
+  arista: {adapters: [self_built]}
+  supermicro: {adapters: [self_built]}
+  boss: {adapters: [self_built]}
