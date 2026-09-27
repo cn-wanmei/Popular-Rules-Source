@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:bc4fe43902d297426a0514b16900947ab1530542721845441612de8b3d7a2b51",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-databricks-001-76e04a8cd075"
+      ],
+      "service_id": "databricks",
+      "type": "domain",
+      "value": "databricks.com"
+    },
+    {
+      "asset_id": "sha256:b9ed8dcbfefa2add94dc954653694b693dd59a21d075716be65f0f82287bf3a9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-databricks-001-76e04a8cd075"
+      ],
+      "service_id": "databricks",
+      "type": "domain",
+      "value": "www.databricks.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "068aeca8dc64696ef6be21b46e3151d72d5adbeed601a7764ba7acbd8a263353",
+  "created_at": "2026-09-27T08:20:44.727588+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "databricks.com",
+      "www.databricks.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "databricks.com",
+    "www.databricks.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "76e04a8cd075816ee3bba78fd91425cfbe198491f0f06a5a21d9fa26d13ced37",
+      "domains_extracted": 2,
+      "evidence_id": "EV-databricks-001-76e04a8cd075",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.databricks.com/",
+      "retrieved_at": "1790497190934783163",
+      "service_id": "databricks",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.databricks.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "df9e22c672d35d4b6fbc4b629556d38b2c1632c4c0b6096598f8d988596678fc",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "36720295b12e9caffe74a63cd4fa7f6b15691442a967fdfb1e314550f13d3604",
+  "previous_domain_count": 0,
+  "release_digest": "d612a4dc8584d5154f905273d61f951bc41c93e9c5b303ac33480147f90a0c7b",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "2cb8b3c149fd16c3c25e9d19f16e175e5fb5dd6c7bf2ea3f841c7b7ed79d6ce2",
+  "service_id": "databricks",
+  "snapshot_content_sha256": "068aeca8dc64696ef6be21b46e3151d72d5adbeed601a7764ba7acbd8a263353",
+  "snapshot_id": "snap-databricks-d612a4dc8584d5154f905273",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.databricks.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

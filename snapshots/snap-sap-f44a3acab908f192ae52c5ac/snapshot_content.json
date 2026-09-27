@@ -1,0 +1,13 @@
+{
+  "content_digest": "70ad9a6da1a28e5c6351c09eec33edda0707773b856dd9016413e0092dae6d2a",
+  "domains": [
+    "sap.com",
+    "www.sap.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "sap",
+  "source_hashes": [
+    "01ca4fac68925ca722313e9bb434a10185ef311a72c57cfed072b8c55871b9a4"
+  ]
+}

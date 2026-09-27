@@ -1,0 +1,114 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:40aa7de9cb5a9efed189c7f86cbf06cf020e0f604f869f6b46a4027b2bb7d667",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-zhipu-001-3727dd65989b"
+      ],
+      "service_id": "zhipu",
+      "type": "domain",
+      "value": "chatglm.cn"
+    },
+    {
+      "asset_id": "sha256:5d2ef40e171e931b4602f784263c668eaec0c280e2798b504252334f85b28996",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-zhipu-001-3727dd65989b"
+      ],
+      "service_id": "zhipu",
+      "type": "domain",
+      "value": "www.zhipuai.cn"
+    },
+    {
+      "asset_id": "sha256:8d26250e351ac8811881bec1cf93f010f287fb7b15c7fb8ad525ff241a38a61d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-zhipu-001-3727dd65989b"
+      ],
+      "service_id": "zhipu",
+      "type": "domain",
+      "value": "zhipuai.cn"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "1ad4d7879527558bbf201777ec3c8e3900eed7a6341c092e22e90248dbf15ed6",
+  "created_at": "2026-09-27T08:17:29.799938+00:00",
+  "domain_count": 3,
+  "domain_diff": {
+    "added": [
+      "chatglm.cn",
+      "www.zhipuai.cn",
+      "zhipuai.cn"
+    ],
+    "added_count": 3,
+    "current_count": 3,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "chatglm.cn",
+    "www.zhipuai.cn",
+    "zhipuai.cn"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "3727dd65989bd7dd28c1c63b8792c8c757029c82d6a69fc398e065a3686d8cc3",
+      "domains_extracted": 3,
+      "evidence_id": "EV-zhipu-001-3727dd65989b",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.zhipuai.cn/",
+      "retrieved_at": "1790496993280989324",
+      "service_id": "zhipu",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.zhipuai.cn/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "74a07bbca8c8cfa6b4cbdb5be419ad892e0de3a2b6828fd806c266d1d7379c11",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 3,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "c4a609ff1da13f8a67c54fcaf5b98ac098714e5dd17df6e4ebfc89ad6269d91c",
+  "previous_domain_count": 0,
+  "release_digest": "b777d801e25dcde103be641475904c4682baba5e0ea08c00e7c0f1cfca10bc70",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "803fe4b10301420e48c5f91ea9d2b2f41bbcf48bcb18c01075f332ccf1cf9e95",
+  "service_id": "zhipu",
+  "snapshot_content_sha256": "1ad4d7879527558bbf201777ec3c8e3900eed7a6341c092e22e90248dbf15ed6",
+  "snapshot_id": "snap-zhipu-b777d801e25dcde103be6414",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.zhipuai.cn/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 3,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:8bf2be0b22b77ed64b30397bcbca01ee69b21146fa9f445da06f9cc563f9b57e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-heytap-001-ac08a25f8ccc"
+      ],
+      "service_id": "heytap",
+      "type": "domain",
+      "value": "heytap.com"
+    },
+    {
+      "asset_id": "sha256:2ba0826563b4519e3c96a2a3bf949719fd305334c35a5892f84297ac583443eb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-heytap-001-ac08a25f8ccc"
+      ],
+      "service_id": "heytap",
+      "type": "domain",
+      "value": "www.heytap.com"
+    }
+  ],
+  "content_digest": "33842fe2db3d5e55013b982be1c90b5c5e9e631e41cd5326afcebf80c6c53cf5",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "ac08a25f8ccc83ce30399ed192dbc9afb18ec5880b1ff7853e311826cb4a0970",
+      "domains_extracted": 2,
+      "evidence_id": "EV-heytap-001-ac08a25f8ccc",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.heytap.com/",
+      "retrieved_at": "1790497216334765665",
+      "service_id": "heytap",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.heytap.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "b3572a83d046cb383f0255d6a74e98f1dfcb2dc93abf5c8ba43c710f528ede00",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "5bbb1b92c5b72cd026f8f7f9fba59988f2eeea2edfddfdc0d0e2dc8862c0b4c2",
+  "release_digest": "c0fad031b445f1ba2e0df58f3e9806d708190fe687b54823a7d7264ec96725bc",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "heytap",
+  "snapshot_id": "snap-heytap-c0fad031b445f1ba2e0df58f",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

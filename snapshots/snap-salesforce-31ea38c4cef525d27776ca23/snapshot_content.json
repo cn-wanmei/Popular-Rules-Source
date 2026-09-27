@@ -1,0 +1,13 @@
+{
+  "content_digest": "8969fcf7772c31b52c2464fde6a91e6d0802456c6459b7473b808b87f44b53d4",
+  "domains": [
+    "salesforce.com",
+    "www.salesforce.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "salesforce",
+  "source_hashes": [
+    "5334754fb178a36b8cf13ac104623dd9327f6847d760539aeb31e2d24175bf3c"
+  ]
+}

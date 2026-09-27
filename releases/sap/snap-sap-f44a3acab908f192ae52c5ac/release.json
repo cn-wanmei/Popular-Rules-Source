@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "87c8731ccc6221b3783b24a49e2fc13ae4d6975762acd413b782022a77834457",
+    "manifest.json": "5be4407d3344d5825d7de17f2f398a3bfebd70ed351d1267d7889d4cf7013672",
+    "provenance.json": "38e0fd43ee81bf90c54072b6206b4ee09366a3c00c6b43a8812562a8dac5567b",
+    "snapshot_content.json": "806f5ea35b5480d9b902b3107c9ad9eaf2ef3ab2e84b6e38e7cbddda70959b25"
+  },
+  "content_digest": "70ad9a6da1a28e5c6351c09eec33edda0707773b856dd9016413e0092dae6d2a",
+  "created_at": "2026-09-27T08:20:05.267801+00:00",
+  "evidence_digest": "4a2f2c12e8871785279cd18e0787a4e54b42fd2724bf7f463923fc3c66aa36ec",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "2800d047e9ec40f101412eaf1a2c3dee8ca99678b286ed6538fa490d955f0d61",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "f44a3acab908f192ae52c5ac3c51ee7973c3f2eff00658704eb643e4bc77f0ce",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "sap",
+  "snapshot_id": "snap-sap-f44a3acab908f192ae52c5ac",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

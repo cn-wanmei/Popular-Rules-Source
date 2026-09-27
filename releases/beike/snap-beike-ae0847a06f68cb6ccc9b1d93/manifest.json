@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:15665cd662a2a34d103a67a79472fdbfdbe4c4beb4925325f914e70cb2d930f6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-beike-001-d331caf9d624"
+      ],
+      "service_id": "beike",
+      "type": "domain",
+      "value": "ke.com"
+    },
+    {
+      "asset_id": "sha256:7fc45bb37f53a92e5b8844b3aea1855b060366d561c0199488f4b1e2eb251ccc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-beike-001-d331caf9d624"
+      ],
+      "service_id": "beike",
+      "type": "domain",
+      "value": "www.ke.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "287aacd87d31535bf36257363e98da0921956d77273e61d50795f695ff5b9af0",
+  "created_at": "2026-09-27T08:16:50.302777+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "ke.com",
+      "www.ke.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "ke.com",
+    "www.ke.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "d331caf9d624c5609d03963d9afa34801d1edfe20a19b85fb8f29881ba54b26b",
+      "domains_extracted": 2,
+      "evidence_id": "EV-beike-001-d331caf9d624",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.ke.com/",
+      "retrieved_at": "1790496965215246504",
+      "service_id": "beike",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.ke.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "abab66e33f2969faf867b669f2a66b400b24a4e2c963259ac93f2a11e2a0d2bb",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "ef3bea7ee79bd18bae7c1f260f54a71df6b4f398ec3cfa627386d9e3ad232928",
+  "previous_domain_count": 0,
+  "release_digest": "ae0847a06f68cb6ccc9b1d93499bcc88567b0039e47b04bccd11ec927f44fa7c",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "de6e251d9e30721df514202b7fa8f6cf15195fd2f75ab1b465a17b129d15a016",
+  "service_id": "beike",
+  "snapshot_content_sha256": "287aacd87d31535bf36257363e98da0921956d77273e61d50795f695ff5b9af0",
+  "snapshot_id": "snap-beike-ae0847a06f68cb6ccc9b1d93",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.ke.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

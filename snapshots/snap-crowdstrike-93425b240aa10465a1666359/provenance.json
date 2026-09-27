@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:8e98338e5d2ff160c9837de08018a2ae6d62ce5e81b56c6fc7309aa64b67364b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-crowdstrike-001-05b8254cbe00"
+      ],
+      "service_id": "crowdstrike",
+      "type": "domain",
+      "value": "crowdstrike.com"
+    },
+    {
+      "asset_id": "sha256:882056cb929a055b844482f450dc15f4d3c4a1533cefde0b7c1ebae9d6fdde34",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-crowdstrike-001-05b8254cbe00"
+      ],
+      "service_id": "crowdstrike",
+      "type": "domain",
+      "value": "www.crowdstrike.com"
+    }
+  ],
+  "content_digest": "25f5928c258c0b2d2caf937ad07d996af76760b0c47960eff04df69b9653c48d",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "05b8254cbe00103cfc8395a6657a635969e6b2239acccc4635866ffad0dc21f8",
+      "domains_extracted": 2,
+      "evidence_id": "EV-crowdstrike-001-05b8254cbe00",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.crowdstrike.com/",
+      "retrieved_at": "1790497130029978449",
+      "service_id": "crowdstrike",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.crowdstrike.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "bea09b56f8e67dfab813642337361ae4d9dfd33b642a2a3ae73ede3c3d212f86",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "b705058d0cbb6edc48882dbb91442ff72d613b3b81ca4be1cf7c51be026c98d3",
+  "release_digest": "93425b240aa10465a16663598a325591fc98f301408251041b03ec98aa45795c",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "crowdstrike",
+  "snapshot_id": "snap-crowdstrike-93425b240aa10465a1666359",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

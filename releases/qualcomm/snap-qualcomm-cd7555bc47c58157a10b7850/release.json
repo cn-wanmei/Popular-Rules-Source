@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "bbed75d78f2dd54f21c7cc15b10128c2474a581fc5b5ecb8862f9e91c04bcf4b",
+    "manifest.json": "f18bcef013e8684274818572cb27f2ee07230f12dafea1241c161a83641a8a14",
+    "provenance.json": "25d309c9a3bd3e50ccfccb363dbcef14ee287d7da31db3b8cb93a9c015b5410e",
+    "snapshot_content.json": "248d739df9abb55a25858da756195ff1a9a5f8279fdceb3df634c87d266145e8"
+  },
+  "content_digest": "2d276cdfca3c204fd7a464f4bcb80c533f887425dd2ba437e6ad62fdbf211f26",
+  "created_at": "2026-09-27T08:21:12.386706+00:00",
+  "evidence_digest": "ff3a9bbdbdf66f046c97ded1f3e442fe23f591bdd6ed9a171abb757f0a0c1288",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "92fc6de4f34dd3b26568a0d2445e4e56551aee86c21b9154f3f30ce36b820578",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "cd7555bc47c58157a10b785015cac08630703838e93a96fd52513f03be63be12",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "qualcomm",
+  "snapshot_id": "snap-qualcomm-cd7555bc47c58157a10b7850",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

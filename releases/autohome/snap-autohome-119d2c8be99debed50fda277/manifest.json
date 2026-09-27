@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:1ed25a9bb1966a8c61f5697da84de02b828c489ed799d8b9e0f066c3ba458ac2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-autohome-001-d578b54f26ed"
+      ],
+      "service_id": "autohome",
+      "type": "domain",
+      "value": "autohome.com.cn"
+    },
+    {
+      "asset_id": "sha256:da805c5c51ba1bd59543a56fe5a767de6bfa72b70aa13ecdbc3a7dcc2235728e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-autohome-001-d578b54f26ed"
+      ],
+      "service_id": "autohome",
+      "type": "domain",
+      "value": "www.autohome.com.cn"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "6c2c0ded6b1b0b65628cd9f147b4df4cf32c1179aa58f503d74bc665e910021d",
+  "created_at": "2026-09-27T08:15:51.740887+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "autohome.com.cn",
+      "www.autohome.com.cn"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "autohome.com.cn",
+    "www.autohome.com.cn"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "d578b54f26ed0aa87364a97c912b544572309c718804c4a846770c85a3a9dd68",
+      "domains_extracted": 2,
+      "evidence_id": "EV-autohome-001-d578b54f26ed",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.autohome.com.cn/",
+      "retrieved_at": "1790496896427128036",
+      "service_id": "autohome",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.autohome.com.cn/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "0ff032ac520192123c23a5be6febf3a54cee5aa424ef88fb38c17cbea05c36c4",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "412816a92806880d2f469279118f2df8e701903c580caf494467f040ef2cbe70",
+  "previous_domain_count": 0,
+  "release_digest": "119d2c8be99debed50fda277df6223f780d5774537c04e252c9e691f65647728",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "2494c1733e4e29709bf15fa3c138ea22e9467de158f963ead4b2f0ac8fd4bd4e",
+  "service_id": "autohome",
+  "snapshot_content_sha256": "6c2c0ded6b1b0b65628cd9f147b4df4cf32c1179aa58f503d74bc665e910021d",
+  "snapshot_id": "snap-autohome-119d2c8be99debed50fda277",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.autohome.com.cn/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

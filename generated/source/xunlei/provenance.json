@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:8555864aa79e1e8a67f8e3ee82f6851cc622a49ddedaf37049d5e0397f026471",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-xunlei-001-b1d00eddab7f"
+      ],
+      "service_id": "xunlei",
+      "type": "domain",
+      "value": "www.xunlei.com"
+    },
+    {
+      "asset_id": "sha256:3f22b10ab63931cb7c16d594fb94c91bd2cdc41ec7d123ebced37ba881281e01",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-xunlei-001-b1d00eddab7f"
+      ],
+      "service_id": "xunlei",
+      "type": "domain",
+      "value": "xunlei.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "6931319899a74a9ba7248604f8507fb2da715f93ab8dbeca1398bcd1badc5598",
+  "created_at": "2026-09-27T08:20:55.091260+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "www.xunlei.com",
+      "xunlei.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "www.xunlei.com",
+    "xunlei.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "b1d00eddab7f72fd30c467c51c2ce9538e661a031739d3ff04598e45a67cd7a5",
+      "domains_extracted": 2,
+      "evidence_id": "EV-xunlei-001-b1d00eddab7f",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.xunlei.com/",
+      "retrieved_at": "1790497223280037745",
+      "service_id": "xunlei",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.xunlei.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "5bb92e5e69a5de0159d93c98ce195e5c39957f3c4cf54ffdd374f5a53f49ede6",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "db4941409d6786acd3be25764af341a1e102f4e6f752c50c9e9d935d3f4c9a1d",
+  "previous_domain_count": 0,
+  "release_digest": "44fbe977943e79cd5112f6824a43bb56e05509057f01021c79ea1da84c1b3ecc",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "afba0690f33d10bfc503a1e286f6f09a3f7f501eb396005b3933dbbfee174c9b",
+  "service_id": "xunlei",
+  "snapshot_content_sha256": "6931319899a74a9ba7248604f8507fb2da715f93ab8dbeca1398bcd1badc5598",
+  "snapshot_id": "snap-xunlei-44fbe977943e79cd5112f682",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.xunlei.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,13 @@
+{
+  "content_digest": "d4eebf162f45aecde07228c6ef8f72bef3caa7bf1e3b09aef3bd9e4b022be5db",
+  "domains": [
+    "mongodb.com",
+    "www.mongodb.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "mongodb",
+  "source_hashes": [
+    "9cdde7746d8c4348f3206643a293bca040ea3229df8529666836a2c8fbfd2752"
+  ]
+}

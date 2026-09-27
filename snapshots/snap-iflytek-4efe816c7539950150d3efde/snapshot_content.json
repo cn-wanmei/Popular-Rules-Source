@@ -1,0 +1,13 @@
+{
+  "content_digest": "fda11818097cd2ea7cec92886c6d6f3c6a96500da3cc6942f22f4187718f3242",
+  "domains": [
+    "iflytek.com",
+    "www.iflytek.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "iflytek",
+  "source_hashes": [
+    "d8c923b5bd1e3245cee1dc087ca5ebf7a7292739126f11153577349efe4b1622"
+  ]
+}

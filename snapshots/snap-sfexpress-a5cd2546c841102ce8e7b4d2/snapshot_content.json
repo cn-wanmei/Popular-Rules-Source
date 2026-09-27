@@ -1,0 +1,13 @@
+{
+  "content_digest": "aee65a436592be920077e49c953faca5a1bf1293607033a340c6079c70e932a4",
+  "domains": [
+    "sf-express.com",
+    "www.sf-express.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "sfexpress",
+  "source_hashes": [
+    "f04276e1f2e656fb3485d7409835c3bdf1949caee450d45e5bd2099e76098ce7"
+  ]
+}

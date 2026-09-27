@@ -1,0 +1,13 @@
+{
+  "content_digest": "ada36e2eb17b3d2023ed42e5721adb7a4d5dce8d3d4a85e9ed13878287df693d",
+  "domains": [
+    "arm.com",
+    "www.arm.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "arm",
+  "source_hashes": [
+    "68d041ec6ebcb268d56d5902161dda8751978fdb14c7d50bc9aa2d494710bc81"
+  ]
+}

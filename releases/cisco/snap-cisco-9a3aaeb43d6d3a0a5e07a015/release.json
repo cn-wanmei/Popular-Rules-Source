@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "a19c7971160b3ab4bba09f4c9d0f5000a94627011538f4afdb0ee00a30c5ea99",
+    "manifest.json": "abab59c4895c97157a5aa46005182a321ee560bdf0710c9ec9cd79d996b5388b",
+    "provenance.json": "56e4da64a43ee3162d50a09f9c8f66a397b86fc0b660ef409ccd94236d7118e4",
+    "snapshot_content.json": "d0f0cc61d410368744c1747be454d66a961ccc183e6341f63d3c190de743052f"
+  },
+  "content_digest": "f754f429c7f7c62fc4afd1bbe0d03925db373b952576fe589418673e1ec683b4",
+  "created_at": "2026-09-27T08:20:51.219347+00:00",
+  "evidence_digest": "fe261104d5c831d8b99c5399995308b75c3e873e43687656d86ddf4437112983",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "723923a85c14476ad8c9fc679ac51b4cc5d71644946083a6d5704419f3ba7f21",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "9a3aaeb43d6d3a0a5e07a015ebefc27e7b2d1f24926f1e0fc1b11616e4c64295",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "cisco",
+  "snapshot_id": "snap-cisco-9a3aaeb43d6d3a0a5e07a015",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

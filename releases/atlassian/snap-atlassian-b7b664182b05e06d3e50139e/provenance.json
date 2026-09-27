@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:46a5458d7ce7eb570a4c9dd14c4d8a83b30e8586bf3b124d645e32a3811e57e6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-atlassian-001-3b4eb574aadc"
+      ],
+      "service_id": "atlassian",
+      "type": "domain",
+      "value": "atlassian.com"
+    },
+    {
+      "asset_id": "sha256:b3b5cb75625648cad584a944f77a4cc3bd2d5d5845eae04dc3267e6eec4962a9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-atlassian-001-3b4eb574aadc"
+      ],
+      "service_id": "atlassian",
+      "type": "domain",
+      "value": "www.atlassian.com"
+    }
+  ],
+  "content_digest": "44314b2e78e2b8fa4f9f3b4106f3baf8a9d72c7c9bcb3bfbd3518355abbf3163",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "3b4eb574aadc5ca1e0eadd987d44a492f70952bc8e53b02d50bafbad56916103",
+      "domains_extracted": 2,
+      "evidence_id": "EV-atlassian-001-3b4eb574aadc",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.atlassian.com/",
+      "retrieved_at": "1790497204080546661",
+      "service_id": "atlassian",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.atlassian.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "c1c2827a3db4bc45b805eb04324c1b742940c74d1354f7f5035a7d3dcfb6b8ef",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "5f6327a8e2d95cc697f1e76e49f2996825dceef7290165fa9c6a9ef5c5d3bcef",
+  "release_digest": "b7b664182b05e06d3e50139e0695cb95280c8f54d8c3e5068cfbc240cfa81133",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "atlassian",
+  "snapshot_id": "snap-atlassian-b7b664182b05e06d3e50139e",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "content_digest": "b93b3dc065448185f4e839e85cd033c96f1a3a5f89bfc31578b694dcf91419d5",
+  "domains": [
+    "amd.com",
+    "www.amd.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "amd",
+  "source_hashes": [
+    "d54799c928dc89afdaab60d2b9f24d840cb25fabf784e6e46951a812219332ce"
+  ]
+}

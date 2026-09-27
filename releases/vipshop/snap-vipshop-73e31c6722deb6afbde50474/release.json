@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "5ad7c5c4135013ae2333d3a32eb621375816773248d70793c2c88b97ce992e14",
+    "manifest.json": "c2f8e5be03ad89113a8c5b4b6d70656ce01b43adfbb7d89d2d1e9f69377dccf1",
+    "provenance.json": "2b924ce807d5ecf1f65527c2f3e4248bd6d8ab01f46b97e2e1751e0f2b987a5a",
+    "snapshot_content.json": "8704675c1d5b58c61ecf8c3ae2e06cf5083a546b6b89a6eb14153b677c945af9"
+  },
+  "content_digest": "0f9fa0d43dce1dd50d449b01e7b0939b5d11f9352dc00d5262466061ce7b7cbf",
+  "created_at": "2026-09-27T08:21:31.885651+00:00",
+  "evidence_digest": "95532ceab3e223368e2e842c0288f96eeabedfb5343ddc9f6e3e07cf175d8dba",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "2765b4ec1cd2931f1eba730e569fd5f36aace9481cb943e093382a209116655e",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "73e31c6722deb6afbde50474bcfd089ce25ee874351fb4fe069951d6cb30b252",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "vipshop",
+  "snapshot_id": "snap-vipshop-73e31c6722deb6afbde50474",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

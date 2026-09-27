@@ -1,0 +1,13 @@
+{
+  "content_digest": "c4dbbb10fe82cfba4445eea6ebb6c4ccdadb6b75a1387a5ae7131beb4962284f",
+  "domains": [
+    "intel.com",
+    "www.intel.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "intel",
+  "source_hashes": [
+    "7206b97fc9e98da66e370956269a630df021da1be8652188e1fab7473a68593d"
+  ]
+}

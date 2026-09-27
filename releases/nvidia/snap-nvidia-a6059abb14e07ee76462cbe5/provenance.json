@@ -1,0 +1,86 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:83ef09bc4ee3ac4a4449c13ae1db43aae3854d7db63ba57e45d72ddfcae0ab06",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-nvidia-001-240905362b72",
+        "EV-nvidia-002-240905362b72"
+      ],
+      "service_id": "nvidia",
+      "type": "domain",
+      "value": "developer.nvidia.com"
+    },
+    {
+      "asset_id": "sha256:c849056dc7a25e2740138dfd421906eefa69b2714e45147469537604e8f0e510",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-nvidia-001-240905362b72",
+        "EV-nvidia-002-240905362b72"
+      ],
+      "service_id": "nvidia",
+      "type": "domain",
+      "value": "nvidia.com"
+    },
+    {
+      "asset_id": "sha256:d283ab926b01db0268474a209f572976fe656ff868bd6c8b5fd5683edddcb259",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-nvidia-001-240905362b72",
+        "EV-nvidia-002-240905362b72"
+      ],
+      "service_id": "nvidia",
+      "type": "domain",
+      "value": "www.nvidia.com"
+    }
+  ],
+  "content_digest": "40d41897aca8c777eb9128f6281946b10808315a72cdcccad211aea0dd9ffcda",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "240905362b726119bf9bdd88a449a2140774428da11da8bd11a59aa06efac74a",
+      "domains_extracted": 3,
+      "evidence_id": "EV-nvidia-001-240905362b72",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.nvidia.com/",
+      "retrieved_at": "1790497011626668805",
+      "service_id": "nvidia",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.nvidia.com/",
+      "status": "verified",
+      "strength": "S3"
+    },
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "240905362b726119bf9bdd88a449a2140774428da11da8bd11a59aa06efac74a",
+      "domains_extracted": 3,
+      "evidence_id": "EV-nvidia-002-240905362b72",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.nvidia.com/",
+      "retrieved_at": "1790497011626668805",
+      "service_id": "nvidia",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://developer.nvidia.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "83a12b721dfee95d4d5204b6c3096c52065efb3d8ef654edc669897722bdec4c",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "9cf6eb7811cbfaf3921668b491bd50a6933c2093131a9615e385363453f92821",
+  "release_digest": "a6059abb14e07ee76462cbe5a44a445c26142e9c9f3de68af31148033845530a",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "nvidia",
+  "snapshot_id": "snap-nvidia-a6059abb14e07ee76462cbe5",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

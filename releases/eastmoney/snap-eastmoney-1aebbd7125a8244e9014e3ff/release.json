@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "0832815a68552a6b38e46012163855c6b44475a04da2d262fa73bfbee883dd75",
+    "manifest.json": "648212d5fd54e7e01f72db0d33f670fe953968ff2a626fb9bb8d5e0114f6a5fa",
+    "provenance.json": "c4b1ba893c81c2c3fadd17c3c8048135ec7e555c0640c2c88a4c4b62d82c3387",
+    "snapshot_content.json": "e506091be951559147185b1cb1213b27897e6f29d64d37369fe4de3fa1082f42"
+  },
+  "content_digest": "fd2dfb3340380871aa404c1ac2b922030fa85282cf161707c20d955c2bd546f2",
+  "created_at": "2026-09-27T08:21:27.361255+00:00",
+  "evidence_digest": "2227f69e52a8a7168b492616542649771e86d74bfe9b89909bc9b096c13deb19",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "a056aa48d2c7873f79a44ce4f7efe4694669f83552902bc041388938e11f899e",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "1aebbd7125a8244e9014e3fffccd5fba6ee2e0d316d42cd881dd589d0061466d",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "eastmoney",
+  "snapshot_id": "snap-eastmoney-1aebbd7125a8244e9014e3ff",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

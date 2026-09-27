@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:77bb1d7c5950b639f955474e84bcf2bb77527da6b43ad024f93fbc232c019f7e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qunar-001-b04584c76e55"
+      ],
+      "service_id": "qunar",
+      "type": "domain",
+      "value": "qunar.com"
+    },
+    {
+      "asset_id": "sha256:173aebb989962ca3f09ab25547042d9dfd2ba9cfc332c179b007a8c7fddd120b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qunar-001-b04584c76e55"
+      ],
+      "service_id": "qunar",
+      "type": "domain",
+      "value": "www.qunar.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "01ab13cc7f4f98a247f8611acc0dde890e52e279579ee351b358141e797d18dc",
+  "created_at": "2026-09-27T08:19:42.073210+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "qunar.com",
+      "www.qunar.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "qunar.com",
+    "www.qunar.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "b04584c76e55b0c131a393d1ae01d8ec926394fdb5efec043178281a4eeaac0c",
+      "domains_extracted": 2,
+      "evidence_id": "EV-qunar-001-b04584c76e55",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.qunar.com/",
+      "retrieved_at": "1790497126316410559",
+      "service_id": "qunar",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.qunar.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "6c53104cc521423caa3a788990df1c76c96cc094e1c515bda8221d2a8622bd65",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "ac75efb920030cf2287f274b8dae0cd5a5bdf0f30bc4eb47763541ad7dd833d5",
+  "previous_domain_count": 0,
+  "release_digest": "88bfe5677a93332e63577a9cd034a402898cafaf40e5232304fb7b29df43d905",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "6265f3b68f944bbdf5a6d0c4ea312a7f705cb0841aed4e8b952ab83029767cd7",
+  "service_id": "qunar",
+  "snapshot_content_sha256": "01ab13cc7f4f98a247f8611acc0dde890e52e279579ee351b358141e797d18dc",
+  "snapshot_id": "snap-qunar-88bfe5677a93332e63577a9c",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.qunar.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

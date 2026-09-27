@@ -1,0 +1,13 @@
+{
+  "content_digest": "068aeca8dc64696ef6be21b46e3151d72d5adbeed601a7764ba7acbd8a263353",
+  "domains": [
+    "databricks.com",
+    "www.databricks.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "databricks",
+  "source_hashes": [
+    "76e04a8cd075816ee3bba78fd91425cfbe198491f0f06a5a21d9fa26d13ced37"
+  ]
+}

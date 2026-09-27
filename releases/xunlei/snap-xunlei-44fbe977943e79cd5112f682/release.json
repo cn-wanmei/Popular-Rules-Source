@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "10dd83971a35040a1ba3cb24f25f481aea122ed7fa3a7f850137a655fe96de4f",
+    "manifest.json": "44a4fc541ddca22147239661c3725a17aece04b946d1224dc8fd15585f3ad5fe",
+    "provenance.json": "712b40261d3e255a45e3576b18a3d3f5cd8913cd87636f4a869308d0c842f280",
+    "snapshot_content.json": "6364aaf0fe5034c7e48582d4bc1729567131a988f4396373b40bf2edb0eea1e4"
+  },
+  "content_digest": "6931319899a74a9ba7248604f8507fb2da715f93ab8dbeca1398bcd1badc5598",
+  "created_at": "2026-09-27T08:21:11.032643+00:00",
+  "evidence_digest": "5bb92e5e69a5de0159d93c98ce195e5c39957f3c4cf54ffdd374f5a53f49ede6",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "db4941409d6786acd3be25764af341a1e102f4e6f752c50c9e9d935d3f4c9a1d",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "44fbe977943e79cd5112f6824a43bb56e05509057f01021c79ea1da84c1b3ecc",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "xunlei",
+  "snapshot_id": "snap-xunlei-44fbe977943e79cd5112f682",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

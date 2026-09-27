@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:29c8abd4814f9e60b4b6917df0b38aa72d37e17ee6b2b4bda38693326395baef",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wps-001-2d453ad3b97a"
+      ],
+      "service_id": "wps",
+      "type": "domain",
+      "value": "wps.cn"
+    },
+    {
+      "asset_id": "sha256:8eafd670ee6d0d68ce877df21e973639741b7463ed8a56dbda632d6aa1d0fc5f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wps-001-2d453ad3b97a"
+      ],
+      "service_id": "wps",
+      "type": "domain",
+      "value": "www.wps.cn"
+    }
+  ],
+  "content_digest": "74685699d708a29d54a5a8b395cf73fcc56d5dc81266d1641937a34868e605fb",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "2d453ad3b97a22b9fe947ce8a73b9a7530d72518fc9d9657b76f08f8a93ca0d8",
+      "domains_extracted": 2,
+      "evidence_id": "EV-wps-001-2d453ad3b97a",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.wps.cn/",
+      "retrieved_at": "1790497142448167878",
+      "service_id": "wps",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.wps.cn/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "14434ec39dccc7c31549a26b612df77d6faaff296735110fa1164598206b8c1d",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "4df4c51b72152078901d857d1a236efd22ed04a9d9d2a6ced9434d65213f55f6",
+  "release_digest": "861720e326a9c4914d78ecb157f116cf70163ad7d6633a8a86a1fdc61ed13d50",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "wps",
+  "snapshot_id": "snap-wps-861720e326a9c4914d78ecb1",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

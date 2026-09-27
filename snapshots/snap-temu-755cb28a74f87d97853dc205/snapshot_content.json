@@ -1,0 +1,13 @@
+{
+  "content_digest": "cc2ea1bf538c3be3016f7dc14cf8ec6431486b94397cd5e8dbf75e2a758b5efe",
+  "domains": [
+    "temu.com",
+    "www.temu.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "temu",
+  "source_hashes": [
+    "04078cf78896f32af505415660fa3633570898cab0feb1e5a006f9d28cd23289"
+  ]
+}

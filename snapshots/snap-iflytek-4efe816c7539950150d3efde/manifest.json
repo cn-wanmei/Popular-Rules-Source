@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:d018ccbacbfa642c0e90a320f65015f9a66acea238ac3878aacd9077d0c9c46f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-iflytek-001-d8c923b5bd1e"
+      ],
+      "service_id": "iflytek",
+      "type": "domain",
+      "value": "iflytek.com"
+    },
+    {
+      "asset_id": "sha256:9b334b16dd49ff770da5f0fca86170e8b38f4e32ca7c2ac1a136fdeaaaed6658",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-iflytek-001-d8c923b5bd1e"
+      ],
+      "service_id": "iflytek",
+      "type": "domain",
+      "value": "www.iflytek.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "fda11818097cd2ea7cec92886c6d6f3c6a96500da3cc6942f22f4187718f3242",
+  "created_at": "2026-09-27T08:16:10.969091+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "iflytek.com",
+      "www.iflytek.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "iflytek.com",
+    "www.iflytek.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "d8c923b5bd1e3245cee1dc087ca5ebf7a7292739126f11153577349efe4b1622",
+      "domains_extracted": 2,
+      "evidence_id": "EV-iflytek-001-d8c923b5bd1e",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.iflytek.com/",
+      "retrieved_at": "1790496943210835505",
+      "service_id": "iflytek",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.iflytek.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "af4116fa790dce5bd24961834fd638e36c6046b0c314c34ffc0fe2e2213d83f3",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "67fb163985a3fa332953cf105be039b9888dadb1c8a5329f60fc873bb0783b9f",
+  "previous_domain_count": 0,
+  "release_digest": "4efe816c7539950150d3efde6de14f20f45dc35d25821967146c204286840022",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "5249f4eeeccb4787fd73acc0d77711636dea1f94e95ba5bf89ea8e54b32ded33",
+  "service_id": "iflytek",
+  "snapshot_content_sha256": "fda11818097cd2ea7cec92886c6d6f3c6a96500da3cc6942f22f4187718f3242",
+  "snapshot_id": "snap-iflytek-4efe816c7539950150d3efde",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.iflytek.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

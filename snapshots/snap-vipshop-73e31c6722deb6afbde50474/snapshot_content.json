@@ -1,0 +1,13 @@
+{
+  "content_digest": "0f9fa0d43dce1dd50d449b01e7b0939b5d11f9352dc00d5262466061ce7b7cbf",
+  "domains": [
+    "vip.com",
+    "www.vip.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "vipshop",
+  "source_hashes": [
+    "a1770a85777729a5e900d20a4b5faadcbff94e04e956776df0c7014a55b6656d"
+  ]
+}

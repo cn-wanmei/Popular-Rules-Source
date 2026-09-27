@@ -1,0 +1,13 @@
+{
+  "content_digest": "25f5928c258c0b2d2caf937ad07d996af76760b0c47960eff04df69b9653c48d",
+  "domains": [
+    "crowdstrike.com",
+    "www.crowdstrike.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "crowdstrike",
+  "source_hashes": [
+    "05b8254cbe00103cfc8395a6657a635969e6b2239acccc4635866ffad0dc21f8"
+  ]
+}

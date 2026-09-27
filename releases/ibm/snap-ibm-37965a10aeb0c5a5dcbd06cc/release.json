@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "954126b88e2b918e8ad568c01c0bfb6c30a9136f8acaa9da771fa6df6e405d44",
+    "manifest.json": "7f88d54c22e4a42209b5ab748b96833c4d9ae3049d9a07c019ee50514cc229ca",
+    "provenance.json": "00ee7083c5c685a7ee3470dad943517862f10761be1d1e4305efb2ff8d7905dd",
+    "snapshot_content.json": "e082daecd592decff4b19bbee538ab81141ba02249358be2200c847285ca4a48"
+  },
+  "content_digest": "e354a13ac1e7fe7b9a5f6f52468e298a111a6cca2930e11f48187f1fec21425b",
+  "created_at": "2026-09-27T08:19:22.039485+00:00",
+  "evidence_digest": "a1ccde5b7276e012b2ed72710dcd8d9db19649f568baeb49b61bb9de1bbc9fc4",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "42677b71a40034dd815827f6e0e4511b86bcafc9d9a05a18103ef19ba453b1ae",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "37965a10aeb0c5a5dcbd06ccbf4994101cdaaa952dd219d2950e0d120e0a35a2",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "ibm",
+  "snapshot_id": "snap-ibm-37965a10aeb0c5a5dcbd06cc",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

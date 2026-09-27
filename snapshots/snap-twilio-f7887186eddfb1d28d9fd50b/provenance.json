@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:3f7918f9e74143a0f96a2c17f878e4abab366b45d6c32201500fa2378849a3a1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-twilio-001-9696eb575ef3"
+      ],
+      "service_id": "twilio",
+      "type": "domain",
+      "value": "twilio.com"
+    },
+    {
+      "asset_id": "sha256:22fb576b46dce63499f73c58d878a8ef32de9f5e56e8da847bf3d1a559d78642",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-twilio-001-9696eb575ef3"
+      ],
+      "service_id": "twilio",
+      "type": "domain",
+      "value": "www.twilio.com"
+    }
+  ],
+  "content_digest": "749c453ade49cf99fae74d78ea0be13b4b546e6cf09c9cf95e68c29cdee7ddb6",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "9696eb575ef3191f228feb38641d728df2a0a3e9f90364b512b80728b69abf68",
+      "domains_extracted": 2,
+      "evidence_id": "EV-twilio-001-9696eb575ef3",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.twilio.com/",
+      "retrieved_at": "1790497010876896587",
+      "service_id": "twilio",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.twilio.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "861a4236dde8d9ab7b293068608cd12ad981820951517e61bbaeca0837f50003",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "3e14201a946e7a60b97c398c9c39cfc34b175cc9cf47fb37fab0242f02da419a",
+  "release_digest": "f7887186eddfb1d28d9fd50bd0c677a6203a05e268413adbbec05ea68f80ae88",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "twilio",
+  "snapshot_id": "snap-twilio-f7887186eddfb1d28d9fd50b",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

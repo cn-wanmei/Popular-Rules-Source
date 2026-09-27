@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:4d76128b0b772bee457f6f08a91b115056c8130d5c142e89269e9e5b486178bb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-minimax-001-21ba0877dbbf"
+      ],
+      "service_id": "minimax",
+      "type": "domain",
+      "value": "minimaxi.com"
+    },
+    {
+      "asset_id": "sha256:1b432a8d2b3d345b86d18c6fcdf3e13e527162364dab1cedb4a103eaa3e4d0a6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-minimax-001-21ba0877dbbf"
+      ],
+      "service_id": "minimax",
+      "type": "domain",
+      "value": "www.minimaxi.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "025c5399b780bc500b5d949394f5066108b65117730b8e6f62646ac0c9346bb6",
+  "created_at": "2026-09-27T08:17:30.222794+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "minimaxi.com",
+      "www.minimaxi.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "minimaxi.com",
+    "www.minimaxi.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "21ba0877dbbffe060605333c3436e81922b640a04eb6a7f1d1eaabbbd8146003",
+      "domains_extracted": 2,
+      "evidence_id": "EV-minimax-001-21ba0877dbbf",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.minimaxi.com/",
+      "retrieved_at": "1790496996367901562",
+      "service_id": "minimax",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.minimaxi.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "ec2a7dc407b62744df8772a483503898784ed7d5dc0a7ab51d391fadc0953514",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "87e5df2e422e05f58fc7bb624c96db079376aedcdcd4e39c01cd11dc3b57b0d1",
+  "previous_domain_count": 0,
+  "release_digest": "c9a118b15225676be85a7e134e96d24a7f9561cbfe1f1f038a1f25af73bd419d",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "49790e2531023d465ef31ec187a5f7adc7b592d911269b7651ac564a0bb54b2a",
+  "service_id": "minimax",
+  "snapshot_content_sha256": "025c5399b780bc500b5d949394f5066108b65117730b8e6f62646ac0c9346bb6",
+  "snapshot_id": "snap-minimax-c9a118b15225676be85a7e13",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.minimaxi.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:d018ccbacbfa642c0e90a320f65015f9a66acea238ac3878aacd9077d0c9c46f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-iflytek-001-d8c923b5bd1e"
+      ],
+      "service_id": "iflytek",
+      "type": "domain",
+      "value": "iflytek.com"
+    },
+    {
+      "asset_id": "sha256:9b334b16dd49ff770da5f0fca86170e8b38f4e32ca7c2ac1a136fdeaaaed6658",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-iflytek-001-d8c923b5bd1e"
+      ],
+      "service_id": "iflytek",
+      "type": "domain",
+      "value": "www.iflytek.com"
+    }
+  ],
+  "content_digest": "fda11818097cd2ea7cec92886c6d6f3c6a96500da3cc6942f22f4187718f3242",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "d8c923b5bd1e3245cee1dc087ca5ebf7a7292739126f11153577349efe4b1622",
+      "domains_extracted": 2,
+      "evidence_id": "EV-iflytek-001-d8c923b5bd1e",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.iflytek.com/",
+      "retrieved_at": "1790496943210835505",
+      "service_id": "iflytek",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.iflytek.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "af4116fa790dce5bd24961834fd638e36c6046b0c314c34ffc0fe2e2213d83f3",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "67fb163985a3fa332953cf105be039b9888dadb1c8a5329f60fc873bb0783b9f",
+  "release_digest": "4efe816c7539950150d3efde6de14f20f45dc35d25821967146c204286840022",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "iflytek",
+  "snapshot_id": "snap-iflytek-4efe816c7539950150d3efde",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

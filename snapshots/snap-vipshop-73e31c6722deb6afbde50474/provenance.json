@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:bcc10aee1a9675e07522edeb252fc29edd29351550cad18ba16477a3a7c2ecbf",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-vipshop-001-a1770a857777"
+      ],
+      "service_id": "vipshop",
+      "type": "domain",
+      "value": "vip.com"
+    },
+    {
+      "asset_id": "sha256:e4cd2ff41d8e9781a642ac7f035753e7e6257c25d975a556df049a4cfc42f675",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-vipshop-001-a1770a857777"
+      ],
+      "service_id": "vipshop",
+      "type": "domain",
+      "value": "www.vip.com"
+    }
+  ],
+  "content_digest": "0f9fa0d43dce1dd50d449b01e7b0939b5d11f9352dc00d5262466061ce7b7cbf",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "a1770a85777729a5e900d20a4b5faadcbff94e04e956776df0c7014a55b6656d",
+      "domains_extracted": 2,
+      "evidence_id": "EV-vipshop-001-a1770a857777",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.vip.com/",
+      "retrieved_at": "1790497205638061237",
+      "service_id": "vipshop",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.vip.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "95532ceab3e223368e2e842c0288f96eeabedfb5343ddc9f6e3e07cf175d8dba",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "2765b4ec1cd2931f1eba730e569fd5f36aace9481cb943e093382a209116655e",
+  "release_digest": "73e31c6722deb6afbde50474bcfd089ce25ee874351fb4fe069951d6cb30b252",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "vipshop",
+  "snapshot_id": "snap-vipshop-73e31c6722deb6afbde50474",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "500b2cbcf0532c163099228d96533bebf8387cd7cec59f826272a425e7f4a4dd",
+    "manifest.json": "7136ca47a60eb7cf6192461f4d81921e774ff456b289f21afe544ff83b4c9942",
+    "provenance.json": "6cce983ea1146d4b31e0e800b3b8f51092419c58dad03a95af40fc22aa728ef0",
+    "snapshot_content.json": "e4eab5bd2b93d0be0d2a2b0eafb8f2616f96f21a40bcec10b36f974decde4858"
+  },
+  "content_digest": "749c453ade49cf99fae74d78ea0be13b4b546e6cf09c9cf95e68c29cdee7ddb6",
+  "created_at": "2026-09-27T08:18:18.880546+00:00",
+  "evidence_digest": "861a4236dde8d9ab7b293068608cd12ad981820951517e61bbaeca0837f50003",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "3e14201a946e7a60b97c398c9c39cfc34b175cc9cf47fb37fab0242f02da419a",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "f7887186eddfb1d28d9fd50bd0c677a6203a05e268413adbbec05ea68f80ae88",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "twilio",
+  "snapshot_id": "snap-twilio-f7887186eddfb1d28d9fd50b",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

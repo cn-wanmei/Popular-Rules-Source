@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "de3410924570ff0f3888b5d1fdf667eef5563449bad1a59ca5f6a8e59fbb95fe",
+    "manifest.json": "67c8148ae93e69e0e26adf34b4d4bad5c9e72b418cd3b0f8a2398b6ed3065248",
+    "provenance.json": "f724a60da96a27938b23edd243f67c7b69c443d01c838a552d7f62b9db14369d",
+    "snapshot_content.json": "fa7aabc1b922e47925d7899215eb712ccb9d0ec61379db9b3bf273aa7cce0964"
+  },
+  "content_digest": "40d41897aca8c777eb9128f6281946b10808315a72cdcccad211aea0dd9ffcda",
+  "created_at": "2026-09-27T08:17:48.843145+00:00",
+  "evidence_digest": "83a12b721dfee95d4d5204b6c3096c52065efb3d8ef654edc669897722bdec4c",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "9cf6eb7811cbfaf3921668b491bd50a6933c2093131a9615e385363453f92821",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "a6059abb14e07ee76462cbe5a44a445c26142e9c9f3de68af31148033845530a",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "nvidia",
+  "snapshot_id": "snap-nvidia-a6059abb14e07ee76462cbe5",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

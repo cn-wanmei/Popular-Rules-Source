@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:adaa4692a0f0c53379aea353c6c1d42c99ddce3aafb45435966700dd70a0eebb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-datadog-001-2e72c1fd7532"
+      ],
+      "service_id": "datadog",
+      "type": "domain",
+      "value": "datadoghq.com"
+    },
+    {
+      "asset_id": "sha256:1c829346666ba9d4ba2a635a1337ba52d2a8e3bc9f8023bb0957a9d39deb7b01",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-datadog-001-2e72c1fd7532"
+      ],
+      "service_id": "datadog",
+      "type": "domain",
+      "value": "www.datadoghq.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "f7fb5be1d5eaab9741ffe4b2535a84372da29c3ad80a6ea5c31c8b50e7751117",
+  "created_at": "2026-09-27T08:18:00.436785+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "datadoghq.com",
+      "www.datadoghq.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "datadoghq.com",
+    "www.datadoghq.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "2e72c1fd7532fac3c07298d7f330c209a71cafdb5ab6ccbaed34934456bb4c85",
+      "domains_extracted": 2,
+      "evidence_id": "EV-datadog-001-2e72c1fd7532",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.datadoghq.com/",
+      "retrieved_at": "1790497021509062532",
+      "service_id": "datadog",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.datadoghq.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "106c02a07e7a44077dfa980d8cb84e77e191742765be70c9e63441583159ec26",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "daa364b40fb5486d51850fd096bba1404079ffb44424cb9a53d84fc5294eff7e",
+  "previous_domain_count": 0,
+  "release_digest": "507e01df7ff9a667069ba1fde322892d194cdaba7ec8b90f4827d695ed8b5924",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "bd2465841ea0b7ce625bd09d8573c2c9e0db223415e231c6061395e4327dc828",
+  "service_id": "datadog",
+  "snapshot_content_sha256": "f7fb5be1d5eaab9741ffe4b2535a84372da29c3ad80a6ea5c31c8b50e7751117",
+  "snapshot_id": "snap-datadog-507e01df7ff9a667069ba1fd",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.datadoghq.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

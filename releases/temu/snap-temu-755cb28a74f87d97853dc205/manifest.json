@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:43143f18e3c947c730b9db62ed51b66087780461da6eea1d61c984480c21d55f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-temu-001-04078cf78896"
+      ],
+      "service_id": "temu",
+      "type": "domain",
+      "value": "temu.com"
+    },
+    {
+      "asset_id": "sha256:88eaf156230dd969305640944677d13cb7b7878c940784389de7d957b56ad7a4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-temu-001-04078cf78896"
+      ],
+      "service_id": "temu",
+      "type": "domain",
+      "value": "www.temu.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "cc2ea1bf538c3be3016f7dc14cf8ec6431486b94397cd5e8dbf75e2a758b5efe",
+  "created_at": "2026-09-27T08:20:58.765765+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "temu.com",
+      "www.temu.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "temu.com",
+    "www.temu.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "04078cf78896f32af505415660fa3633570898cab0feb1e5a006f9d28cd23289",
+      "domains_extracted": 2,
+      "evidence_id": "EV-temu-001-04078cf78896",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.temu.com/",
+      "retrieved_at": "1790497205613928340",
+      "service_id": "temu",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.temu.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "b62d643d45ff7de21521e398665669c1faa223deb7a6b427f60fed31090971a8",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "3b39ab18afb0698102a3c5187aa48741aeaec7c1a7fab31036f05666725d3a5b",
+  "previous_domain_count": 0,
+  "release_digest": "755cb28a74f87d97853dc2056ba7623e2164d48cafd70c94b74fbb26d7b72d95",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "03d790dd8b074908efb66043d6eb99fc377d14ac5b998e9e6ef5923986cfc329",
+  "service_id": "temu",
+  "snapshot_content_sha256": "cc2ea1bf538c3be3016f7dc14cf8ec6431486b94397cd5e8dbf75e2a758b5efe",
+  "snapshot_id": "snap-temu-755cb28a74f87d97853dc205",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.temu.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

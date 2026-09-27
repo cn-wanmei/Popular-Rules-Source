@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:8bf2be0b22b77ed64b30397bcbca01ee69b21146fa9f445da06f9cc563f9b57e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-heytap-001-ac08a25f8ccc"
+      ],
+      "service_id": "heytap",
+      "type": "domain",
+      "value": "heytap.com"
+    },
+    {
+      "asset_id": "sha256:2ba0826563b4519e3c96a2a3bf949719fd305334c35a5892f84297ac583443eb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-heytap-001-ac08a25f8ccc"
+      ],
+      "service_id": "heytap",
+      "type": "domain",
+      "value": "www.heytap.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "33842fe2db3d5e55013b982be1c90b5c5e9e631e41cd5326afcebf80c6c53cf5",
+  "created_at": "2026-09-27T08:21:05.023567+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "heytap.com",
+      "www.heytap.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "heytap.com",
+    "www.heytap.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "ac08a25f8ccc83ce30399ed192dbc9afb18ec5880b1ff7853e311826cb4a0970",
+      "domains_extracted": 2,
+      "evidence_id": "EV-heytap-001-ac08a25f8ccc",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.heytap.com/",
+      "retrieved_at": "1790497216334765665",
+      "service_id": "heytap",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.heytap.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "b3572a83d046cb383f0255d6a74e98f1dfcb2dc93abf5c8ba43c710f528ede00",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "5bbb1b92c5b72cd026f8f7f9fba59988f2eeea2edfddfdc0d0e2dc8862c0b4c2",
+  "previous_domain_count": 0,
+  "release_digest": "c0fad031b445f1ba2e0df58f3e9806d708190fe687b54823a7d7264ec96725bc",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "a843cafb6396aed8544604cb21a200ccec72ff3473cf39b462a49fc0ae2e3848",
+  "service_id": "heytap",
+  "snapshot_content_sha256": "33842fe2db3d5e55013b982be1c90b5c5e9e631e41cd5326afcebf80c6c53cf5",
+  "snapshot_id": "snap-heytap-c0fad031b445f1ba2e0df58f",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.heytap.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

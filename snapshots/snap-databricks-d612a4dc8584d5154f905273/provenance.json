@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:bc4fe43902d297426a0514b16900947ab1530542721845441612de8b3d7a2b51",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-databricks-001-76e04a8cd075"
+      ],
+      "service_id": "databricks",
+      "type": "domain",
+      "value": "databricks.com"
+    },
+    {
+      "asset_id": "sha256:b9ed8dcbfefa2add94dc954653694b693dd59a21d075716be65f0f82287bf3a9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-databricks-001-76e04a8cd075"
+      ],
+      "service_id": "databricks",
+      "type": "domain",
+      "value": "www.databricks.com"
+    }
+  ],
+  "content_digest": "068aeca8dc64696ef6be21b46e3151d72d5adbeed601a7764ba7acbd8a263353",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "76e04a8cd075816ee3bba78fd91425cfbe198491f0f06a5a21d9fa26d13ced37",
+      "domains_extracted": 2,
+      "evidence_id": "EV-databricks-001-76e04a8cd075",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.databricks.com/",
+      "retrieved_at": "1790497190934783163",
+      "service_id": "databricks",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.databricks.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "df9e22c672d35d4b6fbc4b629556d38b2c1632c4c0b6096598f8d988596678fc",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "36720295b12e9caffe74a63cd4fa7f6b15691442a967fdfb1e314550f13d3604",
+  "release_digest": "d612a4dc8584d5154f905273d61f951bc41c93e9c5b303ac33480147f90a0c7b",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "databricks",
+  "snapshot_id": "snap-databricks-d612a4dc8584d5154f905273",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

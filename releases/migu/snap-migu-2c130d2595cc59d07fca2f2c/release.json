@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "b486e090d5706b51d04f9dd5701fb4a8791e8d1fd458a94546c2aa9897e09864",
+    "manifest.json": "d77932214c7690328f2d21388c5d8cdc0eab30a014f9fb2b725ba5ea35ee7eb6",
+    "provenance.json": "2ad6425defb6d7b2e4f3010c079036efb54aa371fef5b968d702b4cda95f4cc8",
+    "snapshot_content.json": "67292179f70ca9a9a5a7793b672423a99ac1a24d79959375170e1361a55a84f7"
+  },
+  "content_digest": "c64b63d597a1de62032df40572aec3b4be1d6f4709610607b498dc9bf51e057f",
+  "created_at": "2026-09-27T08:18:23.841847+00:00",
+  "evidence_digest": "ff4d3c2e8b5e4d580c0ae04c54a0ba1d90aa14ac15c08e9ff8f0a23136ecb033",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "1a1a79cef3fd4eb4e8098c11568b9b7e2ba2b69d1c7ff88e67e8668c0b6e2c9b",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "2c130d2595cc59d07fca2f2c16408e139e81460bc646c47fe028c65e9ca15eaf",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "migu",
+  "snapshot_id": "snap-migu-2c130d2595cc59d07fca2f2c",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

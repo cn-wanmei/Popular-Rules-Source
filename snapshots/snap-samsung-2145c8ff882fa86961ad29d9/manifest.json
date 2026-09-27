@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:26527be2e28bb0cd1d7bd0ca1dc6e5ebf94d114a7f4b58befdc212e7c315bd3b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-samsung-001-22f50ae4cfa1"
+      ],
+      "service_id": "samsung",
+      "type": "domain",
+      "value": "samsung.com"
+    },
+    {
+      "asset_id": "sha256:eb1f5a6f1483dc698b917b4d3b47ae2cfdbc269d8263d1168ffd611f75a297e5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-samsung-001-22f50ae4cfa1"
+      ],
+      "service_id": "samsung",
+      "type": "domain",
+      "value": "www.samsung.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "381dd936c4d77ad3e1311385daa36164185d78c1e2d7d4be438adc77dac15e2f",
+  "created_at": "2026-09-27T08:16:22.581089+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "samsung.com",
+      "www.samsung.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "samsung.com",
+    "www.samsung.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "22f50ae4cfa13c28633fc6c1384dd53c0c0905e2f8156a4f0c8e137c65ef4f11",
+      "domains_extracted": 2,
+      "evidence_id": "EV-samsung-001-22f50ae4cfa1",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.samsung.com/",
+      "retrieved_at": "1790496938767488579",
+      "service_id": "samsung",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.samsung.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "92f690eeef0a294b22f495a9ece894e8e4b76748c864c1aefb7bdf9ea18e505b",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "f42f80a28f976692389f5431d7cd61dbf8c5e7d56e36f2defb290a49e69f8d9e",
+  "previous_domain_count": 0,
+  "release_digest": "2145c8ff882fa86961ad29d9b7917cb17677b34eb33d2effb0fd384d8b8a7d1c",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "d6dc85a8ea08d2bb9980cfcdb5d4d92e0d256b5b93254d6312b37a8109429d70",
+  "service_id": "samsung",
+  "snapshot_content_sha256": "381dd936c4d77ad3e1311385daa36164185d78c1e2d7d4be438adc77dac15e2f",
+  "snapshot_id": "snap-samsung-2145c8ff882fa86961ad29d9",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.samsung.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

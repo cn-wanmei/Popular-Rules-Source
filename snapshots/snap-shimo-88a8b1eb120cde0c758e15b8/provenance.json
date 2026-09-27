@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:1a1010d616a997feb40ee0094b3db2ec04af3484a63df7e08e3bceef86820988",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-shimo-001-3ec293d542ac"
+      ],
+      "service_id": "shimo",
+      "type": "domain",
+      "value": "shimo.im"
+    }
+  ],
+  "content_digest": "b2981f05be6dba9a5cabca2b6eb8cb05ed08777d47f8a53c779e72e7feb03037",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "3ec293d542ac587af625166b171a1130debed200cf12cf2f0b5d3226abc15fa8",
+      "domains_extracted": 1,
+      "evidence_id": "EV-shimo-001-3ec293d542ac",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://shimo.im/",
+      "retrieved_at": "1790497199694818503",
+      "service_id": "shimo",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://shimo.im/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "f2b25d2a1c94e0f72eaa5dcb7bf6ddc5a167c2c04ff4c69a328955daeedb51a1",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "b59641aa4b276c5f5cc77ac53855f6b36872833f5e3180f114c64858b5cc8d20",
+  "release_digest": "88a8b1eb120cde0c758e15b8baf985c093cc4633bf0039411b6590a5075ebfc6",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "shimo",
+  "snapshot_id": "snap-shimo-88a8b1eb120cde0c758e15b8",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

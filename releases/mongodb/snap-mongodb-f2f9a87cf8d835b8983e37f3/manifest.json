@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:1de137ea60e1238d78550b7aa0a8f2207ef2b37493e89f0cbbc7b9d1367bc273",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-mongodb-001-9cdde7746d8c"
+      ],
+      "service_id": "mongodb",
+      "type": "domain",
+      "value": "mongodb.com"
+    },
+    {
+      "asset_id": "sha256:0f0cd217b1e380aa6c6e64b6ef8c68857ade10c11b5c2147f59f1c3b8710b5fb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-mongodb-001-9cdde7746d8c"
+      ],
+      "service_id": "mongodb",
+      "type": "domain",
+      "value": "www.mongodb.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "d4eebf162f45aecde07228c6ef8f72bef3caa7bf1e3b09aef3bd9e4b022be5db",
+  "created_at": "2026-09-27T08:16:24.825646+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "mongodb.com",
+      "www.mongodb.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "mongodb.com",
+    "www.mongodb.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "9cdde7746d8c4348f3206643a293bca040ea3229df8529666836a2c8fbfd2752",
+      "domains_extracted": 2,
+      "evidence_id": "EV-mongodb-001-9cdde7746d8c",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.mongodb.com/",
+      "retrieved_at": "1790496930578424638",
+      "service_id": "mongodb",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.mongodb.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "d57342669ead0221074a616dc539a480e5be51fd58e0c9b6b33d960fd7db90e6",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "e608f49c0b02865904390d929c487f84ddf722d85ff2226a85b165a351896cf9",
+  "previous_domain_count": 0,
+  "release_digest": "f2f9a87cf8d835b8983e37f3fd7a652e8d55327ea162c71ad1411f5b9958dd2e",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "34845db2ff344f2167b7224ab6e07d43e5f2f45ef837d206560cf862258196a5",
+  "service_id": "mongodb",
+  "snapshot_content_sha256": "d4eebf162f45aecde07228c6ef8f72bef3caa7bf1e3b09aef3bd9e4b022be5db",
+  "snapshot_id": "snap-mongodb-f2f9a87cf8d835b8983e37f3",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.mongodb.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

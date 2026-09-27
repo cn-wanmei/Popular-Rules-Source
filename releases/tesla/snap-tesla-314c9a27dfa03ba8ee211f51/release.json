@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "6ebdbb807519be4367ea9bc914f05c776dc362c0504e354a6aa3cdb201da4903",
+    "manifest.json": "67ed39e3605bcf2614051672949135eaf76c82778a37c26d302c9751a1753e59",
+    "provenance.json": "668ec63f600fbd1e6fa1ffe7c201bf257f187960ccba4dfe8bc770c0bbaf05f1",
+    "snapshot_content.json": "1fb5cbf55fa620c2bbcdba3b18bb60df31909784b0f127a8e09e8c9e7683fa61"
+  },
+  "content_digest": "28e1c402dbeb6b5f0ed97e17f5b2a3e0560a0c8daade3b2c609502822efadd62",
+  "created_at": "2026-09-27T08:19:48.134653+00:00",
+  "evidence_digest": "c8aafac307c049c22ed68c2c1bbc558c42d6dcaec4c00103cf7069a3f05ced32",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "0b9529ba67b21b480877768ccb42db63321f972a3fe6f4ca24021dd056469ea2",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "314c9a27dfa03ba8ee211f51f50636bf81bb3396aab9b3c49c0d42df3a7dd9cc",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "tesla",
+  "snapshot_id": "snap-tesla-314c9a27dfa03ba8ee211f51",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:8e33eb3e32c4c9c97c116cf168666b395c2818fbc52a845456e8b3532c01850e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-arm-001-68d041ec6ebc"
+      ],
+      "service_id": "arm",
+      "type": "domain",
+      "value": "arm.com"
+    },
+    {
+      "asset_id": "sha256:8f1dd6d8cbee79ae66f3cdb8e25f4f28180b2bc922d602f7898f6ff0d024aa2e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-arm-001-68d041ec6ebc"
+      ],
+      "service_id": "arm",
+      "type": "domain",
+      "value": "www.arm.com"
+    }
+  ],
+  "content_digest": "ada36e2eb17b3d2023ed42e5721adb7a4d5dce8d3d4a85e9ed13878287df693d",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "68d041ec6ebcb268d56d5902161dda8751978fdb14c7d50bc9aa2d494710bc81",
+      "domains_extracted": 2,
+      "evidence_id": "EV-arm-001-68d041ec6ebc",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.arm.com/",
+      "retrieved_at": "1790497179885180117",
+      "service_id": "arm",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.arm.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "b87a466bb41ec12b741aa432570879d14d76e594f671e664380fe134f5f4a01b",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "5866badfc424bcd74729b455865a3103ec2a703722da31abd460b04556bf5328",
+  "release_digest": "09d5469ad7bdd751fb9b70ea179f02b4f40ff03163bc1aa794cc941520df57a1",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "arm",
+  "snapshot_id": "snap-arm-09d5469ad7bdd751fb9b70ea",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

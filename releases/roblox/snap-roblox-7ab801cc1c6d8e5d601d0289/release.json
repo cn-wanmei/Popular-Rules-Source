@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "78ec22e347f51777e3a904bcff00aedd73837f99196820e74d269c1df194420c",
+    "manifest.json": "0ee43d42bdfc33f94e607adc9e2eb96f3e589f510bde6786aea9e1d275d06159",
+    "provenance.json": "a1e83d31d6d69fa41667a3a0104004c9760c63574481c4d1eb8ccf67900b13f6",
+    "snapshot_content.json": "514edd4f6bc3f632ec5dc8358973a4b29b4f3aa1ccb3240a29adfbe69f9ff118"
+  },
+  "content_digest": "45af99014ad0d13e734fffe512d9f678ef36b5a5e4bc0805329d60256c984d2a",
+  "created_at": "2026-09-27T08:19:57.241053+00:00",
+  "evidence_digest": "952d93a71378a5ca888f8305c3c04e26db9abf14f979b530aee65903d85eb687",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "7ab801cc1c6d8e5d601d02896371c06ae0a767172d0a006077d77d71320e7e28",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "roblox",
+  "snapshot_id": "snap-roblox-7ab801cc1c6d8e5d601d0289",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 1.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

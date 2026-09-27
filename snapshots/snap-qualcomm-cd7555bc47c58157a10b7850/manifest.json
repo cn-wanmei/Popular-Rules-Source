@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:716c60b6c36bef59a1860ba368f05f569e64522cb9068f5c3f3eb0073ffd035d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qualcomm-001-04707364b0b4"
+      ],
+      "service_id": "qualcomm",
+      "type": "domain",
+      "value": "qualcomm.com"
+    },
+    {
+      "asset_id": "sha256:e8806d0b9bd33ca688ee92081de4c85a9d55c54c3210cd36002fc4c6968fc784",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qualcomm-001-04707364b0b4"
+      ],
+      "service_id": "qualcomm",
+      "type": "domain",
+      "value": "www.qualcomm.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "2d276cdfca3c204fd7a464f4bcb80c533f887425dd2ba437e6ad62fdbf211f26",
+  "created_at": "2026-09-27T08:20:51.680644+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "qualcomm.com",
+      "www.qualcomm.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "qualcomm.com",
+    "www.qualcomm.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "04707364b0b4179d92739c1fb0ac1fc99e229731747f10c274b3d9366f9420c1",
+      "domains_extracted": 2,
+      "evidence_id": "EV-qualcomm-001-04707364b0b4",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.qualcomm.com/",
+      "retrieved_at": "1790497211971718260",
+      "service_id": "qualcomm",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.qualcomm.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "ff3a9bbdbdf66f046c97ded1f3e442fe23f591bdd6ed9a171abb757f0a0c1288",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "92fc6de4f34dd3b26568a0d2445e4e56551aee86c21b9154f3f30ce36b820578",
+  "previous_domain_count": 0,
+  "release_digest": "cd7555bc47c58157a10b785015cac08630703838e93a96fd52513f03be63be12",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "374a7b54de643a568acdb190b0eca1fcfd861c2f0e9db2990a8b60ea7e690cee",
+  "service_id": "qualcomm",
+  "snapshot_content_sha256": "2d276cdfca3c204fd7a464f4bcb80c533f887425dd2ba437e6ad62fdbf211f26",
+  "snapshot_id": "snap-qualcomm-cd7555bc47c58157a10b7850",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.qualcomm.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

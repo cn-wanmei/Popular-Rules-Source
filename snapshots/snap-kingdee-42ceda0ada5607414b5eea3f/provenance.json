@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:5d99628665f67db8be061f6b61a2e9ca0d1a18119c9912b0107684cf274d4d62",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-kingdee-001-86c867e8242f"
+      ],
+      "service_id": "kingdee",
+      "type": "domain",
+      "value": "kingdee.com"
+    },
+    {
+      "asset_id": "sha256:adf9779c2efe244852881e8eb00a6c0b4f2a84224675d6cbfee1b1d9bb796c95",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-kingdee-001-86c867e8242f"
+      ],
+      "service_id": "kingdee",
+      "type": "domain",
+      "value": "www.kingdee.com"
+    }
+  ],
+  "content_digest": "b8ea528213e54f868aa424b42e6041f6ba6a0bdee1c0b4dfd6ad7b946473b820",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "86c867e8242f99e04eb3a745bdc58591af14824c2e0ece96fa76a586a2ad9b40",
+      "domains_extracted": 2,
+      "evidence_id": "EV-kingdee-001-86c867e8242f",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.kingdee.com/",
+      "retrieved_at": "1790497213977403014",
+      "service_id": "kingdee",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.kingdee.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "c864fd91cbd4d0e9f37258f30a431ab22b2df20d10e6c13c51501d07b297fe5e",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "2e590f3194b86d1eff3e9bbd2efbaf90273be4d072633df3c96c0184c3dd9228",
+  "release_digest": "42ceda0ada5607414b5eea3ff6fb21f4a7fad2b32dda783985faf3f32be2a4f8",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "kingdee",
+  "snapshot_id": "snap-kingdee-42ceda0ada5607414b5eea3f",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:7f490a6d2809179a668f3e53c5358b5a24eb46b3b496c3d9422f8836001e37dc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-sfexpress-001-f04276e1f2e6"
+      ],
+      "service_id": "sfexpress",
+      "type": "domain",
+      "value": "sf-express.com"
+    },
+    {
+      "asset_id": "sha256:3bd2ee1ef3202cd8fa5a79decd80bc36d3c604cbfcbf1aa4c946b10fb8ef6be2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-sfexpress-001-f04276e1f2e6"
+      ],
+      "service_id": "sfexpress",
+      "type": "domain",
+      "value": "www.sf-express.com"
+    }
+  ],
+  "content_digest": "aee65a436592be920077e49c953faca5a1bf1293607033a340c6079c70e932a4",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "f04276e1f2e656fb3485d7409835c3bdf1949caee450d45e5bd2099e76098ce7",
+      "domains_extracted": 2,
+      "evidence_id": "EV-sfexpress-001-f04276e1f2e6",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.sf-express.com/",
+      "retrieved_at": "1790497145623220817",
+      "service_id": "sfexpress",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.sf-express.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "9046a31c16d1e35c126d55a2c60827cf134f02594505b56484220b85a2d8e66a",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "1a370c30d2a669c6f8f2d2147546793f420bc99147eab74de69a13d8802b33ac",
+  "release_digest": "a5cd2546c841102ce8e7b4d2906e67e22a6628fb4081b7d7fa9bd13de8c9b7bb",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "sfexpress",
+  "snapshot_id": "snap-sfexpress-a5cd2546c841102ce8e7b4d2",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

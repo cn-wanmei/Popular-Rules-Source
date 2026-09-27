@@ -1,0 +1,14 @@
+{
+  "content_digest": "1ad4d7879527558bbf201777ec3c8e3900eed7a6341c092e22e90248dbf15ed6",
+  "domains": [
+    "chatglm.cn",
+    "www.zhipuai.cn",
+    "zhipuai.cn"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "zhipu",
+  "source_hashes": [
+    "3727dd65989bd7dd28c1c63b8792c8c757029c82d6a69fc398e065a3686d8cc3"
+  ]
+}

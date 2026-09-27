@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:58f91b1060cf1f4a05de434c3ad33ad7630761e7d2648fe0e432ebf9d3a8cda3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-migu-001-b901a202dd35"
+      ],
+      "service_id": "migu",
+      "type": "domain",
+      "value": "migu.cn"
+    },
+    {
+      "asset_id": "sha256:62beeef2f834ad9442624a591385c727590ac6b0eabe3906850c97afaecea342",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-migu-001-b901a202dd35"
+      ],
+      "service_id": "migu",
+      "type": "domain",
+      "value": "www.migu.cn"
+    }
+  ],
+  "content_digest": "c64b63d597a1de62032df40572aec3b4be1d6f4709610607b498dc9bf51e057f",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "b901a202dd35ebc6b1735a7234019d170e69ce6017bcebb2c85b5d5f0be8b47a",
+      "domains_extracted": 2,
+      "evidence_id": "EV-migu-001-b901a202dd35",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.migu.cn/",
+      "retrieved_at": "1790497029995898854",
+      "service_id": "migu",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.migu.cn/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "ff4d3c2e8b5e4d580c0ae04c54a0ba1d90aa14ac15c08e9ff8f0a23136ecb033",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "1a1a79cef3fd4eb4e8098c11568b9b7e2ba2b69d1c7ff88e67e8668c0b6e2c9b",
+  "release_digest": "2c130d2595cc59d07fca2f2c16408e139e81460bc646c47fe028c65e9ca15eaf",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "migu",
+  "snapshot_id": "snap-migu-2c130d2595cc59d07fca2f2c",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

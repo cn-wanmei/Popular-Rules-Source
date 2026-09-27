@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "07718686759247c10321e07fb9e2c5baf9075545c744a8a59cc1d9aa97550d0d",
+    "manifest.json": "7ed80835c2a2ca8266a296c3ddc2e359672a8f74a7b2c9b6635e581448b70cbf",
+    "provenance.json": "5c44ca2731eb87dcfada50db74d801f73cae169d88c80779cca526799c9869a6",
+    "snapshot_content.json": "255d39c943ce6b92a42ea359ab109cd74fb87784626500eac91daf02a9b7401f"
+  },
+  "content_digest": "cc2ea1bf538c3be3016f7dc14cf8ec6431486b94397cd5e8dbf75e2a758b5efe",
+  "created_at": "2026-09-27T08:21:29.649298+00:00",
+  "evidence_digest": "b62d643d45ff7de21521e398665669c1faa223deb7a6b427f60fed31090971a8",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "3b39ab18afb0698102a3c5187aa48741aeaec7c1a7fab31036f05666725d3a5b",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "755cb28a74f87d97853dc2056ba7623e2164d48cafd70c94b74fbb26d7b72d95",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "temu",
+  "snapshot_id": "snap-temu-755cb28a74f87d97853dc205",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "11902f0f96b69b0738be754bb30155887f5ae51f5d83a957bfdfab3b670437bc",
+    "manifest.json": "b36dc37d41d190f1a3210eafe920cc64f9d17e3a2504a373ece4487e640053b3",
+    "provenance.json": "19055f2ab0578ce80de625cf7cd7d2210c15b314de8357fb01645eb54c8f6506",
+    "snapshot_content.json": "960871ef078a03e4ec6f9da7f5235779e78fb463db2b4f6316af7e6dc57d5c9e"
+  },
+  "content_digest": "d93b12855f0fa139e596f9c81ad671e02aeb2c026182595b8ff2fd51d15c5275",
+  "created_at": "2026-09-27T08:20:56.543600+00:00",
+  "evidence_digest": "359989f2b77f3cf130dbb761efbfbe35b215747d35e1a7d3d2ef621875d7b332",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "fbd6f91ffb2fe55d024ee8555ac116ca1ae42248efa8700810157a6daa262958",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "5e58fc10ac5e533519bfa88cc59893e1c2a0cf385ad7bb12f9885c1ae7ad614c",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "snowflake",
+  "snapshot_id": "snap-snowflake-5e58fc10ac5e533519bfa88c",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

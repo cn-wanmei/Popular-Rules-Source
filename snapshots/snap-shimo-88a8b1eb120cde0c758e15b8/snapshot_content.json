@@ -1,0 +1,12 @@
+{
+  "content_digest": "b2981f05be6dba9a5cabca2b6eb8cb05ed08777d47f8a53c779e72e7feb03037",
+  "domains": [
+    "shimo.im"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "shimo",
+  "source_hashes": [
+    "3ec293d542ac587af625166b171a1130debed200cf12cf2f0b5d3226abc15fa8"
+  ]
+}

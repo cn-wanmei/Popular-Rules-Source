@@ -1,0 +1,67 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:40aa7de9cb5a9efed189c7f86cbf06cf020e0f604f869f6b46a4027b2bb7d667",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-zhipu-001-3727dd65989b"
+      ],
+      "service_id": "zhipu",
+      "type": "domain",
+      "value": "chatglm.cn"
+    },
+    {
+      "asset_id": "sha256:5d2ef40e171e931b4602f784263c668eaec0c280e2798b504252334f85b28996",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-zhipu-001-3727dd65989b"
+      ],
+      "service_id": "zhipu",
+      "type": "domain",
+      "value": "www.zhipuai.cn"
+    },
+    {
+      "asset_id": "sha256:8d26250e351ac8811881bec1cf93f010f287fb7b15c7fb8ad525ff241a38a61d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-zhipu-001-3727dd65989b"
+      ],
+      "service_id": "zhipu",
+      "type": "domain",
+      "value": "zhipuai.cn"
+    }
+  ],
+  "content_digest": "1ad4d7879527558bbf201777ec3c8e3900eed7a6341c092e22e90248dbf15ed6",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "3727dd65989bd7dd28c1c63b8792c8c757029c82d6a69fc398e065a3686d8cc3",
+      "domains_extracted": 3,
+      "evidence_id": "EV-zhipu-001-3727dd65989b",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.zhipuai.cn/",
+      "retrieved_at": "1790496993280989324",
+      "service_id": "zhipu",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.zhipuai.cn/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "74a07bbca8c8cfa6b4cbdb5be419ad892e0de3a2b6828fd806c266d1d7379c11",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "c4a609ff1da13f8a67c54fcaf5b98ac098714e5dd17df6e4ebfc89ad6269d91c",
+  "release_digest": "b777d801e25dcde103be641475904c4682baba5e0ea08c00e7c0f1cfca10bc70",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "zhipu",
+  "snapshot_id": "snap-zhipu-b777d801e25dcde103be6414",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

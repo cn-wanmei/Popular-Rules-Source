@@ -1,0 +1,13 @@
+{
+  "content_digest": "749c453ade49cf99fae74d78ea0be13b4b546e6cf09c9cf95e68c29cdee7ddb6",
+  "domains": [
+    "twilio.com",
+    "www.twilio.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "twilio",
+  "source_hashes": [
+    "9696eb575ef3191f228feb38641d728df2a0a3e9f90364b512b80728b69abf68"
+  ]
+}

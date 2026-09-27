@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:26527be2e28bb0cd1d7bd0ca1dc6e5ebf94d114a7f4b58befdc212e7c315bd3b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-samsung-001-22f50ae4cfa1"
+      ],
+      "service_id": "samsung",
+      "type": "domain",
+      "value": "samsung.com"
+    },
+    {
+      "asset_id": "sha256:eb1f5a6f1483dc698b917b4d3b47ae2cfdbc269d8263d1168ffd611f75a297e5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-samsung-001-22f50ae4cfa1"
+      ],
+      "service_id": "samsung",
+      "type": "domain",
+      "value": "www.samsung.com"
+    }
+  ],
+  "content_digest": "381dd936c4d77ad3e1311385daa36164185d78c1e2d7d4be438adc77dac15e2f",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "22f50ae4cfa13c28633fc6c1384dd53c0c0905e2f8156a4f0c8e137c65ef4f11",
+      "domains_extracted": 2,
+      "evidence_id": "EV-samsung-001-22f50ae4cfa1",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.samsung.com/",
+      "retrieved_at": "1790496938767488579",
+      "service_id": "samsung",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.samsung.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "92f690eeef0a294b22f495a9ece894e8e4b76748c864c1aefb7bdf9ea18e505b",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "f42f80a28f976692389f5431d7cd61dbf8c5e7d56e36f2defb290a49e69f8d9e",
+  "release_digest": "2145c8ff882fa86961ad29d9b7917cb17677b34eb33d2effb0fd384d8b8a7d1c",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "samsung",
+  "snapshot_id": "snap-samsung-2145c8ff882fa86961ad29d9",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

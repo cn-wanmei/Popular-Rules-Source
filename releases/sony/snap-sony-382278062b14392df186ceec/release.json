@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "6843441a3933e8ac88a0d3aeba2cade3be4b79089f15e8433b91b69cc4ff8cec",
+    "manifest.json": "d3100ef0cfa5d7507ec682cf9d590b2c0ed28374d6188833c6395ebdb3919a85",
+    "provenance.json": "e2b245ead598df30a8686f065da622668303291a1c9a7dad62296750e3630ed3",
+    "snapshot_content.json": "20d9605848bf5fc9b1f2735cf694203473a842e17968a993347f3df289e35bc4"
+  },
+  "content_digest": "062cba034d27b22ef27e6ced4f221f472080cf9a1a50ee82cd9a2d1db899235a",
+  "created_at": "2026-09-27T08:19:50.747441+00:00",
+  "evidence_digest": "dfebfb281d627e968eb6093da0104c94443fb7c30e2ce8726ad859d7088521b9",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "aa64ff40686c21d86c57e9ca02a2f9e3f4541765477b1d45233bd7f1d4fdc22a",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "382278062b14392df186ceec3fd13f997d66c231fd3cbbe6de15f3d56151d3bb",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "sony",
+  "snapshot_id": "snap-sony-382278062b14392df186ceec",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

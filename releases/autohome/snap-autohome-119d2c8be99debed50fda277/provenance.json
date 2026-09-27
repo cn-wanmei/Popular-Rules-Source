@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:1ed25a9bb1966a8c61f5697da84de02b828c489ed799d8b9e0f066c3ba458ac2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-autohome-001-d578b54f26ed"
+      ],
+      "service_id": "autohome",
+      "type": "domain",
+      "value": "autohome.com.cn"
+    },
+    {
+      "asset_id": "sha256:da805c5c51ba1bd59543a56fe5a767de6bfa72b70aa13ecdbc3a7dcc2235728e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-autohome-001-d578b54f26ed"
+      ],
+      "service_id": "autohome",
+      "type": "domain",
+      "value": "www.autohome.com.cn"
+    }
+  ],
+  "content_digest": "6c2c0ded6b1b0b65628cd9f147b4df4cf32c1179aa58f503d74bc665e910021d",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "d578b54f26ed0aa87364a97c912b544572309c718804c4a846770c85a3a9dd68",
+      "domains_extracted": 2,
+      "evidence_id": "EV-autohome-001-d578b54f26ed",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.autohome.com.cn/",
+      "retrieved_at": "1790496896427128036",
+      "service_id": "autohome",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.autohome.com.cn/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "0ff032ac520192123c23a5be6febf3a54cee5aa424ef88fb38c17cbea05c36c4",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "412816a92806880d2f469279118f2df8e701903c580caf494467f040ef2cbe70",
+  "release_digest": "119d2c8be99debed50fda277df6223f780d5774537c04e252c9e691f65647728",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "autohome",
+  "snapshot_id": "snap-autohome-119d2c8be99debed50fda277",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

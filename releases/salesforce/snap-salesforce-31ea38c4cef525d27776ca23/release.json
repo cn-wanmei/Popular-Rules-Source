@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "018dd519b54c1ab4f280f7639922c300e8cc0298f2243dcccc8c51578643a7a7",
+    "manifest.json": "28e4dd54f4ed4efffc51f896786bd85a93c2d5723938e67c0399b9f95287cb41",
+    "provenance.json": "722dbaba1ee6888905a1976e66b00730f2b23565b8475055e266e03aa2c93476",
+    "snapshot_content.json": "b2d7c0ee98ad2ccf4ae29914407c82528f1e142c7a29adbb23023ad305ee94c4"
+  },
+  "content_digest": "8969fcf7772c31b52c2464fde6a91e6d0802456c6459b7473b808b87f44b53d4",
+  "created_at": "2026-09-27T08:20:03.318227+00:00",
+  "evidence_digest": "72b470998c371eb10dd6ab2b3df2f8d05e2de5adcbaa35019a7424ee78502a5d",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "7c13138e8fb0e7068f118a6b01fcbbd55cfe8ce4af2e6cae01dd7a0ad07ca504",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "31ea38c4cef525d27776ca237cd083d706dbda1a3d3d652916ffee1b719ac73e",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "salesforce",
+  "snapshot_id": "snap-salesforce-31ea38c4cef525d27776ca23",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

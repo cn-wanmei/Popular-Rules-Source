@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:c0c650ed7058c3f23de7114884379ef6f9ec5a1b8b30856dbf7bf0eeee27dcb3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-amd-001-d54799c928dc"
+      ],
+      "service_id": "amd",
+      "type": "domain",
+      "value": "amd.com"
+    },
+    {
+      "asset_id": "sha256:ed49be8954d0cdd92c7d4fdcb07f07074898018d654b093f8e010399ec83eeba",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-amd-001-d54799c928dc"
+      ],
+      "service_id": "amd",
+      "type": "domain",
+      "value": "www.amd.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "b93b3dc065448185f4e839e85cd033c96f1a3a5f89bfc31578b694dcf91419d5",
+  "created_at": "2026-09-27T08:19:29.907793+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "amd.com",
+      "www.amd.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "amd.com",
+    "www.amd.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "d54799c928dc89afdaab60d2b9f24d840cb25fabf784e6e46951a812219332ce",
+      "domains_extracted": 2,
+      "evidence_id": "EV-amd-001-d54799c928dc",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.amd.com/",
+      "retrieved_at": "1790497115658172714",
+      "service_id": "amd",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.amd.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "d6295761ec8f09e5b7bde8e2b855fb8a9dfd2e4a3852c62378e656915db98382",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "3ffc57a28269bf19c59d53f8e0e99bbee5294e22a8001335262d60a9bfc9f4f6",
+  "previous_domain_count": 0,
+  "release_digest": "d39c5ad3a11f464cc588c7f697f7563a0ce1aff1b4689cd9eccd81e2cdcedc00",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "b940b2187ba4e03ed154fd603bc1d58931a36ce05b08ef444bc8db336069c7f9",
+  "service_id": "amd",
+  "snapshot_content_sha256": "b93b3dc065448185f4e839e85cd033c96f1a3a5f89bfc31578b694dcf91419d5",
+  "snapshot_id": "snap-amd-d39c5ad3a11f464cc588c7f6",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.amd.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

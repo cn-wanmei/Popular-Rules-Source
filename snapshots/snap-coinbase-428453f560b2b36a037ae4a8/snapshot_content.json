@@ -1,0 +1,13 @@
+{
+  "content_digest": "ed8c68aa5fea5b60e2abf0f8c1a998e786a8e9cceda630b862afbf8a386491b9",
+  "domains": [
+    "coinbase.com",
+    "www.coinbase.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "coinbase",
+  "source_hashes": [
+    "646cdddca3350823e8e36a718020f79212cf7481a107ad2f4f9deec018f75e4c"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "content_digest": "b8ea528213e54f868aa424b42e6041f6ba6a0bdee1c0b4dfd6ad7b946473b820",
+  "domains": [
+    "kingdee.com",
+    "www.kingdee.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "kingdee",
+  "source_hashes": [
+    "86c867e8242f99e04eb3a745bdc58591af14824c2e0ece96fa76a586a2ad9b40"
+  ]
+}

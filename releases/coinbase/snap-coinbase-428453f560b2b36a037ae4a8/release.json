@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "87d58835cc03ef4274560f8e3578422c6dfb9993b98083c8229ad1d13eb13a3e",
+    "manifest.json": "6d78836b9c237d3214ab9982470004e8e75e03d9721c82b041721c7900c4937a",
+    "provenance.json": "2324aa84c68a1a8fb7f8d016f1f1a670d336e195612582432d30e1fe527e0bd6",
+    "snapshot_content.json": "c8d8208354d4d7f2d84e0a57a2e556d5956631540fecd3ba95f5220f46d35b93"
+  },
+  "content_digest": "ed8c68aa5fea5b60e2abf0f8c1a998e786a8e9cceda630b862afbf8a386491b9",
+  "created_at": "2026-09-27T08:19:55.529233+00:00",
+  "evidence_digest": "b1eb51325295036d76ce6fa2b7c6f1368854a1e44be78cabf2b236a8ec6bbc3b",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "9ba48bf3edb163ec6c4eeab005a4429e0b5195db4304ec7c4c9c597ec243d9f8",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "428453f560b2b36a037ae4a8cfcda1cca878b182fafea25bf8f0a50cf55c0810",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "coinbase",
+  "snapshot_id": "snap-coinbase-428453f560b2b36a037ae4a8",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

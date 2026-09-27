@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:fab3f14fcf6a43d4935fb246b65fe72752a4e252d4c702ddffb7ca07e09741db",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-sap-001-01ca4fac6892"
+      ],
+      "service_id": "sap",
+      "type": "domain",
+      "value": "sap.com"
+    },
+    {
+      "asset_id": "sha256:05e3eeea4c66dec654342cdb924a8885588bc9f4e4a3e2edb785240c1745c47c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-sap-001-01ca4fac6892"
+      ],
+      "service_id": "sap",
+      "type": "domain",
+      "value": "www.sap.com"
+    }
+  ],
+  "content_digest": "70ad9a6da1a28e5c6351c09eec33edda0707773b856dd9016413e0092dae6d2a",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "01ca4fac68925ca722313e9bb434a10185ef311a72c57cfed072b8c55871b9a4",
+      "domains_extracted": 2,
+      "evidence_id": "EV-sap-001-01ca4fac6892",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.sap.com/",
+      "retrieved_at": "1790497117145915751",
+      "service_id": "sap",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.sap.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "4a2f2c12e8871785279cd18e0787a4e54b42fd2724bf7f463923fc3c66aa36ec",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "2800d047e9ec40f101412eaf1a2c3dee8ca99678b286ed6538fa490d955f0d61",
+  "release_digest": "f44a3acab908f192ae52c5ac3c51ee7973c3f2eff00658704eb643e4bc77f0ce",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "sap",
+  "snapshot_id": "snap-sap-f44a3acab908f192ae52c5ac",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "6c714011a96c7ea65a24b8de16775b72ec3fd35c97173fd241a47024944d5dca",
+    "manifest.json": "ce35b78e8337850d4c91524ef0d49c40d7e207329704b111e9e5daeceb6f37b3",
+    "provenance.json": "bd1dd770a966ae329e577aeaf84350722024c8979e63bbdb6f2aa75666e327fc",
+    "snapshot_content.json": "ba7e10ea486473c77589b3a393c6190f8c24be34269420e1738ab19376e692d6"
+  },
+  "content_digest": "fda11818097cd2ea7cec92886c6d6f3c6a96500da3cc6942f22f4187718f3242",
+  "created_at": "2026-09-27T08:16:26.114990+00:00",
+  "evidence_digest": "af4116fa790dce5bd24961834fd638e36c6046b0c314c34ffc0fe2e2213d83f3",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "67fb163985a3fa332953cf105be039b9888dadb1c8a5329f60fc873bb0783b9f",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "4efe816c7539950150d3efde6de14f20f45dc35d25821967146c204286840022",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "iflytek",
+  "snapshot_id": "snap-iflytek-4efe816c7539950150d3efde",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

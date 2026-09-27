@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:7f3c140bbb6b237f628f43d6817ef2b432dc92b63f76f3de998dcf6c1db58e4c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-yonyou-001-c79544d8c7e0"
+      ],
+      "service_id": "yonyou",
+      "type": "domain",
+      "value": "www.yonyou.com"
+    },
+    {
+      "asset_id": "sha256:0544799a77aabb878b1152cc3d02f49faeb8fdfc5d7f82b136c5c725e18070b7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-yonyou-001-c79544d8c7e0"
+      ],
+      "service_id": "yonyou",
+      "type": "domain",
+      "value": "yonyou.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "836674842b329d8cab2acef215c4373cdd3ddbda01fa8f1f61986f8676d2d2c6",
+  "created_at": "2026-09-27T08:20:56.280679+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "www.yonyou.com",
+      "yonyou.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "www.yonyou.com",
+    "yonyou.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "c79544d8c7e06091e430ebfa56820222b2eb56d7b08bde4f6a90d31097460ae3",
+      "domains_extracted": 2,
+      "evidence_id": "EV-yonyou-001-c79544d8c7e0",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.yonyou.com/",
+      "retrieved_at": "1790497201652534023",
+      "service_id": "yonyou",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.yonyou.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "1a051374113c18f0b31b2d53e81491229b8f1ab3dde5de1e2e8d2a9b8ca142e0",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "45c3c0ff12c8e607d50a0220d63aa06cf8570aab11750f4515ecf0dee2947780",
+  "previous_domain_count": 0,
+  "release_digest": "86528b8d7bffa51440d11b83537dbeab994fb7df18e66c65323a6b46db8b1712",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "61ea21a6f6ab8f6bd99739b5b273cb7a4e57f734829fdeb9fcfefa6274314e21",
+  "service_id": "yonyou",
+  "snapshot_content_sha256": "836674842b329d8cab2acef215c4373cdd3ddbda01fa8f1f61986f8676d2d2c6",
+  "snapshot_id": "snap-yonyou-86528b8d7bffa51440d11b83",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.yonyou.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

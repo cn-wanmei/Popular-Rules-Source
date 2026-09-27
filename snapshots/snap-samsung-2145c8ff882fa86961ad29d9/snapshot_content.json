@@ -1,0 +1,13 @@
+{
+  "content_digest": "381dd936c4d77ad3e1311385daa36164185d78c1e2d7d4be438adc77dac15e2f",
+  "domains": [
+    "samsung.com",
+    "www.samsung.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "samsung",
+  "source_hashes": [
+    "22f50ae4cfa13c28633fc6c1384dd53c0c0905e2f8156a4f0c8e137c65ef4f11"
+  ]
+}

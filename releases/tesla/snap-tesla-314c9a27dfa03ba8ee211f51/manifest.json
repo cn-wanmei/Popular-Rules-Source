@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:2641c8cd9423ca2819d50ac0945ef3a2fb03d91f8016b5eee66809b4b17f9553",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tesla-001-63680d3d9a2f"
+      ],
+      "service_id": "tesla",
+      "type": "domain",
+      "value": "tesla.com"
+    },
+    {
+      "asset_id": "sha256:b5e54352229bb6c7013f1bc6ff300212f4e9094bc08b329839d0f509289327c4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tesla-001-63680d3d9a2f"
+      ],
+      "service_id": "tesla",
+      "type": "domain",
+      "value": "www.tesla.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "28e1c402dbeb6b5f0ed97e17f5b2a3e0560a0c8daade3b2c609502822efadd62",
+  "created_at": "2026-09-27T08:19:16.456732+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "tesla.com",
+      "www.tesla.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "tesla.com",
+    "www.tesla.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "63680d3d9a2f158ffd98d81717456b3efd2734ee25799e957237f2db73f2ff40",
+      "domains_extracted": 2,
+      "evidence_id": "EV-tesla-001-63680d3d9a2f",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.tesla.com/",
+      "retrieved_at": "1790497101624724479",
+      "service_id": "tesla",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.tesla.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "c8aafac307c049c22ed68c2c1bbc558c42d6dcaec4c00103cf7069a3f05ced32",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "0b9529ba67b21b480877768ccb42db63321f972a3fe6f4ca24021dd056469ea2",
+  "previous_domain_count": 0,
+  "release_digest": "314c9a27dfa03ba8ee211f51f50636bf81bb3396aab9b3c49c0d42df3a7dd9cc",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "1367d405cea781628285b706ec090686727b511fc7e9fa13cf57794b1ab2eb09",
+  "service_id": "tesla",
+  "snapshot_content_sha256": "28e1c402dbeb6b5f0ed97e17f5b2a3e0560a0c8daade3b2c609502822efadd62",
+  "snapshot_id": "snap-tesla-314c9a27dfa03ba8ee211f51",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.tesla.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

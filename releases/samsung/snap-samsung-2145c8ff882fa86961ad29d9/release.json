@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "9c71cc61076cf9993d3b3da9c7942ae9e86a2bb0eae76d6672cbea6db0475620",
+    "manifest.json": "fd5158812e325e76ca8fa4b145fee7753b177466fd58effff11f9eda25acf16a",
+    "provenance.json": "9a2efebdc35c8c50d43b8cac21d53f39dba67708c0692c902a1221a95214bc72",
+    "snapshot_content.json": "226ec34aa93964bba4ef96172807aa394c80cd9c06eebd814d529b8c00c3237d"
+  },
+  "content_digest": "381dd936c4d77ad3e1311385daa36164185d78c1e2d7d4be438adc77dac15e2f",
+  "created_at": "2026-09-27T08:16:40.768739+00:00",
+  "evidence_digest": "92f690eeef0a294b22f495a9ece894e8e4b76748c864c1aefb7bdf9ea18e505b",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "f42f80a28f976692389f5431d7cd61dbf8c5e7d56e36f2defb290a49e69f8d9e",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "2145c8ff882fa86961ad29d9b7917cb17677b34eb33d2effb0fd384d8b8a7d1c",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "samsung",
+  "snapshot_id": "snap-samsung-2145c8ff882fa86961ad29d9",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

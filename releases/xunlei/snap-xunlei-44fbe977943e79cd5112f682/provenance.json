@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:8555864aa79e1e8a67f8e3ee82f6851cc622a49ddedaf37049d5e0397f026471",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-xunlei-001-b1d00eddab7f"
+      ],
+      "service_id": "xunlei",
+      "type": "domain",
+      "value": "www.xunlei.com"
+    },
+    {
+      "asset_id": "sha256:3f22b10ab63931cb7c16d594fb94c91bd2cdc41ec7d123ebced37ba881281e01",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-xunlei-001-b1d00eddab7f"
+      ],
+      "service_id": "xunlei",
+      "type": "domain",
+      "value": "xunlei.com"
+    }
+  ],
+  "content_digest": "6931319899a74a9ba7248604f8507fb2da715f93ab8dbeca1398bcd1badc5598",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "b1d00eddab7f72fd30c467c51c2ce9538e661a031739d3ff04598e45a67cd7a5",
+      "domains_extracted": 2,
+      "evidence_id": "EV-xunlei-001-b1d00eddab7f",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.xunlei.com/",
+      "retrieved_at": "1790497223280037745",
+      "service_id": "xunlei",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.xunlei.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "5bb92e5e69a5de0159d93c98ce195e5c39957f3c4cf54ffdd374f5a53f49ede6",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "db4941409d6786acd3be25764af341a1e102f4e6f752c50c9e9d935d3f4c9a1d",
+  "release_digest": "44fbe977943e79cd5112f6824a43bb56e05509057f01021c79ea1da84c1b3ecc",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "xunlei",
+  "snapshot_id": "snap-xunlei-44fbe977943e79cd5112f682",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

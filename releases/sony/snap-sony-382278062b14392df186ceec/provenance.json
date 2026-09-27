@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:5259f6f5c891dd38c7df278e486fb375accfa21fb0ab9079dc22d68a64264913",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-sony-001-db8e334d9f1e"
+      ],
+      "service_id": "sony",
+      "type": "domain",
+      "value": "sony.com"
+    },
+    {
+      "asset_id": "sha256:5a6c17495f21cd51efb33e65707b71fa17be733d57076da4556ee404e6564502",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-sony-001-db8e334d9f1e"
+      ],
+      "service_id": "sony",
+      "type": "domain",
+      "value": "www.sony.com"
+    }
+  ],
+  "content_digest": "062cba034d27b22ef27e6ced4f221f472080cf9a1a50ee82cd9a2d1db899235a",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "db8e334d9f1e05bdea4e4c4eb47d4bced23f8b0161de2ae8e9756cf23aee70cf",
+      "domains_extracted": 2,
+      "evidence_id": "EV-sony-001-db8e334d9f1e",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.sony.com/",
+      "retrieved_at": "1790497131683445598",
+      "service_id": "sony",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.sony.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "dfebfb281d627e968eb6093da0104c94443fb7c30e2ce8726ad859d7088521b9",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "aa64ff40686c21d86c57e9ca02a2f9e3f4541765477b1d45233bd7f1d4fdc22a",
+  "release_digest": "382278062b14392df186ceec3fd13f997d66c231fd3cbbe6de15f3d56151d3bb",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "sony",
+  "snapshot_id": "snap-sony-382278062b14392df186ceec",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

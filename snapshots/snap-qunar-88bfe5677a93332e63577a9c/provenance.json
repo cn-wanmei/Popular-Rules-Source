@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:77bb1d7c5950b639f955474e84bcf2bb77527da6b43ad024f93fbc232c019f7e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qunar-001-b04584c76e55"
+      ],
+      "service_id": "qunar",
+      "type": "domain",
+      "value": "qunar.com"
+    },
+    {
+      "asset_id": "sha256:173aebb989962ca3f09ab25547042d9dfd2ba9cfc332c179b007a8c7fddd120b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qunar-001-b04584c76e55"
+      ],
+      "service_id": "qunar",
+      "type": "domain",
+      "value": "www.qunar.com"
+    }
+  ],
+  "content_digest": "01ab13cc7f4f98a247f8611acc0dde890e52e279579ee351b358141e797d18dc",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "b04584c76e55b0c131a393d1ae01d8ec926394fdb5efec043178281a4eeaac0c",
+      "domains_extracted": 2,
+      "evidence_id": "EV-qunar-001-b04584c76e55",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.qunar.com/",
+      "retrieved_at": "1790497126316410559",
+      "service_id": "qunar",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.qunar.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "6c53104cc521423caa3a788990df1c76c96cc094e1c515bda8221d2a8622bd65",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "ac75efb920030cf2287f274b8dae0cd5a5bdf0f30bc4eb47763541ad7dd833d5",
+  "release_digest": "88bfe5677a93332e63577a9cd034a402898cafaf40e5232304fb7b29df43d905",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "qunar",
+  "snapshot_id": "snap-qunar-88bfe5677a93332e63577a9c",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

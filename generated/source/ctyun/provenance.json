@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:f11d812a94b8e7fd1d80d09c40bade810a75d1b7d3701e96401d3a6ad42197c0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-ctyun-001-76566205268a"
+      ],
+      "service_id": "ctyun",
+      "type": "domain",
+      "value": "ctyun.cn"
+    },
+    {
+      "asset_id": "sha256:cbc6c12c188671052a9e233488f676dc0d3b029b91083b959c99a1d881375f70",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-ctyun-001-76566205268a"
+      ],
+      "service_id": "ctyun",
+      "type": "domain",
+      "value": "www.ctyun.cn"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "daa4c8c5f25cdc2eecf151802fee26de0920aae0f49f3d2cdc13842b8b49864e",
+  "created_at": "2026-09-27T08:21:05.228866+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "ctyun.cn",
+      "www.ctyun.cn"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "ctyun.cn",
+    "www.ctyun.cn"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "76566205268a4b5410b07f7a424884cb00e772170536b1d1ef21661338224ec2",
+      "domains_extracted": 2,
+      "evidence_id": "EV-ctyun-001-76566205268a",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.ctyun.cn/",
+      "retrieved_at": "1790497211653752041",
+      "service_id": "ctyun",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.ctyun.cn/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "e7a16af26124e9f6760be85260095a4884040199073d828f442ff27cdfb404a0",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "c78f8ae465c4c81bf75ac85669a53f60b4521e9c677fa57f53129c9ff51352c7",
+  "previous_domain_count": 0,
+  "release_digest": "4274fec1e04159015436e52f8680bc88ecf969ed74a02fc3156e2c6514d9b07f",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "1b4c40da09f373589f6250c9bb6ad392b4f046c479669ce19db87262315ed22a",
+  "service_id": "ctyun",
+  "snapshot_content_sha256": "daa4c8c5f25cdc2eecf151802fee26de0920aae0f49f3d2cdc13842b8b49864e",
+  "snapshot_id": "snap-ctyun-4274fec1e04159015436e52f",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.ctyun.cn/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}
