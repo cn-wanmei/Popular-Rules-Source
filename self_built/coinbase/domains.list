@@ -1,0 +1,9 @@
+# Self-built candidate rule asset
+# service_id: coinbase
+# provider: coinbase
+# batch: O4
+# evidence_mode: official_web
+# status: CANDIDATE
+# Company-root official seed only — sub-service tree not claimed.
+DOMAIN,www.coinbase.com
+DOMAIN,coinbase.com
