@@ -124,7 +124,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 
 | Service | Lifecycle | Release | Domains | Snapshot |
 |---|---|---|---:|---|
-| 1688 | **PRODUCTION** | CANDIDATE | 2 | snap-1688-4152b558b34476df1a55a8d8 |
+| 1688 | **PRODUCTION** | CANDIDATE | 2 | snap-1688-422fd2fa85d94c1fff07e5fb |
 | adobe-firefly | **REVIEW** | CANDIDATE | 1 | snap-adobe-firefly-278e98581b6f8e62e261931a |
 | adobe-fonts | **REVIEW** | CANDIDATE | 1 | snap-adobe-fonts-0cfd6c78ffb842903de0152c |
 | adobe-stock | **REVIEW** | CANDIDATE | 1 | snap-adobe-stock-fb5983c8b0ef609fde49e4e0 |
@@ -153,7 +153,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | baiduwenku | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | bing | **VERIFIED** | CANDIDATE | 9 | snap-bing-3f36698777489885ba7fdbfd |
 | byd | **REVIEW** | NO_SNAPSHOT | 0 | none |
-| cainiao | **PRODUCTION** | CANDIDATE | 1 | snap-cainiao-179bcd0d35e42488cc41692b |
+| cainiao | **PRODUCTION** | CANDIDATE | 1 | snap-cainiao-f61cf371412640bca173e616 |
 | chatgpt | **REVIEW** | CANDIDATE | 1 | snap-chatgpt-cc1e48c936f2293870e7e2c0 |
 | cisco | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | claude | **VERIFIED** | CANDIDATE | 3 | snap-claude-4aec84cea09e5629117513fa |
@@ -163,12 +163,12 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | deepseek | **REVIEW** | CANDIDATE | 2 | snap-deepseek-0c14562b294e2ad50feadc74 |
 | dingding | **PRODUCTION** | CANDIDATE | 3 | snap-dingding-09ae1ecd000f1688f61e99a0 |
 | discord | **VERIFIED** | CANDIDATE | 28 | snap-discord-e5a47c19f5c45c25c613f6f6 |
-| doubao | **REVIEW** | CANDIDATE | 4 | snap-doubao-9f9124c0c24b39a949792104 |
+| doubao | **REVIEW** | CANDIDATE | 4 | snap-doubao-f4fa44632a4d5026cd3e83fa |
 | douyin | **VERIFIED** | CANDIDATE | 13 | snap-douyin-3780b3c2b6ee1a9abdccf245 |
 | eastmoney | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | feishu | **VERIFIED** | CANDIDATE | 43 | snap-feishu-dd8e2cd8a4ac32fa8b355226 |
 | findmy | **VERIFIED** | CANDIDATE | 3 | snap-findmy-5dbfa7a125855e4ee11e3daf |
-| firebase | **REVIEW** | CANDIDATE | 2 | snap-firebase-a5574fd6cc7df4f1b8b30508 |
+| firebase | **REVIEW** | CANDIDATE | 2 | snap-firebase-6b3ba092147f50fbd4bed567 |
 | gemini | **VERIFIED** | CANDIDATE | 9 | snap-gemini-9e01a42e8140aafccd75f9ea |
 | github | **REVIEW** | CANDIDATE | 29 | snap-github-293b2b0db400e778bcfe88a7 |
 | gmail | **REVIEW** | CANDIDATE | 1 | snap-gmail-c3a855e07fa2cf45651ae3a4 |
@@ -191,7 +191,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | google-vids | **REVIEW** | CANDIDATE | 1 | snap-google-vids-e595a5032f87e5544cb3874e |
 | google-voice | **REVIEW** | CANDIDATE | 1 | snap-google-voice-d823134be8c59031aa5055d8 |
 | google-workspace-studio | **REVIEW** | CANDIDATE | 1 | snap-google-workspace-studio-a936fad5df9362c828fb9d68 |
-| googlecloud | **REVIEW** | CANDIDATE | 5 | snap-googlecloud-c6f2f1a871af186052767530 |
+| googlecloud | **REVIEW** | CANDIDATE | 5 | snap-googlecloud-427b9f7b769fcaa07266b765 |
 | googledrive | **VERIFIED** | CANDIDATE | 4 | snap-googledrive-a3f033b61b8bc0b99e39f7ca |
 | googlefcm | **REVIEW** | CANDIDATE | 13 | snap-googlefcm-d2649b705a9906c0296cdbaf |
 | groq | **REVIEW** | CANDIDATE | 1 | snap-groq-c073c7adcd8f0db5ebe9a92a |
@@ -244,19 +244,19 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | signal | **REVIEW** | CANDIDATE | 8 | snap-signal-ab3deea2dbc34fa008c60d6c |
 | siri | **REVIEW** | CANDIDATE | 1 | snap-siri-440b4c5a63d59b410d5e32fa |
 | stripe-dashboard | **REVIEW** | CANDIDATE | 1 | snap-stripe-dashboard-e5667382cb3f12c246ad8660 |
-| taobao | **VERIFIED** | REVIEW | 1 | snap-taobao-50646cfa0e93b38a8153bf8d |
+| taobao | **VERIFIED** | REVIEW | 1 | snap-taobao-58ade2088a05fcf269630292 |
 | teams | **VERIFIED** | CANDIDATE | 4 | snap-teams-b7790f52024c56ece9273ef3 |
 | telegram | **VERIFIED** | CANDIDATE | 24 | snap-telegram-ae2063026508ed946661df66 |
-| tencentcloud | **PRODUCTION** | CANDIDATE | 1 | snap-tencentcloud-11f2a09f18218925500878fc |
+| tencentcloud | **PRODUCTION** | CANDIDATE | 1 | snap-tencentcloud-0e31d3df9cd9ef4e838d6df0 |
 | tencentmeeting | **REVIEW** | CANDIDATE | 3 | snap-tencentmeeting-19826cb5a6a9fb912f7be3fc |
 | tencentvideo | **REVIEW** | CANDIDATE | 17 | snap-tencentvideo-0bbc97349dbece8ea2628b3f |
 | tesla | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | testflight | **VERIFIED** | CANDIDATE | 2 | snap-testflight-922accff387fa39f172c3c41 |
 | tiktok | **VERIFIED** | CANDIDATE | 29 | snap-tiktok-d7c408670d9f72fda616937c |
-| tmall | **VERIFIED** | CANDIDATE | 8 | snap-tmall-ea8c65fe854188e13fb67584 |
+| tmall | **VERIFIED** | CANDIDATE | 8 | snap-tmall-dbc1f7c1bea02277c9f1d888 |
 | venmo | **REVIEW** | CANDIDATE | 1 | snap-venmo-ad97a6f5008ebab004dbad8a |
 | wechat | **VERIFIED** | CANDIDATE | 28 | snap-wechat-84a8d3ac3ff682614f4d7470 |
-| wecom | **REVIEW** | CANDIDATE | 3 | snap-wecom-c6975c7fa31bc2c96407e444 |
+| wecom | **REVIEW** | CANDIDATE | 3 | snap-wecom-e9d310fac301c9effcb2b9ff |
 | wps | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | xai-grok | **REVIEW** | CANDIDATE | 1 | snap-xai-grok-0f56662ce92c5717e8909b9d |
 | xbox | **REVIEW** | CANDIDATE | 42 | snap-xbox-c056e17cbe3622251ba30c82 |

@@ -7,8 +7,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": true,
-      "release_digest": "4152b558b34476df1a55a8d8c4c5df5249d3a623d7c3ac8f725dbaf664b80d1b",
-      "snapshot_id": "snap-1688-4152b558b34476df1a55a8d8",
+      "release_digest": "422fd2fa85d94c1fff07e5fb85619abb3399e4e3644dfbb3142623f6e608ff09",
+      "snapshot_id": "snap-1688-422fd2fa85d94c1fff07e5fb",
       "verified": true
     },
     "adobe-firefly": {
@@ -309,8 +309,8 @@
       "domain_count": 1,
       "enabled": true,
       "production_activated": true,
-      "release_digest": "179bcd0d35e42488cc41692b257880dc535c5d60f038f4e9c751c20583a98c87",
-      "snapshot_id": "snap-cainiao-179bcd0d35e42488cc41692b",
+      "release_digest": "f61cf371412640bca173e616f401a92a93b8cfc7edcbeab034f5ff3fab1f2c0a",
+      "snapshot_id": "snap-cainiao-f61cf371412640bca173e616",
       "verified": true
     },
     "chatgpt": {
@@ -415,8 +415,8 @@
       "domain_count": 4,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "9f9124c0c24b39a94979210453babb9186ac5347235fa62f550be4e26826dd82",
-      "snapshot_id": "snap-doubao-9f9124c0c24b39a949792104",
+      "release_digest": "f4fa44632a4d5026cd3e83fa6e70f85446a02ea813250799ac05bffe37b0b3e8",
+      "snapshot_id": "snap-doubao-f4fa44632a4d5026cd3e83fa",
       "verified": true
     },
     "douyin": {
@@ -467,8 +467,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "a5574fd6cc7df4f1b8b3050864ecfddb16c058d72d7cec3f29a52b5a093267c7",
-      "snapshot_id": "snap-firebase-a5574fd6cc7df4f1b8b30508",
+      "release_digest": "6b3ba092147f50fbd4bed567bc5a4adf0b44d28ed8e69851745b72038666eff8",
+      "snapshot_id": "snap-firebase-6b3ba092147f50fbd4bed567",
       "verified": true
     },
     "gemini": {
@@ -697,8 +697,8 @@
       "domain_count": 5,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "c6f2f1a871af18605276753006dbcd97ec57ce256aa049bd738ba548ad8930be",
-      "snapshot_id": "snap-googlecloud-c6f2f1a871af186052767530",
+      "release_digest": "427b9f7b769fcaa07266b7654915eebbdf24ee5fae33b479c59ca0bb78c45249",
+      "snapshot_id": "snap-googlecloud-427b9f7b769fcaa07266b765",
       "verified": true
     },
     "googledrive": {
@@ -1263,8 +1263,8 @@
       "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "50646cfa0e93b38a8153bf8d6d2db7549bab725e25ddc3b57963cd62fa3e28ee",
-      "snapshot_id": "snap-taobao-50646cfa0e93b38a8153bf8d",
+      "release_digest": "58ade2088a05fcf2696302927099d9975d5d422c4d4a59750a83fe197ca6c45e",
+      "snapshot_id": "snap-taobao-58ade2088a05fcf269630292",
       "verified": false
     },
     "teams": {
@@ -1293,8 +1293,8 @@
       "domain_count": 1,
       "enabled": true,
       "production_activated": true,
-      "release_digest": "11f2a09f18218925500878fcd89f41a522935b0c7d84b8f0e038eb07de0f703e",
-      "snapshot_id": "snap-tencentcloud-11f2a09f18218925500878fc",
+      "release_digest": "0e31d3df9cd9ef4e838d6df0e6c928a8f44163b7891e3e8df5b840d34171acc2",
+      "snapshot_id": "snap-tencentcloud-0e31d3df9cd9ef4e838d6df0",
       "verified": true
     },
     "tencentmeeting": {
@@ -1355,8 +1355,8 @@
       "domain_count": 8,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "ea8c65fe854188e13fb6758440a5cf1e6535df69c471cbcdfb6c2347cee32e0b",
-      "snapshot_id": "snap-tmall-ea8c65fe854188e13fb67584",
+      "release_digest": "dbc1f7c1bea02277c9f1d8884d79171381588d42e21e3335ec15b50a8d4f37fd",
+      "snapshot_id": "snap-tmall-dbc1f7c1bea02277c9f1d888",
       "verified": true
     },
     "venmo": {
@@ -1385,8 +1385,8 @@
       "domain_count": 3,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "c6975c7fa31bc2c96407e4444536e283417b895b66380164e0dc6733b4f9ab3e",
-      "snapshot_id": "snap-wecom-c6975c7fa31bc2c96407e444",
+      "release_digest": "e9d310fac301c9effcb2b9ffb539346361cc1fb78dfee9299ce39d6e8c750f8e",
+      "snapshot_id": "snap-wecom-e9d310fac301c9effcb2b9ff",
       "verified": true
     },
     "wps": {
