@@ -1,0 +1,9 @@
+# Self-built candidate rule asset
+# service_id: datadog
+# provider: datadog
+# evidence_mode: official_web
+# status: CANDIDATE
+# Official entry verified for 2026-09-27 P1/P2 completion wave.
+# Production requires immutable Source release + Collection exact binding.
+DOMAIN,datadoghq.com
+DOMAIN,www.datadoghq.com
