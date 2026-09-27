@@ -1,125 +1,639 @@
 version: 4
 schema: popular_rules_source_lifecycle_v1
-state_machine: [review, verified, canary, production, blocked]
-
+state_machine:
+- review
+- verified
+- canary
+- production
+- blocked
 services:
-  "1688": {state: production, enabled: true, reason: active_immutable_collection_binding, last_transition: "2026-09-21"}
-  cainiao: {state: production, enabled: true, reason: active_immutable_collection_binding, last_transition: "2026-09-21"}
-  dingding: {state: production, enabled: true, reason: active_immutable_collection_binding, last_transition: "2026-09-21"}
-  qq: {state: review, enabled: true, reason: self_built_candidate_chain_pending_official_evidence, last_transition: "2026-09-23"}
-  qqmail: {state: production, enabled: true, reason: active_immutable_collection_binding, last_transition: "2026-09-21"}
-  qqmusic: {state: production, enabled: true, reason: active_immutable_collection_binding, last_transition: "2026-09-21"}
-  taobao: {state: verified, enabled: true, reason: official_evidence_verified_awaiting_canary, last_transition: "2026-09-21"}
-  tencentcloud: {state: production, enabled: true, reason: active_immutable_collection_binding, last_transition: "2026-09-21"}
-  tmall: {state: verified, enabled: true, reason: official_evidence_verified_awaiting_canary, last_transition: "2026-09-21"}
-  appledev: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-  findmy: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-  azure: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-  feishu: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-  appstore: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-  testflight: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-  icloud: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-  applemusic: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-  googledrive: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-  youtubemusic: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-  onedrive: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-  teams: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-  wechat: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-  baidutieba: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-  neteasemusic: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-  douyin: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-
-  appletv: {state: review, enabled: true, reason: batch2_source_expansion, last_transition: "2026-09-23"}
-  siri: {state: review, enabled: true, reason: batch2_source_expansion, last_transition: "2026-09-23"}
-  youtube: {state: review, enabled: true, reason: batch2_source_expansion, last_transition: "2026-09-23"}
-  googlefcm: {state: review, enabled: true, reason: batch2_source_expansion, last_transition: "2026-09-23"}
-  xbox: {state: review, enabled: true, reason: batch2_source_expansion, last_transition: "2026-09-23"}
-  github: {state: review, enabled: true, reason: batch2_source_expansion, last_transition: "2026-09-23"}
-  tencentvideo: {state: review, enabled: true, reason: batch2_source_expansion, last_transition: "2026-09-23"}
-  firebase: {state: review, enabled: true, reason: batch2_official_candidate_chain, last_transition: "2026-09-23"}
-  googlecloud: {state: review, enabled: true, reason: batch2_official_candidate_chain, last_transition: "2026-09-23"}
-  wecom: {state: review, enabled: true, reason: batch2_official_candidate_chain, last_transition: "2026-09-23"}
-  tencentmeeting: {state: review, enabled: true, reason: batch2_official_candidate_chain, last_transition: "2026-09-23"}
-  baidunetdisk: {state: review, enabled: true, reason: batch2_official_candidate_chain, last_transition: "2026-09-23"}
-  youdao: {state: review, enabled: true, reason: batch2_official_candidate_chain, last_transition: "2026-09-23"}
-  doubao: {state: review, enabled: true, reason: batch2_official_candidate_chain, last_transition: "2026-09-23"}
-
-  alibabacloud: {state: review, enabled: true, reason: batch3_candidate_upstream_pending_source_gate, last_transition: "2026-09-23"}
-  deepseek: {state: review, enabled: true, reason: batch3_candidate_upstream_pending_source_gate, last_transition: "2026-09-23"}
-  perplexity: {state: review, enabled: true, reason: batch3_candidate_upstream_pending_source_gate, last_transition: "2026-09-23"}
-  groq: {state: review, enabled: true, reason: batch3_candidate_upstream_pending_source_gate, last_transition: "2026-09-23"}
-  huggingface: {state: review, enabled: true, reason: batch3_candidate_upstream_pending_source_gate, last_transition: "2026-09-23"}
-  signal: {state: review, enabled: true, reason: batch3_candidate_upstream_pending_source_gate, last_transition: "2026-09-23"}
-  messenger: {state: review, enabled: true, reason: batch3_candidate_upstream_pending_source_gate, last_transition: "2026-09-23"}
-  roblox: {state: review, enabled: true, reason: batch3_candidate_upstream_pending_source_gate, last_transition: "2026-09-23"}
-  applenews: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-  baidu: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-  bing: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-  tiktok: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-  neteasemail: {state: review, enabled: true, reason: self_built_candidate_chain_pending_official_evidence, last_transition: "2026-09-23"}
-  honorofkings_cn: {state: review, enabled: true, reason: self_built_candidate_chain_pending_official_evidence, last_transition: "2026-09-23"}
-  honorofkings_global: {state: review, enabled: true, reason: self_built_candidate_chain_pending_official_evidence, last_transition: "2026-09-23"}
-  applemedia: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-  copilot: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-  claude: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-  gemini: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-  openai: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-  telegram: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-  discord: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-  netflix: {state: verified, enabled: true, reason: trusted_upstream_rule_snapshot, last_transition: "2026-09-23"}
-
-  gmail: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  google-calendar: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  google-chat: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  google-contacts: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  google-docs: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  google-forms: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  google-groups: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  google-meet: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  google-sheets: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  google-sites: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  google-slides: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  google-vids: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  google-workspace-studio: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  google-maps: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  google-photos: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  google-play: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  google-news: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  google-voice: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  google-earth: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  ms365-word: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  ms365-excel: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  ms365-powerpoint: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  ms365-onenote: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  ms365-planner: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  ms365-loop: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  ms365-mesh: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  applepodcasts: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  applebooks: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  applemaps: {state: review, enabled: true, reason: p0c_self_built_official_inventory, last_transition: "2026-09-26"}
-  huawei-cloud: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
-  mi-cloud: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
-  jd-cloud: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
-  kugou: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
-  kuwo: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
-  quanmin-k-ge: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
-  amazonmusic: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
-  audible: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
-  goodreads: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
-  adobe-firefly: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
-  adobe-stock: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
-  adobe-fonts: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
-  openai-api: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
-  openai-platform: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
-  chatgpt: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
-  anthropic-claude: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
-  anthropic-platform: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
-  xai-grok: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
-  stripe-dashboard: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
-  venmo: {state: review, enabled: true, reason: p1_p2_self_built_official_entry, last_transition: "2026-09-26"}
-  baidumaps: {state: review, enabled: true, reason: p1_verified_official_entry, last_transition: "2026-09-26"}
-  baiduwenku: {state: review, enabled: true, reason: p1_verified_official_entry, last_transition: "2026-09-26"}
-  baidu-zhidao: {state: review, enabled: true, reason: p1_verified_official_entry, last_transition: "2026-09-26"}
-  huawei-appgallery: {state: review, enabled: true, reason: p1_verified_official_entry, last_transition: "2026-09-26"}
-  kuaishou: {state: review, enabled: true, reason: p1_verified_official_entry, last_transition: "2026-09-26"}
-  kuaishou-open: {state: review, enabled: true, reason: p1_verified_official_entry, last_transition: "2026-09-26"}
+  '1688':
+    state: production
+    enabled: true
+    reason: active_immutable_collection_binding
+    last_transition: '2026-09-21'
+  cainiao:
+    state: production
+    enabled: true
+    reason: active_immutable_collection_binding
+    last_transition: '2026-09-21'
+  dingding:
+    state: production
+    enabled: true
+    reason: active_immutable_collection_binding
+    last_transition: '2026-09-21'
+  qq:
+    state: review
+    enabled: true
+    reason: self_built_candidate_chain_pending_official_evidence
+    last_transition: '2026-09-23'
+  qqmail:
+    state: production
+    enabled: true
+    reason: active_immutable_collection_binding
+    last_transition: '2026-09-21'
+  qqmusic:
+    state: production
+    enabled: true
+    reason: active_immutable_collection_binding
+    last_transition: '2026-09-21'
+  taobao:
+    state: verified
+    enabled: true
+    reason: official_evidence_verified_awaiting_canary
+    last_transition: '2026-09-21'
+  tencentcloud:
+    state: production
+    enabled: true
+    reason: active_immutable_collection_binding
+    last_transition: '2026-09-21'
+  tmall:
+    state: verified
+    enabled: true
+    reason: official_evidence_verified_awaiting_canary
+    last_transition: '2026-09-21'
+  appledev:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  findmy:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  azure:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  feishu:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  appstore:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  testflight:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  icloud:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  applemusic:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  googledrive:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  youtubemusic:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  onedrive:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  teams:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  wechat:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  baidutieba:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  neteasemusic:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  douyin:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  appletv:
+    state: review
+    enabled: true
+    reason: batch2_source_expansion
+    last_transition: '2026-09-23'
+  siri:
+    state: review
+    enabled: true
+    reason: batch2_source_expansion
+    last_transition: '2026-09-23'
+  youtube:
+    state: review
+    enabled: true
+    reason: batch2_source_expansion
+    last_transition: '2026-09-23'
+  googlefcm:
+    state: review
+    enabled: true
+    reason: batch2_source_expansion
+    last_transition: '2026-09-23'
+  xbox:
+    state: review
+    enabled: true
+    reason: batch2_source_expansion
+    last_transition: '2026-09-23'
+  github:
+    state: review
+    enabled: true
+    reason: batch2_source_expansion
+    last_transition: '2026-09-23'
+  tencentvideo:
+    state: review
+    enabled: true
+    reason: batch2_source_expansion
+    last_transition: '2026-09-23'
+  firebase:
+    state: review
+    enabled: true
+    reason: batch2_official_candidate_chain
+    last_transition: '2026-09-23'
+  googlecloud:
+    state: review
+    enabled: true
+    reason: batch2_official_candidate_chain
+    last_transition: '2026-09-23'
+  wecom:
+    state: review
+    enabled: true
+    reason: batch2_official_candidate_chain
+    last_transition: '2026-09-23'
+  tencentmeeting:
+    state: review
+    enabled: true
+    reason: batch2_official_candidate_chain
+    last_transition: '2026-09-23'
+  baidunetdisk:
+    state: review
+    enabled: true
+    reason: batch2_official_candidate_chain
+    last_transition: '2026-09-23'
+  youdao:
+    state: review
+    enabled: true
+    reason: batch2_official_candidate_chain
+    last_transition: '2026-09-23'
+  doubao:
+    state: review
+    enabled: true
+    reason: batch2_official_candidate_chain
+    last_transition: '2026-09-23'
+  alibabacloud:
+    state: review
+    enabled: true
+    reason: batch3_candidate_upstream_pending_source_gate
+    last_transition: '2026-09-23'
+  deepseek:
+    state: review
+    enabled: true
+    reason: batch3_candidate_upstream_pending_source_gate
+    last_transition: '2026-09-23'
+  perplexity:
+    state: review
+    enabled: true
+    reason: batch3_candidate_upstream_pending_source_gate
+    last_transition: '2026-09-23'
+  groq:
+    state: review
+    enabled: true
+    reason: batch3_candidate_upstream_pending_source_gate
+    last_transition: '2026-09-23'
+  huggingface:
+    state: review
+    enabled: true
+    reason: batch3_candidate_upstream_pending_source_gate
+    last_transition: '2026-09-23'
+  signal:
+    state: review
+    enabled: true
+    reason: batch3_candidate_upstream_pending_source_gate
+    last_transition: '2026-09-23'
+  messenger:
+    state: review
+    enabled: true
+    reason: batch3_candidate_upstream_pending_source_gate
+    last_transition: '2026-09-23'
+  roblox:
+    state: review
+    enabled: true
+    reason: batch3_candidate_upstream_pending_source_gate
+    last_transition: '2026-09-23'
+  applenews:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  baidu:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  bing:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  tiktok:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  neteasemail:
+    state: review
+    enabled: true
+    reason: self_built_candidate_chain_pending_official_evidence
+    last_transition: '2026-09-23'
+  honorofkings_cn:
+    state: review
+    enabled: true
+    reason: self_built_candidate_chain_pending_official_evidence
+    last_transition: '2026-09-23'
+  honorofkings_global:
+    state: review
+    enabled: true
+    reason: self_built_candidate_chain_pending_official_evidence
+    last_transition: '2026-09-23'
+  applemedia:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  copilot:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  claude:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  gemini:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  openai:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  telegram:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  discord:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  netflix:
+    state: verified
+    enabled: true
+    reason: trusted_upstream_rule_snapshot
+    last_transition: '2026-09-23'
+  gmail:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  google-calendar:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  google-chat:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  google-contacts:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  google-docs:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  google-forms:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  google-groups:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  google-meet:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  google-sheets:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  google-sites:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  google-slides:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  google-vids:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  google-workspace-studio:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  google-maps:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  google-photos:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  google-play:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  google-news:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  google-voice:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  google-earth:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  ms365-word:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  ms365-excel:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  ms365-powerpoint:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  ms365-onenote:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  ms365-planner:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  ms365-loop:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  ms365-mesh:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  applepodcasts:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  applebooks:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  applemaps:
+    state: review
+    enabled: true
+    reason: p0c_self_built_official_inventory
+    last_transition: '2026-09-26'
+  huawei-cloud:
+    state: review
+    enabled: true
+    reason: p1_p2_self_built_official_entry
+    last_transition: '2026-09-26'
+  mi-cloud:
+    state: review
+    enabled: true
+    reason: p1_p2_self_built_official_entry
+    last_transition: '2026-09-26'
+  jd-cloud:
+    state: review
+    enabled: true
+    reason: p1_p2_self_built_official_entry
+    last_transition: '2026-09-26'
+  kugou:
+    state: review
+    enabled: true
+    reason: p1_p2_self_built_official_entry
+    last_transition: '2026-09-26'
+  kuwo:
+    state: review
+    enabled: true
+    reason: p1_p2_self_built_official_entry
+    last_transition: '2026-09-26'
+  quanmin-k-ge:
+    state: review
+    enabled: true
+    reason: p1_p2_self_built_official_entry
+    last_transition: '2026-09-26'
+  amazonmusic:
+    state: review
+    enabled: true
+    reason: p1_p2_self_built_official_entry
+    last_transition: '2026-09-26'
+  audible:
+    state: review
+    enabled: true
+    reason: p1_p2_self_built_official_entry
+    last_transition: '2026-09-26'
+  goodreads:
+    state: review
+    enabled: true
+    reason: p1_p2_self_built_official_entry
+    last_transition: '2026-09-26'
+  adobe-firefly:
+    state: review
+    enabled: true
+    reason: p1_p2_self_built_official_entry
+    last_transition: '2026-09-26'
+  adobe-stock:
+    state: review
+    enabled: true
+    reason: p1_p2_self_built_official_entry
+    last_transition: '2026-09-26'
+  adobe-fonts:
+    state: review
+    enabled: true
+    reason: p1_p2_self_built_official_entry
+    last_transition: '2026-09-26'
+  openai-api:
+    state: review
+    enabled: true
+    reason: p1_p2_self_built_official_entry
+    last_transition: '2026-09-26'
+  openai-platform:
+    state: review
+    enabled: true
+    reason: p1_p2_self_built_official_entry
+    last_transition: '2026-09-26'
+  chatgpt:
+    state: review
+    enabled: true
+    reason: p1_p2_self_built_official_entry
+    last_transition: '2026-09-26'
+  anthropic-claude:
+    state: review
+    enabled: true
+    reason: p1_p2_self_built_official_entry
+    last_transition: '2026-09-26'
+  anthropic-platform:
+    state: review
+    enabled: true
+    reason: p1_p2_self_built_official_entry
+    last_transition: '2026-09-26'
+  xai-grok:
+    state: review
+    enabled: true
+    reason: p1_p2_self_built_official_entry
+    last_transition: '2026-09-26'
+  stripe-dashboard:
+    state: review
+    enabled: true
+    reason: p1_p2_self_built_official_entry
+    last_transition: '2026-09-26'
+  venmo:
+    state: review
+    enabled: true
+    reason: p1_p2_self_built_official_entry
+    last_transition: '2026-09-26'
+  baidumaps:
+    state: review
+    enabled: true
+    reason: p1_verified_official_entry
+    last_transition: '2026-09-26'
+  baiduwenku:
+    state: review
+    enabled: true
+    reason: p1_verified_official_entry
+    last_transition: '2026-09-26'
+  baidu-zhidao:
+    state: review
+    enabled: true
+    reason: p1_verified_official_entry
+    last_transition: '2026-09-26'
+  huawei-appgallery:
+    state: review
+    enabled: true
+    reason: p1_verified_official_entry
+    last_transition: '2026-09-26'
+  kuaishou:
+    state: review
+    enabled: true
+    reason: p1_verified_official_entry
+    last_transition: '2026-09-26'
+  kuaishou-open:
+    state: review
+    enabled: true
+    reason: p1_verified_official_entry
+    last_transition: '2026-09-26'
+  byd:
+    state: review
+    enabled: true
+    reason: p1_o1_self_built_candidate_2026-09-27
+    last_transition: '2026-09-27'
+  honor:
+    state: review
+    enabled: true
+    reason: p1_o1_self_built_candidate_2026-09-27
+    last_transition: '2026-09-27'
+  intel:
+    state: review
+    enabled: true
+    reason: p1_o1_self_built_candidate_2026-09-27
+    last_transition: '2026-09-27'
+  lenovo:
+    state: review
+    enabled: true
+    reason: p1_o1_self_built_candidate_2026-09-27
+    last_transition: '2026-09-27'
+  nvidia:
+    state: review
+    enabled: true
+    reason: p1_o1_self_built_candidate_2026-09-27
+    last_transition: '2026-09-27'
+  qihoo360:
+    state: review
+    enabled: true
+    reason: p1_o1_self_built_candidate_2026-09-27
+    last_transition: '2026-09-27'
+  samsung:
+    state: review
+    enabled: true
+    reason: p1_o1_self_built_candidate_2026-09-27
+    last_transition: '2026-09-27'
+  tesla:
+    state: review
+    enabled: true
+    reason: p1_o1_self_built_candidate_2026-09-27
+    last_transition: '2026-09-27'
+  zte:
+    state: review
+    enabled: true
+    reason: p1_o1_self_built_candidate_2026-09-27
+    last_transition: '2026-09-27'
