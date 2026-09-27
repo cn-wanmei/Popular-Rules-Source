@@ -1,0 +1,12 @@
+{
+  "content_digest": "df229d6bb4f5efa5e7ed57f1383ef239b98784760f4432b571f7d4ada42864a0",
+  "domains": [
+    "chat.google.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "google-chat",
+  "source_hashes": [
+    "0392d920a76dc7fc718acacdf83e7895b9300c6ef3b9ef58e6100fd93fe9e7f4"
+  ]
+}

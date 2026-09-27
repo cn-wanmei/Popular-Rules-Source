@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "293c4d63047cd9e473ea5628460835fda1f1a3f73b426b5e54635e4c07ba208b",
+    "manifest.json": "7a9f0eadd6837efae7c926fd0aae33a76b9cd81e088f016545bbacc1de76e914",
+    "provenance.json": "5c562aa079eb609a648563a4e0de8170f054c191c834c63e55064159c0b0e0bc",
+    "snapshot_content.json": "f9fbd0236337e76364f7c371de11b0d02cef169cb85bb1b0f23083b4fb7dc48c"
+  },
+  "content_digest": "04f6b919ec838d2e9a76a192fc0730a022845e39a924a6bd17dd7e0d4837541a",
+  "created_at": "2026-09-27T02:59:55.966246+00:00",
+  "evidence_digest": "aa6e69460d12606e91c9e2242fff8c2c517cf43ca009ce4fa61d657ca95c3675",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "60e2f987f68008d0b40de1eab9a2548cc36296a74b0184c116fb2282e60874ea",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "5115ce5bb375c71660f5b78fa7cfd8792b07ca07c7abea1699352b5e026a2025",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "ms365-onenote",
+  "snapshot_id": "snap-ms365-onenote-5115ce5bb375c71660f5b78f",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

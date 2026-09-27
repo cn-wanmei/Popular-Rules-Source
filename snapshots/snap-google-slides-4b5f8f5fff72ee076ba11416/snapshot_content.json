@@ -1,0 +1,12 @@
+{
+  "content_digest": "78b4f6f06a800c6281dd742450ea5893b0578229ca83301dc183304007363348",
+  "domains": [
+    "slides.google.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "google-slides",
+  "source_hashes": [
+    "b8110874cf56f1148f47dfa7742e872fb9207aeb831073fc7a8dfcbceab3820f"
+  ]
+}

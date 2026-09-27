@@ -1,0 +1,12 @@
+{
+  "content_digest": "c2ca297ac8ade2eaa19b82a7385f9bf297f84ec9d5f8b2d6252aa1f09af404a2",
+  "domains": [
+    "planner.cloud.microsoft"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "ms365-planner",
+  "source_hashes": [
+    "594f0a6afeaa4c1571238f230aa9460151694adf5c453f04aba06c7c052f726d"
+  ]
+}

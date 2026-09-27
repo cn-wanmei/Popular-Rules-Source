@@ -1,0 +1,12 @@
+{
+  "content_digest": "eec3663063d91981973eedd9437a956ee7a426a125f9d873c0e73cccf22bf0c8",
+  "domains": [
+    "vids.google.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "google-vids",
+  "source_hashes": [
+    "9fc3074f0c331c34abf759e66baefa6063c617b00fdac287461671688120c04c"
+  ]
+}

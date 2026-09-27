@@ -1,0 +1,12 @@
+{
+  "content_digest": "0c0f55940e659322bf320cd1c0e90137c00838d6299aca8d8953846b73d3c53e",
+  "domains": [
+    "forms.google.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "google-forms",
+  "source_hashes": [
+    "ea67410ba4de21e3b49963032478654c5087c0a33530798f497bdeae031e557b"
+  ]
+}
