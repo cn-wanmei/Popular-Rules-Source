@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:0bc97a68b2d24097dcbe61b74c2c4ead259867baa5a14ae83e911f6498b38dfb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tsmc-001-f2089b5a3e67"
+      ],
+      "service_id": "tsmc",
+      "type": "domain",
+      "value": "tsmc.com"
+    },
+    {
+      "asset_id": "sha256:188b53d5603dd19f3233714f9c2c770f9f3c888c1b7712910063f375054af31e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tsmc-001-f2089b5a3e67"
+      ],
+      "service_id": "tsmc",
+      "type": "domain",
+      "value": "www.tsmc.com"
+    }
+  ],
+  "content_digest": "0e5335e8ed62dbc7be9e4e45eea1fe0abf74cf220546976381cf44ff52f94ed7",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "f2089b5a3e677639418a520932a14af644a4a95ed2943b7b934d87feb94ab84d",
+      "domains_extracted": 2,
+      "evidence_id": "EV-tsmc-001-f2089b5a3e67",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.tsmc.com/",
+      "retrieved_at": "1790503403061636385",
+      "service_id": "tsmc",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.tsmc.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "6728d22d0a3548391ee180b49fc2c17a00a7617355288244523b16e21183c9fc",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "caad7fde8db9b928d15ee0936bea09f80c9093e0f7cdab9faaf1f67c195b7ef6",
+  "release_digest": "98385619ef65a81e411bd03f13d5f21e219d899be83f64ed2bc9f731ffac5089",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "tsmc",
+  "snapshot_id": "snap-tsmc-98385619ef65a81e411bd03f",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

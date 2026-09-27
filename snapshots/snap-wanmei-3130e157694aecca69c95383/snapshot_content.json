@@ -1,0 +1,13 @@
+{
+  "content_digest": "5726577a8531d04c5f76a24344a806f54f641f1fb6f89d6bf019bd8045cb1fc2",
+  "domains": [
+    "wanmei.com",
+    "www.wanmei.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "wanmei",
+  "source_hashes": [
+    "414e6a73813e46c279c99e12e552ea552abea5fe99b75161c64b86c9a69e1595"
+  ]
+}

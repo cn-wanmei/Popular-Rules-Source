@@ -1,0 +1,13 @@
+{
+  "content_digest": "e6f7215afa6771e3182e359d2afdf30bef02978305fc6d4685f77909d0489e14",
+  "domains": [
+    "ele.me",
+    "www.ele.me"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "eleme",
+  "source_hashes": [
+    "865dd2154e6e88137cf9b2369b720c94fb25001bf0160f31043beac07de1f995"
+  ]
+}

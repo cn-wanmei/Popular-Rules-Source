@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:cc9d8472a09b72378ac2372b736e38d29a078daed30a4b2093fe242c675a55d8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-alipay-001-c801eb3b02c0"
+      ],
+      "service_id": "alipay",
+      "type": "domain",
+      "value": "alipay.com"
+    },
+    {
+      "asset_id": "sha256:91cea23c9fd1dd4d75de76887e0eb62a875b58de822e2f7d5622df1ffca5f615",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-alipay-001-c801eb3b02c0"
+      ],
+      "service_id": "alipay",
+      "type": "domain",
+      "value": "www.alipay.com"
+    }
+  ],
+  "content_digest": "4719ccf9b26f8d476cab1f4c21714e705025b767589ed83c12c77b0e732909b8",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "c801eb3b02c071c1ec2d1b1f7ac08b36f3a51abffa25cd14a0c4dec7f2307753",
+      "domains_extracted": 2,
+      "evidence_id": "EV-alipay-001-c801eb3b02c0",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "self_built://self_built/alipay/domains.list",
+      "retrieved_at": "1790503424818307133",
+      "service_id": "alipay",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.alipay.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "5b3bbbcb1229bc0771edb6477f316439105f10ebb3b67331c46cb48168bb0c53",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "4fc65190291ee84799caf119b3c08aaf6472082a51edfd4c5f6dedf9c15f726a",
+  "release_digest": "7e39ca630ab553d1bd55c414c8a59ebd0f9547d8b802bf59975af56bc5679c0f",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "alipay",
+  "snapshot_id": "snap-alipay-7e39ca630ab553d1bd55c414",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

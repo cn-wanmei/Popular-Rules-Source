@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:1664ea6de8956da55c3def0f5353e1bb34c2f64910570dfe5806631dea0d2aff",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-lenovo-001-8fd21b10d68c"
+      ],
+      "service_id": "lenovo",
+      "type": "domain",
+      "value": "lenovo.com"
+    },
+    {
+      "asset_id": "sha256:ae039a6a95306098963132a9642c3b7aa1fa29b68f802abca4de02d9f430198e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-lenovo-001-8fd21b10d68c"
+      ],
+      "service_id": "lenovo",
+      "type": "domain",
+      "value": "www.lenovo.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "c77634cca0fc5f619ccd47a1026c40ffbb77348ffa3442957a89518539e81beb",
+  "created_at": "2026-09-27T10:04:56.564611+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "lenovo.com",
+      "www.lenovo.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "lenovo.com",
+    "www.lenovo.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "8fd21b10d68c6e93d550eba04b2955e2d576ba41e182a3a5fb11bcfb3e86f297",
+      "domains_extracted": 2,
+      "evidence_id": "EV-lenovo-001-8fd21b10d68c",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.lenovo.com/",
+      "retrieved_at": "1790503444405942513",
+      "service_id": "lenovo",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.lenovo.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "ab7ea9aec54c30d34dcef7d1531dab9dcb3df78cd7f006e616530dea5629f8f6",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "3ae372387204b0450639c6b74844040d981ab5c087f2e40098beb5ee115fca51",
+  "previous_domain_count": 0,
+  "release_digest": "c8d84c550ab4949633bcea79b4a83a61ec206c671eefe020557895c6053c096f",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "503eea6f788ae4daf52900bc601c5288db0bb370828199a427be6387ab0b10ec",
+  "service_id": "lenovo",
+  "snapshot_content_sha256": "c77634cca0fc5f619ccd47a1026c40ffbb77348ffa3442957a89518539e81beb",
+  "snapshot_id": "snap-lenovo-c8d84c550ab4949633bcea79",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.lenovo.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,13 @@
+{
+  "content_digest": "f6a586f9da70dc111c428610b09c3bcab36c1cdd6f20466f4bbc7372184cd9f6",
+  "domains": [
+    "haier.com",
+    "www.haier.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "haier",
+  "source_hashes": [
+    "27f31644927b88fccd71089e65fd439ffe0a84da4ce4fa8610e5fcf05b42c6a1"
+  ]
+}

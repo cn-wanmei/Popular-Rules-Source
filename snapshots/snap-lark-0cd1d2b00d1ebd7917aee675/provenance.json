@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:c7275de86934de39c91ad80d28273ef5d896cbcd6f8dede67db769ecbec79cf5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-lark-001-2a6a084a6065"
+      ],
+      "service_id": "lark",
+      "type": "domain",
+      "value": "larksuite.com"
+    },
+    {
+      "asset_id": "sha256:3065a55c7f3f1f3a7bdac2f76d4ec00200a974ec9d6821e10d1c4eacf503ed15",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-lark-001-2a6a084a6065"
+      ],
+      "service_id": "lark",
+      "type": "domain",
+      "value": "www.larksuite.com"
+    }
+  ],
+  "content_digest": "b582a6e840e44dc7513927474806d24d6264a2cab07fac64cdb7f44a0fc08700",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "2a6a084a6065c268873082884de9f426e83a7683d5b2e2fccc246a85499ffd2c",
+      "domains_extracted": 2,
+      "evidence_id": "EV-lark-001-2a6a084a6065",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.larksuite.com/",
+      "retrieved_at": "1790503364568869768",
+      "service_id": "lark",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.larksuite.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "9390b6f907236b44b2e3ea1bf237ae329418ce3b29ed48797442165a889ac2bb",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "835467f0a3686f2dc2047e706eafa8bd7b95caf0b0223b7b4680a83c9ae9b9fe",
+  "release_digest": "0cd1d2b00d1ebd7917aee67524c8b49388887544f9e017a9d2b91f388ba385fc",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "lark",
+  "snapshot_id": "snap-lark-0cd1d2b00d1ebd7917aee675",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

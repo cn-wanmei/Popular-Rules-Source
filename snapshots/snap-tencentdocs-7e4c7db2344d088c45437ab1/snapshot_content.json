@@ -1,0 +1,12 @@
+{
+  "content_digest": "95b1428625b2621aacbe58341168854e241cb69f8556ab0abac4afd0a5c7da22",
+  "domains": [
+    "docs.qq.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "tencentdocs",
+  "source_hashes": [
+    "ee58242861bf10f2f112160f78ecf20eab543a8b75a8ea59c40502fa2548bbf8"
+  ]
+}

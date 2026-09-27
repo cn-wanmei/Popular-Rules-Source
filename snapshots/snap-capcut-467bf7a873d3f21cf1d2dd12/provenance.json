@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:b25dfd977ff22ba7cebbacfd0a851f54736436521fbff4df9aaf4ae8d05c6c36",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-capcut-001-7d6dcaddd023"
+      ],
+      "service_id": "capcut",
+      "type": "domain",
+      "value": "capcut.com"
+    },
+    {
+      "asset_id": "sha256:0b18d3c130c99cbb592e833b5ef6b4908779f31191e8146387b74198db4e10ed",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-capcut-001-7d6dcaddd023"
+      ],
+      "service_id": "capcut",
+      "type": "domain",
+      "value": "www.capcut.com"
+    }
+  ],
+  "content_digest": "a4eee893555eacc92632e84c784dfec707d011cb26939e6430009ed47b3af545",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "7d6dcaddd02335663e9addea8c06f5fc1db24c3f5c39f32c5e738d23a7526314",
+      "domains_extracted": 2,
+      "evidence_id": "EV-capcut-001-7d6dcaddd023",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.capcut.com/",
+      "retrieved_at": "1790503262199011657",
+      "service_id": "capcut",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.capcut.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "d33c6ec2286bf605fd5ece531ec0a9bb2d9d4c79179eb988e1d3b59d607900df",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "20bc05ea2c9abb37c5f94a70e781a659cd69c5f640aa89aff6db3daa811d4597",
+  "release_digest": "467bf7a873d3f21cf1d2dd122d7c3b59feffe488a05bf4788c4cac4c0280ca62",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "capcut",
+  "snapshot_id": "snap-capcut-467bf7a873d3f21cf1d2dd12",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

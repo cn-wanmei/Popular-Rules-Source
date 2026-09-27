@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:b749c9ccdf0281987a709de17eddf394cd797e9ecb157fbe8aa13c7389fac851",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-byd-001-b7ab89ae7096"
+      ],
+      "service_id": "byd",
+      "type": "domain",
+      "value": "byd.com"
+    },
+    {
+      "asset_id": "sha256:aa1a62be37bbe732d1993daf3b4a750282b9146766321f68f25de7189482ae60",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-byd-001-b7ab89ae7096"
+      ],
+      "service_id": "byd",
+      "type": "domain",
+      "value": "www.byd.com"
+    }
+  ],
+  "content_digest": "3624b6a4a3762ed18baae8a40df62e99232f5de285fa381a97004d22992db251",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "b7ab89ae7096aef5af3b1bd57c96ad5a50ef60964dcc7b62173309d1652b3ae2",
+      "domains_extracted": 2,
+      "evidence_id": "EV-byd-001-b7ab89ae7096",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.byd.com/",
+      "retrieved_at": "1790503475945149765",
+      "service_id": "byd",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.byd.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "b96718ecce572f275bdbec002ceea8b8628d6f8878f37d2a890c466479405b17",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "22c3eb606f16d227c05473866b48080a94a1e7a84162ab6a4a7229525671e6ad",
+  "release_digest": "372c75d54b5df2d6a71260d751dc04280c3acab066736ff8b0d7408aa7d568d2",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "byd",
+  "snapshot_id": "snap-byd-372c75d54b5df2d6a71260d7",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

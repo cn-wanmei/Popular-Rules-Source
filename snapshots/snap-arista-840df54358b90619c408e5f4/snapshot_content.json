@@ -1,0 +1,13 @@
+{
+  "content_digest": "832a2860f26c12430a172bc420dc1f3ee847057f9671fca831a967c48c389a5e",
+  "domains": [
+    "arista.com",
+    "www.arista.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "arista",
+  "source_hashes": [
+    "8dd123d916bcbf4317d3a362ad6d9d377b18062bcadbd242b9189dd9e594ad28"
+  ]
+}

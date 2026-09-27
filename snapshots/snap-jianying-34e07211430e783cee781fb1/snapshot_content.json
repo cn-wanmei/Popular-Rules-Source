@@ -1,0 +1,13 @@
+{
+  "content_digest": "d242657116dbd22150d303e0453105bf8cd2f5a07e47a8ad39a3e55da559ebb5",
+  "domains": [
+    "capcut.cn",
+    "www.capcut.cn"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "jianying",
+  "source_hashes": [
+    "c451e658c9d0b33e55c9a4ebda4dc8571d221974685fa76f34b4a8383df8a527"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "content_digest": "4719ccf9b26f8d476cab1f4c21714e705025b767589ed83c12c77b0e732909b8",
+  "domains": [
+    "alipay.com",
+    "www.alipay.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "alipay",
+  "source_hashes": [
+    "c801eb3b02c071c1ec2d1b1f7ac08b36f3a51abffa25cd14a0c4dec7f2307753"
+  ]
+}

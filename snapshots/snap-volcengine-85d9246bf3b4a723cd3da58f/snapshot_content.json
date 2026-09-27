@@ -1,0 +1,13 @@
+{
+  "content_digest": "a228d9e216045e5fa4e44b7a12cbcca756ae3fb3554d66296af5579fdbe17efc",
+  "domains": [
+    "volcengine.com",
+    "www.volcengine.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "volcengine",
+  "source_hashes": [
+    "1640aee024286d7ea8b06a39959d9cd4576fada7d4e23df3fea4bb1419f3ecc0"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "3baa6968b44250b71aabade1472017d36f775893041b99d6950e009b15562f0f",
+    "manifest.json": "6473d4d12e784b732a43045481eeff175bc3cae7c158e2f70e57d87a07b93006",
+    "provenance.json": "ad0f6861c78660535cc80cbe0b34fc8e8a243cf3ddf4dab8492fa3bf288c4d0b",
+    "snapshot_content.json": "807dab212a56e9db54cad4c75633fdfd9a69da5f1580998b52407637a3cf6925"
+  },
+  "content_digest": "9707037f1c7ba2b771695858b474a4170600380069a9bbbb49e98251b6096b19",
+  "created_at": "2026-09-27T10:05:23.768270+00:00",
+  "evidence_digest": "e5e4f810589cc1e85af35f618762d062cf1c53365a974dea36118b7a43a02cb8",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "484ce5da285698175d37871890ed8207508771ffc4b4930bb2926af66d100d6c",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "e2d81430dd580b43da427a5df18dd37d1ac8f5d98748694cd0d96901f4d31fe1",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "baichuan",
+  "snapshot_id": "snap-baichuan-e2d81430dd580b43da427a5d",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

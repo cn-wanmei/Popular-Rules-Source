@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "e15719361291044233f8c5843e5abd941931f117d6550637b3393085cf57463e",
+    "manifest.json": "0d78fc16f4828448e98e4287790555af03cc47567e1604d6a59ce24b9d271863",
+    "provenance.json": "c4cfd818cd379375a7d8d99ff057f3a396d0816bbe76085320be87936e6a0a10",
+    "snapshot_content.json": "08015f8fc5f55285d344fa10f4aabe992d951d442c3dd2210d78a179532fd9e4"
+  },
+  "content_digest": "a126fc20eb7a36720c558061076109d068306f10740f082d3a38764c6e846f12",
+  "created_at": "2026-09-27T10:02:27.133400+00:00",
+  "evidence_digest": "f3f661ed73efc5f0b1b80fb782e2dd1f489f117ca353d0e24ce75a20e51d8963",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "8c04ebe7020b10c656822a752863e01a209406486cc634f96d523c99fec25978",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "8a465d1cde5472566a14998bed5d49dea9bd9a8bbf3751cd4c78d83ba952db04",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "37games",
+  "snapshot_id": "snap-37games-8a465d1cde5472566a14998b",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

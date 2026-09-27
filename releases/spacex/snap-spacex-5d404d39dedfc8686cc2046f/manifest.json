@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:3ad96cf0959bafab8fdc9f83af531fb2cd3d2c2eabdf897cb53bcfd0260644a2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-spacex-001-b85f7f6eff4e"
+      ],
+      "service_id": "spacex",
+      "type": "domain",
+      "value": "spacex.com"
+    },
+    {
+      "asset_id": "sha256:8f847c5d494831d71beff973e34328abda893822a9f866bef06fbc5d968a86ec",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-spacex-001-b85f7f6eff4e"
+      ],
+      "service_id": "spacex",
+      "type": "domain",
+      "value": "www.spacex.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "3deff83a96f1823073067f5d3171abe62d1cd5736e8d485bd9f0018b2b60ad40",
+  "created_at": "2026-09-27T10:02:49.390380+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "spacex.com",
+      "www.spacex.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "spacex.com",
+    "www.spacex.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "b85f7f6eff4e64ddb223f48b466b8393d77286103640640f8148398fb2c5159f",
+      "domains_extracted": 2,
+      "evidence_id": "EV-spacex-001-b85f7f6eff4e",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.spacex.com/",
+      "retrieved_at": "1790503319701952409",
+      "service_id": "spacex",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.spacex.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "b20d8d169d67fdd997829397ab3d8cff405ad832e762179ab619f2f1daea42ce",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "eb3a713898c0bf4e652ce3eadfc6a83571df538bc185e37642cd486fab6a9c3c",
+  "previous_domain_count": 0,
+  "release_digest": "5d404d39dedfc8686cc2046f45ef0e49740d2169e1f6ed6e2d764f9fab1f6d9e",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "a2a6159c2e8df99eff870d5a4d29f72fe58eeaff0172f07806d81d4ea10c1750",
+  "service_id": "spacex",
+  "snapshot_content_sha256": "3deff83a96f1823073067f5d3171abe62d1cd5736e8d485bd9f0018b2b60ad40",
+  "snapshot_id": "snap-spacex-5d404d39dedfc8686cc2046f",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.spacex.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

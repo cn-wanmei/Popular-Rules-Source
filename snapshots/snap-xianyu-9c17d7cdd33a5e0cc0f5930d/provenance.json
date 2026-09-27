@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:320c8c0857477eb0d4d38d01b77889c9b54921e68e1fc99ff036647e5898c950",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-xianyu-001-d4ba0f7f08e9"
+      ],
+      "service_id": "xianyu",
+      "type": "domain",
+      "value": "goofish.com"
+    },
+    {
+      "asset_id": "sha256:b856e85ffe55d106445ac82c8eeee9d1b65716f025a0604125b5c145b4bceedc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-xianyu-001-d4ba0f7f08e9"
+      ],
+      "service_id": "xianyu",
+      "type": "domain",
+      "value": "www.goofish.com"
+    }
+  ],
+  "content_digest": "e3119c652a52b799a81ca2cc6b4127b7819a85ba397e436770fb35bc9188515c",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "d4ba0f7f08e948f471e88bab43335ebf9dc89fc9197f4c9ae58a774ab9c344d8",
+      "domains_extracted": 2,
+      "evidence_id": "EV-xianyu-001-d4ba0f7f08e9",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "self_built://self_built/xianyu/domains.list",
+      "retrieved_at": "1790503238269349744",
+      "service_id": "xianyu",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.goofish.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "8e6498ff221aba267803720b8015150b8d0681f554a6efd92186f7bddbb2a97d",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "6ac96e627aaa99088026e8353cf8b1a510e979f2a86487b20f295a03c23fa73b",
+  "release_digest": "9c17d7cdd33a5e0cc0f5930d7abcda342fed7f5bc96910e46d37e7cd3f234e19",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "xianyu",
+  "snapshot_id": "snap-xianyu-9c17d7cdd33a5e0cc0f5930d",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

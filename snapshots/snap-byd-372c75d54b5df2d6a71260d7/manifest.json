@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:b749c9ccdf0281987a709de17eddf394cd797e9ecb157fbe8aa13c7389fac851",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-byd-001-b7ab89ae7096"
+      ],
+      "service_id": "byd",
+      "type": "domain",
+      "value": "byd.com"
+    },
+    {
+      "asset_id": "sha256:aa1a62be37bbe732d1993daf3b4a750282b9146766321f68f25de7189482ae60",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-byd-001-b7ab89ae7096"
+      ],
+      "service_id": "byd",
+      "type": "domain",
+      "value": "www.byd.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "3624b6a4a3762ed18baae8a40df62e99232f5de285fa381a97004d22992db251",
+  "created_at": "2026-09-27T10:05:38.320439+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "byd.com",
+      "www.byd.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "byd.com",
+    "www.byd.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "b7ab89ae7096aef5af3b1bd57c96ad5a50ef60964dcc7b62173309d1652b3ae2",
+      "domains_extracted": 2,
+      "evidence_id": "EV-byd-001-b7ab89ae7096",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.byd.com/",
+      "retrieved_at": "1790503475945149765",
+      "service_id": "byd",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.byd.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "b96718ecce572f275bdbec002ceea8b8628d6f8878f37d2a890c466479405b17",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "22c3eb606f16d227c05473866b48080a94a1e7a84162ab6a4a7229525671e6ad",
+  "previous_domain_count": 0,
+  "release_digest": "372c75d54b5df2d6a71260d751dc04280c3acab066736ff8b0d7408aa7d568d2",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "c71c904fbe88e0fe80ed61eb6a6fff8f9d155a17f46a666d334100016d04c6eb",
+  "service_id": "byd",
+  "snapshot_content_sha256": "3624b6a4a3762ed18baae8a40df62e99232f5de285fa381a97004d22992db251",
+  "snapshot_id": "snap-byd-372c75d54b5df2d6a71260d7",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.byd.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:a3cba836a7a529276a02ebc88010f8c70dbefbe595fa13bda4e7eae97437de76",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qqbrowser-001-8b69d9f7505a"
+      ],
+      "service_id": "qqbrowser",
+      "type": "domain",
+      "value": "browser.qq.com"
+    }
+  ],
+  "content_digest": "782922d141cec5515439cb3c7cf351963829644ab710fa9289e2b2ffca3e6c17",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "8b69d9f7505a734a895d478cfbb568a72ad763acea539a686f39d40791bdd336",
+      "domains_extracted": 1,
+      "evidence_id": "EV-qqbrowser-001-8b69d9f7505a",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "self_built://self_built/qqbrowser/domains.list",
+      "retrieved_at": "1790503473247264279",
+      "service_id": "qqbrowser",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://browser.qq.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "e911c4b3b833c15b0184625e0ac6659cacb871769833d70e82a9d05f81e91f64",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "9638d0fa24cf63d322a2b93d088212b1b7a8435f28fe561ca013fa74bde98e5a",
+  "release_digest": "ebac3c840c0e682c1defa4ee7a323bd51af1614ac0e60bc26b3fab0cbefe6421",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "qqbrowser",
+  "snapshot_id": "snap-qqbrowser-ebac3c840c0e682c1defa4ee",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

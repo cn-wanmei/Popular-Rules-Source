@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:66e8c4aa32f443dff8b3587cb95e4f4beb6599d006e863aff68ee237b672211a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youku-001-65d56684ce1d"
+      ],
+      "service_id": "youku",
+      "type": "domain",
+      "value": "www.youku.com"
+    },
+    {
+      "asset_id": "sha256:306b847a557570e27ec24990581610ed4ece5be258b883850942f8845ba1b1cc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-youku-001-65d56684ce1d"
+      ],
+      "service_id": "youku",
+      "type": "domain",
+      "value": "youku.com"
+    }
+  ],
+  "content_digest": "8d01b9742072141d7800a1eeef511ff00c0bfa6bfabe27ef7edcd80ecb082b44",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "65d56684ce1d230e0c457f03b4473a2e950dc11f6e3a56cc961c55a8330d0a57",
+      "domains_extracted": 2,
+      "evidence_id": "EV-youku-001-65d56684ce1d",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "self_built://self_built/youku/domains.list",
+      "retrieved_at": "1790503263017947656",
+      "service_id": "youku",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.youku.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "a7e5bb6066826cd8a39ec0f76ff2c8638f390ad0bd70be8910e9e65bf6936ab6",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "5a80158e4d036a841510b9e2cf05c14d8d65c99ccc41a570554b02b2af321b93",
+  "release_digest": "0bb384a769720979e545587728ad4b5411f60328418b294378d7d5ecd5837c16",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "youku",
+  "snapshot_id": "snap-youku-0bb384a769720979e5455877",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

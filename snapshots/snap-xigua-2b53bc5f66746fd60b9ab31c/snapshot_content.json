@@ -1,0 +1,13 @@
+{
+  "content_digest": "ba0746ed73b21669b53c34f5c93f53519a7c58bbc4645463532b04f15592a17a",
+  "domains": [
+    "ixigua.com",
+    "www.ixigua.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "xigua",
+  "source_hashes": [
+    "9af4e1adc5c630c489a1522e3449534afe7efaac20c0f05ad92cecdb6ad2ad61"
+  ]
+}

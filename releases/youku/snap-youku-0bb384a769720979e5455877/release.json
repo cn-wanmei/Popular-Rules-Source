@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "c36021dcc3752e2af0c89a840d4b9ef5e1e3deaac85b735da71f699a56c98df6",
+    "manifest.json": "db116a3e2abf87a3f8923b13d0c2c339d80cdb841d8c5b63fc101fa7ebc00267",
+    "provenance.json": "5b72601287a556d40b59722c6cfe58deb8d4f3f374336869d4e9df0a7d5fd77f",
+    "snapshot_content.json": "72cd1d767bfce1d90adcab299f575a6b4b01c0bed1b705230db9f23e6e5e6d98"
+  },
+  "content_digest": "8d01b9742072141d7800a1eeef511ff00c0bfa6bfabe27ef7edcd80ecb082b44",
+  "created_at": "2026-09-27T10:02:30.657629+00:00",
+  "evidence_digest": "a7e5bb6066826cd8a39ec0f76ff2c8638f390ad0bd70be8910e9e65bf6936ab6",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "5a80158e4d036a841510b9e2cf05c14d8d65c99ccc41a570554b02b2af321b93",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "0bb384a769720979e545587728ad4b5411f60328418b294378d7d5ecd5837c16",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "youku",
+  "snapshot_id": "snap-youku-0bb384a769720979e5455877",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

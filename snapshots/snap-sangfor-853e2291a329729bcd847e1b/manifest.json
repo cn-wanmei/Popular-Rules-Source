@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:17e5015fe44808f97fe711f76c3efd7f050fcade20c5c6f2345f23b85c859991",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-sangfor-001-0204550d3fde"
+      ],
+      "service_id": "sangfor",
+      "type": "domain",
+      "value": "sangfor.com.cn"
+    },
+    {
+      "asset_id": "sha256:021ac3aac073ce6aeac748d29b0da0313ba5fe726a71b9785fa0cc8046b55b8a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-sangfor-001-0204550d3fde"
+      ],
+      "service_id": "sangfor",
+      "type": "domain",
+      "value": "www.sangfor.com.cn"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "7a4196eabb2c7bdcae88ae5f7a77c56268bc03219d8688872656983aa49ba970",
+  "created_at": "2026-09-27T10:05:40.797723+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "sangfor.com.cn",
+      "www.sangfor.com.cn"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "sangfor.com.cn",
+    "www.sangfor.com.cn"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "0204550d3fdeef87d0145d8039b944947363bbea3f3aa2479590ac4161712ed0",
+      "domains_extracted": 2,
+      "evidence_id": "EV-sangfor-001-0204550d3fde",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.sangfor.com.cn/",
+      "retrieved_at": "1790503478506885877",
+      "service_id": "sangfor",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.sangfor.com.cn/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "47fa4e4dcd65297f92c6d8a1f1df4d0e893b589349b3533f7c57de93686e9558",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "a1bb5abe3f731c7ee53428fa3bce6019d2a3af408bfb66417602f3021b58ae84",
+  "previous_domain_count": 0,
+  "release_digest": "853e2291a329729bcd847e1b7a6505a6fb997db43d2e32c696cf55e19a0a99fe",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "b4e71a91de0136179861b73d31c74b21a9e46698ca088017bffab65066d37054",
+  "service_id": "sangfor",
+  "snapshot_content_sha256": "7a4196eabb2c7bdcae88ae5f7a77c56268bc03219d8688872656983aa49ba970",
+  "snapshot_id": "snap-sangfor-853e2291a329729bcd847e1b",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.sangfor.com.cn/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

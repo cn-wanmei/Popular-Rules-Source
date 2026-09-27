@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:2b7362cfa00f6de7c226a9f0bd8e3f5897d72358ae91b16057e7153c706fb9aa",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-hikvision-001-409725bd301b"
+      ],
+      "service_id": "hikvision",
+      "type": "domain",
+      "value": "hikvision.com"
+    },
+    {
+      "asset_id": "sha256:573279fbfd04acb069a77194ee0b5282c2528e3796d7c03d5d9b5f0c0476128c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-hikvision-001-409725bd301b"
+      ],
+      "service_id": "hikvision",
+      "type": "domain",
+      "value": "www.hikvision.com"
+    }
+  ],
+  "content_digest": "1e026d4ed5123fa2248b25786b17f8219520ce89c68ee8059a80adbf83a31e9d",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "409725bd301b665bbf924a495e760afae38cc62ec743870f5eb29a50254bcb7d",
+      "domains_extracted": 2,
+      "evidence_id": "EV-hikvision-001-409725bd301b",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.hikvision.com/",
+      "retrieved_at": "1790503436109589298",
+      "service_id": "hikvision",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.hikvision.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "5079bbca68ff16dd1c45656a925295a148d78f9219f24fc3947534d51fe15da2",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "a5ad30e81b14011900e724386a2504be8d5ed4d7b06d3a8b92250d6e09e66d15",
+  "release_digest": "48addd781bb964a4f72692f110719225f6a1936f22c7e2fbe0f9dc0509f828a5",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "hikvision",
+  "snapshot_id": "snap-hikvision-48addd781bb964a4f72692f1",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

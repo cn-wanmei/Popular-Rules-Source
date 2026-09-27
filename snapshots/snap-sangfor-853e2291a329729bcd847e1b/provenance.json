@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:17e5015fe44808f97fe711f76c3efd7f050fcade20c5c6f2345f23b85c859991",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-sangfor-001-0204550d3fde"
+      ],
+      "service_id": "sangfor",
+      "type": "domain",
+      "value": "sangfor.com.cn"
+    },
+    {
+      "asset_id": "sha256:021ac3aac073ce6aeac748d29b0da0313ba5fe726a71b9785fa0cc8046b55b8a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-sangfor-001-0204550d3fde"
+      ],
+      "service_id": "sangfor",
+      "type": "domain",
+      "value": "www.sangfor.com.cn"
+    }
+  ],
+  "content_digest": "7a4196eabb2c7bdcae88ae5f7a77c56268bc03219d8688872656983aa49ba970",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "0204550d3fdeef87d0145d8039b944947363bbea3f3aa2479590ac4161712ed0",
+      "domains_extracted": 2,
+      "evidence_id": "EV-sangfor-001-0204550d3fde",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.sangfor.com.cn/",
+      "retrieved_at": "1790503478506885877",
+      "service_id": "sangfor",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.sangfor.com.cn/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "47fa4e4dcd65297f92c6d8a1f1df4d0e893b589349b3533f7c57de93686e9558",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "a1bb5abe3f731c7ee53428fa3bce6019d2a3af408bfb66417602f3021b58ae84",
+  "release_digest": "853e2291a329729bcd847e1b7a6505a6fb997db43d2e32c696cf55e19a0a99fe",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "sangfor",
+  "snapshot_id": "snap-sangfor-853e2291a329729bcd847e1b",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

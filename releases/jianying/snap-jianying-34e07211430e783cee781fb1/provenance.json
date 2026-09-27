@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:c4c955dff490a2342c87e4142684d1af1b9c0a7831d740866333549e18296dca",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-jianying-001-c451e658c9d0"
+      ],
+      "service_id": "jianying",
+      "type": "domain",
+      "value": "capcut.cn"
+    },
+    {
+      "asset_id": "sha256:490f1013129e91a8e07f32ea66d109164cb7b49b62f55e71ab9cd82cbdf02505",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-jianying-001-c451e658c9d0"
+      ],
+      "service_id": "jianying",
+      "type": "domain",
+      "value": "www.capcut.cn"
+    }
+  ],
+  "content_digest": "d242657116dbd22150d303e0453105bf8cd2f5a07e47a8ad39a3e55da559ebb5",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "c451e658c9d0b33e55c9a4ebda4dc8571d221974685fa76f34b4a8383df8a527",
+      "domains_extracted": 2,
+      "evidence_id": "EV-jianying-001-c451e658c9d0",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "self_built://self_built/jianying/domains.list",
+      "retrieved_at": "1790503243585907629",
+      "service_id": "jianying",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.capcut.cn/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "da331a02cffff45810daa88222d708fb24a0d3d3dca1afb0c0ceec2cafcfb1fe",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "86016e91d5d65bc00ab16588c0900b1ea4df258133801c26d5ddf8d5aba45229",
+  "release_digest": "34e07211430e783cee781fb17aeaac7b34ce1cb595c75298ac7ae145ac6199a1",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "jianying",
+  "snapshot_id": "snap-jianying-34e07211430e783cee781fb1",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "2d17ad490bfd27e7e15ec35397754d9daa36d25848f6f242ba597ebbcb7dda95",
+    "manifest.json": "8f0c08b2ef592c2b09db1b58f6b9c22247b0127771bd6f755d5e6145230c0f1b",
+    "provenance.json": "2ff54411225141b2544001d8abd9443d31c7bbba5b79a79de87f86c8419355cf",
+    "snapshot_content.json": "5f742b62935f5f05c7c185d5db5d93e3ca28756c803ad2d5ed7f1d4ac925b6ec"
+  },
+  "content_digest": "4719ccf9b26f8d476cab1f4c21714e705025b767589ed83c12c77b0e732909b8",
+  "created_at": "2026-09-27T10:04:50.491831+00:00",
+  "evidence_digest": "5b3bbbcb1229bc0771edb6477f316439105f10ebb3b67331c46cb48168bb0c53",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "4fc65190291ee84799caf119b3c08aaf6472082a51edfd4c5f6dedf9c15f726a",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "7e39ca630ab553d1bd55c414c8a59ebd0f9547d8b802bf59975af56bc5679c0f",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "alipay",
+  "snapshot_id": "snap-alipay-7e39ca630ab553d1bd55c414",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

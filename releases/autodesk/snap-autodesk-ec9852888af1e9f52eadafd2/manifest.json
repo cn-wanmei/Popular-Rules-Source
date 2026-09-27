@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:ad5771567049a11e6c4ff3524b509235ee22b0657a736dc2b39e43ab236eb72d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-autodesk-001-701fb0224df8"
+      ],
+      "service_id": "autodesk",
+      "type": "domain",
+      "value": "autodesk.com"
+    },
+    {
+      "asset_id": "sha256:3d971cf3d88a296cf9c003c97fbaa7c08d065a05a33bbc60473f9b56150787b8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-autodesk-001-701fb0224df8"
+      ],
+      "service_id": "autodesk",
+      "type": "domain",
+      "value": "www.autodesk.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "1fc48cab81583326ae6d976ed88d6058f320c14138b6ac2168e95ed760060ac5",
+  "created_at": "2026-09-27T10:05:36.585311+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "autodesk.com",
+      "www.autodesk.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "autodesk.com",
+    "www.autodesk.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "701fb0224df8a3dae359dfb4b386fea0027c52424b7f9e702b90ba0793747bc6",
+      "domains_extracted": 2,
+      "evidence_id": "EV-autodesk-001-701fb0224df8",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.autodesk.com/",
+      "retrieved_at": "1790503474089532965",
+      "service_id": "autodesk",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.autodesk.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "be009cfcd363709730118e9153efbcca75a904abd78adb6f2bc8321be8a75090",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "41f914c4015a39eee9569de12af2f11c6a10325ffb4d9b0faa50c4c7f10a226f",
+  "previous_domain_count": 0,
+  "release_digest": "ec9852888af1e9f52eadafd2f4bea53f7b4282dc02011d7c53f437bb0313b8c9",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "bf36f8106994977445b5e365be7d554e453d6b46243d5bcbc04ed835b264450a",
+  "service_id": "autodesk",
+  "snapshot_content_sha256": "1fc48cab81583326ae6d976ed88d6058f320c14138b6ac2168e95ed760060ac5",
+  "snapshot_id": "snap-autodesk-ec9852888af1e9f52eadafd2",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.autodesk.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

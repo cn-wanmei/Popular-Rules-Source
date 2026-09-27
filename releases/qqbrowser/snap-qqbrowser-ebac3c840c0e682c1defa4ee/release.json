@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "3db53fccadd0345f1045a64b1fb006b280aa25069e5cc913e2fbc5f7b4248caa",
+    "manifest.json": "88eaaaaf5e4da113563716314ab2912bee189d61b0e4a3f91c6519157fa4fc72",
+    "provenance.json": "1beec8634282a970862d9a4719330438916e215946d11c513492556b6778895d",
+    "snapshot_content.json": "859d4c4d7d556f0d4e0b54342ef552a3edd0e4f1100377c2eb1c3e343673b73f"
+  },
+  "content_digest": "782922d141cec5515439cb3c7cf351963829644ab710fa9289e2b2ffca3e6c17",
+  "created_at": "2026-09-27T10:06:11.932350+00:00",
+  "evidence_digest": "e911c4b3b833c15b0184625e0ac6659cacb871769833d70e82a9d05f81e91f64",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "9638d0fa24cf63d322a2b93d088212b1b7a8435f28fe561ca013fa74bde98e5a",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "ebac3c840c0e682c1defa4ee7a323bd51af1614ac0e60bc26b3fab0cbefe6421",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "qqbrowser",
+  "snapshot_id": "snap-qqbrowser-ebac3c840c0e682c1defa4ee",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

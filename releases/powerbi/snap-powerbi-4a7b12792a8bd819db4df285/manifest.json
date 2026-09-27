@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:5f3be9bb99a97b6aa3417b4d404e9943b6d6cdfc3776fd023c09947d6c0ea53b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-powerbi-001-b2290864ca8a"
+      ],
+      "service_id": "powerbi",
+      "type": "domain",
+      "value": "app.powerbi.com"
+    },
+    {
+      "asset_id": "sha256:68cd141dd170b3416f66abeb49494b388d434323e7ed36d4766291699fea41c4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-powerbi-001-b2290864ca8a"
+      ],
+      "service_id": "powerbi",
+      "type": "domain",
+      "value": "powerbi.microsoft.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "de455aa701da7f3250f5f85a451f59a2f7da41104d1c115cace364dcaf875011",
+  "created_at": "2026-09-27T10:03:23.695263+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "app.powerbi.com",
+      "powerbi.microsoft.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "app.powerbi.com",
+    "powerbi.microsoft.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "b2290864ca8adb950d1b4e3c71988d96c2aa76b61d0d0df18cac12d00df1cfb5",
+      "domains_extracted": 2,
+      "evidence_id": "EV-powerbi-001-b2290864ca8a",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "self_built://self_built/powerbi/domains.list",
+      "retrieved_at": "1790503356994163672",
+      "service_id": "powerbi",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://powerbi.microsoft.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "ff56857c19eeb17e3bbbd13bf40d81f220eb2a8262dcb98a5222cac4f919781e",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "eb2d5b43fb45010167b152d98a39c80957167e3e9402b8f32daa94cc75b96976",
+  "previous_domain_count": 0,
+  "release_digest": "4a7b12792a8bd819db4df2853f5a8a76c446e31f7c9af3686caf2a2730a1734f",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "441cdc968fc9ea1a3bca3551849231008184f28760f56772ced657c177a67072",
+  "service_id": "powerbi",
+  "snapshot_content_sha256": "de455aa701da7f3250f5f85a451f59a2f7da41104d1c115cace364dcaf875011",
+  "snapshot_id": "snap-powerbi-4a7b12792a8bd819db4df285",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://powerbi.microsoft.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,13 @@
+{
+  "content_digest": "63980b43837545947c7625f8b7812becc3c07bb78d59599c63bba06917047f1d",
+  "domains": [
+    "lazada.com",
+    "www.lazada.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "lazada",
+  "source_hashes": [
+    "69ca78e890676ddd9c95335579a6e118efe259d92242855c582fa9042d1844c2"
+  ]
+}

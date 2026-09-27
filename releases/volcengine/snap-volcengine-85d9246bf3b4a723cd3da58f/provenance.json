@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:3e14e6ac05f4249896f4e29d910e8246033dbaac91697aed2052c3977de33a57",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-volcengine-001-1640aee02428"
+      ],
+      "service_id": "volcengine",
+      "type": "domain",
+      "value": "volcengine.com"
+    },
+    {
+      "asset_id": "sha256:1cde43cd15225aa8f35f329fe06a85889f5873215ad7964ed075ba7cae2fe7ab",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-volcengine-001-1640aee02428"
+      ],
+      "service_id": "volcengine",
+      "type": "domain",
+      "value": "www.volcengine.com"
+    }
+  ],
+  "content_digest": "a228d9e216045e5fa4e44b7a12cbcca756ae3fb3554d66296af5579fdbe17efc",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "1640aee024286d7ea8b06a39959d9cd4576fada7d4e23df3fea4bb1419f3ecc0",
+      "domains_extracted": 2,
+      "evidence_id": "EV-volcengine-001-1640aee02428",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.volcengine.com/",
+      "retrieved_at": "1790503501097901758",
+      "service_id": "volcengine",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.volcengine.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "bd07204c83890586c539c49d516fb32dc13158afb926780718d2119172cb12a3",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "d7518681b5a334c92f76a7414664eeaf3baf9e201cd13ded5084776dac580d8b",
+  "release_digest": "85d9246bf3b4a723cd3da58fc59442c9e19530e37f759974e830eda227987f38",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "volcengine",
+  "snapshot_id": "snap-volcengine-85d9246bf3b4a723cd3da58f",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

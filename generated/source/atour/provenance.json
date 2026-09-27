@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:459ea09af58438ebdcd4680a424c0d5e9409eef93799af98f1fe5b344841cc6b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-atour-001-42edeb6d24b2"
+      ],
+      "service_id": "atour",
+      "type": "domain",
+      "value": "www.yaduo.com"
+    },
+    {
+      "asset_id": "sha256:9cc8611986013795dfb2e94e29b47bd44baba014f013c59765872c0b14022345",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-atour-001-42edeb6d24b2"
+      ],
+      "service_id": "atour",
+      "type": "domain",
+      "value": "yaduo.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "7c39c8234f46899e3f04168a74c95a30c7b477d0ec60c2706fc33f09d1c21847",
+  "created_at": "2026-09-27T10:04:54.140461+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "www.yaduo.com",
+      "yaduo.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "www.yaduo.com",
+    "yaduo.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "42edeb6d24b2778a4f579cd86d7f45b4d7c8c335f20f6122f36f6294bb63629e",
+      "domains_extracted": 2,
+      "evidence_id": "EV-atour-001-42edeb6d24b2",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.yaduo.com/",
+      "retrieved_at": "1790503426802596458",
+      "service_id": "atour",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.yaduo.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "b01dd23835949c44800d8fa3bd13ec2602b78526bdc601edd1d147f479936401",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "9b143567794191759c9237ef4867d4f02d09d3c45c41674ebd3c6288bbe53c50",
+  "previous_domain_count": 0,
+  "release_digest": "48582d816984996f87f1adf87eac654e003ed13403bd9a70cfa0921c03f8db99",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "f4182fb76df3c3f84949aa978fa244b51713c6e5b0fca644c4594d158e5d5f25",
+  "service_id": "atour",
+  "snapshot_content_sha256": "7c39c8234f46899e3f04168a74c95a30c7b477d0ec60c2706fc33f09d1c21847",
+  "snapshot_id": "snap-atour-48582d816984996f87f1adf8",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.yaduo.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

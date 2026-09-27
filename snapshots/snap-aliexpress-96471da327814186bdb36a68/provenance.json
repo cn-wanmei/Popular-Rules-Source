@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:88dcdb8982e1892a59a65447f9980657c0b98ec4718c6df5dafb0f6a8c44698c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-aliexpress-001-2744038977de"
+      ],
+      "service_id": "aliexpress",
+      "type": "domain",
+      "value": "aliexpress.com"
+    },
+    {
+      "asset_id": "sha256:9eed22f6a0e6bc97bdd93302aa0a8aa00f12a0443640a681dac79b4e6b9f91bb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-aliexpress-001-2744038977de"
+      ],
+      "service_id": "aliexpress",
+      "type": "domain",
+      "value": "www.aliexpress.com"
+    }
+  ],
+  "content_digest": "a8e3230075ec402d4846043ce01af88e25cb53ae2473ea0adbcd60a27df11a97",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "2744038977de1192d30cdb990952d8f360e370780cc8e172d6bbf8e64835866d",
+      "domains_extracted": 2,
+      "evidence_id": "EV-aliexpress-001-2744038977de",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "self_built://self_built/aliexpress/domains.list",
+      "retrieved_at": "1790503260071731204",
+      "service_id": "aliexpress",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.aliexpress.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "6e6440dc854db6b2a7ef09c3dde5e267ab9f07ba7703839db2de5a249ff225a2",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "62927313b98a3e31d4d1daa65b37f5b59db8e5031be63a7ac22019f9cbff2f8b",
+  "release_digest": "96471da327814186bdb36a6863ee91ed8e588fbb14d169e6e1fc7b26e71c295d",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "aliexpress",
+  "snapshot_id": "snap-aliexpress-96471da327814186bdb36a68",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

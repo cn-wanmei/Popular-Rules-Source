@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "d2a43ea31536ef4e35a37edf0c7d20ee5dabbd4d432720c43bd71e63a3bd15e4",
+    "manifest.json": "e7fa07b3e119efdf6d3b2a368121acb948ca35381f744cfcba11cfbb8a0265da",
+    "provenance.json": "73b7b5aa1e224c4a06596424ff16685b647e672849826f7a93661cdecb96d294",
+    "snapshot_content.json": "0c085e54bb0a10d2c77e2ede0bb48931c93fd2525c6928fddebc05a0a9e670d5"
+  },
+  "content_digest": "de455aa701da7f3250f5f85a451f59a2f7da41104d1c115cace364dcaf875011",
+  "created_at": "2026-09-27T10:03:50.071336+00:00",
+  "evidence_digest": "ff56857c19eeb17e3bbbd13bf40d81f220eb2a8262dcb98a5222cac4f919781e",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "eb2d5b43fb45010167b152d98a39c80957167e3e9402b8f32daa94cc75b96976",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "4a7b12792a8bd819db4df2853f5a8a76c446e31f7c9af3686caf2a2730a1734f",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "powerbi",
+  "snapshot_id": "snap-powerbi-4a7b12792a8bd819db4df285",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

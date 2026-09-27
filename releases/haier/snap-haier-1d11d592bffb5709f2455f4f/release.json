@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "7d2f91a8456abde1677f368a2020f429bed360c99170b4c3a8aa80a38aee8876",
+    "manifest.json": "4a1fe1590c7e92bbd4b192b83e463108dc35e9c1ead733151a7699c1b49d4edf",
+    "provenance.json": "27aaf2bf04204c2062018e8d763ca4153ae87f39043e7e108842da3cc9999abc",
+    "snapshot_content.json": "fef79f542b5846408b38b93fa035acef2b0fb9e2f030989bd2fc21c45e15415f"
+  },
+  "content_digest": "f6a586f9da70dc111c428610b09c3bcab36c1cdd6f20466f4bbc7372184cd9f6",
+  "created_at": "2026-09-27T10:05:48.774752+00:00",
+  "evidence_digest": "936f92266cc20d9b2d5e3ff858d8885595cda5e8d66170ed0a276c4239a46df0",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "f08cb21eb7f1280ec779b0be6e939d3c97e20f19a176988b08c3d88efa67414a",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "1d11d592bffb5709f2455f4f8508afd4abafc7ac69cf12ef6f4a2f635cbb23af",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "haier",
+  "snapshot_id": "snap-haier-1d11d592bffb5709f2455f4f",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

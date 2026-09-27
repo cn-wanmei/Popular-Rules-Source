@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "48ccd4343f165c064609375c058ced85911debb6eb0c846b76b7dc1190571d13",
+    "manifest.json": "b4061d33f4b2c324388ce0d42cedc14461479f3ce8912faba844d0c86cfbcb8c",
+    "provenance.json": "8b5a6447611c9961fe5c4a0a09d30d036e8c2e3d716d5d70d362e21d54d5a1fa",
+    "snapshot_content.json": "afef82b01eda5bf4d735734edc4be0fac348394bed1e026922cd6e6a58180718"
+  },
+  "content_digest": "1e026d4ed5123fa2248b25786b17f8219520ce89c68ee8059a80adbf83a31e9d",
+  "created_at": "2026-09-27T10:05:02.797489+00:00",
+  "evidence_digest": "5079bbca68ff16dd1c45656a925295a148d78f9219f24fc3947534d51fe15da2",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "a5ad30e81b14011900e724386a2504be8d5ed4d7b06d3a8b92250d6e09e66d15",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "48addd781bb964a4f72692f110719225f6a1936f22c7e2fbe0f9dc0509f828a5",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "hikvision",
+  "snapshot_id": "snap-hikvision-48addd781bb964a4f72692f1",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

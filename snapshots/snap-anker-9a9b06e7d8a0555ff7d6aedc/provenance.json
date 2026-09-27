@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:292234df4fb85d46a185caa8517955abca5f99e0342b2754cd74e391cb9ac4bf",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-anker-001-a6a61d11f8fb"
+      ],
+      "service_id": "anker",
+      "type": "domain",
+      "value": "anker.com"
+    },
+    {
+      "asset_id": "sha256:df99fd82bc4909a749bb96b0f2c0fa341f7a277437fe5e145a15ac8dad44de58",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-anker-001-a6a61d11f8fb"
+      ],
+      "service_id": "anker",
+      "type": "domain",
+      "value": "www.anker.com"
+    }
+  ],
+  "content_digest": "bd9d324714b6a6fdda085f14fa3b2c19f4b3247292ee20ccee4501b8b709b543",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "a6a61d11f8fbe46bdb9531e681803b671e975ad58f8e555cb7d851cbccbff4d8",
+      "domains_extracted": 2,
+      "evidence_id": "EV-anker-001-a6a61d11f8fb",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.anker.com/",
+      "retrieved_at": "1790503372802655296",
+      "service_id": "anker",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.anker.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "9964dc6823f046d315717153e7b9be63c86d7a059a110e3b0747f686e466dfd8",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "3a94a46ecae7df14f458413812a81a4976e05c7aeed4053c43bf0ba31656ca4d",
+  "release_digest": "9a9b06e7d8a0555ff7d6aedc89f5150524b9db09cb3e1f36358b48500d8aeabb",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "anker",
+  "snapshot_id": "snap-anker-9a9b06e7d8a0555ff7d6aedc",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

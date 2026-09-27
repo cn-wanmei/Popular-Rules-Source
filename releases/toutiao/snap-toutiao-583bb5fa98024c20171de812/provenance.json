@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:35aa744d5180b24ddb93c0df6dc3b8f1380c5f71f9dbea9cb613eb19c7175d8b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-toutiao-001-64c562d17ccd"
+      ],
+      "service_id": "toutiao",
+      "type": "domain",
+      "value": "toutiao.com"
+    },
+    {
+      "asset_id": "sha256:23d13a9e075d3858cb571fcb3c9d18fc6b621cd0197d58fe87d874aaf04fb0e4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-toutiao-001-64c562d17ccd"
+      ],
+      "service_id": "toutiao",
+      "type": "domain",
+      "value": "www.toutiao.com"
+    }
+  ],
+  "content_digest": "bd0ea830a337e339395f3d76c2012d7c5f71cec62b63e6ee17dba9a3a55bc627",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "64c562d17ccd4585f55b12ba5d17aeaf31e4597a227ed73926b71b0b25e925a0",
+      "domains_extracted": 2,
+      "evidence_id": "EV-toutiao-001-64c562d17ccd",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "self_built://self_built/toutiao/domains.list",
+      "retrieved_at": "1790503263182335349",
+      "service_id": "toutiao",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.toutiao.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "89c944b9685849a923f0899febbe26c54bc82249ed437e9daefb01d17f186c37",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "8f6acd6f80e7eec9edf11379e4aef7ef8c47c69975ec1a63c3439d435abc9bbe",
+  "release_digest": "583bb5fa98024c20171de8122773aa22d1d4f0183fb350e4af30eb20d332ded2",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "toutiao",
+  "snapshot_id": "snap-toutiao-583bb5fa98024c20171de812",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

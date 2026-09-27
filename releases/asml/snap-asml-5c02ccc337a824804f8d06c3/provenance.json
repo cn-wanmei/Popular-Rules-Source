@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:543f4f3534028c9b6c2324a67c6f1d356ac4766e6c4981012d79a48f9f0f567d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-asml-001-e47eb0932bca"
+      ],
+      "service_id": "asml",
+      "type": "domain",
+      "value": "asml.com"
+    },
+    {
+      "asset_id": "sha256:33d9b5d425e63bc2e5e74eda169809fcf6028da6936af447ab914c77e0a46be7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-asml-001-e47eb0932bca"
+      ],
+      "service_id": "asml",
+      "type": "domain",
+      "value": "www.asml.com"
+    }
+  ],
+  "content_digest": "f68fc8d4a428d6a25f5c5a285e20085abaa6badca441eb760b6cb10357fe884e",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "e47eb0932bcab5c207c5f4f8d28513c9d350a01f8e36c0e117b1dd101eaa06c9",
+      "domains_extracted": 2,
+      "evidence_id": "EV-asml-001-e47eb0932bca",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.asml.com/",
+      "retrieved_at": "1790503479730337913",
+      "service_id": "asml",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.asml.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "46531ec51effa7277a37cab258bed026f24d91a0bb94eb2ad96d063334e6f89b",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "66f391fc2a3fc3e9e8c40bc9d4745ec403b66a2b5013105996c9584aac53470e",
+  "release_digest": "5c02ccc337a824804f8d06c3aa6845f0cb2ee425584b629214e9a547bffd7a5a",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "asml",
+  "snapshot_id": "snap-asml-5c02ccc337a824804f8d06c3",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

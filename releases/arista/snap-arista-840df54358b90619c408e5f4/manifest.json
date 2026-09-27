@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:398a767c5a4e6f017cde8273bbbdb27ad2e062640a1394bf89ac20e5d0cfaf9a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-arista-001-8dd123d916bc"
+      ],
+      "service_id": "arista",
+      "type": "domain",
+      "value": "arista.com"
+    },
+    {
+      "asset_id": "sha256:dd1b18189b4b027b0500697894dec77462bc82528915196e81812715fe2345fe",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-arista-001-8dd123d916bc"
+      ],
+      "service_id": "arista",
+      "type": "domain",
+      "value": "www.arista.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "832a2860f26c12430a172bc420dc1f3ee847057f9671fca831a967c48c389a5e",
+  "created_at": "2026-09-27T10:04:51.493609+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "arista.com",
+      "www.arista.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "arista.com",
+    "www.arista.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "8dd123d916bcbf4317d3a362ad6d9d377b18062bcadbd242b9189dd9e594ad28",
+      "domains_extracted": 2,
+      "evidence_id": "EV-arista-001-8dd123d916bc",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "self_built://self_built/arista/domains.list",
+      "retrieved_at": "1790503428778351442",
+      "service_id": "arista",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.arista.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "f1abbf4e73e71ec2acedb900a04415c6c1af884eb0df300daf792ebf1c53a18a",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "d0f6a17bdcbdf9c023134a9736f2e3a478a547e2e73b549fb626c4887e25fa41",
+  "previous_domain_count": 0,
+  "release_digest": "840df54358b90619c408e5f4737b96b867520bb9937cfb72e5cf51604d094597",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "5e9ba79f9316f25913c3a0a71e5b60a6f113fe9667d71b502c0be6da80c8cd88",
+  "service_id": "arista",
+  "snapshot_content_sha256": "832a2860f26c12430a172bc420dc1f3ee847057f9671fca831a967c48c389a5e",
+  "snapshot_id": "snap-arista-840df54358b90619c408e5f4",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.arista.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:40b54e4f7aa77b111bce11392c51168c3d1f7abf94188923baae20c038b68eda",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-haier-001-27f31644927b"
+      ],
+      "service_id": "haier",
+      "type": "domain",
+      "value": "haier.com"
+    },
+    {
+      "asset_id": "sha256:9ac4e28bd2652ad07b36e070d9c79985204c38c210670dcd3adce0265c348357",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-haier-001-27f31644927b"
+      ],
+      "service_id": "haier",
+      "type": "domain",
+      "value": "www.haier.com"
+    }
+  ],
+  "content_digest": "f6a586f9da70dc111c428610b09c3bcab36c1cdd6f20466f4bbc7372184cd9f6",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "27f31644927b88fccd71089e65fd439ffe0a84da4ce4fa8610e5fcf05b42c6a1",
+      "domains_extracted": 2,
+      "evidence_id": "EV-haier-001-27f31644927b",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.haier.com/",
+      "retrieved_at": "1790503452268923308",
+      "service_id": "haier",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.haier.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "936f92266cc20d9b2d5e3ff858d8885595cda5e8d66170ed0a276c4239a46df0",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "f08cb21eb7f1280ec779b0be6e939d3c97e20f19a176988b08c3d88efa67414a",
+  "release_digest": "1d11d592bffb5709f2455f4f8508afd4abafc7ac69cf12ef6f4a2f635cbb23af",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "haier",
+  "snapshot_id": "snap-haier-1d11d592bffb5709f2455f4f",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

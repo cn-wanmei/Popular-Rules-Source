@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "03d02db9fa0738080b7c418fecb952550a240464cbd6ba752ba10c2d4199c568",
+    "manifest.json": "bf7442771413bdacc050f26ca9be762a9f6ec134e563aa03ac5239391c6e809a",
+    "provenance.json": "ef89253943c8f18d32e6d7c4b61a2b5c4937c2caf17e471d8c7a3d0637f3d897",
+    "snapshot_content.json": "60469c33480dcf4014e277b8ba951a8115933223604c176830f606ab9896c3bf"
+  },
+  "content_digest": "a8e3230075ec402d4846043ce01af88e25cb53ae2473ea0adbcd60a27df11a97",
+  "created_at": "2026-09-27T10:02:40.298622+00:00",
+  "evidence_digest": "6e6440dc854db6b2a7ef09c3dde5e267ab9f07ba7703839db2de5a249ff225a2",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "62927313b98a3e31d4d1daa65b37f5b59db8e5031be63a7ac22019f9cbff2f8b",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "96471da327814186bdb36a6863ee91ed8e588fbb14d169e6e1fc7b26e71c295d",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "aliexpress",
+  "snapshot_id": "snap-aliexpress-96471da327814186bdb36a68",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

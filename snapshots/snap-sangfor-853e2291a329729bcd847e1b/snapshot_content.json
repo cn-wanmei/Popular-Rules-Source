@@ -1,0 +1,13 @@
+{
+  "content_digest": "7a4196eabb2c7bdcae88ae5f7a77c56268bc03219d8688872656983aa49ba970",
+  "domains": [
+    "sangfor.com.cn",
+    "www.sangfor.com.cn"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "sangfor",
+  "source_hashes": [
+    "0204550d3fdeef87d0145d8039b944947363bbea3f3aa2479590ac4161712ed0"
+  ]
+}

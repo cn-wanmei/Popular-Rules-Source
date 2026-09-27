@@ -1,0 +1,13 @@
+{
+  "content_digest": "0e5335e8ed62dbc7be9e4e45eea1fe0abf74cf220546976381cf44ff52f94ed7",
+  "domains": [
+    "tsmc.com",
+    "www.tsmc.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "tsmc",
+  "source_hashes": [
+    "f2089b5a3e677639418a520932a14af644a4a95ed2943b7b934d87feb94ab84d"
+  ]
+}

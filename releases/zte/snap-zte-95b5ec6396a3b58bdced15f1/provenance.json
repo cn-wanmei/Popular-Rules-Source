@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:f532c474ced299f6938e8bef18ea6f2711b59ed2916a2cc0194a7682989c55be",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-zte-001-eb72ee3a3095"
+      ],
+      "service_id": "zte",
+      "type": "domain",
+      "value": "www.zte.com.cn"
+    },
+    {
+      "asset_id": "sha256:efb346e34d7959230e8bc16d9edeb39690d6db34c77ded59c83ab4e3fb88b330",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-zte-001-eb72ee3a3095"
+      ],
+      "service_id": "zte",
+      "type": "domain",
+      "value": "zte.com.cn"
+    }
+  ],
+  "content_digest": "4b8f3f4a19a192460116efa3ffebb8a94217c5844c691ee980468b615169a140",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "eb72ee3a309531acecf9923983644f3b6b31aff4d9caf7507f023c1f083327fd",
+      "domains_extracted": 2,
+      "evidence_id": "EV-zte-001-eb72ee3a3095",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.zte.com.cn/",
+      "retrieved_at": "1790503404279773817",
+      "service_id": "zte",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.zte.com.cn/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "960a6b5beeb61732b4b36e797497cfda8822d442060b2230950f7c2a465ecb54",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "d1b9c5ed0c14c1541138b3313061a3f1398c19e34375dcf10ef46b00f13cb458",
+  "release_digest": "95b5ec6396a3b58bdced15f105abca72ee07624ab5dd2e40b446d166dad61d4a",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "zte",
+  "snapshot_id": "snap-zte-95b5ec6396a3b58bdced15f1",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

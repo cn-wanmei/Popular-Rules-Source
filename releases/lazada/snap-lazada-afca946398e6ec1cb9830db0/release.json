@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "cee6fec966090c59f4995316d46d6110dfdabb7d1882dbbaa27ef08df112eb19",
+    "manifest.json": "803ad8254e939281b7809147e525fa2a8c4409f4b5fb7a78c3a2f2a70e93dd45",
+    "provenance.json": "ad0f9c202282c4432dc9cfe66220da13db2652e32093c5e12bc12d10322b0ad7",
+    "snapshot_content.json": "0dd50c535bd85f0cb1d7ff25eedb7000ae08f97a3e1f31dc04a626ff8878850c"
+  },
+  "content_digest": "63980b43837545947c7625f8b7812becc3c07bb78d59599c63bba06917047f1d",
+  "created_at": "2026-09-27T10:03:13.246335+00:00",
+  "evidence_digest": "3a9f2d2f6d6f57580ef9ff96920d87becbe69c8342d2c5f1adb0f9da74a0cd16",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "c91dd0783ae7e5ea10ca97bd37db506feac0f02ec996caad6491c539b3f31251",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "afca946398e6ec1cb9830db0a36b9cc2fee4f55d51256051867a7185a3e1d822",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "lazada",
+  "snapshot_id": "snap-lazada-afca946398e6ec1cb9830db0",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

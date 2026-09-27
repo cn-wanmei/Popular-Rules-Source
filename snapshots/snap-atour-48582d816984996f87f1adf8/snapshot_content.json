@@ -1,0 +1,13 @@
+{
+  "content_digest": "7c39c8234f46899e3f04168a74c95a30c7b477d0ec60c2706fc33f09d1c21847",
+  "domains": [
+    "www.yaduo.com",
+    "yaduo.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "atour",
+  "source_hashes": [
+    "42edeb6d24b2778a4f579cd86d7f45b4d7c8c335f20f6122f36f6294bb63629e"
+  ]
+}

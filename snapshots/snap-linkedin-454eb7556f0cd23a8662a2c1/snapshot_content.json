@@ -1,0 +1,13 @@
+{
+  "content_digest": "68787912b5937a160c99a6bb9e4752cb26aff9cbfd4f796651d7bcc587c1f300",
+  "domains": [
+    "linkedin.com",
+    "www.linkedin.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "linkedin",
+  "source_hashes": [
+    "53e86f63e1a96c178d0fdeb85d2c5d2b16d81136e0c0e800ffbf3e01b7acc3bd"
+  ]
+}

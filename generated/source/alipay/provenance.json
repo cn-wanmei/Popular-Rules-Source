@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:cc9d8472a09b72378ac2372b736e38d29a078daed30a4b2093fe242c675a55d8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-alipay-001-c801eb3b02c0"
+      ],
+      "service_id": "alipay",
+      "type": "domain",
+      "value": "alipay.com"
+    },
+    {
+      "asset_id": "sha256:91cea23c9fd1dd4d75de76887e0eb62a875b58de822e2f7d5622df1ffca5f615",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-alipay-001-c801eb3b02c0"
+      ],
+      "service_id": "alipay",
+      "type": "domain",
+      "value": "www.alipay.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "4719ccf9b26f8d476cab1f4c21714e705025b767589ed83c12c77b0e732909b8",
+  "created_at": "2026-09-27T10:04:27.074013+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "alipay.com",
+      "www.alipay.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "alipay.com",
+    "www.alipay.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "c801eb3b02c071c1ec2d1b1f7ac08b36f3a51abffa25cd14a0c4dec7f2307753",
+      "domains_extracted": 2,
+      "evidence_id": "EV-alipay-001-c801eb3b02c0",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "self_built://self_built/alipay/domains.list",
+      "retrieved_at": "1790503424818307133",
+      "service_id": "alipay",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.alipay.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "5b3bbbcb1229bc0771edb6477f316439105f10ebb3b67331c46cb48168bb0c53",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "4fc65190291ee84799caf119b3c08aaf6472082a51edfd4c5f6dedf9c15f726a",
+  "previous_domain_count": 0,
+  "release_digest": "7e39ca630ab553d1bd55c414c8a59ebd0f9547d8b802bf59975af56bc5679c0f",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "4a20c7cb2df0d7bb45c6159bdd750ca08bd29d7015b776302807603a25c4497d",
+  "service_id": "alipay",
+  "snapshot_content_sha256": "4719ccf9b26f8d476cab1f4c21714e705025b767589ed83c12c77b0e732909b8",
+  "snapshot_id": "snap-alipay-7e39ca630ab553d1bd55c414",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.alipay.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

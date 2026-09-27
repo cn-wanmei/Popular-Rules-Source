@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "07d630f8d27c7cd04251801364c6c581a457395a17150dfa09ef5b1fc8ecde29",
+    "manifest.json": "a30de4b4b6ce73c6de91eff87a72a4b708acd6e50e94dc9ccb7aa1f811b30d46",
+    "provenance.json": "cc48e2b8a4d121bf434ab89a759373d25c442b6e2f5e7b720218a27ec5477871",
+    "snapshot_content.json": "fd11ce61f4b55663199d61d8abcd12a08fb515f04123f59919d0624da302d18b"
+  },
+  "content_digest": "a8fc0e1f6f542ca7cf0d43d381dbb2be94acde1e6563ac130a9076e12bd1b898",
+  "created_at": "2026-09-27T10:03:52.270118+00:00",
+  "evidence_digest": "39092aba2151e9f39cc308b03d9a082e910cd557a65f655bfe3f774cd9032a42",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "3fc41ef135e0e637d32e175c195feda017b174fc733dea75c69520872097754b",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "b18020358a7546e1a200288426fe7c530add6fb4a01b8ded7a6357a3f4cf4e31",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "supermicro",
+  "snapshot_id": "snap-supermicro-b18020358a7546e1a2002884",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

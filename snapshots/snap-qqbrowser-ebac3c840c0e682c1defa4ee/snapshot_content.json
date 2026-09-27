@@ -1,0 +1,12 @@
+{
+  "content_digest": "782922d141cec5515439cb3c7cf351963829644ab710fa9289e2b2ffca3e6c17",
+  "domains": [
+    "browser.qq.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "qqbrowser",
+  "source_hashes": [
+    "8b69d9f7505a734a895d478cfbb568a72ad763acea539a686f39d40791bdd336"
+  ]
+}

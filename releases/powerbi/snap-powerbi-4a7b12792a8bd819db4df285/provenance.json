@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:5f3be9bb99a97b6aa3417b4d404e9943b6d6cdfc3776fd023c09947d6c0ea53b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-powerbi-001-b2290864ca8a"
+      ],
+      "service_id": "powerbi",
+      "type": "domain",
+      "value": "app.powerbi.com"
+    },
+    {
+      "asset_id": "sha256:68cd141dd170b3416f66abeb49494b388d434323e7ed36d4766291699fea41c4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-powerbi-001-b2290864ca8a"
+      ],
+      "service_id": "powerbi",
+      "type": "domain",
+      "value": "powerbi.microsoft.com"
+    }
+  ],
+  "content_digest": "de455aa701da7f3250f5f85a451f59a2f7da41104d1c115cace364dcaf875011",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "b2290864ca8adb950d1b4e3c71988d96c2aa76b61d0d0df18cac12d00df1cfb5",
+      "domains_extracted": 2,
+      "evidence_id": "EV-powerbi-001-b2290864ca8a",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "self_built://self_built/powerbi/domains.list",
+      "retrieved_at": "1790503356994163672",
+      "service_id": "powerbi",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://powerbi.microsoft.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "ff56857c19eeb17e3bbbd13bf40d81f220eb2a8262dcb98a5222cac4f919781e",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "eb2d5b43fb45010167b152d98a39c80957167e3e9402b8f32daa94cc75b96976",
+  "release_digest": "4a7b12792a8bd819db4df2853f5a8a76c446e31f7c9af3686caf2a2730a1734f",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "powerbi",
+  "snapshot_id": "snap-powerbi-4a7b12792a8bd819db4df285",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

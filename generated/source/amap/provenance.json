@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:28af2dbb95d605d2780af279a17cce6b166690496b91926585edd12b40b62304",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-amap-001-4c66b45db0e7"
+      ],
+      "service_id": "amap",
+      "type": "domain",
+      "value": "amap.com"
+    },
+    {
+      "asset_id": "sha256:dbbe3218b4a285d70d24e6f57c42e3e2b84f1e3919529a74f4416bd4ef2f1fad",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-amap-001-4c66b45db0e7"
+      ],
+      "service_id": "amap",
+      "type": "domain",
+      "value": "www.amap.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "e72071f85e0fada25d428e76356cbdcf61d86d2bf5e1eda12db90cafc49b8529",
+  "created_at": "2026-09-27T10:01:58.800447+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "amap.com",
+      "www.amap.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "amap.com",
+    "www.amap.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "4c66b45db0e744ec797d9568343602fd95c5ade35d213523c1220970b62f406e",
+      "domains_extracted": 2,
+      "evidence_id": "EV-amap-001-4c66b45db0e7",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "self_built://self_built/amap/domains.list",
+      "retrieved_at": "1790503257517112772",
+      "service_id": "amap",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.amap.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "beab45a019ce0f6226fce5ebe76a66a724db7d0308add8f6262281aeebc86c4d",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "1438b3ff67f7b54f8b0dbb74651f13d26dfbc34db35abb084aca371d4967ebf1",
+  "previous_domain_count": 0,
+  "release_digest": "e135e4fdc9f54e283658b7270f7603352fe046795178cabfdd64db0acee40c31",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "82417af7a0e1821e5bddbf95478a991eb6e82de3d1088802f757b96a8180b3bf",
+  "service_id": "amap",
+  "snapshot_content_sha256": "e72071f85e0fada25d428e76356cbdcf61d86d2bf5e1eda12db90cafc49b8529",
+  "snapshot_id": "snap-amap-e135e4fdc9f54e283658b727",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.amap.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

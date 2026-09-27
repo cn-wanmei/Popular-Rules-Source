@@ -1,0 +1,13 @@
+{
+  "content_digest": "a8fc0e1f6f542ca7cf0d43d381dbb2be94acde1e6563ac130a9076e12bd1b898",
+  "domains": [
+    "supermicro.com",
+    "www.supermicro.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "supermicro",
+  "source_hashes": [
+    "7ecaf475459ce0b5b23bda749727bb63797e459a3c458c613bf341f37c6a6fdc"
+  ]
+}

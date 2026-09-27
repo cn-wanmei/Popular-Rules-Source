@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "eb8d07966856e268ccb05cb330f2b4c72ec3788ac37943800a32da98247a577d",
+    "manifest.json": "5e5105d81fb7f0ef13b27de7b3e066270902670b386f77717e4e47ef4a4358da",
+    "provenance.json": "55b67f602eab6a8179f35ec44f2367815069824a385aa50fc1ad56c26152b1b7",
+    "snapshot_content.json": "231cd57bf61775fbe64e480e5b5d6ab35254b417ee31169b6b2210f0f960ff0b"
+  },
+  "content_digest": "56007cc1503a9db50a3d610b74fef3a75da3b59b0a4479596c077002212ad4a9",
+  "created_at": "2026-09-27T10:04:13.517477+00:00",
+  "evidence_digest": "a1e4bfb8f86e7c712a3f348f6be6698dbed1137241e1d22d039808cbcec85e76",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "4e92edbd4a2969c690f05e4a0b73ec372562d88945b540d8537c410a1e351e54",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "91217fbce3ff00d9c9cf090e4b0562a9a08ecc23616ffc23f73e2cde9766affa",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "dji",
+  "snapshot_id": "snap-dji-91217fbce3ff00d9c9cf090e",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

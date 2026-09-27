@@ -1,0 +1,13 @@
+{
+  "content_digest": "ada35d3a8eee2895868e5ba0930931fae88627f2f065a744ab62cd2091701639",
+  "domains": [
+    "wetv.vip",
+    "www.wetv.vip"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "wetv",
+  "source_hashes": [
+    "cd4d891c9515c3de6fe9503cc7400040a7adda7c74e5cf482bb9567cf43d8339"
+  ]
+}

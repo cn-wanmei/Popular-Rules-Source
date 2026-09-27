@@ -1,0 +1,13 @@
+{
+  "content_digest": "684e194ea4b2d67d5c62cff0ed3cc93d80ef9f94e8a6a96cbffdbf9dbfcca2f0",
+  "domains": [
+    "sjht.com",
+    "www.sjht.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "shiji",
+  "source_hashes": [
+    "b1c8a0142cbcaa3aa66a73dcc36fe69885e6e345fde3e590a75b7a2bb4348d60"
+  ]
+}

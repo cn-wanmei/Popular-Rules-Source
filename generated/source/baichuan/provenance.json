@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:40726b06d9d38aeff935805930358f937f607c06e15a5c388f9c201b0811006d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baichuan-001-04a2359fe2c7"
+      ],
+      "service_id": "baichuan",
+      "type": "domain",
+      "value": "baichuan-ai.com"
+    },
+    {
+      "asset_id": "sha256:56b6d787845312384d6fde101fc32623870d06a0ef4902378ab5f2bd028fc568",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baichuan-001-04a2359fe2c7"
+      ],
+      "service_id": "baichuan",
+      "type": "domain",
+      "value": "www.baichuan-ai.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "9707037f1c7ba2b771695858b474a4170600380069a9bbbb49e98251b6096b19",
+  "created_at": "2026-09-27T10:04:53.574669+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "baichuan-ai.com",
+      "www.baichuan-ai.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "baichuan-ai.com",
+    "www.baichuan-ai.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "04a2359fe2c76576d594612b0b9de4dad659b98baf7e3fe8735b888f6a150243",
+      "domains_extracted": 2,
+      "evidence_id": "EV-baichuan-001-04a2359fe2c7",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.baichuan-ai.com/",
+      "retrieved_at": "1790503439909557177",
+      "service_id": "baichuan",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.baichuan-ai.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "e5e4f810589cc1e85af35f618762d062cf1c53365a974dea36118b7a43a02cb8",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "484ce5da285698175d37871890ed8207508771ffc4b4930bb2926af66d100d6c",
+  "previous_domain_count": 0,
+  "release_digest": "e2d81430dd580b43da427a5df18dd37d1ac8f5d98748694cd0d96901f4d31fe1",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "4f49300a91246d9f85ed96682d42a5e9c4b8bf689e763873262e42df103e723e",
+  "service_id": "baichuan",
+  "snapshot_content_sha256": "9707037f1c7ba2b771695858b474a4170600380069a9bbbb49e98251b6096b19",
+  "snapshot_id": "snap-baichuan-e2d81430dd580b43da427a5d",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.baichuan-ai.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

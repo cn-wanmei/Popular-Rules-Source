@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:2354b52e4b8157fa5aada4b8f8a42411d2579dd53f95e959826e1099bb6e682a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-anjuke-001-0b84af5583bd"
+      ],
+      "service_id": "anjuke",
+      "type": "domain",
+      "value": "anjuke.com"
+    },
+    {
+      "asset_id": "sha256:9f009cb45ced991fd40a5d16c94b4690e25fb54b4efa482891d1c72d4356de66",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-anjuke-001-0b84af5583bd"
+      ],
+      "service_id": "anjuke",
+      "type": "domain",
+      "value": "www.anjuke.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "fa2bca68709b7a4f1394237d32fe13ebd174a22cb973868bfd514a3e976ba848",
+  "created_at": "2026-09-27T10:06:52.246389+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "anjuke.com",
+      "www.anjuke.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "anjuke.com",
+    "www.anjuke.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "0b84af5583bdc9efdc3984791f43f500ac085f0f7406bb06b3f32067dfedfa9d",
+      "domains_extracted": 2,
+      "evidence_id": "EV-anjuke-001-0b84af5583bd",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.anjuke.com/",
+      "retrieved_at": "1790503548233361270",
+      "service_id": "anjuke",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.anjuke.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "1d92d524afa8c875e6a653a278ffaaefeb33f92846c8212f0b56a5c00425d6bf",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "467b176689b0a14984a2589d340ed29a5f0a97a434646e7e0f82be8e6675c829",
+  "previous_domain_count": 0,
+  "release_digest": "0e1ad2a9baadd35c14c4008a03d834c59c0a594b244f2e15420b059acc8f3ad9",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "87cc2bacc4951f933e414a64443f94ffe808020fddb2a7f99d99639aa99921fc",
+  "service_id": "anjuke",
+  "snapshot_content_sha256": "fa2bca68709b7a4f1394237d32fe13ebd174a22cb973868bfd514a3e976ba848",
+  "snapshot_id": "snap-anjuke-0e1ad2a9baadd35c14c4008a",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.anjuke.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "502ba094b14160c38da9c149a36b6644d9ee4f3d5acc28c165d83468a210fb9a",
+    "manifest.json": "2dd27a92f7bea2e549e7e5bab04478516421787613f5140c0c73531132bace03",
+    "provenance.json": "c85bedf5e263660f59fd30206054324d985c305f6a08d9321fa91ac4e4b05125",
+    "snapshot_content.json": "49cf7c56237190127e828bf5302c3840cfa9d58894f0c69e58ec7550e873f1e5"
+  },
+  "content_digest": "7a4196eabb2c7bdcae88ae5f7a77c56268bc03219d8688872656983aa49ba970",
+  "created_at": "2026-09-27T10:06:17.071230+00:00",
+  "evidence_digest": "47fa4e4dcd65297f92c6d8a1f1df4d0e893b589349b3533f7c57de93686e9558",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "a1bb5abe3f731c7ee53428fa3bce6019d2a3af408bfb66417602f3021b58ae84",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "853e2291a329729bcd847e1b7a6505a6fb997db43d2e32c696cf55e19a0a99fe",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "sangfor",
+  "snapshot_id": "snap-sangfor-853e2291a329729bcd847e1b",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

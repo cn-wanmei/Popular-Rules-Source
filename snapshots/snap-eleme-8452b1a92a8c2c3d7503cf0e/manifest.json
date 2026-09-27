@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:152c5d2734b4692f3893a32a43ccbc0a3e2c5f2e6adb4a73eab6478f37708c96",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-eleme-001-865dd2154e6e"
+      ],
+      "service_id": "eleme",
+      "type": "domain",
+      "value": "ele.me"
+    },
+    {
+      "asset_id": "sha256:b38d43f8ff93d03c9d2942ae97602dc2c1402f7d4c3554b40eff63d1652e6181",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-eleme-001-865dd2154e6e"
+      ],
+      "service_id": "eleme",
+      "type": "domain",
+      "value": "www.ele.me"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "e6f7215afa6771e3182e359d2afdf30bef02978305fc6d4685f77909d0489e14",
+  "created_at": "2026-09-27T10:02:02.057840+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "ele.me",
+      "www.ele.me"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "ele.me",
+    "www.ele.me"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "865dd2154e6e88137cf9b2369b720c94fb25001bf0160f31043beac07de1f995",
+      "domains_extracted": 2,
+      "evidence_id": "EV-eleme-001-865dd2154e6e",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "self_built://self_built/eleme/domains.list",
+      "retrieved_at": "1790503259551950311",
+      "service_id": "eleme",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.ele.me/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "16e6798675b72e43036dca34e5d1ab1309c42b260970ce7c6442ddf94466f88a",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "4fa5adbcd16912f7f419a46b23fa40d9e8e1aa1828a7cddb0a44929ba264ae14",
+  "previous_domain_count": 0,
+  "release_digest": "8452b1a92a8c2c3d7503cf0edeab66d23b2abaa61b504a72c8442d3f6d98babb",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "306a370de1416c3961eee4c102776281ec1fa77778fb6bdbce6bedd439349046",
+  "service_id": "eleme",
+  "snapshot_content_sha256": "e6f7215afa6771e3182e359d2afdf30bef02978305fc6d4685f77909d0489e14",
+  "snapshot_id": "snap-eleme-8452b1a92a8c2c3d7503cf0e",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.ele.me/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

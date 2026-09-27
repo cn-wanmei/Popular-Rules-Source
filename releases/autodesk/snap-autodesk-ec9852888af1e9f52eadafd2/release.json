@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "a3458840687fadbde08c967155ffc0f2a8b2075e7f51fe4087cef2d8c017663f",
+    "manifest.json": "a598f7e50b139c025fb5bfa48aa259939b4ee81c99a5d138dba9244b85c8b038",
+    "provenance.json": "6f871f24540b15fdbf0e68625bc7464c6455ae56c59b5f23bdb7f9bdfc111eed",
+    "snapshot_content.json": "9bf470338d55e11406c9a3252d555e663d72ab4d5366000cd00f9cd50ceec930"
+  },
+  "content_digest": "1fc48cab81583326ae6d976ed88d6058f320c14138b6ac2168e95ed760060ac5",
+  "created_at": "2026-09-27T10:06:12.406187+00:00",
+  "evidence_digest": "be009cfcd363709730118e9153efbcca75a904abd78adb6f2bc8321be8a75090",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "41f914c4015a39eee9569de12af2f11c6a10325ffb4d9b0faa50c4c7f10a226f",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "ec9852888af1e9f52eadafd2f4bea53f7b4282dc02011d7c53f437bb0313b8c9",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "autodesk",
+  "snapshot_id": "snap-autodesk-ec9852888af1e9f52eadafd2",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

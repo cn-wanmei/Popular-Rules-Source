@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "ee28b697e7e23d7e5768a49b97df809be2586c3882fabb599ce180c1d0e795f4",
+    "manifest.json": "71dcaee5aefd67f634235039f2cb0831e186167338df81ce535e9e6306a604a3",
+    "provenance.json": "19fc5446e22eafcab7bb8e38af0584f38933a023f3761710ac75f2c5d081499d",
+    "snapshot_content.json": "ea3b653c0aeb717b80a4ac909bb4079cedfa911b99c1383425de5e7988d18090"
+  },
+  "content_digest": "c77634cca0fc5f619ccd47a1026c40ffbb77348ffa3442957a89518539e81beb",
+  "created_at": "2026-09-27T10:05:26.239962+00:00",
+  "evidence_digest": "ab7ea9aec54c30d34dcef7d1531dab9dcb3df78cd7f006e616530dea5629f8f6",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "3ae372387204b0450639c6b74844040d981ab5c087f2e40098beb5ee115fca51",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "c8d84c550ab4949633bcea79b4a83a61ec206c671eefe020557895c6053c096f",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "lenovo",
+  "snapshot_id": "snap-lenovo-c8d84c550ab4949633bcea79",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

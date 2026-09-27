@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:2354b52e4b8157fa5aada4b8f8a42411d2579dd53f95e959826e1099bb6e682a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-anjuke-001-0b84af5583bd"
+      ],
+      "service_id": "anjuke",
+      "type": "domain",
+      "value": "anjuke.com"
+    },
+    {
+      "asset_id": "sha256:9f009cb45ced991fd40a5d16c94b4690e25fb54b4efa482891d1c72d4356de66",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-anjuke-001-0b84af5583bd"
+      ],
+      "service_id": "anjuke",
+      "type": "domain",
+      "value": "www.anjuke.com"
+    }
+  ],
+  "content_digest": "fa2bca68709b7a4f1394237d32fe13ebd174a22cb973868bfd514a3e976ba848",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "0b84af5583bdc9efdc3984791f43f500ac085f0f7406bb06b3f32067dfedfa9d",
+      "domains_extracted": 2,
+      "evidence_id": "EV-anjuke-001-0b84af5583bd",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.anjuke.com/",
+      "retrieved_at": "1790503548233361270",
+      "service_id": "anjuke",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.anjuke.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "1d92d524afa8c875e6a653a278ffaaefeb33f92846c8212f0b56a5c00425d6bf",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "467b176689b0a14984a2589d340ed29a5f0a97a434646e7e0f82be8e6675c829",
+  "release_digest": "0e1ad2a9baadd35c14c4008a03d834c59c0a594b244f2e15420b059acc8f3ad9",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "anjuke",
+  "snapshot_id": "snap-anjuke-0e1ad2a9baadd35c14c4008a",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

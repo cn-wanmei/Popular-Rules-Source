@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:87bb44893970f3d739495612691fbcd2d95facc1bdb4aec5c310835b056b8ba6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qihoo360-001-bcf3690b7a8a"
+      ],
+      "service_id": "qihoo360",
+      "type": "domain",
+      "value": "360.cn"
+    },
+    {
+      "asset_id": "sha256:466c9ea038edfbd808df43eb4dcf3c208a1cb825d1f1aa70afea5e0eee45428a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qihoo360-001-bcf3690b7a8a"
+      ],
+      "service_id": "qihoo360",
+      "type": "domain",
+      "value": "www.360.cn"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "621f8a11c5cfb3945b60458009050486699cbf05c650f99e714763aefcbd9957",
+  "created_at": "2026-09-27T10:05:05.793557+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "360.cn",
+      "www.360.cn"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "360.cn",
+    "www.360.cn"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "bcf3690b7a8a007477861564135b60673459fcb6278621183e28bf520b22f357",
+      "domains_extracted": 2,
+      "evidence_id": "EV-qihoo360-001-bcf3690b7a8a",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.360.cn/",
+      "retrieved_at": "1790503464410971098",
+      "service_id": "qihoo360",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.360.cn/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "842095abdf3b3c6f5f69afa798dcf71bcfe959af9eae3bf9a32f3727dc660b6c",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "c0bfdefa95ae8ccdf00a39d3a7d322e485c28997ede73f568413a999fd77c1a9",
+  "previous_domain_count": 0,
+  "release_digest": "74e11f09fbd29db005e57f0b37110743fcd4094c6d534ef843d3c74233375ba1",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "446baa45a20941a2ff54ee330ed37a896e971eeb4170312df8d55bf4840aac6a",
+  "service_id": "qihoo360",
+  "snapshot_content_sha256": "621f8a11c5cfb3945b60458009050486699cbf05c650f99e714763aefcbd9957",
+  "snapshot_id": "snap-qihoo360-74e11f09fbd29db005e57f0b",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.360.cn/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

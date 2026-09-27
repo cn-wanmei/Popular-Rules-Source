@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:d639dcea9d16e8ad62d126394a3dd27e6d5a3b8c613bc122cee53c48b3680bbd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-supermicro-001-7ecaf475459c"
+      ],
+      "service_id": "supermicro",
+      "type": "domain",
+      "value": "supermicro.com"
+    },
+    {
+      "asset_id": "sha256:05c29b422f8a23da32efd1164a4172b9e8ee519a87d72236c662495162d8f8a0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-supermicro-001-7ecaf475459c"
+      ],
+      "service_id": "supermicro",
+      "type": "domain",
+      "value": "www.supermicro.com"
+    }
+  ],
+  "content_digest": "a8fc0e1f6f542ca7cf0d43d381dbb2be94acde1e6563ac130a9076e12bd1b898",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "7ecaf475459ce0b5b23bda749727bb63797e459a3c458c613bf341f37c6a6fdc",
+      "domains_extracted": 2,
+      "evidence_id": "EV-supermicro-001-7ecaf475459c",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "self_built://self_built/supermicro/domains.list",
+      "retrieved_at": "1790503330202268086",
+      "service_id": "supermicro",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.supermicro.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "39092aba2151e9f39cc308b03d9a082e910cd557a65f655bfe3f774cd9032a42",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "3fc41ef135e0e637d32e175c195feda017b174fc733dea75c69520872097754b",
+  "release_digest": "b18020358a7546e1a200288426fe7c530add6fb4a01b8ded7a6357a3f4cf4e31",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "supermicro",
+  "snapshot_id": "snap-supermicro-b18020358a7546e1a2002884",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

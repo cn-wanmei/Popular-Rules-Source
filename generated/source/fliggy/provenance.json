@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:093445996e3e5e6b1f584c4d0ca82a0785b2a04f4dc42fa93f504494942738d1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-fliggy-001-4dc00ce9324a"
+      ],
+      "service_id": "fliggy",
+      "type": "domain",
+      "value": "fliggy.com"
+    },
+    {
+      "asset_id": "sha256:e6f688b440420478629382b6827686d7475feada89011e73d5c1a4ffccc9308b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-fliggy-001-4dc00ce9324a"
+      ],
+      "service_id": "fliggy",
+      "type": "domain",
+      "value": "www.fliggy.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "28832036d94f273e367d01526f537ad63b68a729bd98cc07d00f924cfef534ac",
+  "created_at": "2026-09-27T10:03:46.023208+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "fliggy.com",
+      "www.fliggy.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "fliggy.com",
+    "www.fliggy.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "4dc00ce9324adadf9c9ac1ecee46bdaa7930aaea0bca617cd7ee7e9d7a593bfd",
+      "domains_extracted": 2,
+      "evidence_id": "EV-fliggy-001-4dc00ce9324a",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "self_built://self_built/fliggy/domains.list",
+      "retrieved_at": "1790503363156303957",
+      "service_id": "fliggy",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.fliggy.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "e983610691203045df951186712ed51318f182d8f9c8b7091407baeeca6f6dc8",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "66041454e5cd463326d51414b4c3ac1cd075b0f63a925304ec3abfd6d5c010b7",
+  "previous_domain_count": 0,
+  "release_digest": "1d25258037024c0da23217a3deab8c8604a76a5e9b4830c6e5edc92ee3407239",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "105b836f0ea9d8d48dbf6da9dc5adacf426578c98be26dc2e362db48c494e939",
+  "service_id": "fliggy",
+  "snapshot_content_sha256": "28832036d94f273e367d01526f537ad63b68a729bd98cc07d00f924cfef534ac",
+  "snapshot_id": "snap-fliggy-1d25258037024c0da23217a3",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.fliggy.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

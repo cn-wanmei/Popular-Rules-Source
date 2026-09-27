@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:152c5d2734b4692f3893a32a43ccbc0a3e2c5f2e6adb4a73eab6478f37708c96",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-eleme-001-865dd2154e6e"
+      ],
+      "service_id": "eleme",
+      "type": "domain",
+      "value": "ele.me"
+    },
+    {
+      "asset_id": "sha256:b38d43f8ff93d03c9d2942ae97602dc2c1402f7d4c3554b40eff63d1652e6181",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-eleme-001-865dd2154e6e"
+      ],
+      "service_id": "eleme",
+      "type": "domain",
+      "value": "www.ele.me"
+    }
+  ],
+  "content_digest": "e6f7215afa6771e3182e359d2afdf30bef02978305fc6d4685f77909d0489e14",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "865dd2154e6e88137cf9b2369b720c94fb25001bf0160f31043beac07de1f995",
+      "domains_extracted": 2,
+      "evidence_id": "EV-eleme-001-865dd2154e6e",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "self_built://self_built/eleme/domains.list",
+      "retrieved_at": "1790503259551950311",
+      "service_id": "eleme",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.ele.me/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "16e6798675b72e43036dca34e5d1ab1309c42b260970ce7c6442ddf94466f88a",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "4fa5adbcd16912f7f419a46b23fa40d9e8e1aa1828a7cddb0a44929ba264ae14",
+  "release_digest": "8452b1a92a8c2c3d7503cf0edeab66d23b2abaa61b504a72c8442d3f6d98babb",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "eleme",
+  "snapshot_id": "snap-eleme-8452b1a92a8c2c3d7503cf0e",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

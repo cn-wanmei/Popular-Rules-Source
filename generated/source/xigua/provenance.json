@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:ee916c90fb51b1531fbf1e1bd830594c06397471d6205256b003be0e29bb320d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-xigua-001-9af4e1adc5c6"
+      ],
+      "service_id": "xigua",
+      "type": "domain",
+      "value": "ixigua.com"
+    },
+    {
+      "asset_id": "sha256:7771184769c269cc349a0b15d10d6c1b4705a325392a16d04c2ec639997476dc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-xigua-001-9af4e1adc5c6"
+      ],
+      "service_id": "xigua",
+      "type": "domain",
+      "value": "www.ixigua.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "ba0746ed73b21669b53c34f5c93f53519a7c58bbc4645463532b04f15592a17a",
+  "created_at": "2026-09-27T10:05:33.100817+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "ixigua.com",
+      "www.ixigua.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "ixigua.com",
+    "www.ixigua.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "9af4e1adc5c630c489a1522e3449534afe7efaac20c0f05ad92cecdb6ad2ad61",
+      "domains_extracted": 2,
+      "evidence_id": "EV-xigua-001-9af4e1adc5c6",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "self_built://self_built/xigua/domains.list",
+      "retrieved_at": "1790503470940807753",
+      "service_id": "xigua",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.ixigua.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "4512334e8873d0f7a60bb5edf72e7d36e0f96193a177a4194dc274fec93c8b7f",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "e90f0e109deee5c43ab6fe65cfd2fe51ed19a074fd804d06080e40b61281e8d7",
+  "previous_domain_count": 0,
+  "release_digest": "2b53bc5f66746fd60b9ab31cfa882f1aba36ceb6b605bba210a9a6dfd9cc8a35",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "3328675b0913f71696e85bf246fbe4c4e778fbc7f38790678d1b836ffc0dbc9b",
+  "service_id": "xigua",
+  "snapshot_content_sha256": "ba0746ed73b21669b53c34f5c93f53519a7c58bbc4645463532b04f15592a17a",
+  "snapshot_id": "snap-xigua-2b53bc5f66746fd60b9ab31c",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.ixigua.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,13 @@
+{
+  "content_digest": "28832036d94f273e367d01526f537ad63b68a729bd98cc07d00f924cfef534ac",
+  "domains": [
+    "fliggy.com",
+    "www.fliggy.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "fliggy",
+  "source_hashes": [
+    "4dc00ce9324adadf9c9ac1ecee46bdaa7930aaea0bca617cd7ee7e9d7a593bfd"
+  ]
+}

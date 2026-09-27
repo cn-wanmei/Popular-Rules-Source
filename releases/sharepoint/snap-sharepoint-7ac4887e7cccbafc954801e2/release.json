@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "68daa22f921066c43a45c8dfedf2a2dd6345e43102bac3facebcbf31a30c9506",
+    "manifest.json": "177c00c3bee9ba30f172d4fdc90ef1b63d5f0e812b75b551bd3f5ecd39495c7d",
+    "provenance.json": "f902a67296189326a04e7ffe56852439d52351bae3d170e3f14b22bcaff76365",
+    "snapshot_content.json": "04fe4eb2e884993b69cf816d90f81cfd02a5fc6428e6f57cb2feec20e28cddb0"
+  },
+  "content_digest": "6a1d98549f347458024b8100d68878aaea710a1639e2c19e92be16cbbf4a9a8a",
+  "created_at": "2026-09-27T10:03:39.611487+00:00",
+  "evidence_digest": "7c01b46623c427be1503256887b6d25d6898858a5f3623c7adf907a0b39186b9",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "d320c6fa393ecdb96bd5c343667c040a4e4d3286a9a41bfcc229c7258aefaa5c",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "7ac4887e7cccbafc954801e2b88e5e5bb9b12e40e0827c4b31cb73e10bbba864",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "sharepoint",
+  "snapshot_id": "snap-sharepoint-7ac4887e7cccbafc954801e2",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

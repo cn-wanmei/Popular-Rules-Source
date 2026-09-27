@@ -1,0 +1,13 @@
+{
+  "content_digest": "a8e3230075ec402d4846043ce01af88e25cb53ae2473ea0adbcd60a27df11a97",
+  "domains": [
+    "aliexpress.com",
+    "www.aliexpress.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "aliexpress",
+  "source_hashes": [
+    "2744038977de1192d30cdb990952d8f360e370780cc8e172d6bbf8e64835866d"
+  ]
+}

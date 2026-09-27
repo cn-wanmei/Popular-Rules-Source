@@ -1,0 +1,13 @@
+{
+  "content_digest": "621f8a11c5cfb3945b60458009050486699cbf05c650f99e714763aefcbd9957",
+  "domains": [
+    "360.cn",
+    "www.360.cn"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "qihoo360",
+  "source_hashes": [
+    "bcf3690b7a8a007477861564135b60673459fcb6278621183e28bf520b22f357"
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:653f3fe4d3f38a6780f5ef9b6d0d35a071cbdb9cc5dfebac7a61298bd2efc3a6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentdocs-001-ee58242861bf"
+      ],
+      "service_id": "tencentdocs",
+      "type": "domain",
+      "value": "docs.qq.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "95b1428625b2621aacbe58341168854e241cb69f8556ab0abac4afd0a5c7da22",
+  "created_at": "2026-09-27T10:03:51.211874+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "docs.qq.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "docs.qq.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "ee58242861bf10f2f112160f78ecf20eab543a8b75a8ea59c40502fa2548bbf8",
+      "domains_extracted": 1,
+      "evidence_id": "EV-tencentdocs-001-ee58242861bf",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "self_built://self_built/tencentdocs/domains.list",
+      "retrieved_at": "1790503367803929004",
+      "service_id": "tencentdocs",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://docs.qq.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "ee607f2e5c68b19924c7ddcc6fb77672966a2c61fbabcd8a4c9656329cd414e8",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "b102833054b2d940549aa91870f24e1f859565316bc627b6d9fd9c3b5d0df810",
+  "previous_domain_count": 0,
+  "release_digest": "7e4c7db2344d088c45437ab1d83c2b0338a41a5eed3fa45854ffebffd32d3ccd",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "11136dca3d77e3300e070674ed7aa4a41da6d1b1cf4a1e2c00337c310dd6cea4",
+  "service_id": "tencentdocs",
+  "snapshot_content_sha256": "95b1428625b2621aacbe58341168854e241cb69f8556ab0abac4afd0a5c7da22",
+  "snapshot_id": "snap-tencentdocs-7e4c7db2344d088c45437ab1",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://docs.qq.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

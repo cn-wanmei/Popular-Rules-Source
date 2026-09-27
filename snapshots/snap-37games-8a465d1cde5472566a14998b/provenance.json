@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:ed53fda7ed36c0cde22db088d9623ef863db236f5866fe1575c30e2c41630589",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-37games-001-0584eadc3077"
+      ],
+      "service_id": "37games",
+      "type": "domain",
+      "value": "37.com"
+    },
+    {
+      "asset_id": "sha256:efd915a3f934e339399eebaa126f7a731693f458be5555cdf7fc0ee3de131c96",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-37games-001-0584eadc3077"
+      ],
+      "service_id": "37games",
+      "type": "domain",
+      "value": "www.37.com"
+    }
+  ],
+  "content_digest": "a126fc20eb7a36720c558061076109d068306f10740f082d3a38764c6e846f12",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "0584eadc30773779e451fdb4ad95a56fe0f60903db3cd8f9695abac169b05618",
+      "domains_extracted": 2,
+      "evidence_id": "EV-37games-001-0584eadc3077",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "self_built://self_built/37games/domains.list",
+      "retrieved_at": "1790503262133098735",
+      "service_id": "37games",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.37.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "f3f661ed73efc5f0b1b80fb782e2dd1f489f117ca353d0e24ce75a20e51d8963",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "8c04ebe7020b10c656822a752863e01a209406486cc634f96d523c99fec25978",
+  "release_digest": "8a465d1cde5472566a14998bed5d49dea9bd9a8bbf3751cd4c78d83ba952db04",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "37games",
+  "snapshot_id": "snap-37games-8a465d1cde5472566a14998b",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

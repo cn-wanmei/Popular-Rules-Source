@@ -1,0 +1,13 @@
+{
+  "content_digest": "1fc48cab81583326ae6d976ed88d6058f320c14138b6ac2168e95ed760060ac5",
+  "domains": [
+    "autodesk.com",
+    "www.autodesk.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "autodesk",
+  "source_hashes": [
+    "701fb0224df8a3dae359dfb4b386fea0027c52424b7f9e702b90ba0793747bc6"
+  ]
+}

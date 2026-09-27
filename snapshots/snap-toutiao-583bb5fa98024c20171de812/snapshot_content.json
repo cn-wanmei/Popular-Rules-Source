@@ -1,0 +1,13 @@
+{
+  "content_digest": "bd0ea830a337e339395f3d76c2012d7c5f71cec62b63e6ee17dba9a3a55bc627",
+  "domains": [
+    "toutiao.com",
+    "www.toutiao.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "toutiao",
+  "source_hashes": [
+    "64c562d17ccd4585f55b12ba5d17aeaf31e4597a227ed73926b71b0b25e925a0"
+  ]
+}

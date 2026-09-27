@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "5bf25e3685b7008324014b2dd733f94a0091f03d2f99f2ebf61527bb58a0193f",
+    "manifest.json": "c4529a6c86e0cbdca162e43e08abac47bf86d815aa8de3e41a1ed03c7ad45ea7",
+    "provenance.json": "37c2ad11bb34146caed158aaab4de966af74f7c940802e678fd102355dac3175",
+    "snapshot_content.json": "b3bd3c39119f0a3b306a2170e77a0ddccb3f375ac0fa48e20819944676f146ab"
+  },
+  "content_digest": "621f8a11c5cfb3945b60458009050486699cbf05c650f99e714763aefcbd9957",
+  "created_at": "2026-09-27T10:05:28.927061+00:00",
+  "evidence_digest": "842095abdf3b3c6f5f69afa798dcf71bcfe959af9eae3bf9a32f3727dc660b6c",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "c0bfdefa95ae8ccdf00a39d3a7d322e485c28997ede73f568413a999fd77c1a9",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "74e11f09fbd29db005e57f0b37110743fcd4094c6d534ef843d3c74233375ba1",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "qihoo360",
+  "snapshot_id": "snap-qihoo360-74e11f09fbd29db005e57f0b",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

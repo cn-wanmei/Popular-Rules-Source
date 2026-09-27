@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:e6fe33b8b9d68cdaa953e53e0d1bdd15661b79f7cd55f196c6b0a7e88e0db14c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wetv-001-cd4d891c9515"
+      ],
+      "service_id": "wetv",
+      "type": "domain",
+      "value": "wetv.vip"
+    },
+    {
+      "asset_id": "sha256:bd1344d0cd2ce9c2b4c5e2a18e900c5430f57ed9dfec494f5db8f65e770dee04",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wetv-001-cd4d891c9515"
+      ],
+      "service_id": "wetv",
+      "type": "domain",
+      "value": "www.wetv.vip"
+    }
+  ],
+  "content_digest": "ada35d3a8eee2895868e5ba0930931fae88627f2f065a744ab62cd2091701639",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "cd4d891c9515c3de6fe9503cc7400040a7adda7c74e5cf482bb9567cf43d8339",
+      "domains_extracted": 2,
+      "evidence_id": "EV-wetv-001-cd4d891c9515",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "self_built://self_built/wetv/domains.list",
+      "retrieved_at": "1790503367528712858",
+      "service_id": "wetv",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://wetv.vip/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "770913d405179667ea54c11464b055c909e8a79bc8b2fc5bd1ecc2523e2a70ca",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "73f0b6c71e850022f4e3f3c75e9d467c98dabf1aa7bc4422a8c5178efeee1baf",
+  "release_digest": "46ca72cdff558797584c76c6a4f447c699ff5a6f436402763e7b3a5ec524c658",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "wetv",
+  "snapshot_id": "snap-wetv-46ca72cdff558797584c76c6",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

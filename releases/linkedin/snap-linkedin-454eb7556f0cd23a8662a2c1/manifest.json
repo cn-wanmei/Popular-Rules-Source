@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:9e902d513480fec913ac49c5923db266b02103ef6227c4c185724e406463c86f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-linkedin-001-53e86f63e1a9"
+      ],
+      "service_id": "linkedin",
+      "type": "domain",
+      "value": "linkedin.com"
+    },
+    {
+      "asset_id": "sha256:7774fe47d225395e61b9d687217f898f2b45b5303e5d2fab1ddaf7e194f94ec2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-linkedin-001-53e86f63e1a9"
+      ],
+      "service_id": "linkedin",
+      "type": "domain",
+      "value": "www.linkedin.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "68787912b5937a160c99a6bb9e4752cb26aff9cbfd4f796651d7bcc587c1f300",
+  "created_at": "2026-09-27T10:01:38.460512+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "linkedin.com",
+      "www.linkedin.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "linkedin.com",
+    "www.linkedin.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "53e86f63e1a96c178d0fdeb85d2c5d2b16d81136e0c0e800ffbf3e01b7acc3bd",
+      "domains_extracted": 2,
+      "evidence_id": "EV-linkedin-001-53e86f63e1a9",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "self_built://self_built/linkedin/domains.list",
+      "retrieved_at": "1790503258561787427",
+      "service_id": "linkedin",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.linkedin.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "6c461edd39c1147cb43319756121e36a2cf9d51c4b6414fbd431ea206bc5fc16",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "22bca84ec017290f0b2e0b587fca027eb2a51e756fb4046944deb3c9b34c38ca",
+  "previous_domain_count": 0,
+  "release_digest": "454eb7556f0cd23a8662a2c1e58d7a0543828ed282315fc46b25c36c7c9704ba",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "a84faf38f6d88aee065db361d8c94c1f3bf00a32b1f6afad5d9e0d80fedbf2c1",
+  "service_id": "linkedin",
+  "snapshot_content_sha256": "68787912b5937a160c99a6bb9e4752cb26aff9cbfd4f796651d7bcc587c1f300",
+  "snapshot_id": "snap-linkedin-454eb7556f0cd23a8662a2c1",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.linkedin.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}
