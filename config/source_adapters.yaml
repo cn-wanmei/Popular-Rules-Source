@@ -344,3 +344,11 @@ services:
   internlm: {adapters: [self_built]}
   birentech: {adapters: [self_built]}
   kunlunxin: {adapters: [self_built]}
+  volcengine: {adapters: [self_built]}
+  capcut: {adapters: [self_built]}
+  lark: {adapters: [self_built]}
+  qqdoc: {adapters: [self_built]}
+  wegame: {adapters: [self_built]}
+  mihome: {adapters: [self_built]}
+  getapps: {adapters: [self_built]}
+  jdcloud: {adapters: [self_built]}
