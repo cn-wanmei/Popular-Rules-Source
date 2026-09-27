@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:7a664bad796d5047940c43e5fe1d5f09983e6380594f7abbd476c3fb2839096a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-testflight-001-06b2eb437c4a"
+      ],
+      "service_id": "testflight",
+      "type": "domain",
+      "value": "beta.apple.com"
+    },
+    {
+      "asset_id": "sha256:350cfc02a0b1ea56e0d9a2842478079a5b2f05705a8a30112656a1508cf867b1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-testflight-001-06b2eb437c4a"
+      ],
+      "service_id": "testflight",
+      "type": "domain",
+      "value": "testflight.apple.com"
+    }
+  ],
+  "content_digest": "892baeedfa6911d40dd9953d77211bb23dcdd32ce987685477b545442c17837a",
+  "evidence": [
+    {
+      "authority": "upstream",
+      "confidence": "high",
+      "content_hash": "06b2eb437c4ab26a9111168cf1be4d7efbafa8eda22b0d9c1d9343bb43092a46",
+      "domains_extracted": 2,
+      "evidence_id": "EV-testflight-001-06b2eb437c4a",
+      "parser_version": "upstream-rule-v1",
+      "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TestFlight/TestFlight.list",
+      "retrieved_at": "2026-09-27T01:41:44.225043+00:00",
+      "service_id": "testflight",
+      "source_method": "upstream_rule",
+      "source_type": "upstream_rule",
+      "source_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TestFlight/TestFlight.list",
+      "status": "verified",
+      "strength": "S2"
+    }
+  ],
+  "evidence_digest": "a384b8b809f1b9f428b09a35809ded07eaa1a76e4b50df77ceb622a777ab8d84",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "972218045f50838032153102086994b53fd1d70e93c814f067cb5d003b80b5c7",
+  "release_digest": "922accff387fa39f172c3c4190ad5c6be7416b18d26b98701a22817e7e412403",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "testflight",
+  "snapshot_id": "snap-testflight-922accff387fa39f172c3c41",
+  "source_policy": {
+    "allowed_authorities": [
+      "upstream"
+    ],
+    "official_required": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "content_digest": "470529b3a2c5835f7a1c8e52229eb7adc4d8f0dbec0d1b07661c9b4476df3d1c",
+  "domains": [
+    "apps.apple.com",
+    "itunes.apple.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "appstore",
+  "source_hashes": [
+    "245ea6eb4c7fa160824476c937be4f15f3925d83fba1d94bb3b6cc58562feb90"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "27ac8f54d3b16824b68ad637e9800cee77efe9b38cc02ef7af99647035eb2338",
+    "manifest.json": "e106f048ef458f1c96c1715acf5b0be1e7341e5ddfd5a695a89a7649879411a6",
+    "provenance.json": "18bddf334e74ef94a203f52630172a791856781ae59fbedd0c22691f4a501391",
+    "snapshot_content.json": "9739823e5cf574c2ea665f8cbe1f0b30571d1bcb2bd53c2d98dd31eacef62044"
+  },
+  "content_digest": "b35d38a44b2feef82aec6fe7b46ce7096ab380fab0bb3d94674ac54933192860",
+  "created_at": "2026-09-27T01:41:38.525100+00:00",
+  "evidence_digest": "e83a1ac708e9ae0095ffb66e845c5310dd8ef5511495b378b5fbb5bed92d75ac",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "c121379a018839c4e2c1ad91f04b0815d732c5a90bacf7f0cd74ce026f466a37",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "alibabacloud",
+  "snapshot_id": "snap-alibabacloud-c121379a018839c4e2c1ad91",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 1.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

@@ -1,0 +1,24 @@
+{
+  "content_digest": "1090a865fdb375152535274115046431d18260f268e879edbd8d25e4f733c335",
+  "domains": [
+    "1drv.com",
+    "livefilestore.com",
+    "microsoftpersonalcontent.com",
+    "oneclient.sfx.ms",
+    "onedrive.com",
+    "onedrive.live.com",
+    "photos.live.com",
+    "sharepoint.com",
+    "sharepointonline.com",
+    "skydrive.wns.windows.com",
+    "spoprod-a.akamaihd.net",
+    "storage.live.com",
+    "storage.msn.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "onedrive",
+  "source_hashes": [
+    "cf4f6b24e434b6c6033b70fc88cf7e33f5aaa0f353f6963ced770f5fa1ae6c9b"
+  ]
+}
