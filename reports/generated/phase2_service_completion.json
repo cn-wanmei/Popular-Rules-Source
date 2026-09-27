@@ -62,16 +62,14 @@
       "verified": true
     },
     "amd": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "d39c5ad3a11f464cc588c7f697f7563a0ce1aff1b4689cd9eccd81e2cdcedc00",
+      "snapshot_id": "snap-amd-d39c5ad3a11f464cc588c7f6",
+      "verified": true
     },
     "anjuke": {
       "blockers": [
@@ -208,16 +206,14 @@
       "verified": true
     },
     "arm": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "09d5469ad7bdd751fb9b70ea179f02b4f40ff03163bc1aa794cc941520df57a1",
+      "snapshot_id": "snap-arm-09d5469ad7bdd751fb9b70ea",
+      "verified": true
     },
     "asml": {
       "blockers": [
@@ -232,16 +228,14 @@
       "verified": false
     },
     "atlassian": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "b7b664182b05e06d3e50139e0695cb95280c8f54d8c3e5068cfbc240cfa81133",
+      "snapshot_id": "snap-atlassian-b7b664182b05e06d3e50139e",
+      "verified": true
     },
     "atour": {
       "blockers": [
@@ -278,16 +272,14 @@
       "verified": false
     },
     "autohome": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "119d2c8be99debed50fda277df6223f780d5774537c04e252c9e691f65647728",
+      "snapshot_id": "snap-autohome-119d2c8be99debed50fda277",
+      "verified": true
     },
     "azure": {
       "blockers": [],
@@ -378,16 +370,14 @@
       "verified": false
     },
     "beike": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "ae0847a06f68cb6ccc9b1d93499bcc88567b0039e47b04bccd11ec927f44fa7c",
+      "snapshot_id": "snap-beike-ae0847a06f68cb6ccc9b1d93",
+      "verified": true
     },
     "bing": {
       "blockers": [],
@@ -516,16 +506,14 @@
       "verified": true
     },
     "cisco": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "9a3aaeb43d6d3a0a5e07a015ebefc27e7b2d1f24926f1e0fc1b11616e4c64295",
+      "snapshot_id": "snap-cisco-9a3aaeb43d6d3a0a5e07a015",
+      "verified": true
     },
     "claude": {
       "blockers": [],
@@ -550,16 +538,14 @@
       "verified": false
     },
     "coinbase": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "428453f560b2b36a037ae4a8cfcda1cca878b182fafea25bf8f0a50cf55c0810",
+      "snapshot_id": "snap-coinbase-428453f560b2b36a037ae4a8",
+      "verified": true
     },
     "copilot": {
       "blockers": [],
@@ -584,28 +570,24 @@
       "verified": false
     },
     "crowdstrike": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "93425b240aa10465a16663598a325591fc98f301408251041b03ec98aa45795c",
+      "snapshot_id": "snap-crowdstrike-93425b240aa10465a1666359",
+      "verified": true
     },
     "ctyun": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "4274fec1e04159015436e52f8680bc88ecf969ed74a02fc3156e2c6514d9b07f",
+      "snapshot_id": "snap-ctyun-4274fec1e04159015436e52f",
+      "verified": true
     },
     "dahua": {
       "blockers": [
@@ -632,28 +614,24 @@
       "verified": false
     },
     "databricks": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "d612a4dc8584d5154f905273d61f951bc41c93e9c5b303ac33480147f90a0c7b",
+      "snapshot_id": "snap-databricks-d612a4dc8584d5154f905273",
+      "verified": true
     },
     "datadog": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "507e01df7ff9a667069ba1fde322892d194cdaba7ec8b90f4827d695ed8b5924",
+      "snapshot_id": "snap-datadog-507e01df7ff9a667069ba1fd",
+      "verified": true
     },
     "deepseek": {
       "blockers": [],
@@ -754,16 +732,14 @@
       "verified": false
     },
     "eastmoney": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "1aebbd7125a8244e9014e3fffccd5fba6ee2e0d316d42cd881dd589d0061466d",
+      "snapshot_id": "snap-eastmoney-1aebbd7125a8244e9014e3ff",
+      "verified": true
     },
     "epicgames": {
       "blockers": [
@@ -1176,16 +1152,14 @@
       "verified": false
     },
     "heytap": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "c0fad031b445f1ba2e0df58f3e9806d708190fe687b54823a7d7264ec96725bc",
+      "snapshot_id": "snap-heytap-c0fad031b445f1ba2e0df58f",
+      "verified": true
     },
     "hikvision": {
       "blockers": [
@@ -1312,16 +1286,14 @@
       "verified": false
     },
     "ibm": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "37965a10aeb0c5a5dcbd06ccbf4994101cdaaa952dd219d2950e0d120e0a35a2",
+      "snapshot_id": "snap-ibm-37965a10aeb0c5a5dcbd06cc",
+      "verified": true
     },
     "icloud": {
       "blockers": [],
@@ -1334,28 +1306,24 @@
       "verified": true
     },
     "iflytek": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "4efe816c7539950150d3efde6de14f20f45dc35d25821967146c204286840022",
+      "snapshot_id": "snap-iflytek-4efe816c7539950150d3efde",
+      "verified": true
     },
     "intel": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "ae6db8931e41867ab2c9ce5de7e7a5fc53d7e6692b33e7a9647002bea8af0e10",
+      "snapshot_id": "snap-intel-ae6db8931e41867ab2c9ce5d",
+      "verified": true
     },
     "internlm": {
       "blockers": [
@@ -1416,16 +1384,14 @@
       "verified": false
     },
     "kingdee": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "42ceda0ada5607414b5eea3ff6fb21f4a7fad2b32dda783985faf3f32be2a4f8",
+      "snapshot_id": "snap-kingdee-42ceda0ada5607414b5eea3f",
+      "verified": true
     },
     "kla": {
       "blockers": [
@@ -1614,16 +1580,14 @@
       "verified": true
     },
     "mgtv": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "ffd1b433e2f0ebb7e775204b2a92c3d14ae4a9fa05538e673333ee9a10df60c6",
+      "snapshot_id": "snap-mgtv-ffd1b433e2f0ebb7e775204b",
+      "verified": true
     },
     "mi-cloud": {
       "blockers": [],
@@ -1648,16 +1612,14 @@
       "verified": false
     },
     "migu": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "2c130d2595cc59d07fca2f2c16408e139e81460bc646c47fe028c65e9ca15eaf",
+      "snapshot_id": "snap-migu-2c130d2595cc59d07fca2f2c",
+      "verified": true
     },
     "mihome": {
       "blockers": [
@@ -1672,40 +1634,34 @@
       "verified": false
     },
     "minimax": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "c9a118b15225676be85a7e134e96d24a7f9561cbfe1f1f038a1f25af73bd419d",
+      "snapshot_id": "snap-minimax-c9a118b15225676be85a7e13",
+      "verified": true
     },
     "mongodb": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "f2f9a87cf8d835b8983e37f3fd7a652e8d55327ea162c71ad1411f5b9958dd2e",
+      "snapshot_id": "snap-mongodb-f2f9a87cf8d835b8983e37f3",
+      "verified": true
     },
     "moonshot": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "caaddf9c7a19a0dffbd811fd8a6e42684908b55ac56b21fda543e12e28a31bb9",
+      "snapshot_id": "snap-moonshot-caaddf9c7a19a0dffbd811fd",
+      "verified": true
     },
     "ms365-excel": {
       "blockers": [],
@@ -1856,16 +1812,14 @@
       "verified": false
     },
     "nvidia": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 3,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "a6059abb14e07ee76462cbe5a44a445c26142e9c9f3de68af31148033845530a",
+      "snapshot_id": "snap-nvidia-a6059abb14e07ee76462cbe5",
+      "verified": true
     },
     "office": {
       "blockers": [],
@@ -1878,16 +1832,14 @@
       "verified": true
     },
     "okta": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "eacf3a9a634e3b2ac73a25b08784ff7817e914e4f24e1d0c8bdc559aab27abbd",
+      "snapshot_id": "snap-okta-eacf3a9a634e3b2ac73a25b0",
+      "verified": true
     },
     "onedrive": {
       "blockers": [],
@@ -2066,16 +2018,14 @@
       "verified": true
     },
     "qualcomm": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "cd7555bc47c58157a10b785015cac08630703838e93a96fd52513f03be63be12",
+      "snapshot_id": "snap-qualcomm-cd7555bc47c58157a10b7850",
+      "verified": true
     },
     "quanmin-k-ge": {
       "blockers": [],
@@ -2088,16 +2038,14 @@
       "verified": true
     },
     "qunar": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "88bfe5677a93332e63577a9cd034a402898cafaf40e5232304fb7b29df43d905",
+      "snapshot_id": "snap-qunar-88bfe5677a93332e63577a9c",
+      "verified": true
     },
     "rakuten": {
       "blockers": [
@@ -2117,8 +2065,8 @@
       "domain_count": 47,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "36d3732a073e69dc0d883708b9450802462e9e6483d87f03ce1ba6dfbdf0846b",
-      "snapshot_id": "snap-roblox-36d3732a073e69dc0d883708",
+      "release_digest": "7ab801cc1c6d8e5d601d02896371c06ae0a767172d0a006077d77d71320e7e28",
+      "snapshot_id": "snap-roblox-7ab801cc1c6d8e5d601d0289",
       "verified": true
     },
     "roborock": {
@@ -2134,28 +2082,24 @@
       "verified": false
     },
     "salesforce": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "31ea38c4cef525d27776ca237cd083d706dbda1a3d3d652916ffee1b719ac73e",
+      "snapshot_id": "snap-salesforce-31ea38c4cef525d27776ca23",
+      "verified": true
     },
     "samsung": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "2145c8ff882fa86961ad29d9b7917cb17677b34eb33d2effb0fd384d8b8a7d1c",
+      "snapshot_id": "snap-samsung-2145c8ff882fa86961ad29d9",
+      "verified": true
     },
     "sangfor": {
       "blockers": [
@@ -2170,16 +2114,14 @@
       "verified": false
     },
     "sap": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "f44a3acab908f192ae52c5ac3c51ee7973c3f2eff00658704eb643e4bc77f0ce",
+      "snapshot_id": "snap-sap-f44a3acab908f192ae52c5ac",
+      "verified": true
     },
     "schneider": {
       "blockers": [
@@ -2218,28 +2160,24 @@
       "verified": false
     },
     "sfexpress": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "a5cd2546c841102ce8e7b4d2906e67e22a6628fb4081b7d7fa9bd13de8c9b7bb",
+      "snapshot_id": "snap-sfexpress-a5cd2546c841102ce8e7b4d2",
+      "verified": true
     },
     "shimo": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "88a8b1eb120cde0c758e15b8baf985c093cc4633bf0039411b6590a5075ebfc6",
+      "snapshot_id": "snap-shimo-88a8b1eb120cde0c758e15b8",
+      "verified": true
     },
     "shopee": {
       "blockers": [
@@ -2298,28 +2236,24 @@
       "verified": false
     },
     "snowflake": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "5e58fc10ac5e533519bfa88cc59893e1c2a0cf385ad7bb12f9885c1ae7ad614c",
+      "snapshot_id": "snap-snowflake-5e58fc10ac5e533519bfa88c",
+      "verified": true
     },
     "sony": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "382278062b14392df186ceec3fd13f997d66c231fd3cbbe6de15f3d56151d3bb",
+      "snapshot_id": "snap-sony-382278062b14392df186ceec",
+      "verified": true
     },
     "spacex": {
       "blockers": [
@@ -2424,16 +2358,14 @@
       "verified": true
     },
     "temu": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "755cb28a74f87d97853dc2056ba7623e2164d48cafd70c94b74fbb26d7b72d95",
+      "snapshot_id": "snap-temu-755cb28a74f87d97853dc205",
+      "verified": true
     },
     "tencentcloud": {
       "blockers": [],
@@ -2466,16 +2398,14 @@
       "verified": true
     },
     "tesla": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "314c9a27dfa03ba8ee211f51f50636bf81bb3396aab9b3c49c0d42df3a7dd9cc",
+      "snapshot_id": "snap-tesla-314c9a27dfa03ba8ee211f51",
+      "verified": true
     },
     "testflight": {
       "blockers": [],
@@ -2580,16 +2510,14 @@
       "verified": false
     },
     "twilio": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "f7887186eddfb1d28d9fd50bd0c677a6203a05e268413adbbec05ea68f80ae88",
+      "snapshot_id": "snap-twilio-f7887186eddfb1d28d9fd50b",
+      "verified": true
     },
     "umc": {
       "blockers": [
@@ -2626,16 +2554,14 @@
       "verified": true
     },
     "vipshop": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "73e31c6722deb6afbde50474bcfd089ce25ee874351fb4fe069951d6cb30b252",
+      "snapshot_id": "snap-vipshop-73e31c6722deb6afbde50474",
+      "verified": true
     },
     "volcengine": {
       "blockers": [
@@ -2718,16 +2644,14 @@
       "verified": false
     },
     "wps": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "861720e326a9c4914d78ecb157f116cf70163ad7d6633a8a86a1fdc61ed13d50",
+      "snapshot_id": "snap-wps-861720e326a9c4914d78ecb1",
+      "verified": true
     },
     "wuba": {
       "blockers": [
@@ -2774,16 +2698,14 @@
       "verified": false
     },
     "xunlei": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "44fbe977943e79cd5112f6824a43bb56e05509057f01021c79ea1da84c1b3ecc",
+      "snapshot_id": "snap-xunlei-44fbe977943e79cd5112f682",
+      "verified": true
     },
     "yi": {
       "blockers": [
@@ -2798,16 +2720,14 @@
       "verified": false
     },
     "yonyou": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "86528b8d7bffa51440d11b83537dbeab994fb7df18e66c65323a6b46db8b1712",
+      "snapshot_id": "snap-yonyou-86528b8d7bffa51440d11b83",
+      "verified": true
     },
     "youdao": {
       "blockers": [],
@@ -2852,28 +2772,24 @@
       "verified": false
     },
     "zhipin": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "7fb74eecaa4a447df440a8e2c3c24f447b9fa034e4f9b74532c4dcc7d94ed2b8",
+      "snapshot_id": "snap-zhipin-7fb74eecaa4a447df440a8e2",
+      "verified": true
     },
     "zhipu": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 3,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "b777d801e25dcde103be641475904c4682baba5e0ea08c00e7c0f1cfca10bc70",
+      "snapshot_id": "snap-zhipu-b777d801e25dcde103be6414",
+      "verified": true
     },
     "zte": {
       "blockers": [
