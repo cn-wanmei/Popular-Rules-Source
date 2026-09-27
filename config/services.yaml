@@ -3226,3 +3226,1517 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+  temu:
+    display_name: Temu
+    ecosystem: pinduoduo
+    official_sources:
+    - https://www.temu.com/
+    allowed_host_exact:
+    - www.temu.com
+    - temu.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D1
+  heytap:
+    display_name: HeyTap
+    ecosystem: oppo
+    official_sources:
+    - https://www.heytap.com/
+    allowed_host_exact:
+    - www.heytap.com
+    - heytap.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D1
+  migu:
+    display_name: 咪咕
+    ecosystem: chinamobile
+    official_sources:
+    - https://www.migu.cn/
+    allowed_host_exact:
+    - www.migu.cn
+    - migu.cn
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D1
+  ctyun:
+    display_name: 天翼云
+    ecosystem: chinatelecom
+    official_sources:
+    - https://www.ctyun.cn/
+    allowed_host_exact:
+    - www.ctyun.cn
+    - ctyun.cn
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D1
+  woyun:
+    display_name: 联通云
+    ecosystem: chinaunicom
+    official_sources:
+    - https://www.cucloud.cn/
+    allowed_host_exact:
+    - www.cucloud.cn
+    - cucloud.cn
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D1
+  sfexpress:
+    display_name: 顺丰
+    ecosystem: sfexpress
+    official_sources:
+    - https://www.sf-express.com/
+    allowed_host_exact:
+    - www.sf-express.com
+    - sf-express.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D2
+  beike:
+    display_name: 贝壳
+    ecosystem: beike
+    official_sources:
+    - https://www.ke.com/
+    allowed_host_exact:
+    - www.ke.com
+    - ke.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D2
+  vipshop:
+    display_name: 唯品会
+    ecosystem: vipshop
+    official_sources:
+    - https://www.vip.com/
+    allowed_host_exact:
+    - www.vip.com
+    - vip.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D2
+  tongcheng:
+    display_name: 同程旅行
+    ecosystem: tongcheng
+    official_sources:
+    - https://www.ly.com/
+    allowed_host_exact:
+    - www.ly.com
+    - ly.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D2
+  kingdee:
+    display_name: 金蝶
+    ecosystem: kingdee
+    official_sources:
+    - https://www.kingdee.com/
+    allowed_host_exact:
+    - www.kingdee.com
+    - kingdee.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D2
+  yonyou:
+    display_name: 用友
+    ecosystem: yonyou
+    official_sources:
+    - https://www.yonyou.com/
+    allowed_host_exact:
+    - www.yonyou.com
+    - yonyou.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D2
+  sangfor:
+    display_name: 深信服
+    ecosystem: sangfor
+    official_sources:
+    - https://www.sangfor.com.cn/
+    allowed_host_exact:
+    - www.sangfor.com.cn
+    - sangfor.com.cn
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D2
+  haier:
+    display_name: 海尔智家
+    ecosystem: haier
+    official_sources:
+    - https://www.haier.com/
+    allowed_host_exact:
+    - www.haier.com
+    - haier.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D2
+  wangsu:
+    display_name: 网宿科技
+    ecosystem: wangsu
+    official_sources:
+    - https://www.wangsu.com/
+    allowed_host_exact:
+    - www.wangsu.com
+    - wangsu.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D2
+  perfectworld:
+    display_name: 完美世界
+    ecosystem: perfectworld
+    official_sources:
+    - https://www.wanmei.com/
+    allowed_host_exact:
+    - www.wanmei.com
+    - wanmei.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D2
+  tonghuashun:
+    display_name: 同花顺
+    ecosystem: tonghuashun
+    official_sources:
+    - https://www.10jqka.com.cn/
+    allowed_host_exact:
+    - www.10jqka.com.cn
+    - 10jqka.com.cn
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D3
+  huolala:
+    display_name: 货拉拉
+    ecosystem: huolala
+    official_sources:
+    - https://www.huolala.cn/
+    allowed_host_exact:
+    - www.huolala.cn
+    - huolala.cn
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D3
+  manbang:
+    display_name: 满帮
+    ecosystem: manbang
+    official_sources:
+    - https://www.ymm56.com/
+    allowed_host_exact:
+    - www.ymm56.com
+    - ymm56.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D3
+  zhaopin:
+    display_name: 智联招聘
+    ecosystem: zhaopin
+    official_sources:
+    - https://www.zhaopin.com/
+    allowed_host_exact:
+    - www.zhaopin.com
+    - zhaopin.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D3
+  wuba:
+    display_name: 58同城
+    ecosystem: wuba
+    official_sources:
+    - https://www.58.com/
+    allowed_host_exact:
+    - www.58.com
+    - 58.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D3
+  anjuke:
+    display_name: 安居客
+    ecosystem: wuba
+    official_sources:
+    - https://www.anjuke.com/
+    allowed_host_exact:
+    - www.anjuke.com
+    - anjuke.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D3
+  hellobike:
+    display_name: 哈啰
+    ecosystem: hellobike
+    official_sources:
+    - https://www.hellobike.com/
+    allowed_host_exact:
+    - www.hellobike.com
+    - hellobike.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D3
+  caocao:
+    display_name: 曹操出行
+    ecosystem: caocao
+    official_sources:
+    - https://www.caocaokeji.cn/
+    allowed_host_exact:
+    - www.caocaokeji.cn
+    - caocaokeji.cn
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D3
+  t3go:
+    display_name: T3出行
+    ecosystem: t3go
+    official_sources:
+    - https://www.t3go.cn/
+    allowed_host_exact:
+    - www.t3go.cn
+    - t3go.cn
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D3
+  sensetime:
+    display_name: 商汤科技
+    ecosystem: sensetime
+    official_sources:
+    - https://www.sensetime.com/
+    allowed_host_exact:
+    - www.sensetime.com
+    - sensetime.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D3
+  zhipu:
+    display_name: 智谱AI
+    ecosystem: zhipu
+    official_sources:
+    - https://www.zhipuai.cn/
+    allowed_host_exact:
+    - www.zhipuai.cn
+    - zhipuai.cn
+    - chatglm.cn
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D4
+  moonshot:
+    display_name: 月之暗面
+    ecosystem: moonshot
+    official_sources:
+    - https://www.moonshot.cn/
+    allowed_host_exact:
+    - www.moonshot.cn
+    - moonshot.cn
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D4
+  minimax:
+    display_name: MiniMax
+    ecosystem: minimax
+    official_sources:
+    - https://www.minimaxi.com/
+    allowed_host_exact:
+    - www.minimaxi.com
+    - minimaxi.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D4
+  baichuan:
+    display_name: 百川智能
+    ecosystem: baichuan
+    official_sources:
+    - https://www.baichuan-ai.com/
+    allowed_host_exact:
+    - www.baichuan-ai.com
+    - baichuan-ai.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D4
+  yi:
+    display_name: 零一万物
+    ecosystem: yi
+    official_sources:
+    - https://www.lingyiwanwu.com/
+    allowed_host_exact:
+    - www.lingyiwanwu.com
+    - lingyiwanwu.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D4
+  cambricon:
+    display_name: 寒武纪
+    ecosystem: cambricon
+    official_sources:
+    - https://www.cambricon.com/
+    allowed_host_exact:
+    - www.cambricon.com
+    - cambricon.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D4
+  hikvision:
+    display_name: 海康威视
+    ecosystem: hikvision
+    official_sources:
+    - https://www.hikvision.com/
+    allowed_host_exact:
+    - www.hikvision.com
+    - hikvision.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D4
+  dahua:
+    display_name: 大华股份
+    ecosystem: dahua
+    official_sources:
+    - https://www.dahuatech.com/
+    allowed_host_exact:
+    - www.dahuatech.com
+    - dahuatech.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D4
+  dji:
+    display_name: 大疆
+    ecosystem: dji
+    official_sources:
+    - https://www.dji.com/
+    allowed_host_exact:
+    - www.dji.com
+    - dji.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D4
+  tuya:
+    display_name: 涂鸦智能
+    ecosystem: tuya
+    official_sources:
+    - https://www.tuya.com/
+    allowed_host_exact:
+    - www.tuya.com
+    - tuya.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D4
+  anker:
+    display_name: 安克创新
+    ecosystem: anker
+    official_sources:
+    - https://www.anker.com/
+    allowed_host_exact:
+    - www.anker.com
+    - anker.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D4
+  sap:
+    display_name: SAP
+    ecosystem: sap
+    official_sources:
+    - https://www.sap.com/
+    allowed_host_exact:
+    - www.sap.com
+    - sap.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O1
+  sony:
+    display_name: Sony
+    ecosystem: sony
+    official_sources:
+    - https://www.sony.com/
+    allowed_host_exact:
+    - www.sony.com
+    - sony.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O1
+  qualcomm:
+    display_name: Qualcomm
+    ecosystem: qualcomm
+    official_sources:
+    - https://www.qualcomm.com/
+    allowed_host_exact:
+    - www.qualcomm.com
+    - qualcomm.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O1
+  arm:
+    display_name: Arm
+    ecosystem: arm
+    official_sources:
+    - https://www.arm.com/
+    allowed_host_exact:
+    - www.arm.com
+    - arm.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O1
+  tsmc:
+    display_name: TSMC
+    ecosystem: tsmc
+    official_sources:
+    - https://www.tsmc.com/
+    allowed_host_exact:
+    - www.tsmc.com
+    - tsmc.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O1
+  servicenow:
+    display_name: ServiceNow
+    ecosystem: servicenow
+    official_sources:
+    - https://www.servicenow.com/
+    allowed_host_exact:
+    - www.servicenow.com
+    - servicenow.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O1
+  databricks:
+    display_name: Databricks
+    ecosystem: databricks
+    official_sources:
+    - https://www.databricks.com/
+    allowed_host_exact:
+    - www.databricks.com
+    - databricks.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O2
+  snowflake:
+    display_name: Snowflake
+    ecosystem: snowflake
+    official_sources:
+    - https://www.snowflake.com/
+    allowed_host_exact:
+    - www.snowflake.com
+    - snowflake.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O2
+  atlassian:
+    display_name: Atlassian
+    ecosystem: atlassian
+    official_sources:
+    - https://www.atlassian.com/
+    allowed_host_exact:
+    - www.atlassian.com
+    - atlassian.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O2
+  workday:
+    display_name: Workday
+    ecosystem: workday
+    official_sources:
+    - https://www.workday.com/
+    allowed_host_exact:
+    - www.workday.com
+    - workday.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O2
+  palantir:
+    display_name: Palantir
+    ecosystem: palantir
+    official_sources:
+    - https://www.palantir.com/
+    allowed_host_exact:
+    - www.palantir.com
+    - palantir.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O2
+  spacex:
+    display_name: SpaceX
+    ecosystem: spacex
+    official_sources:
+    - https://www.spacex.com/
+    allowed_host_exact:
+    - www.spacex.com
+    - spacex.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O2
+  starlink:
+    display_name: Starlink
+    ecosystem: spacex
+    official_sources:
+    - https://www.starlink.com/
+    allowed_host_exact:
+    - www.starlink.com
+    - starlink.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O2
+  intuit:
+    display_name: Intuit
+    ecosystem: intuit
+    official_sources:
+    - https://www.intuit.com/
+    allowed_host_exact:
+    - www.intuit.com
+    - intuit.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O2
+  mediatek:
+    display_name: MediaTek
+    ecosystem: mediatek
+    official_sources:
+    - https://www.mediatek.com/
+    allowed_host_exact:
+    - www.mediatek.com
+    - mediatek.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O2
+  nintendo:
+    display_name: Nintendo
+    ecosystem: nintendo
+    official_sources:
+    - https://www.nintendo.com/
+    allowed_host_exact:
+    - www.nintendo.com
+    - nintendo.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O3
+  lg:
+    display_name: LG
+    ecosystem: lg
+    official_sources:
+    - https://www.lg.com/
+    allowed_host_exact:
+    - www.lg.com
+    - lg.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O3
+  panasonic:
+    display_name: Panasonic
+    ecosystem: panasonic
+    official_sources:
+    - https://www.panasonic.com/
+    allowed_host_exact:
+    - www.panasonic.com
+    - panasonic.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O3
+  rakuten:
+    display_name: Rakuten
+    ecosystem: rakuten
+    official_sources:
+    - https://www.rakuten.com/
+    allowed_host_exact:
+    - www.rakuten.com
+    - rakuten.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O3
+  linecorp:
+    display_name: LINE
+    ecosystem: line
+    official_sources:
+    - https://line.me/
+    allowed_host_exact:
+    - line.me
+    - www.line.me
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O3
+  grab:
+    display_name: Grab
+    ecosystem: grab
+    official_sources:
+    - https://www.grab.com/
+    allowed_host_exact:
+    - www.grab.com
+    - grab.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O3
+  shopee:
+    display_name: Shopee
+    ecosystem: sea
+    official_sources:
+    - https://shopee.com/
+    allowed_host_exact:
+    - shopee.com
+    - www.shopee.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O3
+  coupang:
+    display_name: Coupang
+    ecosystem: coupang
+    official_sources:
+    - https://www.coupang.com/
+    allowed_host_exact:
+    - www.coupang.com
+    - coupang.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O3
+  kakao:
+    display_name: Kakao
+    ecosystem: kakao
+    official_sources:
+    - https://www.kakaocorp.com/
+    allowed_host_exact:
+    - www.kakaocorp.com
+    - kakaocorp.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O3
+  ericsson:
+    display_name: Ericsson
+    ecosystem: ericsson
+    official_sources:
+    - https://www.ericsson.com/
+    allowed_host_exact:
+    - www.ericsson.com
+    - ericsson.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O3
+  nokia:
+    display_name: Nokia
+    ecosystem: nokia
+    official_sources:
+    - https://www.nokia.com/
+    allowed_host_exact:
+    - www.nokia.com
+    - nokia.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O3
+  crowdstrike:
+    display_name: CrowdStrike
+    ecosystem: crowdstrike
+    official_sources:
+    - https://www.crowdstrike.com/
+    allowed_host_exact:
+    - www.crowdstrike.com
+    - crowdstrike.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O4
+  fortinet:
+    display_name: Fortinet
+    ecosystem: fortinet
+    official_sources:
+    - https://www.fortinet.com/
+    allowed_host_exact:
+    - www.fortinet.com
+    - fortinet.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O4
+  okta:
+    display_name: Okta
+    ecosystem: okta
+    official_sources:
+    - https://www.okta.com/
+    allowed_host_exact:
+    - www.okta.com
+    - okta.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O4
+  hubspot:
+    display_name: HubSpot
+    ecosystem: hubspot
+    official_sources:
+    - https://www.hubspot.com/
+    allowed_host_exact:
+    - www.hubspot.com
+    - hubspot.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O4
+  twilio:
+    display_name: Twilio
+    ecosystem: twilio
+    official_sources:
+    - https://www.twilio.com/
+    allowed_host_exact:
+    - www.twilio.com
+    - twilio.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O4
+  autodesk:
+    display_name: Autodesk
+    ecosystem: autodesk
+    official_sources:
+    - https://www.autodesk.com/
+    allowed_host_exact:
+    - www.autodesk.com
+    - autodesk.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O4
+  unity:
+    display_name: Unity
+    ecosystem: unity
+    official_sources:
+    - https://unity.com/
+    allowed_host_exact:
+    - unity.com
+    - www.unity.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O4
+  coinbase:
+    display_name: Coinbase
+    ecosystem: coinbase
+    official_sources:
+    - https://www.coinbase.com/
+    allowed_host_exact:
+    - www.coinbase.com
+    - coinbase.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O4
+  ea:
+    display_name: Electronic Arts
+    ecosystem: ea
+    official_sources:
+    - https://www.ea.com/
+    allowed_host_exact:
+    - www.ea.com
+    - ea.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O4
+  epicgames:
+    display_name: Epic Games
+    ecosystem: epic
+    official_sources:
+    - https://store.epicgames.com/
+    allowed_host_exact:
+    - store.epicgames.com
+    - epicgames.com
+    - www.epicgames.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: O4
