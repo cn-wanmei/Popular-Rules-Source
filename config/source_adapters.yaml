@@ -235,3 +235,5 @@ services:
   cloudflare: {adapters: [self_built]}
   datadog: {adapters: [self_built]}
   mongodb: {adapters: [self_built]}
+  office: {adapters: [self_built]}
+  outlook: {adapters: [self_built]}
