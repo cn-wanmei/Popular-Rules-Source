@@ -273,6 +273,18 @@
       "snapshot_id": "snap-bing-3f36698777489885ba7fdbfd",
       "verified": true
     },
+    "byd": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
     "cainiao": {
       "blockers": [],
       "declared_state": "production",
@@ -691,6 +703,18 @@
       "snapshot_id": "snap-groq-c073c7adcd8f0db5ebe9a92a",
       "verified": true
     },
+    "honor": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
     "honorofkings_cn": {
       "blockers": [],
       "declared_state": "review",
@@ -753,6 +777,18 @@
       "snapshot_id": "snap-icloud-d3bceca16ccfbb5fe06c64f6",
       "verified": true
     },
+    "intel": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
     "jd-cloud": {
       "blockers": [],
       "declared_state": "review",
@@ -806,6 +842,18 @@
       "release_digest": "c36f7d9497fdd5e0b0806d936a85cc9c920b40ad60d014d09e7dfd9d8a9a91d7",
       "snapshot_id": "snap-kuwo-c36f7d9497fdd5e0b0806d93",
       "verified": true
+    },
+    "lenovo": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
     },
     "messenger": {
       "blockers": [],
@@ -941,6 +989,18 @@
       "snapshot_id": "snap-netflix-5b2876cf88dc642c06b22d35",
       "verified": true
     },
+    "nvidia": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
     "onedrive": {
       "blockers": [],
       "declared_state": "verified",
@@ -990,6 +1050,18 @@
       "release_digest": "ada0cc4943c05a38442ca859e2a7279742cc231dc3e5487bae3a9c41476518f0",
       "snapshot_id": "snap-perplexity-ada0cc4943c05a38442ca859",
       "verified": true
+    },
+    "qihoo360": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
     },
     "qq": {
       "blockers": [
@@ -1042,6 +1114,18 @@
       "release_digest": "36d3732a073e69dc0d883708b9450802462e9e6483d87f03ce1ba6dfbdf0846b",
       "snapshot_id": "snap-roblox-36d3732a073e69dc0d883708",
       "verified": true
+    },
+    "samsung": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
     },
     "signal": {
       "blockers": [],
@@ -1134,6 +1218,18 @@
       "release_digest": "0bbc97349dbece8ea2628b3f4816848736b78f76ec0d25a1941e649da17d2e4e",
       "snapshot_id": "snap-tencentvideo-0bbc97349dbece8ea2628b3f",
       "verified": true
+    },
+    "tesla": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
     },
     "testflight": {
       "blockers": [],
@@ -1244,6 +1340,18 @@
       "release_digest": "0e39136672e2e05e52470bd5f469e8b60454f4b686e45ae7dbd4d8c30ce74451",
       "snapshot_id": "snap-youtubemusic-0e39136672e2e05e52470bd5",
       "verified": true
+    },
+    "zte": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
     }
   },
   "source_of_truth": "config/source_canary_state.yaml",

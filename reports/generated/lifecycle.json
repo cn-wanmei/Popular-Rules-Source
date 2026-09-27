@@ -313,6 +313,18 @@
       "snapshot_id": "snap-bing-3f36698777489885ba7fdbfd",
       "state": "verified"
     },
+    "byd": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "cainiao": {
       "content_digest": "290e46ab6c1f75cb9c2dfefd1dde5b8196305f894ff06831c08f7b339cd06e5e",
       "domain_count": 1,
@@ -769,6 +781,18 @@
       "snapshot_id": "snap-groq-c073c7adcd8f0db5ebe9a92a",
       "state": "review"
     },
+    "honor": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "honorofkings_cn": {
       "content_digest": "5fa9ebb3ba99b2f4dd3c2fe41776fe8e3e030817c126be6be558438f6f33eba3",
       "domain_count": 1,
@@ -841,6 +865,18 @@
       "snapshot_id": "snap-icloud-d3bceca16ccfbb5fe06c64f6",
       "state": "verified"
     },
+    "intel": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "jd-cloud": {
       "content_digest": "6ac3c70f6350afb39f0323834336b53e7a52524e1d77c0b950c41bac07fe8dbd",
       "domain_count": 1,
@@ -899,6 +935,18 @@
       "release_digest": "c36f7d9497fdd5e0b0806d936a85cc9c920b40ad60d014d09e7dfd9d8a9a91d7",
       "release_state": "CANDIDATE",
       "snapshot_id": "snap-kuwo-c36f7d9497fdd5e0b0806d93",
+      "state": "review"
+    },
+    "lenovo": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
       "state": "review"
     },
     "messenger": {
@@ -1045,6 +1093,18 @@
       "snapshot_id": "snap-netflix-5b2876cf88dc642c06b22d35",
       "state": "verified"
     },
+    "nvidia": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "onedrive": {
       "content_digest": "1090a865fdb375152535274115046431d18260f268e879edbd8d25e4f733c335",
       "domain_count": 13,
@@ -1105,6 +1165,18 @@
       "snapshot_id": "snap-perplexity-ada0cc4943c05a38442ca859",
       "state": "review"
     },
+    "qihoo360": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
+    },
     "qq": {
       "content_digest": "5b9573a7da00db54470714896ae8224403aafa4a6e3521c75415834d6a7aae08",
       "domain_count": 1,
@@ -1163,6 +1235,18 @@
       "release_digest": "36d3732a073e69dc0d883708b9450802462e9e6483d87f03ce1ba6dfbdf0846b",
       "release_state": "CANDIDATE",
       "snapshot_id": "snap-roblox-36d3732a073e69dc0d883708",
+      "state": "review"
+    },
+    "samsung": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
       "state": "review"
     },
     "signal": {
@@ -1271,6 +1355,18 @@
       "release_digest": "0bbc97349dbece8ea2628b3f4816848736b78f76ec0d25a1941e649da17d2e4e",
       "release_state": "CANDIDATE",
       "snapshot_id": "snap-tencentvideo-0bbc97349dbece8ea2628b3f",
+      "state": "review"
+    },
+    "tesla": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
       "state": "review"
     },
     "testflight": {
@@ -1404,6 +1500,18 @@
       "release_state": "CANDIDATE",
       "snapshot_id": "snap-youtubemusic-0e39136672e2e05e52470bd5",
       "state": "verified"
+    },
+    "zte": {
+      "content_digest": null,
+      "domain_count": 0,
+      "enabled": true,
+      "evidence_digest": null,
+      "generator_digest": null,
+      "policy_digest": null,
+      "release_digest": null,
+      "release_state": "NO_SNAPSHOT",
+      "snapshot_id": null,
+      "state": "review"
     }
   }
 }

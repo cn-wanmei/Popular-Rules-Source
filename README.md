@@ -150,6 +150,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | baidutieba | **VERIFIED** | CANDIDATE | 32 | snap-baidutieba-9badf818529f1807c7959832 |
 | baiduwenku | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | bing | **VERIFIED** | CANDIDATE | 9 | snap-bing-3f36698777489885ba7fdbfd |
+| byd | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | cainiao | **PRODUCTION** | CANDIDATE | 1 | snap-cainiao-87212012e2498ca9ab820c49 |
 | chatgpt | **REVIEW** | CANDIDATE | 1 | snap-chatgpt-cc1e48c936f2293870e7e2c0 |
 | claude | **VERIFIED** | CANDIDATE | 3 | snap-claude-4aec84cea09e5629117513fa |
@@ -188,17 +189,20 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | googledrive | **VERIFIED** | CANDIDATE | 4 | snap-googledrive-a3f033b61b8bc0b99e39f7ca |
 | googlefcm | **REVIEW** | CANDIDATE | 13 | snap-googlefcm-d2649b705a9906c0296cdbaf |
 | groq | **REVIEW** | CANDIDATE | 1 | snap-groq-c073c7adcd8f0db5ebe9a92a |
+| honor | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | honorofkings_cn | **REVIEW** | CANDIDATE | 1 | snap-honorofkings_cn-a804aed53545aac4f58d34d8 |
 | honorofkings_global | **REVIEW** | CANDIDATE | 2 | snap-honorofkings_global-9271ce0b7c8d6b9d6d1836fa |
 | huawei-appgallery | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | huawei-cloud | **REVIEW** | CANDIDATE | 1 | snap-huawei-cloud-baad7d83f4093ace2f04705c |
 | huggingface | **REVIEW** | CANDIDATE | 3 | snap-huggingface-c41977bf6c8dade8b423273a |
 | icloud | **VERIFIED** | CANDIDATE | 58 | snap-icloud-d3bceca16ccfbb5fe06c64f6 |
+| intel | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | jd-cloud | **REVIEW** | CANDIDATE | 1 | snap-jd-cloud-7364b0a4c509c49727621c40 |
 | kuaishou | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | kuaishou-open | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | kugou | **REVIEW** | CANDIDATE | 1 | snap-kugou-bd7700e11c8ff2c07e7b9321 |
 | kuwo | **REVIEW** | CANDIDATE | 1 | snap-kuwo-c36f7d9497fdd5e0b0806d93 |
+| lenovo | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | messenger | **REVIEW** | CANDIDATE | 4 | snap-messenger-b3b52c8322960d4f19279550 |
 | mi-cloud | **REVIEW** | CANDIDATE | 1 | snap-mi-cloud-e876da13d4a50a1abf1ddb7a |
 | ms365-excel | **REVIEW** | NO_SNAPSHOT | 0 | none |
@@ -211,16 +215,19 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | neteasemail | **REVIEW** | CANDIDATE | 3 | snap-neteasemail-8f25db6f713ea62f08bd565b |
 | neteasemusic | **VERIFIED** | CANDIDATE | 10 | snap-neteasemusic-34efc854219f96a2aa121d84 |
 | netflix | **VERIFIED** | CANDIDATE | 31 | snap-netflix-5b2876cf88dc642c06b22d35 |
+| nvidia | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | onedrive | **VERIFIED** | CANDIDATE | 13 | snap-onedrive-241ab9a1831b3f0a3affb85a |
 | openai | **VERIFIED** | CANDIDATE | 31 | snap-openai-cda1ed8e109c4abd8bf521dd |
 | openai-api | **REVIEW** | CANDIDATE | 1 | snap-openai-api-c8952ba8249663ca6f49098d |
 | openai-platform | **REVIEW** | CANDIDATE | 1 | snap-openai-platform-769b5880b0899016f4335a85 |
 | perplexity | **REVIEW** | CANDIDATE | 4 | snap-perplexity-ada0cc4943c05a38442ca859 |
+| qihoo360 | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | qq | **REVIEW** | REVIEW | 1 | snap-qq-e8b755c0889d871584191efb |
 | qqmail | **PRODUCTION** | CANDIDATE | 1 | snap-qqmail-013babbee1bf9cf46a1741a1 |
 | qqmusic | **PRODUCTION** | CANDIDATE | 1 | snap-qqmusic-421df9f4465ad7fb35ed9c06 |
 | quanmin-k-ge | **REVIEW** | CANDIDATE | 1 | snap-quanmin-k-ge-00c1b63526a1b67c5f490aaf |
 | roblox | **REVIEW** | CANDIDATE | 47 | snap-roblox-36d3732a073e69dc0d883708 |
+| samsung | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | signal | **REVIEW** | CANDIDATE | 8 | snap-signal-ab3deea2dbc34fa008c60d6c |
 | siri | **REVIEW** | CANDIDATE | 1 | snap-siri-440b4c5a63d59b410d5e32fa |
 | stripe-dashboard | **REVIEW** | CANDIDATE | 1 | snap-stripe-dashboard-e5667382cb3f12c246ad8660 |
@@ -230,6 +237,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | tencentcloud | **PRODUCTION** | CANDIDATE | 1 | snap-tencentcloud-ae0a12032448efcd9d6b7cba |
 | tencentmeeting | **REVIEW** | CANDIDATE | 3 | snap-tencentmeeting-19826cb5a6a9fb912f7be3fc |
 | tencentvideo | **REVIEW** | CANDIDATE | 17 | snap-tencentvideo-0bbc97349dbece8ea2628b3f |
+| tesla | **REVIEW** | NO_SNAPSHOT | 0 | none |
 | testflight | **VERIFIED** | CANDIDATE | 2 | snap-testflight-922accff387fa39f172c3c41 |
 | tiktok | **VERIFIED** | CANDIDATE | 29 | snap-tiktok-d7c408670d9f72fda616937c |
 | tmall | **VERIFIED** | CANDIDATE | 8 | snap-tmall-69f5765cf69c3708d10ac3f8 |
@@ -241,4 +249,5 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | youdao | **REVIEW** | CANDIDATE | 15 | snap-youdao-fc97f5d207d4c3358c6a4d6b |
 | youtube | **REVIEW** | CANDIDATE | 175 | snap-youtube-58b8afe3b6062febd60fd519 |
 | youtubemusic | **VERIFIED** | CANDIDATE | 1 | snap-youtubemusic-0e39136672e2e05e52470bd5 |
+| zte | **REVIEW** | NO_SNAPSHOT | 0 | none |
 <!-- SOURCE_STATUS:END -->
