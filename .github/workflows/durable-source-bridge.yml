@@ -8,12 +8,8 @@ on:
       - "reports/generated/**"
       - "reports/durable-bridge/**"
       - "config/source_canary_state.yaml"
-      - ".github/workflows/branch-cleanup.yml"
-      - ".github/workflows/durable-source-bridge.yml"
       - "docs/**"
-      - "README.md"
       - ".github/workflows/**"
-      - ".github/workflows/collection-handoff.yml"
   workflow_dispatch:
     inputs:
       services:
@@ -26,7 +22,7 @@ permissions:
   contents: write
 
 env:
-  PYTHON_VERSION: "3.11"
+  PYTHON_VERSION: "3.12"
 
 jobs:
   release:
