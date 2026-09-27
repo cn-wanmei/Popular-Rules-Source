@@ -5474,3 +5474,168 @@ services:
     boundary:
       shared_infrastructure_allowed: false
     batch_tag: D4
+  volcengine:
+    display_name: 火山引擎
+    ecosystem: bytedance
+    official_sources:
+    - https://www.volcengine.com/
+    allowed_host_exact:
+    - www.volcengine.com
+    - volcengine.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D1-child
+  capcut:
+    display_name: 剪映/CapCut
+    ecosystem: bytedance
+    official_sources:
+    - https://www.capcut.com/
+    allowed_host_exact:
+    - www.capcut.com
+    - capcut.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D1-child
+  lark:
+    display_name: Lark
+    ecosystem: bytedance
+    official_sources:
+    - https://www.larksuite.com/
+    allowed_host_exact:
+    - www.larksuite.com
+    - larksuite.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D1-child
+  qqdoc:
+    display_name: 腾讯文档
+    ecosystem: tencent
+    official_sources:
+    - https://docs.qq.com/
+    allowed_host_exact:
+    - docs.qq.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D1-child
+  wegame:
+    display_name: WeGame
+    ecosystem: tencent
+    official_sources:
+    - https://www.wegame.com.cn/
+    allowed_host_exact:
+    - www.wegame.com.cn
+    - wegame.com.cn
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D1-child
+  mihome:
+    display_name: 米家
+    ecosystem: xiaomi
+    official_sources:
+    - https://home.mi.com/
+    allowed_host_exact:
+    - home.mi.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D1-child
+  getapps:
+    display_name: GetApps
+    ecosystem: xiaomi
+    official_sources:
+    - https://global.app.mi.com/
+    allowed_host_exact:
+    - global.app.mi.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D1-child
+  jdcloud:
+    display_name: 京东云
+    ecosystem: jingdong
+    official_sources:
+    - https://www.jdcloud.com/
+    allowed_host_exact:
+    - www.jdcloud.com
+    - jdcloud.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: D1-child
