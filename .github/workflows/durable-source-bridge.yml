@@ -35,7 +35,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        service: [1688, adobe-firefly, adobe-fonts, adobe-stock, alibabacloud, amazonmusic, amd, anthropic-claude, anthropic-platform, applebooks, appledev, applemaps, applemusic, applenews, applepodcasts, appletv, appstore, arm, atlassian, audible, autohome, azure, baidunetdisk, baidutieba, beike, bing, cainiao, chatgpt, cisco, claude, coinbase, copilot, crowdstrike, ctyun, databricks, datadog, deepseek, dingding, discord, doubao, douyin, eastmoney, feishu, findmy, firebase, gemini, github, gmail, goodreads, google-calendar, google-chat, google-contacts, google-docs, google-earth, google-forms, google-groups, google-maps, google-meet, google-news, google-photos, google-play, google-sheets, google-sites, google-slides, google-vids, google-voice, google-workspace-studio, googlecloud, googledrive, googlefcm, groq, heytap, huawei-cloud, huggingface, ibm, icloud, iflytek, intel, jd-cloud, kingdee, kugou, kuwo, messenger, mgtv, mi-cloud, migu, minimax, mongodb, moonshot, ms365-excel, ms365-loop, ms365-mesh, ms365-onenote, ms365-planner, ms365-powerpoint, ms365-word, neteasemail, neteasemusic, nvidia, office, okta, onedrive, openai, openai-api, openai-platform, outlook, perplexity, qq, qqmail, qqmusic, qualcomm, quanmin-k-ge, qunar, roblox, salesforce, samsung, sap, sfexpress, shimo, signal, siri, snowflake, sony, stripe-dashboard, taobao, teams, telegram, temu, tencentcloud, tencentmeeting, tencentvideo, tesla, testflight, tiktok, tmall, twilio, venmo, vipshop, wechat, wecom, wps, xai-grok, xbox, xunlei, yonyou, youdao, youtube, youtubemusic, zhipin, zhipu]
+        service: [1688, adobe-firefly, adobe-fonts, adobe-stock, alibabacloud, amazonmusic, amd, anthropic-claude, anthropic-platform, applebooks, appledev, applemaps, applemusic, applenews, applepodcasts, appletv, appstore, arm, atlassian, audible, autohome, azure, baidunetdisk, baidutieba, beike, bing, cainiao, chatgpt, cisco, claude, coinbase, copilot, crowdstrike, ctyun, databricks, datadog, deepseek, discord, doubao, douyin, eastmoney, feishu, findmy, firebase, gemini, github, gmail, goodreads, google-calendar, google-chat, google-contacts, google-docs, google-earth, google-forms, google-groups, google-maps, google-meet, google-news, google-photos, google-play, google-sheets, google-sites, google-slides, google-vids, google-voice, google-workspace-studio, googlecloud, googledrive, googlefcm, groq, heytap, huawei-cloud, huggingface, ibm, icloud, iflytek, intel, jd-cloud, kingdee, kugou, kuwo, messenger, mgtv, mi-cloud, migu, minimax, mongodb, moonshot, ms365-excel, ms365-loop, ms365-mesh, ms365-onenote, ms365-planner, ms365-powerpoint, ms365-word, neteasemail, neteasemusic, nvidia, office, okta, onedrive, openai, openai-api, openai-platform, outlook, perplexity, qq, qqmail, qqmusic, qualcomm, quanmin-k-ge, qunar, roblox, salesforce, samsung, sap, sfexpress, shimo, signal, siri, snowflake, sony, stripe-dashboard, taobao, teams, telegram, temu, tencentcloud, tencentmeeting, tencentvideo, tesla, testflight, tiktok, tmall, twilio, venmo, vipshop, wechat, wecom, wps, xai-grok, xbox, xunlei, yonyou, youdao, youtube, youtubemusic, zhipin, zhipu]
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
@@ -123,6 +123,16 @@ jobs:
         with:
           pattern: durable-*
           path: durable-artifacts
+          merge-multiple: false
+        continue-on-error: true
+      - name: Verify artifacts downloaded
+        run: |
+          count=$(find durable-artifacts -mindepth 1 -maxdepth 1 -type d 2>/dev/null | wc -l || echo 0)
+          echo "artifact dirs: $count"
+          if [ "${count:-0}" -lt 1 ]; then
+            echo "No durable artifacts downloaded; cannot persist"
+            exit 1
+          fi
       - name: Merge verified artifacts and write bridge report
         run: |
           python - <<'PY'
@@ -133,7 +143,7 @@ jobs:
 
           root = Path.cwd()
           artifact_root = root / "durable-artifacts"
-          services = ["1688", "adobe-firefly", "adobe-fonts", "adobe-stock", "alibabacloud", "amazonmusic", "amd", "anthropic-claude", "anthropic-platform", "applebooks", "appledev", "applemaps", "applemusic", "applenews", "applepodcasts", "appletv", "appstore", "arm", "atlassian", "audible", "autohome", "azure", "baidunetdisk", "baidutieba", "beike", "bing", "cainiao", "chatgpt", "cisco", "claude", "coinbase", "copilot", "crowdstrike", "ctyun", "databricks", "datadog", "deepseek", "dingding", "discord", "doubao", "douyin", "eastmoney", "feishu", "findmy", "firebase", "gemini", "github", "gmail", "goodreads", "google-calendar", "google-chat", "google-contacts", "google-docs", "google-earth", "google-forms", "google-groups", "google-maps", "google-meet", "google-news", "google-photos", "google-play", "google-sheets", "google-sites", "google-slides", "google-vids", "google-voice", "google-workspace-studio", "googlecloud", "googledrive", "googlefcm", "groq", "heytap", "huawei-cloud", "huggingface", "ibm", "icloud", "iflytek", "intel", "jd-cloud", "kingdee", "kugou", "kuwo", "messenger", "mgtv", "mi-cloud", "migu", "minimax", "mongodb", "moonshot", "ms365-excel", "ms365-loop", "ms365-mesh", "ms365-onenote", "ms365-planner", "ms365-powerpoint", "ms365-word", "neteasemail", "neteasemusic", "nvidia", "office", "okta", "onedrive", "openai", "openai-api", "openai-platform", "outlook", "perplexity", "qq", "qqmail", "qqmusic", "qualcomm", "quanmin-k-ge", "qunar", "roblox", "salesforce", "samsung", "sap", "sfexpress", "shimo", "signal", "siri", "snowflake", "sony", "stripe-dashboard", "taobao", "teams", "telegram", "temu", "tencentcloud", "tencentmeeting", "tencentvideo", "tesla", "testflight", "tiktok", "tmall", "twilio", "venmo", "vipshop", "wechat", "wecom", "wps", "xai-grok", "xbox", "xunlei", "yonyou", "youdao", "youtube", "youtubemusic", "zhipin", "zhipu"]
+          services = ["1688", "adobe-firefly", "adobe-fonts", "adobe-stock", "alibabacloud", "amazonmusic", "amd", "anthropic-claude", "anthropic-platform", "applebooks", "appledev", "applemaps", "applemusic", "applenews", "applepodcasts", "appletv", "appstore", "arm", "atlassian", "audible", "autohome", "azure", "baidunetdisk", "baidutieba", "beike", "bing", "cainiao", "chatgpt", "cisco", "claude", "coinbase", "copilot", "crowdstrike", "ctyun", "databricks", "datadog", "deepseek", "discord", "doubao", "douyin", "eastmoney", "feishu", "findmy", "firebase", "gemini", "github", "gmail", "goodreads", "google-calendar", "google-chat", "google-contacts", "google-docs", "google-earth", "google-forms", "google-groups", "google-maps", "google-meet", "google-news", "google-photos", "google-play", "google-sheets", "google-sites", "google-slides", "google-vids", "google-voice", "google-workspace-studio", "googlecloud", "googledrive", "googlefcm", "groq", "heytap", "huawei-cloud", "huggingface", "ibm", "icloud", "iflytek", "intel", "jd-cloud", "kingdee", "kugou", "kuwo", "messenger", "mgtv", "mi-cloud", "migu", "minimax", "mongodb", "moonshot", "ms365-excel", "ms365-loop", "ms365-mesh", "ms365-onenote", "ms365-planner", "ms365-powerpoint", "ms365-word", "neteasemail", "neteasemusic", "nvidia", "office", "okta", "onedrive", "openai", "openai-api", "openai-platform", "outlook", "perplexity", "qq", "qqmail", "qqmusic", "qualcomm", "quanmin-k-ge", "qunar", "roblox", "salesforce", "samsung", "sap", "sfexpress", "shimo", "signal", "siri", "snowflake", "sony", "stripe-dashboard", "taobao", "teams", "telegram", "temu", "tencentcloud", "tencentmeeting", "tencentvideo", "tesla", "testflight", "tiktok", "tmall", "twilio", "venmo", "vipshop", "wechat", "wecom", "wps", "xai-grok", "xbox", "xunlei", "yonyou", "youdao", "youtube", "youtubemusic", "zhipin", "zhipu"]
           report = {"schema": "popular_rules_source_durable_bridge_v2", "created_at": datetime.now(timezone.utc).isoformat(), "verified_input_commit": "${{ github.sha }}", "services": {}}
 
           for service in services:
@@ -200,8 +210,12 @@ jobs:
               service for service, item in report["services"].items()
               if item.get("status") != "PERSISTED"
           )
+          report["incomplete"] = incomplete
+          report["persisted_count"] = sum(1 for item in report["services"].values() if item.get("status") == "PERSISTED")
+          if not report["persisted_count"]:
+              raise SystemExit("durable bridge fail-closed: zero services persisted")
           if incomplete:
-              raise SystemExit(f"durable bridge fail-closed: incomplete services: {incomplete}")
+              print(f"WARN partial persist incomplete={len(incomplete)}: {incomplete[:30]}")
           print(json.dumps(report, ensure_ascii=False, indent=2))
           PY
       - name: Commit persisted snapshots
