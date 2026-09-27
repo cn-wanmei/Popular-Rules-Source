@@ -1,0 +1,9 @@
+# Self-built candidate rule asset
+# service_id: 37games
+# provider: 37games
+# evidence_mode: official_web
+# status: CANDIDATE
+# Official entry verified for 2026-09-27 completion wave.
+# Production requires immutable Source release + Collection exact binding.
+DOMAIN,37.com
+DOMAIN,www.37.com

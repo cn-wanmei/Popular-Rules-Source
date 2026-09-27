@@ -5639,3 +5639,484 @@ services:
     boundary:
       shared_infrastructure_allowed: false
     batch_tag: D1-child
+  alipay:
+    display_name: Alipay
+    ecosystem: alibaba
+    official_sources:
+    - https://www.alipay.com/
+    allowed_host_exact:
+    - www.alipay.com
+    - alipay.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: subtree-wave
+  fliggy:
+    display_name: Fliggy
+    ecosystem: alibaba
+    official_sources:
+    - https://www.fliggy.com/
+    allowed_host_exact:
+    - www.fliggy.com
+    - fliggy.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: subtree-wave
+  aliexpress:
+    display_name: AliExpress
+    ecosystem: alibaba
+    official_sources:
+    - https://www.aliexpress.com/
+    allowed_host_exact:
+    - www.aliexpress.com
+    - aliexpress.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: subtree-wave
+  lazada:
+    display_name: Lazada
+    ecosystem: alibaba
+    official_sources:
+    - https://www.lazada.com/
+    allowed_host_exact:
+    - www.lazada.com
+    - lazada.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: subtree-wave
+  xianyu:
+    display_name: Xianyu
+    ecosystem: alibaba
+    official_sources:
+    - https://www.goofish.com/
+    allowed_host_exact:
+    - www.goofish.com
+    - goofish.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: subtree-wave
+  amap:
+    display_name: Amap
+    ecosystem: alibaba
+    official_sources:
+    - https://www.amap.com/
+    allowed_host_exact:
+    - www.amap.com
+    - amap.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: subtree-wave
+  eleme:
+    display_name: Ele.me
+    ecosystem: alibaba
+    official_sources:
+    - https://www.ele.me/
+    allowed_host_exact:
+    - www.ele.me
+    - ele.me
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: subtree-wave
+  youku:
+    display_name: Youku
+    ecosystem: alibaba
+    official_sources:
+    - https://www.youku.com/
+    allowed_host_exact:
+    - www.youku.com
+    - youku.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: subtree-wave
+  sharepoint:
+    display_name: SharePoint
+    ecosystem: microsoft
+    official_sources:
+    - https://www.microsoft.com/microsoft-365/sharepoint/collaboration
+    allowed_host_exact:
+    - www.sharepoint.com
+    - sharepoint.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: subtree-wave
+  powerbi:
+    display_name: Power BI
+    ecosystem: microsoft
+    official_sources:
+    - https://powerbi.microsoft.com/
+    allowed_host_exact:
+    - powerbi.microsoft.com
+    - app.powerbi.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: subtree-wave
+  linkedin:
+    display_name: LinkedIn
+    ecosystem: microsoft
+    official_sources:
+    - https://www.linkedin.com/
+    allowed_host_exact:
+    - www.linkedin.com
+    - linkedin.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: subtree-wave
+  tencentdocs:
+    display_name: Tencent Docs
+    ecosystem: tencent
+    official_sources:
+    - https://docs.qq.com/
+    allowed_host_exact:
+    - docs.qq.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: subtree-wave
+  qqbrowser:
+    display_name: QQ Browser
+    ecosystem: tencent
+    official_sources:
+    - https://browser.qq.com/
+    allowed_host_exact:
+    - browser.qq.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: subtree-wave
+  wetv:
+    display_name: WeTV
+    ecosystem: tencent
+    official_sources:
+    - https://wetv.vip/
+    allowed_host_exact:
+    - wetv.vip
+    - www.wetv.vip
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: subtree-wave
+  toutiao:
+    display_name: Toutiao
+    ecosystem: bytedance
+    official_sources:
+    - https://www.toutiao.com/
+    allowed_host_exact:
+    - www.toutiao.com
+    - toutiao.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: subtree-wave
+  xigua:
+    display_name: Xigua Video
+    ecosystem: bytedance
+    official_sources:
+    - https://www.ixigua.com/
+    allowed_host_exact:
+    - www.ixigua.com
+    - ixigua.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: subtree-wave
+  jianying:
+    display_name: Jianying
+    ecosystem: bytedance
+    official_sources:
+    - https://www.capcut.cn/
+    allowed_host_exact:
+    - www.capcut.cn
+    - capcut.cn
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: subtree-wave
+  shiji:
+    display_name: Shiji Huatong
+    ecosystem: shiji
+    official_sources:
+    - https://www.sjht.com/
+    allowed_host_exact:
+    - www.sjht.com
+    - sjht.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: subtree-wave
+  37games:
+    display_name: 37 Games
+    ecosystem: 37games
+    official_sources:
+    - https://www.37.com/
+    allowed_host_exact:
+    - www.37.com
+    - 37.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: subtree-wave
+  wanmei:
+    display_name: Perfect World
+    ecosystem: wanmei
+    official_sources:
+    - https://www.wanmei.com/
+    allowed_host_exact:
+    - www.wanmei.com
+    - wanmei.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: subtree-wave
+  arista:
+    display_name: Arista
+    ecosystem: arista
+    official_sources:
+    - https://www.arista.com/
+    allowed_host_exact:
+    - www.arista.com
+    - arista.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: subtree-wave
+  supermicro:
+    display_name: Supermicro
+    ecosystem: supermicro
+    official_sources:
+    - https://www.supermicro.com/
+    allowed_host_exact:
+    - www.supermicro.com
+    - supermicro.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: subtree-wave
+  boss:
+    display_name: BOSS Zhipin
+    ecosystem: zhipin
+    official_sources:
+    - https://www.zhipin.com/
+    allowed_host_exact:
+    - www.zhipin.com
+    - zhipin.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
+    batch_tag: subtree-wave
