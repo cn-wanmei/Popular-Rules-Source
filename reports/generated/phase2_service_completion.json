@@ -7,8 +7,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": true,
-      "release_digest": "422fd2fa85d94c1fff07e5fb85619abb3399e4e3644dfbb3142623f6e608ff09",
-      "snapshot_id": "snap-1688-422fd2fa85d94c1fff07e5fb",
+      "release_digest": "222302f3a20ecb7c08c72ed09a2942e0ae41aa83c1a0086b47ddd9c0679ac776",
+      "snapshot_id": "snap-1688-222302f3a20ecb7c08c72ed0",
       "verified": true
     },
     "adobe-firefly": {
@@ -309,8 +309,8 @@
       "domain_count": 1,
       "enabled": true,
       "production_activated": true,
-      "release_digest": "f61cf371412640bca173e616f401a92a93b8cfc7edcbeab034f5ff3fab1f2c0a",
-      "snapshot_id": "snap-cainiao-f61cf371412640bca173e616",
+      "release_digest": "a8a898392298ebaa644a783ed30f4f5dc994c4245e175974ad71a3552b9293d8",
+      "snapshot_id": "snap-cainiao-a8a898392298ebaa644a783e",
       "verified": true
     },
     "chatgpt": {
@@ -415,8 +415,8 @@
       "domain_count": 4,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "f4fa44632a4d5026cd3e83fa6e70f85446a02ea813250799ac05bffe37b0b3e8",
-      "snapshot_id": "snap-doubao-f4fa44632a4d5026cd3e83fa",
+      "release_digest": "5396a151dcae37583b6bd5894ac59361d3946fd1556aa1aa96f3b6cd85c9c80c",
+      "snapshot_id": "snap-doubao-5396a151dcae37583b6bd589",
       "verified": true
     },
     "douyin": {
@@ -467,8 +467,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "6b3ba092147f50fbd4bed567bc5a4adf0b44d28ed8e69851745b72038666eff8",
-      "snapshot_id": "snap-firebase-6b3ba092147f50fbd4bed567",
+      "release_digest": "7161fac5d50d09fc4a2605be5e66642e5b73984dfb92bb3006eabac113781aca",
+      "snapshot_id": "snap-firebase-7161fac5d50d09fc4a2605be",
       "verified": true
     },
     "gemini": {
@@ -697,8 +697,8 @@
       "domain_count": 5,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "427b9f7b769fcaa07266b7654915eebbdf24ee5fae33b479c59ca0bb78c45249",
-      "snapshot_id": "snap-googlecloud-427b9f7b769fcaa07266b765",
+      "release_digest": "b6d12a6bdc42f9c4ae1d0b741f5ea4752ae4eaff8f3256240430b1147cee8573",
+      "snapshot_id": "snap-googlecloud-b6d12a6bdc42f9c4ae1d0b74",
       "verified": true
     },
     "googledrive": {
@@ -727,8 +727,8 @@
       "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "c073c7adcd8f0db5ebe9a92af7b84d77505c173aa305b96f9edabe50bd68fcb8",
-      "snapshot_id": "snap-groq-c073c7adcd8f0db5ebe9a92a",
+      "release_digest": "3f8b97712755dd76acdc77ab438a7288bf1f679257e571e62e195a0f4ec267fc",
+      "snapshot_id": "snap-groq-3f8b97712755dd76acdc77ab",
       "verified": true
     },
     "honor": {
@@ -791,8 +791,8 @@
       "domain_count": 3,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "c41977bf6c8dade8b423273a5458334309cc33735237c1030fa6260c640d6183",
-      "snapshot_id": "snap-huggingface-c41977bf6c8dade8b423273a",
+      "release_digest": "226053190707e71c9f66141c47f53a825e212b268fd3c265026af70f3cd151d6",
+      "snapshot_id": "snap-huggingface-226053190707e71c9f66141c",
       "verified": true
     },
     "ibm": {
@@ -1064,16 +1064,14 @@
       "verified": false
     },
     "office": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "16c488c0914d5700609214599fed8ecf213a037235064a03bf0c4a9acfc760f1",
+      "snapshot_id": "snap-office-16c488c0914d570060921459",
+      "verified": true
     },
     "onedrive": {
       "blockers": [],
@@ -1116,16 +1114,14 @@
       "verified": true
     },
     "outlook": {
-      "blockers": [
-        "no_snapshot"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 4,
       "enabled": true,
       "production_activated": false,
-      "release_digest": null,
-      "snapshot_id": null,
-      "verified": false
+      "release_digest": "5b6d555db235bd3f501eae1490bce9836e5b2453471ec1dbe64e6686b88b6037",
+      "snapshot_id": "snap-outlook-5b6d555db235bd3f501eae14",
+      "verified": true
     },
     "perplexity": {
       "blockers": [],
@@ -1287,8 +1283,8 @@
       "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "58ade2088a05fcf2696302927099d9975d5d422c4d4a59750a83fe197ca6c45e",
-      "snapshot_id": "snap-taobao-58ade2088a05fcf269630292",
+      "release_digest": "834d549e8982036ce1438963983527791e70997603616758bac4fb8f7c29d38b",
+      "snapshot_id": "snap-taobao-834d549e8982036ce1438963",
       "verified": false
     },
     "teams": {
@@ -1317,8 +1313,8 @@
       "domain_count": 1,
       "enabled": true,
       "production_activated": true,
-      "release_digest": "0e31d3df9cd9ef4e838d6df0e6c928a8f44163b7891e3e8df5b840d34171acc2",
-      "snapshot_id": "snap-tencentcloud-0e31d3df9cd9ef4e838d6df0",
+      "release_digest": "e55bc8c508e839813ae20cd04f7af034fd4b76745c5ee1efc49b14b3ca57a7b8",
+      "snapshot_id": "snap-tencentcloud-e55bc8c508e839813ae20cd0",
       "verified": true
     },
     "tencentmeeting": {
@@ -1379,8 +1375,8 @@
       "domain_count": 8,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "dbc1f7c1bea02277c9f1d8884d79171381588d42e21e3335ec15b50a8d4f37fd",
-      "snapshot_id": "snap-tmall-dbc1f7c1bea02277c9f1d888",
+      "release_digest": "17de7049e2f7bf67cb88c7859d6d071375e89173e148cbceee484925843f8a90",
+      "snapshot_id": "snap-tmall-17de7049e2f7bf67cb88c785",
       "verified": true
     },
     "venmo": {
@@ -1409,8 +1405,8 @@
       "domain_count": 3,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "e9d310fac301c9effcb2b9ffb539346361cc1fb78dfee9299ce39d6e8c750f8e",
-      "snapshot_id": "snap-wecom-e9d310fac301c9effcb2b9ff",
+      "release_digest": "019997bd4957a3511ce1304bf965575ac063a47364c37283ecb5302335476153",
+      "snapshot_id": "snap-wecom-019997bd4957a3511ce1304b",
       "verified": true
     },
     "wps": {
