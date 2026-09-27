@@ -1,0 +1,9 @@
+# Self-built candidate rule asset
+# service_id: samsung
+# provider: samsung
+# evidence_mode: official_web
+# status: CANDIDATE
+# Official entry verified for 2026-09-27 completion wave (P1/O1).
+# Production requires immutable Source release + Collection exact binding.
+DOMAIN,samsung.com
+DOMAIN,www.samsung.com

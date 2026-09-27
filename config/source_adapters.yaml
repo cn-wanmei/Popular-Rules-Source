@@ -210,3 +210,12 @@ services:
   huawei-appgallery: {adapters: [self_built]}
   kuaishou: {adapters: [self_built]}
   kuaishou-open: {adapters: [self_built]}
+  lenovo: {adapters: [self_built]}
+  zte: {adapters: [self_built]}
+  byd: {adapters: [self_built]}
+  honor: {adapters: [self_built]}
+  qihoo360: {adapters: [self_built]}
+  nvidia: {adapters: [self_built]}
+  samsung: {adapters: [self_built]}
+  tesla: {adapters: [self_built]}
+  intel: {adapters: [self_built]}

@@ -1,0 +1,18 @@
+version: 1
+schema: p1_o1_self_built_official_wave_v1
+baseline: 2026-09-27
+evidence_status: verified_official_entry_candidate
+production_policy:
+  candidate_is_not_production: true
+  official_evidence_required: true
+  immutable_release_required: true
+services:
+  lenovo: {provider: lenovo, official_source: "https://www.lenovo.com/", exact: [www.lenovo.com, lenovo.com], phase: P1}
+  zte: {provider: zte, official_source: "https://www.zte.com.cn/", exact: [www.zte.com.cn, zte.com.cn], phase: P1}
+  byd: {provider: byd, official_source: "https://www.byd.com/", exact: [www.byd.com, byd.com], phase: P1}
+  honor: {provider: honor, official_source: "https://www.honor.com/", exact: [www.honor.com, honor.com], phase: P1}
+  qihoo360: {provider: qihoo360, official_source: "https://www.360.cn/", exact: [www.360.cn, 360.cn], phase: P1}
+  nvidia: {provider: nvidia, official_source: "https://www.nvidia.com/", exact: [www.nvidia.com, nvidia.com, developer.nvidia.com], phase: O1}
+  samsung: {provider: samsung, official_source: "https://www.samsung.com/", exact: [www.samsung.com, samsung.com], phase: O1}
+  tesla: {provider: tesla, official_source: "https://www.tesla.com/", exact: [www.tesla.com, tesla.com], phase: O1}
+  intel: {provider: intel, official_source: "https://www.intel.com/", exact: [www.intel.com, intel.com], phase: O1}
