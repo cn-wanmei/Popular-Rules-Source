@@ -1671,3 +1671,387 @@ services:
     - www.epicgames.com
     upstream_binding: null
     current_state: review
+  broadcom:
+    display_name: Broadcom
+    ecosystem: broadcom
+    mode: official_web
+    official_sources:
+    - https://www.broadcom.com/
+    allowed_host_exact:
+    - www.broadcom.com
+    - broadcom.com
+    upstream_binding: null
+    current_state: review
+  asml:
+    display_name: ASML
+    ecosystem: asml
+    mode: official_web
+    official_sources:
+    - https://www.asml.com/
+    allowed_host_exact:
+    - www.asml.com
+    - asml.com
+    upstream_binding: null
+    current_state: review
+  micron:
+    display_name: Micron
+    ecosystem: micron
+    mode: official_web
+    official_sources:
+    - https://www.micron.com/
+    allowed_host_exact:
+    - www.micron.com
+    - micron.com
+    upstream_binding: null
+    current_state: review
+  skhynix:
+    display_name: SK hynix
+    ecosystem: skhynix
+    mode: official_web
+    official_sources:
+    - https://www.skhynix.com/
+    allowed_host_exact:
+    - www.skhynix.com
+    - skhynix.com
+    upstream_binding: null
+    current_state: review
+  ti:
+    display_name: Texas Instruments
+    ecosystem: ti
+    mode: official_web
+    official_sources:
+    - https://www.ti.com/
+    allowed_host_exact:
+    - www.ti.com
+    - ti.com
+    upstream_binding: null
+    current_state: review
+  siemens:
+    display_name: Siemens
+    ecosystem: siemens
+    mode: official_web
+    official_sources:
+    - https://www.siemens.com/
+    allowed_host_exact:
+    - www.siemens.com
+    - siemens.com
+    upstream_binding: null
+    current_state: review
+  schneider:
+    display_name: Schneider Electric
+    ecosystem: schneider
+    mode: official_web
+    official_sources:
+    - https://www.se.com/
+    allowed_host_exact:
+    - www.se.com
+    - se.com
+    upstream_binding: null
+    current_state: review
+  dell:
+    display_name: Dell
+    ecosystem: dell
+    mode: official_web
+    official_sources:
+    - https://www.dell.com/
+    allowed_host_exact:
+    - www.dell.com
+    - dell.com
+    upstream_binding: null
+    current_state: review
+  paloalto:
+    display_name: Palo Alto Networks
+    ecosystem: paloalto
+    mode: official_web
+    official_sources:
+    - https://www.paloaltonetworks.com/
+    allowed_host_exact:
+    - www.paloaltonetworks.com
+    - paloaltonetworks.com
+    upstream_binding: null
+    current_state: review
+  synopsys:
+    display_name: Synopsys
+    ecosystem: synopsys
+    mode: official_web
+    official_sources:
+    - https://www.synopsys.com/
+    allowed_host_exact:
+    - www.synopsys.com
+    - synopsys.com
+    upstream_binding: null
+    current_state: review
+  cadence:
+    display_name: Cadence
+    ecosystem: cadence
+    mode: official_web
+    official_sources:
+    - https://www.cadence.com/
+    allowed_host_exact:
+    - www.cadence.com
+    - cadence.com
+    upstream_binding: null
+    current_state: review
+  lamresearch:
+    display_name: Lam Research
+    ecosystem: lamresearch
+    mode: official_web
+    official_sources:
+    - https://www.lamresearch.com/
+    allowed_host_exact:
+    - www.lamresearch.com
+    - lamresearch.com
+    upstream_binding: null
+    current_state: review
+  kla:
+    display_name: KLA
+    ecosystem: kla
+    mode: official_web
+    official_sources:
+    - https://www.kla.com/
+    allowed_host_exact:
+    - www.kla.com
+    - kla.com
+    upstream_binding: null
+    current_state: review
+  hitachi:
+    display_name: Hitachi
+    ecosystem: hitachi
+    mode: official_web
+    official_sources:
+    - https://www.hitachi.com/
+    allowed_host_exact:
+    - www.hitachi.com
+    - hitachi.com
+    upstream_binding: null
+    current_state: review
+  fujitsu:
+    display_name: Fujitsu
+    ecosystem: fujitsu
+    mode: official_web
+    official_sources:
+    - https://www.fujitsu.com/
+    allowed_host_exact:
+    - www.fujitsu.com
+    - fujitsu.com
+    upstream_binding: null
+    current_state: review
+  nec:
+    display_name: NEC
+    ecosystem: nec
+    mode: official_web
+    official_sources:
+    - https://www.nec.com/
+    allowed_host_exact:
+    - www.nec.com
+    - nec.com
+    upstream_binding: null
+    current_state: review
+  mercadolibre:
+    display_name: Mercado Libre
+    ecosystem: mercadolibre
+    mode: official_web
+    official_sources:
+    - https://www.mercadolibre.com/
+    allowed_host_exact:
+    - www.mercadolibre.com
+    - mercadolibre.com
+    upstream_binding: null
+    current_state: review
+  hpe:
+    display_name: HPE
+    ecosystem: hpe
+    mode: official_web
+    official_sources:
+    - https://www.hpe.com/
+    allowed_host_exact:
+    - www.hpe.com
+    - hpe.com
+    upstream_binding: null
+    current_state: review
+  netapp:
+    display_name: NetApp
+    ecosystem: netapp
+    mode: official_web
+    official_sources:
+    - https://www.netapp.com/
+    allowed_host_exact:
+    - www.netapp.com
+    - netapp.com
+    upstream_binding: null
+    current_state: review
+  equinix:
+    display_name: Equinix
+    ecosystem: equinix
+    mode: official_web
+    official_sources:
+    - https://www.equinix.com/
+    allowed_host_exact:
+    - www.equinix.com
+    - equinix.com
+    upstream_binding: null
+    current_state: review
+  dassault:
+    display_name: Dassault Systèmes
+    ecosystem: dassault
+    mode: official_web
+    official_sources:
+    - https://www.3ds.com/
+    allowed_host_exact:
+    - www.3ds.com
+    - 3ds.com
+    upstream_binding: null
+    current_state: review
+  block:
+    display_name: Block
+    ecosystem: block
+    mode: official_web
+    official_sources:
+    - https://block.xyz/
+    allowed_host_exact:
+    - block.xyz
+    - www.block.xyz
+    upstream_binding: null
+    current_state: review
+  take2:
+    display_name: Take-Two
+    ecosystem: take2
+    mode: official_web
+    official_sources:
+    - https://www.take2games.com/
+    allowed_host_exact:
+    - www.take2games.com
+    - take2games.com
+    upstream_binding: null
+    current_state: review
+  globalfoundries:
+    display_name: GlobalFoundries
+    ecosystem: globalfoundries
+    mode: official_web
+    official_sources:
+    - https://gf.com/
+    allowed_host_exact:
+    - gf.com
+    - www.gf.com
+    upstream_binding: null
+    current_state: review
+  umc:
+    display_name: UMC
+    ecosystem: umc
+    mode: official_web
+    official_sources:
+    - https://www.umc.com/
+    allowed_host_exact:
+    - www.umc.com
+    - umc.com
+    upstream_binding: null
+    current_state: review
+  pingan:
+    display_name: 平安科技
+    ecosystem: pingan
+    mode: official_web
+    official_sources:
+    - https://tech.pingan.com/
+    allowed_host_exact:
+    - tech.pingan.com
+    - pingan.com
+    upstream_binding: null
+    current_state: review
+  lufax:
+    display_name: 陆金所
+    ecosystem: lufax
+    mode: official_web
+    official_sources:
+    - https://www.lu.com/
+    allowed_host_exact:
+    - www.lu.com
+    - lu.com
+    upstream_binding: null
+    current_state: review
+  atour:
+    display_name: 亚朵
+    ecosystem: atour
+    mode: official_web
+    official_sources:
+    - https://www.yaduo.com/
+    allowed_host_exact:
+    - www.yaduo.com
+    - yaduo.com
+    upstream_binding: null
+    current_state: review
+  transsion:
+    display_name: 传音
+    ecosystem: transsion
+    mode: official_web
+    official_sources:
+    - https://www.transsion.com/
+    allowed_host_exact:
+    - www.transsion.com
+    - transsion.com
+    upstream_binding: null
+    current_state: review
+  roborock:
+    display_name: 石头科技
+    ecosystem: roborock
+    mode: official_web
+    official_sources:
+    - https://www.roborock.com/
+    allowed_host_exact:
+    - www.roborock.com
+    - roborock.com
+    upstream_binding: null
+    current_state: review
+  dreame:
+    display_name: 追觅
+    ecosystem: dreame
+    mode: official_web
+    official_sources:
+    - https://www.dreametech.com/
+    allowed_host_exact:
+    - www.dreametech.com
+    - dreametech.com
+    upstream_binding: null
+    current_state: review
+  xgimi:
+    display_name: 极米
+    ecosystem: xgimi
+    mode: official_web
+    official_sources:
+    - https://www.xgimi.com/
+    allowed_host_exact:
+    - www.xgimi.com
+    - xgimi.com
+    upstream_binding: null
+    current_state: review
+  internlm:
+    display_name: 书生InternLM
+    ecosystem: internlm
+    mode: official_web
+    official_sources:
+    - https://internlm.intern-ai.org.cn/
+    allowed_host_exact:
+    - internlm.intern-ai.org.cn
+    upstream_binding: null
+    current_state: review
+  birentech:
+    display_name: 壁仞科技
+    ecosystem: birentech
+    mode: official_web
+    official_sources:
+    - https://www.birentech.com/
+    allowed_host_exact:
+    - www.birentech.com
+    - birentech.com
+    upstream_binding: null
+    current_state: review
+  kunlunxin:
+    display_name: 昆仑芯
+    ecosystem: kunlunxin
+    mode: official_web
+    official_sources:
+    - https://www.kunlunxin.com/
+    allowed_host_exact:
+    - www.kunlunxin.com
+    - kunlunxin.com
+    upstream_binding: null
+    current_state: review
