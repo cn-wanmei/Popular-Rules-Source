@@ -1,0 +1,4 @@
+# service_id: getapps
+# parent_ecosystem: xiaomi
+# status: CANDIDATE
+DOMAIN,global.app.mi.com
