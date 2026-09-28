@@ -31,7 +31,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        service: [baidu, baidu-zhidao, baidumaps, baiduwenku, birentech, block, broadcom, cadence, cambricon, caocao, coupang, dahua, dassault, dell, dreame, ea, epicgames, equinix, ericsson, fortinet, fujitsu, getapps, globalfoundries, grab, hellobike, hitachi, honorofkings_cn, honorofkings_global, hpe, huawei-appgallery, hubspot, huolala, internlm, intuit, jdcloud, kakao, kla, kuaishou, kuaishou-open, kunlunxin, lamresearch, lg, linecorp, lufax, manbang]
+        service: [mediatek, mercadolibre, micron, mihome, nec, netapp, netflix, nintendo, nokia, paloalto, panasonic, perfectworld, pingan, qqdoc, rakuten, roborock, schneider, sensetime, servicenow, shopee, siemens, skhynix, starlink, synopsys, t3go, take2, ti, tongcheng, tonghuashun, transsion, tuya, umc, unity, wangsu, wegame, workday, woyun, wuba, xgimi, yi, zhaopin]
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
@@ -139,7 +139,7 @@ jobs:
 
           root = Path.cwd()
           artifact_root = root / "durable-artifacts"
-          services = ["baidu", "baidu-zhidao", "baidumaps", "baiduwenku", "birentech", "block", "broadcom", "cadence", "cambricon", "caocao", "coupang", "dahua", "dassault", "dell", "dreame", "ea", "epicgames", "equinix", "ericsson", "fortinet", "fujitsu", "getapps", "globalfoundries", "grab", "hellobike", "hitachi", "honorofkings_cn", "honorofkings_global", "hpe", "huawei-appgallery", "hubspot", "huolala", "internlm", "intuit", "jdcloud", "kakao", "kla", "kuaishou", "kuaishou-open", "kunlunxin", "lamresearch", "lg", "linecorp", "lufax", "manbang"]
+          services = ["mediatek", "mercadolibre", "micron", "mihome", "nec", "netapp", "netflix", "nintendo", "nokia", "paloalto", "panasonic", "perfectworld", "pingan", "qqdoc", "rakuten", "roborock", "schneider", "sensetime", "servicenow", "shopee", "siemens", "skhynix", "starlink", "synopsys", "t3go", "take2", "ti", "tongcheng", "tonghuashun", "transsion", "tuya", "umc", "unity", "wangsu", "wegame", "workday", "woyun", "wuba", "xgimi", "yi", "zhaopin"]
           report = {"schema": "popular_rules_source_durable_bridge_v2", "created_at": datetime.now(timezone.utc).isoformat(), "verified_input_commit": "${{ github.sha }}", "services": {}}
 
           for service in services:
