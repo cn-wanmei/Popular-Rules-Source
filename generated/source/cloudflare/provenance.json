@@ -1,0 +1,77 @@
+{
+  "assets": [],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "802dd0d1fba2359e5c12d371091092f65e038eab1aa6f7fff2de931b91190d8d",
+  "created_at": "2026-09-28T08:48:16.979133+00:00",
+  "domain_count": 0,
+  "domain_diff": {
+    "added": [],
+    "added_count": 0,
+    "current_count": 0,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "7af0fdc4dfaa7beb8807b1d367a472dbe62c3d558c65eb0ee201f3925bcaaa41",
+      "domains_extracted": 2,
+      "evidence_id": "EV-cloudflare-001-7af0fdc4dfaa",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.cloudflare.com/",
+      "retrieved_at": "1790585215994022866",
+      "service_id": "cloudflare",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.cloudflare.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "7a95a88d8be44cdf32285490690cbd3d4603e886d540c2069d82f0a2f463fcd3",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "420b082aad6d08e331076396ce012fb9bd8d9fafa9727be617af6f2f241148f8",
+  "previous_domain_count": 0,
+  "release_digest": "555bdee15be080f1890b9e423155df05f3d308530d8826a9bd5e512194a89cb5",
+  "release_identity_version": "2",
+  "release_reasons": [
+    "empty_domain_output"
+  ],
+  "release_state": "BLOCKED",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "3f1154e1c288be218a2883c0c9e3d2a96da780f8d351d66c45f762e08b484803",
+  "service_id": "cloudflare",
+  "snapshot_content_sha256": "802dd0d1fba2359e5c12d371091092f65e038eab1aa6f7fff2de931b91190d8d",
+  "snapshot_id": "snap-cloudflare-555bdee15be080f1890b9e42",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.cloudflare.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

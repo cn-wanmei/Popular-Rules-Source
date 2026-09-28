@@ -1,0 +1,10 @@
+{
+  "content_digest": "802dd0d1fba2359e5c12d371091092f65e038eab1aa6f7fff2de931b91190d8d",
+  "domains": [],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "cloudflare",
+  "source_hashes": [
+    "7af0fdc4dfaa7beb8807b1d367a472dbe62c3d558c65eb0ee201f3925bcaaa41"
+  ]
+}
