@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:93552cd46926eb2428b67b2d19c84f4e38daebd102cf3e162e24c30093ccfbeb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-zhaopin-001-19dedc00e289"
+      ],
+      "service_id": "zhaopin",
+      "type": "domain",
+      "value": "www.zhaopin.com"
+    },
+    {
+      "asset_id": "sha256:16699d327652bbff18f1f05f61a0c3c8e2a47264aefbd8e3d1fb75c6a1a3a872",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-zhaopin-001-19dedc00e289"
+      ],
+      "service_id": "zhaopin",
+      "type": "domain",
+      "value": "zhaopin.com"
+    }
+  ],
+  "content_digest": "41c9a457cdea8305e3b75fb6017bd6f6896d88c788b2b56c9e76344258e8d8d5",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "19dedc00e2894bb638565c04440260eb2bca3ba24320165e0f09de37d988ce67",
+      "domains_extracted": 2,
+      "evidence_id": "EV-zhaopin-001-19dedc00e289",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.zhaopin.com/",
+      "retrieved_at": "1790557379926260240",
+      "service_id": "zhaopin",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.zhaopin.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "8afde83b17b6401e5311b34ef45cacbd26d6a1e2ad8943288bb44fac14cab555",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "9142cda94c78f28d88d78588de72b9316b3e9b5df000e272610a560a9ac68c90",
+  "release_digest": "2459988d6c7729cae68826d08a878041e7239ed1c30f4de9e89aaec6036b4d45",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "zhaopin",
+  "snapshot_id": "snap-zhaopin-2459988d6c7729cae68826d0",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

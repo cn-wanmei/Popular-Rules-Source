@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:76495fe72b63e07f3442ae6776f1e76674373b98e2018cccc448a4463d807a05",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-nec-001-455d5e58cd7d"
+      ],
+      "service_id": "nec",
+      "type": "domain",
+      "value": "nec.com"
+    },
+    {
+      "asset_id": "sha256:44002c42cba25a67ad57a485428b190bef3161e33b2163f78873b4c3a9c7c1d0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-nec-001-455d5e58cd7d"
+      ],
+      "service_id": "nec",
+      "type": "domain",
+      "value": "www.nec.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "7255f325e0bfa345c034cc71c8ebce0de96f4d562406db77de53e6304f38b5aa",
+  "created_at": "2026-09-28T01:04:05.480908+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "nec.com",
+      "www.nec.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "nec.com",
+    "www.nec.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "455d5e58cd7d057a8784da801633dfdcb979977b8100e80faea3bbc76c2ee02e",
+      "domains_extracted": 2,
+      "evidence_id": "EV-nec-001-455d5e58cd7d",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.nec.com/",
+      "retrieved_at": "1790557376673646133",
+      "service_id": "nec",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.nec.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "ef3d5fc0431b43c61c1cf4513972d0c8991b67d4e28b44ffaf3ef98d6e14a2cb",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "82308bd4ddd11812276fbd60904c1ad6c0f5d2704e25ad02aca441a92f519dcc",
+  "previous_domain_count": 0,
+  "release_digest": "f169c670ad5d484535541e84bdd72579470a12dec0f7be3323c42f7ccf91ed53",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "81049d7395b096fdc662dc4c0a21df1da57b99a90da38d81027da283622a5bdd",
+  "service_id": "nec",
+  "snapshot_content_sha256": "7255f325e0bfa345c034cc71c8ebce0de96f4d562406db77de53e6304f38b5aa",
+  "snapshot_id": "snap-nec-f169c670ad5d484535541e84",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.nec.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

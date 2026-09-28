@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:dabb6a5bfc851e03897c93d97ff0ecd4ab2994a1cd5ec12537a85e36329d6b53",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-pingan-001-6fe9cbb6268a"
+      ],
+      "service_id": "pingan",
+      "type": "domain",
+      "value": "pingan.com"
+    },
+    {
+      "asset_id": "sha256:4ff4ec0018eb18d04b23506f012a7d839eb7033e909e65b4d5b978357947280d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-pingan-001-6fe9cbb6268a"
+      ],
+      "service_id": "pingan",
+      "type": "domain",
+      "value": "tech.pingan.com"
+    }
+  ],
+  "content_digest": "4580663a98977a70eb976abe9a155b51358b590bb1b826d9fe2303ecfacc29b8",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "6fe9cbb6268a4c06ee3e41758d024f629ac63e84b7b11a22a50520c48c1a57ec",
+      "domains_extracted": 2,
+      "evidence_id": "EV-pingan-001-6fe9cbb6268a",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://tech.pingan.com/",
+      "retrieved_at": "1790557199054797689",
+      "service_id": "pingan",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://tech.pingan.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "6e24fc79d77b288593918eccd0c5fbbe6535771ffa11b5a21a496725ff047c47",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "c80db22cc5849adc3d04ce9a6b9844835bc58cabc2397ba03841381c11d04702",
+  "release_digest": "2dcbbc6369fb1b3faff8522ecc70cd4767769d345b880b6b7d13db1ff8fcc98f",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "pingan",
+  "snapshot_id": "snap-pingan-2dcbbc6369fb1b3faff8522e",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

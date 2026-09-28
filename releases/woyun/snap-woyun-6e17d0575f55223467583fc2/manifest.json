@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:4afba6526c70b95d7d463aac1c127c5a87cabd37c891a81d873500bc48819f7f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-woyun-001-49c4bcf2bd76"
+      ],
+      "service_id": "woyun",
+      "type": "domain",
+      "value": "cucloud.cn"
+    },
+    {
+      "asset_id": "sha256:5eb37783a4bc4a84d311e33eaba8bf9e819868a3ca1eaf1364cc7810ef97be86",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-woyun-001-49c4bcf2bd76"
+      ],
+      "service_id": "woyun",
+      "type": "domain",
+      "value": "www.cucloud.cn"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "41c4263e2696b7bb563993795606f7c4b07b923d21c6a30feb7e11f43858f642",
+  "created_at": "2026-09-28T01:04:55.913204+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "cucloud.cn",
+      "www.cucloud.cn"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "cucloud.cn",
+    "www.cucloud.cn"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "49c4bcf2bd76cdf719df291b97656ae805a8f3163bd9566275a236153b196238",
+      "domains_extracted": 2,
+      "evidence_id": "EV-woyun-001-49c4bcf2bd76",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.cucloud.cn/",
+      "retrieved_at": "1790557425468925975",
+      "service_id": "woyun",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.cucloud.cn/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "a6ca916e950f86b578078124abc5c2b24d9df2b3ada956551b5d04db315accd6",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "7dceb19c5242b6e149dcb936f6f452e9e7e4051d0b55ce123817411859e9d692",
+  "previous_domain_count": 0,
+  "release_digest": "6e17d0575f55223467583fc266e42b641470d39c894e8f8164e34c056c4094d8",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "7d5ba9497bb87d1173634f215b1a23134f79fc3fd880251e3d3b035505128db3",
+  "service_id": "woyun",
+  "snapshot_content_sha256": "41c4263e2696b7bb563993795606f7c4b07b923d21c6a30feb7e11f43858f642",
+  "snapshot_id": "snap-woyun-6e17d0575f55223467583fc2",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.cucloud.cn/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

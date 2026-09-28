@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:141133a90d0779b9967a8dc595ea1ddb101eb1a434f86afb6926482159b5310f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-shopee-001-54eec27f433d"
+      ],
+      "service_id": "shopee",
+      "type": "domain",
+      "value": "shopee.com"
+    },
+    {
+      "asset_id": "sha256:5333ed68bd112d544a1954c1e2a43b7c5dc253fa68aa530542cda9691b5a84d1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-shopee-001-54eec27f433d"
+      ],
+      "service_id": "shopee",
+      "type": "domain",
+      "value": "www.shopee.com"
+    }
+  ],
+  "content_digest": "a55a6b4d2fdb4c990c5536060f397235bd05b844f0fbf29dc9c4ec7bcba087fa",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "54eec27f433de343ca1696bdbcc0a71d8a124394596748fa8d8fe2c5981f5950",
+      "domains_extracted": 2,
+      "evidence_id": "EV-shopee-001-54eec27f433d",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://shopee.com/",
+      "retrieved_at": "1790557203357258207",
+      "service_id": "shopee",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://shopee.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "8a87ff5abd1bba20f1d535596a92aeeae78ea44c2cac43aee055fc3134416a8f",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "fd13536480944330fa5bec84788ec60e893ca05868c0c36402364ce94588a47e",
+  "release_digest": "9d2b627864e500861228f164105486b53670f38761034e9d8da219baa116888a",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "shopee",
+  "snapshot_id": "snap-shopee-9d2b627864e500861228f164",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

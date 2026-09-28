@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:7e5c9b8122d4721bf9825d412247b597b9bbe7f01a4ad30f450a89fcd20af55b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wangsu-001-f7f75daff0be"
+      ],
+      "service_id": "wangsu",
+      "type": "domain",
+      "value": "wangsu.com"
+    },
+    {
+      "asset_id": "sha256:247d897097f6ca9d9c86f6e109712facb9aa5a7422efaa4bea79e837367ab09c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wangsu-001-f7f75daff0be"
+      ],
+      "service_id": "wangsu",
+      "type": "domain",
+      "value": "www.wangsu.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "76a9cfb4b33985af0d9f500d85e93dbf5ecb33a4ba187cef3bc75b35d535453c",
+  "created_at": "2026-09-28T01:05:09.053825+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "wangsu.com",
+      "www.wangsu.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "wangsu.com",
+    "www.wangsu.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "f7f75daff0bef209488c2a656b463c1135c25c81124f911082fe57825b1dbaea",
+      "domains_extracted": 2,
+      "evidence_id": "EV-wangsu-001-f7f75daff0be",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.wangsu.com/",
+      "retrieved_at": "1790557440431014324",
+      "service_id": "wangsu",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.wangsu.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "91d7eb103537c2101af84f31792bd5c5a2ea3a58b3e554da8de56973e36bdfc8",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "98d28e5ef59899b4f91b1f901be7d58501b1df2259b9716997c5490ce1b816e7",
+  "previous_domain_count": 0,
+  "release_digest": "36acbd26b22f7d205cc839e446c9bfac5650c160050f2bf8796677e722a2b6e1",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "8c46fdcee193dce2234065e24e493d612e637fbf16804d0f12224e89c51758b2",
+  "service_id": "wangsu",
+  "snapshot_content_sha256": "76a9cfb4b33985af0d9f500d85e93dbf5ecb33a4ba187cef3bc75b35d535453c",
+  "snapshot_id": "snap-wangsu-36acbd26b22f7d205cc839e4",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.wangsu.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

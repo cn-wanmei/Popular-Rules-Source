@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "89b583348b9817e22200303ee5d66a1b7cd1b931a248ef5e9d7053962d01c8af",
+    "manifest.json": "2b7d5fd43d0163e0a7b2c221cddff2185072de32392d92ebb358bcaa8c288974",
+    "provenance.json": "fc4b59d31e6b723ce5d3503201825670e00f34aef88dcf885d7c7c5fed1868c6",
+    "snapshot_content.json": "7e703362493061412c3f01b78a72db7a9e305c04d135e8c5bcff3ea7352c24fc"
+  },
+  "content_digest": "16eef142ca66abf5c2a4087fd4003697fde18ab80133081f75916dd8b5a4e28b",
+  "created_at": "2026-09-28T01:01:45.629834+00:00",
+  "evidence_digest": "a0d64ec41b52e253d5afde16865a6fbe7129bd346178bb76598834b2bf0ba8e4",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "9ab0ef531642958969bf85fe5182b28333663d18ee09a4827405e12e20384cc1",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "9b4cbfb954c830ddca6177ebaf57f991e7a5061e6e5934aacbf9e205cee0c52a",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "mercadolibre",
+  "snapshot_id": "snap-mercadolibre-9b4cbfb954c830ddca6177eb",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

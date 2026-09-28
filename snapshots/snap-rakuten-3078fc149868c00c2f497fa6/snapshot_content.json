@@ -1,0 +1,13 @@
+{
+  "content_digest": "2d609ff966aeb7eae95546ec0a53851bec2c7b5325b7d0033ca48b78af0ddf41",
+  "domains": [
+    "rakuten.com",
+    "www.rakuten.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "rakuten",
+  "source_hashes": [
+    "a449a9646e250aa108fd1d639871c27a20fccfa96b148fbcc58ce150cdd60f00"
+  ]
+}

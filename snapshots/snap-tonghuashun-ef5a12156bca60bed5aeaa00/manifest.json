@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:1126df0d513cd1a6d4aef2b4bd1ef8ae130539d590881e2cc59bc04dd646f44e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tonghuashun-001-096cddebe6ce"
+      ],
+      "service_id": "tonghuashun",
+      "type": "domain",
+      "value": "10jqka.com.cn"
+    },
+    {
+      "asset_id": "sha256:9650fe68ce439af16a38b815729ea8dfd6213fc574c10d5f10b6a017f3d5324c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tonghuashun-001-096cddebe6ce"
+      ],
+      "service_id": "tonghuashun",
+      "type": "domain",
+      "value": "www.10jqka.com.cn"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "0ecb0e541d8b438bd6702fc66690734917ea7b389b4154073c032e0901de0c56",
+  "created_at": "2026-09-28T01:04:40.427441+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "10jqka.com.cn",
+      "www.10jqka.com.cn"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "10jqka.com.cn",
+    "www.10jqka.com.cn"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "096cddebe6cee3466db3dd34575a32a831ba980f7ce63d1ad358a03042b158a3",
+      "domains_extracted": 2,
+      "evidence_id": "EV-tonghuashun-001-096cddebe6ce",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.10jqka.com.cn/",
+      "retrieved_at": "1790557434767276383",
+      "service_id": "tonghuashun",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.10jqka.com.cn/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "53af3ef085d858d899f341ceac7731728aef8caafc48cd015034810cb1fb300b",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "be74d0234b1272ba0bacb9d27b61318277fd23c28aa71afefd107a2790719265",
+  "previous_domain_count": 0,
+  "release_digest": "ef5a12156bca60bed5aeaa00e86acd5e72d3cea351c7bea6eeeff97f82b85196",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "3cdb8899fd4273e50a1af11143bc3830cc72d1fbaa3d2dc56294df58505b8a50",
+  "service_id": "tonghuashun",
+  "snapshot_content_sha256": "0ecb0e541d8b438bd6702fc66690734917ea7b389b4154073c032e0901de0c56",
+  "snapshot_id": "snap-tonghuashun-ef5a12156bca60bed5aeaa00",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.10jqka.com.cn/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

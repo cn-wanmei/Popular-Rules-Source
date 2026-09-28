@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:9bab9a8f5c4bfdde564d6ac19413b9ec72bb89435a2e3e3ade846fedf96470c9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-perfectworld-001-0569d25e291b"
+      ],
+      "service_id": "perfectworld",
+      "type": "domain",
+      "value": "wanmei.com"
+    },
+    {
+      "asset_id": "sha256:be5afdbf33981859d786c783eedbe973352159dbb308dd95b8e2b1f38b96f0a0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-perfectworld-001-0569d25e291b"
+      ],
+      "service_id": "perfectworld",
+      "type": "domain",
+      "value": "www.wanmei.com"
+    }
+  ],
+  "content_digest": "2460524f28b8e74a26b9c9045d6f6293040ccb74b139ff5a3ed3db957530472c",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "0569d25e291b9e69d87ffd0ab62c2142853b4fdd08245fe22e864489fe3a6bdd",
+      "domains_extracted": 2,
+      "evidence_id": "EV-perfectworld-001-0569d25e291b",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.wanmei.com/",
+      "retrieved_at": "1790557198097350974",
+      "service_id": "perfectworld",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.wanmei.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "948ae40febfe1d16ce3d8c5e2830b745e0631ac224b2a86bcd0ec180e5b80bec",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "9c498bbdfd01f99b95eb5d903a6b763b351a27091f1133372bfd73967a996463",
+  "release_digest": "eb0720d237073dafc615e47d42cf54cee0d39e7aba05a247259d2e4014d81916",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "perfectworld",
+  "snapshot_id": "snap-perfectworld-eb0720d237073dafc615e47d",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

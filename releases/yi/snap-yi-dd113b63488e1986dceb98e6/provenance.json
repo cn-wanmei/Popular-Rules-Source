@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:c675677252d97bfe96a20f05de2fcc24bd7262a1bda4588f4c2bae2127bf53e1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-yi-001-33529487eaa1"
+      ],
+      "service_id": "yi",
+      "type": "domain",
+      "value": "lingyiwanwu.com"
+    },
+    {
+      "asset_id": "sha256:48eff49347ba80b75dbf72ccd6a057d0e8ed762bf5312714993373ba3753a0f4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-yi-001-33529487eaa1"
+      ],
+      "service_id": "yi",
+      "type": "domain",
+      "value": "www.lingyiwanwu.com"
+    }
+  ],
+  "content_digest": "589dc9dada7bdf90f89a973ce3be50cf5a0693fc074959b08d7081549e0797e4",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "33529487eaa10f282198cf43d09b58cd07ac58bf2baeda19bd0df71d11fe6dba",
+      "domains_extracted": 2,
+      "evidence_id": "EV-yi-001-33529487eaa1",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.lingyiwanwu.com/",
+      "retrieved_at": "1790557438520525527",
+      "service_id": "yi",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.lingyiwanwu.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "2b8389eb7bc9f91296a95e0f17315ee4f08f9a2e92c4b3e23c88457e3949d9b7",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "3e9d8d928be2a6393086b38ef01dc7a67e7354631fa64449fa3e1dc8265b48b0",
+  "release_digest": "dd113b63488e1986dceb98e65fd43d740ff24b73589a0bcb1e261164f75acd9f",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "yi",
+  "snapshot_id": "snap-yi-dd113b63488e1986dceb98e6",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:c675677252d97bfe96a20f05de2fcc24bd7262a1bda4588f4c2bae2127bf53e1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-yi-001-33529487eaa1"
+      ],
+      "service_id": "yi",
+      "type": "domain",
+      "value": "lingyiwanwu.com"
+    },
+    {
+      "asset_id": "sha256:48eff49347ba80b75dbf72ccd6a057d0e8ed762bf5312714993373ba3753a0f4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-yi-001-33529487eaa1"
+      ],
+      "service_id": "yi",
+      "type": "domain",
+      "value": "www.lingyiwanwu.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "589dc9dada7bdf90f89a973ce3be50cf5a0693fc074959b08d7081549e0797e4",
+  "created_at": "2026-09-28T01:04:45.882561+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "lingyiwanwu.com",
+      "www.lingyiwanwu.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "lingyiwanwu.com",
+    "www.lingyiwanwu.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "33529487eaa10f282198cf43d09b58cd07ac58bf2baeda19bd0df71d11fe6dba",
+      "domains_extracted": 2,
+      "evidence_id": "EV-yi-001-33529487eaa1",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.lingyiwanwu.com/",
+      "retrieved_at": "1790557438520525527",
+      "service_id": "yi",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.lingyiwanwu.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "2b8389eb7bc9f91296a95e0f17315ee4f08f9a2e92c4b3e23c88457e3949d9b7",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "3e9d8d928be2a6393086b38ef01dc7a67e7354631fa64449fa3e1dc8265b48b0",
+  "previous_domain_count": 0,
+  "release_digest": "dd113b63488e1986dceb98e65fd43d740ff24b73589a0bcb1e261164f75acd9f",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "b3256a16b20d675ae79ecdcf6306336c7868382670efc86a572958a6d5e71c5c",
+  "service_id": "yi",
+  "snapshot_content_sha256": "589dc9dada7bdf90f89a973ce3be50cf5a0693fc074959b08d7081549e0797e4",
+  "snapshot_id": "snap-yi-dd113b63488e1986dceb98e6",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.lingyiwanwu.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

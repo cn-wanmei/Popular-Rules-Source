@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:671f926c3d621e6b195c075422540119dc228bdc7940d8973412284f7fd2cfd1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-synopsys-001-68c9c95d02dd"
+      ],
+      "service_id": "synopsys",
+      "type": "domain",
+      "value": "synopsys.com"
+    },
+    {
+      "asset_id": "sha256:047f43c0b3bd53c969e4bfed6bd4d1173cd53f2129e2852d507807525dfcd2b7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-synopsys-001-68c9c95d02dd"
+      ],
+      "service_id": "synopsys",
+      "type": "domain",
+      "value": "www.synopsys.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "95c2437008db90e1475ce3d4ac8bbb2276192dc589582dafe5a122bc00d9e7f6",
+  "created_at": "2026-09-28T01:01:10.830732+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "synopsys.com",
+      "www.synopsys.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "synopsys.com",
+    "www.synopsys.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "68c9c95d02dd96be6ef0d94a0ae430cdac1c88f6895e6425d95eb478efb8114c",
+      "domains_extracted": 2,
+      "evidence_id": "EV-synopsys-001-68c9c95d02dd",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.synopsys.com/",
+      "retrieved_at": "1790557199551479048",
+      "service_id": "synopsys",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.synopsys.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "1873aa9f9cf17f0e0c1b08e143025a63ed0ec21f5ace7bf9b2eed3f126048dfc",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "efddcf8e90a30c2285a9fc0ed99348bb84bdab9b39474af2bdc6bda4d3949097",
+  "previous_domain_count": 0,
+  "release_digest": "be7ea0d5d5e8875d848a88ca04c966ca0d74ca3ba15116a899d47dc8ab36ab65",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "b8a445ee7c07d500656eb56f6cb0cad488ed704ca189dfc8896fcc956dd95ee2",
+  "service_id": "synopsys",
+  "snapshot_content_sha256": "95c2437008db90e1475ce3d4ac8bbb2276192dc589582dafe5a122bc00d9e7f6",
+  "snapshot_id": "snap-synopsys-be7ea0d5d5e8875d848a88ca",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.synopsys.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "a7ee842bb640de8e9e483e55cf2d96dbf3d7f76f86c7247bc006bd500f6347c3",
+    "manifest.json": "b26df90ba9f2e6b0134b4ec5f7afa0a25c22b9751cbfe5b32a68fec147d27930",
+    "provenance.json": "b0914c8b7d5436e4d1e5fee05bf3fa7563c78d5d569aa51da321b785d2f2d900",
+    "snapshot_content.json": "59fe8ca3bd5b9788cdcca6a3ec72f9bd31e305c9e5428553ce13c1037795cbbd"
+  },
+  "content_digest": "0ecb0e541d8b438bd6702fc66690734917ea7b389b4154073c032e0901de0c56",
+  "created_at": "2026-09-28T01:05:06.887547+00:00",
+  "evidence_digest": "53af3ef085d858d899f341ceac7731728aef8caafc48cd015034810cb1fb300b",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "be74d0234b1272ba0bacb9d27b61318277fd23c28aa71afefd107a2790719265",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "ef5a12156bca60bed5aeaa00e86acd5e72d3cea351c7bea6eeeff97f82b85196",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "tonghuashun",
+  "snapshot_id": "snap-tonghuashun-ef5a12156bca60bed5aeaa00",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

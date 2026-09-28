@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:fdfeddd6bf1ff9e549d19aecb4663488bc3f750a15d5b0907b4040bff84dbaba",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-schneider-001-e1ea6073e474"
+      ],
+      "service_id": "schneider",
+      "type": "domain",
+      "value": "se.com"
+    },
+    {
+      "asset_id": "sha256:cbd80814f0048d98707c9a35861dfde14325868f3bfdee0a2d1c446981bd6728",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-schneider-001-e1ea6073e474"
+      ],
+      "service_id": "schneider",
+      "type": "domain",
+      "value": "www.se.com"
+    }
+  ],
+  "content_digest": "91e48f93b04ddd7981980ee99b816dc7ed28e73eb39bd2e8e4cf2f833f48dd81",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "e1ea6073e4748bc516520007480f50a8251c58c53273399c8d6ced6156d9d6ce",
+      "domains_extracted": 2,
+      "evidence_id": "EV-schneider-001-e1ea6073e474",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.se.com/",
+      "retrieved_at": "1790557323080702544",
+      "service_id": "schneider",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.se.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "904172fd5762c3b2603c6d71d8089ab4134480cd05527ad502c8f3b08c01c90c",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "5b2a6bd235e92213f891eba21cebb7444c5e3bbf24040eb50ec80ecf2964c8ec",
+  "release_digest": "753e5f73a86a6a7e5779b60159df1a92d9cee36d785d9fc9675ebae295472745",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "schneider",
+  "snapshot_id": "snap-schneider-753e5f73a86a6a7e5779b601",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

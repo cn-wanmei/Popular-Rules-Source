@@ -1,0 +1,13 @@
+{
+  "content_digest": "76a9cfb4b33985af0d9f500d85e93dbf5ecb33a4ba187cef3bc75b35d535453c",
+  "domains": [
+    "wangsu.com",
+    "www.wangsu.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "wangsu",
+  "source_hashes": [
+    "f7f75daff0bef209488c2a656b463c1135c25c81124f911082fe57825b1dbaea"
+  ]
+}

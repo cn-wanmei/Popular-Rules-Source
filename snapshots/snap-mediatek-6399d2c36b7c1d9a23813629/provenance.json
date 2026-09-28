@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:5bcacc2000233b9d2eda3c6700e8503153269c819aea17a37a42a83552892bdc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-mediatek-001-057f0898946b"
+      ],
+      "service_id": "mediatek",
+      "type": "domain",
+      "value": "mediatek.com"
+    },
+    {
+      "asset_id": "sha256:4469fe68e99e86fb069b28f248304e8f41615e6fd3dc547857cdc6a3a59d0f20",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-mediatek-001-057f0898946b"
+      ],
+      "service_id": "mediatek",
+      "type": "domain",
+      "value": "www.mediatek.com"
+    }
+  ],
+  "content_digest": "89344102b1d63d159652c53456d429fbbac795e61724fa0b0b390fb0b39a38b8",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "057f0898946b45456215b78db2b1e94449bd9ced6538f331e793dd8465d5e9e8",
+      "domains_extracted": 2,
+      "evidence_id": "EV-mediatek-001-057f0898946b",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.mediatek.com/",
+      "retrieved_at": "1790557298059787137",
+      "service_id": "mediatek",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.mediatek.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "b1f06c1b997c48f00d8460c737a41b7fe9be4e7b6e0b3284f41fa4562b743222",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "fb67ca48f0aaf44a009dd341bcad7f7aa06589c0dedf7ff73c51ca1a1ab9ecc2",
+  "release_digest": "6399d2c36b7c1d9a23813629c5fb4d49d0e2ffc272b000bc89d5bfd2dd147d40",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "mediatek",
+  "snapshot_id": "snap-mediatek-6399d2c36b7c1d9a23813629",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

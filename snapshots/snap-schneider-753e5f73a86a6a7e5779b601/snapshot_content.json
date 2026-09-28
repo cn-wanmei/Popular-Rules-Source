@@ -1,0 +1,13 @@
+{
+  "content_digest": "91e48f93b04ddd7981980ee99b816dc7ed28e73eb39bd2e8e4cf2f833f48dd81",
+  "domains": [
+    "se.com",
+    "www.se.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "schneider",
+  "source_hashes": [
+    "e1ea6073e4748bc516520007480f50a8251c58c53273399c8d6ced6156d9d6ce"
+  ]
+}

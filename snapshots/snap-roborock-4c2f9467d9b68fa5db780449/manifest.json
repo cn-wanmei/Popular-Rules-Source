@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:958e6946a099733c9ecdb5b2ddf7f23f1e6f81fa0ed83cdcda02db1f6a44977b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roborock-001-8b0531c45d34"
+      ],
+      "service_id": "roborock",
+      "type": "domain",
+      "value": "roborock.com"
+    },
+    {
+      "asset_id": "sha256:cf69439ea1756ef3862f381e0cfd94932b98390e5b7e77a597fd5625444fa712",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-roborock-001-8b0531c45d34"
+      ],
+      "service_id": "roborock",
+      "type": "domain",
+      "value": "www.roborock.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "98ae5ff2b447ff334d364c7d9cd31a5eac4e0a0c6b33484a2dfa2bd3d6cc32c8",
+  "created_at": "2026-09-28T01:00:51.758608+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "roborock.com",
+      "www.roborock.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "roborock.com",
+    "www.roborock.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "8b0531c45d34fcf29bd556341d868a37404fa732d6b26b7e27f65488966d5d87",
+      "domains_extracted": 2,
+      "evidence_id": "EV-roborock-001-8b0531c45d34",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.roborock.com/",
+      "retrieved_at": "1790557198770648092",
+      "service_id": "roborock",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.roborock.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "64f5aeb5e2321b2a7f265a318ec25d19c28c0365fbcad1f6bf85d53ef8c72589",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "31ddf790ce987f4068566b255d27b150dc92e984ce400a2a8ad94dbc5d3c2f9f",
+  "previous_domain_count": 0,
+  "release_digest": "4c2f9467d9b68fa5db7804494e3f5d82efa3f177857f6220e53ef90de2ca2a51",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "30f3455207e58e5a8a34917e2832edecc00812da4a64e4b8606f6214b4d0195d",
+  "service_id": "roborock",
+  "snapshot_content_sha256": "98ae5ff2b447ff334d364c7d9cd31a5eac4e0a0c6b33484a2dfa2bd3d6cc32c8",
+  "snapshot_id": "snap-roborock-4c2f9467d9b68fa5db780449",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.roborock.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

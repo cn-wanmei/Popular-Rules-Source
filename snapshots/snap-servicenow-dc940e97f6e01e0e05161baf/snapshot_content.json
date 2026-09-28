@@ -1,0 +1,13 @@
+{
+  "content_digest": "c7d5de5290c3f432f86a5820880d3053ca43d520fbed23139c5cf438142e5b7c",
+  "domains": [
+    "servicenow.com",
+    "www.servicenow.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "servicenow",
+  "source_hashes": [
+    "c87fb59b35cf955103f331de5e2e8512ed931123b468eba3c4e0b7bdb25c0402"
+  ]
+}

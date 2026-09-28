@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:4f846f84eff7f7e975eabd80c3bd3cbdd56a57f56bcaa6788b0210f889f124d0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-nokia-001-a104bbd910f7"
+      ],
+      "service_id": "nokia",
+      "type": "domain",
+      "value": "nokia.com"
+    },
+    {
+      "asset_id": "sha256:850c58bafca3a22b21c572a5e0b0a3651d3442630d59c85716e3d69ddf88d466",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-nokia-001-a104bbd910f7"
+      ],
+      "service_id": "nokia",
+      "type": "domain",
+      "value": "www.nokia.com"
+    }
+  ],
+  "content_digest": "9288ff2eddafafe764155f9067f81fc56f7f77684cd73d4f635e60784d50e6be",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "a104bbd910f78b0e43fa5f6322d9aafa0673e3fbc945372fbcc93f8f60420e92",
+      "domains_extracted": 2,
+      "evidence_id": "EV-nokia-001-a104bbd910f7",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.nokia.com/",
+      "retrieved_at": "1790557293346281456",
+      "service_id": "nokia",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.nokia.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "0f11e1a7caa33d2f0f25ca5a3d29fbb2098d46b4cddea8c14d9f3dafd22b841f",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "0d226f60d8e07b77b32f83e0b66c68f30357e4c4fe48e0edbf504ebf99b13be6",
+  "release_digest": "ea294874821737755659ccce64de71e2b2af1ff12cc83ef3432c376c8950c978",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "nokia",
+  "snapshot_id": "snap-nokia-ea294874821737755659ccce",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:f5785464b0419f617f30254a9292a53866a151cbda52aa8f5000d4d2172ace18",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-paloalto-001-09d37769d352"
+      ],
+      "service_id": "paloalto",
+      "type": "domain",
+      "value": "paloaltonetworks.com"
+    },
+    {
+      "asset_id": "sha256:f7beb3565bc38b893b83a94f08571c1466d3056fee275a640e17911a7b612cca",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-paloalto-001-09d37769d352"
+      ],
+      "service_id": "paloalto",
+      "type": "domain",
+      "value": "www.paloaltonetworks.com"
+    }
+  ],
+  "content_digest": "b21a54fd091a094b1651bd900d11a3061ff8efd71995208c035e563e23128d1b",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "09d37769d3522840e6ddc764191144585a50d260f4eaf41c9e85f42262d3da60",
+      "domains_extracted": 2,
+      "evidence_id": "EV-paloalto-001-09d37769d352",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.paloaltonetworks.com/",
+      "retrieved_at": "1790557262159378487",
+      "service_id": "paloalto",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.paloaltonetworks.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "ab624c57625da1c6186f56aa52683027a80dbf91a3c1ae1b95764041b7d3db2b",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "b4b1a848996f2fe06c4fc41eea1db2caa73d885c231e1813269fc61f2a0ce019",
+  "release_digest": "702c7b333bc5db2f86137c577b9784ed5d425db76110382fd6e0c478b43a0db7",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "paloalto",
+  "snapshot_id": "snap-paloalto-702c7b333bc5db2f86137c57",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

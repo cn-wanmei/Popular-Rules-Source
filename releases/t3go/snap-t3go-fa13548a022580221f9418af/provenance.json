@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:aa081e14f00b0463adb64ed69b24b6a783658484bc0ead454a52bbd61376f72e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-t3go-001-601524870474"
+      ],
+      "service_id": "t3go",
+      "type": "domain",
+      "value": "t3go.cn"
+    },
+    {
+      "asset_id": "sha256:2043396288d807d5ec6b49c4c6e4c4252a5073f35c5eafb352284a0da289eae8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-t3go-001-601524870474"
+      ],
+      "service_id": "t3go",
+      "type": "domain",
+      "value": "www.t3go.cn"
+    }
+  ],
+  "content_digest": "6bc0aa236610ed4cc6182c223c4d80c5abaaa74d1ae3e4dd8c67e3e700c54d33",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "601524870474b9b196f19845f27e391c6f31e45af8e2ee22061c21cff3e3e271",
+      "domains_extracted": 2,
+      "evidence_id": "EV-t3go-001-601524870474",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.t3go.cn/",
+      "retrieved_at": "1790557414541726377",
+      "service_id": "t3go",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.t3go.cn/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "2c1d284140e6a10ef879af5839df8713fd75062487394f836e62ab9b1a428569",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "17f087c93368e2d8d0e21845013710b25ea75fe12a99ee8fc814cc5565f6ed19",
+  "release_digest": "fa13548a022580221f9418af48413e39fc9aca847b1a3a9c6f01ebed53b6c234",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "t3go",
+  "snapshot_id": "snap-t3go-fa13548a022580221f9418af",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

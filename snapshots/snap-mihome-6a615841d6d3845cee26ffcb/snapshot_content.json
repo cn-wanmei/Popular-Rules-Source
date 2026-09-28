@@ -1,0 +1,12 @@
+{
+  "content_digest": "c4bed7e9b8653e2bcf94b82a01aefc54658027ac3377b1d7bee7440b8cc5cac2",
+  "domains": [
+    "home.mi.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "mihome",
+  "source_hashes": [
+    "bee0d5ef2237902533b6cae7ad5a2e6ca7de7660f4e85cd980dd549d5ea41bcf"
+  ]
+}

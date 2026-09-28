@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:b4250db3ca42c6987cea09c62b13100dea90fdac106e58096bbbd5a7aefca8ee",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-xgimi-001-723217473e2b"
+      ],
+      "service_id": "xgimi",
+      "type": "domain",
+      "value": "www.xgimi.com"
+    },
+    {
+      "asset_id": "sha256:f547a65f26ee1f77e2675d5c5c2c09a7a681fc4be88b43b87a2dd20d7d9fe09e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-xgimi-001-723217473e2b"
+      ],
+      "service_id": "xgimi",
+      "type": "domain",
+      "value": "xgimi.com"
+    }
+  ],
+  "content_digest": "da4bada264f7e526bc1c31a83c9544a9869c5afe4e8e78c5af50295786e9358c",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "723217473e2bbff04b8eca3c6e287bfccd63754a25641dce7e91e70be0aaa225",
+      "domains_extracted": 2,
+      "evidence_id": "EV-xgimi-001-723217473e2b",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.xgimi.com/",
+      "retrieved_at": "1790557200422288668",
+      "service_id": "xgimi",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.xgimi.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "1fe9ee997487aa24a0d7d90d0cef1533d3c7c5609dd8a7c82ba1d99ad1c03629",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "e269f4e35d95f0cd0cdef815fa1c24514f9e93f67c73176b1d0bb7eef126615b",
+  "release_digest": "a1305ef56fa5eead04e3b818c9ff749d7d1015f977452c18fd53745b8a9f8410",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "xgimi",
+  "snapshot_id": "snap-xgimi-a1305ef56fa5eead04e3b818",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

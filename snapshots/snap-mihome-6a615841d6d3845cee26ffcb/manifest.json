@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:1434231c295efeddda4806f9399e9091e2262743b36d8d229e6f6baa99d0838d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-mihome-001-bee0d5ef2237"
+      ],
+      "service_id": "mihome",
+      "type": "domain",
+      "value": "home.mi.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "c4bed7e9b8653e2bcf94b82a01aefc54658027ac3377b1d7bee7440b8cc5cac2",
+  "created_at": "2026-09-28T01:01:07.373633+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "home.mi.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "home.mi.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "bee0d5ef2237902533b6cae7ad5a2e6ca7de7660f4e85cd980dd549d5ea41bcf",
+      "domains_extracted": 1,
+      "evidence_id": "EV-mihome-001-bee0d5ef2237",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://home.mi.com/",
+      "retrieved_at": "1790557197853424740",
+      "service_id": "mihome",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://home.mi.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "3c55558ed4fd14fd492146f6ac3ef1ed6a7fcf7d7074d7b45ac82378d0e85175",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "221fc6de5a66152a861d53252a76528767c07f59c72a544e96d39577721ec86c",
+  "previous_domain_count": 0,
+  "release_digest": "6a615841d6d3845cee26ffcb6c99f0b137cc3db2d428d320d55fae706c3b4cbd",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "44e811b71b7949ea4b8b2c988ee563c5c41a3c877be8158a91df9d2fb2d5e9bc",
+  "service_id": "mihome",
+  "snapshot_content_sha256": "c4bed7e9b8653e2bcf94b82a01aefc54658027ac3377b1d7bee7440b8cc5cac2",
+  "snapshot_id": "snap-mihome-6a615841d6d3845cee26ffcb",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://home.mi.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

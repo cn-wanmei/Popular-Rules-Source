@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:04c570545788f4f2efbfd4a488c9182bae9cd4cbee4f08ce3f7ca8c2cd376d03",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tuya-001-dc75522fa588"
+      ],
+      "service_id": "tuya",
+      "type": "domain",
+      "value": "tuya.com"
+    },
+    {
+      "asset_id": "sha256:7eda48e49d603e82bae17dea1e903787897f7c26f9064c72f347904acc9da7be",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tuya-001-dc75522fa588"
+      ],
+      "service_id": "tuya",
+      "type": "domain",
+      "value": "www.tuya.com"
+    }
+  ],
+  "content_digest": "b0fb7996b1fc0c715ab555078d3d2aa76742283048195dd421ae19a2d3f98a02",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "dc75522fa588f11a324b46beeaed590881034964ed1b2ebeb8c14575eeb3de36",
+      "domains_extracted": 2,
+      "evidence_id": "EV-tuya-001-dc75522fa588",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.tuya.com/",
+      "retrieved_at": "1790557446370095989",
+      "service_id": "tuya",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.tuya.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "abe01334f0e35da540ce083c8f01c3a60675d44701799467bdc57c01b7d5d5c7",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "86562f11f9f086c3f3a15c600a4f0b03e8d72b8a46e45d5c982162c219854f58",
+  "release_digest": "f5f9d68b1213e64622f3527305cff209f784e18fb52d9ff1f9449b1b6acf65cd",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "tuya",
+  "snapshot_id": "snap-tuya-f5f9d68b1213e64622f35273",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

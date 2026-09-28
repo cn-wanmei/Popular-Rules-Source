@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "fae69162fd3689560296dfb4518720cf132f5f6e4c2205ff2dc0c9a9519f264f",
+    "manifest.json": "cbf7faaa90650a1bcab629a14b6f8b65c087cfe0cdf08afe651bf5b7a895cc68",
+    "provenance.json": "88d191bdea5e0fc622836345a24fc5dcec1733148a6d223e43fbf715f14422de",
+    "snapshot_content.json": "19696278d080d9f95df6b8de152d8081f46ada3c229bb8e749eb5bac80e73481"
+  },
+  "content_digest": "444b9808723afc073b2250fa48ea105b810610fdc901918e38c5ed3265c3260f",
+  "created_at": "2026-09-28T01:03:46.310414+00:00",
+  "evidence_digest": "7aa72adcddaa3e0bc0a12bba81b4bc5bc503b7ef1b1f7c7cc2512db5569f1ee1",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "ba382446c5c4afd2484e8d0641fc2abf3ead46cbd4f97417f402b2477aa014a0",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "7b363977355149a7d0243f6f42f7bf66aec5e3f0ee57de8df27ff84927bc987d",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "panasonic",
+  "snapshot_id": "snap-panasonic-7b363977355149a7d0243f6f",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

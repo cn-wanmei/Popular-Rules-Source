@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:4afba6526c70b95d7d463aac1c127c5a87cabd37c891a81d873500bc48819f7f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-woyun-001-49c4bcf2bd76"
+      ],
+      "service_id": "woyun",
+      "type": "domain",
+      "value": "cucloud.cn"
+    },
+    {
+      "asset_id": "sha256:5eb37783a4bc4a84d311e33eaba8bf9e819868a3ca1eaf1364cc7810ef97be86",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-woyun-001-49c4bcf2bd76"
+      ],
+      "service_id": "woyun",
+      "type": "domain",
+      "value": "www.cucloud.cn"
+    }
+  ],
+  "content_digest": "41c4263e2696b7bb563993795606f7c4b07b923d21c6a30feb7e11f43858f642",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "49c4bcf2bd76cdf719df291b97656ae805a8f3163bd9566275a236153b196238",
+      "domains_extracted": 2,
+      "evidence_id": "EV-woyun-001-49c4bcf2bd76",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.cucloud.cn/",
+      "retrieved_at": "1790557425468925975",
+      "service_id": "woyun",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.cucloud.cn/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "a6ca916e950f86b578078124abc5c2b24d9df2b3ada956551b5d04db315accd6",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "7dceb19c5242b6e149dcb936f6f452e9e7e4051d0b55ce123817411859e9d692",
+  "release_digest": "6e17d0575f55223467583fc266e42b641470d39c894e8f8164e34c056c4094d8",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "woyun",
+  "snapshot_id": "snap-woyun-6e17d0575f55223467583fc2",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

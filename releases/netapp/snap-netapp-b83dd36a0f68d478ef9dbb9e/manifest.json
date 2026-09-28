@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:5e210923dc7df718829dcff32b1e958225adbb977510d4946282d41267c43732",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netapp-001-30e66d90ac0e"
+      ],
+      "service_id": "netapp",
+      "type": "domain",
+      "value": "netapp.com"
+    },
+    {
+      "asset_id": "sha256:8d3fee61a8f6be7fc2318fd2f11eb37a07ac1058c57aa6accf89465535b993c4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-netapp-001-30e66d90ac0e"
+      ],
+      "service_id": "netapp",
+      "type": "domain",
+      "value": "www.netapp.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "a6d6074ffe1af0082410731e379a6ff57bcafd033eab1b76c34acb5e45d2f6fb",
+  "created_at": "2026-09-28T01:03:09.639728+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "netapp.com",
+      "www.netapp.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "netapp.com",
+    "www.netapp.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "30e66d90ac0ea9f91eb67993e17bd3724a590ede84f2300b885ab2953dc16264",
+      "domains_extracted": 2,
+      "evidence_id": "EV-netapp-001-30e66d90ac0e",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.netapp.com/",
+      "retrieved_at": "1790557320067478637",
+      "service_id": "netapp",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.netapp.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "ed3a6df495a49d13257c89c7f5f6653fb2ae092cbc8972cf0347e98d8d093aed",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "e78054cca99237d3b4366cea6cfbfbe80d2fc0be6d4d9f11f2356607870ba6fe",
+  "previous_domain_count": 0,
+  "release_digest": "b83dd36a0f68d478ef9dbb9e46931fd5426b759fd69ed5274912a733faca357a",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "92c660275df7342be56e76f05625284ccedf506ace1cd97e59c2d4de66b77b0f",
+  "service_id": "netapp",
+  "snapshot_content_sha256": "a6d6074ffe1af0082410731e379a6ff57bcafd033eab1b76c34acb5e45d2f6fb",
+  "snapshot_id": "snap-netapp-b83dd36a0f68d478ef9dbb9e",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.netapp.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

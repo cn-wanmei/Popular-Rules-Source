@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "760d952f0292546054de50a368c76fcffa5e0ad14bbb4ba47b171aa699f033ed",
+    "manifest.json": "f56b68ddcf567b8174c5fcf264f1102fe9405f2c771cda1ebb0880bf0ab7c8d8",
+    "provenance.json": "06f878adced6c7e28024bb8bfe5166fc2ebd5fdaa855258fd74c48a0ee1e1ea6",
+    "snapshot_content.json": "0fd044c0468d3ee127b0a190080bcfa53d9e03086a949537a381709886642de6"
+  },
+  "content_digest": "2460524f28b8e74a26b9c9045d6f6293040ccb74b139ff5a3ed3db957530472c",
+  "created_at": "2026-09-28T01:00:53.306220+00:00",
+  "evidence_digest": "948ae40febfe1d16ce3d8c5e2830b745e0631ac224b2a86bcd0ec180e5b80bec",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "9c498bbdfd01f99b95eb5d903a6b763b351a27091f1133372bfd73967a996463",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "eb0720d237073dafc615e47d42cf54cee0d39e7aba05a247259d2e4014d81916",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "perfectworld",
+  "snapshot_id": "snap-perfectworld-eb0720d237073dafc615e47d",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

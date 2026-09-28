@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "e87a9ac14e668813a0602da777cb7f8aee202c66ef00c49e92c599f4e5da2a6f",
+    "manifest.json": "31d2ff139f1224dd4905d3b7e847d48f1956e534cf3ce58c3380bd70c37a9072",
+    "provenance.json": "b745ae864ad28ce5ddb4173875b4d8c7bf5541ad8b20042db085fbfba8655ca5",
+    "snapshot_content.json": "58e05fa2de3b28123c56b7f77f0a6be49d9f7a1005d72680082ce357b8662f92"
+  },
+  "content_digest": "c4bed7e9b8653e2bcf94b82a01aefc54658027ac3377b1d7bee7440b8cc5cac2",
+  "created_at": "2026-09-28T01:01:48.207013+00:00",
+  "evidence_digest": "3c55558ed4fd14fd492146f6ac3ef1ed6a7fcf7d7074d7b45ac82378d0e85175",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "221fc6de5a66152a861d53252a76528767c07f59c72a544e96d39577721ec86c",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "6a615841d6d3845cee26ffcb6c99f0b137cc3db2d428d320d55fae706c3b4cbd",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "mihome",
+  "snapshot_id": "snap-mihome-6a615841d6d3845cee26ffcb",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

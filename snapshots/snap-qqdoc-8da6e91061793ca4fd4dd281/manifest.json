@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:ac7408a554832a33d83925c2a2ee4a8e9545d7abec1cd27059c6c1c3bbe5983b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-qqdoc-001-d475044af631"
+      ],
+      "service_id": "qqdoc",
+      "type": "domain",
+      "value": "docs.qq.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "c34d1782bb376a24551974a5f86aa6e4a9ddc89b06c3f6e4bad640309753ad54",
+  "created_at": "2026-09-28T01:01:10.651913+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "docs.qq.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "docs.qq.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "d475044af631c15bc77887e8317dd541b61c148895b32879c25637f521ff43e7",
+      "domains_extracted": 1,
+      "evidence_id": "EV-qqdoc-001-d475044af631",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://docs.qq.com/",
+      "retrieved_at": "1790557200491228766",
+      "service_id": "qqdoc",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://docs.qq.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "3feacceeffad09bb3db158e1c1dd7001e0584b29245aebe702cdbb53912918c0",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "b102833054b2d940549aa91870f24e1f859565316bc627b6d9fd9c3b5d0df810",
+  "previous_domain_count": 0,
+  "release_digest": "8da6e91061793ca4fd4dd281e738e83518b0c00be8c6284041064845e912aeb7",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "03c417de9240b55beeab9f622830c570ff9c8556f5cdefef7bde2b5dbac6daa3",
+  "service_id": "qqdoc",
+  "snapshot_content_sha256": "c34d1782bb376a24551974a5f86aa6e4a9ddc89b06c3f6e4bad640309753ad54",
+  "snapshot_id": "snap-qqdoc-8da6e91061793ca4fd4dd281",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://docs.qq.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

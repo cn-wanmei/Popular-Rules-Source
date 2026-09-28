@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:9537edf6017fd50e395bdd827888ed3cc0ef4c9b87543895a15839080eea4b3c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-starlink-001-cbf52c621185"
+      ],
+      "service_id": "starlink",
+      "type": "domain",
+      "value": "starlink.com"
+    },
+    {
+      "asset_id": "sha256:d341b7c627fce02cdb3b75619aaa09eef76a59b88563f7163acf36ff67b9d30d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-starlink-001-cbf52c621185"
+      ],
+      "service_id": "starlink",
+      "type": "domain",
+      "value": "www.starlink.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "e316d083c513b8361754968748929b12d6b4f8def816ff8b706dd93377b5ddb9",
+  "created_at": "2026-09-28T01:03:10.215495+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "starlink.com",
+      "www.starlink.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "starlink.com",
+    "www.starlink.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "cbf52c621185a413a8d3dbbe8280f39d80eecc35ef25480079eac394a1a64e0c",
+      "domains_extracted": 2,
+      "evidence_id": "EV-starlink-001-cbf52c621185",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.starlink.com/",
+      "retrieved_at": "1790557322320047857",
+      "service_id": "starlink",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.starlink.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "a00ebfbaf0e2feef53a7eac5dca4b0dec6a2312c52eede4ed0c54f982522ef24",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "d12da27277ba559917281debb03c84661be1a16eac256ec4b4fe898c1f4b7f6b",
+  "previous_domain_count": 0,
+  "release_digest": "45649164d15006f9cffe9d8ca8ce79d3560487885d5a84c71f92af1ca2726fa3",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "6362d34716aed444df97190b669f084a236ba7c4cb6d5aec053821bf7160a64c",
+  "service_id": "starlink",
+  "snapshot_content_sha256": "e316d083c513b8361754968748929b12d6b4f8def816ff8b706dd93377b5ddb9",
+  "snapshot_id": "snap-starlink-45649164d15006f9cffe9d8c",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.starlink.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

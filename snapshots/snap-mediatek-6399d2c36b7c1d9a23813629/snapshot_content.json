@@ -1,0 +1,13 @@
+{
+  "content_digest": "89344102b1d63d159652c53456d429fbbac795e61724fa0b0b390fb0b39a38b8",
+  "domains": [
+    "mediatek.com",
+    "www.mediatek.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "mediatek",
+  "source_hashes": [
+    "057f0898946b45456215b78db2b1e94449bd9ced6538f331e793dd8465d5e9e8"
+  ]
+}

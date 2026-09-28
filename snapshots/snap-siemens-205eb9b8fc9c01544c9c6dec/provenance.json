@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:5e8048ab4ae3c6210214f3dc5e58c3a857c69cdfb2b6e21b02de5031d7b0031a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-siemens-001-93cdfbecb3e3"
+      ],
+      "service_id": "siemens",
+      "type": "domain",
+      "value": "siemens.com"
+    },
+    {
+      "asset_id": "sha256:c5a0de0ff3492d831022b9eb1140541ef34572387a79a81aa74bb7d149ecfc5a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-siemens-001-93cdfbecb3e3"
+      ],
+      "service_id": "siemens",
+      "type": "domain",
+      "value": "www.siemens.com"
+    }
+  ],
+  "content_digest": "d7f92cfffc4ed1ed4b804c067659fd9472872579d6f548da150f2b39dde1fc68",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "93cdfbecb3e3661ab307588e1af465b3d65a03b8fff411df7de556460b90eba0",
+      "domains_extracted": 2,
+      "evidence_id": "EV-siemens-001-93cdfbecb3e3",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.siemens.com/",
+      "retrieved_at": "1790557199634585138",
+      "service_id": "siemens",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.siemens.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "5ebbaca1c59fb4eac7f5a82768e9daf1cb83fb85003544e26025dd44a7c65dbd",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "7a1a4de7bf641a9f69354acdd416070083f7c043bbdd134de0d7c3d9db0c193e",
+  "release_digest": "205eb9b8fc9c01544c9c6dec6e3081fe4061d06ed8f04103d802748ed4baaac5",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "siemens",
+  "snapshot_id": "snap-siemens-205eb9b8fc9c01544c9c6dec",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

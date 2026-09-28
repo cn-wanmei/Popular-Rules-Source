@@ -1,0 +1,13 @@
+{
+  "content_digest": "ef91968695f17d1ed4f948c3fa060d510c5339358d17179464babd6a562d99a8",
+  "domains": [
+    "nintendo.com",
+    "www.nintendo.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "nintendo",
+  "source_hashes": [
+    "eb08cad5c3524e05def4430b57cfe97fa33f80ab21f3e7e601237edc83a42df2"
+  ]
+}

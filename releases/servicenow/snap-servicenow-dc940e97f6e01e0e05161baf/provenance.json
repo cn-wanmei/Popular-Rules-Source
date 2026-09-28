@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:59fc15dce342bbaa387a0aecf2e2122a44376e07a0c958a8b62635aa0b615db4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-servicenow-001-c87fb59b35cf"
+      ],
+      "service_id": "servicenow",
+      "type": "domain",
+      "value": "servicenow.com"
+    },
+    {
+      "asset_id": "sha256:8a0f337e2f8fe6e255fd273ded43bed274d6e686b9984910de7aa74fa81c93a0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-servicenow-001-c87fb59b35cf"
+      ],
+      "service_id": "servicenow",
+      "type": "domain",
+      "value": "www.servicenow.com"
+    }
+  ],
+  "content_digest": "c7d5de5290c3f432f86a5820880d3053ca43d520fbed23139c5cf438142e5b7c",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "c87fb59b35cf955103f331de5e2e8512ed931123b468eba3c4e0b7bdb25c0402",
+      "domains_extracted": 2,
+      "evidence_id": "EV-servicenow-001-c87fb59b35cf",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.servicenow.com/",
+      "retrieved_at": "1790557319091189028",
+      "service_id": "servicenow",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.servicenow.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "e342a1eb3e36696773cb1bd9ae93ebdd027a2e25b28a54f476d01dbe4e9b08c2",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "753d5d2eaa374eabd6265424ec82070c34a1a11140f7e182d7b11a804087a21f",
+  "release_digest": "dc940e97f6e01e0e05161baf754792e24d46261ba876f17627d288fea55d4a83",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "servicenow",
+  "snapshot_id": "snap-servicenow-dc940e97f6e01e0e05161baf",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

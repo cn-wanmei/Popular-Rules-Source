@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:7e527dcd73c14180ff3fd7a0dd18de9e1f3e8a4c0d92dd4df2919c38641d862f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-rakuten-001-a449a9646e25"
+      ],
+      "service_id": "rakuten",
+      "type": "domain",
+      "value": "rakuten.com"
+    },
+    {
+      "asset_id": "sha256:43c68d2ddeddb5fe814aa680ba0092253247b904ebd5817313316d8bd3cdf2f7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-rakuten-001-a449a9646e25"
+      ],
+      "service_id": "rakuten",
+      "type": "domain",
+      "value": "www.rakuten.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "2d609ff966aeb7eae95546ec0a53851bec2c7b5325b7d0033ca48b78af0ddf41",
+  "created_at": "2026-09-28T01:02:53.025911+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "rakuten.com",
+      "www.rakuten.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "rakuten.com",
+    "www.rakuten.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "a449a9646e250aa108fd1d639871c27a20fccfa96b148fbcc58ce150cdd60f00",
+      "domains_extracted": 2,
+      "evidence_id": "EV-rakuten-001-a449a9646e25",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.rakuten.com/",
+      "retrieved_at": "1790557305647077849",
+      "service_id": "rakuten",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.rakuten.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "587e32bc66050ca49feb5182f0fd651ee43e0da1d0961e0f804cb1edb0a0fa8d",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "e412559cbf2c7bbb6220ddaf0272a5a51b4a23fd288546484c39635d05dab77b",
+  "previous_domain_count": 0,
+  "release_digest": "3078fc149868c00c2f497fa6e7dce8ce6993741cb35560c314612c073234f9b1",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "41929e3be143a048c494b431a1c6070df056fd8fc88cec32cf41dfca74fdb0d8",
+  "service_id": "rakuten",
+  "snapshot_content_sha256": "2d609ff966aeb7eae95546ec0a53851bec2c7b5325b7d0033ca48b78af0ddf41",
+  "snapshot_id": "snap-rakuten-3078fc149868c00c2f497fa6",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.rakuten.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

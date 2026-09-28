@@ -1,0 +1,12 @@
+{
+  "content_digest": "c34d1782bb376a24551974a5f86aa6e4a9ddc89b06c3f6e4bad640309753ad54",
+  "domains": [
+    "docs.qq.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "qqdoc",
+  "source_hashes": [
+    "d475044af631c15bc77887e8317dd541b61c148895b32879c25637f521ff43e7"
+  ]
+}

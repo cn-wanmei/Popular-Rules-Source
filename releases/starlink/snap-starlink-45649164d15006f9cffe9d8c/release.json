@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "b50c090d7fdc9025fa20df49a7c41cd28df4bdb67ccce248ccbc09c664b96ecf",
+    "manifest.json": "3587837db6ff1ea7c302eaac54aa252291a2af686a3c7bab21511ea25e8349aa",
+    "provenance.json": "101c9d5358fbcdb2cc5a1f045a0655825c1f82074d5af06ece27bcff4cf5393f",
+    "snapshot_content.json": "1e70c56a1a8f4da5a96b160c895f3832d1c64c17d59ff061fb0860e4b073e31a"
+  },
+  "content_digest": "e316d083c513b8361754968748929b12d6b4f8def816ff8b706dd93377b5ddb9",
+  "created_at": "2026-09-28T01:03:50.052675+00:00",
+  "evidence_digest": "a00ebfbaf0e2feef53a7eac5dca4b0dec6a2312c52eede4ed0c54f982522ef24",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "d12da27277ba559917281debb03c84661be1a16eac256ec4b4fe898c1f4b7f6b",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "45649164d15006f9cffe9d8ca8ce79d3560487885d5a84c71f92af1ca2726fa3",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "starlink",
+  "snapshot_id": "snap-starlink-45649164d15006f9cffe9d8c",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

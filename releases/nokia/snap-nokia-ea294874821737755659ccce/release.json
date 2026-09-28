@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "c618f3fbcb44bd6920ec02dd9801b0cc4d920cf5dbaddecc41730907933ff9b7",
+    "manifest.json": "d94c43ea2db07fcf13a7bb3600ba6cfe036dd805eeec1ebfcae26db8c337b9c4",
+    "provenance.json": "3ab6ccf80c64f9eb3b06a8e7639dc98f7ee908ecf6d77cc66fde612ed7714f38",
+    "snapshot_content.json": "ca4da81a3bfd31a2f9fa130cbc1376c76604eb1ba0636c29841ca22b42dba685"
+  },
+  "content_digest": "9288ff2eddafafe764155f9067f81fc56f7f77684cd73d4f635e60784d50e6be",
+  "created_at": "2026-09-28T01:03:21.767330+00:00",
+  "evidence_digest": "0f11e1a7caa33d2f0f25ca5a3d29fbb2098d46b4cddea8c14d9f3dafd22b841f",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "0d226f60d8e07b77b32f83e0b66c68f30357e4c4fe48e0edbf504ebf99b13be6",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "ea294874821737755659ccce64de71e2b2af1ff12cc83ef3432c376c8950c978",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "nokia",
+  "snapshot_id": "snap-nokia-ea294874821737755659ccce",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

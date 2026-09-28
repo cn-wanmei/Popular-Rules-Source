@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "f452a8c5e234332922a051be4e26457ee474b3e80d6e3b462bce4d87c84e1679",
+    "manifest.json": "14c8862c155b3b99fb1648f0148e1e1c5f05472efc89398f22962402428c2589",
+    "provenance.json": "4ddf17d26bfff970378fb66eff9f4959e12cb240c0bd54ab6b822038bcb0db6b",
+    "snapshot_content.json": "c8cd47f7e322d0141cfccc43dbfaaeaba253e3f98e83f84d0cb45059ef15747e"
+  },
+  "content_digest": "b21a54fd091a094b1651bd900d11a3061ff8efd71995208c035e563e23128d1b",
+  "created_at": "2026-09-28T01:02:48.495015+00:00",
+  "evidence_digest": "ab624c57625da1c6186f56aa52683027a80dbf91a3c1ae1b95764041b7d3db2b",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "b4b1a848996f2fe06c4fc41eea1db2caa73d885c231e1813269fc61f2a0ce019",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "702c7b333bc5db2f86137c577b9784ed5d425db76110382fd6e0c478b43a0db7",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "paloalto",
+  "snapshot_id": "snap-paloalto-702c7b333bc5db2f86137c57",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

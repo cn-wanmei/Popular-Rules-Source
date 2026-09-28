@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:2b1a26d1dcf43c6084f9a32cd835066d8104964b6f8384ca65ff3c5f83ae0b06",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-micron-001-ed01331b8907"
+      ],
+      "service_id": "micron",
+      "type": "domain",
+      "value": "micron.com"
+    },
+    {
+      "asset_id": "sha256:ee7e332e40a6874d88ca47d83be6ab10a6931457153ec2616fc074bbf7d95d24",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-micron-001-ed01331b8907"
+      ],
+      "service_id": "micron",
+      "type": "domain",
+      "value": "www.micron.com"
+    }
+  ],
+  "content_digest": "aa1a227a16a65331f5b7439fb22e6d5116730d4fa8ddcb3d990adb94bb7e0105",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "ed01331b89076b5cac6c300ebd3e3854c3c17c2dda8e278c63ef4193b91c556d",
+      "domains_extracted": 2,
+      "evidence_id": "EV-micron-001-ed01331b8907",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.micron.com/",
+      "retrieved_at": "1790557285785674864",
+      "service_id": "micron",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.micron.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "3e784f23f9f7942eee28bf418a78c81fdd21eb0a85e776bd60cc22b23ca1bd89",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "85d42c15fb4203d710eceea0c59aadb9a48bd9341bd043b6e3f6fdf9f951a7d7",
+  "release_digest": "dd7274ef12250bff1c9bbafcb6f5dc06e163cca4b2f3f88ad553b16120993c7b",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "micron",
+  "snapshot_id": "snap-micron-dd7274ef12250bff1c9bbafc",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

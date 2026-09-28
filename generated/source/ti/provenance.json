@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:c2454b6f61017a1e4c05f5080d8be45ce6c02a4ff62615fc33f50ff6b4f2e264",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-ti-001-1c8ecc2b07d0"
+      ],
+      "service_id": "ti",
+      "type": "domain",
+      "value": "ti.com"
+    },
+    {
+      "asset_id": "sha256:33d3d0a25753ecaff577bbb4195d1792810b433dd3b2291255b131200312b319",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-ti-001-1c8ecc2b07d0"
+      ],
+      "service_id": "ti",
+      "type": "domain",
+      "value": "www.ti.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "9c5991e28b6075c416542dea0f9081e2e149479bfc6a953a564501681f564691",
+  "created_at": "2026-09-28T01:03:17.624964+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "ti.com",
+      "www.ti.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "ti.com",
+    "www.ti.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "1c8ecc2b07d084faa5c6ea85f1b9cd8221dbf93dd07ee9ae2d6f7d469b550bef",
+      "domains_extracted": 2,
+      "evidence_id": "EV-ti-001-1c8ecc2b07d0",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.ti.com/",
+      "retrieved_at": "1790557349371252978",
+      "service_id": "ti",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.ti.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "def4c3b5a6cae176cfcb03dbf7fb33c9a957fca7cc01452194e2f046d77b113c",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "c5bfc3cf95ddef243616a98d1d6c06df0c5daf3538394b672b7d81c1b42ad29a",
+  "previous_domain_count": 0,
+  "release_digest": "c2efd8979ef9c9fa827d333604dab12e0f81f78565c01711264e2b629f72ee2a",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "a997c5a3e4e473c24e57f265d50e41b156c87a6d9faa05bc1a72e8ba8c0c0cfe",
+  "service_id": "ti",
+  "snapshot_content_sha256": "9c5991e28b6075c416542dea0f9081e2e149479bfc6a953a564501681f564691",
+  "snapshot_id": "snap-ti-c2efd8979ef9c9fa827d3336",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.ti.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

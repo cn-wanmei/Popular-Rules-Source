@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:ff4eaafc3b861d74e113f6d2dce4e4cf64e868d366d3c2ca3a2e65760826238f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-sensetime-001-3c66ffc246dc"
+      ],
+      "service_id": "sensetime",
+      "type": "domain",
+      "value": "sensetime.com"
+    },
+    {
+      "asset_id": "sha256:42af5d581ee868ebcb3aadcb55f3afffc0e69c15214883434b184d1ef27e2155",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-sensetime-001-3c66ffc246dc"
+      ],
+      "service_id": "sensetime",
+      "type": "domain",
+      "value": "www.sensetime.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "aff69a7919a6813f448a40be5241ff2949c992d6f4bceafc7f5b7d356d8d91c0",
+  "created_at": "2026-09-28T01:04:47.962663+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "sensetime.com",
+      "www.sensetime.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "sensetime.com",
+    "www.sensetime.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "3c66ffc246dc2bff3bed7d8469aa3f52c7ce6c5de4fd213ccc28ba9fd235140f",
+      "domains_extracted": 2,
+      "evidence_id": "EV-sensetime-001-3c66ffc246dc",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.sensetime.com/",
+      "retrieved_at": "1790557417601561260",
+      "service_id": "sensetime",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.sensetime.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "955bb3db7de9f879549ef0ff52d7e94eab027450b2fa655479b3eb16a30f430c",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "eac6ae9383b6a4bb4988cd0ec1c17932d1fbc2892ef88e6f3022f226a957fcde",
+  "previous_domain_count": 0,
+  "release_digest": "31421a06db6acc2a63cfe2fc48458cc497b84a6424d0d52e5b266029e95d3d12",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "03b9f9ebc9a317c8cdd5c3457b7541bc99350d6732ae8bf0abc6fc69c41aacfb",
+  "service_id": "sensetime",
+  "snapshot_content_sha256": "aff69a7919a6813f448a40be5241ff2949c992d6f4bceafc7f5b7d356d8d91c0",
+  "snapshot_id": "snap-sensetime-31421a06db6acc2a63cfe2fc",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.sensetime.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

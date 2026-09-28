@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:bf4ee3af723e379351481511d1f5f65ad4f71562b7fc821e5a0ec7ee7ece69d9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tongcheng-001-0b9a77777348"
+      ],
+      "service_id": "tongcheng",
+      "type": "domain",
+      "value": "ly.com"
+    },
+    {
+      "asset_id": "sha256:11c8f84fed5f851104772e9443e471bf23642139e601f9cbf2c1c577243a9039",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tongcheng-001-0b9a77777348"
+      ],
+      "service_id": "tongcheng",
+      "type": "domain",
+      "value": "www.ly.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "281471d5bc0760c3c3481f02204cfe53dbe2aee259532671677e280d87413a44",
+  "created_at": "2026-09-28T01:04:14.190340+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "ly.com",
+      "www.ly.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "ly.com",
+    "www.ly.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "0b9a7777734899d3795aaf327fc93a8dfb3ced61b25cf7373736096a6422dab5",
+      "domains_extracted": 2,
+      "evidence_id": "EV-tongcheng-001-0b9a77777348",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.ly.com/",
+      "retrieved_at": "1790557422137922652",
+      "service_id": "tongcheng",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.ly.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "dfb6f27feaa620bc10cfed5d01798322707ec6407e7c11d753ec7df5b708f673",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "402c02ea032be16dcfef6316bef3e02ace4cb2e71c7c763d29ebd4903cab85bc",
+  "previous_domain_count": 0,
+  "release_digest": "8926afa783b32fc0d24a826c16fb29f34f2d6e68ae7654b3c7f1491d150a78ea",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "cb29f2c7243836507530eae1f5c599f7c49b0165f37023c806ab0f46ed10cb35",
+  "service_id": "tongcheng",
+  "snapshot_content_sha256": "281471d5bc0760c3c3481f02204cfe53dbe2aee259532671677e280d87413a44",
+  "snapshot_id": "snap-tongcheng-8926afa783b32fc0d24a826c",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.ly.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

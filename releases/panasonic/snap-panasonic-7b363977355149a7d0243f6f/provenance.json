@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:347f28d93bb14fff138e2fe772a4792091fb0ffc53387113be6689d301eb5643",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-panasonic-001-57f85e6b9b42"
+      ],
+      "service_id": "panasonic",
+      "type": "domain",
+      "value": "panasonic.com"
+    },
+    {
+      "asset_id": "sha256:a7e9bed69970fa98716128a582488496d504a4773f14fe68b4ca532675e6ec16",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-panasonic-001-57f85e6b9b42"
+      ],
+      "service_id": "panasonic",
+      "type": "domain",
+      "value": "www.panasonic.com"
+    }
+  ],
+  "content_digest": "444b9808723afc073b2250fa48ea105b810610fdc901918e38c5ed3265c3260f",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "57f85e6b9b42b8f44030eae53eaf84d29a6de57298e7ec601715ea7ee23c725d",
+      "domains_extracted": 2,
+      "evidence_id": "EV-panasonic-001-57f85e6b9b42",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.panasonic.com/",
+      "retrieved_at": "1790557318395530518",
+      "service_id": "panasonic",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.panasonic.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "7aa72adcddaa3e0bc0a12bba81b4bc5bc503b7ef1b1f7c7cc2512db5569f1ee1",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "ba382446c5c4afd2484e8d0641fc2abf3ead46cbd4f97417f402b2477aa014a0",
+  "release_digest": "7b363977355149a7d0243f6f42f7bf66aec5e3f0ee57de8df27ff84927bc987d",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "panasonic",
+  "snapshot_id": "snap-panasonic-7b363977355149a7d0243f6f",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

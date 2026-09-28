@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:6b414b30ddfe5981b84afa9ef3809a9e797462d4c123f28caeb8dccd6f95db96",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-skhynix-001-9a6a3b0a3e68"
+      ],
+      "service_id": "skhynix",
+      "type": "domain",
+      "value": "skhynix.com"
+    },
+    {
+      "asset_id": "sha256:11a9ec34f4a4a68373a159b08dfb5af87f9bf8089816356936bc47292b7c551c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-skhynix-001-9a6a3b0a3e68"
+      ],
+      "service_id": "skhynix",
+      "type": "domain",
+      "value": "www.skhynix.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "cef75fd72416299b333b26e3a44074af36ebf63c0e3f3247b1cde98f5e79072b",
+  "created_at": "2026-09-28T01:04:59.603777+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "skhynix.com",
+      "www.skhynix.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "skhynix.com",
+    "www.skhynix.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "9a6a3b0a3e688e864762aad21507d97c4eb95d92f16e46131ddfd4ee9a721c0f",
+      "domains_extracted": 2,
+      "evidence_id": "EV-skhynix-001-9a6a3b0a3e68",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.skhynix.com/",
+      "retrieved_at": "1790557429954947287",
+      "service_id": "skhynix",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.skhynix.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "1f6cdbfce66db32580c283dea50bb396a579123c9a4c6000b3a0554876ff8123",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "1b2b35a60425df8a4822c3bde34a6b4a8b2b63e4b3c4b98103d6445f99ea1df4",
+  "previous_domain_count": 0,
+  "release_digest": "9c713c945c8629f7aa5b27a5d47aeb435e8a5cdb87f71d1abab09462ef856df7",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "b2a0a9959d5632ccc21457917b5e1c89939bcd34fbd42f97472a2c5f18dedac2",
+  "service_id": "skhynix",
+  "snapshot_content_sha256": "cef75fd72416299b333b26e3a44074af36ebf63c0e3f3247b1cde98f5e79072b",
+  "snapshot_id": "snap-skhynix-9c713c945c8629f7aa5b27a5",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.skhynix.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

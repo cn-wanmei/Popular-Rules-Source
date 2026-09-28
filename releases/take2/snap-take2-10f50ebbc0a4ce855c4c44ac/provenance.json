@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:3bacbd936b15e9d4d335763a27db189fa4b3780a8e8f6bc17235948060913e06",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-take2-001-5a23001fdbd4"
+      ],
+      "service_id": "take2",
+      "type": "domain",
+      "value": "take2games.com"
+    },
+    {
+      "asset_id": "sha256:2e7fc6dd8bff05533061734e565766f1935853a2f5c095c07296114daccb15f8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-take2-001-5a23001fdbd4"
+      ],
+      "service_id": "take2",
+      "type": "domain",
+      "value": "www.take2games.com"
+    }
+  ],
+  "content_digest": "921b0ed5998ad24e57aa59901c31d1289272001e63629174706ba4a840a437b0",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "5a23001fdbd4461014eac77a7c6156f4aaee274d13e34d1fc267708297880bfa",
+      "domains_extracted": 2,
+      "evidence_id": "EV-take2-001-5a23001fdbd4",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.take2games.com/",
+      "retrieved_at": "1790557443887531726",
+      "service_id": "take2",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.take2games.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "bd9b71208bab9b7f226d58bc1335e72df322163d8b170daa0a5c665888e5554c",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "16ff5ce41b8612ae10febff40e04cbf60334399c480608989e61681ca79b7915",
+  "release_digest": "10f50ebbc0a4ce855c4c44ac91e89a582afc39ce0bfbb60f68f6e1becf0ef50b",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "take2",
+  "snapshot_id": "snap-take2-10f50ebbc0a4ce855c4c44ac",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

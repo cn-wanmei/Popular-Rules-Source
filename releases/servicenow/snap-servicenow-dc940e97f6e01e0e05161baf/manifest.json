@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:59fc15dce342bbaa387a0aecf2e2122a44376e07a0c958a8b62635aa0b615db4",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-servicenow-001-c87fb59b35cf"
+      ],
+      "service_id": "servicenow",
+      "type": "domain",
+      "value": "servicenow.com"
+    },
+    {
+      "asset_id": "sha256:8a0f337e2f8fe6e255fd273ded43bed274d6e686b9984910de7aa74fa81c93a0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-servicenow-001-c87fb59b35cf"
+      ],
+      "service_id": "servicenow",
+      "type": "domain",
+      "value": "www.servicenow.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "c7d5de5290c3f432f86a5820880d3053ca43d520fbed23139c5cf438142e5b7c",
+  "created_at": "2026-09-28T01:03:09.803547+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "servicenow.com",
+      "www.servicenow.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "servicenow.com",
+    "www.servicenow.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "c87fb59b35cf955103f331de5e2e8512ed931123b468eba3c4e0b7bdb25c0402",
+      "domains_extracted": 2,
+      "evidence_id": "EV-servicenow-001-c87fb59b35cf",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.servicenow.com/",
+      "retrieved_at": "1790557319091189028",
+      "service_id": "servicenow",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.servicenow.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "e342a1eb3e36696773cb1bd9ae93ebdd027a2e25b28a54f476d01dbe4e9b08c2",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "753d5d2eaa374eabd6265424ec82070c34a1a11140f7e182d7b11a804087a21f",
+  "previous_domain_count": 0,
+  "release_digest": "dc940e97f6e01e0e05161baf754792e24d46261ba876f17627d288fea55d4a83",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "553f4de8b7cb4f3f3d62a1977a6063bd6fae900231ad5411583427362f8328d0",
+  "service_id": "servicenow",
+  "snapshot_content_sha256": "c7d5de5290c3f432f86a5820880d3053ca43d520fbed23139c5cf438142e5b7c",
+  "snapshot_id": "snap-servicenow-dc940e97f6e01e0e05161baf",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.servicenow.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

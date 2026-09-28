@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:c2454b6f61017a1e4c05f5080d8be45ce6c02a4ff62615fc33f50ff6b4f2e264",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-ti-001-1c8ecc2b07d0"
+      ],
+      "service_id": "ti",
+      "type": "domain",
+      "value": "ti.com"
+    },
+    {
+      "asset_id": "sha256:33d3d0a25753ecaff577bbb4195d1792810b433dd3b2291255b131200312b319",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-ti-001-1c8ecc2b07d0"
+      ],
+      "service_id": "ti",
+      "type": "domain",
+      "value": "www.ti.com"
+    }
+  ],
+  "content_digest": "9c5991e28b6075c416542dea0f9081e2e149479bfc6a953a564501681f564691",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "1c8ecc2b07d084faa5c6ea85f1b9cd8221dbf93dd07ee9ae2d6f7d469b550bef",
+      "domains_extracted": 2,
+      "evidence_id": "EV-ti-001-1c8ecc2b07d0",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.ti.com/",
+      "retrieved_at": "1790557349371252978",
+      "service_id": "ti",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.ti.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "def4c3b5a6cae176cfcb03dbf7fb33c9a957fca7cc01452194e2f046d77b113c",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "c5bfc3cf95ddef243616a98d1d6c06df0c5daf3538394b672b7d81c1b42ad29a",
+  "release_digest": "c2efd8979ef9c9fa827d333604dab12e0f81f78565c01711264e2b629f72ee2a",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "ti",
+  "snapshot_id": "snap-ti-c2efd8979ef9c9fa827d3336",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:a521104daa493762ea2b30f26656b938ad308e473aaa442851d6d58e3031a493",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-workday-001-d787aece6602"
+      ],
+      "service_id": "workday",
+      "type": "domain",
+      "value": "workday.com"
+    },
+    {
+      "asset_id": "sha256:7dfff29a3d97698beec3fd2e613d709f13f28e278c3f498263e3d46b822d12ec",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-workday-001-d787aece6602"
+      ],
+      "service_id": "workday",
+      "type": "domain",
+      "value": "www.workday.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "029cd649279665374fd21ef8f4bc2d09402363b14f3d1b492eb4698d1fc85496",
+  "created_at": "2026-09-28T01:03:08.081639+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "workday.com",
+      "www.workday.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "workday.com",
+    "www.workday.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "d787aece660295a55ff7ffa6a361a02ee4443cadbc3e54e15f06f0e429560756",
+      "domains_extracted": 2,
+      "evidence_id": "EV-workday-001-d787aece6602",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.workday.com/",
+      "retrieved_at": "1790557319763445097",
+      "service_id": "workday",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.workday.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "ad1320473a59c7676c2e9b9e6a28831bb46a7321a609603d235e3f3d374bb051",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "3106b6a57f92587d88a5654bb05c2d2823b792d491de0b0ef7eb9c81842f19d7",
+  "previous_domain_count": 0,
+  "release_digest": "34d88e04018a5134c661c17af4e0a5838daaae95a6b4ac3e0224ecab7b88b08c",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "b5aa24a222050da95a9cb44369d01f294d7ddb38617a46b9173a7e63faa35820",
+  "service_id": "workday",
+  "snapshot_content_sha256": "029cd649279665374fd21ef8f4bc2d09402363b14f3d1b492eb4698d1fc85496",
+  "snapshot_id": "snap-workday-34d88e04018a5134c661c17a",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.workday.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:4730719706865b95b2713982d090dd8f8b9085496c7637afedaef6cfb4a223c1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wegame-001-472f0ad7d3ad"
+      ],
+      "service_id": "wegame",
+      "type": "domain",
+      "value": "wegame.com.cn"
+    },
+    {
+      "asset_id": "sha256:906f5fd72e6523c7a94f518b448b8f54afe7638bd710dde4009f87412e78794b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wegame-001-472f0ad7d3ad"
+      ],
+      "service_id": "wegame",
+      "type": "domain",
+      "value": "www.wegame.com.cn"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "bbbb36959aa7b038ff812ffabcc0821518fcc986b7abb3b1f1d3ed44b5643954",
+  "created_at": "2026-09-28T01:03:58.004786+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "wegame.com.cn",
+      "www.wegame.com.cn"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "wegame.com.cn",
+    "www.wegame.com.cn"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "472f0ad7d3ad30f20ed86d5d812e791ee4b88f2938dfa7b7194fa318af3117dd",
+      "domains_extracted": 2,
+      "evidence_id": "EV-wegame-001-472f0ad7d3ad",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.wegame.com.cn/",
+      "retrieved_at": "1790557394469788786",
+      "service_id": "wegame",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.wegame.com.cn/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "3d8bbb75fe0e56a7a4e0fc139ddc47962d664e2162c8da3a8cb62bb3cb793609",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "c1fb19910741b6e195698ab9132e6072fe0b7a77dfdd867f0a0908ad4451475d",
+  "previous_domain_count": 0,
+  "release_digest": "6a0efc1d4cb7e25448a923b04d0e1e69eb617db35070eb8d19351d1c69d2eb2d",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "c25a5285023f90b4f98b7eccf5f51e4be7a61271ad183a7199dc05c47c246a51",
+  "service_id": "wegame",
+  "snapshot_content_sha256": "bbbb36959aa7b038ff812ffabcc0821518fcc986b7abb3b1f1d3ed44b5643954",
+  "snapshot_id": "snap-wegame-6a0efc1d4cb7e25448a923b0",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.wegame.com.cn/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

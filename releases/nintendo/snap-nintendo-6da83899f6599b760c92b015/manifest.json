@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:3b53e1e93596feb02019d339cb305d2646dd80eca7975181bcd99720685e94b3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-nintendo-001-eb08cad5c352"
+      ],
+      "service_id": "nintendo",
+      "type": "domain",
+      "value": "nintendo.com"
+    },
+    {
+      "asset_id": "sha256:9fe75ff5d8383b138309442225186ed7325f44485f01169ed93c7f6569c0b54d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-nintendo-001-eb08cad5c352"
+      ],
+      "service_id": "nintendo",
+      "type": "domain",
+      "value": "www.nintendo.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "ef91968695f17d1ed4f948c3fa060d510c5339358d17179464babd6a562d99a8",
+  "created_at": "2026-09-28T01:01:07.507292+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "nintendo.com",
+      "www.nintendo.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "nintendo.com",
+    "www.nintendo.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "eb08cad5c3524e05def4430b57cfe97fa33f80ab21f3e7e601237edc83a42df2",
+      "domains_extracted": 2,
+      "evidence_id": "EV-nintendo-001-eb08cad5c352",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.nintendo.com/",
+      "retrieved_at": "1790557199242100265",
+      "service_id": "nintendo",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.nintendo.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "107a57cb0cf3fe87b08eb3d0ac6894f0a83289f38fe5c4dfa09b4f81d110f01b",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "dca39173681960ddf1521352ee3a32b56ab14647b81c6e495363d602213ca706",
+  "previous_domain_count": 0,
+  "release_digest": "6da83899f6599b760c92b01522e1c214a60ac53a8abc5dba12abb7dbc4efdb58",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "b8ad274776aae9b938d18dd6bd5a04a70096852a96276cd4093571d6497e9ce9",
+  "service_id": "nintendo",
+  "snapshot_content_sha256": "ef91968695f17d1ed4f948c3fa060d510c5339358d17179464babd6a562d99a8",
+  "snapshot_id": "snap-nintendo-6da83899f6599b760c92b015",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.nintendo.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

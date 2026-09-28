@@ -1,0 +1,32 @@
+{
+  "checksums": {
+    "domains.txt": "ec00d9bc902a5bbdd8a7c1398e61b8eee4bcf1ca17ecc9d6aaf9bdc45db99045",
+    "manifest.json": "2fb909ca89816a7ad8a83a0699f5c54f09e4b8a3673ca255bc9f007203918224",
+    "provenance.json": "a537a4c55d533da9b7b5fbda72338fd3eba8d560b3035150fb793e3ecc3cc869",
+    "snapshot_content.json": "6ac3eeba5b87572b5ea580e2d024f94fbffabb0489a710ced931d036808fdbc2"
+  },
+  "content_digest": "b0fb7996b1fc0c715ab555078d3d2aa76742283048195dd421ae19a2d3f98a02",
+  "created_at": "2026-09-28T01:05:08.663881+00:00",
+  "evidence_digest": "abe01334f0e35da540ce083c8f01c3a60675d44701799467bdc57c01b7d5d5c7",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "86562f11f9f086c3f3a15c600a4f0b03e8d72b8a46e45d5c982162c219854f58",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "f5f9d68b1213e64622f3527305cff209f784e18fb52d9ff1f9449b1b6acf65cd",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "tuya",
+  "snapshot_id": "snap-tuya-f5f9d68b1213e64622f35273",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 0.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:32222149af3da0482718c47bea3eb5452ad84f45aec19b4b4eed3d26b0ef0f41",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-umc-001-fea96f56ef7f"
+      ],
+      "service_id": "umc",
+      "type": "domain",
+      "value": "umc.com"
+    },
+    {
+      "asset_id": "sha256:fdb6d437f025028e9ecaab0582f203ad9fa4fa479da0b59b57a7b81d4f11432f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-umc-001-fea96f56ef7f"
+      ],
+      "service_id": "umc",
+      "type": "domain",
+      "value": "www.umc.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "c867f778256a3edd890dea8f34324f64f2288773b230221a50c35ea3d8b2190c",
+  "created_at": "2026-09-28T01:04:11.543942+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "umc.com",
+      "www.umc.com"
+    ],
+    "added_count": 2,
+    "current_count": 2,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "umc.com",
+    "www.umc.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "fea96f56ef7fe00f898e7e6177163587c15f780ff7ec30c6963694b550c8f4bf",
+      "domains_extracted": 2,
+      "evidence_id": "EV-umc-001-fea96f56ef7f",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.umc.com/",
+      "retrieved_at": "1790557391712228510",
+      "service_id": "umc",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.umc.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "7d5bc672846b97b8c905493be4cd27b395622b7ff29cec4435d0b20b54f78c0a",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "cd30c6a04556b3fb6527b11f3fa1568b7c2ce35f5b4c955a109a832ceef0e84e",
+  "previous_domain_count": 0,
+  "release_digest": "827b766e6b65335456d3c796299fdc6058e5c82ec109ce15d23ba41f94c19b3c",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "2d26d7bb301f0b2dd6cc4462e97e0f735d1b508575132f614512aa98fb22d4bc",
+  "service_id": "umc",
+  "snapshot_content_sha256": "c867f778256a3edd890dea8f34324f64f2288773b230221a50c35ea3d8b2190c",
+  "snapshot_id": "snap-umc-827b766e6b65335456d3c796",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.umc.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}
