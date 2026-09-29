@@ -81,44 +81,7 @@
       "value": "www.tmall.com"
     }
   ],
-  "change_assessment": {
-    "growth_ratio": 1.0,
-    "removal_ratio": 0.0,
-    "status": "OK"
-  },
   "content_digest": "2c348558c0e0efb2db76cbc507fca33d0cab4d8efeb564e62e9b051208a90fbf",
-  "created_at": "2026-09-29T08:44:01.552385+00:00",
-  "domain_count": 8,
-  "domain_diff": {
-    "added": [],
-    "added_count": 0,
-    "current_count": 8,
-    "previous_count": 8,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [
-      "book.tmall.com",
-      "car.tmall.com",
-      "chaoshi.tmall.com",
-      "detail.tmall.com",
-      "fragment.tmall.com",
-      "jstracker.www.tmall.com",
-      "tmall.com",
-      "www.tmall.com"
-    ],
-    "unchanged_count": 8
-  },
-  "domains": [
-    "book.tmall.com",
-    "car.tmall.com",
-    "chaoshi.tmall.com",
-    "detail.tmall.com",
-    "fragment.tmall.com",
-    "jstracker.www.tmall.com",
-    "tmall.com",
-    "www.tmall.com"
-  ],
-  "errors": [],
   "evidence": [
     {
       "authority": "official",
@@ -139,36 +102,16 @@
   ],
   "evidence_digest": "85b43b48c4a074a76311960ef63c170b5c9d6c249419caaf012e2541efe9d5d2",
   "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
-  "generator_version": "3.1.0",
-  "last_known_good": false,
-  "official_extracted": 8,
-  "official_source_count": 1,
-  "parser_version": "domain-extractor-v4",
   "policy_digest": "b4b1b408ca2bfe03e2af68103ed2e3dc598350120217d287733a119f9c7f82aa",
-  "previous_domain_count": 8,
   "release_digest": "b4b26491ccb7c58aed52639faf5a6486516a383ad5f7325eb7cc74537c08c0ff",
   "release_identity_version": "2",
-  "release_reasons": [],
-  "release_state": "CANDIDATE",
-  "schema": "source_snapshot_v2",
-  "service_config_digest": "ab6c0e2ee6c27b769daca221f917928fef85158b1d9f98e3b963bb52bf223df2",
+  "schema": "source_provenance_v3",
   "service_id": "tmall",
-  "snapshot_content_sha256": "2c348558c0e0efb2db76cbc507fca33d0cab4d8efeb564e62e9b051208a90fbf",
   "snapshot_id": "snap-tmall-b4b26491ccb7c58aed52639f",
-  "source_bindings": [
-    {
-      "adapter": null,
-      "url": "https://www.tmall.com/"
-    }
-  ],
-  "source_count": 1,
   "source_policy": {
     "allowed_authorities": [
       "official"
     ],
     "official_required": true
-  },
-  "trusted_extracted": 8,
-  "unverified_candidate_count": 0,
-  "unverified_candidate_domains": []
+  }
 }
