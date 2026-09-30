@@ -31,34 +31,7 @@
       "value": "report.meeting.tencent.com"
     }
   ],
-  "change_assessment": {
-    "growth_ratio": 1.0,
-    "removal_ratio": 0.0,
-    "status": "OK"
-  },
   "content_digest": "6cbf32fa3f85f66f1fe79516bcef6650ed76c965c9c23d9a5148c5d12ecb3039",
-  "created_at": "2026-09-30T08:44:27.272938+00:00",
-  "domain_count": 3,
-  "domain_diff": {
-    "added": [],
-    "added_count": 0,
-    "current_count": 3,
-    "previous_count": 3,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [
-      "cdn.meeting.tencent.com",
-      "meeting.tencent.com",
-      "report.meeting.tencent.com"
-    ],
-    "unchanged_count": 3
-  },
-  "domains": [
-    "cdn.meeting.tencent.com",
-    "meeting.tencent.com",
-    "report.meeting.tencent.com"
-  ],
-  "errors": [],
   "evidence": [
     {
       "authority": "official",
@@ -79,36 +52,16 @@
   ],
   "evidence_digest": "8df87d893cc61a6cc4a82d43b68e1caaf267433cc1543fe28fea897258fe33dd",
   "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
-  "generator_version": "3.1.0",
-  "last_known_good": false,
-  "official_extracted": 3,
-  "official_source_count": 1,
-  "parser_version": "domain-extractor-v4",
   "policy_digest": "3007582d5d95028c4fc41eaaa7a0e1f42565b05285b580293711f683217c0a1d",
-  "previous_domain_count": 3,
   "release_digest": "e9fef1de6c2a47ad302c8a32e79035d34e70b0a33bba8b9e9ef8c6d4a946863c",
   "release_identity_version": "2",
-  "release_reasons": [],
-  "release_state": "CANDIDATE",
-  "schema": "source_snapshot_v2",
-  "service_config_digest": "5fc6971a499bfe846bb85c6a5cc86b75a48285554dd13fe4dade5ad6d4020655",
+  "schema": "source_provenance_v3",
   "service_id": "tencentmeeting",
-  "snapshot_content_sha256": "6cbf32fa3f85f66f1fe79516bcef6650ed76c965c9c23d9a5148c5d12ecb3039",
   "snapshot_id": "snap-tencentmeeting-e9fef1de6c2a47ad302c8a32",
-  "source_bindings": [
-    {
-      "adapter": null,
-      "url": "https://meeting.tencent.com/"
-    }
-  ],
-  "source_count": 1,
   "source_policy": {
     "allowed_authorities": [
       "official"
     ],
     "official_required": true
-  },
-  "trusted_extracted": 3,
-  "unverified_candidate_count": 0,
-  "unverified_candidate_domains": []
+  }
 }
