@@ -32,9 +32,9 @@ Source lifecycle 只描述 Source 自身证据/Release 资格，不等同于 Col
 | dingding | production |
 | qqmail | production |
 | qqmusic | production |
-| taobao | verified → awaiting Collection canary |
+| taobao | production |
 | tencentcloud | production |
-| tmall | verified → awaiting Collection canary |
+| tmall | production |
 
 ## Gap Engine
 
