@@ -38,20 +38,20 @@ services:
     reason: active_immutable_collection_binding
     last_transition: '2026-09-21'
   taobao:
-    state: verified
+    state: production
     enabled: true
-    reason: official_evidence_verified_awaiting_canary
-    last_transition: '2026-09-21'
+    reason: collection_production_parity_2026-10-01
+    last_transition: '2026-10-01'
   tencentcloud:
     state: production
     enabled: true
     reason: active_immutable_collection_binding
     last_transition: '2026-09-21'
   tmall:
-    state: verified
+    state: canary
     enabled: true
-    reason: official_evidence_verified_awaiting_canary
-    last_transition: '2026-09-21'
+    reason: collection_canary_armed_2026-10-01
+    last_transition: '2026-10-01'
   appledev:
     state: verified
     enabled: true
