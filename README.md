@@ -407,3 +407,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | zhipu | **REVIEW** | CANDIDATE | 3 | snap-zhipu-b777d801e25dcde103be6414 |
 | zte | **REVIEW** | CANDIDATE | 2 | snap-zte-95b5ec6396a3b58bdced15f1 |
 <!-- SOURCE_STATUS:END -->
+
+## Documentation
+
+- [docs/INDEX.md](docs/INDEX.md) — entry index; lifecycle SSOT is config/source_canary_state.yaml
