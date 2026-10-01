@@ -2440,10 +2440,10 @@
     },
     "tmall": {
       "blockers": [],
-      "declared_state": "canary",
+      "declared_state": "production",
       "domain_count": 8,
       "enabled": true,
-      "production_activated": false,
+      "production_activated": true,
       "release_digest": "17de7049e2f7bf67cb88c7859d6d071375e89173e148cbceee484925843f8a90",
       "snapshot_id": "snap-tmall-17de7049e2f7bf67cb88c785",
       "verified": true

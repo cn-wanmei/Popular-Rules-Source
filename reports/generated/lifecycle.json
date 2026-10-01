@@ -2927,7 +2927,7 @@
       "release_digest": "17de7049e2f7bf67cb88c7859d6d071375e89173e148cbceee484925843f8a90",
       "release_state": "CANDIDATE",
       "snapshot_id": "snap-tmall-17de7049e2f7bf67cb88c785",
-      "state": "canary"
+      "state": "production"
     },
     "tongcheng": {
       "content_digest": "281471d5bc0760c3c3481f02204cfe53dbe2aee259532671677e280d87413a44",

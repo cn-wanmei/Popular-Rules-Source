@@ -367,7 +367,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | testflight | **VERIFIED** | CANDIDATE | 2 | snap-testflight-922accff387fa39f172c3c41 |
 | ti | **REVIEW** | CANDIDATE | 2 | snap-ti-c2efd8979ef9c9fa827d3336 |
 | tiktok | **VERIFIED** | CANDIDATE | 29 | snap-tiktok-d7c408670d9f72fda616937c |
-| tmall | **CANARY** | CANDIDATE | 8 | snap-tmall-17de7049e2f7bf67cb88c785 |
+| tmall | **PRODUCTION** | CANDIDATE | 8 | snap-tmall-17de7049e2f7bf67cb88c785 |
 | tongcheng | **REVIEW** | CANDIDATE | 2 | snap-tongcheng-8926afa783b32fc0d24a826c |
 | tonghuashun | **REVIEW** | CANDIDATE | 2 | snap-tonghuashun-ef5a12156bca60bed5aeaa00 |
 | toutiao | **REVIEW** | CANDIDATE | 2 | snap-toutiao-583bb5fa98024c20171de812 |
