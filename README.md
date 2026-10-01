@@ -355,7 +355,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | synopsys | **REVIEW** | CANDIDATE | 2 | snap-synopsys-be7ea0d5d5e8875d848a88ca |
 | t3go | **REVIEW** | CANDIDATE | 2 | snap-t3go-fa13548a022580221f9418af |
 | take2 | **REVIEW** | CANDIDATE | 2 | snap-take2-10f50ebbc0a4ce855c4c44ac |
-| taobao | **VERIFIED** | REVIEW | 1 | snap-taobao-834d549e8982036ce1438963 |
+| taobao | **PRODUCTION** | REVIEW | 1 | snap-taobao-834d549e8982036ce1438963 |
 | teams | **VERIFIED** | CANDIDATE | 4 | snap-teams-b7790f52024c56ece9273ef3 |
 | telegram | **VERIFIED** | CANDIDATE | 24 | snap-telegram-ae2063026508ed946661df66 |
 | temu | **REVIEW** | CANDIDATE | 2 | snap-temu-755cb28a74f87d97853dc205 |
@@ -367,7 +367,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | testflight | **VERIFIED** | CANDIDATE | 2 | snap-testflight-922accff387fa39f172c3c41 |
 | ti | **REVIEW** | CANDIDATE | 2 | snap-ti-c2efd8979ef9c9fa827d3336 |
 | tiktok | **VERIFIED** | CANDIDATE | 29 | snap-tiktok-d7c408670d9f72fda616937c |
-| tmall | **VERIFIED** | CANDIDATE | 8 | snap-tmall-17de7049e2f7bf67cb88c785 |
+| tmall | **CANARY** | CANDIDATE | 8 | snap-tmall-17de7049e2f7bf67cb88c785 |
 | tongcheng | **REVIEW** | CANDIDATE | 2 | snap-tongcheng-8926afa783b32fc0d24a826c |
 | tonghuashun | **REVIEW** | CANDIDATE | 2 | snap-tonghuashun-ef5a12156bca60bed5aeaa00 |
 | toutiao | **REVIEW** | CANDIDATE | 2 | snap-toutiao-583bb5fa98024c20171de812 |

@@ -2317,9 +2317,10 @@
     },
     "taobao": {
       "blockers": [
-        "release_state:REVIEW"
+        "release_state:REVIEW",
+        "declared_production_without_verified_evidence"
       ],
-      "declared_state": "verified",
+      "declared_state": "production",
       "domain_count": 1,
       "enabled": true,
       "production_activated": false,
@@ -2439,7 +2440,7 @@
     },
     "tmall": {
       "blockers": [],
-      "declared_state": "verified",
+      "declared_state": "canary",
       "domain_count": 8,
       "enabled": true,
       "production_activated": false,
@@ -2829,5 +2830,7 @@
     }
   },
   "source_of_truth": "config/source_canary_state.yaml",
-  "state_drift": []
+  "state_drift": [
+    "taobao"
+  ]
 }
