@@ -6,3 +6,4 @@
 - Gap / generate / release flows: see README and `source_engine/`
 
 Date-stamped audit and phase completion notes under `docs/` are historical. Operational lifecycle state is only authoritative in `config/source_canary_state.yaml`.
+- [archive/status/](archive/status/) — historical audit/phase notes
