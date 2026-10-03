@@ -1,0 +1,19 @@
+# Weekly funnel batch A — 2026-10-03
+# Apply: python scripts/restore_canary_weekly_batch.py
+# Then commit config/source_canary_state.yaml
+schema: funnel_batch_v1
+date: '2026-10-03'
+from_state: verified
+to_state: canary
+reason: weekly_funnel_quota_2026-10-03
+services:
+  - appledev
+  - appstore
+  - icloud
+  - applemusic
+  - applemedia
+  - azure
+  - openai
+  - claude
+note: >
+  Source canary is not Collection production. Next: Durable seal + Collection Auto Handoff.
