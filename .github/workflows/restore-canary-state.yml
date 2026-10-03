@@ -1,0 +1,53 @@
+name: Emergency Restore Canary State
+
+# One-shot: restore full source_canary_state.yaml from known-good commit
+# and apply weekly VERIFIED→canary batch. Run once from Actions UI.
+
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: restore-canary-state
+  cancel-in-progress: false
+
+jobs:
+  restore:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          fetch-depth: 1
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: "3.12"
+
+      - name: Restore full canary SSOT + weekly funnel batch
+        run: |
+          set -euo pipefail
+          python scripts/restore_canary_weekly_batch.py
+          test -s config/source_canary_state.yaml
+          python - <<'PY'
+          from pathlib import Path
+          t = Path("config/source_canary_state.yaml").read_text(encoding="utf-8")
+          assert t.startswith("version: 4"), t[:40]
+          assert t.count("state: canary") >= 8
+          assert len(t) > 20000
+          print("canary restore gate: PASS size", len(t))
+          PY
+
+      - name: Commit and push
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add config/source_canary_state.yaml
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "ops(A): restore full source_canary_state + weekly VERIFIED→canary x8"
+          git push origin HEAD:main
