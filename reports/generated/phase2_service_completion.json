@@ -7,8 +7,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": true,
-      "release_digest": "2a81f3291cfc663185f9c3b31613ca2d5d05a05dcef13031bc670b6d35dd1c25",
-      "snapshot_id": "snap-1688-2a81f3291cfc663185f9c3b3",
+      "release_digest": "3587c10c0f3fcc249b8aaa3b9128b236fd9f8e160536a7b55650c5c3e7c4b0b5",
+      "snapshot_id": "snap-1688-3587c10c0f3fcc249b8aaa3b",
       "verified": true
     },
     "37games": {
@@ -163,7 +163,7 @@
     },
     "appledev": {
       "blockers": [],
-      "declared_state": "verified",
+      "declared_state": "canary",
       "domain_count": 38,
       "enabled": true,
       "production_activated": false,
@@ -183,7 +183,7 @@
     },
     "applemedia": {
       "blockers": [],
-      "declared_state": "verified",
+      "declared_state": "canary",
       "domain_count": 52,
       "enabled": true,
       "production_activated": false,
@@ -193,7 +193,7 @@
     },
     "applemusic": {
       "blockers": [],
-      "declared_state": "verified",
+      "declared_state": "canary",
       "domain_count": 9,
       "enabled": true,
       "production_activated": false,
@@ -233,7 +233,7 @@
     },
     "appstore": {
       "blockers": [],
-      "declared_state": "verified",
+      "declared_state": "canary",
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
@@ -323,7 +323,7 @@
     },
     "azure": {
       "blockers": [],
-      "declared_state": "verified",
+      "declared_state": "canary",
       "domain_count": 149,
       "enabled": true,
       "production_activated": false,
@@ -487,8 +487,8 @@
       "domain_count": 1,
       "enabled": true,
       "production_activated": true,
-      "release_digest": "c0290d75f0541c4483e10868a06a9d77ff0654d41bb046b6e27fc961ec58df3f",
-      "snapshot_id": "snap-cainiao-c0290d75f0541c4483e10868",
+      "release_digest": "10391cdc0a5bd5e771539250867a2915ad0472e1ba36b34dad34cda21f97d235",
+      "snapshot_id": "snap-cainiao-10391cdc0a5bd5e771539250",
       "verified": true
     },
     "cambricon": {
@@ -543,7 +543,7 @@
     },
     "claude": {
       "blockers": [],
-      "declared_state": "verified",
+      "declared_state": "canary",
       "domain_count": 3,
       "enabled": true,
       "production_activated": false,
@@ -709,8 +709,8 @@
       "domain_count": 4,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "b99269d8d9333818f4d0b6fcc33fd3e2b61afd049f570a14950288a2b9f56365",
-      "snapshot_id": "snap-doubao-b99269d8d9333818f4d0b6fc",
+      "release_digest": "96310271214be85f562da5d303de4bcb92a3f2dc30323f79ce253ab0224e7418",
+      "snapshot_id": "snap-doubao-96310271214be85f562da5d3",
       "verified": true
     },
     "douyin": {
@@ -819,8 +819,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "28f8cc274287265fdc63cd405e187f03490a297f748165ea4125f1767b1dca1c",
-      "snapshot_id": "snap-firebase-28f8cc274287265fdc63cd40",
+      "release_digest": "38ed69773957a519be17b28857919129531cb3f8a3bf2b62fee731a173c7e9a5",
+      "snapshot_id": "snap-firebase-38ed69773957a519be17b288",
       "verified": true
     },
     "fliggy": {
@@ -1099,8 +1099,8 @@
       "domain_count": 5,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "ff0473979e83a3921bd6307deea647a863572be27f3c1f6a94b7d62af37e3273",
-      "snapshot_id": "snap-googlecloud-ff0473979e83a3921bd6307d",
+      "release_digest": "8ad98056fbfffb293126e522bad24af55c86d861f0691f31e9493c277fdcbf6c",
+      "snapshot_id": "snap-googlecloud-8ad98056fbfffb293126e522",
       "verified": true
     },
     "googledrive": {
@@ -1295,7 +1295,7 @@
     },
     "icloud": {
       "blockers": [],
-      "declared_state": "verified",
+      "declared_state": "canary",
       "domain_count": 58,
       "enabled": true,
       "production_activated": false,
@@ -1835,7 +1835,7 @@
     },
     "openai": {
       "blockers": [],
-      "declared_state": "verified",
+      "declared_state": "canary",
       "domain_count": 31,
       "enabled": true,
       "production_activated": false,
@@ -2324,8 +2324,8 @@
       "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "725433913756bb7956c8116921887811eb571a8f5574a770d364c2c25ee45cb8",
-      "snapshot_id": "snap-taobao-725433913756bb7956c81169",
+      "release_digest": "92a4936762ecb3418717e0487b97ba492b81ebf26987c855dd30b3dec3e6e4cc",
+      "snapshot_id": "snap-taobao-92a4936762ecb3418717e048",
       "verified": false
     },
     "teams": {
@@ -2364,8 +2364,8 @@
       "domain_count": 1,
       "enabled": true,
       "production_activated": true,
-      "release_digest": "94655f7dc66706c08300f540c038006b4e8b6871c2e8bee1bdeb17a6b2c0c89c",
-      "snapshot_id": "snap-tencentcloud-94655f7dc66706c08300f540",
+      "release_digest": "b717ee7371731e47d1ebf88106a9846f3a7b599742e0cd6077f725dc04c74965",
+      "snapshot_id": "snap-tencentcloud-b717ee7371731e47d1ebf881",
       "verified": true
     },
     "tencentdocs": {
@@ -2444,8 +2444,8 @@
       "domain_count": 8,
       "enabled": true,
       "production_activated": true,
-      "release_digest": "504bac1c85d3c0a05c468ab25966976817be5c4922cbe9d86a46cd67f3421d39",
-      "snapshot_id": "snap-tmall-504bac1c85d3c0a05c468ab2",
+      "release_digest": "a4647fcd8ea05f18e822b0be592db2b970a15ab79ff0c57754e8197a69889eca",
+      "snapshot_id": "snap-tmall-a4647fcd8ea05f18e822b0be",
       "verified": true
     },
     "tongcheng": {
@@ -2604,8 +2604,8 @@
       "domain_count": 3,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "0f7bf88c7a1190f5bb9ccb3a73444367b40c1bb3ab1691c6e2020e570902e1f8",
-      "snapshot_id": "snap-wecom-0f7bf88c7a1190f5bb9ccb3a",
+      "release_digest": "131baa862ebf4d21f5ea753f6188d915bce5c5c1b7f609ef3f0d5c69921a19ad",
+      "snapshot_id": "snap-wecom-131baa862ebf4d21f5ea753f",
       "verified": true
     },
     "wegame": {
