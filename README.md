@@ -124,7 +124,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 
 | Service | Lifecycle | Release | Domains | Snapshot |
 |---|---|---|---:|---|
-| 1688 | **PRODUCTION** | CANDIDATE | 2 | snap-1688-3587c10c0f3fcc249b8aaa3b |
+| 1688 | **PRODUCTION** | CANDIDATE | 2 | snap-1688-bc1c93a66fbada3ea33548c9 |
 | 37games | **REVIEW** | CANDIDATE | 2 | snap-37games-8a465d1cde5472566a14998b |
 | adobe-firefly | **REVIEW** | CANDIDATE | 1 | snap-adobe-firefly-278e98581b6f8e62e261931a |
 | adobe-fonts | **REVIEW** | CANDIDATE | 1 | snap-adobe-fonts-0cfd6c78ffb842903de0152c |
@@ -172,7 +172,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | broadcom | **REVIEW** | CANDIDATE | 2 | snap-broadcom-ac0fc70c68986ce443e28b2e |
 | byd | **REVIEW** | CANDIDATE | 2 | snap-byd-372c75d54b5df2d6a71260d7 |
 | cadence | **REVIEW** | CANDIDATE | 2 | snap-cadence-bf842312e32dcf5a9ebf321b |
-| cainiao | **PRODUCTION** | CANDIDATE | 1 | snap-cainiao-10391cdc0a5bd5e771539250 |
+| cainiao | **PRODUCTION** | CANDIDATE | 1 | snap-cainiao-bbde03296673910579797479 |
 | cambricon | **REVIEW** | CANDIDATE | 2 | snap-cambricon-d21f4caa20bc6d2bb1874893 |
 | caocao | **REVIEW** | CANDIDATE | 2 | snap-caocao-3bbf9c257b72eeb1e63eeb54 |
 | capcut | **REVIEW** | CANDIDATE | 2 | snap-capcut-467bf7a873d3f21cf1d2dd12 |
@@ -194,7 +194,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | dingding | **PRODUCTION** | CANDIDATE | 3 | snap-dingding-956138ae5d6d1161469979e0 |
 | discord | **VERIFIED** | CANDIDATE | 28 | snap-discord-e5a47c19f5c45c25c613f6f6 |
 | dji | **REVIEW** | CANDIDATE | 2 | snap-dji-91217fbce3ff00d9c9cf090e |
-| doubao | **REVIEW** | CANDIDATE | 4 | snap-doubao-96310271214be85f562da5d3 |
+| doubao | **REVIEW** | CANDIDATE | 4 | snap-doubao-1b787afad4344fff132ae18f |
 | douyin | **VERIFIED** | CANDIDATE | 13 | snap-douyin-3780b3c2b6ee1a9abdccf245 |
 | dreame | **REVIEW** | CANDIDATE | 2 | snap-dreame-bed5113970f4051c281f1664 |
 | ea | **REVIEW** | CANDIDATE | 2 | snap-ea-e0d2eb677f682743dd48cf3d |
@@ -205,7 +205,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | ericsson | **REVIEW** | CANDIDATE | 2 | snap-ericsson-75e2c108606fe72e56369e2a |
 | feishu | **VERIFIED** | CANDIDATE | 43 | snap-feishu-dd8e2cd8a4ac32fa8b355226 |
 | findmy | **VERIFIED** | CANDIDATE | 3 | snap-findmy-5dbfa7a125855e4ee11e3daf |
-| firebase | **REVIEW** | CANDIDATE | 2 | snap-firebase-38ed69773957a519be17b288 |
+| firebase | **REVIEW** | CANDIDATE | 2 | snap-firebase-210bebebead3cc7fb35a0232 |
 | fliggy | **REVIEW** | CANDIDATE | 2 | snap-fliggy-1d25258037024c0da23217a3 |
 | fortinet | **REVIEW** | CANDIDATE | 2 | snap-fortinet-a088ad8c0dcb6f363911a3ab |
 | fujitsu | **REVIEW** | CANDIDATE | 2 | snap-fujitsu-ce2d7e601c70496da9f4590f |
@@ -233,7 +233,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | google-vids | **REVIEW** | CANDIDATE | 1 | snap-google-vids-e595a5032f87e5544cb3874e |
 | google-voice | **REVIEW** | CANDIDATE | 1 | snap-google-voice-d823134be8c59031aa5055d8 |
 | google-workspace-studio | **REVIEW** | CANDIDATE | 1 | snap-google-workspace-studio-a936fad5df9362c828fb9d68 |
-| googlecloud | **REVIEW** | CANDIDATE | 5 | snap-googlecloud-8ad98056fbfffb293126e522 |
+| googlecloud | **REVIEW** | CANDIDATE | 5 | snap-googlecloud-40d2bed69ed4029d16723ddb |
 | googledrive | **VERIFIED** | CANDIDATE | 4 | snap-googledrive-a3f033b61b8bc0b99e39f7ca |
 | googlefcm | **REVIEW** | CANDIDATE | 13 | snap-googlefcm-d2649b705a9906c0296cdbaf |
 | grab | **REVIEW** | CANDIDATE | 2 | snap-grab-df7ca87a00ca3902947bf0e4 |
@@ -355,11 +355,11 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | synopsys | **REVIEW** | CANDIDATE | 2 | snap-synopsys-be7ea0d5d5e8875d848a88ca |
 | t3go | **REVIEW** | CANDIDATE | 2 | snap-t3go-fa13548a022580221f9418af |
 | take2 | **REVIEW** | CANDIDATE | 2 | snap-take2-10f50ebbc0a4ce855c4c44ac |
-| taobao | **PRODUCTION** | REVIEW | 1 | snap-taobao-92a4936762ecb3418717e048 |
+| taobao | **PRODUCTION** | REVIEW | 1 | snap-taobao-b679c89f6050058452fb527d |
 | teams | **VERIFIED** | CANDIDATE | 4 | snap-teams-b7790f52024c56ece9273ef3 |
 | telegram | **VERIFIED** | CANDIDATE | 24 | snap-telegram-ae2063026508ed946661df66 |
 | temu | **REVIEW** | CANDIDATE | 2 | snap-temu-755cb28a74f87d97853dc205 |
-| tencentcloud | **PRODUCTION** | CANDIDATE | 1 | snap-tencentcloud-b717ee7371731e47d1ebf881 |
+| tencentcloud | **PRODUCTION** | CANDIDATE | 1 | snap-tencentcloud-335678ce41e28b49b2ee318f |
 | tencentdocs | **REVIEW** | CANDIDATE | 1 | snap-tencentdocs-7e4c7db2344d088c45437ab1 |
 | tencentmeeting | **REVIEW** | CANDIDATE | 3 | snap-tencentmeeting-e9fef1de6c2a47ad302c8a32 |
 | tencentvideo | **REVIEW** | CANDIDATE | 17 | snap-tencentvideo-0bbc97349dbece8ea2628b3f |
@@ -367,7 +367,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | testflight | **VERIFIED** | CANDIDATE | 2 | snap-testflight-922accff387fa39f172c3c41 |
 | ti | **REVIEW** | CANDIDATE | 2 | snap-ti-c2efd8979ef9c9fa827d3336 |
 | tiktok | **VERIFIED** | CANDIDATE | 29 | snap-tiktok-d7c408670d9f72fda616937c |
-| tmall | **PRODUCTION** | CANDIDATE | 8 | snap-tmall-a4647fcd8ea05f18e822b0be |
+| tmall | **PRODUCTION** | CANDIDATE | 8 | snap-tmall-a09f86348832602048000a03 |
 | tongcheng | **REVIEW** | CANDIDATE | 2 | snap-tongcheng-8926afa783b32fc0d24a826c |
 | tonghuashun | **REVIEW** | CANDIDATE | 2 | snap-tonghuashun-ef5a12156bca60bed5aeaa00 |
 | toutiao | **REVIEW** | CANDIDATE | 2 | snap-toutiao-583bb5fa98024c20171de812 |
@@ -383,7 +383,7 @@ Popular-Rules-Collection 是唯一最终发布仓库。Source 只提供 Suppleme
 | wangsu | **REVIEW** | CANDIDATE | 2 | snap-wangsu-36acbd26b22f7d205cc839e4 |
 | wanmei | **REVIEW** | CANDIDATE | 2 | snap-wanmei-3130e157694aecca69c95383 |
 | wechat | **VERIFIED** | CANDIDATE | 28 | snap-wechat-84a8d3ac3ff682614f4d7470 |
-| wecom | **REVIEW** | CANDIDATE | 3 | snap-wecom-131baa862ebf4d21f5ea753f |
+| wecom | **REVIEW** | CANDIDATE | 3 | snap-wecom-de2ff7409dfd7cb5bf777c7b |
 | wegame | **REVIEW** | CANDIDATE | 2 | snap-wegame-6a0efc1d4cb7e25448a923b0 |
 | wetv | **REVIEW** | CANDIDATE | 2 | snap-wetv-46ca72cdff558797584c76c6 |
 | workday | **REVIEW** | CANDIDATE | 2 | snap-workday-34d88e04018a5134c661c17a |
