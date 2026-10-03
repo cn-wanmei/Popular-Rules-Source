@@ -39,8 +39,7 @@ jobs:
           PY
       - name: Create or hand off refresh PR
         id: handoff
-        # handoff failure must surface (P1-08)
-          continue-on-error: false
+        # P1-08: handoff failure must surface (default continue-on-error: false)
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
