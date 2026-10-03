@@ -1,0 +1,67 @@
+# Durable release processing policy (Source)
+#
+# Terminology (do not collapse into "8-service"):
+# - production_cohort: services in lifecycle production + Collection binding
+# - durable_processing_batch: services included in Durable Source Bridge default matrix
+# - weekly_promotion_quota: Collection canary intake (see Collection funnel docs)
+# - collection_active_binding: sources/immutable_registry on Collection
+#
+# This file is operational policy, not lifecycle SSOT.
+# Lifecycle SSOT remains config/source_canary_state.yaml.
+
+schema: popular_rules_source_durable_release_policy_v1
+
+default_processing_batch:
+  - mediatek
+  - mercadolibre
+  - micron
+  - mihome
+  - nec
+  - netapp
+  - netflix
+  - nintendo
+  - nokia
+  - paloalto
+  - panasonic
+  - perfectworld
+  - pingan
+  - qqdoc
+  - rakuten
+  - roborock
+  - schneider
+  - sensetime
+  - servicenow
+  - shopee
+  - siemens
+  - skhynix
+  - starlink
+  - synopsys
+  - t3go
+  - take2
+  - ti
+  - tongcheng
+  - tonghuashun
+  - transsion
+  - tuya
+  - umc
+  - unity
+  - wangsu
+  - wegame
+  - workday
+  - woyun
+  - wuba
+  - xgimi
+  - yi
+  - zhaopin
+
+# Historical production cohort label (Collection-bound); not the durable matrix size.
+production_cohort_note: >
+  Production cohort size is defined by lifecycle SSOT + Collection immutable
+  bindings, not by the durable bridge matrix length.
+
+selective_execution:
+  workflow: durable-source-bridge.yml
+  input: services
+  modes:
+    empty_or_default: use default_processing_batch
+    comma_list: process only listed service ids

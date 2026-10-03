@@ -13,9 +13,9 @@ on:
   workflow_dispatch:
     inputs:
       services:
-        description: "Reserved for future selective execution (G5: will drive matrix)"
+        description: "Selective execution: comma-separated service ids, or leave empty for default_processing_batch"
         required: false
-        default: "1688,cainiao,dingding,qqmail,qqmusic,taobao,tencentcloud,tmall"
+        default: ""
         type: string
 
 permissions:
@@ -25,21 +25,80 @@ env:
   PYTHON_VERSION: "3.12"
 
 jobs:
+  plan:
+    name: Plan matrix
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+      service_count: ${{ steps.plan.outputs.service_count }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Resolve service matrix
+        id: plan
+        env:
+          SERVICES_INPUT: ${{ github.event.inputs.services || '' }}
+        run: |
+          python - <<'PY'
+          import json, os, re
+          from pathlib import Path
+
+          try:
+              import yaml
+          except ImportError:
+              import subprocess, sys
+              subprocess.check_call([sys.executable, "-m", "pip", "install", "PyYAML==6.0.2"])
+              import yaml
+
+          policy_path = Path("config/durable_release_policy.yaml")
+          default = []
+          if policy_path.is_file():
+              policy = yaml.safe_load(policy_path.read_text(encoding="utf-8")) or {}
+              default = list(policy.get("default_processing_batch") or [])
+
+          if not default:
+              raise SystemExit("default_processing_batch missing in durable_release_policy.yaml")
+
+          raw = (os.environ.get("SERVICES_INPUT") or "").strip()
+          if not raw or raw.lower() in ("default", "batch", "all-batch", "all"):
+              services = default
+              mode = "default_processing_batch"
+          else:
+              services = [s.strip() for s in re.split(r"[,;\s]+", raw) if s.strip()]
+              mode = "selective"
+
+          # de-dupe preserve order
+          seen = set()
+          ordered = []
+          for s in services:
+              if s not in seen:
+                  seen.add(s)
+                  ordered.append(s)
+
+          if not ordered:
+              raise SystemExit("empty service matrix")
+
+          matrix = {"service": ordered}
+          # GITHUB_OUTPUT needs single-line; compact JSON is fine for fromJSON
+          out = os.environ["GITHUB_OUTPUT"]
+          with open(out, "a", encoding="utf-8") as fh:
+              fh.write(f"matrix={json.dumps(matrix, separators=(',', ':'))}\n")
+              fh.write(f"service_count={len(ordered)}\n")
+          print(json.dumps({"mode": mode, "count": len(ordered), "services": ordered}, ensure_ascii=False))
+          PY
+
   release:
     name: Release ${{ matrix.service }}
+    needs: plan
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
-      matrix:
-        # G5 target: generate matrix from lifecycle SSOT / durable_release_policy
-        # Current: durable processing batch (not "8-service production cohort")
-        service: [mediatek, mercadolibre, micron, mihome, nec, netapp, netflix, nintendo, nokia, paloalto, panasonic, perfectworld, pingan, qqdoc, rakuten, roborock, schneider, sensetime, servicenow, shopee, siemens, skhynix, starlink, synopsys, t3go, take2, ti, tongcheng, tonghuashun, transsion, tuya, umc, unity, wangsu, wegame, workday, woyun, wuba, xgimi, yi, zhaopin]
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-      - run: python -m pip install -r requirements.txt
+      - run: python -m pip install -r requirements.lock
       - name: Validate source configuration
         run: python -m source_engine validate
       - name: Generate immutable snapshot
@@ -109,7 +168,7 @@ jobs:
 
   persist:
     name: Persist durable snapshots
-    needs: release
+    needs: [plan, release]
     if: ${{ always() && needs.release.result != 'cancelled' }}
     runs-on: ubuntu-latest
     steps:
@@ -117,7 +176,6 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
-      # SHA pin: actions/download-artifact (Collection ACTIONS_SHA_PIN.md)
       - uses: actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0
         with:
           pattern: durable-*
@@ -142,8 +200,19 @@ jobs:
 
           root = Path.cwd()
           artifact_root = root / "durable-artifacts"
-          services = ["mediatek", "mercadolibre", "micron", "mihome", "nec", "netapp", "netflix", "nintendo", "nokia", "paloalto", "panasonic", "perfectworld", "pingan", "qqdoc", "rakuten", "roborock", "schneider", "sensetime", "servicenow", "shopee", "siemens", "skhynix", "starlink", "synopsys", "t3go", "take2", "ti", "tongcheng", "tonghuashun", "transsion", "tuya", "umc", "unity", "wangsu", "wegame", "workday", "woyun", "wuba", "xgimi", "yi", "zhaopin"]
-          report = {"schema": "popular_rules_source_durable_bridge_v2", "created_at": datetime.now(timezone.utc).isoformat(), "verified_input_commit": "${{ github.sha }}", "services": {}}
+          # Discover services from downloaded artifact directory names: durable-<service>
+          services = sorted(
+              p.name[len("durable-"):]
+              for p in artifact_root.iterdir()
+              if p.is_dir() and p.name.startswith("durable-")
+          )
+          report = {
+              "schema": "popular_rules_source_durable_bridge_v2",
+              "created_at": datetime.now(timezone.utc).isoformat(),
+              "verified_input_commit": "${{ github.sha }}",
+              "planned_service_count": "${{ needs.plan.outputs.service_count }}",
+              "services": {},
+          }
 
           for service in services:
               source_root = artifact_root / f"durable-{service}"
@@ -215,7 +284,6 @@ jobs:
                       report["services"] = merged
                       report["merged_from"] = {
                           "previous_count": len(prev_sv),
-                          "batch_count": len(report.get("services") or {}) - len(prev_sv) + len([k for k in (report.get("services") or {}) if k in prev_sv]),
                           "merged_count": len(merged),
                       }
               except Exception as exc:
