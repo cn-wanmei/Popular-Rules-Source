@@ -1,31 +1,39 @@
 # Security / Supply Chain
 
-Source Repository 是进入 Collection 的数据供应链输入。
+> **Status: Current**  
+> Source is the Evidence Supply Layer entering Collection. Cross-repo trust: no shared secrets; Collection owns Auto Handoff.
 
 ## Controls
 
-- GitHub Actions 默认 contents: read
-- 需要写入时使用最小权限
-- Actions 使用固定 SHA
-- Python 依赖固定版本
-- Secrets 只能通过 Actions Secrets
-- 外部 Source 只读取数据，不执行第三方脚本
-- Source Artifact 不包含 token、cookie、私人响应
-- Snapshot / Release 使用 checksum
-- Scheduled Generate 不直接写 main，只能创建刷新 PR
+| Control | Implementation |
+|---------|----------------|
+| Default Actions permission | `contents: read` unless a job must write |
+| Minimum write scope | Only jobs that commit / push |
+| Actions pin | Full commit SHA only — no floating `@vN` |
+| Python deps | `requirements.txt` (intent ranges) + **`requirements.lock`** (CI install) |
+| Secrets | GitHub Actions Secrets only |
+| Upstream fetch | Read data only; never execute third-party scripts from upstream |
+| Artifacts | No tokens, cookies, or private response bodies |
+| Snapshot / Release | Content digests + checksums; immutable identity |
+| Scheduled generate | Opens refresh PR; does not force-push production evidence |
+
+Pin reference (shared table): [Collection `docs/ACTIONS_SHA_PIN.md`](https://github.com/cn-wanmei/Popular-Rules-Collection/blob/main/docs/ACTIONS_SHA_PIN.md).
+
+## Install in CI
+
+```bash
+python -m pip install -r requirements.lock
+```
 
 ## Threats
 
-重点防护：
+```text
+Malicious upstream content
+Wrong service ownership attribution
+Parser / schema regression
+Supply-chain dependency drift
+Accidental history rewrite
+Legacy asset reintroduction
+```
 
-~~~text
-恶意 Source
-错误归属
-Parser Regression
-Schema Drift
-Supply-chain dependency
-意外删除
-历史资产回流
-~~~
-
-Tombstone 永久保留。
+Tombstones are permanent. Snapshot / Release objects are never overwritten in place.
