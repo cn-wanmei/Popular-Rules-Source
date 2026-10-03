@@ -1,13 +1,27 @@
 # CI Automation
 
+> **Status: Current**  
+> Workflow inventory must match `.github/workflows/*.yml` on `main`.
+
 | Workflow | Role | Production authority |
 |---|---|---|
-| `validate.yml` | configuration, schema, tests and snapshot checks | source correctness |
+| `validate.yml` (`CI`) | configuration, schema, tests, snapshot checks | source correctness |
 | `generate.yml` | scheduled/manual official refresh PR | candidate refresh |
-| `release.yml` | explicit service Release Gate | Source Release |
-| `durable-source-bridge.yml` | 8-service immutable durable seal | immutable Source identity |
+| `release.yml` | explicit single-service Release Gate | Source Release |
+| `durable-source-bridge.yml` | durable processing batch (policy-driven matrix + selective execution) | immutable Source identity (best-effort batch; see completeness) |
 | `reconcile.yml` | Collection registration reconciliation | handoff evidence |
-| `phase2-gate.yml` | combined Source Gate / qualification | Source-side readiness |
+| `status.yml` | generated lifecycle report refresh | observability |
+| `restore-canary-state.yml` | emergency canary SSOT restore | ops recovery |
+
+## Terminology
+
+| Term | Meaning |
+|------|--------|
+| **Production cohort** | Lifecycle production + Collection binding (SSOT: `config/source_canary_state.yaml`) |
+| **Durable processing batch** | Services in `config/durable_release_policy.yaml` `default_processing_batch` |
+| **Selective execution** | `workflow_dispatch.services` comma list overrides matrix |
+
+Do **not** use the obsolete label “8-service durable seal” for the bridge matrix size.
 
 ## Ownership
 
@@ -17,21 +31,31 @@ Collection owns the cross-repository handoff PR, so Source does not need a cross
 
 ## Refresh contract
 
-    scheduled official refresh
-        ↓
-    generated/snapshot candidate
-        ↓
-    CI / Source Gate
-        ↓
-    merge to Source main
-        ↓
-    Durable Bridge
-        ↓
-    immutable seal
-        ↓
-    Collection Auto Handoff
+```text
+scheduled official refresh
+    ↓
+generated/snapshot candidate
+    ↓
+CI / Source Gate
+    ↓
+merge to Source main
+    ↓
+Durable Bridge (COMPLETE | PARTIAL | FAILED)
+    ↓
+immutable seal artifacts
+    ↓
+Collection Auto Handoff
+```
 
-Maintenance-only workflow changes are excluded from the Durable Bridge trigger to prevent self-triggered persistence.
+Maintenance-only workflow path changes are excluded from the Durable Bridge push trigger where configured.
+
+## Durable batch completeness
+
+| Status | Meaning |
+|--------|--------|
+| `COMPLETE` | All planned matrix services `PERSISTED` |
+| `PARTIAL` | At least one `PERSISTED`, some incomplete/blocked |
+| `FAILED` | Zero services persisted (fail-closed) |
 
 ## Fail closed
 
