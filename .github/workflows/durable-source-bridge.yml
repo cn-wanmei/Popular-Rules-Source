@@ -13,7 +13,7 @@ on:
   workflow_dispatch:
     inputs:
       services:
-        description: "Reserved for future selective execution"
+        description: "Reserved for future selective execution (G5: will drive matrix)"
         required: false
         default: "1688,cainiao,dingding,qqmail,qqmusic,taobao,tencentcloud,tmall"
         type: string
@@ -31,6 +31,8 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
+        # G5 target: generate matrix from lifecycle SSOT / durable_release_policy
+        # Current: durable processing batch (not "8-service production cohort")
         service: [mediatek, mercadolibre, micron, mihome, nec, netapp, netflix, nintendo, nokia, paloalto, panasonic, perfectworld, pingan, qqdoc, rakuten, roborock, schneider, sensetime, servicenow, shopee, siemens, skhynix, starlink, synopsys, t3go, take2, ti, tongcheng, tonghuashun, transsion, tuya, umc, unity, wangsu, wegame, workday, woyun, wuba, xgimi, yi, zhaopin]
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -115,7 +117,8 @@ jobs:
         with:
           ref: main
           fetch-depth: 0
-      - uses: actions/download-artifact@v5
+      # SHA pin: actions/download-artifact (Collection ACTIONS_SHA_PIN.md)
+      - uses: actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0
         with:
           pattern: durable-*
           path: durable-artifacts
@@ -253,7 +256,6 @@ jobs:
           from pathlib import Path
           path = Path("reports/durable-bridge/latest.json")
           data = json.loads(path.read_text(encoding="utf-8"))
-          data["persistence_commit"] = "main@${PERSISTED_SHA}"
           data["persistence_commit"] = "${PERSISTED_SHA}"
           for item in data["services"].values():
               if item.get("status") == "PERSISTED":
