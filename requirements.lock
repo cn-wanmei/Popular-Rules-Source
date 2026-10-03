@@ -1,0 +1,8 @@
+# Locked runtime/test deps for Popular-Rules-Source CI.
+# Install: python -m pip install -r requirements.lock
+# Policy: ranges live in requirements.txt for human intent; CI should prefer this lock.
+requests==2.32.5
+PyYAML==6.0.2
+jsonschema==4.23.0
+pytest==8.3.5
+}
