@@ -206,11 +206,21 @@ jobs:
 
           root = Path.cwd()
           artifact_root = root / "durable-artifacts"
-          services = sorted(
-              p.name[len("durable-"):]
-              for p in artifact_root.iterdir()
-              if p.is_dir() and p.name.startswith("durable-")
-          )
+          service_roots = {}
+          if artifact_root.is_dir():
+              for p in artifact_root.rglob("*"):
+                  if p.is_dir() and p.name.startswith("durable-") and p.name != "durable-artifacts":
+                      sid = p.name[len("durable-"):]
+                      if sid and sid not in service_roots:
+                          service_roots[sid] = p
+              if not service_roots:
+                  for candidate in ("snapshots", "releases", "generated"):
+                      if (artifact_root / candidate).exists():
+                          service_roots["__flat__"] = artifact_root
+                          break
+          services = sorted(s for s in service_roots if s != "__flat__")
+          print("artifact_top=", [x.name for x in artifact_root.iterdir()][:30] if artifact_root.is_dir() else [])
+          print("service_roots=", {k: str(v) for k, v in service_roots.items()})
           planned_raw = """${{ needs.plan.outputs.planned_services }}"""
           try:
               planned_services = json.loads(planned_raw) if planned_raw.strip() else []
@@ -225,8 +235,13 @@ jobs:
               "services": {},
           }
 
+          if not services and "__flat__" in service_roots:
+              services = [str(s) for s in (planned_services or [])]
+              for s in services:
+                  service_roots[s] = service_roots["__flat__"]
+
           for service in services:
-              source_root = artifact_root / f"durable-{service}"
+              source_root = service_roots.get(service) or (artifact_root / f"durable-{service}")
               releases = sorted((source_root / "releases" / service).glob("*/release.json")) if (source_root / "releases" / service).exists() else []
               if not releases:
                   report["services"][service] = {"status": "BLOCKED", "reason": "no durable release artifact"}
