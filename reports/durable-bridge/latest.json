@@ -1,12 +1,23 @@
 {
-  "created_at": "2026-10-03T16:21:24.699121+00:00",
+  "batch_completeness": "COMPLETE",
+  "created_at": "2026-10-04T09:20:22.114523+00:00",
+  "executed_services": [],
+  "incomplete": [],
   "merged_from": {
     "merged_count": 281,
     "previous_count": 281
   },
-  "persistence_commit": "a8789af22f72908da22f94930cc0c692b7f0bf47",
-  "planned_service_count": "41",
-  "schema": "popular_rules_source_durable_bridge_v2",
+  "missing_from_execution": [
+    "netflix"
+  ],
+  "persisted_count": 281,
+  "planned_service_count": "1",
+  "planned_services": [
+    "netflix"
+  ],
+  "run_completeness": "FAILED",
+  "schema": "popular_rules_source_durable_bridge_v3",
+  "seal_completeness": "COMPLETE",
   "services": {
     "1688": {
       "content_digest": "9b59827fc82415eded98bc10ec20b30ab5ede34ba066666c3b038bb0b09aa6b3",
@@ -3662,5 +3673,5 @@
       "status": "PERSISTED"
     }
   },
-  "verified_input_commit": "298a2c6f04564c7bab5eadca271b5e0c929e4925"
+  "verified_input_commit": "0ac16f0215e424bbdb2e8d9c8a3ab774bb8232f0"
 }
