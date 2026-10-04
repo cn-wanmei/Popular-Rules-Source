@@ -34,8 +34,14 @@ jobs:
     outputs:
       matrix: ${{ steps.plan.outputs.matrix }}
       service_count: ${{ steps.plan.outputs.service_count }}
+      planned_services: ${{ steps.plan.outputs.planned_services }}
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - name: Install locked dependencies
+        run: python -m pip install -r requirements.lock
       - name: Resolve service matrix
         id: plan
         env:
@@ -44,13 +50,7 @@ jobs:
           python - <<'PY'
           import json, os, re
           from pathlib import Path
-
-          try:
-              import yaml
-          except ImportError:
-              import subprocess, sys
-              subprocess.check_call([sys.executable, "-m", "pip", "install", "PyYAML==6.0.2"])
-              import yaml
+          import yaml
 
           policy_path = Path("config/durable_release_policy.yaml")
           default = []
@@ -84,6 +84,7 @@ jobs:
           with open(out, "a", encoding="utf-8") as fh:
               fh.write(f"matrix={json.dumps(matrix, separators=(',', ':'))}\n")
               fh.write(f"service_count={len(ordered)}\n")
+              fh.write(f"planned_services={json.dumps(ordered, separators=(',', ':'))}\n")
           print(json.dumps({"mode": mode, "count": len(ordered), "services": ordered}, ensure_ascii=False))
           PY
 
@@ -210,11 +211,17 @@ jobs:
               for p in artifact_root.iterdir()
               if p.is_dir() and p.name.startswith("durable-")
           )
+          planned_raw = """${{ needs.plan.outputs.planned_services }}"""
+          try:
+              planned_services = json.loads(planned_raw) if planned_raw.strip() else []
+          except Exception:
+              planned_services = []
           report = {
-              "schema": "popular_rules_source_durable_bridge_v2",
+              "schema": "popular_rules_source_durable_bridge_v3",
               "created_at": datetime.now(timezone.utc).isoformat(),
               "verified_input_commit": "${{ github.sha }}",
               "planned_service_count": "${{ needs.plan.outputs.service_count }}",
+              "planned_services": planned_services,
               "services": {},
           }
 
@@ -293,7 +300,6 @@ jobs:
                       }
               except Exception as exc:
                   print(f"WARN: could not merge previous durable report: {exc}")
-          current_services = dict(report.get("services") or {})
           # Seal view may include historical merge — compute BOTH run and seal completeness
           incomplete = sorted(
               service for service, item in report["services"].items()
@@ -301,23 +307,19 @@ jobs:
           )
           report["incomplete"] = incomplete
           report["persisted_count"] = sum(1 for item in report["services"].values() if item.get("status") == "PERSISTED")
-          planned = []
-          try:
-              planned_n = int(str(report.get("planned_service_count") or "0"))
-          except ValueError:
-              planned_n = 0
-          # run_completeness: only services touched this persist (artifact dirs), not full historical seal
-          run_ids = sorted(current_services.keys())  # before merge these were only this run; after merge use executed marker
-          # Prefer services listed under this run via executed_services if we stored them
-          executed = report.get("executed_services")
+          planned = list(report.get("planned_services") or [])
+          executed = list(report.get("executed_services") or [])
           if not isinstance(executed, list):
-              # Heuristic: artifact-derived services before historical merge are already in current_services
-              # Store planned count comparison for run view
-              executed = list(current_services.keys())
+              executed = []
           report["executed_services"] = executed
+          missing_from_execution = sorted(set(planned) - set(executed))
+          report["missing_from_execution"] = missing_from_execution
           run_persisted = sum(1 for s in executed if (report["services"].get(s) or {}).get("status") == "PERSISTED")
           run_incomplete = [s for s in executed if (report["services"].get(s) or {}).get("status") != "PERSISTED"]
-          if run_persisted <= 0:
+          if planned and missing_from_execution:
+              # planned services that never produced artifacts are incomplete for THIS run
+              report["run_completeness"] = "PARTIAL" if run_persisted > 0 else "FAILED"
+          elif run_persisted <= 0:
               report["run_completeness"] = "FAILED"
           elif run_incomplete:
               report["run_completeness"] = "PARTIAL"
