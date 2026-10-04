@@ -284,7 +284,12 @@ jobs:
 
           out = root / "reports" / "durable-bridge"
           out.mkdir(parents=True, exist_ok=True)
-          report["executed_services"] = sorted((report.get("services") or {}).keys())
+          # Snapshot THIS RUN before historical seal merge (critical for run_completeness)
+          run_services = dict(report.get("services") or {})
+          report["executed_services"] = sorted(run_services.keys())
+          report["run_service_status"] = {
+              k: {"status": (v or {}).get("status")} for k, v in run_services.items()
+          }
           prev_path = out / "latest.json"
           if prev_path.is_file():
               try:
@@ -292,7 +297,7 @@ jobs:
                   prev_sv = prev.get("services") if isinstance(prev, dict) else {}
                   if isinstance(prev_sv, dict) and prev_sv:
                       merged = dict(prev_sv)
-                      merged.update(report.get("services") or {})
+                      merged.update(run_services)
                       report["services"] = merged
                       report["merged_from"] = {
                           "previous_count": len(prev_sv),
@@ -300,31 +305,34 @@ jobs:
                       }
               except Exception as exc:
                   print(f"WARN: could not merge previous durable report: {exc}")
-          # Seal view may include historical merge — compute BOTH run and seal completeness
           incomplete = sorted(
               service for service, item in report["services"].items()
               if item.get("status") != "PERSISTED"
           )
           report["incomplete"] = incomplete
           report["persisted_count"] = sum(1 for item in report["services"].values() if item.get("status") == "PERSISTED")
-          planned = list(report.get("planned_services") or [])
-          executed = list(report.get("executed_services") or [])
-          if not isinstance(executed, list):
-              executed = []
+          planned = [str(s) for s in (report.get("planned_services") or [])]
+          executed = [str(s) for s in (report.get("executed_services") or [])]
           report["executed_services"] = executed
           missing_from_execution = sorted(set(planned) - set(executed))
           report["missing_from_execution"] = missing_from_execution
-          run_persisted = sum(1 for s in executed if (report["services"].get(s) or {}).get("status") == "PERSISTED")
-          run_incomplete = [s for s in executed if (report["services"].get(s) or {}).get("status") != "PERSISTED"]
-          if planned and missing_from_execution:
-              # planned services that never produced artifacts are incomplete for THIS run
-              report["run_completeness"] = "PARTIAL" if run_persisted > 0 else "FAILED"
-          elif run_persisted <= 0:
+          # run_* uses only this-run artifact outcomes, never historical seal
+          run_persisted = sum(
+              1 for s in planned
+              if (run_services.get(s) or {}).get("status") == "PERSISTED"
+          )
+          run_blocked = [
+              s for s in planned
+              if s in run_services and (run_services.get(s) or {}).get("status") != "PERSISTED"
+          ]
+          if not planned:
               report["run_completeness"] = "FAILED"
-          elif run_incomplete:
-              report["run_completeness"] = "PARTIAL"
-          else:
+          elif missing_from_execution or run_blocked:
+              report["run_completeness"] = "PARTIAL" if run_persisted > 0 else "FAILED"
+          elif run_persisted == len(planned):
               report["run_completeness"] = "COMPLETE"
+          else:
+              report["run_completeness"] = "PARTIAL"
           if not report["persisted_count"]:
               report["seal_completeness"] = "FAILED"
               report["batch_completeness"] = "FAILED"
