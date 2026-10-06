@@ -11,30 +11,7 @@
       "value": "gpn.cainiao.com"
     }
   ],
-  "change_assessment": {
-    "growth_ratio": 1.0,
-    "removal_ratio": 0.0,
-    "status": "OK"
-  },
   "content_digest": "c16f92e94751f3fb9c2beddf46592f254f465604b3a38e978e5b18ac7e5732a0",
-  "created_at": "2026-10-06T09:05:55.449972+00:00",
-  "domain_count": 1,
-  "domain_diff": {
-    "added": [],
-    "added_count": 0,
-    "current_count": 1,
-    "previous_count": 1,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [
-      "gpn.cainiao.com"
-    ],
-    "unchanged_count": 1
-  },
-  "domains": [
-    "gpn.cainiao.com"
-  ],
-  "errors": [],
   "evidence": [
     {
       "authority": "official",
@@ -55,36 +32,16 @@
   ],
   "evidence_digest": "a6f98d39c35118bc0780c362c31f7a36303bd4f35e701f8953efcded986829fd",
   "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
-  "generator_version": "3.1.0",
-  "last_known_good": false,
-  "official_extracted": 1,
-  "official_source_count": 1,
-  "parser_version": "domain-extractor-v4",
   "policy_digest": "70093b9709724c22863c6f1840b5cb8e31afcd4b768d3c3a454a1a94ffb30d11",
-  "previous_domain_count": 1,
   "release_digest": "573cec750e7ea1fd668f9aed7535cc23f6f55606fe9052add83c9700e8668240",
   "release_identity_version": "2",
-  "release_reasons": [],
-  "release_state": "CANDIDATE",
-  "schema": "source_snapshot_v2",
-  "service_config_digest": "b983e4620f22fa21a07e54d2bbe011292c11847bfc89ba055518f0cc47d58b67",
+  "schema": "source_provenance_v3",
   "service_id": "cainiao",
-  "snapshot_content_sha256": "c16f92e94751f3fb9c2beddf46592f254f465604b3a38e978e5b18ac7e5732a0",
   "snapshot_id": "snap-cainiao-573cec750e7ea1fd668f9aed",
-  "source_bindings": [
-    {
-      "adapter": null,
-      "url": "https://gpn.cainiao.com/"
-    }
-  ],
-  "source_count": 1,
   "source_policy": {
     "allowed_authorities": [
       "official"
     ],
     "official_required": true
-  },
-  "trusted_extracted": 1,
-  "unverified_candidate_count": 0,
-  "unverified_candidate_domains": []
+  }
 }

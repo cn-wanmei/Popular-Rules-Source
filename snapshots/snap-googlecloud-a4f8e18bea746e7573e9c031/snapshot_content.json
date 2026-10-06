@@ -1,0 +1,16 @@
+{
+  "content_digest": "9e8f61dc9046de1e90bd4fdd4036f43f98e8430fdcb265ce963babd4f91255f3",
+  "domains": [
+    "cloud.google.com",
+    "console.cloud.google.com",
+    "docs.cloud.google.com",
+    "partners.cloud.google.com",
+    "status.cloud.google.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "googlecloud",
+  "source_hashes": [
+    "4f7e4df02ab274e9ca6474ca416f0bb233775063de1314c9f2e382f022a3ab90"
+  ]
+}
