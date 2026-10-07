@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+from collections import Counter
 from pathlib import Path
 from typing import Any
 
@@ -51,20 +52,33 @@ def build_status_report() -> dict[str, Any]:
 
 
 def _render(report: dict[str, Any]) -> str:
+    """Compact README block. Full table is in reports/generated/lifecycle.json only."""
+    counts: Counter[str] = Counter()
+    blocked_release = 0
+    for item in report["services"].values():
+        counts[str(item.get("state") or "review").lower()] += 1
+        if str(item.get("release_state") or "").upper() == "BLOCKED":
+            blocked_release += 1
+    total = sum(counts.values())
+    by_state = ", ".join(f"{k.upper()}={v}" for k, v in sorted(counts.items()))
     lines = [
         START,
-        "### Source lifecycle (generated)",
+        "### Source lifecycle (summary)",
         "",
-        "| Service | Lifecycle | Release | Domains | Snapshot |",
-        "|---|---|---|---:|---|",
+        f"- **Services tracked:** {total}",
+        f"- **By state:** {by_state}",
+        f"- **Release BLOCKED:** {blocked_release}",
+        "",
+        "> Per-service rows: [`reports/generated/lifecycle.json`](reports/generated/lifecycle.json)  ",
+        "> Lifecycle SSOT: [`config/source_canary_state.yaml`](config/source_canary_state.yaml)  ",
+        "> Ops: [`docs/FUNNEL_ACCELERATION.md`](docs/FUNNEL_ACCELERATION.md) · [`docs/BLOCKED_BOARD.md`](docs/BLOCKED_BOARD.md)",
+        "",
+        "```bash",
+        "python -m source_engine health",
+        "python -m source_engine qualify",
+        "```",
+        END,
     ]
-    for service_id, item in report["services"].items():
-        lines.append(
-            f"| {service_id} | **{str(item['state']).upper()}** | "
-            f"{item['release_state']} | {item['domain_count']} | "
-            f"{item['snapshot_id'] or 'none'} |"
-        )
-    lines.append(END)
     return "\n".join(lines)
 
 
