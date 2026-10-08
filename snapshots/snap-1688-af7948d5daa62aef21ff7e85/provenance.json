@@ -11,32 +11,7 @@
       "value": "www.1688.com"
     }
   ],
-  "change_assessment": {
-    "growth_ratio": 0.5,
-    "removal_ratio": 0.5,
-    "status": "OK"
-  },
   "content_digest": "4c03dcd3269b19b81330e0780ea45cf9043e643389aafa4831c91f223a6c7092",
-  "created_at": "2026-10-08T09:06:42.656737+00:00",
-  "domain_count": 1,
-  "domain_diff": {
-    "added": [],
-    "added_count": 0,
-    "current_count": 1,
-    "previous_count": 2,
-    "removed": [
-      "1688.com"
-    ],
-    "removed_count": 1,
-    "unchanged": [
-      "www.1688.com"
-    ],
-    "unchanged_count": 1
-  },
-  "domains": [
-    "www.1688.com"
-  ],
-  "errors": [],
   "evidence": [
     {
       "authority": "official",
@@ -57,36 +32,16 @@
   ],
   "evidence_digest": "91a6552450168049bf210d7c6234e8eb655a9ae4b66a58e3806896ea8369cc58",
   "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
-  "generator_version": "3.1.0",
-  "last_known_good": false,
-  "official_extracted": 1,
-  "official_source_count": 1,
-  "parser_version": "domain-extractor-v4",
   "policy_digest": "877e7af68e1242e56c8ef24540b44ea4507caf68a99cfc5df90cacfe610d954d",
-  "previous_domain_count": 2,
   "release_digest": "af7948d5daa62aef21ff7e85b57e5de3cbe6501274d980d3928a4dce5ae058bb",
   "release_identity_version": "2",
-  "release_reasons": [],
-  "release_state": "CANDIDATE",
-  "schema": "source_snapshot_v2",
-  "service_config_digest": "6ef0c1775083b6f03aba3be31a7c8890621a6593822dfa984f148d7fbbdc97db",
+  "schema": "source_provenance_v3",
   "service_id": "1688",
-  "snapshot_content_sha256": "4c03dcd3269b19b81330e0780ea45cf9043e643389aafa4831c91f223a6c7092",
   "snapshot_id": "snap-1688-af7948d5daa62aef21ff7e85",
-  "source_bindings": [
-    {
-      "adapter": null,
-      "url": "https://www.1688.com/"
-    }
-  ],
-  "source_count": 1,
   "source_policy": {
     "allowed_authorities": [
       "official"
     ],
     "official_required": true
-  },
-  "trusted_extracted": 1,
-  "unverified_candidate_count": 0,
-  "unverified_candidate_domains": []
+  }
 }
