@@ -6,22 +6,21 @@
 
 Do **not** skip to `PRODUCTION` without Collection immutable binding.
 
-## 2026-10-07 snapshot guidance
+## Playbook
 
-1. Run `python -m source_engine health` and list `degraded`.
-2. For each degraded: `gap` → `repair` → re-`health`. Do not overwrite LKG with empty fetch.
-3. From `VERIFIED` with high domain count / product priority, batch canary (Apple/Microsoft/AI already partly canary as of Oct 3 batch).
-4. `BLOCKED` or `domains=0` (e.g. cloudflare in historical table): keep blocked or tombstone; do not canary.
-5. Collection side: follow handoff PRs; `sources/immutable_registry.yaml` is binding SSOT.
+1. `python -m source_engine health` — list degraded/failed
+2. For each degraded: `gap` → `repair` → re-health; never overwrite LKG with empty fetch
+3. VERIFIED + high domains / P0 product → canary batch
+4. BLOCKED or domains=0 → keep blocked / tombstone; do not canary
+5. Long **REVIEW** without official evidence → do not promote; consider BLOCKED or drop from qualify queue
+6. Collection side: handoff PRs; binding SSOT is Collection `sources/immutable_registry.yaml`
 
-## Degraded triage template
+## Scope note
 
-| Service | Class | Action | Owner |
-|---------|-------|--------|-------|
-| (fill from health) | degraded | repair / blocked | |
+Collection `PUBLISH_STATUS` health counts are **Collection telemetry subset**, not this repo's full lifecycle histogram (see README summary / `reports/generated/lifecycle.json`).
 
 ## Related
 
-- Collection `docs/FUNNEL_OPS.md`
+- Collection `docs/FUNNEL_OPS.md` · `docs/FUNNEL_TRIAGE.md`
 - Collection `docs/SOURCE_COLLECTION_FUNNEL.md`
 - `config/source_canary_state.yaml`

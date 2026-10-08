@@ -3,8 +3,9 @@
 ## Start here
 - [Root README](../README.md)
 - [config/source_canary_state.yaml](../config/source_canary_state.yaml) — **lifecycle SSOT**
-- [SOURCE_STATUS.generated.md](SOURCE_STATUS.generated.md) — full lifecycle table (generated)
+- [reports/generated/lifecycle.json](../reports/generated/lifecycle.json) — full per-service lifecycle (generated)
 - [BLOCKED_BOARD.md](BLOCKED_BOARD.md) — blocked services board
+- [FUNNEL_ACCELERATION.md](FUNNEL_ACCELERATION.md) — weekly canary quota + degraded repair
 
 ## Architecture
 - [ARCHITECTURE.md](ARCHITECTURE.md)
@@ -30,4 +31,4 @@
 ## Historical
 - [archive/status/](archive/status/) — audit/phase notes
 
-> Date-stamped notes under `docs/` are historical. Operational lifecycle is only authoritative in `config/source_canary_state.yaml`.
+> Operational lifecycle is only authoritative in `config/source_canary_state.yaml`.
