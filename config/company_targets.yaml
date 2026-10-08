@@ -1,3 +1,5 @@
+# SSOT_AUTHORITY: this file is the logical company_targets SSOT.
+# Collection must consume the same content (digest-locked), not diverge.
 version: 1
 schema: popular_rules_service_completion_company_targets_v1
 baseline: 2026-09-26
