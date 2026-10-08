@@ -10,8 +10,6 @@ on:
     workflows: ["Durable Source Bridge"]
     types: [completed]
 
-permissions:
-  contents: read
 
 
 concurrency:
