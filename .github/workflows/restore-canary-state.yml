@@ -10,6 +10,9 @@ concurrency:
   group: restore-canary-state
   cancel-in-progress: false
 
+permissions:
+  contents: read
+
 jobs:
   restore:
     runs-on: ubuntu-latest
