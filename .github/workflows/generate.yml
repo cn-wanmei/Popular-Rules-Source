@@ -9,11 +9,11 @@ concurrency:
   group: generate-official-sources
   cancel-in-progress: true
 
-permissions:
-  contents: read
 
 jobs:
   generate:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     permissions:
       contents: write
