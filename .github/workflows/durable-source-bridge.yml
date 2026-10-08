@@ -365,9 +365,10 @@ jobs:
           print(json.dumps(report, ensure_ascii=False, indent=2))
           PY
       - name: Fail-closed — PARTIAL must not write main
+        id: durable_gate
         run: |
           python - <<'PY'
-          import json, sys
+          import json, sys, os
           from pathlib import Path
           path = Path("reports/durable-bridge/latest.json")
           if not path.is_file():
@@ -379,14 +380,36 @@ jobs:
           batch_c = data.get("batch_completeness")
           incomplete = data.get("incomplete") or []
           print(f"run={run_c} seal={seal_c} batch={batch_c} incomplete={len(incomplete)}")
-          if run_c != "COMPLETE" or seal_c != "COMPLETE" or batch_c != "COMPLETE":
+          ok = run_c == "COMPLETE" and seal_c == "COMPLETE" and batch_c == "COMPLETE"
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
+              fh.write(f"complete={'true' if ok else 'false'}\n")
+          if not ok:
               print("FAIL-CLOSED: PARTIAL/FAILED durable batch must not push main")
               print("incomplete:", incomplete[:50])
-              print("Upload report as artifact only; open automation/durable-partial branch manually if needed.")
               sys.exit(1)
           print("completeness COMPLETE — main persist allowed")
           PY
+      - name: Publish PARTIAL report to diagnostic branch
+        if: failure() && steps.durable_gate.outcome == 'failure'
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          RUN_ID="${{ github.run_id }}"
+          BR="automation/durable-partial/${RUN_ID}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git fetch origin main
+          git checkout -B "$BR" origin/main
+          git add -f reports/durable-bridge/latest.json || true
+          if git diff --cached --quiet; then
+            echo "No report to publish on partial branch"
+          else
+            git commit -m "chore(source): durable PARTIAL diagnostic ${RUN_ID} [skip ci]"
+            git push -u origin "HEAD:refs/heads/${BR}" || true
+            echo "Published diagnostic branch ${BR}"
+          fi
       - name: Commit persisted snapshots
+        if: success()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -400,6 +423,7 @@ jobs:
             git push origin main
           fi
       - name: Seal bridge report with persistence commit
+        if: success()
         run: |
           PERSISTED_SHA=$(git rev-parse HEAD)
           python - <<PY
