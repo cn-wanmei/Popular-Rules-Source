@@ -10,11 +10,11 @@ concurrency:
   group: restore-canary-state
   cancel-in-progress: false
 
-permissions:
-  contents: read
 
 jobs:
   restore:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
     timeout-minutes: 10
     permissions:
