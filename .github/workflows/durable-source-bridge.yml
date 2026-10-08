@@ -364,6 +364,28 @@ jobs:
           (out / "latest.json").write_text(json.dumps(report, ensure_ascii=False, indent=2, sort_keys=True) + "\n", encoding="utf-8")
           print(json.dumps(report, ensure_ascii=False, indent=2))
           PY
+      - name: Fail-closed — PARTIAL must not write main
+        run: |
+          python - <<'PY'
+          import json, sys
+          from pathlib import Path
+          path = Path("reports/durable-bridge/latest.json")
+          if not path.is_file():
+              print("missing durable report; fail-closed")
+              sys.exit(1)
+          data = json.loads(path.read_text(encoding="utf-8"))
+          run_c = data.get("run_completeness")
+          seal_c = data.get("seal_completeness")
+          batch_c = data.get("batch_completeness")
+          incomplete = data.get("incomplete") or []
+          print(f"run={run_c} seal={seal_c} batch={batch_c} incomplete={len(incomplete)}")
+          if run_c != "COMPLETE" or seal_c != "COMPLETE" or batch_c != "COMPLETE":
+              print("FAIL-CLOSED: PARTIAL/FAILED durable batch must not push main")
+              print("incomplete:", incomplete[:50])
+              print("Upload report as artifact only; open automation/durable-partial branch manually if needed.")
+              sys.exit(1)
+          print("completeness COMPLETE — main persist allowed")
+          PY
       - name: Commit persisted snapshots
         run: |
           git config user.name "github-actions[bot]"
