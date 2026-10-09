@@ -5,16 +5,29 @@ from datetime import datetime, timezone
 from pathlib import Path
 from .build import build_service
 
+# P1-05 contract (audit 2026-10-09 / docs/RELEASE_POLICY.md):
+# - BLOCKED: fail-closed; never written under releases/
+# - REVIEW: may be archived as durable *audit evidence* under releases/
+#   but is NOT a Qualified Durable Release (handoff_eligible=false)
+# - CANDIDATE (and other non-blocked states with full evidence): Qualified path
+#   with handoff_eligible=true only when release_state == "CANDIDATE"
+#
+# Collection must only bind handoff_eligible=true releases.
+
 
 def create_release(
     service_id: str,
     repository: str = "cn-wanmei/Popular-Rules-Source",
 ) -> dict:
     manifest = build_service(service_id)
-    # REVIEW snapshots are durable audit evidence and must not be discarded.
-    # Only BLOCKED is fail-closed at the release layer.
-    if manifest["release_state"] == "BLOCKED":
-        raise RuntimeError(f"release blocked: {manifest['release_state']}")
+    state = manifest["release_state"]
+
+    # Only BLOCKED is hard-rejected at the release layer.
+    # REVIEW is retained as audit archive; it is not Collection-handoff eligible.
+    if state == "BLOCKED":
+        raise RuntimeError(f"release blocked: {state}")
+
+    handoff_eligible = state == "CANDIDATE"
 
     release_root = Path("releases") / service_id / manifest["snapshot_id"]
     release_root.mkdir(parents=True, exist_ok=True)
@@ -64,12 +77,13 @@ def create_release(
             (release_root / "checksums.json").read_text(encoding="utf-8")
         ),
         "validation": {
-            "release_state": manifest["release_state"],
+            "release_state": state,
             "change_assessment": manifest["change_assessment"],
             "errors": manifest["errors"],
+            "handoff_eligible": handoff_eligible,
         },
         "reconciliation": {
-            "status": "PENDING_COLLECTION_AUDIT"
+            "status": "PENDING_COLLECTION_AUDIT" if handoff_eligible else "AUDIT_ARCHIVE_ONLY"
         },
     }
     release_file.write_text(
