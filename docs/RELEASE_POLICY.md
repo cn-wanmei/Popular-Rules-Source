@@ -2,8 +2,15 @@
 
 ## Release states
 
-`CANDIDATE` → `PUBLISHED` is valid only for a fully evidenced immutable snapshot.
-`REVIEW` and `BLOCKED` never enter the durable release.
+`CANDIDATE` → Qualified Durable Release (handoff-eligible to Collection) is valid only for a fully evidenced immutable snapshot.
+
+| State | Written under `releases/` | Collection handoff |
+|-------|---------------------------|--------------------|
+| `CANDIDATE` | Yes — Qualified Durable Release | Eligible (`handoff_eligible=true`) |
+| `REVIEW` | Yes — **audit archive only** | **Not eligible** (`handoff_eligible=false`) |
+| `BLOCKED` | No — fail-closed at release layer | Not eligible |
+
+`REVIEW` snapshots may be retained as durable audit evidence so that incomplete or in-review candidates are not discarded. They must not be treated as promotable releases for Collection binding. `BLOCKED` is always rejected by `create_release`.
 
 ## Release identity v2
 
