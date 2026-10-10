@@ -11,30 +11,7 @@
       "value": "pvp.qq.com"
     }
   ],
-  "change_assessment": {
-    "growth_ratio": 1.0,
-    "removal_ratio": 0.0,
-    "status": "OK"
-  },
   "content_digest": "b2235df8f939d2c57d6723f5766bfb2cc2bb00209b488bd4a05c3fa162eefdaa",
-  "created_at": "2026-10-10T08:34:52.581595+00:00",
-  "domain_count": 1,
-  "domain_diff": {
-    "added": [],
-    "added_count": 0,
-    "current_count": 1,
-    "previous_count": 1,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [
-      "pvp.qq.com"
-    ],
-    "unchanged_count": 1
-  },
-  "domains": [
-    "pvp.qq.com"
-  ],
-  "errors": [],
   "evidence": [
     {
       "authority": "official",
@@ -55,36 +32,16 @@
   ],
   "evidence_digest": "f4306bea1d3c92b818259766d9199987fa79371d4464221b81bf5da0b873c64d",
   "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
-  "generator_version": "3.1.0",
-  "last_known_good": false,
-  "official_extracted": 1,
-  "official_source_count": 1,
-  "parser_version": "domain-extractor-v4",
   "policy_digest": "9b41e23cc49fd84b4d74aaf90cc1459df8c95394eb6bed9266193392f1222cff",
-  "previous_domain_count": 1,
   "release_digest": "07e7e6a891ed2efe973277a7a769a525c82f369b1430fcd80db6322fb02a08f6",
   "release_identity_version": "2",
-  "release_reasons": [],
-  "release_state": "CANDIDATE",
-  "schema": "source_snapshot_v2",
-  "service_config_digest": "b527df8d1a7656e197475869f5c8bd651ec94a0356c18727afbfd996def0d79e",
+  "schema": "source_provenance_v3",
   "service_id": "honorofkings_cn",
-  "snapshot_content_sha256": "b2235df8f939d2c57d6723f5766bfb2cc2bb00209b488bd4a05c3fa162eefdaa",
   "snapshot_id": "snap-honorofkings_cn-07e7e6a891ed2efe973277a7",
-  "source_bindings": [
-    {
-      "adapter": null,
-      "url": "https://pvp.qq.com/"
-    }
-  ],
-  "source_count": 1,
   "source_policy": {
     "allowed_authorities": [
       "official"
     ],
     "official_required": true
-  },
-  "trusted_extracted": 1,
-  "unverified_candidate_count": 0,
-  "unverified_candidate_domains": []
+  }
 }
