@@ -1,0 +1,13 @@
+{
+  "content_digest": "f16a3d657f74d182b1b4731bd7c5aa0cb6dbd72ba11ab04c387c2fbc7e635e2e",
+  "domains": [
+    "1688.com",
+    "www.1688.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "1688",
+  "source_hashes": [
+    "df83ec29c8c1db72f2a906364b7c1dc26823118b5ef93c121a6364f11a9c4833"
+  ]
+}
