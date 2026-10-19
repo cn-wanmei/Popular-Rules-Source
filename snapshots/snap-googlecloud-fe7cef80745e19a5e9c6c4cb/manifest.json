@@ -1,0 +1,138 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:279fbda702de2497d6dac7be4843c61b927efd0e8892d65b456c5533c101fe8a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googlecloud-001-724f81d6fde9"
+      ],
+      "service_id": "googlecloud",
+      "type": "domain",
+      "value": "cloud.google.com"
+    },
+    {
+      "asset_id": "sha256:6adcf5c334cb08749105849b99af4237fe6179f7e083fd648eb8fbfc01267018",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googlecloud-001-724f81d6fde9"
+      ],
+      "service_id": "googlecloud",
+      "type": "domain",
+      "value": "console.cloud.google.com"
+    },
+    {
+      "asset_id": "sha256:57d2571fca0135cc25537faa2357fb7d7b9dd34059f0167e1aff2bd229e98928",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googlecloud-001-724f81d6fde9"
+      ],
+      "service_id": "googlecloud",
+      "type": "domain",
+      "value": "docs.cloud.google.com"
+    },
+    {
+      "asset_id": "sha256:7e81766e198765e6e154a7d3ab662448d84f0e58a2be2886e55154568522408a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googlecloud-001-724f81d6fde9"
+      ],
+      "service_id": "googlecloud",
+      "type": "domain",
+      "value": "partners.cloud.google.com"
+    },
+    {
+      "asset_id": "sha256:eaeda10bb075c322277e18a7fc64e743903d4d64154a5fdfdd0032fba9833a09",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-googlecloud-001-724f81d6fde9"
+      ],
+      "service_id": "googlecloud",
+      "type": "domain",
+      "value": "status.cloud.google.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 1.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "15f15b93adbd004743a13a384c6fce4b5fa8cf122d8b141159a4d01117a37267",
+  "created_at": "2026-10-19T07:53:15.947983+00:00",
+  "domain_count": 5,
+  "domain_diff": {
+    "added": [],
+    "added_count": 0,
+    "current_count": 5,
+    "previous_count": 5,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
+      "cloud.google.com",
+      "console.cloud.google.com",
+      "docs.cloud.google.com",
+      "partners.cloud.google.com",
+      "status.cloud.google.com"
+    ],
+    "unchanged_count": 5
+  },
+  "domains": [
+    "cloud.google.com",
+    "console.cloud.google.com",
+    "docs.cloud.google.com",
+    "partners.cloud.google.com",
+    "status.cloud.google.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "724f81d6fde90b3c596bd9410cac06829b5eb85c98bb098f352ebe5de0e59046",
+      "domains_extracted": 5,
+      "evidence_id": "EV-googlecloud-001-724f81d6fde9",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://cloud.google.com/",
+      "retrieved_at": "2026-10-19T07:53:15.626187+00:00",
+      "service_id": "googlecloud",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://cloud.google.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "19d8ecaa408eccba44d791d8ce7788298b85300af0a599ccd8d4aafafce71656",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 5,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "7596136202ec2861d0da515eecf34c9acc223b20cb22474878a84bc856021ce6",
+  "previous_domain_count": 5,
+  "release_digest": "fe7cef80745e19a5e9c6c4cb3d0f670ab931aa52c23c7422fa9decb7f1329d60",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "f601c5f1163cf538d09044a9a2cdb040fabfca219e54465db81d1f055f5cf673",
+  "service_id": "googlecloud",
+  "snapshot_content_sha256": "15f15b93adbd004743a13a384c6fce4b5fa8cf122d8b141159a4d01117a37267",
+  "snapshot_id": "snap-googlecloud-fe7cef80745e19a5e9c6c4cb",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://cloud.google.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 5,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}
