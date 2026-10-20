@@ -1,0 +1,67 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:b87fc8669272d2845504755947f45d4b26ad396d35407f771508630903be0bcc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wecom-001-cc6afeb74240"
+      ],
+      "service_id": "wecom",
+      "type": "domain",
+      "value": "developer.work.weixin.qq.com"
+    },
+    {
+      "asset_id": "sha256:3e014e68b0a16fe652217fffee45433fdf9855c78738e7bf59d0ef694ccd25b1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wecom-001-cc6afeb74240"
+      ],
+      "service_id": "wecom",
+      "type": "domain",
+      "value": "open.work.weixin.qq.com"
+    },
+    {
+      "asset_id": "sha256:d52ca5ea44d04688413f0597b0c85e7ea12d5701f9d2f2fa8f197145d34baf3b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wecom-001-cc6afeb74240"
+      ],
+      "service_id": "wecom",
+      "type": "domain",
+      "value": "work.weixin.qq.com"
+    }
+  ],
+  "content_digest": "c62e6fe786361f00d745f04a6144a5cd853ac9eccba93bf44a959dbef4db331e",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "cc6afeb74240b7111973d606685dca9b0ea8d287396d93fa241f681b5bebbf4e",
+      "domains_extracted": 3,
+      "evidence_id": "EV-wecom-001-cc6afeb74240",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://work.weixin.qq.com/",
+      "retrieved_at": "2026-10-20T07:42:43.765872+00:00",
+      "service_id": "wecom",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://work.weixin.qq.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "87945ce124ca5c6918f7d265cdd74a0d13263cf42ea528b1891ae6399b77fc7f",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "51a04f36f18976eba941cbb423e1a5cadab83d2e184e9a9ed0af3eb6f4daea45",
+  "release_digest": "1354fe0684396538ef29176e2e21b51d8bea460a577e0a564221466204472d31",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "wecom",
+  "snapshot_id": "snap-wecom-1354fe0684396538ef29176e",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}
