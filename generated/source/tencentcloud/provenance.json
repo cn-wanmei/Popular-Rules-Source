@@ -4,7 +4,7 @@
       "asset_id": "sha256:f8b2105bbea1f97e120c09a64ff0077681234b99ee8491537ff99567948861ec",
       "classification": "service",
       "evidence_ids": [
-        "EV-tencentcloud-001-6cd3fcf33987"
+        "EV-tencentcloud-001-1f844279e9aa"
       ],
       "service_id": "tencentcloud",
       "type": "domain",
@@ -16,8 +16,8 @@
     "removal_ratio": 0.0,
     "status": "OK"
   },
-  "content_digest": "991cd04ea6d9f7984644c7c14041188000b22c6fc463ad04ba085e62804bfaeb",
-  "created_at": "2026-10-10T08:35:57.032814+00:00",
+  "content_digest": "30661a87b942081b9f63f737c1ce9762df7d880056b51a91cb2ae6ccc99ff03c",
+  "created_at": "2026-10-22T07:40:38.666198+00:00",
   "domain_count": 1,
   "domain_diff": {
     "added": [],
@@ -39,12 +39,12 @@
     {
       "authority": "official",
       "confidence": "high",
-      "content_hash": "6cd3fcf3398722a922bac8f38466f175f614d5b08c7dfbe3647f4805381b7391",
+      "content_hash": "1f844279e9aaf113dfc6c0a43a53fca254438da4c09341c2c240adbf33fce850",
       "domains_extracted": 1,
-      "evidence_id": "EV-tencentcloud-001-6cd3fcf33987",
+      "evidence_id": "EV-tencentcloud-001-1f844279e9aa",
       "parser_version": "domain-extractor-v4",
       "resolved_url": "https://cloud.tencent.com/document/api",
-      "retrieved_at": "2026-10-10T08:35:56.994986+00:00",
+      "retrieved_at": "2026-10-22T07:40:38.635719+00:00",
       "service_id": "tencentcloud",
       "source_method": "official_web",
       "source_type": "official_web",
@@ -53,7 +53,7 @@
       "strength": "S3"
     }
   ],
-  "evidence_digest": "ba9f8011f493dcfc90e30fdbf63fa6c27794f5208173099bf3d1d6879733fe13",
+  "evidence_digest": "a82391688cf672ab850d1fbe8b160bf95699fcad8ff774f4ea09e2f4e4ab4aea",
   "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
   "generator_version": "3.1.0",
   "last_known_good": false,
@@ -62,15 +62,15 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "58510f5c59ea5fddf470ff6d169b6fa0444c14a843e0409cd341c80c486546a4",
   "previous_domain_count": 1,
-  "release_digest": "31c973d7977238370f595ac354c48641639e00b8f3bda650c1e0d87d015eddba",
+  "release_digest": "b8ef39962a1b2047596dda14fe618ffe04803eed14636baf7b73281377350668",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
   "schema": "source_snapshot_v2",
   "service_config_digest": "03ca4ac7093884c42f7f5ad5859a4f18b9ae27d9054fd793eba5e5098200edd4",
   "service_id": "tencentcloud",
-  "snapshot_content_sha256": "991cd04ea6d9f7984644c7c14041188000b22c6fc463ad04ba085e62804bfaeb",
-  "snapshot_id": "snap-tencentcloud-31c973d7977238370f595ac3",
+  "snapshot_content_sha256": "30661a87b942081b9f63f737c1ce9762df7d880056b51a91cb2ae6ccc99ff03c",
+  "snapshot_id": "snap-tencentcloud-b8ef39962a1b2047596dda14",
   "source_bindings": [
     {
       "adapter": null,
