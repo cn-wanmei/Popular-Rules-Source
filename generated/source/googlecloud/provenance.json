@@ -4,7 +4,7 @@
       "asset_id": "sha256:279fbda702de2497d6dac7be4843c61b927efd0e8892d65b456c5533c101fe8a",
       "classification": "service",
       "evidence_ids": [
-        "EV-googlecloud-001-d2ebfe16e03b"
+        "EV-googlecloud-001-450482849433"
       ],
       "service_id": "googlecloud",
       "type": "domain",
@@ -14,7 +14,7 @@
       "asset_id": "sha256:6adcf5c334cb08749105849b99af4237fe6179f7e083fd648eb8fbfc01267018",
       "classification": "service",
       "evidence_ids": [
-        "EV-googlecloud-001-d2ebfe16e03b"
+        "EV-googlecloud-001-450482849433"
       ],
       "service_id": "googlecloud",
       "type": "domain",
@@ -24,7 +24,7 @@
       "asset_id": "sha256:57d2571fca0135cc25537faa2357fb7d7b9dd34059f0167e1aff2bd229e98928",
       "classification": "service",
       "evidence_ids": [
-        "EV-googlecloud-001-d2ebfe16e03b"
+        "EV-googlecloud-001-450482849433"
       ],
       "service_id": "googlecloud",
       "type": "domain",
@@ -34,7 +34,7 @@
       "asset_id": "sha256:7e81766e198765e6e154a7d3ab662448d84f0e58a2be2886e55154568522408a",
       "classification": "service",
       "evidence_ids": [
-        "EV-googlecloud-001-d2ebfe16e03b"
+        "EV-googlecloud-001-450482849433"
       ],
       "service_id": "googlecloud",
       "type": "domain",
@@ -44,7 +44,7 @@
       "asset_id": "sha256:eaeda10bb075c322277e18a7fc64e743903d4d64154a5fdfdd0032fba9833a09",
       "classification": "service",
       "evidence_ids": [
-        "EV-googlecloud-001-d2ebfe16e03b"
+        "EV-googlecloud-001-450482849433"
       ],
       "service_id": "googlecloud",
       "type": "domain",
@@ -56,8 +56,8 @@
     "removal_ratio": 0.0,
     "status": "OK"
   },
-  "content_digest": "9a9a1a429ee46b06e7461613014884fd9f1576ccb18bce61b26af1209a08f91c",
-  "created_at": "2026-10-10T08:34:46.169812+00:00",
+  "content_digest": "ba94663458db0dbaff76a9c627b61b0cf8bf23bccbed429047dc419ccc7d0ac1",
+  "created_at": "2026-10-22T07:39:43.495006+00:00",
   "domain_count": 5,
   "domain_diff": {
     "added": [],
@@ -87,12 +87,12 @@
     {
       "authority": "official",
       "confidence": "high",
-      "content_hash": "d2ebfe16e03bb50218aef5140f8c8f7a4555ec8f324c4431dc9de1d7a11cb0d0",
+      "content_hash": "450482849433bcd099c213a83619da624965dc5bc9229601f6d96d2282f359af",
       "domains_extracted": 5,
-      "evidence_id": "EV-googlecloud-001-d2ebfe16e03b",
+      "evidence_id": "EV-googlecloud-001-450482849433",
       "parser_version": "domain-extractor-v4",
       "resolved_url": "https://cloud.google.com/",
-      "retrieved_at": "2026-10-10T08:34:45.941945+00:00",
+      "retrieved_at": "2026-10-22T07:39:43.332868+00:00",
       "service_id": "googlecloud",
       "source_method": "official_web",
       "source_type": "official_web",
@@ -101,7 +101,7 @@
       "strength": "S3"
     }
   ],
-  "evidence_digest": "51820a394044d0f43fdefc91d84acf00f7019947a259628db34a4156b28dff19",
+  "evidence_digest": "4afea9df943e6f496b01fe819f3e45162cdd2585c7c1a0d3283ae385ab157336",
   "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
   "generator_version": "3.1.0",
   "last_known_good": false,
@@ -110,15 +110,15 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "7596136202ec2861d0da515eecf34c9acc223b20cb22474878a84bc856021ce6",
   "previous_domain_count": 5,
-  "release_digest": "fea04085e965d2d348cab1bb22eeaf17b3fb3c5cc3fa73e8bbc1d0ab89d190a5",
+  "release_digest": "4d78bea0b7dbc45a4bae44570c5e1998cf796ba0f33ba19785c435d28045bc8e",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
   "schema": "source_snapshot_v2",
   "service_config_digest": "f601c5f1163cf538d09044a9a2cdb040fabfca219e54465db81d1f055f5cf673",
   "service_id": "googlecloud",
-  "snapshot_content_sha256": "9a9a1a429ee46b06e7461613014884fd9f1576ccb18bce61b26af1209a08f91c",
-  "snapshot_id": "snap-googlecloud-fea04085e965d2d348cab1bb",
+  "snapshot_content_sha256": "ba94663458db0dbaff76a9c627b61b0cf8bf23bccbed429047dc419ccc7d0ac1",
+  "snapshot_id": "snap-googlecloud-4d78bea0b7dbc45a4bae4457",
   "source_bindings": [
     {
       "adapter": null,

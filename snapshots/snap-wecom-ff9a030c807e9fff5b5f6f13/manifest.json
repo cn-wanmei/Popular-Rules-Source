@@ -1,0 +1,114 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:b87fc8669272d2845504755947f45d4b26ad396d35407f771508630903be0bcc",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wecom-001-b6230386aa4c"
+      ],
+      "service_id": "wecom",
+      "type": "domain",
+      "value": "developer.work.weixin.qq.com"
+    },
+    {
+      "asset_id": "sha256:3e014e68b0a16fe652217fffee45433fdf9855c78738e7bf59d0ef694ccd25b1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wecom-001-b6230386aa4c"
+      ],
+      "service_id": "wecom",
+      "type": "domain",
+      "value": "open.work.weixin.qq.com"
+    },
+    {
+      "asset_id": "sha256:d52ca5ea44d04688413f0597b0c85e7ea12d5701f9d2f2fa8f197145d34baf3b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wecom-001-b6230386aa4c"
+      ],
+      "service_id": "wecom",
+      "type": "domain",
+      "value": "work.weixin.qq.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 1.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "fc273c41a45582a41b6238ed3022c3764ebc1857e4a10f536eef0598d7837d03",
+  "created_at": "2026-10-22T07:40:49.834446+00:00",
+  "domain_count": 3,
+  "domain_diff": {
+    "added": [],
+    "added_count": 0,
+    "current_count": 3,
+    "previous_count": 3,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
+      "developer.work.weixin.qq.com",
+      "open.work.weixin.qq.com",
+      "work.weixin.qq.com"
+    ],
+    "unchanged_count": 3
+  },
+  "domains": [
+    "developer.work.weixin.qq.com",
+    "open.work.weixin.qq.com",
+    "work.weixin.qq.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "b6230386aa4c14d0f7f755cb3bb040c25bd20d82e90029c140d00f2d04d814eb",
+      "domains_extracted": 3,
+      "evidence_id": "EV-wecom-001-b6230386aa4c",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://work.weixin.qq.com/",
+      "retrieved_at": "2026-10-22T07:40:49.793870+00:00",
+      "service_id": "wecom",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://work.weixin.qq.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "2ac32e63f8406778469321b472685bb44d377b16c51d131c7da88c6d6c8a8bca",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 3,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "51a04f36f18976eba941cbb423e1a5cadab83d2e184e9a9ed0af3eb6f4daea45",
+  "previous_domain_count": 3,
+  "release_digest": "ff9a030c807e9fff5b5f6f139e0cd89ddea0b72cce2330775713cfb5e22e1904",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "2df8ad4f9c476cf05ffa62dd1d3f55c01c02e39cc47e479d852fc5167486a2b2",
+  "service_id": "wecom",
+  "snapshot_content_sha256": "fc273c41a45582a41b6238ed3022c3764ebc1857e4a10f536eef0598d7837d03",
+  "snapshot_id": "snap-wecom-ff9a030c807e9fff5b5f6f13",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://work.weixin.qq.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 3,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}
