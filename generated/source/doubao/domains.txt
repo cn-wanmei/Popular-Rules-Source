@@ -1,4 +1,3 @@
 lf-flow-web-cdn.doubao.com
 opt.doubao.com
-u002fwww.doubao.com
 www.doubao.com

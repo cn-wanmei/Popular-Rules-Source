@@ -1,0 +1,116 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:40832766eb8c0a6ffb66df98ae4447821dfab465ef319df454f53a60e65a8019",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-doubao-001-e80961ee4a05"
+      ],
+      "service_id": "doubao",
+      "type": "domain",
+      "value": "lf-flow-web-cdn.doubao.com"
+    },
+    {
+      "asset_id": "sha256:daaee758e23791751595712fe8c1fbe2208a7297415d2376e7e1aa719650f01c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-doubao-001-e80961ee4a05"
+      ],
+      "service_id": "doubao",
+      "type": "domain",
+      "value": "opt.doubao.com"
+    },
+    {
+      "asset_id": "sha256:f90c6f5b093a5e8741216821b5095ed8ce45f29ac28c16c0c31f9749fd8e4747",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-doubao-001-e80961ee4a05"
+      ],
+      "service_id": "doubao",
+      "type": "domain",
+      "value": "www.doubao.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.75,
+    "removal_ratio": 0.25,
+    "status": "OK"
+  },
+  "content_digest": "db2c2750aa595fa2e84840631e40538a21d045d2e4cc76504329c50471cf9ef2",
+  "created_at": "2026-10-23T07:37:06.430628+00:00",
+  "domain_count": 3,
+  "domain_diff": {
+    "added": [],
+    "added_count": 0,
+    "current_count": 3,
+    "previous_count": 4,
+    "removed": [
+      "u002fwww.doubao.com"
+    ],
+    "removed_count": 1,
+    "unchanged": [
+      "lf-flow-web-cdn.doubao.com",
+      "opt.doubao.com",
+      "www.doubao.com"
+    ],
+    "unchanged_count": 3
+  },
+  "domains": [
+    "lf-flow-web-cdn.doubao.com",
+    "opt.doubao.com",
+    "www.doubao.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "e80961ee4a05cc3950be2098c6494b7509fdd12c9704d595eea14a668779c9e2",
+      "domains_extracted": 3,
+      "evidence_id": "EV-doubao-001-e80961ee4a05",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://www.doubao.com/chat/",
+      "retrieved_at": "2026-10-23T07:37:06.370453+00:00",
+      "service_id": "doubao",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://www.doubao.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "c9d674a7f54c0261984212422bfcf6b81f140fb2b1dc2b9bd9e41983fd0918e9",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 3,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "d0a03d558d8760c1eab7a78de59a4fb5662ff0ba0ef4efa4c8f100cd7013ad98",
+  "previous_domain_count": 4,
+  "release_digest": "8a979a6d5c26f440671baa1ba3d0f7145f0bb76ed202389bd7c8851a9933fff8",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "7782653f06a99a1c505f07b45fc0845b2af8bc13a5411b240b39c1c92a7552b3",
+  "service_id": "doubao",
+  "snapshot_content_sha256": "db2c2750aa595fa2e84840631e40538a21d045d2e4cc76504329c50471cf9ef2",
+  "snapshot_id": "snap-doubao-8a979a6d5c26f440671baa1b",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.doubao.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 3,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}
