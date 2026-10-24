@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:530d5f48e5f973df7ae3f10786b53c7c27a10e11b0d2681eae4cb189373b5a89",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-firebase-001-12c67905e8ab"
+      ],
+      "service_id": "firebase",
+      "type": "domain",
+      "value": "console.firebase.google.com"
+    },
+    {
+      "asset_id": "sha256:081b6a69a444674d6c97a850c95640934f80fc6e52046ba87067dc3498f98800",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-firebase-001-12c67905e8ab"
+      ],
+      "service_id": "firebase",
+      "type": "domain",
+      "value": "firebase.google.com"
+    }
+  ],
+  "content_digest": "15254766dafeb9ff5f7737375e3c61d591f82412e96a29d478bd5ff04efa990f",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "12c67905e8aba0eb48c6071a369e55ada6974366825e582bfe324f82777b93c7",
+      "domains_extracted": 2,
+      "evidence_id": "EV-firebase-001-12c67905e8ab",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://firebase.google.com/",
+      "retrieved_at": "2026-10-24T07:22:46.221128+00:00",
+      "service_id": "firebase",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://firebase.google.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "0c6b81dc78014789fb56e6dea5fbec305ca447bc8eb596072936be75fefe79c3",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "de81abf06ccb4e4b84af244e4152a4683258b137dd6326b0fe1dd6e23d6b4553",
+  "release_digest": "f24c3fedea6b1ec38ebd5407a6bb79e8c89d3976b54bb7c81014c9044dc654be",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "firebase",
+  "snapshot_id": "snap-firebase-f24c3fedea6b1ec38ebd5407",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}
