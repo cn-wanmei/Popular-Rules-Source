@@ -1,0 +1,12 @@
+{
+  "content_digest": "602cdf83b03f8f6d2ee9c953e13bd58c8edb942bb2ac4c9d9ef3626d12211812",
+  "domains": [
+    "open.taobao.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "taobao",
+  "source_hashes": [
+    "ea8494ee92adf3177c86385d7a89a79ce3e8482d0154be63a2e92923183b50e3"
+  ]
+}
