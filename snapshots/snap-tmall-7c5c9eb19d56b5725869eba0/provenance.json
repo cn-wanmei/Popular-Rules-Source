@@ -1,0 +1,117 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:25db61baf5e77d450db202ad2bbb1e85a2fb1b93f9659597b3bd73350f162e5f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tmall-001-4eb1e4d85c30"
+      ],
+      "service_id": "tmall",
+      "type": "domain",
+      "value": "book.tmall.com"
+    },
+    {
+      "asset_id": "sha256:37e05383a2701d40830606a2108ff1b9d1f02e430ed839262243e6a047ce6de6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tmall-001-4eb1e4d85c30"
+      ],
+      "service_id": "tmall",
+      "type": "domain",
+      "value": "car.tmall.com"
+    },
+    {
+      "asset_id": "sha256:03e1ce68e9592360c4fbd3d4b54dfd55588207262e50b03030612716534f1365",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tmall-001-4eb1e4d85c30"
+      ],
+      "service_id": "tmall",
+      "type": "domain",
+      "value": "chaoshi.tmall.com"
+    },
+    {
+      "asset_id": "sha256:8c8f85c3f69c90d11b9120c1de895ecd373da4739ad63e6132707a212d6d6e43",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tmall-001-4eb1e4d85c30"
+      ],
+      "service_id": "tmall",
+      "type": "domain",
+      "value": "detail.tmall.com"
+    },
+    {
+      "asset_id": "sha256:57c65f80efd74bf712300035a70d6a818c4419ed99b5072178b6810b8cdd7bed",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tmall-001-4eb1e4d85c30"
+      ],
+      "service_id": "tmall",
+      "type": "domain",
+      "value": "fragment.tmall.com"
+    },
+    {
+      "asset_id": "sha256:63c5c62fa4b657c0ce92ac6bb1acab2bbe48fed483a20e530526213412fe5ae2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tmall-001-4eb1e4d85c30"
+      ],
+      "service_id": "tmall",
+      "type": "domain",
+      "value": "jstracker.www.tmall.com"
+    },
+    {
+      "asset_id": "sha256:2307193736999ac38b4f928873f3befa9450db1922b7354bf002cda9d7b996bb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tmall-001-4eb1e4d85c30"
+      ],
+      "service_id": "tmall",
+      "type": "domain",
+      "value": "tmall.com"
+    },
+    {
+      "asset_id": "sha256:21a7ab983373e39919b775ce370d79db498a247f1a65b4a9e5ab15c0d394d2ce",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tmall-001-4eb1e4d85c30"
+      ],
+      "service_id": "tmall",
+      "type": "domain",
+      "value": "www.tmall.com"
+    }
+  ],
+  "content_digest": "4ec56f0399cca30bf23f90fb474c7de54bef13ad80d85b7396a3068651f7ddd3",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "4eb1e4d85c30c8c74fa4dacf2295e004591319ae1a9f64099b5c61f1ed48af9e",
+      "domains_extracted": 8,
+      "evidence_id": "EV-tmall-001-4eb1e4d85c30",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://www.tmall.com/",
+      "retrieved_at": "2026-10-25T07:41:45.263147+00:00",
+      "service_id": "tmall",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://www.tmall.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "1cace640df44c4ec15744b9e11251d65f5203574da19c8e7142c43dc6ac42621",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "b4b1b408ca2bfe03e2af68103ed2e3dc598350120217d287733a119f9c7f82aa",
+  "release_digest": "7c5c9eb19d56b5725869eba0a8c35df73caf512dcc53cd47cf6b6f8417b5614c",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "tmall",
+  "snapshot_id": "snap-tmall-7c5c9eb19d56b5725869eba0",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}
