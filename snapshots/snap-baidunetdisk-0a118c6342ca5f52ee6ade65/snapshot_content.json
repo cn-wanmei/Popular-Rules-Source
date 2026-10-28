@@ -1,0 +1,13 @@
+{
+  "content_digest": "27f07e447d308904ec78f76d3ab00bced15d9cda7547224d39bb32e25a85b8ba",
+  "domains": [
+    "pan.baidu.com",
+    "webpush.pan.baidu.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "baidunetdisk",
+  "source_hashes": [
+    "51ecff85d52d8f3a911920b7043da93f5c112848e3020500e2dd5d71807d614d"
+  ]
+}

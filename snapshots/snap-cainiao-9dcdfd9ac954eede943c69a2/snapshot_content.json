@@ -1,0 +1,12 @@
+{
+  "content_digest": "f998d4be80cf603a6095f3b5eca3276e70ae6edff03e805f1a31601b265ff217",
+  "domains": [
+    "gpn.cainiao.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "cainiao",
+  "source_hashes": [
+    "900c54488ff96c2d59187bfc1b90f51dcb312e8e54c09ae2e06d4b02e9e37341"
+  ]
+}
