@@ -4,7 +4,7 @@
       "asset_id": "sha256:5173fb999d1716e2a137c1dffe622517dd62976818981a6a7dd9fb759ee0a281",
       "classification": "service",
       "evidence_ids": [
-        "EV-1688-001-83d9c96f74b1"
+        "EV-1688-001-813fa575ab1e"
       ],
       "service_id": "1688",
       "type": "domain",
@@ -14,7 +14,7 @@
       "asset_id": "sha256:e15f8b29573917b42c57523d8df44c047427cf589e61c968aa6f6aa2fbb6a63d",
       "classification": "service",
       "evidence_ids": [
-        "EV-1688-001-83d9c96f74b1"
+        "EV-1688-001-813fa575ab1e"
       ],
       "service_id": "1688",
       "type": "domain",
@@ -26,8 +26,8 @@
     "removal_ratio": 0.0,
     "status": "OK"
   },
-  "content_digest": "cebf5007a3523ee1e4e0cd25d663e4a7f77c55cc5340ddb640f5c1304b97a15a",
-  "created_at": "2026-10-10T08:33:45.625338+00:00",
+  "content_digest": "9cddbcfbbc57944fccc519baeada13d5ee085e202df1c3f3da8c1f626256b4fa",
+  "created_at": "2026-10-30T08:43:00.902976+00:00",
   "domain_count": 2,
   "domain_diff": {
     "added": [],
@@ -51,12 +51,12 @@
     {
       "authority": "official",
       "confidence": "high",
-      "content_hash": "83d9c96f74b1f507c79d0127523b63159f16199ace50f476172db46fe2ac97e8",
+      "content_hash": "813fa575ab1e67c51b39b5a5a98ceef5921e8c08e0b2356d09dde653008e35af",
       "domains_extracted": 2,
-      "evidence_id": "EV-1688-001-83d9c96f74b1",
+      "evidence_id": "EV-1688-001-813fa575ab1e",
       "parser_version": "domain-extractor-v4",
       "resolved_url": "https://www.1688.com/",
-      "retrieved_at": "2026-10-10T08:33:45.571383+00:00",
+      "retrieved_at": "2026-10-30T08:43:00.850635+00:00",
       "service_id": "1688",
       "source_method": "official_web",
       "source_type": "official_web",
@@ -65,7 +65,7 @@
       "strength": "S3"
     }
   ],
-  "evidence_digest": "aea652cc5b6cf34df3c663b3a6a22689f56eb0f3f3b1ae406b09651fe3a1f2ab",
+  "evidence_digest": "e39a057ec94942a6f083d4b524ec0412f24518a93de6f82ea57a52eaf37b5786",
   "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
   "generator_version": "3.1.0",
   "last_known_good": false,
@@ -74,15 +74,15 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "877e7af68e1242e56c8ef24540b44ea4507caf68a99cfc5df90cacfe610d954d",
   "previous_domain_count": 2,
-  "release_digest": "b564b6fc34b9b30a871a79d3c1d445f22b6f34be20b551caf8c0ce176e67d38a",
+  "release_digest": "44f63114ad47992af0bab7ad807823ce1003a22fa352123be3bb1113c6e1df1f",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
   "schema": "source_snapshot_v2",
   "service_config_digest": "6ef0c1775083b6f03aba3be31a7c8890621a6593822dfa984f148d7fbbdc97db",
   "service_id": "1688",
-  "snapshot_content_sha256": "cebf5007a3523ee1e4e0cd25d663e4a7f77c55cc5340ddb640f5c1304b97a15a",
-  "snapshot_id": "snap-1688-b564b6fc34b9b30a871a79d3",
+  "snapshot_content_sha256": "9cddbcfbbc57944fccc519baeada13d5ee085e202df1c3f3da8c1f626256b4fa",
+  "snapshot_id": "snap-1688-44f63114ad47992af0bab7ad",
   "source_bindings": [
     {
       "adapter": null,
