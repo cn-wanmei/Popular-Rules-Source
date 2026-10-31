@@ -1,0 +1,13 @@
+{
+  "content_digest": "2288c7b07bf0d02162928a3c6917986bcbccf1f556cc62a32412fbf72b10580a",
+  "domains": [
+    "console.firebase.google.com",
+    "firebase.google.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "firebase",
+  "source_hashes": [
+    "008ed0e19e57d8ffc6ed2b2ae7119d1a399f4f110c13fdc151135bb033086713"
+  ]
+}
