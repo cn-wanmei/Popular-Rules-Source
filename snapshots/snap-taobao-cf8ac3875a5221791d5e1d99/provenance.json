@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:1ebd3af642ca29a464a0687cc5ed41dd8fddb6764d225d8128475940cedb083d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-001-707f14adc081"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "open.taobao.com"
+    }
+  ],
+  "content_digest": "ae996781a8e2285f500ffabbe6d9538940b5eafa4308cfab15b86f49ae41fa12",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "707f14adc081e0b84b474f3965c9c9a20685a87eab78c026ce13b2278aa9a654",
+      "domains_extracted": 1,
+      "evidence_id": "EV-taobao-001-707f14adc081",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://open.taobao.com/index.htm",
+      "retrieved_at": "2026-11-05T09:35:19.946508+00:00",
+      "service_id": "taobao",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://open.taobao.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "6aa4dd2ce23a4c02de6104cdaccf2cc445c0ca58d07967fc35f241beffb435f2",
+  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "policy_digest": "9e38c8ab8072e03dc76b9f462b72c893730db1977cd0bb401988aa2f4e427038",
+  "release_digest": "cf8ac3875a5221791d5e1d99b07d58cc0883e3b1791d915beab3aa1591ada664",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "taobao",
+  "snapshot_id": "snap-taobao-cf8ac3875a5221791d5e1d99",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}
