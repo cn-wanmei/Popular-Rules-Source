@@ -4,11 +4,11 @@
     "1688": {
       "blockers": [],
       "declared_state": "production",
-      "domain_count": 2,
+      "domain_count": 1,
       "enabled": true,
       "production_activated": true,
-      "release_digest": "b564b6fc34b9b30a871a79d3c1d445f22b6f34be20b551caf8c0ce176e67d38a",
-      "snapshot_id": "snap-1688-b564b6fc34b9b30a871a79d3",
+      "release_digest": "f458be75aa808f18064228fb7463d9eb5923c09b44bdda12065225ba3b3a832a",
+      "snapshot_id": "snap-1688-f458be75aa808f18064228fb",
       "verified": true
     },
     "37games": {
@@ -487,8 +487,8 @@
       "domain_count": 1,
       "enabled": true,
       "production_activated": true,
-      "release_digest": "59dbb236d2214c9453d730b33829c5ff4c5b8cf25dc77753b914fdc4cb4ffc54",
-      "snapshot_id": "snap-cainiao-59dbb236d2214c9453d730b3",
+      "release_digest": "082bcf9d10c28c7ec1007fcd613951b092382abd52adeac47de7ff9fd82bef2a",
+      "snapshot_id": "snap-cainiao-082bcf9d10c28c7ec1007fcd",
       "verified": true
     },
     "cambricon": {
@@ -709,8 +709,8 @@
       "domain_count": 4,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "3fbd674c87042a17acc4cae4eb3392d3a15ec9c80663cd56eabc29cd7985fa52",
-      "snapshot_id": "snap-doubao-3fbd674c87042a17acc4cae4",
+      "release_digest": "a7d2d178888060fbdee72d83bae48f9aa1a18756839f7d53ac95d19723cac2c4",
+      "snapshot_id": "snap-doubao-a7d2d178888060fbdee72d83",
       "verified": true
     },
     "douyin": {
@@ -819,8 +819,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "89165dc8a5b95a17adeb67ecb703d9edbdaff272d76833d6bdc2034778aa9bf3",
-      "snapshot_id": "snap-firebase-89165dc8a5b95a17adeb67ec",
+      "release_digest": "9698ad42f7f0ca8befa919ff3d81b260d8396a2785501685a81c7eecf46d8568",
+      "snapshot_id": "snap-firebase-9698ad42f7f0ca8befa919ff",
       "verified": true
     },
     "fliggy": {
@@ -1099,8 +1099,8 @@
       "domain_count": 5,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "fea04085e965d2d348cab1bb22eeaf17b3fb3c5cc3fa73e8bbc1d0ab89d190a5",
-      "snapshot_id": "snap-googlecloud-fea04085e965d2d348cab1bb",
+      "release_digest": "b9829635570307c20ccaa273583190e19a89defb36d6816f4b5c08d3c0437b42",
+      "snapshot_id": "snap-googlecloud-b9829635570307c20ccaa273",
       "verified": true
     },
     "googledrive": {
@@ -2324,8 +2324,8 @@
       "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "5c91797f464f2aa9b8304418a9b1bc92ac6e4fdfdecdb170bee2758359bb3799",
-      "snapshot_id": "snap-taobao-5c91797f464f2aa9b8304418",
+      "release_digest": "0e28e753ca0c99157a7dcc8c4b6cbe0c323ddb1abc2b20f3f3cd84132380f2ed",
+      "snapshot_id": "snap-taobao-0e28e753ca0c99157a7dcc8c",
       "verified": false
     },
     "teams": {
@@ -2364,8 +2364,8 @@
       "domain_count": 1,
       "enabled": true,
       "production_activated": true,
-      "release_digest": "31c973d7977238370f595ac354c48641639e00b8f3bda650c1e0d87d015eddba",
-      "snapshot_id": "snap-tencentcloud-31c973d7977238370f595ac3",
+      "release_digest": "31203cf50dc00783be627e8e002d52881856f6afb39ce7e04e61a7f0d4eaa801",
+      "snapshot_id": "snap-tencentcloud-31203cf50dc00783be627e8e",
       "verified": true
     },
     "tencentdocs": {
@@ -2444,8 +2444,8 @@
       "domain_count": 8,
       "enabled": true,
       "production_activated": true,
-      "release_digest": "08aeb8ea0fd4d1034c4c96afefeff137e978c64e94ecb1ea14779a839f8bf8fd",
-      "snapshot_id": "snap-tmall-08aeb8ea0fd4d1034c4c96af",
+      "release_digest": "eb7208507d6bf22413f698575b061b4d7ee3d6acd6a6d1893abcc3b08d423d6f",
+      "snapshot_id": "snap-tmall-eb7208507d6bf22413f69857",
       "verified": true
     },
     "tongcheng": {
@@ -2604,8 +2604,8 @@
       "domain_count": 3,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "6d8762b9d0bee7d6ad037895e65d039943d9fcea5d3c88b193deec73f8c6a5ba",
-      "snapshot_id": "snap-wecom-6d8762b9d0bee7d6ad037895",
+      "release_digest": "2205d65d1e24cc359f0255ac3743687738396bf814541f35390f6c3126176e5e",
+      "snapshot_id": "snap-wecom-2205d65d1e24cc359f0255ac",
       "verified": true
     },
     "wegame": {

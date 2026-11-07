@@ -2,15 +2,15 @@
   "schema": "popular_rules_source_lifecycle_report_v1",
   "services": {
     "1688": {
-      "content_digest": "cebf5007a3523ee1e4e0cd25d663e4a7f77c55cc5340ddb640f5c1304b97a15a",
-      "domain_count": 2,
+      "content_digest": "4ea8385e61020ca52f22ede94bc5f1e4c5b8c1f13c87ad2161d39193d0c3cf0d",
+      "domain_count": 1,
       "enabled": true,
-      "evidence_digest": "aea652cc5b6cf34df3c663b3a6a22689f56eb0f3f3b1ae406b09651fe3a1f2ab",
+      "evidence_digest": "924624e952d06094ae2fff48e2229873ad332831633798fa44c7174195f7a31e",
       "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
       "policy_digest": "877e7af68e1242e56c8ef24540b44ea4507caf68a99cfc5df90cacfe610d954d",
-      "release_digest": "b564b6fc34b9b30a871a79d3c1d445f22b6f34be20b551caf8c0ce176e67d38a",
+      "release_digest": "f458be75aa808f18064228fb7463d9eb5923c09b44bdda12065225ba3b3a832a",
       "release_state": "CANDIDATE",
-      "snapshot_id": "snap-1688-b564b6fc34b9b30a871a79d3",
+      "snapshot_id": "snap-1688-f458be75aa808f18064228fb",
       "state": "production"
     },
     "37games": {
@@ -578,15 +578,15 @@
       "state": "review"
     },
     "cainiao": {
-      "content_digest": "77c67f451e2d7c028ab1536c41940a74b7513f1e78de8d208e0f5a898fe16935",
+      "content_digest": "b8b19032b2a635bf7d3f4da37d7fdb4ea3380d4e22480eab2fe07f63e533d2cd",
       "domain_count": 1,
       "enabled": true,
-      "evidence_digest": "c08e0593c25bc7a019d2fdb2b2badf612b5a886321efcbce9fa3fb8b0c3767fa",
+      "evidence_digest": "1c6739c9cfc8914fffd52e9a8b6ffed99eec905608cf4c0c8b552423fe9fded0",
       "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
       "policy_digest": "70093b9709724c22863c6f1840b5cb8e31afcd4b768d3c3a454a1a94ffb30d11",
-      "release_digest": "59dbb236d2214c9453d730b33829c5ff4c5b8cf25dc77753b914fdc4cb4ffc54",
+      "release_digest": "082bcf9d10c28c7ec1007fcd613951b092382abd52adeac47de7ff9fd82bef2a",
       "release_state": "CANDIDATE",
-      "snapshot_id": "snap-cainiao-59dbb236d2214c9453d730b3",
+      "snapshot_id": "snap-cainiao-082bcf9d10c28c7ec1007fcd",
       "state": "production"
     },
     "cambricon": {
@@ -842,15 +842,15 @@
       "state": "review"
     },
     "doubao": {
-      "content_digest": "cde7741ddcd1576cf6372cb14d90ee03cd4a4da42f418055afd8609909e7f6db",
+      "content_digest": "023a435583af9d31a70ec3d182b7243aede5e32dceace82f490ed75921182d82",
       "domain_count": 4,
       "enabled": true,
-      "evidence_digest": "52fa634eed4da1b66cce189b57356c8b0cc9bc4ecc5b3611757c4fe83b213e7f",
+      "evidence_digest": "a5e5baaf9565c75d826ab0c0eefe333cfccc524fd89a30f4913f69d6b6ef51e6",
       "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
       "policy_digest": "d0a03d558d8760c1eab7a78de59a4fb5662ff0ba0ef4efa4c8f100cd7013ad98",
-      "release_digest": "3fbd674c87042a17acc4cae4eb3392d3a15ec9c80663cd56eabc29cd7985fa52",
+      "release_digest": "a7d2d178888060fbdee72d83bae48f9aa1a18756839f7d53ac95d19723cac2c4",
       "release_state": "CANDIDATE",
-      "snapshot_id": "snap-doubao-3fbd674c87042a17acc4cae4",
+      "snapshot_id": "snap-doubao-a7d2d178888060fbdee72d83",
       "state": "review"
     },
     "douyin": {
@@ -974,15 +974,15 @@
       "state": "verified"
     },
     "firebase": {
-      "content_digest": "41f29bf9b89e0ca363f5f2b42c97a4cdd3edca6ffb567d7b530e56cfce9f6e1f",
+      "content_digest": "289fff1c7fe3a43b87572f456f53679bddb5dd8f2a037989fbcc0ce1fcad5a0b",
       "domain_count": 2,
       "enabled": true,
-      "evidence_digest": "784d7c1a10e52fd01da330643d2bd4f67021e3a26b55d7df7b54bfeb2921e0bf",
+      "evidence_digest": "1f70b088b8e2348b5e5ebaa305c1b143f26127a3dc20936f27b727ae04b9e923",
       "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
       "policy_digest": "de81abf06ccb4e4b84af244e4152a4683258b137dd6326b0fe1dd6e23d6b4553",
-      "release_digest": "89165dc8a5b95a17adeb67ecb703d9edbdaff272d76833d6bdc2034778aa9bf3",
+      "release_digest": "9698ad42f7f0ca8befa919ff3d81b260d8396a2785501685a81c7eecf46d8568",
       "release_state": "CANDIDATE",
-      "snapshot_id": "snap-firebase-89165dc8a5b95a17adeb67ec",
+      "snapshot_id": "snap-firebase-9698ad42f7f0ca8befa919ff",
       "state": "review"
     },
     "fliggy": {
@@ -1310,15 +1310,15 @@
       "state": "review"
     },
     "googlecloud": {
-      "content_digest": "9a9a1a429ee46b06e7461613014884fd9f1576ccb18bce61b26af1209a08f91c",
+      "content_digest": "f87bd1247e006febd6a9cc59b863d4e596e124369fc4336a611db3692d08a74f",
       "domain_count": 5,
       "enabled": true,
-      "evidence_digest": "51820a394044d0f43fdefc91d84acf00f7019947a259628db34a4156b28dff19",
+      "evidence_digest": "a64b732e894dd7570ff017c6e736100988a633df3b3aecce94c5fa410512c19c",
       "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
       "policy_digest": "7596136202ec2861d0da515eecf34c9acc223b20cb22474878a84bc856021ce6",
-      "release_digest": "fea04085e965d2d348cab1bb22eeaf17b3fb3c5cc3fa73e8bbc1d0ab89d190a5",
+      "release_digest": "b9829635570307c20ccaa273583190e19a89defb36d6816f4b5c08d3c0437b42",
       "release_state": "CANDIDATE",
-      "snapshot_id": "snap-googlecloud-fea04085e965d2d348cab1bb",
+      "snapshot_id": "snap-googlecloud-b9829635570307c20ccaa273",
       "state": "review"
     },
     "googledrive": {
@@ -2774,15 +2774,15 @@
       "state": "review"
     },
     "taobao": {
-      "content_digest": "d4d51a5f19f9f5e87ae283fff6e910f87e92db73364d5a4138e052aac5c3b0e1",
+      "content_digest": "a0b378a9d6681e3909e1475b069c382d5965190e8ccd67cdf227ae5e770a4271",
       "domain_count": 1,
       "enabled": true,
-      "evidence_digest": "7ba2951e565afad51014764395fbe559c78b3d24fdff3e3fb5cf46dc74371562",
+      "evidence_digest": "9a03f0e78bbd8d62108207fe149b12cb134f00460a5ac977c88489c64327599e",
       "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
       "policy_digest": "9e38c8ab8072e03dc76b9f462b72c893730db1977cd0bb401988aa2f4e427038",
-      "release_digest": "5c91797f464f2aa9b8304418a9b1bc92ac6e4fdfdecdb170bee2758359bb3799",
+      "release_digest": "0e28e753ca0c99157a7dcc8c4b6cbe0c323ddb1abc2b20f3f3cd84132380f2ed",
       "release_state": "REVIEW",
-      "snapshot_id": "snap-taobao-5c91797f464f2aa9b8304418",
+      "snapshot_id": "snap-taobao-0e28e753ca0c99157a7dcc8c",
       "state": "production"
     },
     "teams": {
@@ -2822,15 +2822,15 @@
       "state": "review"
     },
     "tencentcloud": {
-      "content_digest": "991cd04ea6d9f7984644c7c14041188000b22c6fc463ad04ba085e62804bfaeb",
+      "content_digest": "207484bf89cf0dc4e4a7440a14c70b40115b72bbd9cd0dba227abbf5bdf0f1a5",
       "domain_count": 1,
       "enabled": true,
-      "evidence_digest": "ba9f8011f493dcfc90e30fdbf63fa6c27794f5208173099bf3d1d6879733fe13",
+      "evidence_digest": "b59e711690103570a359f4890996664ebfd65b944866d9666c6d8648cf0ad891",
       "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
       "policy_digest": "58510f5c59ea5fddf470ff6d169b6fa0444c14a843e0409cd341c80c486546a4",
-      "release_digest": "31c973d7977238370f595ac354c48641639e00b8f3bda650c1e0d87d015eddba",
+      "release_digest": "31203cf50dc00783be627e8e002d52881856f6afb39ce7e04e61a7f0d4eaa801",
       "release_state": "CANDIDATE",
-      "snapshot_id": "snap-tencentcloud-31c973d7977238370f595ac3",
+      "snapshot_id": "snap-tencentcloud-31203cf50dc00783be627e8e",
       "state": "production"
     },
     "tencentdocs": {
@@ -2918,15 +2918,15 @@
       "state": "verified"
     },
     "tmall": {
-      "content_digest": "fdfb8a55dbba7a287459673705ea10e2c3635d77cd2d4a466a9da346cf5b4c3a",
+      "content_digest": "a72bef9d7ed6b4aaba83f8cecbee9f6afb868536dfd7c07258294075b41974ca",
       "domain_count": 8,
       "enabled": true,
-      "evidence_digest": "6ea2ac46d1b8d4791f3f7cb98c78f442544ca226fa05a05ee5b692628d95e261",
+      "evidence_digest": "381aae93f874298422b34c98989ba1a1c661b8d57540efe95d4df24fb7f23f98",
       "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
       "policy_digest": "b4b1b408ca2bfe03e2af68103ed2e3dc598350120217d287733a119f9c7f82aa",
-      "release_digest": "08aeb8ea0fd4d1034c4c96afefeff137e978c64e94ecb1ea14779a839f8bf8fd",
+      "release_digest": "eb7208507d6bf22413f698575b061b4d7ee3d6acd6a6d1893abcc3b08d423d6f",
       "release_state": "CANDIDATE",
-      "snapshot_id": "snap-tmall-08aeb8ea0fd4d1034c4c96af",
+      "snapshot_id": "snap-tmall-eb7208507d6bf22413f69857",
       "state": "production"
     },
     "tongcheng": {
@@ -3110,15 +3110,15 @@
       "state": "verified"
     },
     "wecom": {
-      "content_digest": "d95e5773e528c3a06299b5e8b904190373f16cf3bbe73f39d69e5e73db55f287",
+      "content_digest": "3623b96c1e96575ad96d18c3353b29b958d01c676c48a4c2ac9c04c315de568e",
       "domain_count": 3,
       "enabled": true,
-      "evidence_digest": "025c6401eee9185c07d584e7317e41681a0e0cf856c7db11cbf2fe6da6749ace",
+      "evidence_digest": "cadbfcc8da8a5bc40f95f7044584a023f0e3d9b35b16dad832d4c00499b878de",
       "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
       "policy_digest": "51a04f36f18976eba941cbb423e1a5cadab83d2e184e9a9ed0af3eb6f4daea45",
-      "release_digest": "6d8762b9d0bee7d6ad037895e65d039943d9fcea5d3c88b193deec73f8c6a5ba",
+      "release_digest": "2205d65d1e24cc359f0255ac3743687738396bf814541f35390f6c3126176e5e",
       "release_state": "CANDIDATE",
-      "snapshot_id": "snap-wecom-6d8762b9d0bee7d6ad037895",
+      "snapshot_id": "snap-wecom-2205d65d1e24cc359f0255ac",
       "state": "review"
     },
     "wegame": {
