@@ -4,7 +4,7 @@
       "asset_id": "sha256:e15f8b29573917b42c57523d8df44c047427cf589e61c968aa6f6aa2fbb6a63d",
       "classification": "service",
       "evidence_ids": [
-        "EV-1688-001-fdf0c2341b6e"
+        "EV-1688-001-40cc0be3df84"
       ],
       "service_id": "1688",
       "type": "domain",
@@ -16,8 +16,8 @@
     "removal_ratio": 0.5,
     "status": "OK"
   },
-  "content_digest": "4ea8385e61020ca52f22ede94bc5f1e4c5b8c1f13c87ad2161d39193d0c3cf0d",
-  "created_at": "2026-10-11T08:58:25.161882+00:00",
+  "content_digest": "e92de2d023d9efc35175414eb8937a8a88b57d9687e889320203c2ef8dad0205",
+  "created_at": "2026-11-07T08:50:43.353579+00:00",
   "domain_count": 1,
   "domain_diff": {
     "added": [],
@@ -41,12 +41,12 @@
     {
       "authority": "official",
       "confidence": "high",
-      "content_hash": "fdf0c2341b6e146ba25690633d4b5a4114cdf1f4edae86ba044b1ce378ff3b03",
+      "content_hash": "40cc0be3df84d783a86aa78bc0656b57b56bb804513992053edad4d91f57bf44",
       "domains_extracted": 1,
-      "evidence_id": "EV-1688-001-fdf0c2341b6e",
+      "evidence_id": "EV-1688-001-40cc0be3df84",
       "parser_version": "domain-extractor-v4",
       "resolved_url": "https://www.1688.com/",
-      "retrieved_at": "2026-10-11T08:58:25.090539+00:00",
+      "retrieved_at": "2026-11-07T08:50:43.320677+00:00",
       "service_id": "1688",
       "source_method": "official_web",
       "source_type": "official_web",
@@ -55,7 +55,7 @@
       "strength": "S3"
     }
   ],
-  "evidence_digest": "924624e952d06094ae2fff48e2229873ad332831633798fa44c7174195f7a31e",
+  "evidence_digest": "b416b991c62255aee3389fe7bf086fd5de4cf1e9b0aa873b31d357b622712ba0",
   "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
   "generator_version": "3.1.0",
   "last_known_good": false,
@@ -64,15 +64,15 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "877e7af68e1242e56c8ef24540b44ea4507caf68a99cfc5df90cacfe610d954d",
   "previous_domain_count": 2,
-  "release_digest": "f458be75aa808f18064228fb7463d9eb5923c09b44bdda12065225ba3b3a832a",
+  "release_digest": "ee628c6e2b5eab818aa1199f25ed5c0f21657df6b499e14ad7743aeb16f237a8",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
   "schema": "source_snapshot_v2",
   "service_config_digest": "6ef0c1775083b6f03aba3be31a7c8890621a6593822dfa984f148d7fbbdc97db",
   "service_id": "1688",
-  "snapshot_content_sha256": "4ea8385e61020ca52f22ede94bc5f1e4c5b8c1f13c87ad2161d39193d0c3cf0d",
-  "snapshot_id": "snap-1688-f458be75aa808f18064228fb",
+  "snapshot_content_sha256": "e92de2d023d9efc35175414eb8937a8a88b57d9687e889320203c2ef8dad0205",
+  "snapshot_id": "snap-1688-ee628c6e2b5eab818aa1199f",
   "source_bindings": [
     {
       "adapter": null,
