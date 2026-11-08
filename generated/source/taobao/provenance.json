@@ -4,7 +4,7 @@
       "asset_id": "sha256:1ebd3af642ca29a464a0687cc5ed41dd8fddb6764d225d8128475940cedb083d",
       "classification": "service",
       "evidence_ids": [
-        "EV-taobao-001-5adaec4ac3a1"
+        "EV-taobao-001-f9397600a2a0"
       ],
       "service_id": "taobao",
       "type": "domain",
@@ -16,8 +16,8 @@
     "removal_ratio": 0.9285714285714286,
     "status": "REVIEW_REMOVAL"
   },
-  "content_digest": "43d10126255105950436803e567e492ed21431f0aa54072bf8cc6c4c03c12955",
-  "created_at": "2026-11-07T08:52:22.933635+00:00",
+  "content_digest": "9430eb2cf64bb4430e7fc24e1d2f7ffc1c7b0feb120751d45820455a77de1e7e",
+  "created_at": "2026-11-08T09:06:11.773181+00:00",
   "domain_count": 1,
   "domain_diff": {
     "added": [],
@@ -53,12 +53,12 @@
     {
       "authority": "official",
       "confidence": "high",
-      "content_hash": "5adaec4ac3a15317a0f71936efd3c47fd669971d1f852df2028035263c4f6a92",
+      "content_hash": "f9397600a2a0f0e3a402a5f6c3ec336168e5e0fc28cfd3c0d8fece60b254fd00",
       "domains_extracted": 1,
-      "evidence_id": "EV-taobao-001-5adaec4ac3a1",
+      "evidence_id": "EV-taobao-001-f9397600a2a0",
       "parser_version": "domain-extractor-v4",
       "resolved_url": "https://open.taobao.com/index.htm",
-      "retrieved_at": "2026-11-07T08:52:22.901959+00:00",
+      "retrieved_at": "2026-11-08T09:06:11.728810+00:00",
       "service_id": "taobao",
       "source_method": "official_web",
       "source_type": "official_web",
@@ -67,7 +67,7 @@
       "strength": "S3"
     }
   ],
-  "evidence_digest": "0ca6090ff971e6c5eb6004ddc3dc0592fed9e945e8bc19355c182d203b4c2f0a",
+  "evidence_digest": "81a18e0bcfea6aea58aa8af41d48e619016b4f88513dfbbbc219a1a9953b1e44",
   "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
   "generator_version": "3.1.0",
   "last_known_good": false,
@@ -76,7 +76,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "9e38c8ab8072e03dc76b9f462b72c893730db1977cd0bb401988aa2f4e427038",
   "previous_domain_count": 14,
-  "release_digest": "8c481aadb69b7dfa622f32e90810da4939a58524ccb089ac497c23651525f185",
+  "release_digest": "64af7bc53054f94e30888cdba30cca9eb0ecc33e1d111a52e1397d6d567040fe",
   "release_identity_version": "2",
   "release_reasons": [
     "count_change:REVIEW_REMOVAL"
@@ -85,8 +85,8 @@
   "schema": "source_snapshot_v2",
   "service_config_digest": "75fd394a59073ca2112861ad162ed815b4265a05d3cba86d56f75b4f7e571d59",
   "service_id": "taobao",
-  "snapshot_content_sha256": "43d10126255105950436803e567e492ed21431f0aa54072bf8cc6c4c03c12955",
-  "snapshot_id": "snap-taobao-8c481aadb69b7dfa622f32e9",
+  "snapshot_content_sha256": "9430eb2cf64bb4430e7fc24e1d2f7ffc1c7b0feb120751d45820455a77de1e7e",
+  "snapshot_id": "snap-taobao-64af7bc53054f94e30888cdb",
   "source_bindings": [
     {
       "adapter": null,
