@@ -1,0 +1,15 @@
+{
+  "content_digest": "969468d4a6384924c6c5f826331c442f6a181f29ab486da44bc7a3dd486c3187",
+  "domains": [
+    "lf-flow-web-cdn.doubao.com",
+    "opt.doubao.com",
+    "u002fwww.doubao.com",
+    "www.doubao.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "doubao",
+  "source_hashes": [
+    "2908979b7767b958e833358207f55f9295ef74ded2033539b83c7992e694cd80"
+  ]
+}

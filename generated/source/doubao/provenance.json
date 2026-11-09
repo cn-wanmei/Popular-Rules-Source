@@ -4,7 +4,7 @@
       "asset_id": "sha256:40832766eb8c0a6ffb66df98ae4447821dfab465ef319df454f53a60e65a8019",
       "classification": "service",
       "evidence_ids": [
-        "EV-doubao-001-e1504bcc17e3"
+        "EV-doubao-001-2908979b7767"
       ],
       "service_id": "doubao",
       "type": "domain",
@@ -14,7 +14,7 @@
       "asset_id": "sha256:daaee758e23791751595712fe8c1fbe2208a7297415d2376e7e1aa719650f01c",
       "classification": "service",
       "evidence_ids": [
-        "EV-doubao-001-e1504bcc17e3"
+        "EV-doubao-001-2908979b7767"
       ],
       "service_id": "doubao",
       "type": "domain",
@@ -24,7 +24,7 @@
       "asset_id": "sha256:2412e65d68ea96f25e1c0fbf1e63a71558c6cd19ad79e34f758833bfc3915915",
       "classification": "service",
       "evidence_ids": [
-        "EV-doubao-001-e1504bcc17e3"
+        "EV-doubao-001-2908979b7767"
       ],
       "service_id": "doubao",
       "type": "domain",
@@ -34,7 +34,7 @@
       "asset_id": "sha256:f90c6f5b093a5e8741216821b5095ed8ce45f29ac28c16c0c31f9749fd8e4747",
       "classification": "service",
       "evidence_ids": [
-        "EV-doubao-001-e1504bcc17e3"
+        "EV-doubao-001-2908979b7767"
       ],
       "service_id": "doubao",
       "type": "domain",
@@ -46,8 +46,8 @@
     "removal_ratio": 0.0,
     "status": "OK"
   },
-  "content_digest": "ed395ae56368d3952fc0c2a71be776f49ec70f76fc32f113dd199b51f24fc136",
-  "created_at": "2026-11-07T08:51:13.818590+00:00",
+  "content_digest": "969468d4a6384924c6c5f826331c442f6a181f29ab486da44bc7a3dd486c3187",
+  "created_at": "2026-11-09T09:53:44.306209+00:00",
   "domain_count": 4,
   "domain_diff": {
     "added": [],
@@ -75,12 +75,12 @@
     {
       "authority": "official",
       "confidence": "high",
-      "content_hash": "e1504bcc17e3cbeef95201eff20739f8a0e7d1253adefb8d99aa57fe18607ea0",
+      "content_hash": "2908979b7767b958e833358207f55f9295ef74ded2033539b83c7992e694cd80",
       "domains_extracted": 4,
-      "evidence_id": "EV-doubao-001-e1504bcc17e3",
+      "evidence_id": "EV-doubao-001-2908979b7767",
       "parser_version": "domain-extractor-v4",
       "resolved_url": "https://www.doubao.com/chat/",
-      "retrieved_at": "2026-11-07T08:51:13.769184+00:00",
+      "retrieved_at": "2026-11-09T09:53:44.236285+00:00",
       "service_id": "doubao",
       "source_method": "official_web",
       "source_type": "official_web",
@@ -89,7 +89,7 @@
       "strength": "S3"
     }
   ],
-  "evidence_digest": "20397dbe9156355a9eac83658c6ef336beac01a70612fd1b90f581f59b877a23",
+  "evidence_digest": "49eeb79d2a89c84ec73ec60b7617479e856ba0f3eefca7086607327406b108d8",
   "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
   "generator_version": "3.1.0",
   "last_known_good": false,
@@ -98,15 +98,15 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "d0a03d558d8760c1eab7a78de59a4fb5662ff0ba0ef4efa4c8f100cd7013ad98",
   "previous_domain_count": 4,
-  "release_digest": "e852b9f0857689de6ebefae21579b73caad5d986b75747df21ec262fa09415d6",
+  "release_digest": "4851182de33c4a1a0f7c45d47b884584e90d4e6fcf8c6b962756a8242507da92",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
   "schema": "source_snapshot_v2",
   "service_config_digest": "7782653f06a99a1c505f07b45fc0845b2af8bc13a5411b240b39c1c92a7552b3",
   "service_id": "doubao",
-  "snapshot_content_sha256": "ed395ae56368d3952fc0c2a71be776f49ec70f76fc32f113dd199b51f24fc136",
-  "snapshot_id": "snap-doubao-e852b9f0857689de6ebefae2",
+  "snapshot_content_sha256": "969468d4a6384924c6c5f826331c442f6a181f29ab486da44bc7a3dd486c3187",
+  "snapshot_id": "snap-doubao-4851182de33c4a1a0f7c45d4",
   "source_bindings": [
     {
       "adapter": null,

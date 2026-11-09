@@ -4,7 +4,7 @@
       "asset_id": "sha256:b87fc8669272d2845504755947f45d4b26ad396d35407f771508630903be0bcc",
       "classification": "service",
       "evidence_ids": [
-        "EV-wecom-001-bf2645784915"
+        "EV-wecom-001-39a2a54e62d1"
       ],
       "service_id": "wecom",
       "type": "domain",
@@ -14,7 +14,7 @@
       "asset_id": "sha256:3e014e68b0a16fe652217fffee45433fdf9855c78738e7bf59d0ef694ccd25b1",
       "classification": "service",
       "evidence_ids": [
-        "EV-wecom-001-bf2645784915"
+        "EV-wecom-001-39a2a54e62d1"
       ],
       "service_id": "wecom",
       "type": "domain",
@@ -24,7 +24,7 @@
       "asset_id": "sha256:d52ca5ea44d04688413f0597b0c85e7ea12d5701f9d2f2fa8f197145d34baf3b",
       "classification": "service",
       "evidence_ids": [
-        "EV-wecom-001-bf2645784915"
+        "EV-wecom-001-39a2a54e62d1"
       ],
       "service_id": "wecom",
       "type": "domain",
@@ -36,8 +36,8 @@
     "removal_ratio": 0.0,
     "status": "OK"
   },
-  "content_digest": "99cb0192ef945f70e2c11d698678049439f7eff63a5fa70b83cc5301c1b916da",
-  "created_at": "2026-11-07T08:52:39.303055+00:00",
+  "content_digest": "60d2d7fb8e13091584e37309ee7c616a60c87402b8f17507c57dca0af204bbd9",
+  "created_at": "2026-11-09T09:56:33.338481+00:00",
   "domain_count": 3,
   "domain_diff": {
     "added": [],
@@ -63,12 +63,12 @@
     {
       "authority": "official",
       "confidence": "high",
-      "content_hash": "bf2645784915e8ab651ab0b2488d9dd2f9c8233fd1058a4696eac39e647524ff",
+      "content_hash": "39a2a54e62d1f2e1c3967ca2b468b59e7959ddf2c0b694a990cc389c4d7ee487",
       "domains_extracted": 3,
-      "evidence_id": "EV-wecom-001-bf2645784915",
+      "evidence_id": "EV-wecom-001-39a2a54e62d1",
       "parser_version": "domain-extractor-v4",
       "resolved_url": "https://work.weixin.qq.com/",
-      "retrieved_at": "2026-11-07T08:52:39.259605+00:00",
+      "retrieved_at": "2026-11-09T09:56:33.277502+00:00",
       "service_id": "wecom",
       "source_method": "official_web",
       "source_type": "official_web",
@@ -77,7 +77,7 @@
       "strength": "S3"
     }
   ],
-  "evidence_digest": "1869ced3d09757552a7abaf99cb0d429fd52d9aa852c115b0e7dabbc60f236d6",
+  "evidence_digest": "494a352532c1a37a2a1d15bceeebb2a4bd1df8a6d91575b0455b1c7b6374dfa2",
   "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
   "generator_version": "3.1.0",
   "last_known_good": false,
@@ -86,15 +86,15 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "51a04f36f18976eba941cbb423e1a5cadab83d2e184e9a9ed0af3eb6f4daea45",
   "previous_domain_count": 3,
-  "release_digest": "fbc5b3973ae1fef9f3ae0f27a8731809cee4ab21b330b25d67223ce324b65a2e",
+  "release_digest": "cb56ea0b4f7a8ff27dd7f726ba26d0b7278dd67addecaf0d2a488b9c861939a6",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
   "schema": "source_snapshot_v2",
   "service_config_digest": "2df8ad4f9c476cf05ffa62dd1d3f55c01c02e39cc47e479d852fc5167486a2b2",
   "service_id": "wecom",
-  "snapshot_content_sha256": "99cb0192ef945f70e2c11d698678049439f7eff63a5fa70b83cc5301c1b916da",
-  "snapshot_id": "snap-wecom-fbc5b3973ae1fef9f3ae0f27",
+  "snapshot_content_sha256": "60d2d7fb8e13091584e37309ee7c616a60c87402b8f17507c57dca0af204bbd9",
+  "snapshot_id": "snap-wecom-cb56ea0b4f7a8ff27dd7f726",
   "source_bindings": [
     {
       "adapter": null,
