@@ -824,14 +824,40 @@ services:
   cloudflare:
     display_name: Cloudflare
     ecosystem: cloudflare
-    mode: official_web
     official_sources:
+    - https://developers.cloudflare.com/cloudflare-one/traffic-controls/global-policies/
     - https://www.cloudflare.com/
     allowed_host_exact:
     - www.cloudflare.com
     - cloudflare.com
-    upstream_binding: null
-    current_state: review
+    - api.cloudflare.com
+    - one.dash.cloudflare.com
+    - dash.cloudflare.com
+    - developers.cloudflare.com
+    - help.teams.cloudflare.com
+    - blocked.teams.cloudflare.com
+    - help.one.cloudflare.com
+    - speed.cloudflare.com
+    - cloudflarestatus.com
+    - www.cloudflarestatus.com
+    - cloudflareclient.com
+    - cloudflare-gateway.com
+    - cloudflareaccess.com
+    - cloudflareportal.com
+    - cloudflareok.com
+    - cloudflarecp.com
+    allowed_host_suffixes: []
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
   datadog:
     display_name: Datadog
     ecosystem: datadog
