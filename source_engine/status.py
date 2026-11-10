@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+from datetime import datetime, timezone
 from collections import Counter
 from pathlib import Path
 from typing import Any
@@ -82,6 +83,61 @@ def _render(report: dict[str, Any]) -> str:
     return "\n".join(lines)
 
 
+def _render_blocked_board(
+    report: dict[str, Any], generated_at: str | None = None
+) -> str:
+    """Render the operational blocked board from the lifecycle read model."""
+    stamp = generated_at or datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
+    services = report.get("services") or {}
+    blocked = []
+    zero_domains = []
+    for service_id, item in sorted(services.items()):
+        state = str(item.get("state") or "review").upper()
+        release_state = str(item.get("release_state") or "NO_SNAPSHOT").upper()
+        domains = int(item.get("domain_count") or 0)
+        row = (service_id, state, release_state, domains)
+        if state == "BLOCKED" or release_state == "BLOCKED":
+            blocked.append(row)
+        if domains == 0:
+            zero_domains.append(row)
+
+    def render_rows(rows: list[tuple[str, str, str, int]]) -> list[str]:
+        if not rows:
+            return ["| — | — | — | — |"]
+        return [
+            f"| {service} | {state} | {release} | {domains} |"
+            for service, state, release, domains in rows
+        ]
+
+    lines = [
+        "# Source 阻塞看板（自动生成）",
+        "",
+        f"> generated_at: `{stamp}`",
+        "",
+        "权威：`config/source_canary_state.yaml` + `reports/generated/lifecycle.json`。",
+        "",
+        "## BLOCKED",
+        "",
+        "| Service | Lifecycle | Release | Domains |",
+        "|---|---|---|---:|",
+        *render_rows(blocked),
+        "",
+        "## domains = 0",
+        "",
+        "| Service | Lifecycle | Release | Domains |",
+        "|---|---|---|---:|",
+        *render_rows(zero_domains),
+        "",
+        "## 处理原则",
+        "",
+        "1. 禁止用空结果覆盖 Last Known Good。",
+        "2. BLOCKED / domains=0 必须先修 adapter 或明确策略，再谈晋升。",
+        "3. Collection Source health 与本表交叉核对。",
+        "",
+    ]
+    return "\n".join(lines)
+
+
 def write_status() -> dict[str, Any]:
     report = build_status_report()
     readme = Path("README.md")
@@ -111,4 +167,7 @@ def write_status() -> dict[str, Any]:
         json.dumps(derived, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
     )
+    blocked_board = Path("docs/BLOCKED_BOARD.md")
+    blocked_board.parent.mkdir(parents=True, exist_ok=True)
+    blocked_board.write_text(_render_blocked_board(report), encoding="utf-8")
     return report
