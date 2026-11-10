@@ -1,0 +1,33 @@
+{
+  "checksums": {
+    "domains.txt": "13eb4bfa36c43faf51c8e599f07e98428a457e03b2ceec8ef117e4fb2a49d2bd",
+    "manifest.json": "a6c36ecc9bcc52644c55d0154c53f44f21b8635b27f08b831bf676017522c776",
+    "provenance.json": "72224ddbbd7f89d6b6aac83fdca55ca6b8e7bb3b87c9d85f574dfd3139770eee",
+    "snapshot_content.json": "81d595511b20355d0bb24a3fc9060b18760726ce5753f5a0ab1c0ea3e9035002"
+  },
+  "content_digest": "89344102b1d63d159652c53456d429fbbac795e61724fa0b0b390fb0b39a38b8",
+  "created_at": "2026-11-10T15:01:59.630859+00:00",
+  "evidence_digest": "b1f06c1b997c48f00d8460c737a41b7fe9be4e7b6e0b3284f41fa4562b743222",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
+  "policy_digest": "fb67ca48f0aaf44a009dd341bcad7f7aa06589c0dedf7ff73c51ca1a1ab9ecc2",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "230935c86ef1c9b01c0718d78075254b2655c1a308212310dfc766b3e6a0d529",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "mediatek",
+  "snapshot_id": "snap-mediatek-230935c86ef1c9b01c0718d7",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 1.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "handoff_eligible": true,
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

@@ -1,0 +1,13 @@
+{
+  "content_digest": "a6d6074ffe1af0082410731e379a6ff57bcafd033eab1b76c34acb5e45d2f6fb",
+  "domains": [
+    "netapp.com",
+    "www.netapp.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "netapp",
+  "source_hashes": [
+    "30e66d90ac0ea9f91eb67993e17bd3724a590ede84f2300b885ab2953dc16264"
+  ]
+}

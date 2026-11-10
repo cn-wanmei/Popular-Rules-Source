@@ -1,0 +1,13 @@
+{
+  "content_digest": "a42e0b3007daa882e14bd79399c9dab26fe34a6a7accb3d937806235650ba668",
+  "domains": [
+    "transsion.com",
+    "www.transsion.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "transsion",
+  "source_hashes": [
+    "3eca48588499b4d6a5ad8eca5597ec53d31b9400e2e097271f8151bb1b18fbc5"
+  ]
+}

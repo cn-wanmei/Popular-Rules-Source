@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "b0fb7996b1fc0c715ab555078d3d2aa76742283048195dd421ae19a2d3f98a02",
-  "created_at": "2026-09-28T01:04:46.402680+00:00",
+  "created_at": "2026-11-10T15:03:08.352718+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "tuya.com",
       "www.tuya.com"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "tuya.com",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-tuya-001-dc75522fa588",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.tuya.com/",
-      "retrieved_at": "1790557446370095989",
+      "retrieved_at": "1794322928483144687",
       "service_id": "tuya",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "abe01334f0e35da540ce083c8f01c3a60675d44701799467bdc57c01b7d5d5c7",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "86562f11f9f086c3f3a15c600a4f0b03e8d72b8a46e45d5c982162c219854f58",
-  "previous_domain_count": 0,
-  "release_digest": "f5f9d68b1213e64622f3527305cff209f784e18fb52d9ff1f9449b1b6acf65cd",
+  "previous_domain_count": 2,
+  "release_digest": "4ff880c6a8671cf780920b80fc54ef90f77bcb7f1fa971cda14a02bc93b984ca",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "e73d901e8bf021b5e737af72c2d17bc22b89b3911ff5918b43d4de58e15ad000",
   "service_id": "tuya",
   "snapshot_content_sha256": "b0fb7996b1fc0c715ab555078d3d2aa76742283048195dd421ae19a2d3f98a02",
-  "snapshot_id": "snap-tuya-f5f9d68b1213e64622f35273",
+  "snapshot_id": "snap-tuya-4ff880c6a8671cf780920b80",
   "source_bindings": [
     {
       "adapter": null,

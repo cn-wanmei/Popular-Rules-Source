@@ -1,0 +1,33 @@
+{
+  "checksums": {
+    "domains.txt": "3c3b49351d3b99a1a5008a33d700fa03cbd3daf07669155e269e6b7ed6499642",
+    "manifest.json": "26b4763057168a09562fa9a8b1c078cae3856e6dbd8372b1c4dcecec00265597",
+    "provenance.json": "70005cb5605cc470a55e0238ac7514363becd20c41d3e75eda6f4ec26547678b",
+    "snapshot_content.json": "c2c4c887bb0871f3ffab0059d282b89bb44073c6ffcb8c218907643f9ed8ebab"
+  },
+  "content_digest": "98ae5ff2b447ff334d364c7d9cd31a5eac4e0a0c6b33484a2dfa2bd3d6cc32c8",
+  "created_at": "2026-11-10T15:02:21.393381+00:00",
+  "evidence_digest": "64f5aeb5e2321b2a7f265a318ec25d19c28c0365fbcad1f6bf85d53ef8c72589",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
+  "policy_digest": "31ddf790ce987f4068566b255d27b150dc92e984ce400a2a8ad94dbc5d3c2f9f",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "9e9edbaf05b5da2c2e4b34354a93527295f4bd762e6091fb6f6f833bc8c3c9cd",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "roborock",
+  "snapshot_id": "snap-roborock-9e9edbaf05b5da2c2e4b3435",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 1.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "handoff_eligible": true,
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

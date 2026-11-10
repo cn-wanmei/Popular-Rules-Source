@@ -317,7 +317,7 @@
     "status": "OK"
   },
   "content_digest": "cd1651259d94ee21a9384bd8c78b0a6aeccc49eb8faf6b36a5a413a645c605cd",
-  "created_at": "2026-09-26T12:09:47.742978+00:00",
+  "created_at": "2026-11-10T15:00:36.830088+00:00",
   "domain_count": 31,
   "domain_diff": {
     "added": [],
@@ -404,7 +404,7 @@
       "evidence_id": "EV-netflix-001-9ceac35682ac",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Netflix/Netflix.list",
-      "retrieved_at": "2026-09-26T12:09:47.717760+00:00",
+      "retrieved_at": "2026-11-10T15:00:36.799089+00:00",
       "service_id": "netflix",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -414,7 +414,7 @@
     }
   ],
   "evidence_digest": "105578c08c7f915694ec2d307328719666f834cfa75720b8e5d0c344e8912149",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 0,
@@ -422,7 +422,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
   "previous_domain_count": 31,
-  "release_digest": "5b2876cf88dc642c06b22d354393a9eb12bb89a14191f762e833f8c050c3f64f",
+  "release_digest": "873e9c1253bb6a6cf515e45e744f8dab2324e4dc056cd7f547a9c81807d6c1cb",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -430,7 +430,7 @@
   "service_config_digest": "26b2fb15f25aa9411bec0c53faddf7787599633d788c6a5b6f77f8850839e67e",
   "service_id": "netflix",
   "snapshot_content_sha256": "cd1651259d94ee21a9384bd8c78b0a6aeccc49eb8faf6b36a5a413a645c605cd",
-  "snapshot_id": "snap-netflix-5b2876cf88dc642c06b22d35",
+  "snapshot_id": "snap-netflix-873e9c1253bb6a6cf515e45e",
   "source_bindings": [
     {
       "adapter": "upstream_rule",

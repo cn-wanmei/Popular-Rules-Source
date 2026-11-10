@@ -1,0 +1,13 @@
+{
+  "content_digest": "cef75fd72416299b333b26e3a44074af36ebf63c0e3f3247b1cde98f5e79072b",
+  "domains": [
+    "skhynix.com",
+    "www.skhynix.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "skhynix",
+  "source_hashes": [
+    "9a6a3b0a3e688e864762aad21507d97c4eb95d92f16e46131ddfd4ee9a721c0f"
+  ]
+}

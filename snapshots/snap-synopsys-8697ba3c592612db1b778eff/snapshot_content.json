@@ -1,0 +1,13 @@
+{
+  "content_digest": "95c2437008db90e1475ce3d4ac8bbb2276192dc589582dafe5a122bc00d9e7f6",
+  "domains": [
+    "synopsys.com",
+    "www.synopsys.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "synopsys",
+  "source_hashes": [
+    "68c9c95d02dd96be6ef0d94a0ae430cdac1c88f6895e6425d95eb478efb8114c"
+  ]
+}

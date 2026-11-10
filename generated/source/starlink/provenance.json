@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "e316d083c513b8361754968748929b12d6b4f8def816ff8b706dd93377b5ddb9",
-  "created_at": "2026-09-28T01:03:10.215495+00:00",
+  "created_at": "2026-11-10T15:02:43.633503+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "starlink.com",
       "www.starlink.com"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "starlink.com",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-starlink-001-cbf52c621185",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.starlink.com/",
-      "retrieved_at": "1790557322320047857",
+      "retrieved_at": "1794322904022657636",
       "service_id": "starlink",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "a00ebfbaf0e2feef53a7eac5dca4b0dec6a2312c52eede4ed0c54f982522ef24",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "d12da27277ba559917281debb03c84661be1a16eac256ec4b4fe898c1f4b7f6b",
-  "previous_domain_count": 0,
-  "release_digest": "45649164d15006f9cffe9d8ca8ce79d3560487885d5a84c71f92af1ca2726fa3",
+  "previous_domain_count": 2,
+  "release_digest": "53a88a147ea1957d27461ab150873375133f2048c0f194c749126184affe813d",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "6362d34716aed444df97190b669f084a236ba7c4cb6d5aec053821bf7160a64c",
   "service_id": "starlink",
   "snapshot_content_sha256": "e316d083c513b8361754968748929b12d6b4f8def816ff8b706dd93377b5ddb9",
-  "snapshot_id": "snap-starlink-45649164d15006f9cffe9d8c",
+  "snapshot_id": "snap-starlink-53a88a147ea1957d27461ab1",
   "source_bindings": [
     {
       "adapter": null,

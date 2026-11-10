@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:4730719706865b95b2713982d090dd8f8b9085496c7637afedaef6cfb4a223c1",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wegame-001-472f0ad7d3ad"
+      ],
+      "service_id": "wegame",
+      "type": "domain",
+      "value": "wegame.com.cn"
+    },
+    {
+      "asset_id": "sha256:906f5fd72e6523c7a94f518b448b8f54afe7638bd710dde4009f87412e78794b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-wegame-001-472f0ad7d3ad"
+      ],
+      "service_id": "wegame",
+      "type": "domain",
+      "value": "www.wegame.com.cn"
+    }
+  ],
+  "content_digest": "bbbb36959aa7b038ff812ffabcc0821518fcc986b7abb3b1f1d3ed44b5643954",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "472f0ad7d3ad30f20ed86d5d812e791ee4b88f2938dfa7b7194fa318af3117dd",
+      "domains_extracted": 2,
+      "evidence_id": "EV-wegame-001-472f0ad7d3ad",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.wegame.com.cn/",
+      "retrieved_at": "1794322996000338959",
+      "service_id": "wegame",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.wegame.com.cn/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "3d8bbb75fe0e56a7a4e0fc139ddc47962d664e2162c8da3a8cb62bb3cb793609",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
+  "policy_digest": "c1fb19910741b6e195698ab9132e6072fe0b7a77dfdd867f0a0908ad4451475d",
+  "release_digest": "4010987e9511db973385087e11de864c19f9d01e45a5d360f1d8159b07c48258",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "wegame",
+  "snapshot_id": "snap-wegame-4010987e9511db973385087e",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

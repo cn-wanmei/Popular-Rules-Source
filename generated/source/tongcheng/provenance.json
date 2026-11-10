@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "281471d5bc0760c3c3481f02204cfe53dbe2aee259532671677e280d87413a44",
-  "created_at": "2026-09-28T01:04:14.190340+00:00",
+  "created_at": "2026-11-10T15:02:45.401171+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "ly.com",
       "www.ly.com"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "ly.com",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-tongcheng-001-0b9a77777348",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.ly.com/",
-      "retrieved_at": "1790557422137922652",
+      "retrieved_at": "1794322894204919573",
       "service_id": "tongcheng",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "dfb6f27feaa620bc10cfed5d01798322707ec6407e7c11d753ec7df5b708f673",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "402c02ea032be16dcfef6316bef3e02ace4cb2e71c7c763d29ebd4903cab85bc",
-  "previous_domain_count": 0,
-  "release_digest": "8926afa783b32fc0d24a826c16fb29f34f2d6e68ae7654b3c7f1491d150a78ea",
+  "previous_domain_count": 2,
+  "release_digest": "83f9cd212884fa28bd03480c33a7a3b7a2e4bdfab960aca037135482a275e9df",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "cb29f2c7243836507530eae1f5c599f7c49b0165f37023c806ab0f46ed10cb35",
   "service_id": "tongcheng",
   "snapshot_content_sha256": "281471d5bc0760c3c3481f02204cfe53dbe2aee259532671677e280d87413a44",
-  "snapshot_id": "snap-tongcheng-8926afa783b32fc0d24a826c",
+  "snapshot_id": "snap-tongcheng-83f9cd212884fa28bd03480c",
   "source_bindings": [
     {
       "adapter": null,

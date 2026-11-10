@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "95c2437008db90e1475ce3d4ac8bbb2276192dc589582dafe5a122bc00d9e7f6",
-  "created_at": "2026-09-28T01:01:10.830732+00:00",
+  "created_at": "2026-11-10T15:00:41.080323+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "synopsys.com",
       "www.synopsys.com"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "synopsys.com",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-synopsys-001-68c9c95d02dd",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.synopsys.com/",
-      "retrieved_at": "1790557199551479048",
+      "retrieved_at": "1794322805121406711",
       "service_id": "synopsys",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "1873aa9f9cf17f0e0c1b08e143025a63ed0ec21f5ace7bf9b2eed3f126048dfc",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "efddcf8e90a30c2285a9fc0ed99348bb84bdab9b39474af2bdc6bda4d3949097",
-  "previous_domain_count": 0,
-  "release_digest": "be7ea0d5d5e8875d848a88ca04c966ca0d74ca3ba15116a899d47dc8ab36ab65",
+  "previous_domain_count": 2,
+  "release_digest": "8697ba3c592612db1b778eff0a92a6fb5e3c2f250cf0ff89ea9db0dae8474656",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "b8a445ee7c07d500656eb56f6cb0cad488ed704ca189dfc8896fcc956dd95ee2",
   "service_id": "synopsys",
   "snapshot_content_sha256": "95c2437008db90e1475ce3d4ac8bbb2276192dc589582dafe5a122bc00d9e7f6",
-  "snapshot_id": "snap-synopsys-be7ea0d5d5e8875d848a88ca",
+  "snapshot_id": "snap-synopsys-8697ba3c592612db1b778eff",
   "source_bindings": [
     {
       "adapter": null,

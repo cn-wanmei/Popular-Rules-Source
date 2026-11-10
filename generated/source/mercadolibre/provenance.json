@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "16eef142ca66abf5c2a4087fd4003697fde18ab80133081f75916dd8b5a4e28b",
-  "created_at": "2026-09-28T01:01:06.090572+00:00",
+  "created_at": "2026-11-10T15:01:14.547023+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "mercadolibre.com",
       "www.mercadolibre.com"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "mercadolibre.com",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-mercadolibre-001-04ce6f63037a",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.mercadolibre.com/",
-      "retrieved_at": "1790557199059948671",
+      "retrieved_at": "1794322805355172162",
       "service_id": "mercadolibre",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "a0d64ec41b52e253d5afde16865a6fbe7129bd346178bb76598834b2bf0ba8e4",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "9ab0ef531642958969bf85fe5182b28333663d18ee09a4827405e12e20384cc1",
-  "previous_domain_count": 0,
-  "release_digest": "9b4cbfb954c830ddca6177ebaf57f991e7a5061e6e5934aacbf9e205cee0c52a",
+  "previous_domain_count": 2,
+  "release_digest": "052ecd4f003e8fc71235d3e13f1233008201cf07a5772e6aabff930e3e392a94",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "61726312bb5d444e7af122f0062526cc589b63740c28c7f081458652d058a0c6",
   "service_id": "mercadolibre",
   "snapshot_content_sha256": "16eef142ca66abf5c2a4087fd4003697fde18ab80133081f75916dd8b5a4e28b",
-  "snapshot_id": "snap-mercadolibre-9b4cbfb954c830ddca6177eb",
+  "snapshot_id": "snap-mercadolibre-052ecd4f003e8fc71235d3e1",
   "source_bindings": [
     {
       "adapter": null,
