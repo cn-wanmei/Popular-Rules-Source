@@ -1,0 +1,42 @@
+version: 1
+items:
+  - asset: "api.cloudflare.com"
+    action: include
+    allow_global_exclusion: true
+    reason: "Cloudflare One official API endpoint"
+    evidence: "https://developers.cloudflare.com/cloudflare-one/traffic-controls/global-policies/"
+  - asset: "one.dash.cloudflare.com"
+    action: include
+    allow_global_exclusion: true
+    reason: "Cloudflare One official dashboard endpoint"
+    evidence: "https://developers.cloudflare.com/cloudflare-one/traffic-controls/global-policies/"
+  - asset: "dash.cloudflare.com"
+    action: include
+    allow_global_exclusion: true
+    reason: "Cloudflare dashboard endpoint"
+    evidence: "https://developers.cloudflare.com/cloudflare-one/traffic-controls/global-policies/"
+  - asset: "developers.cloudflare.com"
+    action: include
+    allow_global_exclusion: true
+    reason: "Cloudflare developer documentation endpoint"
+    evidence: "https://developers.cloudflare.com/cloudflare-one/traffic-controls/global-policies/"
+  - asset: "help.teams.cloudflare.com"
+    action: include
+    allow_global_exclusion: true
+    reason: "Cloudflare One Client help endpoint"
+    evidence: "https://developers.cloudflare.com/cloudflare-one/traffic-controls/global-policies/"
+  - asset: "blocked.teams.cloudflare.com"
+    action: include
+    allow_global_exclusion: true
+    reason: "Cloudflare Gateway block-page endpoint"
+    evidence: "https://developers.cloudflare.com/cloudflare-one/traffic-controls/global-policies/"
+  - asset: "help.one.cloudflare.com"
+    action: include
+    allow_global_exclusion: true
+    reason: "Cloudflare One help endpoint"
+    evidence: "https://developers.cloudflare.com/cloudflare-one/traffic-controls/global-policies/"
+  - asset: "speed.cloudflare.com"
+    action: include
+    allow_global_exclusion: true
+    reason: "Cloudflare Speed Test endpoint"
+    evidence: "https://developers.cloudflare.com/cloudflare-one/traffic-controls/global-policies/"
