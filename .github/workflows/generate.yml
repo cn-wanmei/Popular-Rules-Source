@@ -4,25 +4,6 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "20 2 * * *"
-  # Rebuild evidence snapshots when service definitions, self-built assets,
-  # adapters, extraction policy, or per-service overrides change.
-  push:
-    branches: [main]
-    paths:
-      - "config/services.yaml"
-      - "config/self_built_services.yaml"
-      - "config/source_adapters.yaml"
-      - "config/validation.yaml"
-      - "self_built/**"
-      - "authoring/services/**"
-      - "authoring/exclusions/**"
-      - "exclusions/**"
-      - "source_engine/adapters.py"
-      - "source_engine/build.py"
-      - "source_engine/extract.py"
-      - "source_engine/normalize.py"
-      - "source_engine/overrides.py"
-      - "source_engine/policy.py"
 
 concurrency:
   group: generate-official-sources
