@@ -42,7 +42,7 @@ def test_global_exclusion_exception_rejects_suffix_widening() -> None:
         "evidence": EVIDENCE_URL,
     }]
 
-    with pytest.raises(ValueError, match="outside service allow policy"):
+    with pytest.raises(ValueError, match="requires exact service allow policy"):
         apply_overrides(
             set(),
             overrides,
