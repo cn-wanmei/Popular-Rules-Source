@@ -40,3 +40,13 @@ items:
     allow_global_exclusion: true
     reason: "Cloudflare Speed Test endpoint"
     evidence: "https://developers.cloudflare.com/cloudflare-one/traffic-controls/global-policies/"
+  - asset: "dash.teams.cloudflare.com"
+    action: include
+    allow_global_exclusion: true
+    reason: "Cloudflare One official service endpoint"
+    evidence: "https://developers.cloudflare.com/cloudflare-one/traffic-controls/global-policies/"
+  - asset: "nel.cloudflare.com"
+    action: include
+    allow_global_exclusion: true
+    reason: "Cloudflare One official service endpoint"
+    evidence: "https://developers.cloudflare.com/cloudflare-one/traffic-controls/global-policies/"
