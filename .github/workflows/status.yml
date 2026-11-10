@@ -5,6 +5,9 @@ on:
     branches: [main]
     paths:
       - "config/source_canary_state.yaml"
+      - "config/services.yaml"
+      - "snapshots/**"
+      - "generated/**"
   workflow_dispatch:
   workflow_run:
     workflows: ["Durable Source Bridge"]
@@ -33,6 +36,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add README.md
+          git add docs/BLOCKED_BOARD.md
           git add -f reports/generated
           if git diff --cached --quiet; then
             echo "Status unchanged."
