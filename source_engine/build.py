@@ -66,6 +66,9 @@ def _generator_digest() -> str:
         "build": _file_digest("source_engine/build.py"),
         "extract": _file_digest("source_engine/extract.py"),
         "adapters": _file_digest("source_engine/adapters.py"),
+        # Override implementation changes can alter the materialized domain set;
+        # include its code identity in every immutable source generator digest.
+        "overrides": _file_digest("source_engine/overrides.py"),
     })
 
 
