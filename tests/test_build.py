@@ -135,3 +135,20 @@ def test_source_bound_preserves_upstream_domains_without_manual_allowlist(monkey
     assert result["domains"] == ["alibabacloud.com", "foo.alibabacloud.com"]
     assert result["domain_count"] == 2
     assert result["release_state"] == "CANDIDATE"
+
+
+def test_generator_digest_includes_override_implementation(monkeypatch, tmp_path):
+    monkeypatch.chdir(tmp_path)
+    (tmp_path / "VERSION").write_text("0.5.0\\n", encoding="utf-8")
+    seen = []
+
+    def fake_file_digest(path):
+        seen.append(path)
+        return "a" * 64
+
+    monkeypatch.setattr(build_module, "_file_digest", fake_file_digest)
+
+    digest = build_module._generator_digest()
+
+    assert len(digest) == 64
+    assert "source_engine/overrides.py" in seen

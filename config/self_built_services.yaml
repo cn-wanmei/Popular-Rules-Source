@@ -826,10 +826,28 @@ services:
     ecosystem: cloudflare
     mode: official_web
     official_sources:
-    - https://www.cloudflare.com/
+    - https://developers.cloudflare.com/cloudflare-one/traffic-controls/global-policies/
     allowed_host_exact:
-    - www.cloudflare.com
     - cloudflare.com
+    - www.cloudflare.com
+    - api.cloudflare.com
+    - one.dash.cloudflare.com
+    - dash.cloudflare.com
+    - dash.teams.cloudflare.com
+    - developers.cloudflare.com
+    - help.teams.cloudflare.com
+    - blocked.teams.cloudflare.com
+    - help.one.cloudflare.com
+    - speed.cloudflare.com
+    - nel.cloudflare.com
+    - cloudflarestatus.com
+    - www.cloudflarestatus.com
+    - cloudflareclient.com
+    - cloudflare-gateway.com
+    - cloudflareaccess.com
+    - cloudflareportal.com
+    - cloudflareok.com
+    - cloudflarecp.com
     upstream_binding: null
     current_state: review
   datadog:

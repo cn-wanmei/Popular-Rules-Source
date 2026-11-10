@@ -3126,10 +3126,28 @@ services:
     display_name: Cloudflare
     ecosystem: cloudflare
     official_sources:
-    - https://www.cloudflare.com/
+    - https://developers.cloudflare.com/cloudflare-one/traffic-controls/global-policies/
     allowed_host_exact:
     - www.cloudflare.com
     - cloudflare.com
+    - api.cloudflare.com
+    - one.dash.cloudflare.com
+    - dash.cloudflare.com
+    - developers.cloudflare.com
+    - help.teams.cloudflare.com
+    - blocked.teams.cloudflare.com
+    - help.one.cloudflare.com
+    - speed.cloudflare.com
+    - nel.cloudflare.com
+    - dash.teams.cloudflare.com
+    - cloudflarestatus.com
+    - www.cloudflarestatus.com
+    - cloudflareclient.com
+    - cloudflare-gateway.com
+    - cloudflareaccess.com
+    - cloudflareportal.com
+    - cloudflareok.com
+    - cloudflarecp.com
     allowed_host_suffixes: []
     coverage:
       domain: review

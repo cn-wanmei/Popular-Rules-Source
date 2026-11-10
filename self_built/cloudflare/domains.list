@@ -1,9 +1,28 @@
 # Self-built candidate rule asset
 # service_id: cloudflare
 # provider: cloudflare
-# evidence_mode: official_web
+# evidence_mode: official_documentation
 # status: CANDIDATE
-# Official entry verified for 2026-09-27 P1/P2 completion wave.
-# Production requires immutable Source release + Collection exact binding.
+# Source: https://developers.cloudflare.com/cloudflare-one/traffic-controls/global-policies/
+# Only explicit non-federal product hostnames listed by Cloudflare are included.
+# Wildcard tenant/customer domains are deliberately excluded.
 DOMAIN,cloudflare.com
 DOMAIN,www.cloudflare.com
+DOMAIN,api.cloudflare.com
+DOMAIN,one.dash.cloudflare.com
+DOMAIN,dash.cloudflare.com
+DOMAIN,developers.cloudflare.com
+DOMAIN,help.teams.cloudflare.com
+DOMAIN,blocked.teams.cloudflare.com
+DOMAIN,help.one.cloudflare.com
+DOMAIN,speed.cloudflare.com
+DOMAIN,nel.cloudflare.com
+DOMAIN,dash.teams.cloudflare.com
+DOMAIN,cloudflarestatus.com
+DOMAIN,www.cloudflarestatus.com
+DOMAIN,cloudflareclient.com
+DOMAIN,cloudflare-gateway.com
+DOMAIN,cloudflareaccess.com
+DOMAIN,cloudflareportal.com
+DOMAIN,cloudflareok.com
+DOMAIN,cloudflarecp.com

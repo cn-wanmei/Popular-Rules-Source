@@ -44,8 +44,18 @@ def apply_overrides(
         if action == "include":
             if not host_allowed(domain, exact, suffixes):
                 raise ValueError(f"override include outside service allow policy: {domain}")
+            if item.get("allow_global_exclusion") is True and domain not in exact:
+                raise ValueError(
+                    f"global exclusion exception requires exact service allow policy: {domain}"
+                )
             if is_excluded(domain, blocked_suffixes):
-                raise ValueError(f"override include conflicts with exclusion policy: {domain}")
+                # A service may opt in to a globally excluded provider suffix only
+                # for a hostname explicitly listed in that service's exact allowlist.
+                # Suffix-based and cross-service exceptions are never permitted.
+                if item.get("allow_global_exclusion") is not True:
+                    raise ValueError(
+                        f"override include conflicts with exclusion policy: {domain}"
+                    )
             if domain in revoked:
                 raise ValueError(f"override include conflicts with tombstone: {domain}")
             out.add(domain)
