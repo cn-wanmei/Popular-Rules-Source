@@ -16,6 +16,8 @@ DOMAIN,help.teams.cloudflare.com
 DOMAIN,blocked.teams.cloudflare.com
 DOMAIN,help.one.cloudflare.com
 DOMAIN,speed.cloudflare.com
+DOMAIN,nel.cloudflare.com
+DOMAIN,dash.teams.cloudflare.com
 DOMAIN,cloudflarestatus.com
 DOMAIN,www.cloudflarestatus.com
 DOMAIN,cloudflareclient.com
