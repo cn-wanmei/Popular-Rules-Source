@@ -41,7 +41,11 @@ jobs:
       - name: Generate Cloudflare candidate only
         run: |
           set -euo pipefail
-          python -m source_engine generate --service cloudflare --allow-blocked > cloudflare-generation.json
+          # The generate CLI writes its validation summary before the JSON array.
+          # Keep only the JSON payload for the next machine-readable verification step.
+          python -m source_engine generate --service cloudflare --allow-blocked \
+            | sed -n '/^\[/,$p' > cloudflare-generation.json
+          test -s cloudflare-generation.json
 
       - name: Verify candidate domains and evidence mapping
         run: |
