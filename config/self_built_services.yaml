@@ -828,18 +828,18 @@ services:
     official_sources:
     - https://developers.cloudflare.com/cloudflare-one/traffic-controls/global-policies/
     allowed_host_exact:
-    - www.cloudflare.com
     - cloudflare.com
+    - www.cloudflare.com
     - api.cloudflare.com
     - one.dash.cloudflare.com
     - dash.cloudflare.com
+    - dash.teams.cloudflare.com
     - developers.cloudflare.com
     - help.teams.cloudflare.com
     - blocked.teams.cloudflare.com
     - help.one.cloudflare.com
     - speed.cloudflare.com
     - nel.cloudflare.com
-    - dash.teams.cloudflare.com
     - cloudflarestatus.com
     - www.cloudflarestatus.com
     - cloudflareclient.com
@@ -848,16 +848,6 @@ services:
     - cloudflareportal.com
     - cloudflareok.com
     - cloudflarecp.com
-    allowed_host_suffixes: []
-    coverage:
-      domain: review
-      ip: unknown
-      cidr: none
-    source_policy:
-      official_required: true
-      allowed_authorities:
-      - official
-      min_confidence: high
     upstream_binding: null
     current_state: review
   datadog:
