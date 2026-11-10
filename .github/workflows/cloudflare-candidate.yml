@@ -118,8 +118,23 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "chore(source): refresh Cloudflare candidate snapshot"
           git push --set-upstream origin "$BRANCH"
-          gh pr create \
+          set +e
+          PR_OUTPUT="$(gh pr create \
             --base main \
             --head "$BRANCH" \
             --title "chore(source): refresh Cloudflare official service candidate" \
-            --body "Targeted Cloudflare candidate refresh. This PR only updates candidate evidence/snapshot artifacts. It does not create a Durable Release, promote lifecycle state, or change Collection immutable bindings. Review exact domains and official evidence mapping before merge."
+            --body "Targeted Cloudflare candidate refresh. This PR only updates candidate evidence/snapshot artifacts. It does not create a Durable Release, promote lifecycle state, or change Collection immutable bindings. Review exact domains and official evidence mapping before merge." 2>&1)"
+          PR_STATUS=$?
+          set -e
+          if [ "$PR_STATUS" -ne 0 ]; then
+            printf '%s\n' "$PR_OUTPUT"
+            if grep -qiE 'GitHub Actions is not permitted to create or approve pull requests|createPullRequest' <<< "$PR_OUTPUT"; then
+              echo "::warning::Candidate branch pushed, but automatic PR creation is blocked by repository policy."
+              printf 'handoff_status=PR_CREATE_BLOCKED\nbranch=%s\nrun_id=%s\n' "$BRANCH" "$GITHUB_RUN_ID" > cloudflare-handoff.txt
+              exit 0
+            fi
+            echo "::error::Cloudflare candidate PR creation failed."
+            exit "$PR_STATUS"
+          fi
+          printf 'handoff_status=PR_CREATED\nbranch=%s\nrun_id=%s\n' "$BRANCH" "$GITHUB_RUN_ID" > cloudflare-handoff.txt
+          printf '%s\n' "$PR_OUTPUT" > cloudflare-pr-url.txt
