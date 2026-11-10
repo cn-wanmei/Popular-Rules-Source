@@ -61,18 +61,41 @@ jobs:
               if line.strip() and not line.lstrip().startswith("#")
           ]
           provenance = json.loads((snapshot / "provenance.json").read_text(encoding="utf-8"))
-          mapping = provenance.get("domain_evidence") or {}
-          missing = [domain for domain in domains if not mapping.get(domain)]
+          evidence = {
+              item.get("evidence_id"): item
+              for item in provenance.get("evidence", [])
+              if item.get("evidence_id")
+          }
+          assets = {
+              item.get("value"): item
+              for item in provenance.get("assets", [])
+              if item.get("type") == "domain"
+          }
+          missing = []
+          for domain in domains:
+              asset = assets.get(domain) or {}
+              evidence_ids = asset.get("evidence_ids") or []
+              official_verified = any(
+                  evidence.get(evidence_id, {}).get("authority") == "official"
+                  and evidence.get(evidence_id, {}).get("status") == "verified"
+                  for evidence_id in evidence_ids
+              )
+              if not official_verified:
+                  missing.append(domain)
+          forbidden = {"cloudflare.com", "www.cloudflare.com"} & set(domains)
           if not domains:
               raise SystemExit("Cloudflare candidate is empty; keep Release BLOCKED")
+          if forbidden:
+              raise SystemExit(f"global CDN exclusions were bypassed: {sorted(forbidden)}")
           if missing:
-              raise SystemExit(f"Cloudflare domains missing official evidence mapping: {missing[:20]}")
+              raise SystemExit(f"Cloudflare domains missing official verified evidence: {missing[:20]}")
           print(json.dumps({
               "service_id": "cloudflare",
               "snapshot_id": result["snapshot_id"],
               "release_state": result.get("release_state"),
               "domain_count": len(domains),
               "evidence_mapped": len(domains) - len(missing),
+              "global_exclusion_preserved": True,
           }, ensure_ascii=False, indent=2))
           PY
 
