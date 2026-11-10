@@ -3127,7 +3127,6 @@ services:
     ecosystem: cloudflare
     official_sources:
     - https://developers.cloudflare.com/cloudflare-one/traffic-controls/global-policies/
-    - https://www.cloudflare.com/
     allowed_host_exact:
     - www.cloudflare.com
     - cloudflare.com
@@ -3139,6 +3138,8 @@ services:
     - blocked.teams.cloudflare.com
     - help.one.cloudflare.com
     - speed.cloudflare.com
+    - nel.cloudflare.com
+    - dash.teams.cloudflare.com
     - cloudflarestatus.com
     - www.cloudflarestatus.com
     - cloudflareclient.com
