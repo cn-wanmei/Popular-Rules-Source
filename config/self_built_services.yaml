@@ -824,6 +824,7 @@ services:
   cloudflare:
     display_name: Cloudflare
     ecosystem: cloudflare
+    mode: official_web
     official_sources:
     - https://developers.cloudflare.com/cloudflare-one/traffic-controls/global-policies/
     - https://www.cloudflare.com/
@@ -856,8 +857,8 @@ services:
       allowed_authorities:
       - official
       min_confidence: high
-    boundary:
-      shared_infrastructure_allowed: false
+    upstream_binding: null
+    current_state: review
   datadog:
     display_name: Datadog
     ecosystem: datadog
