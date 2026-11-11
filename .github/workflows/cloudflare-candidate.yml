@@ -70,7 +70,7 @@ jobs:
           if results is None:
               raise SystemExit("could not locate the Cloudflare JSON result in source-engine output")
           Path("cloudflare-generation.json").write_text(
-              json.dumps(results, ensure_ascii=False, indent=2) + "\\n",
+              json.dumps(results, ensure_ascii=False, indent=2) + "\n",
               encoding="utf-8",
           )
           PY
