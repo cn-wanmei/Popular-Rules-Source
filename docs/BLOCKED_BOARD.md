@@ -1,6 +1,6 @@
 # Source 阻塞看板（自动生成）
 
-> generated_at: `2026-11-10T15:07:33Z`
+> generated_at: `2026-11-11T09:46:17Z`
 
 权威：`config/source_canary_state.yaml` + `reports/generated/lifecycle.json`。
 
@@ -8,13 +8,13 @@
 
 | Service | Lifecycle | Release | Domains |
 |---|---|---|---:|
-| cloudflare | REVIEW | BLOCKED | 0 |
+| — | — | — | — |
 
 ## domains = 0
 
 | Service | Lifecycle | Release | Domains |
 |---|---|---|---:|
-| cloudflare | REVIEW | BLOCKED | 0 |
+| — | — | — | — |
 
 ## 处理原则
 

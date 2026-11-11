@@ -246,7 +246,7 @@ Popular-Rules-Icon
 
 - **Services tracked:** 282
 - **By state:** CANARY=8, PRODUCTION=8, REVIEW=246, VERIFIED=20
-- **Release BLOCKED:** 1
+- **Release BLOCKED:** 0
 
 > Per-service rows: [`reports/generated/lifecycle.json`](reports/generated/lifecycle.json)  
 > Lifecycle SSOT: [`config/source_canary_state.yaml`](config/source_canary_state.yaml)  

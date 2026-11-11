@@ -552,16 +552,14 @@
       "verified": true
     },
     "cloudflare": {
-      "blockers": [
-        "release_state:BLOCKED"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 0,
+      "domain_count": 18,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "555bdee15be080f1890b9e423155df05f3d308530d8826a9bd5e512194a89cb5",
-      "snapshot_id": "snap-cloudflare-555bdee15be080f1890b9e42",
-      "verified": false
+      "release_digest": "b21c78507371eef7cc7e603f12e9168b6b02e8a00365f8fcfb8cb5f5218f9b8c",
+      "snapshot_id": "snap-cloudflare-b21c78507371eef7cc7e603f",
+      "verified": true
     },
     "coinbase": {
       "blockers": [],

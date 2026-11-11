@@ -662,15 +662,15 @@
       "state": "canary"
     },
     "cloudflare": {
-      "content_digest": "802dd0d1fba2359e5c12d371091092f65e038eab1aa6f7fff2de931b91190d8d",
-      "domain_count": 0,
+      "content_digest": "610b115ae77f34c4e4aa35f0b508da6400f6590b70820986b0184259a64b083f",
+      "domain_count": 18,
       "enabled": true,
-      "evidence_digest": "7a95a88d8be44cdf32285490690cbd3d4603e886d540c2069d82f0a2f463fcd3",
-      "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
-      "policy_digest": "420b082aad6d08e331076396ce012fb9bd8d9fafa9727be617af6f2f241148f8",
-      "release_digest": "555bdee15be080f1890b9e423155df05f3d308530d8826a9bd5e512194a89cb5",
-      "release_state": "BLOCKED",
-      "snapshot_id": "snap-cloudflare-555bdee15be080f1890b9e42",
+      "evidence_digest": "dbe5bcd717bebe4e2f4818d60924396dba19e55856236bf1c16603b2d36a8e5b",
+      "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
+      "policy_digest": "b0b1780db8649335175d521a89ccf545bc4da134a107579053dffa09ae1a0a7c",
+      "release_digest": "b21c78507371eef7cc7e603f12e9168b6b02e8a00365f8fcfb8cb5f5218f9b8c",
+      "release_state": "CANDIDATE",
+      "snapshot_id": "snap-cloudflare-b21c78507371eef7cc7e603f",
       "state": "review"
     },
     "coinbase": {
