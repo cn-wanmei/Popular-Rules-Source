@@ -11,6 +11,7 @@ on:
       - "authoring/services/cloudflare/**"
       - "source_engine/overrides.py"
       - "source_engine/build.py"
+      - ".github/workflows/cloudflare-candidate.yml"
 
 concurrency:
   group: cloudflare-candidate-refresh
@@ -41,11 +42,38 @@ jobs:
       - name: Generate Cloudflare candidate only
         run: |
           set -euo pipefail
-          # The generate CLI writes its validation summary before the JSON array.
-          # Keep only the JSON payload for the next machine-readable verification step.
-          python -m source_engine generate --service cloudflare --allow-blocked \
-            | sed -n '/^\[/,$p' > cloudflare-generation.json
-          test -s cloudflare-generation.json
+          # Preserve all CLI output; run_validation() may emit text before the JSON result.
+          python -m source_engine generate --service cloudflare --allow-blocked > cloudflare-generation.log
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          raw = Path("cloudflare-generation.log").read_text(encoding="utf-8-sig")
+          decoder = json.JSONDecoder()
+          results = None
+          for offset, char in enumerate(raw):
+              if char != "[":
+                  continue
+              try:
+                  value, _ = decoder.raw_decode(raw[offset:])
+              except json.JSONDecodeError:
+                  continue
+              if (
+                  isinstance(value, list)
+                  and len(value) == 1
+                  and isinstance(value[0], dict)
+                  and value[0].get("service_id") == "cloudflare"
+                  and value[0].get("snapshot_id")
+              ):
+                  results = value
+                  break
+          if results is None:
+              raise SystemExit("could not locate the Cloudflare JSON result in source-engine output")
+          Path("cloudflare-generation.json").write_text(
+              json.dumps(results, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8",
+          )
+          PY
 
       - name: Verify candidate domains and evidence mapping
         run: |
@@ -86,11 +114,34 @@ jobs:
               )
               if not official_verified:
                   missing.append(domain)
+          approved = {
+              "api.cloudflare.com",
+              "one.dash.cloudflare.com",
+              "dash.cloudflare.com",
+              "dash.teams.cloudflare.com",
+              "developers.cloudflare.com",
+              "help.teams.cloudflare.com",
+              "help.one.cloudflare.com",
+              "blocked.teams.cloudflare.com",
+              "speed.cloudflare.com",
+              "nel.cloudflare.com",
+              "cloudflarestatus.com",
+              "www.cloudflarestatus.com",
+              "cloudflareclient.com",
+              "cloudflare-gateway.com",
+              "cloudflareaccess.com",
+              "cloudflareportal.com",
+              "cloudflareok.com",
+              "cloudflarecp.com",
+          }
           forbidden = {"cloudflare.com", "www.cloudflare.com"} & set(domains)
+          unapproved = sorted(set(domains) - approved)
           if not domains:
               raise SystemExit("Cloudflare candidate is empty; keep Release BLOCKED")
           if forbidden:
               raise SystemExit(f"global CDN exclusions were bypassed: {sorted(forbidden)}")
+          if unapproved:
+              raise SystemExit(f"Cloudflare candidate contains hosts outside the official exact-host inventory: {unapproved[:20]}")
           if missing:
               raise SystemExit(f"Cloudflare domains missing official verified evidence: {missing[:20]}")
           print(json.dumps({
