@@ -1,0 +1,13 @@
+{
+  "content_digest": "28e1c402dbeb6b5f0ed97e17f5b2a3e0560a0c8daade3b2c609502822efadd62",
+  "domains": [
+    "tesla.com",
+    "www.tesla.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "tesla",
+  "source_hashes": [
+    "63680d3d9a2f158ffd98d81717456b3efd2734ee25799e957237f2db73f2ff40"
+  ]
+}

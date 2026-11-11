@@ -1,0 +1,12 @@
+{
+  "content_digest": "5710f9aa899f49d44ca2256a82722665f23c835d9635401f8ddbf879958ee627",
+  "domains": [
+    "wenku.baidu.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "baiduwenku",
+  "source_hashes": [
+    "b2445130981ba0149d21fa07d6208b0cab3c701b6d92086408fc2f50b1265893"
+  ]
+}

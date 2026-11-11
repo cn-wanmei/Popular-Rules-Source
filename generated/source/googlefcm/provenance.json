@@ -137,7 +137,7 @@
     "status": "OK"
   },
   "content_digest": "7f6f0b0aebe1b7f01c29314122a04f65a831b4b54bc748d9888aecd1ff482364",
-  "created_at": "2026-09-26T12:09:53.130211+00:00",
+  "created_at": "2026-11-11T09:30:58.302718+00:00",
   "domain_count": 13,
   "domain_diff": {
     "added": [],
@@ -188,7 +188,7 @@
       "evidence_id": "EV-googlefcm-001-9794f848f293",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleFCM/GoogleFCM.list",
-      "retrieved_at": "2026-09-26T12:09:53.106121+00:00",
+      "retrieved_at": "2026-11-11T09:30:58.251553+00:00",
       "service_id": "googlefcm",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -198,7 +198,7 @@
     }
   ],
   "evidence_digest": "6aa37de7f752f4744814c9c8d543bcd915ca3729351db927034f82a33b9d59c8",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 0,
@@ -206,7 +206,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
   "previous_domain_count": 13,
-  "release_digest": "d2649b705a9906c0296cdbaf4dc69ee3a265fd35bef82059ed3cda9cd782645f",
+  "release_digest": "7b920cf1c9ed41924d7a718a4e31e6752c9223156b2d33020cc9cef5d9dc42da",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -214,7 +214,7 @@
   "service_config_digest": "cf3afb57e8baabeae4f942969b9e5141d90bc5d173d28455e7e795421ed37462",
   "service_id": "googlefcm",
   "snapshot_content_sha256": "7f6f0b0aebe1b7f01c29314122a04f65a831b4b54bc748d9888aecd1ff482364",
-  "snapshot_id": "snap-googlefcm-d2649b705a9906c0296cdbaf",
+  "snapshot_id": "snap-googlefcm-7b920cf1c9ed41924d7a718a",
   "source_bindings": [
     {
       "adapter": "upstream_rule",

@@ -1,0 +1,12 @@
+{
+  "content_digest": "a857796f204216b504e7dbebaadb33722f02bf4aec6fd69ac759acdc7ef58ef5",
+  "domains": [
+    "sheets.google.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "google-sheets",
+  "source_hashes": [
+    "fd712161007be803ad5956660bc8d941b1bd33bd63aa5ad94451d50ba8a7b1b7"
+  ]
+}

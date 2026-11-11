@@ -1,0 +1,14 @@
+{
+  "content_digest": "425745d7bfcab5c94c71b398002286d5b47b544199f9f81bf9f30934ffc96ed1",
+  "domains": [
+    "epicgames.com",
+    "store.epicgames.com",
+    "www.epicgames.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "epicgames",
+  "source_hashes": [
+    "b1ce03f345add13cd345ff1247926091a36263a17922e61c219e3c2acd4c2bc8"
+  ]
+}

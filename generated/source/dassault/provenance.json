@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "3462b76da7d140d3cd816693a3953d533884e68d4b670d014e53c9f0bac1d677",
-  "created_at": "2026-09-27T11:28:08.201259+00:00",
+  "created_at": "2026-11-11T09:30:30.049025+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "3ds.com",
       "www.3ds.com"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "3ds.com",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-dassault-001-b3f19fcd7b4c",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.3ds.com/",
-      "retrieved_at": "1790508425512210354",
+      "retrieved_at": "1794389348213978559",
       "service_id": "dassault",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "0fd81d8c4b1d38a35af88205a3736ef1141c5e34a43fbd32285bc0b2e429c307",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "522b2d64c53006c997054f69f3a77c36ce7f00598c9a8deabc4efbb1eb4bbca9",
-  "previous_domain_count": 0,
-  "release_digest": "ddd455ea2301cc82ea31bd000ef961cebbc1008d5c86bbae840f9d33ac7c6ab9",
+  "previous_domain_count": 2,
+  "release_digest": "f6fc4b5cc06bde783aedd267892b840cf34438fa2d48c6ae7e0821e1f313cb30",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "a96814f025455b21f09025691e5a6849fade6e785d0ca5a2dc9d70e3a687868c",
   "service_id": "dassault",
   "snapshot_content_sha256": "3462b76da7d140d3cd816693a3953d533884e68d4b670d014e53c9f0bac1d677",
-  "snapshot_id": "snap-dassault-ddd455ea2301cc82ea31bd00",
+  "snapshot_id": "snap-dassault-f6fc4b5cc06bde783aedd267",
   "source_bindings": [
     {
       "adapter": null,

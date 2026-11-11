@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:398a767c5a4e6f017cde8273bbbdb27ad2e062640a1394bf89ac20e5d0cfaf9a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-arista-001-8dd123d916bc"
+      ],
+      "service_id": "arista",
+      "type": "domain",
+      "value": "arista.com"
+    },
+    {
+      "asset_id": "sha256:dd1b18189b4b027b0500697894dec77462bc82528915196e81812715fe2345fe",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-arista-001-8dd123d916bc"
+      ],
+      "service_id": "arista",
+      "type": "domain",
+      "value": "www.arista.com"
+    }
+  ],
+  "content_digest": "832a2860f26c12430a172bc420dc1f3ee847057f9671fca831a967c48c389a5e",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "8dd123d916bcbf4317d3a362ad6d9d377b18062bcadbd242b9189dd9e594ad28",
+      "domains_extracted": 2,
+      "evidence_id": "EV-arista-001-8dd123d916bc",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "self_built://self_built/arista/domains.list",
+      "retrieved_at": "1794389348213497975",
+      "service_id": "arista",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.arista.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "f1abbf4e73e71ec2acedb900a04415c6c1af884eb0df300daf792ebf1c53a18a",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
+  "policy_digest": "d0f6a17bdcbdf9c023134a9736f2e3a478a547e2e73b549fb626c4887e25fa41",
+  "release_digest": "cb6c5b7a41927c3f0d5461c08dc0bf37d7d9de12e03c0eed3946f2e553f03d16",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "arista",
+  "snapshot_id": "snap-arista-cb6c5b7a41927c3f0d5461c0",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

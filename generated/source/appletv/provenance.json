@@ -77,7 +77,7 @@
     "status": "OK"
   },
   "content_digest": "8bfb08f7cb5c397e26abb0198331f4d283c5cb76eccb34c4af0d7e7e0246032e",
-  "created_at": "2026-09-26T12:09:42.386594+00:00",
+  "created_at": "2026-11-11T09:30:08.199868+00:00",
   "domain_count": 7,
   "domain_diff": {
     "added": [],
@@ -116,7 +116,7 @@
       "evidence_id": "EV-appletv-001-92ca64869704",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleTV/AppleTV.list",
-      "retrieved_at": "2026-09-26T12:09:42.362924+00:00",
+      "retrieved_at": "2026-11-11T09:30:08.153499+00:00",
       "service_id": "appletv",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -126,7 +126,7 @@
     }
   ],
   "evidence_digest": "c5cd49d0be9c966c7990fde4a5cfd730549e42a54a9cfa3bfb8f5029c242ae62",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 0,
@@ -134,7 +134,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
   "previous_domain_count": 7,
-  "release_digest": "b983ca24d850eeada428f1daa45ffc189d5d8dd382c52610bf73edcc1a15297d",
+  "release_digest": "6493d6f00552f2e7fcc5fa6397dc65ef4ea8e03fad04aa4b713efdda75d999e5",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -142,7 +142,7 @@
   "service_config_digest": "beb1fd343b25a80b5bc58edcaa4c0fdfbd73b1c3eff3a60fb9bf326bb80d4972",
   "service_id": "appletv",
   "snapshot_content_sha256": "8bfb08f7cb5c397e26abb0198331f4d283c5cb76eccb34c4af0d7e7e0246032e",
-  "snapshot_id": "snap-appletv-b983ca24d850eeada428f1da",
+  "snapshot_id": "snap-appletv-6493d6f00552f2e7fcc5fa63",
   "source_bindings": [
     {
       "adapter": "upstream_rule",

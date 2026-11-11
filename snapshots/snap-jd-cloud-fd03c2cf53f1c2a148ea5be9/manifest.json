@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:70006d940b05a0dd73df1266e85af5ec756af2c0cbea15913289aa48764aad15",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-jd-cloud-001-0f97a8c7262f"
+      ],
+      "service_id": "jd-cloud",
+      "type": "domain",
+      "value": "www.jdcloud.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 1.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "6ac3c70f6350afb39f0323834336b53e7a52524e1d77c0b950c41bac07fe8dbd",
+  "created_at": "2026-11-11T09:31:10.945239+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [],
+    "added_count": 0,
+    "current_count": 1,
+    "previous_count": 1,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
+      "www.jdcloud.com"
+    ],
+    "unchanged_count": 1
+  },
+  "domains": [
+    "www.jdcloud.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "0f97a8c7262f0a9f5e72608f98cd6fdb7bcb89a392c0153587e29f109ff9588e",
+      "domains_extracted": 1,
+      "evidence_id": "EV-jd-cloud-001-0f97a8c7262f",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.jdcloud.com/",
+      "retrieved_at": "1794389348216978561",
+      "service_id": "jd-cloud",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.jdcloud.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "81f71f2ec2f25245ff64d08bbdac935aacebe65146e1b9bf4a1befc924dc014d",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "c080b5dde084a749f5ea2dac027d1b3dfa17449bd49f0eced4dfd5ac103db674",
+  "previous_domain_count": 1,
+  "release_digest": "fd03c2cf53f1c2a148ea5be9caa7cfa3e090a7f43967dd3feb3fcf1dbfa67af3",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "3616317f97eb79c4a95d2c361505e28b37f2562e0b0d166a563cb861b76f08a3",
+  "service_id": "jd-cloud",
+  "snapshot_content_sha256": "6ac3c70f6350afb39f0323834336b53e7a52524e1d77c0b950c41bac07fe8dbd",
+  "snapshot_id": "snap-jd-cloud-fd03c2cf53f1c2a148ea5be9",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.jdcloud.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

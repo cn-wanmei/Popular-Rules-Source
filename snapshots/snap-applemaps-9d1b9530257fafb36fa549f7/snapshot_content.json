@@ -1,0 +1,12 @@
+{
+  "content_digest": "83ac9508a8a35f00d5feb3a2761bf2e1cd56d7c159c7eb8270d92c83cb08a663",
+  "domains": [
+    "maps.apple.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "applemaps",
+  "source_hashes": [
+    "33c8d31141162b8569b7073d545a36ff17e3011fcfe382ccbbfbed678aa4f4d7"
+  ]
+}

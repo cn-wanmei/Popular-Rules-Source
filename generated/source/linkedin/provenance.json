@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "68787912b5937a160c99a6bb9e4752cb26aff9cbfd4f796651d7bcc587c1f300",
-  "created_at": "2026-09-27T10:01:38.460512+00:00",
+  "created_at": "2026-11-11T09:31:19.557261+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "linkedin.com",
       "www.linkedin.com"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "linkedin.com",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-linkedin-001-53e86f63e1a9",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "self_built://self_built/linkedin/domains.list",
-      "retrieved_at": "1790503258561787427",
+      "retrieved_at": "1794389348217978562",
       "service_id": "linkedin",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "6c461edd39c1147cb43319756121e36a2cf9d51c4b6414fbd431ea206bc5fc16",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "22bca84ec017290f0b2e0b587fca027eb2a51e756fb4046944deb3c9b34c38ca",
-  "previous_domain_count": 0,
-  "release_digest": "454eb7556f0cd23a8662a2c1e58d7a0543828ed282315fc46b25c36c7c9704ba",
+  "previous_domain_count": 2,
+  "release_digest": "8652a33a91a68fd8dbdf1fa3e7d35968c447086935266a89b9210a5fd53ef80d",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "a84faf38f6d88aee065db361d8c94c1f3bf00a32b1f6afad5d9e0d80fedbf2c1",
   "service_id": "linkedin",
   "snapshot_content_sha256": "68787912b5937a160c99a6bb9e4752cb26aff9cbfd4f796651d7bcc587c1f300",
-  "snapshot_id": "snap-linkedin-454eb7556f0cd23a8662a2c1",
+  "snapshot_id": "snap-linkedin-8652a33a91a68fd8dbdf1fa3",
   "source_bindings": [
     {
       "adapter": null,

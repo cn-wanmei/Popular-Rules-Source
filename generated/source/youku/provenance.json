@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "8d01b9742072141d7800a1eeef511ff00c0bfa6bfabe27ef7edcd80ecb082b44",
-  "created_at": "2026-09-27T10:01:59.358534+00:00",
+  "created_at": "2026-11-11T09:32:34.864988+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "www.youku.com",
       "youku.com"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "www.youku.com",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-youku-001-65d56684ce1d",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "self_built://self_built/youku/domains.list",
-      "retrieved_at": "1790503263017947656",
+      "retrieved_at": "1794389348222978566",
       "service_id": "youku",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "a7e5bb6066826cd8a39ec0f76ff2c8638f390ad0bd70be8910e9e65bf6936ab6",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "5a80158e4d036a841510b9e2cf05c14d8d65c99ccc41a570554b02b2af321b93",
-  "previous_domain_count": 0,
-  "release_digest": "0bb384a769720979e545587728ad4b5411f60328418b294378d7d5ecd5837c16",
+  "previous_domain_count": 2,
+  "release_digest": "4293a8836d71cd210ec7738be6eb796c64d066115141f6ceb66e35490c24ebc4",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "974be4cdfb843744aca1c7085aa5683bff01176eb4e850cdb5aaea1ef71518c5",
   "service_id": "youku",
   "snapshot_content_sha256": "8d01b9742072141d7800a1eeef511ff00c0bfa6bfabe27ef7edcd80ecb082b44",
-  "snapshot_id": "snap-youku-0bb384a769720979e5455877",
+  "snapshot_id": "snap-youku-4293a8836d71cd210ec7738b",
   "source_bindings": [
     {
       "adapter": null,

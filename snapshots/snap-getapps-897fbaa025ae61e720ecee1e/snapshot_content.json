@@ -1,0 +1,12 @@
+{
+  "content_digest": "cdf3bb7746bcae26f8931a10a902850abdb6446c3832b932ddf7df25fc6eec0e",
+  "domains": [
+    "global.app.mi.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "getapps",
+  "source_hashes": [
+    "a6cc55afe378c4e750ee81d7fe49cffc3cc6bd9580effc792ce1de2388e8eb94"
+  ]
+}

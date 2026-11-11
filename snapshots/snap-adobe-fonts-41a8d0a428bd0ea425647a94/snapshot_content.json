@@ -1,0 +1,12 @@
+{
+  "content_digest": "75fe2670c3275fb5b5c201e8d991a72268fff10ee6f39c49ce295ad09e02207c",
+  "domains": [
+    "fonts.adobe.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "adobe-fonts",
+  "source_hashes": [
+    "eb414045b24b22ad866173764b5df581da3027e00b312b6afe88cd69fd0c6299"
+  ]
+}

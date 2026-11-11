@@ -1,0 +1,12 @@
+{
+  "content_digest": "2cbf69c2c1e55a7236ab85892648939e519429312ad1d02df5555774e6a5b68d",
+  "domains": [
+    "voice.google.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "google-voice",
+  "source_hashes": [
+    "b6640bc31c362fdf38d8ecfb317dcb00288d7704d2acf2049c768cea04a4f0b5"
+  ]
+}

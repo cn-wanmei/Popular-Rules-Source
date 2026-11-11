@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "1e026d4ed5123fa2248b25786b17f8219520ce89c68ee8059a80adbf83a31e9d",
-  "created_at": "2026-09-27T10:04:39.633513+00:00",
+  "created_at": "2026-11-11T09:31:01.312217+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "hikvision.com",
       "www.hikvision.com"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "hikvision.com",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-hikvision-001-409725bd301b",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.hikvision.com/",
-      "retrieved_at": "1790503436109589298",
+      "retrieved_at": "1794389348215978560",
       "service_id": "hikvision",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "5079bbca68ff16dd1c45656a925295a148d78f9219f24fc3947534d51fe15da2",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "a5ad30e81b14011900e724386a2504be8d5ed4d7b06d3a8b92250d6e09e66d15",
-  "previous_domain_count": 0,
-  "release_digest": "48addd781bb964a4f72692f110719225f6a1936f22c7e2fbe0f9dc0509f828a5",
+  "previous_domain_count": 2,
+  "release_digest": "e61ea31fcb30962e0d98d87eda5ddc8b688f7ad809b72de65208660711739e95",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "bd304473e4c74d3c07f3730438b984137d1c16f308e7a52bc850eb6d16c4e7da",
   "service_id": "hikvision",
   "snapshot_content_sha256": "1e026d4ed5123fa2248b25786b17f8219520ce89c68ee8059a80adbf83a31e9d",
-  "snapshot_id": "snap-hikvision-48addd781bb964a4f72692f1",
+  "snapshot_id": "snap-hikvision-e61ea31fcb30962e0d98d87e",
   "source_bindings": [
     {
       "adapter": null,

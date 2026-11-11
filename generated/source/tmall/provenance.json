@@ -4,7 +4,7 @@
       "asset_id": "sha256:25db61baf5e77d450db202ad2bbb1e85a2fb1b93f9659597b3bd73350f162e5f",
       "classification": "service",
       "evidence_ids": [
-        "EV-tmall-001-e8d552a8f187"
+        "EV-tmall-001-83c6518f7e0f"
       ],
       "service_id": "tmall",
       "type": "domain",
@@ -14,7 +14,7 @@
       "asset_id": "sha256:37e05383a2701d40830606a2108ff1b9d1f02e430ed839262243e6a047ce6de6",
       "classification": "service",
       "evidence_ids": [
-        "EV-tmall-001-e8d552a8f187"
+        "EV-tmall-001-83c6518f7e0f"
       ],
       "service_id": "tmall",
       "type": "domain",
@@ -24,7 +24,7 @@
       "asset_id": "sha256:03e1ce68e9592360c4fbd3d4b54dfd55588207262e50b03030612716534f1365",
       "classification": "service",
       "evidence_ids": [
-        "EV-tmall-001-e8d552a8f187"
+        "EV-tmall-001-83c6518f7e0f"
       ],
       "service_id": "tmall",
       "type": "domain",
@@ -34,7 +34,7 @@
       "asset_id": "sha256:8c8f85c3f69c90d11b9120c1de895ecd373da4739ad63e6132707a212d6d6e43",
       "classification": "service",
       "evidence_ids": [
-        "EV-tmall-001-e8d552a8f187"
+        "EV-tmall-001-83c6518f7e0f"
       ],
       "service_id": "tmall",
       "type": "domain",
@@ -44,7 +44,7 @@
       "asset_id": "sha256:57c65f80efd74bf712300035a70d6a818c4419ed99b5072178b6810b8cdd7bed",
       "classification": "service",
       "evidence_ids": [
-        "EV-tmall-001-e8d552a8f187"
+        "EV-tmall-001-83c6518f7e0f"
       ],
       "service_id": "tmall",
       "type": "domain",
@@ -54,7 +54,7 @@
       "asset_id": "sha256:63c5c62fa4b657c0ce92ac6bb1acab2bbe48fed483a20e530526213412fe5ae2",
       "classification": "service",
       "evidence_ids": [
-        "EV-tmall-001-e8d552a8f187"
+        "EV-tmall-001-83c6518f7e0f"
       ],
       "service_id": "tmall",
       "type": "domain",
@@ -64,7 +64,7 @@
       "asset_id": "sha256:2307193736999ac38b4f928873f3befa9450db1922b7354bf002cda9d7b996bb",
       "classification": "service",
       "evidence_ids": [
-        "EV-tmall-001-e8d552a8f187"
+        "EV-tmall-001-83c6518f7e0f"
       ],
       "service_id": "tmall",
       "type": "domain",
@@ -74,7 +74,7 @@
       "asset_id": "sha256:21a7ab983373e39919b775ce370d79db498a247f1a65b4a9e5ab15c0d394d2ce",
       "classification": "service",
       "evidence_ids": [
-        "EV-tmall-001-e8d552a8f187"
+        "EV-tmall-001-83c6518f7e0f"
       ],
       "service_id": "tmall",
       "type": "domain",
@@ -86,8 +86,8 @@
     "removal_ratio": 0.0,
     "status": "OK"
   },
-  "content_digest": "b35231d86f034607ddfc4ef9dfc29495a63627af2c7964a94f4b80436483de7c",
-  "created_at": "2026-11-07T08:52:32.462184+00:00",
+  "content_digest": "be087bc859ccf81997fef983aa298312ebf4f8fdc0f0cd739a43b6767b1cf8ac",
+  "created_at": "2026-11-11T09:32:16.542917+00:00",
   "domain_count": 8,
   "domain_diff": {
     "added": [],
@@ -123,12 +123,12 @@
     {
       "authority": "official",
       "confidence": "high",
-      "content_hash": "e8d552a8f1870003578d621d1e7b626ebf9cd7a1ab994339753439e8d9794702",
+      "content_hash": "83c6518f7e0f08b8b2eb540fe0b9797e1ee6de76c65446c19b935f72ad3892fc",
       "domains_extracted": 8,
-      "evidence_id": "EV-tmall-001-e8d552a8f187",
+      "evidence_id": "EV-tmall-001-83c6518f7e0f",
       "parser_version": "domain-extractor-v4",
       "resolved_url": "https://www.tmall.com/",
-      "retrieved_at": "2026-11-07T08:52:32.419842+00:00",
+      "retrieved_at": "2026-11-11T09:32:16.472405+00:00",
       "service_id": "tmall",
       "source_method": "official_web",
       "source_type": "official_web",
@@ -137,8 +137,8 @@
       "strength": "S3"
     }
   ],
-  "evidence_digest": "011323e87976adbd83abbb9f0c98a6a45ff7b639bab9fe9536f88026b8eb2bc0",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "evidence_digest": "47b5d3f5d0618b54547a013fcbd84afccf33dd294dea3882c7233d2c39453886",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 8,
@@ -146,15 +146,15 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "b4b1b408ca2bfe03e2af68103ed2e3dc598350120217d287733a119f9c7f82aa",
   "previous_domain_count": 8,
-  "release_digest": "28dfc2667ee9156f5a0f3b24f664c6848328c5f4e7dc9d72e7d611bc7eb1a1da",
+  "release_digest": "1e53282cf1aa2c79a1662220d586d915d69115b954355fd53032b6cbc5ca2edd",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
   "schema": "source_snapshot_v2",
   "service_config_digest": "ab6c0e2ee6c27b769daca221f917928fef85158b1d9f98e3b963bb52bf223df2",
   "service_id": "tmall",
-  "snapshot_content_sha256": "b35231d86f034607ddfc4ef9dfc29495a63627af2c7964a94f4b80436483de7c",
-  "snapshot_id": "snap-tmall-28dfc2667ee9156f5a0f3b24",
+  "snapshot_content_sha256": "be087bc859ccf81997fef983aa298312ebf4f8fdc0f0cd739a43b6767b1cf8ac",
+  "snapshot_id": "snap-tmall-1e53282cf1aa2c79a1662220",
   "source_bindings": [
     {
       "adapter": null,

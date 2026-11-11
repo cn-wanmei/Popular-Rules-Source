@@ -1,0 +1,20 @@
+{
+  "content_digest": "ed7f03ecbf0e65d6055de1758e8be6758a3e1b1bfe25afbd67c4f24ac1aed007",
+  "domains": [
+    "aod-ssl.itunes.apple.com",
+    "aod.itunes.apple.com",
+    "applemusic.com",
+    "audio-ssl.itunes.apple.com",
+    "audio.itunes.apple.com",
+    "blobstore.apple.com",
+    "music.apple.com",
+    "mvod.itunes.apple.com",
+    "streamingaudio.itunes.apple.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "applemusic",
+  "source_hashes": [
+    "75415ad38f805f78d18030886a0ff485562fab9a0a6cc24d84a4e707e7bad837"
+  ]
+}

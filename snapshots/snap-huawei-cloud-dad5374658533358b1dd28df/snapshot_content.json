@@ -1,0 +1,12 @@
+{
+  "content_digest": "21283533df930bec282c79ea6842a458df4b5a35829541e20b9c929551fb5a51",
+  "domains": [
+    "console-intl.huaweicloud.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "huawei-cloud",
+  "source_hashes": [
+    "9aebe5daa8e429552deb4ab7dd86ca0c4515b3b44c4c556d290945e83aebaffe"
+  ]
+}
