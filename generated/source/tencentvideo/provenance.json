@@ -177,7 +177,7 @@
     "status": "OK"
   },
   "content_digest": "ec349aad951edd0b3cca859f77991910491e694979104700b3ff20628ea87ab4",
-  "created_at": "2026-09-26T12:18:43.865162+00:00",
+  "created_at": "2026-11-11T09:32:13.562609+00:00",
   "domain_count": 17,
   "domain_diff": {
     "added": [],
@@ -236,7 +236,7 @@
       "evidence_id": "EV-tencentvideo-001-2f74f99c2f48",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TencentVideo/TencentVideo.list",
-      "retrieved_at": "2026-09-26T12:18:43.838463+00:00",
+      "retrieved_at": "2026-11-11T09:32:13.506616+00:00",
       "service_id": "tencentvideo",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -246,7 +246,7 @@
     }
   ],
   "evidence_digest": "f0990d266636753f48fbeb43244d5ce53027de9001e69f902a6290103d13dceb",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 0,
@@ -254,7 +254,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
   "previous_domain_count": 17,
-  "release_digest": "0bbc97349dbece8ea2628b3f4816848736b78f76ec0d25a1941e649da17d2e4e",
+  "release_digest": "84754f5c34b01e7897c0441286a5899283998be74b3d74ebd77d87dcc9c1b352",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -262,7 +262,7 @@
   "service_config_digest": "48ac502ee134de5f8e3bff4719010a9974cce1fed9366e01b5f0de4714b3f724",
   "service_id": "tencentvideo",
   "snapshot_content_sha256": "ec349aad951edd0b3cca859f77991910491e694979104700b3ff20628ea87ab4",
-  "snapshot_id": "snap-tencentvideo-0bbc97349dbece8ea2628b3f",
+  "snapshot_id": "snap-tencentvideo-84754f5c34b01e7897c04412",
   "source_bindings": [
     {
       "adapter": "upstream_rule",

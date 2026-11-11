@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:d6fc26e6b9afe60204a5186155864070408d80c5fc9d582e92e02a8abdd05745",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-snowflake-001-a742fa509d08"
+      ],
+      "service_id": "snowflake",
+      "type": "domain",
+      "value": "snowflake.com"
+    },
+    {
+      "asset_id": "sha256:62ab652f8fe7cd1d11ded2f324da702aa2ac880b44b6951ea5988871eb32b860",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-snowflake-001-a742fa509d08"
+      ],
+      "service_id": "snowflake",
+      "type": "domain",
+      "value": "www.snowflake.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 1.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "d93b12855f0fa139e596f9c81ad671e02aeb2c026182595b8ff2fd51d15c5275",
+  "created_at": "2026-11-11T09:32:00.702767+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
+      "snowflake.com",
+      "www.snowflake.com"
+    ],
+    "unchanged_count": 2
+  },
+  "domains": [
+    "snowflake.com",
+    "www.snowflake.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "a742fa509d08fd26fe3faf3793ffa026287adf6175a401c0de722f471e22223b",
+      "domains_extracted": 2,
+      "evidence_id": "EV-snowflake-001-a742fa509d08",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.snowflake.com/",
+      "retrieved_at": "1794389348220978565",
+      "service_id": "snowflake",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.snowflake.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "359989f2b77f3cf130dbb761efbfbe35b215747d35e1a7d3d2ef621875d7b332",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "fbd6f91ffb2fe55d024ee8555ac116ca1ae42248efa8700810157a6daa262958",
+  "previous_domain_count": 2,
+  "release_digest": "488d7a0f6a9cb90e1eac280a940ddfe241ecf55dab526a97e4846ba96b65e1a5",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "25daa3fa20a68a55dcb069c70dbac6c23714726a96445343f8e0b8bb2f1586ad",
+  "service_id": "snowflake",
+  "snapshot_content_sha256": "d93b12855f0fa139e596f9c81ad671e02aeb2c026182595b8ff2fd51d15c5275",
+  "snapshot_id": "snap-snowflake-488d7a0f6a9cb90e1eac280a",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.snowflake.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

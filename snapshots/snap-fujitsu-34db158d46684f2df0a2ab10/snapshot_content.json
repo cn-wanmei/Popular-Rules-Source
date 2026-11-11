@@ -1,0 +1,13 @@
+{
+  "content_digest": "7df0320fa6415aeb563cf85f165613997c774ee669081c849e8d6e48f9b1d9aa",
+  "domains": [
+    "fujitsu.com",
+    "www.fujitsu.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "fujitsu",
+  "source_hashes": [
+    "91c648dada90addb84701c882500e234de4a7add27cabc0c010d984f62aa7407"
+  ]
+}

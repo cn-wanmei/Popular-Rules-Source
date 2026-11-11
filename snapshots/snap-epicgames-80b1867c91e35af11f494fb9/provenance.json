@@ -1,0 +1,67 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:cdbce17818edd7ebba64945954edcf65783b0af6fb051d60a1c3492642802e7e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-epicgames-001-b1ce03f345ad"
+      ],
+      "service_id": "epicgames",
+      "type": "domain",
+      "value": "epicgames.com"
+    },
+    {
+      "asset_id": "sha256:dc6b44006247fb072bd0182fcf7bacc73055b82f73562eb4ab82d2c5cca933df",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-epicgames-001-b1ce03f345ad"
+      ],
+      "service_id": "epicgames",
+      "type": "domain",
+      "value": "store.epicgames.com"
+    },
+    {
+      "asset_id": "sha256:b68fc632a8e44af35f0a65b326b8f1a12f08b915ee7449763169a7fde8486473",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-epicgames-001-b1ce03f345ad"
+      ],
+      "service_id": "epicgames",
+      "type": "domain",
+      "value": "www.epicgames.com"
+    }
+  ],
+  "content_digest": "425745d7bfcab5c94c71b398002286d5b47b544199f9f81bf9f30934ffc96ed1",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "b1ce03f345add13cd345ff1247926091a36263a17922e61c219e3c2acd4c2bc8",
+      "domains_extracted": 3,
+      "evidence_id": "EV-epicgames-001-b1ce03f345ad",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://store.epicgames.com/",
+      "retrieved_at": "1794389348214978560",
+      "service_id": "epicgames",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://store.epicgames.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "6e6023ad75f2ce60fa29a9ce143ad8c7d21cebd50abec5cea7bd5fb57278d417",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
+  "policy_digest": "5839a37505802e78a55e153922bd113189514b76fff01c2f6638f85c7a22f254",
+  "release_digest": "80b1867c91e35af11f494fb9212b0495fe5071c2f54b21c08590f0bfa25037a3",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "epicgames",
+  "snapshot_id": "snap-epicgames-80b1867c91e35af11f494fb9",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

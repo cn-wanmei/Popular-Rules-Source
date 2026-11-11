@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "1fc48cab81583326ae6d976ed88d6058f320c14138b6ac2168e95ed760060ac5",
-  "created_at": "2026-09-27T10:05:36.585311+00:00",
+  "created_at": "2026-11-11T09:30:12.145205+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "autodesk.com",
       "www.autodesk.com"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "autodesk.com",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-autodesk-001-701fb0224df8",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.autodesk.com/",
-      "retrieved_at": "1790503474089532965",
+      "retrieved_at": "1794389348213497975",
       "service_id": "autodesk",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "be009cfcd363709730118e9153efbcca75a904abd78adb6f2bc8321be8a75090",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "41f914c4015a39eee9569de12af2f11c6a10325ffb4d9b0faa50c4c7f10a226f",
-  "previous_domain_count": 0,
-  "release_digest": "ec9852888af1e9f52eadafd2f4bea53f7b4282dc02011d7c53f437bb0313b8c9",
+  "previous_domain_count": 2,
+  "release_digest": "d7bfe7f8868f561ce7dfd10639c797b5927ced84235dd48ab6c4e90ec94bcc4f",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "bf36f8106994977445b5e365be7d554e453d6b46243d5bcbc04ed835b264450a",
   "service_id": "autodesk",
   "snapshot_content_sha256": "1fc48cab81583326ae6d976ed88d6058f320c14138b6ac2168e95ed760060ac5",
-  "snapshot_id": "snap-autodesk-ec9852888af1e9f52eadafd2",
+  "snapshot_id": "snap-autodesk-d7bfe7f8868f561ce7dfd106",
   "source_bindings": [
     {
       "adapter": null,

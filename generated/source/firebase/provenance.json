@@ -4,7 +4,7 @@
       "asset_id": "sha256:530d5f48e5f973df7ae3f10786b53c7c27a10e11b0d2681eae4cb189373b5a89",
       "classification": "service",
       "evidence_ids": [
-        "EV-firebase-001-279db088b91d"
+        "EV-firebase-001-11218a47e47e"
       ],
       "service_id": "firebase",
       "type": "domain",
@@ -14,7 +14,7 @@
       "asset_id": "sha256:081b6a69a444674d6c97a850c95640934f80fc6e52046ba87067dc3498f98800",
       "classification": "service",
       "evidence_ids": [
-        "EV-firebase-001-279db088b91d"
+        "EV-firebase-001-11218a47e47e"
       ],
       "service_id": "firebase",
       "type": "domain",
@@ -26,8 +26,8 @@
     "removal_ratio": 0.0,
     "status": "OK"
   },
-  "content_digest": "e304d8b41a363101bd16bbcf15d148a15e9d16fcf84aeeee6b9a53d93b6548f7",
-  "created_at": "2026-11-07T08:51:18.247220+00:00",
+  "content_digest": "fc225baf41918a0cfad262d36f997ca26238f550a711fc0cf3831fee2f8df8ff",
+  "created_at": "2026-11-11T09:30:43.213888+00:00",
   "domain_count": 2,
   "domain_diff": {
     "added": [],
@@ -51,12 +51,12 @@
     {
       "authority": "official",
       "confidence": "high",
-      "content_hash": "279db088b91d865eaf1b15fbe1e86bc2cd5699a29a47e916eba80ffa3c71a117",
+      "content_hash": "11218a47e47e75a04e3a05789dfdcce66e30ec0634c377894235e083fbb16b06",
       "domains_extracted": 2,
-      "evidence_id": "EV-firebase-001-279db088b91d",
+      "evidence_id": "EV-firebase-001-11218a47e47e",
       "parser_version": "domain-extractor-v4",
       "resolved_url": "https://firebase.google.com/",
-      "retrieved_at": "2026-11-07T08:51:18.188377+00:00",
+      "retrieved_at": "2026-11-11T09:30:43.120441+00:00",
       "service_id": "firebase",
       "source_method": "official_web",
       "source_type": "official_web",
@@ -65,8 +65,8 @@
       "strength": "S3"
     }
   ],
-  "evidence_digest": "c4ebe38f1df747a22b00b4d3ceff0a9fa6aa0e1829b6252381d5f539950b79da",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "evidence_digest": "186c1a0e3fb853006ed264d507f9f4fb83075c5a49f8564e6734f5303d988a2c",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
@@ -74,15 +74,15 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "de81abf06ccb4e4b84af244e4152a4683258b137dd6326b0fe1dd6e23d6b4553",
   "previous_domain_count": 2,
-  "release_digest": "34eff0af5e7bcb578c5c9723e8c9e4a68ddf863cecf9b74ae6a863600f513c57",
+  "release_digest": "9d118274d1f73942e3fe9290822e2a99c9b920d430e73b0c54d1a51c93dd29bc",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
   "schema": "source_snapshot_v2",
   "service_config_digest": "c5a1e5af184c38630ea55d49ab546e32e852a1d657fe943e9a7095440cd401f8",
   "service_id": "firebase",
-  "snapshot_content_sha256": "e304d8b41a363101bd16bbcf15d148a15e9d16fcf84aeeee6b9a53d93b6548f7",
-  "snapshot_id": "snap-firebase-34eff0af5e7bcb578c5c9723",
+  "snapshot_content_sha256": "fc225baf41918a0cfad262d36f997ca26238f550a711fc0cf3831fee2f8df8ff",
+  "snapshot_id": "snap-firebase-9d118274d1f73942e3fe9290",
   "source_bindings": [
     {
       "adapter": null,

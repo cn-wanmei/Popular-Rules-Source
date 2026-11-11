@@ -1,0 +1,13 @@
+{
+  "content_digest": "fc49ad2cbf29715b83c969e4e0ce358aac34955014f04934072ba345f4e3909f",
+  "domains": [
+    "line.me",
+    "www.line.me"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "linecorp",
+  "source_hashes": [
+    "fab42662bd3f1645056b26f36c1ea554e95efb62787f43fad7f7e70867a60ae0"
+  ]
+}

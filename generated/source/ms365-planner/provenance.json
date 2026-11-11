@@ -12,24 +12,24 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "c2ca297ac8ade2eaa19b82a7385f9bf297f84ec9d5f8b2d6252aa1f09af404a2",
-  "created_at": "2026-09-27T02:59:35.264698+00:00",
+  "created_at": "2026-11-11T09:31:28.730390+00:00",
   "domain_count": 1,
   "domain_diff": {
-    "added": [
-      "planner.cloud.microsoft"
-    ],
-    "added_count": 1,
+    "added": [],
+    "added_count": 0,
     "current_count": 1,
-    "previous_count": 0,
+    "previous_count": 1,
     "removed": [],
     "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged": [
+      "planner.cloud.microsoft"
+    ],
+    "unchanged_count": 1
   },
   "domains": [
     "planner.cloud.microsoft"
@@ -44,7 +44,7 @@
       "evidence_id": "EV-ms365-planner-001-594f0a6afeaa",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://planner.cloud.microsoft/",
-      "retrieved_at": "1790477957120991702",
+      "retrieved_at": "1794389348217978562",
       "service_id": "ms365-planner",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -54,15 +54,15 @@
     }
   ],
   "evidence_digest": "ba9fe11850a1b9ddd7e3974f7de6f2f7b46f9169e5c00ad0eabe28ad4c49819f",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 1,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "29834b2a58189263379b885b38c7b36ab63944cfd64cd09fd86be0844fcdf2e4",
-  "previous_domain_count": 0,
-  "release_digest": "c6ee135c73112ab31f5132b3a6f35087f8b469da7b0f7e1da422f25ab3f07266",
+  "previous_domain_count": 1,
+  "release_digest": "361a74dab0a8fea5cff6e9e2090569f6383bd8ff1f1e5532da757b1c84ab126d",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -70,7 +70,7 @@
   "service_config_digest": "72150ff0f59207253a7d197925308e5cf0edebe27a1c968e22310fb92c66c6d0",
   "service_id": "ms365-planner",
   "snapshot_content_sha256": "c2ca297ac8ade2eaa19b82a7385f9bf297f84ec9d5f8b2d6252aa1f09af404a2",
-  "snapshot_id": "snap-ms365-planner-c6ee135c73112ab31f5132b3",
+  "snapshot_id": "snap-ms365-planner-361a74dab0a8fea5cff6e9e2",
   "source_bindings": [
     {
       "adapter": null,

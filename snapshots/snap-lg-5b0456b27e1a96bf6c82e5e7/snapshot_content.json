@@ -1,0 +1,13 @@
+{
+  "content_digest": "70101307d14ade2258d0422d5cfe9c75a98ec24d408f5913caa1aaf52dbae96b",
+  "domains": [
+    "lg.com",
+    "www.lg.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "lg",
+  "source_hashes": [
+    "c556e7606e82a13c2b06807148955024359b248dd6554444a75593a95a858af0"
+  ]
+}

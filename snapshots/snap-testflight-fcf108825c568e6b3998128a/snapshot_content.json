@@ -1,0 +1,13 @@
+{
+  "content_digest": "892baeedfa6911d40dd9953d77211bb23dcdd32ce987685477b545442c17837a",
+  "domains": [
+    "beta.apple.com",
+    "testflight.apple.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "testflight",
+  "source_hashes": [
+    "06b2eb437c4ab26a9111168cf1be4d7efbafa8eda22b0d9c1d9343bb43092a46"
+  ]
+}

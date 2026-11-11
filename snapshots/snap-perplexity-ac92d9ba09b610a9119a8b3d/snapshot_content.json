@@ -1,0 +1,15 @@
+{
+  "content_digest": "87ca59f295227a08c595d84079fcb904ca8a4d5a4269fee11f3ad840d2af5976",
+  "domains": [
+    "perplexity.ai",
+    "perplexity.com",
+    "pplx-res.cloudinary.com",
+    "pplx.ai"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "perplexity",
+  "source_hashes": [
+    "f07ed9821d704b8a42efcf9f7965e1a1418a9c5a12f35dcbdfbe3d4925d69201"
+  ]
+}

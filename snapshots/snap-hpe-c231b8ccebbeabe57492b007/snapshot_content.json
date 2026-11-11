@@ -1,0 +1,13 @@
+{
+  "content_digest": "62920042e7a3e8a9f12a605f40e11ebd046655a6f6ec7a814da79c00509cf7be",
+  "domains": [
+    "hpe.com",
+    "www.hpe.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "hpe",
+  "source_hashes": [
+    "107dc5657d00869e48e8967ba722b1f3256708637689a2f75d70b9465b06c4c6"
+  ]
+}

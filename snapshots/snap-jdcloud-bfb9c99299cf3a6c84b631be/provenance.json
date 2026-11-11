@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:7e391153fd8e4fb9dc35cdf0c897a3473bd6fc96c67a653883761fa4e336b69e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-jdcloud-001-c099985ac88d"
+      ],
+      "service_id": "jdcloud",
+      "type": "domain",
+      "value": "jdcloud.com"
+    },
+    {
+      "asset_id": "sha256:0b42a1546c6d4db93fb354707c4c055aa325dc3f30682163be27d4d31fd4a1f0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-jdcloud-001-c099985ac88d"
+      ],
+      "service_id": "jdcloud",
+      "type": "domain",
+      "value": "www.jdcloud.com"
+    }
+  ],
+  "content_digest": "e26567df97ed552b92b53c0a0166cf1930d57ef00ba8b6e43b5f9e0afee08748",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "c099985ac88de530970c7ed23ffc407472f6b9fe67a6446f6e332383fbd0ecaf",
+      "domains_extracted": 2,
+      "evidence_id": "EV-jdcloud-001-c099985ac88d",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.jdcloud.com/",
+      "retrieved_at": "1794389348216978561",
+      "service_id": "jdcloud",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.jdcloud.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "fe49f66b9cf02d2952d262238b5d0874ec8c482e23979bb4f535feabd67202c4",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
+  "policy_digest": "581ea4b77029a4ba15162d2b6d0e5ff818a5261e380615c494aea37fcc0313b1",
+  "release_digest": "bfb9c99299cf3a6c84b631be0dae36bd3b94833d75016de6637b9211663b3d5e",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "jdcloud",
+  "snapshot_id": "snap-jdcloud-bfb9c99299cf3a6c84b631be",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

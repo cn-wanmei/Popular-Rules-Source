@@ -1757,7 +1757,7 @@
     "status": "OK"
   },
   "content_digest": "bce5ce05f54d97806f350ff4b2738b0175b402d59db5bd2ad0e9983555ded0c7",
-  "created_at": "2026-09-26T12:18:46.870212+00:00",
+  "created_at": "2026-11-11T09:32:35.386630+00:00",
   "domain_count": 175,
   "domain_diff": {
     "added": [],
@@ -2132,7 +2132,7 @@
       "evidence_id": "EV-youtube-001-a8e4819c3ee2",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.list",
-      "retrieved_at": "2026-09-26T12:18:46.841848+00:00",
+      "retrieved_at": "2026-11-11T09:32:35.328107+00:00",
       "service_id": "youtube",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -2142,7 +2142,7 @@
     }
   ],
   "evidence_digest": "c619c76e2e5a57fad07bf9d8c33a2b83859072c12251e6da064998e5bc586405",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 0,
@@ -2150,7 +2150,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
   "previous_domain_count": 175,
-  "release_digest": "58b8afe3b6062febd60fd5197a7de1d46bc83dbff25d23091c6f8355c4816273",
+  "release_digest": "604f4c421753e9afdd355b138e46ab1be8d9893b8d16ee4312868c33d97b444d",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -2158,7 +2158,7 @@
   "service_config_digest": "c3e83690ac83655596ed1c1d1585839465b866caed63dc6453270b08073020e4",
   "service_id": "youtube",
   "snapshot_content_sha256": "bce5ce05f54d97806f350ff4b2738b0175b402d59db5bd2ad0e9983555ded0c7",
-  "snapshot_id": "snap-youtube-58b8afe3b6062febd60fd519",
+  "snapshot_id": "snap-youtube-604f4c421753e9afdd355b13",
   "source_bindings": [
     {
       "adapter": "upstream_rule",
