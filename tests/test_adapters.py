@@ -82,3 +82,20 @@ def test_self_built_adapter_reads_local_asset():
     )
     assert extracted.domains == ("mail.google.com",)
     assert extracted.evidence["local_asset"] == "self_built/gmail/domains.list"
+
+
+def test_messenger_self_built_adapter_respects_source_bound_mode():
+    from source_engine.adapters import extract_with_adapter
+
+    extracted = extract_with_adapter(
+        service_id="messenger",
+        adapter_name="self_built",
+        source_url="https://www.messenger.com/",
+        exact=(),
+        suffixes=(),
+        adapter_policy={"timeout_seconds": 1, "max_bytes": 100000, "user_agent": "test"},
+        boundary_mode="source_bound",
+    )
+    assert extracted.domains == ("www.messenger.com",)
+    assert extracted.evidence["authority"] == "official"
+    assert extracted.evidence["local_asset"] == "self_built/messenger/domains.list"
