@@ -324,6 +324,9 @@ jobs:
                       }
               except Exception as exc:
                   print(f"WARN: could not merge previous durable report: {exc}")
+          # Re-materialize and verify the complete historical artifact closure.
+          from scripts.durable_bridge_closure import materialize_durable_closure
+          materialize_durable_closure(root, report)
           incomplete = sorted(
               service for service, item in report["services"].items()
               if item.get("status") != "PERSISTED"
