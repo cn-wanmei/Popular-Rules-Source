@@ -27,7 +27,7 @@
     "status": "OK"
   },
   "content_digest": "e316d083c513b8361754968748929b12d6b4f8def816ff8b706dd93377b5ddb9",
-  "created_at": "2026-11-12T13:13:26.334089+00:00",
+  "created_at": "2026-11-12T16:55:32.560630+00:00",
   "domain_count": 2,
   "domain_diff": {
     "added": [],
@@ -56,7 +56,7 @@
       "evidence_id": "EV-starlink-001-cbf52c621185",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.starlink.com/",
-      "retrieved_at": "1794489169829679742",
+      "retrieved_at": "1794502462307144943",
       "service_id": "starlink",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,7 +66,7 @@
     }
   ],
   "evidence_digest": "a00ebfbaf0e2feef53a7eac5dca4b0dec6a2312c52eede4ed0c54f982522ef24",
-  "generator_digest": "a6d4520c5beeaa7ef9ba2bae9ec53c1bde09551af35f4223d62262822564c025",
+  "generator_digest": "2024d61f9fa6a103d74a639eb2458bd2e1362fc7a688c580272e4a9862335bf8",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
@@ -74,7 +74,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "d12da27277ba559917281debb03c84661be1a16eac256ec4b4fe898c1f4b7f6b",
   "previous_domain_count": 2,
-  "release_digest": "3fad91692764e5d269127bf754c188400f2cfc02f2d62adfa10104d8c85e2f37",
+  "release_digest": "1b7b1061a62cac796cdd27c4b43a516d08b681bea61021d5807638fe805be480",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "6362d34716aed444df97190b669f084a236ba7c4cb6d5aec053821bf7160a64c",
   "service_id": "starlink",
   "snapshot_content_sha256": "e316d083c513b8361754968748929b12d6b4f8def816ff8b706dd93377b5ddb9",
-  "snapshot_id": "snap-starlink-3fad91692764e5d269127bf7",
+  "snapshot_id": "snap-starlink-1b7b1061a62cac796cdd27c4",
   "source_bindings": [
     {
       "adapter": null,

@@ -27,7 +27,7 @@
     "status": "OK"
   },
   "content_digest": "2d609ff966aeb7eae95546ec0a53851bec2c7b5325b7d0033ca48b78af0ddf41",
-  "created_at": "2026-11-12T13:14:01.451061+00:00",
+  "created_at": "2026-11-12T16:55:22.710542+00:00",
   "domain_count": 2,
   "domain_diff": {
     "added": [],
@@ -56,7 +56,7 @@
       "evidence_id": "EV-rakuten-001-a449a9646e25",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.rakuten.com/",
-      "retrieved_at": "1794489171206498084",
+      "retrieved_at": "1794502463030175431",
       "service_id": "rakuten",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,7 +66,7 @@
     }
   ],
   "evidence_digest": "587e32bc66050ca49feb5182f0fd651ee43e0da1d0961e0f804cb1edb0a0fa8d",
-  "generator_digest": "a6d4520c5beeaa7ef9ba2bae9ec53c1bde09551af35f4223d62262822564c025",
+  "generator_digest": "2024d61f9fa6a103d74a639eb2458bd2e1362fc7a688c580272e4a9862335bf8",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
@@ -74,7 +74,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "e412559cbf2c7bbb6220ddaf0272a5a51b4a23fd288546484c39635d05dab77b",
   "previous_domain_count": 2,
-  "release_digest": "a3f8972208df3ab546677e99e4370513db0a466b1fbf51898e3b4e1e60f9efc2",
+  "release_digest": "80d4e36533053113f4ff1738ce022e985700c3e8bcb6dedbc73830a55d2acd48",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "41929e3be143a048c494b431a1c6070df056fd8fc88cec32cf41dfca74fdb0d8",
   "service_id": "rakuten",
   "snapshot_content_sha256": "2d609ff966aeb7eae95546ec0a53851bec2c7b5325b7d0033ca48b78af0ddf41",
-  "snapshot_id": "snap-rakuten-a3f8972208df3ab546677e99",
+  "snapshot_id": "snap-rakuten-80d4e36533053113f4ff1738",
   "source_bindings": [
     {
       "adapter": null,

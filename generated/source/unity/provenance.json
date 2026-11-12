@@ -27,7 +27,7 @@
     "status": "OK"
   },
   "content_digest": "1323d06198522430d1150d1973bf23ef701887bfe0610de0d08383d3cdb17fed",
-  "created_at": "2026-11-12T13:15:56.611293+00:00",
+  "created_at": "2026-11-12T16:57:38.156704+00:00",
   "domain_count": 2,
   "domain_diff": {
     "added": [],
@@ -56,7 +56,7 @@
       "evidence_id": "EV-unity-001-3a929310de87",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://unity.com/",
-      "retrieved_at": "1794489298222474896",
+      "retrieved_at": "1794502589524670231",
       "service_id": "unity",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,7 +66,7 @@
     }
   ],
   "evidence_digest": "9903432051469ed5a613c19f0079a0c8d671937807edcd7d12c86ba33bc0027f",
-  "generator_digest": "a6d4520c5beeaa7ef9ba2bae9ec53c1bde09551af35f4223d62262822564c025",
+  "generator_digest": "2024d61f9fa6a103d74a639eb2458bd2e1362fc7a688c580272e4a9862335bf8",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
@@ -74,7 +74,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "b08419ab2616a4351ba1d635115bb557b4513b766730fece861f9971e2f56444",
   "previous_domain_count": 2,
-  "release_digest": "2438d4d5acb286325592b24e8f6382cba9695539f543031936956d214a827ff2",
+  "release_digest": "87dadcb28680a8cde72c42c3474362bf3887abb6aadd312b6efd9382c86cf229",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "7dfc65089abec08f2a119eb9f9fafa735a82a24acdea00d0fff4af8af33085eb",
   "service_id": "unity",
   "snapshot_content_sha256": "1323d06198522430d1150d1973bf23ef701887bfe0610de0d08383d3cdb17fed",
-  "snapshot_id": "snap-unity-2438d4d5acb286325592b24e",
+  "snapshot_id": "snap-unity-87dadcb28680a8cde72c42c3",
   "source_bindings": [
     {
       "adapter": null,

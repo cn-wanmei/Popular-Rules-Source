@@ -27,7 +27,7 @@
     "status": "OK"
   },
   "content_digest": "95c2437008db90e1475ce3d4ac8bbb2276192dc589582dafe5a122bc00d9e7f6",
-  "created_at": "2026-11-12T13:13:38.966666+00:00",
+  "created_at": "2026-11-12T16:55:24.631288+00:00",
   "domain_count": 2,
   "domain_diff": {
     "added": [],
@@ -56,7 +56,7 @@
       "evidence_id": "EV-synopsys-001-68c9c95d02dd",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.synopsys.com/",
-      "retrieved_at": "1794489170408838451",
+      "retrieved_at": "1794502462908997220",
       "service_id": "synopsys",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,7 +66,7 @@
     }
   ],
   "evidence_digest": "1873aa9f9cf17f0e0c1b08e143025a63ed0ec21f5ace7bf9b2eed3f126048dfc",
-  "generator_digest": "a6d4520c5beeaa7ef9ba2bae9ec53c1bde09551af35f4223d62262822564c025",
+  "generator_digest": "2024d61f9fa6a103d74a639eb2458bd2e1362fc7a688c580272e4a9862335bf8",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
@@ -74,7 +74,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "efddcf8e90a30c2285a9fc0ed99348bb84bdab9b39474af2bdc6bda4d3949097",
   "previous_domain_count": 2,
-  "release_digest": "4754ccf334b460db660780f31d370e09ebc752e6ed0eb2c30a7cd28814cf677a",
+  "release_digest": "449efd3cd99f7d98f4a6897e2dc5ad9029a84f50511c9e06e667f89a56a767d9",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "b8a445ee7c07d500656eb56f6cb0cad488ed704ca189dfc8896fcc956dd95ee2",
   "service_id": "synopsys",
   "snapshot_content_sha256": "95c2437008db90e1475ce3d4ac8bbb2276192dc589582dafe5a122bc00d9e7f6",
-  "snapshot_id": "snap-synopsys-4754ccf334b460db660780f3",
+  "snapshot_id": "snap-synopsys-449efd3cd99f7d98f4a6897e",
   "source_bindings": [
     {
       "adapter": null,

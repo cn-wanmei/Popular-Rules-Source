@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:1273bd2cc55cc8f604243e159b6f0649d66e8566b33a7a0bb46072afa87c08c8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-unity-001-3a929310de87"
+      ],
+      "service_id": "unity",
+      "type": "domain",
+      "value": "unity.com"
+    },
+    {
+      "asset_id": "sha256:a08830dfa82972709f2040136d697ba6f366bd4d261eaeec114358e157eb2de8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-unity-001-3a929310de87"
+      ],
+      "service_id": "unity",
+      "type": "domain",
+      "value": "www.unity.com"
+    }
+  ],
+  "content_digest": "1323d06198522430d1150d1973bf23ef701887bfe0610de0d08383d3cdb17fed",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "3a929310de87f4e1e5638354f27cfb9364620f4f8b1c1506c9c7f21252e7cdd6",
+      "domains_extracted": 2,
+      "evidence_id": "EV-unity-001-3a929310de87",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://unity.com/",
+      "retrieved_at": "1794502589524670231",
+      "service_id": "unity",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://unity.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "9903432051469ed5a613c19f0079a0c8d671937807edcd7d12c86ba33bc0027f",
+  "generator_digest": "2024d61f9fa6a103d74a639eb2458bd2e1362fc7a688c580272e4a9862335bf8",
+  "policy_digest": "b08419ab2616a4351ba1d635115bb557b4513b766730fece861f9971e2f56444",
+  "release_digest": "87dadcb28680a8cde72c42c3474362bf3887abb6aadd312b6efd9382c86cf229",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "unity",
+  "snapshot_id": "snap-unity-87dadcb28680a8cde72c42c3",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

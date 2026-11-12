@@ -27,7 +27,7 @@
     "status": "OK"
   },
   "content_digest": "a42e0b3007daa882e14bd79399c9dab26fe34a6a7accb3d937806235650ba668",
-  "created_at": "2026-11-12T13:15:47.106680+00:00",
+  "created_at": "2026-11-12T16:57:26.114488+00:00",
   "domain_count": 2,
   "domain_diff": {
     "added": [],
@@ -56,7 +56,7 @@
       "evidence_id": "EV-transsion-001-3eca48588499",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.transsion.com/",
-      "retrieved_at": "1794489275616321959",
+      "retrieved_at": "1794502588142990385",
       "service_id": "transsion",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,7 +66,7 @@
     }
   ],
   "evidence_digest": "edb9a5295d00fa95bbdf1244cb0f6e8bcb0d84f848aa319980ce4594bf2d1ab1",
-  "generator_digest": "a6d4520c5beeaa7ef9ba2bae9ec53c1bde09551af35f4223d62262822564c025",
+  "generator_digest": "2024d61f9fa6a103d74a639eb2458bd2e1362fc7a688c580272e4a9862335bf8",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
@@ -74,7 +74,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "e5a2f9f46a8452e9f2484887cab20f4187d742753858c84c7fe77ea3e4152f42",
   "previous_domain_count": 2,
-  "release_digest": "c793bd2d9e5b3b95868df09b0a80b61cafb80cba06395a37ebee9bc9e7c8b3ac",
+  "release_digest": "312ad0590298f5cac4b6fe1298ae3844ecebf5130875526c63dd2088d0e5aceb",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "3091ad5ce52f327c1161d32af056e10deb30a00554e97cd6867d890ae88bd799",
   "service_id": "transsion",
   "snapshot_content_sha256": "a42e0b3007daa882e14bd79399c9dab26fe34a6a7accb3d937806235650ba668",
-  "snapshot_id": "snap-transsion-c793bd2d9e5b3b95868df09b",
+  "snapshot_id": "snap-transsion-312ad0590298f5cac4b6fe12",
   "source_bindings": [
     {
       "adapter": null,

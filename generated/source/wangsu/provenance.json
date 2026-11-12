@@ -27,7 +27,7 @@
     "status": "OK"
   },
   "content_digest": "76a9cfb4b33985af0d9f500d85e93dbf5ecb33a4ba187cef3bc75b35d535453c",
-  "created_at": "2026-11-12T13:17:08.832655+00:00",
+  "created_at": "2026-11-12T16:56:06.727699+00:00",
   "domain_count": 2,
   "domain_diff": {
     "added": [],
@@ -56,7 +56,7 @@
       "evidence_id": "EV-wangsu-001-f7f75daff0be",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.wangsu.com/",
-      "retrieved_at": "1794489358081097798",
+      "retrieved_at": "1794502530335377559",
       "service_id": "wangsu",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,7 +66,7 @@
     }
   ],
   "evidence_digest": "91d7eb103537c2101af84f31792bd5c5a2ea3a58b3e554da8de56973e36bdfc8",
-  "generator_digest": "a6d4520c5beeaa7ef9ba2bae9ec53c1bde09551af35f4223d62262822564c025",
+  "generator_digest": "2024d61f9fa6a103d74a639eb2458bd2e1362fc7a688c580272e4a9862335bf8",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
@@ -74,7 +74,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "98d28e5ef59899b4f91b1f901be7d58501b1df2259b9716997c5490ce1b816e7",
   "previous_domain_count": 2,
-  "release_digest": "6af7496cc2c8217c6fef17dccf8d7db9d42833c7b0bb4c09c0dce88572b9159b",
+  "release_digest": "4d79aa60150802b31b668ec0712e98f16a7d08833e0be51514cf8f31579681b9",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "8c46fdcee193dce2234065e24e493d612e637fbf16804d0f12224e89c51758b2",
   "service_id": "wangsu",
   "snapshot_content_sha256": "76a9cfb4b33985af0d9f500d85e93dbf5ecb33a4ba187cef3bc75b35d535453c",
-  "snapshot_id": "snap-wangsu-6af7496cc2c8217c6fef17dc",
+  "snapshot_id": "snap-wangsu-4d79aa60150802b31b668ec0",
   "source_bindings": [
     {
       "adapter": null,

@@ -1,0 +1,13 @@
+{
+  "content_digest": "98ae5ff2b447ff334d364c7d9cd31a5eac4e0a0c6b33484a2dfa2bd3d6cc32c8",
+  "domains": [
+    "roborock.com",
+    "www.roborock.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "roborock",
+  "source_hashes": [
+    "8b0531c45d34fcf29bd556341d868a37404fa732d6b26b7e27f65488966d5d87"
+  ]
+}
