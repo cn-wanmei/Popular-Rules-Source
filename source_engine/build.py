@@ -51,24 +51,41 @@ def _digest(value: object) -> str:
     return hashlib.sha256(raw.encode("utf-8")).hexdigest()
 
 
+# These files can change extracted domains or their generated provenance.
+# Keep this inventory explicit and covered by test_build.py.
+GENERATOR_CODE_INPUTS = (
+    "source_engine/build.py",
+    "source_engine/extract.py",
+    "source_engine/adapters.py",
+    "source_engine/fetch.py",
+    "source_engine/normalize.py",
+    "source_engine/policy.py",
+    "source_engine/tombstone.py",
+    "source_engine/overrides.py",
+    "source_engine/diff.py",
+    "source_engine/models.py",
+)
+# Adapter selection and parser/runtime contracts change how source inputs are read.
+GENERATOR_CONFIG_INPUTS = (
+    "config/source_adapters.yaml",
+)
+
+
 def _file_digest(path: str) -> str:
-    try:
-        return hashlib.sha256(Path(path).read_bytes()).hexdigest()
-    except OSError:
-        return ""
+    # A missing declared dependency must fail closed; an empty digest would make
+    # an incomplete generator closure look valid and immutable.
+    return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
 
 def _generator_digest() -> str:
+    code_inputs = {path: _file_digest(path) for path in GENERATOR_CODE_INPUTS}
+    config_inputs = {path: _file_digest(path) for path in GENERATOR_CONFIG_INPUTS}
     return _digest({
         "version": Path("VERSION").read_text(encoding="utf-8").strip(),
         "parser_version": PARSER_VERSION,
         "generator_version": GENERATOR_VERSION,
-        "build": _file_digest("source_engine/build.py"),
-        "extract": _file_digest("source_engine/extract.py"),
-        "adapters": _file_digest("source_engine/adapters.py"),
-        # Override implementation changes can alter the materialized domain set;
-        # include its code identity in every immutable source generator digest.
-        "overrides": _file_digest("source_engine/overrides.py"),
+        "code_inputs": code_inputs,
+        "config_inputs": config_inputs,
     })
 
 
