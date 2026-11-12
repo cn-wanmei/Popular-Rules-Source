@@ -1562,16 +1562,14 @@
       "verified": true
     },
     "messenger": {
-      "blockers": [
-        "no_official_extraction"
-      ],
+      "blockers": [],
       "declared_state": "review",
-      "domain_count": 4,
+      "domain_count": 5,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "b3b52c8322960d4f1927955001aecfbc732f41033da019cbe03d86df01d296c4",
-      "snapshot_id": "snap-messenger-b3b52c8322960d4f19279550",
-      "verified": false
+      "release_digest": "b35ee148b697ed694d1cc4136dccf6401365b8743a13673829af0bc150250b45",
+      "snapshot_id": "snap-messenger-b35ee148b697ed694d1cc413",
+      "verified": true
     },
     "mgtv": {
       "blockers": [],
