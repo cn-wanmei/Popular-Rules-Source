@@ -2211,19 +2211,138 @@ services:
       shared_infrastructure_allowed: false
   huawei-iam-api:
     display_name: Huawei Cloud IAM API
+    ecosystem: huawei
+    official_sources:
+    - https://support.huaweicloud.com/intl/en-us/api-iam/iam-api-pdf.pdf
+    allowed_host_suffixes: []
+    allowed_host_exact:
+    - iam.myhuaweicloud.com
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
   huawei-ecs-api:
     display_name: Huawei Cloud ECS API
+    ecosystem: huawei
+    official_sources:
+    - https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html
+    allowed_host_suffixes: []
+    allowed_host_exact:
+    - ecs.cn-south-1.myhuaweicloud.com
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
   huawei-evs-api:
     display_name: Huawei Cloud EVS API
+    ecosystem: huawei
+    official_sources:
+    - https://support.huaweicloud.com/tg-mgc/tg-mgc-pdf.pdf
+    allowed_host_suffixes: []
+    allowed_host_exact:
+    - evs.cn-south-1.myhuaweicloud.com
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
   huawei-vpc-api:
     display_name: Huawei Cloud VPC API
+    ecosystem: huawei
+    official_sources:
+    - https://support.huaweicloud.com/tg-mgc/tg-mgc-pdf.pdf
+    allowed_host_suffixes: []
+    allowed_host_exact:
+    - vpc.cn-south-1.myhuaweicloud.com
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
   huawei-ims-api:
     display_name: Huawei Cloud IMS API
+    ecosystem: huawei
+    official_sources:
+    - https://support.huaweicloud.com/tg-mgc/tg-mgc-pdf.pdf
+    allowed_host_suffixes: []
+    allowed_host_exact:
+    - ims.cn-south-1.myhuaweicloud.com
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
   huawei-dns-api:
     display_name: Huawei Cloud DNS API
+    ecosystem: huawei
+    official_sources:
+    - https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html
+    allowed_host_suffixes: []
+    allowed_host_exact:
+    - dns.cn-south-1.myhuaweicloud.com
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
   huawei-obs-api:
     display_name: Huawei Cloud OBS API
-
+    ecosystem: huawei
+    official_sources:
+    - https://support.huaweicloud.com/intl/en-us/usermanual-obs/obs_41_0003.html
+    allowed_host_suffixes: []
+    allowed_host_exact:
+    - obs.cn-north-4.myhuaweicloud.com
+    - obs.cn-south-1.myhuaweicloud.com
+    coverage:
+      domain: review
+      ip: unknown
+      cidr: none
+    source_policy:
+      official_required: true
+      allowed_authorities:
+      - official
+      min_confidence: high
+    boundary:
+      shared_infrastructure_allowed: false
   mi-cloud:
     display_name: Mi Cloud
     ecosystem: xiaomi
