@@ -198,7 +198,7 @@ def extract_with_adapter(
             text_body,
             exact,
             suffixes,
-            source_bound=False,
+            source_bound=boundary_mode == "source_bound",
         )
         official_source = None
         try:

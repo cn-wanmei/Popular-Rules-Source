@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import base64
 import json
 
 from source_engine import reconcile
@@ -55,3 +56,31 @@ def test_reconcile_reports_registered_but_disabled(tmp_path, monkeypatch):
     assert (tmp_path / "reports" / "reconciliation.json").is_file()
 
 # CI checkpoint after fixing the collection YAML fetcher mock target.
+
+
+def test_collection_yaml_fetch_uses_workflow_token(monkeypatch):
+    monkeypatch.setenv("GITHUB_TOKEN", "test-workflow-token")
+    payload = {
+        "encoding": "base64",
+        "content": base64.b64encode(b"services:\n  - id: example\n").decode("ascii"),
+    }
+    captured = {}
+
+    class Response:
+        def raise_for_status(self):
+            return None
+
+        def json(self):
+            return payload
+
+    def fake_get(url, params, timeout, headers):
+        captured.update({"url": url, "params": params, "timeout": timeout, "headers": headers})
+        return Response()
+
+    monkeypatch.setattr(reconcile.requests, "get", fake_get)
+    result = reconcile._get_collection_yaml("sources/registry.yaml", "main")
+
+    assert result == {"services": [{"id": "example"}]}
+    assert captured["headers"]["Authorization"] == "Bearer test-workflow-token"
+    assert captured["headers"]["Accept"] == "application/vnd.github+json"
+    assert captured["params"] == {"ref": "main"}
