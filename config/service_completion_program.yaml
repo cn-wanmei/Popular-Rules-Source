@@ -95,7 +95,22 @@ phases:
     paypal: [paypal-core, venmo, xoom]
 
 verified_priority_wave:
-  p1: [huawei-cloud, mi-cloud, jd-cloud, kugou, kuwo, quanmin-k-ge]
+  p1: [huawei-cloud, huawei-iam-api, huawei-ecs-api, huawei-evs-api, huawei-vpc-api, huawei-ims-api, huawei-dns-api, huawei-obs-api, mi-cloud, jd-cloud, kugou, kuwo, quanmin-k-ge]
   p2: [amazonmusic, audible, goodreads, messenger, adobe-firefly, adobe-stock, adobe-fonts, openai-api, openai-platform, chatgpt, anthropic-claude, anthropic-platform, xai-grok, stripe-dashboard, venmo]
   evidence_basis: official_entry_verified_2026-09-26
   production_state: candidate_only
+huawei_cloud_api_endpoint_scope:
+  basis: official_service_api_endpoint_documentation
+  parent: huawei-cloud
+  children: [huawei-iam-api, huawei-ecs-api, huawei-evs-api, huawei-vpc-api, huawei-ims-api, huawei-dns-api, huawei-obs-api]
+  included_regions:
+    iam: [global]
+    api_region: [cn-south-1]
+    obs_regions: [cn-north-4, cn-south-1]
+  exact_host_only: true
+  excluded:
+    - wildcard_myhuaweicloud_com
+    - dynamic_obs_bucket_hostnames
+    - dynamic_cce_cluster_id_subdomains
+    - shared_console_and_marketing_hosts
+  lifecycle: review
