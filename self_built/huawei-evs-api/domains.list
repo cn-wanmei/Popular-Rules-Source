@@ -1,0 +1,8 @@
+# Self-built candidate rule asset
+# service_id: huawei-evs-api
+# provider: huawei
+# evidence_mode: official_api_endpoint
+# lifecycle: REVIEW
+# Official endpoint evidence: https://support.huaweicloud.com/tg-mgc/tg-mgc-pdf.pdf
+# Exact endpoint hosts only; do not widen to *.myhuaweicloud.com.
+DOMAIN,evs.cn-south-1.myhuaweicloud.com
