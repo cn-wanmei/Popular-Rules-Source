@@ -1,0 +1,8 @@
+# Self-built candidate rule asset
+# service_id: huawei-ecs-api
+# provider: huawei
+# evidence_mode: official_api_endpoint
+# lifecycle: REVIEW
+# Official endpoint evidence: https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html
+# Exact endpoint hosts only; do not widen to *.myhuaweicloud.com.
+DOMAIN,ecs.cn-south-1.myhuaweicloud.com

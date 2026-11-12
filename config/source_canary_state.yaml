@@ -467,6 +467,41 @@ services:
     enabled: true
     reason: p1_p2_self_built_official_entry
     last_transition: '2026-09-26'
+  huawei-iam-api:
+    state: review
+    enabled: true
+    reason: p1_p2_huawei_cloud_api_endpoint_discovery
+    last_transition: '2026-11-13'
+  huawei-ecs-api:
+    state: review
+    enabled: true
+    reason: p1_p2_huawei_cloud_api_endpoint_discovery
+    last_transition: '2026-11-13'
+  huawei-evs-api:
+    state: review
+    enabled: true
+    reason: p1_p2_huawei_cloud_api_endpoint_discovery
+    last_transition: '2026-11-13'
+  huawei-vpc-api:
+    state: review
+    enabled: true
+    reason: p1_p2_huawei_cloud_api_endpoint_discovery
+    last_transition: '2026-11-13'
+  huawei-ims-api:
+    state: review
+    enabled: true
+    reason: p1_p2_huawei_cloud_api_endpoint_discovery
+    last_transition: '2026-11-13'
+  huawei-dns-api:
+    state: review
+    enabled: true
+    reason: p1_p2_huawei_cloud_api_endpoint_discovery
+    last_transition: '2026-11-13'
+  huawei-obs-api:
+    state: review
+    enabled: true
+    reason: p1_p2_huawei_cloud_api_endpoint_discovery
+    last_transition: '2026-11-13'
   mi-cloud:
     state: review
     enabled: true

@@ -1,0 +1,8 @@
+# Self-built candidate rule asset
+# service_id: huawei-iam-api
+# provider: huawei
+# evidence_mode: official_api_endpoint
+# lifecycle: REVIEW
+# Official endpoint evidence: https://support.huaweicloud.com/intl/en-us/api-iam/iam-api-pdf.pdf
+# Exact endpoint hosts only; do not widen to *.myhuaweicloud.com.
+DOMAIN,iam.myhuaweicloud.com

@@ -1,0 +1,9 @@
+# Self-built candidate rule asset
+# service_id: huawei-obs-api
+# provider: huawei
+# evidence_mode: official_api_endpoint
+# lifecycle: REVIEW
+# Official endpoint evidence: https://support.huaweicloud.com/intl/en-us/usermanual-obs/obs_41_0003.html
+# Exact regional endpoints only; exclude bucket-specific dynamic hostnames.
+DOMAIN,obs.cn-north-4.myhuaweicloud.com
+DOMAIN,obs.cn-south-1.myhuaweicloud.com
