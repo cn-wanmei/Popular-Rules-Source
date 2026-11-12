@@ -1,3 +1,7 @@
+import hashlib
+
+import pytest
+
 from source_engine.adapters import AdapterExtraction
 from source_engine import build as build_module
 
@@ -58,6 +62,7 @@ def test_build_accumulates_domains_from_successful_adapter(monkeypatch, tmp_path
     monkeypatch.setattr(build_module, "load_service_overrides", lambda service_id: [])
     monkeypatch.setattr(build_module, "apply_overrides", lambda domains, *args, **kwargs: domains)
 
+    monkeypatch.setattr(build_module, "_generator_digest", lambda: "f" * 64)
     result = build_module.build_service("taobao")
     assert result["domains"] == ["open.taobao.com"]
     assert result["domain_count"] == 1
@@ -131,24 +136,34 @@ def test_source_bound_preserves_upstream_domains_without_manual_allowlist(monkey
     monkeypatch.setattr(build_module, "load_service_overrides", lambda service_id: [])
     monkeypatch.setattr(build_module, "apply_overrides", lambda domains, *args, **kwargs: domains)
 
+    monkeypatch.setattr(build_module, "_generator_digest", lambda: "f" * 64)
     result = build_module.build_service("alibabacloud")
     assert result["domains"] == ["alibabacloud.com", "foo.alibabacloud.com"]
     assert result["domain_count"] == 2
     assert result["release_state"] == "CANDIDATE"
 
 
-def test_generator_digest_includes_override_implementation(monkeypatch, tmp_path):
+def test_generator_digest_changes_for_every_declared_input(monkeypatch, tmp_path):
     monkeypatch.chdir(tmp_path)
-    (tmp_path / "VERSION").write_text("0.5.0\\n", encoding="utf-8")
-    seen = []
+    (tmp_path / "VERSION").write_text("0.5.0\n", encoding="utf-8")
+    inputs = (*build_module.GENERATOR_CODE_INPUTS, *build_module.GENERATOR_CONFIG_INPUTS)
+    values = {path: "baseline" for path in inputs}
 
     def fake_file_digest(path):
-        seen.append(path)
-        return "a" * 64
+        return hashlib.sha256(values[path].encode("utf-8")).hexdigest()
 
     monkeypatch.setattr(build_module, "_file_digest", fake_file_digest)
+    baseline = build_module._generator_digest()
+    assert len(baseline) == 64
+    assert len(set(inputs)) == len(inputs)
 
-    digest = build_module._generator_digest()
+    for path in inputs:
+        values[path] = "changed"
+        assert build_module._generator_digest() != baseline, path
+        values[path] = "baseline"
 
-    assert len(digest) == 64
-    assert "source_engine/overrides.py" in seen
+
+def test_generator_digest_fails_closed_when_declared_dependency_is_missing(monkeypatch, tmp_path):
+    monkeypatch.chdir(tmp_path)
+    with pytest.raises(FileNotFoundError):
+        build_module._file_digest("missing/required-generator-input.py")
