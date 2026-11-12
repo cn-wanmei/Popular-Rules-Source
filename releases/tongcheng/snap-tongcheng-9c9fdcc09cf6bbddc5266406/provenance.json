@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:bf4ee3af723e379351481511d1f5f65ad4f71562b7fc821e5a0ec7ee7ece69d9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tongcheng-001-0b9a77777348"
+      ],
+      "service_id": "tongcheng",
+      "type": "domain",
+      "value": "ly.com"
+    },
+    {
+      "asset_id": "sha256:11c8f84fed5f851104772e9443e471bf23642139e601f9cbf2c1c577243a9039",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tongcheng-001-0b9a77777348"
+      ],
+      "service_id": "tongcheng",
+      "type": "domain",
+      "value": "www.ly.com"
+    }
+  ],
+  "content_digest": "281471d5bc0760c3c3481f02204cfe53dbe2aee259532671677e280d87413a44",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "0b9a7777734899d3795aaf327fc93a8dfb3ced61b25cf7373736096a6422dab5",
+      "domains_extracted": 2,
+      "evidence_id": "EV-tongcheng-001-0b9a77777348",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.ly.com/",
+      "retrieved_at": "1794505975913018200",
+      "service_id": "tongcheng",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.ly.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "dfb6f27feaa620bc10cfed5d01798322707ec6407e7c11d753ec7df5b708f673",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "policy_digest": "402c02ea032be16dcfef6316bef3e02ace4cb2e71c7c763d29ebd4903cab85bc",
+  "release_digest": "9c9fdcc09cf6bbddc52664060210dd011f527c0070c11fa1679c571705c47d42",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "tongcheng",
+  "snapshot_id": "snap-tongcheng-9c9fdcc09cf6bbddc5266406",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

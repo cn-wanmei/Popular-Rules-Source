@@ -27,7 +27,7 @@
     "status": "OK"
   },
   "content_digest": "98ae5ff2b447ff334d364c7d9cd31a5eac4e0a0c6b33484a2dfa2bd3d6cc32c8",
-  "created_at": "2026-11-12T16:55:11.488757+00:00",
+  "created_at": "2026-11-12T17:50:37.999035+00:00",
   "domain_count": 2,
   "domain_diff": {
     "added": [],
@@ -56,7 +56,7 @@
       "evidence_id": "EV-roborock-001-8b0531c45d34",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.roborock.com/",
-      "retrieved_at": "1794502462167466803",
+      "retrieved_at": "1794505791902281515",
       "service_id": "roborock",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,7 +66,7 @@
     }
   ],
   "evidence_digest": "64f5aeb5e2321b2a7f265a318ec25d19c28c0365fbcad1f6bf85d53ef8c72589",
-  "generator_digest": "2024d61f9fa6a103d74a639eb2458bd2e1362fc7a688c580272e4a9862335bf8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
@@ -74,7 +74,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "31ddf790ce987f4068566b255d27b150dc92e984ce400a2a8ad94dbc5d3c2f9f",
   "previous_domain_count": 2,
-  "release_digest": "5cbb2289896f7b5167790bbbc56f51ee2626b82b760d92ed14f2aba3f77116f0",
+  "release_digest": "6d1358419f7c74e0fb6d9085146b2507993749be0267620dcaa7ec1987aa27f8",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "30f3455207e58e5a8a34917e2832edecc00812da4a64e4b8606f6214b4d0195d",
   "service_id": "roborock",
   "snapshot_content_sha256": "98ae5ff2b447ff334d364c7d9cd31a5eac4e0a0c6b33484a2dfa2bd3d6cc32c8",
-  "snapshot_id": "snap-roborock-5cbb2289896f7b5167790bbb",
+  "snapshot_id": "snap-roborock-6d1358419f7c74e0fb6d9085",
   "source_bindings": [
     {
       "adapter": null,

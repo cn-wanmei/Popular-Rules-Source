@@ -27,7 +27,7 @@
     "status": "OK"
   },
   "content_digest": "bbbb36959aa7b038ff812ffabcc0821518fcc986b7abb3b1f1d3ed44b5643954",
-  "created_at": "2026-11-12T16:57:18.584639+00:00",
+  "created_at": "2026-11-12T17:53:03.096701+00:00",
   "domain_count": 2,
   "domain_diff": {
     "added": [],
@@ -56,7 +56,7 @@
       "evidence_id": "EV-wegame-001-472f0ad7d3ad",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.wegame.com.cn/",
-      "retrieved_at": "1794502589986435720",
+      "retrieved_at": "1794505931935171257",
       "service_id": "wegame",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,7 +66,7 @@
     }
   ],
   "evidence_digest": "3d8bbb75fe0e56a7a4e0fc139ddc47962d664e2162c8da3a8cb62bb3cb793609",
-  "generator_digest": "2024d61f9fa6a103d74a639eb2458bd2e1362fc7a688c580272e4a9862335bf8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
@@ -74,7 +74,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "c1fb19910741b6e195698ab9132e6072fe0b7a77dfdd867f0a0908ad4451475d",
   "previous_domain_count": 2,
-  "release_digest": "f01b931ab294fbe2f177fd03bc369e0b3a131b599025abdd56e96e281c4222df",
+  "release_digest": "d12dd27273be617d1d58efca3ed93dc3916391167b2cac68b5714f024db7e247",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "c25a5285023f90b4f98b7eccf5f51e4be7a61271ad183a7199dc05c47c246a51",
   "service_id": "wegame",
   "snapshot_content_sha256": "bbbb36959aa7b038ff812ffabcc0821518fcc986b7abb3b1f1d3ed44b5643954",
-  "snapshot_id": "snap-wegame-f01b931ab294fbe2f177fd03",
+  "snapshot_id": "snap-wegame-d12dd27273be617d1d58efca",
   "source_bindings": [
     {
       "adapter": null,

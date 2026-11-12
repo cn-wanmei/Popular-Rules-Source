@@ -1,0 +1,13 @@
+{
+  "content_digest": "bbbb36959aa7b038ff812ffabcc0821518fcc986b7abb3b1f1d3ed44b5643954",
+  "domains": [
+    "wegame.com.cn",
+    "www.wegame.com.cn"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "wegame",
+  "source_hashes": [
+    "472f0ad7d3ad30f20ed86d5d812e791ee4b88f2938dfa7b7194fa318af3117dd"
+  ]
+}

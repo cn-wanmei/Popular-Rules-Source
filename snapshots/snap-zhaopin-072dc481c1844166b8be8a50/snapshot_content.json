@@ -1,0 +1,13 @@
+{
+  "content_digest": "41c9a457cdea8305e3b75fb6017bd6f6896d88c788b2b56c9e76344258e8d8d5",
+  "domains": [
+    "www.zhaopin.com",
+    "zhaopin.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "zhaopin",
+  "source_hashes": [
+    "19dedc00e2894bb638565c04440260eb2bca3ba24320165e0f09de37d988ce67"
+  ]
+}

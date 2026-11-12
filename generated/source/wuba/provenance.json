@@ -27,7 +27,7 @@
     "status": "OK"
   },
   "content_digest": "c5637600ae861bf60373b7b29c151135807ed7f95afa770375a79dbc24f44366",
-  "created_at": "2026-11-12T16:54:56.521089+00:00",
+  "created_at": "2026-11-12T17:53:57.014760+00:00",
   "domain_count": 2,
   "domain_diff": {
     "added": [],
@@ -56,7 +56,7 @@
       "evidence_id": "EV-wuba-001-a2916f52e18a",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.58.com/",
-      "retrieved_at": "1794502462122358306",
+      "retrieved_at": "1794505973077230013",
       "service_id": "wuba",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,7 +66,7 @@
     }
   ],
   "evidence_digest": "bd5fdff66ab130e9b9737419cfbd72c85f06b6cf7eb17b54aa774a55b3ae625e",
-  "generator_digest": "2024d61f9fa6a103d74a639eb2458bd2e1362fc7a688c580272e4a9862335bf8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
@@ -74,7 +74,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "59a514d0fa7d351c1bd59b0eba69594bda3044709782771e729211443509f661",
   "previous_domain_count": 2,
-  "release_digest": "38ced6dc69b7348195155267b8a81b54f327993fcbf888618d651e0df0267934",
+  "release_digest": "956e685cf5b376ba9981c27841cb7e7f1a1b4a7431e2a403cd81d87f4be8f292",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "c4b87a7fe5e40179c86d4e1a78c227595b23a9eb8b4a0dd50b7fad96caee1994",
   "service_id": "wuba",
   "snapshot_content_sha256": "c5637600ae861bf60373b7b29c151135807ed7f95afa770375a79dbc24f44366",
-  "snapshot_id": "snap-wuba-38ced6dc69b7348195155267",
+  "snapshot_id": "snap-wuba-956e685cf5b376ba9981c278",
   "source_bindings": [
     {
       "adapter": null,

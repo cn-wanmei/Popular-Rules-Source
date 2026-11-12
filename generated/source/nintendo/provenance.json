@@ -27,7 +27,7 @@
     "status": "OK"
   },
   "content_digest": "ef91968695f17d1ed4f948c3fa060d510c5339358d17179464babd6a562d99a8",
-  "created_at": "2026-11-12T16:55:34.587700+00:00",
+  "created_at": "2026-11-12T17:50:38.717912+00:00",
   "domain_count": 2,
   "domain_diff": {
     "added": [],
@@ -56,7 +56,7 @@
       "evidence_id": "EV-nintendo-001-eb08cad5c352",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.nintendo.com/",
-      "retrieved_at": "1794502463584412891",
+      "retrieved_at": "1794505788036801331",
       "service_id": "nintendo",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,7 +66,7 @@
     }
   ],
   "evidence_digest": "107a57cb0cf3fe87b08eb3d0ac6894f0a83289f38fe5c4dfa09b4f81d110f01b",
-  "generator_digest": "2024d61f9fa6a103d74a639eb2458bd2e1362fc7a688c580272e4a9862335bf8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
@@ -74,7 +74,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "dca39173681960ddf1521352ee3a32b56ab14647b81c6e495363d602213ca706",
   "previous_domain_count": 2,
-  "release_digest": "859467d9d11cf49cfd584bc2aa55cf893b4dd6d63ff777e7808fef08724dcac8",
+  "release_digest": "31e7f6b8778a1b2147ee34228ee102477c5ead97c6d7cf4511182ea1097a793d",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "b8ad274776aae9b938d18dd6bd5a04a70096852a96276cd4093571d6497e9ce9",
   "service_id": "nintendo",
   "snapshot_content_sha256": "ef91968695f17d1ed4f948c3fa060d510c5339358d17179464babd6a562d99a8",
-  "snapshot_id": "snap-nintendo-859467d9d11cf49cfd584bc2",
+  "snapshot_id": "snap-nintendo-31e7f6b8778a1b2147ee3422",
   "source_bindings": [
     {
       "adapter": null,

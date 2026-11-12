@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:b4250db3ca42c6987cea09c62b13100dea90fdac106e58096bbbd5a7aefca8ee",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-xgimi-001-723217473e2b"
+      ],
+      "service_id": "xgimi",
+      "type": "domain",
+      "value": "www.xgimi.com"
+    },
+    {
+      "asset_id": "sha256:f547a65f26ee1f77e2675d5c5c2c09a7a681fc4be88b43b87a2dd20d7d9fe09e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-xgimi-001-723217473e2b"
+      ],
+      "service_id": "xgimi",
+      "type": "domain",
+      "value": "xgimi.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 1.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "da4bada264f7e526bc1c31a83c9544a9869c5afe4e8e78c5af50295786e9358c",
+  "created_at": "2026-11-12T17:51:59.855610+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
+      "www.xgimi.com",
+      "xgimi.com"
+    ],
+    "unchanged_count": 2
+  },
+  "domains": [
+    "www.xgimi.com",
+    "xgimi.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "723217473e2bbff04b8eca3c6e287bfccd63754a25641dce7e91e70be0aaa225",
+      "domains_extracted": 2,
+      "evidence_id": "EV-xgimi-001-723217473e2b",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.xgimi.com/",
+      "retrieved_at": "1794505882698880401",
+      "service_id": "xgimi",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.xgimi.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "1fe9ee997487aa24a0d7d90d0cef1533d3c7c5609dd8a7c82ba1d99ad1c03629",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "e269f4e35d95f0cd0cdef815fa1c24514f9e93f67c73176b1d0bb7eef126615b",
+  "previous_domain_count": 2,
+  "release_digest": "dc114e410d2e52c17b6c093a607b32dc7e04cd40921633560b4b6c0f3e8d7810",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "c630558af430b561f94af69e5bedab2520b540f0de951cda898bb5de887069e3",
+  "service_id": "xgimi",
+  "snapshot_content_sha256": "da4bada264f7e526bc1c31a83c9544a9869c5afe4e8e78c5af50295786e9358c",
+  "snapshot_id": "snap-xgimi-dc114e410d2e52c17b6c093a",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.xgimi.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:f5785464b0419f617f30254a9292a53866a151cbda52aa8f5000d4d2172ace18",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-paloalto-001-09d37769d352"
+      ],
+      "service_id": "paloalto",
+      "type": "domain",
+      "value": "paloaltonetworks.com"
+    },
+    {
+      "asset_id": "sha256:f7beb3565bc38b893b83a94f08571c1466d3056fee275a640e17911a7b612cca",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-paloalto-001-09d37769d352"
+      ],
+      "service_id": "paloalto",
+      "type": "domain",
+      "value": "www.paloaltonetworks.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 1.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "b21a54fd091a094b1651bd900d11a3061ff8efd71995208c035e563e23128d1b",
+  "created_at": "2026-11-12T17:50:27.562497+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
+      "paloaltonetworks.com",
+      "www.paloaltonetworks.com"
+    ],
+    "unchanged_count": 2
+  },
+  "domains": [
+    "paloaltonetworks.com",
+    "www.paloaltonetworks.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "09d37769d3522840e6ddc764191144585a50d260f4eaf41c9e85f42262d3da60",
+      "domains_extracted": 2,
+      "evidence_id": "EV-paloalto-001-09d37769d352",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.paloaltonetworks.com/",
+      "retrieved_at": "1794505787237762648",
+      "service_id": "paloalto",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.paloaltonetworks.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "ab624c57625da1c6186f56aa52683027a80dbf91a3c1ae1b95764041b7d3db2b",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "b4b1a848996f2fe06c4fc41eea1db2caa73d885c231e1813269fc61f2a0ce019",
+  "previous_domain_count": 2,
+  "release_digest": "e5222695dd927fdfdcdf62198cf55d226fb93efc2011294ec5dc7da198d863c5",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "7635520e22ad7532a8b256ecc4388c2f1c1fa889aa4dfa450e9c389a5b6bc93b",
+  "service_id": "paloalto",
+  "snapshot_content_sha256": "b21a54fd091a094b1651bd900d11a3061ff8efd71995208c035e563e23128d1b",
+  "snapshot_id": "snap-paloalto-e5222695dd927fdfdcdf6219",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.paloaltonetworks.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

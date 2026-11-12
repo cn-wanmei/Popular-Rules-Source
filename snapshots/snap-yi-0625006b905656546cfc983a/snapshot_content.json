@@ -1,0 +1,13 @@
+{
+  "content_digest": "589dc9dada7bdf90f89a973ce3be50cf5a0693fc074959b08d7081549e0797e4",
+  "domains": [
+    "lingyiwanwu.com",
+    "www.lingyiwanwu.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "yi",
+  "source_hashes": [
+    "33529487eaa10f282198cf43d09b58cd07ac58bf2baeda19bd0df71d11fe6dba"
+  ]
+}

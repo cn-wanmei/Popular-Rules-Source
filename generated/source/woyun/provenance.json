@@ -27,7 +27,7 @@
     "status": "OK"
   },
   "content_digest": "41c4263e2696b7bb563993795606f7c4b07b923d21c6a30feb7e11f43858f642",
-  "created_at": "2026-11-12T16:56:39.336382+00:00",
+  "created_at": "2026-11-12T17:50:39.776979+00:00",
   "domain_count": 2,
   "domain_diff": {
     "added": [],
@@ -56,7 +56,7 @@
       "evidence_id": "EV-woyun-001-49c4bcf2bd76",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.cucloud.cn/",
-      "retrieved_at": "1794502548933444107",
+      "retrieved_at": "1794505788117024468",
       "service_id": "woyun",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,7 +66,7 @@
     }
   ],
   "evidence_digest": "a6ca916e950f86b578078124abc5c2b24d9df2b3ada956551b5d04db315accd6",
-  "generator_digest": "2024d61f9fa6a103d74a639eb2458bd2e1362fc7a688c580272e4a9862335bf8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
@@ -74,7 +74,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "7dceb19c5242b6e149dcb936f6f452e9e7e4051d0b55ce123817411859e9d692",
   "previous_domain_count": 2,
-  "release_digest": "0d83d659c8a37a96dcb308f7cda364a6e139316590d4fd6ec6597c094aec2761",
+  "release_digest": "dc83a57590d272f66dbafb9407b25a958ad67254b88c2dafef1ca9cad9e2359c",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "7d5ba9497bb87d1173634f215b1a23134f79fc3fd880251e3d3b035505128db3",
   "service_id": "woyun",
   "snapshot_content_sha256": "41c4263e2696b7bb563993795606f7c4b07b923d21c6a30feb7e11f43858f642",
-  "snapshot_id": "snap-woyun-0d83d659c8a37a96dcb308f7",
+  "snapshot_id": "snap-woyun-dc83a57590d272f66dbafb94",
   "source_bindings": [
     {
       "adapter": null,
