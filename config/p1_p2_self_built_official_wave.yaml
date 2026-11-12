@@ -8,6 +8,13 @@ production_policy:
   immutable_release_required: true
 services:
   huawei-cloud: {provider: huawei, official_source: "https://console-intl.huaweicloud.com/console/?locale=en-us", exact: [console-intl.huaweicloud.com], phase: P1}
+  huawei-iam-api: {provider: huawei, official_source: "https://support.huaweicloud.com/intl/en-us/api-iam/iam-api-pdf.pdf", exact: [iam.myhuaweicloud.com], phase: P1}
+  huawei-ecs-api: {provider: huawei, official_source: "https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html", exact: [ecs.cn-south-1.myhuaweicloud.com], phase: P1}
+  huawei-evs-api: {provider: huawei, official_source: "https://support.huaweicloud.com/tg-mgc/tg-mgc-pdf.pdf", exact: [evs.cn-south-1.myhuaweicloud.com], phase: P1}
+  huawei-vpc-api: {provider: huawei, official_source: "https://support.huaweicloud.com/tg-mgc/tg-mgc-pdf.pdf", exact: [vpc.cn-south-1.myhuaweicloud.com], phase: P1}
+  huawei-ims-api: {provider: huawei, official_source: "https://support.huaweicloud.com/tg-mgc/tg-mgc-pdf.pdf", exact: [ims.cn-south-1.myhuaweicloud.com], phase: P1}
+  huawei-dns-api: {provider: huawei, official_source: "https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html", exact: [dns.cn-south-1.myhuaweicloud.com], phase: P1}
+  huawei-obs-api: {provider: huawei, official_source: "https://support.huaweicloud.com/intl/en-us/usermanual-obs/obs_41_0003.html", exact: [obs.cn-north-4.myhuaweicloud.com, obs.cn-south-1.myhuaweicloud.com], phase: P1}
   mi-cloud: {provider: xiaomi, official_source: "https://www.mi.com/sg/support/article/KA-07435/", exact: [i.mi.com], phase: P1}
   jd-cloud: {provider: jingdong, official_source: "https://www.jdcloud.com/", exact: [www.jdcloud.com], phase: P1}
   kugou: {provider: tencent_music, official_source: "https://www.kugou.com/", exact: [www.kugou.com], phase: P1}
