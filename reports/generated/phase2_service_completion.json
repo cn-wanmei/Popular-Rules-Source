@@ -557,8 +557,8 @@
       "domain_count": 18,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "b21c78507371eef7cc7e603f12e9168b6b02e8a00365f8fcfb8cb5f5218f9b8c",
-      "snapshot_id": "snap-cloudflare-b21c78507371eef7cc7e603f",
+      "release_digest": "16b8b215262c8bd52b7da332c957a9c78f7773b335ff7e5734c826d2c924b0bf",
+      "snapshot_id": "snap-cloudflare-16b8b215262c8bd52b7da332",
       "verified": true
     },
     "coinbase": {
