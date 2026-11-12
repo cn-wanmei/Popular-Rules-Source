@@ -1,6 +1,6 @@
 # Source 阻塞看板（自动生成）
 
-> generated_at: `2026-11-12T17:29:04Z`
+> generated_at: `2026-11-12T17:50:08Z`
 
 权威：`config/source_canary_state.yaml` + `reports/generated/lifecycle.json`。
 
@@ -14,7 +14,13 @@
 
 | Service | Lifecycle | Release | Domains |
 |---|---|---|---:|
-| — | — | — | — |
+| huawei-dns-api | REVIEW | NO_SNAPSHOT | 0 |
+| huawei-ecs-api | REVIEW | NO_SNAPSHOT | 0 |
+| huawei-evs-api | REVIEW | NO_SNAPSHOT | 0 |
+| huawei-iam-api | REVIEW | NO_SNAPSHOT | 0 |
+| huawei-ims-api | REVIEW | NO_SNAPSHOT | 0 |
+| huawei-obs-api | REVIEW | NO_SNAPSHOT | 0 |
+| huawei-vpc-api | REVIEW | NO_SNAPSHOT | 0 |
 
 ## 处理原则
 

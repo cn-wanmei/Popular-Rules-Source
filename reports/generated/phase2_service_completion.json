@@ -1251,6 +1251,90 @@
       "snapshot_id": "snap-huawei-cloud-baad7d83f4093ace2f04705c",
       "verified": true
     },
+    "huawei-dns-api": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
+    "huawei-ecs-api": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
+    "huawei-evs-api": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
+    "huawei-iam-api": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
+    "huawei-ims-api": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
+    "huawei-obs-api": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
+    "huawei-vpc-api": {
+      "blockers": [
+        "no_snapshot"
+      ],
+      "declared_state": "review",
+      "domain_count": 0,
+      "enabled": true,
+      "production_activated": false,
+      "release_digest": null,
+      "snapshot_id": null,
+      "verified": false
+    },
     "hubspot": {
       "blockers": [],
       "declared_state": "review",

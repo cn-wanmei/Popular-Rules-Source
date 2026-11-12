@@ -244,8 +244,8 @@ Popular-Rules-Icon
 <!-- SOURCE_STATUS:START -->
 ### Source lifecycle (summary)
 
-- **Services tracked:** 282
-- **By state:** CANARY=8, PRODUCTION=8, REVIEW=246, VERIFIED=20
+- **Services tracked:** 289
+- **By state:** CANARY=8, PRODUCTION=8, REVIEW=253, VERIFIED=20
 - **Release BLOCKED:** 0
 
 > Per-service rows: [`reports/generated/lifecycle.json`](reports/generated/lifecycle.json)  
