@@ -1547,8 +1547,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "230935c86ef1c9b01c0718d78075254b2655c1a308212310dfc766b3e6a0d529",
-      "snapshot_id": "snap-mediatek-230935c86ef1c9b01c0718d7",
+      "release_digest": "56a8e18c90e0ff029615b6e9946d75184b4c59c42cd0a4892c9e882d29e803ac",
+      "snapshot_id": "snap-mediatek-56a8e18c90e0ff029615b6e9",
       "verified": true
     },
     "mercadolibre": {
@@ -1557,8 +1557,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "052ecd4f003e8fc71235d3e13f1233008201cf07a5772e6aabff930e3e392a94",
-      "snapshot_id": "snap-mercadolibre-052ecd4f003e8fc71235d3e1",
+      "release_digest": "13c13a990b177cff3a87e97878efb7f5773bce3cb575f1e0a86743a222c7e0d4",
+      "snapshot_id": "snap-mercadolibre-13c13a990b177cff3a87e978",
       "verified": true
     },
     "messenger": {
@@ -1597,8 +1597,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "62f24b77416d12eaff98d1e32ba42b6104bfe3cf5b0c9e61e20868ae8bc986af",
-      "snapshot_id": "snap-micron-62f24b77416d12eaff98d1e3",
+      "release_digest": "0ed213b47a21272d11e3383e3e8c25991f7bcfe2ff76348e1a998190b6f1f2a8",
+      "snapshot_id": "snap-micron-0ed213b47a21272d11e3383e",
       "verified": true
     },
     "migu": {
@@ -1617,8 +1617,8 @@
       "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "e094509d906ebaf24a45d751003d8a995b6a7e0ac8c520d4a3f0c00a82aaebe9",
-      "snapshot_id": "snap-mihome-e094509d906ebaf24a45d751",
+      "release_digest": "c3a7e88feb20b62094080474d6cf46b24c042a7f1a0ffa300fc3e2d385ce4a9d",
+      "snapshot_id": "snap-mihome-c3a7e88feb20b62094080474",
       "verified": true
     },
     "minimax": {
@@ -1727,8 +1727,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "e090031ac2aee1b415925e517478ebc812688017b4818d36c9c3ec1b1d72b774",
-      "snapshot_id": "snap-nec-e090031ac2aee1b415925e51",
+      "release_digest": "3081b05f091579c04ca611e9c85bbf4ee54c22ce6a6353f234c25db81e6650b7",
+      "snapshot_id": "snap-nec-3081b05f091579c04ca611e9",
       "verified": true
     },
     "netapp": {
@@ -1737,8 +1737,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "345d3aff28015cf04480fc26ae7126a4b6f2b14812ed56f5e59898d0416d9d4e",
-      "snapshot_id": "snap-netapp-345d3aff28015cf04480fc26",
+      "release_digest": "762013dae7fdb4eaabacb727092fc54b1a140d295f05f4d6e6ebe8228fc1f425",
+      "snapshot_id": "snap-netapp-762013dae7fdb4eaabacb727",
       "verified": true
     },
     "neteasemail": {
@@ -1767,8 +1767,8 @@
       "domain_count": 31,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "873e9c1253bb6a6cf515e45e744f8dab2324e4dc056cd7f547a9c81807d6c1cb",
-      "snapshot_id": "snap-netflix-873e9c1253bb6a6cf515e45e",
+      "release_digest": "d0a1209fabecd58c657ed70d5eb2e59a74b6237a596f7ef8856673e9427616e4",
+      "snapshot_id": "snap-netflix-d0a1209fabecd58c657ed70d",
       "verified": true
     },
     "nintendo": {
@@ -1777,8 +1777,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "8823d4f3ff1acfcf2e09aade4dee67ee08a3e8b56c59684032e3ace20b880618",
-      "snapshot_id": "snap-nintendo-8823d4f3ff1acfcf2e09aade",
+      "release_digest": "3e5b21316dbea177bee208039fe384aa023b9057ff908f3217483f68e10fb67b",
+      "snapshot_id": "snap-nintendo-3e5b21316dbea177bee20803",
       "verified": true
     },
     "nokia": {
@@ -1787,8 +1787,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "6673da16203767b1ee6f4f34c050b725210638282b1d9b997f41aa04b6157005",
-      "snapshot_id": "snap-nokia-6673da16203767b1ee6f4f34",
+      "release_digest": "18a048fa9ec2d9e0d3eb1f256db638fba8fc7ef7c7dd55de6901281f81292b53",
+      "snapshot_id": "snap-nokia-18a048fa9ec2d9e0d3eb1f25",
       "verified": true
     },
     "nvidia": {
@@ -1887,8 +1887,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "5d67988313ae964e60c50e9d522eb408d787c5a3d1733e1b0f3c7f918089d6bc",
-      "snapshot_id": "snap-paloalto-5d67988313ae964e60c50e9d",
+      "release_digest": "e8fbc63bfb4f2183eedfa96bf0833aac37c39134993121dee437c168eab936af",
+      "snapshot_id": "snap-paloalto-e8fbc63bfb4f2183eedfa96b",
       "verified": true
     },
     "panasonic": {
@@ -1897,8 +1897,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "5f71926d54d34e01c998f1436f5ca8885e343906ee271cc06a27ea52fc163613",
-      "snapshot_id": "snap-panasonic-5f71926d54d34e01c998f143",
+      "release_digest": "fb03e87edac4755436ba0e32fb4fa3899f5780061e89fe1e0ba151bd8020b206",
+      "snapshot_id": "snap-panasonic-fb03e87edac4755436ba0e32",
       "verified": true
     },
     "perfectworld": {
@@ -1907,8 +1907,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "1fc57950fd658a6ea0e003beffd110c119de69da95ac56047d320087328050f5",
-      "snapshot_id": "snap-perfectworld-1fc57950fd658a6ea0e003be",
+      "release_digest": "f16475c24212da3bb1d5fded9ca16e4f8473351a714c8bf18a124cdbaaa22a7e",
+      "snapshot_id": "snap-perfectworld-f16475c24212da3bb1d5fded",
       "verified": true
     },
     "perplexity": {
@@ -1927,8 +1927,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "9b27c228227f21fdae1d4160ba990ddefc9bdef2ecbe772c8ecf8581c3b30b16",
-      "snapshot_id": "snap-pingan-9b27c228227f21fdae1d4160",
+      "release_digest": "ea8c83d3e0f52ab0d7fde1d1d2986fe6ebebcedc2e45da333fcbcbaef1ada28c",
+      "snapshot_id": "snap-pingan-ea8c83d3e0f52ab0d7fde1d1",
       "verified": true
     },
     "powerbi": {
@@ -1979,8 +1979,8 @@
       "domain_count": 1,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "413b903dd60136b48338bd93c88bb974df350bebcf43c2b839015fe406b60805",
-      "snapshot_id": "snap-qqdoc-413b903dd60136b48338bd93",
+      "release_digest": "8ae52157ffb98445f6b46158049c8839cc650eabbfe0a01dc687a50a76c9c494",
+      "snapshot_id": "snap-qqdoc-8ae52157ffb98445f6b46158",
       "verified": true
     },
     "qqmail": {
@@ -2039,8 +2039,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "3adb8111f8dc5185b93380b09f6a60f4a63c26ecc13e74ad4f3233003449456e",
-      "snapshot_id": "snap-rakuten-3adb8111f8dc5185b93380b0",
+      "release_digest": "a3f8972208df3ab546677e99e4370513db0a466b1fbf51898e3b4e1e60f9efc2",
+      "snapshot_id": "snap-rakuten-a3f8972208df3ab546677e99",
       "verified": true
     },
     "roblox": {
@@ -2059,8 +2059,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "9e9edbaf05b5da2c2e4b34354a93527295f4bd762e6091fb6f6f833bc8c3c9cd",
-      "snapshot_id": "snap-roborock-9e9edbaf05b5da2c2e4b3435",
+      "release_digest": "c7c1635f80b4a017fc4a76da2201f954e26b28fb7bf3e7dd2917cb49e5bba593",
+      "snapshot_id": "snap-roborock-c7c1635f80b4a017fc4a76da",
       "verified": true
     },
     "salesforce": {
@@ -2109,8 +2109,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "7d6347d71386e08e480eb21ba8320091a03bbd565bce0aac2a08329a323f9e70",
-      "snapshot_id": "snap-schneider-7d6347d71386e08e480eb21b",
+      "release_digest": "9fd7889afe007d799378e4441f6affee62a1a45eaa282ccf9a996e90e1fe81ec",
+      "snapshot_id": "snap-schneider-9fd7889afe007d799378e444",
       "verified": true
     },
     "sensetime": {
@@ -2119,8 +2119,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "dfbfe18c615f53d9fa38faf1a5d23c2f91dd96ad861fe77eae80704b9b837b6a",
-      "snapshot_id": "snap-sensetime-dfbfe18c615f53d9fa38faf1",
+      "release_digest": "ee1b9b67fe28dfeb4447f8d4d0591169a71a01b049b9a7abff7c3ac79af5b35e",
+      "snapshot_id": "snap-sensetime-ee1b9b67fe28dfeb4447f8d4",
       "verified": true
     },
     "servicenow": {
@@ -2129,8 +2129,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "389eefbc481efb1098db1c910db6f024c0de5c7d9226c1452da74f3f22b7c4d1",
-      "snapshot_id": "snap-servicenow-389eefbc481efb1098db1c91",
+      "release_digest": "11e6dabd2c8c233c3f6f3d93457b8f4137505e4ee2a7a791c6f07c7e6f6018ea",
+      "snapshot_id": "snap-servicenow-11e6dabd2c8c233c3f6f3d93",
       "verified": true
     },
     "sfexpress": {
@@ -2179,8 +2179,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "31fb1fd149183de697b324fa18baf6843c98efc3bc05edcf2ba5b1fd8758bad8",
-      "snapshot_id": "snap-shopee-31fb1fd149183de697b324fa",
+      "release_digest": "cc5183b9dbce37ce210837e1059f3c024f53a8e1b3a9aae0ee33fae09980d57f",
+      "snapshot_id": "snap-shopee-cc5183b9dbce37ce210837e1",
       "verified": true
     },
     "siemens": {
@@ -2189,8 +2189,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "a08846538c4fc6c35bcb3d7aff4ce49f29a074b49c5646c4b47faa39b1ab3879",
-      "snapshot_id": "snap-siemens-a08846538c4fc6c35bcb3d7a",
+      "release_digest": "042ce50bd99fe83af579f6771f3a473fe5fd2e29f564503b6924971dfbcc74ff",
+      "snapshot_id": "snap-siemens-042ce50bd99fe83af579f677",
       "verified": true
     },
     "signal": {
@@ -2219,8 +2219,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "05743b8b8d8841becfcaf2081bc5282240492b767dc586d96271ba7b6b42f9db",
-      "snapshot_id": "snap-skhynix-05743b8b8d8841becfcaf208",
+      "release_digest": "cfaf5850bad09f58193b958bcea0fd6cf949aafc6264266166701a56fcc9d69b",
+      "snapshot_id": "snap-skhynix-cfaf5850bad09f58193b958b",
       "verified": true
     },
     "snowflake": {
@@ -2259,8 +2259,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "53a88a147ea1957d27461ab150873375133f2048c0f194c749126184affe813d",
-      "snapshot_id": "snap-starlink-53a88a147ea1957d27461ab1",
+      "release_digest": "3fad91692764e5d269127bf754c188400f2cfc02f2d62adfa10104d8c85e2f37",
+      "snapshot_id": "snap-starlink-3fad91692764e5d269127bf7",
       "verified": true
     },
     "stripe-dashboard": {
@@ -2289,8 +2289,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "8697ba3c592612db1b778eff0a92a6fb5e3c2f250cf0ff89ea9db0dae8474656",
-      "snapshot_id": "snap-synopsys-8697ba3c592612db1b778eff",
+      "release_digest": "4754ccf334b460db660780f31d370e09ebc752e6ed0eb2c30a7cd28814cf677a",
+      "snapshot_id": "snap-synopsys-4754ccf334b460db660780f3",
       "verified": true
     },
     "t3go": {
@@ -2299,8 +2299,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "98b63baba994a150b8e3cff839f7944b1705cae293c06bf8c40a93d3fd8e4a67",
-      "snapshot_id": "snap-t3go-98b63baba994a150b8e3cff8",
+      "release_digest": "b0de3b84b5697893f97a9cc860bea294c050cc4b7a64c75ad9333fb581a2d67b",
+      "snapshot_id": "snap-t3go-b0de3b84b5697893f97a9cc8",
       "verified": true
     },
     "take2": {
@@ -2309,8 +2309,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "ce57de7fc9fe375b4b451105d37d917a703fba030a1ff015076a2708f10d0eb7",
-      "snapshot_id": "snap-take2-ce57de7fc9fe375b4b451105",
+      "release_digest": "dee8db0b77e48fbc7d1b0482e8a0b795157dab080330d74f9eb64152c84fddde",
+      "snapshot_id": "snap-take2-dee8db0b77e48fbc7d1b0482",
       "verified": true
     },
     "taobao": {
@@ -2422,8 +2422,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "d09a38bad83c1b171a16d6d6eda802229bfe16ae41fb4de9bbb5949ff25fc6c5",
-      "snapshot_id": "snap-ti-d09a38bad83c1b171a16d6d6",
+      "release_digest": "e83caaaae06eb4782fe91273ee483f2d483335fc93d770a157cd0582bba0c28e",
+      "snapshot_id": "snap-ti-e83caaaae06eb4782fe91273",
       "verified": true
     },
     "tiktok": {
@@ -2452,8 +2452,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "83f9cd212884fa28bd03480c33a7a3b7a2e4bdfab960aca037135482a275e9df",
-      "snapshot_id": "snap-tongcheng-83f9cd212884fa28bd03480c",
+      "release_digest": "ebf37865c97bc9240ace50f8bf6c761f1264622c7ca3ad4c4935dc0ed478eb44",
+      "snapshot_id": "snap-tongcheng-ebf37865c97bc9240ace50f8",
       "verified": true
     },
     "tonghuashun": {
@@ -2462,8 +2462,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "e9f3193c462fe60c60944a891176de2eaa53c20b0fdcf9a41db23b6c1edac196",
-      "snapshot_id": "snap-tonghuashun-e9f3193c462fe60c60944a89",
+      "release_digest": "80b476088c7dc15973db023e2105548a21c2fc5dc2210c38655468028dfbc5f8",
+      "snapshot_id": "snap-tonghuashun-80b476088c7dc15973db023e",
       "verified": true
     },
     "toutiao": {
@@ -2482,8 +2482,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "0f46e31365959d722e297a053f2b07f4f196906c3e9b55dd4201ad623cce1498",
-      "snapshot_id": "snap-transsion-0f46e31365959d722e297a05",
+      "release_digest": "c793bd2d9e5b3b95868df09b0a80b61cafb80cba06395a37ebee9bc9e7c8b3ac",
+      "snapshot_id": "snap-transsion-c793bd2d9e5b3b95868df09b",
       "verified": true
     },
     "tsmc": {
@@ -2502,8 +2502,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "4ff880c6a8671cf780920b80fc54ef90f77bcb7f1fa971cda14a02bc93b984ca",
-      "snapshot_id": "snap-tuya-4ff880c6a8671cf780920b80",
+      "release_digest": "e62e57ac97f04bbbc9329f5e3ded2e3af712d7fc7fc02405afab5980e0a89196",
+      "snapshot_id": "snap-tuya-e62e57ac97f04bbbc9329f5e",
       "verified": true
     },
     "twilio": {
@@ -2522,8 +2522,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "b91fdf30d5ae4849453dba32001bed7e3f5a0630e446f6decb9ad9a4acfc48a8",
-      "snapshot_id": "snap-umc-b91fdf30d5ae4849453dba32",
+      "release_digest": "94e5424a30c5a910bbdd67e268e655e92a837d95fcc4b3a755c90780ca688d87",
+      "snapshot_id": "snap-umc-94e5424a30c5a910bbdd67e2",
       "verified": true
     },
     "unity": {
@@ -2532,8 +2532,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "023e0a61f6c4378c55a2ee5f53763b2c3d6914a1acd86e51bf082cb9af4c411f",
-      "snapshot_id": "snap-unity-023e0a61f6c4378c55a2ee5f",
+      "release_digest": "2438d4d5acb286325592b24e8f6382cba9695539f543031936956d214a827ff2",
+      "snapshot_id": "snap-unity-2438d4d5acb286325592b24e",
       "verified": true
     },
     "venmo": {
@@ -2572,8 +2572,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "0a1b5aa7c2a6eed742e062b8c43901ffd83c437eaa05e812892a0653aa7fb4d9",
-      "snapshot_id": "snap-wangsu-0a1b5aa7c2a6eed742e062b8",
+      "release_digest": "6af7496cc2c8217c6fef17dccf8d7db9d42833c7b0bb4c09c0dce88572b9159b",
+      "snapshot_id": "snap-wangsu-6af7496cc2c8217c6fef17dc",
       "verified": true
     },
     "wanmei": {
@@ -2612,8 +2612,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "4010987e9511db973385087e11de864c19f9d01e45a5d360f1d8159b07c48258",
-      "snapshot_id": "snap-wegame-4010987e9511db973385087e",
+      "release_digest": "14f7b3fff2dcc9d82d8cdd9dc0031c4289eb5e2ba48bb512524e8f11aafad622",
+      "snapshot_id": "snap-wegame-14f7b3fff2dcc9d82d8cdd9d",
       "verified": true
     },
     "wetv": {
@@ -2632,8 +2632,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "012fe1620fd11505490f826251d22deff9571f86ae1a2c8f5eaa36abf9406981",
-      "snapshot_id": "snap-workday-012fe1620fd11505490f8262",
+      "release_digest": "aa88f10bafd28f43731c1fcdd71864a0711a72dd7e0abab1c903251d824ab999",
+      "snapshot_id": "snap-workday-aa88f10bafd28f43731c1fcd",
       "verified": true
     },
     "woyun": {
@@ -2642,8 +2642,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "fc7c2240e672507792d414c8ce5411fe1feab5be01509cc5617db8348537d8cd",
-      "snapshot_id": "snap-woyun-fc7c2240e672507792d414c8",
+      "release_digest": "c28ee0c3080e2d499f451137e4fdf191165e461dc7ff49766a3092e88a22c27a",
+      "snapshot_id": "snap-woyun-c28ee0c3080e2d499f451137",
       "verified": true
     },
     "wps": {
@@ -2662,8 +2662,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "7e55fd2a9122699bc94e1f0bf0b1ca8a5a0e577d6a3783a65446376fe9752167",
-      "snapshot_id": "snap-wuba-7e55fd2a9122699bc94e1f0b",
+      "release_digest": "d31d6c1b733186e8b328b44d5a3b0e997da4d8c3b0dd5ac0134abac37a2da9c9",
+      "snapshot_id": "snap-wuba-d31d6c1b733186e8b328b44d",
       "verified": true
     },
     "xai-grok": {
@@ -2692,8 +2692,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "f3aec7e7ee91ff8128eec7cd3fc1b10e543f10aa367a3a023b0fe4d91e46a5f0",
-      "snapshot_id": "snap-xgimi-f3aec7e7ee91ff8128eec7cd",
+      "release_digest": "5c71924e731bccc9703ea32e6ffff97261b4d86bb97a4017692899f905d46bc2",
+      "snapshot_id": "snap-xgimi-5c71924e731bccc9703ea32e",
       "verified": true
     },
     "xianyu": {
@@ -2732,8 +2732,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "0877fad2dd381cc5176abdfe4195bd16e7fafbf48b520c0dc270cc02b074cc45",
-      "snapshot_id": "snap-yi-0877fad2dd381cc5176abdfe",
+      "release_digest": "9fb38d2e1b5b5f4269934d4dde823fdea46898f0114f7c316781c7f86922490f",
+      "snapshot_id": "snap-yi-9fb38d2e1b5b5f4269934d4d",
       "verified": true
     },
     "yonyou": {
@@ -2792,8 +2792,8 @@
       "domain_count": 2,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "431967d6de9af09aaa9dc06e3f6f9a15e20a87dc980ceec34067d7b41eebbbdd",
-      "snapshot_id": "snap-zhaopin-431967d6de9af09aaa9dc06e",
+      "release_digest": "90c4616b8d42c199b12c00f002e43162c7679fb856d22b4b72936b398ee6acb0",
+      "snapshot_id": "snap-zhaopin-90c4616b8d42c199b12c00f0",
       "verified": true
     },
     "zhipin": {
