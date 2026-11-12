@@ -1,6 +1,6 @@
 # Source 阻塞看板（自动生成）
 
-> generated_at: `2026-11-12T16:47:04Z`
+> generated_at: `2026-11-12T17:02:08Z`
 
 权威：`config/source_canary_state.yaml` + `reports/generated/lifecycle.json`。
 
