@@ -109,7 +109,8 @@ jobs:
               raise SystemExit("www.messenger.com missing from candidate domains")
           if not (set(assets.get("www.messenger.com", {}).get("evidence_ids") or []) & official_ids):
               raise SystemExit("www.messenger.com has no link to the verified official evidence record")
-          if added != ["www.messenger.com"]:
+          # Idempotent refresh: the official host may already be present in main.
+          if added not in ([], ["www.messenger.com"]):
               raise SystemExit(f"unexpected Messenger domain additions: {added}")
           if removed:
               raise SystemExit(f"Messenger candidate unexpectedly removed existing domains: {removed}")
