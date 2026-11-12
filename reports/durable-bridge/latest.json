@@ -1,6 +1,6 @@
 {
   "batch_completeness": "COMPLETE",
-  "created_at": "2026-11-10T15:06:49.041677+00:00",
+  "created_at": "2026-11-12T11:59:27.631172+00:00",
   "executed_services": [
     "mediatek",
     "mercadolibre",
@@ -51,7 +51,6 @@
   },
   "missing_from_execution": [],
   "persisted_count": 281,
-  "persistence_commit": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
   "planned_service_count": "41",
   "planned_services": [
     "mediatek",
@@ -2224,7 +2223,6 @@
       "release_identity_version": "2",
       "release_path": "releases/mediatek/snap-mediatek-230935c86ef1c9b01c0718d7/release.json",
       "snapshot_id": "snap-mediatek-230935c86ef1c9b01c0718d7",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "mercadolibre": {
@@ -2237,7 +2235,6 @@
       "release_identity_version": "2",
       "release_path": "releases/mercadolibre/snap-mercadolibre-052ecd4f003e8fc71235d3e1/release.json",
       "snapshot_id": "snap-mercadolibre-052ecd4f003e8fc71235d3e1",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "messenger": {
@@ -2289,7 +2286,6 @@
       "release_identity_version": "2",
       "release_path": "releases/micron/snap-micron-62f24b77416d12eaff98d1e3/release.json",
       "snapshot_id": "snap-micron-62f24b77416d12eaff98d1e3",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "migu": {
@@ -2315,7 +2311,6 @@
       "release_identity_version": "2",
       "release_path": "releases/mihome/snap-mihome-e094509d906ebaf24a45d751/release.json",
       "snapshot_id": "snap-mihome-e094509d906ebaf24a45d751",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "minimax": {
@@ -2458,7 +2453,6 @@
       "release_identity_version": "2",
       "release_path": "releases/nec/snap-nec-e090031ac2aee1b415925e51/release.json",
       "snapshot_id": "snap-nec-e090031ac2aee1b415925e51",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "netapp": {
@@ -2471,7 +2465,6 @@
       "release_identity_version": "2",
       "release_path": "releases/netapp/snap-netapp-345d3aff28015cf04480fc26/release.json",
       "snapshot_id": "snap-netapp-345d3aff28015cf04480fc26",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "neteasemail": {
@@ -2510,7 +2503,6 @@
       "release_identity_version": "2",
       "release_path": "releases/netflix/snap-netflix-873e9c1253bb6a6cf515e45e/release.json",
       "snapshot_id": "snap-netflix-873e9c1253bb6a6cf515e45e",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "nintendo": {
@@ -2523,7 +2515,6 @@
       "release_identity_version": "2",
       "release_path": "releases/nintendo/snap-nintendo-8823d4f3ff1acfcf2e09aade/release.json",
       "snapshot_id": "snap-nintendo-8823d4f3ff1acfcf2e09aade",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "nokia": {
@@ -2536,7 +2527,6 @@
       "release_identity_version": "2",
       "release_path": "releases/nokia/snap-nokia-6673da16203767b1ee6f4f34/release.json",
       "snapshot_id": "snap-nokia-6673da16203767b1ee6f4f34",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "nvidia": {
@@ -2666,7 +2656,6 @@
       "release_identity_version": "2",
       "release_path": "releases/paloalto/snap-paloalto-5d67988313ae964e60c50e9d/release.json",
       "snapshot_id": "snap-paloalto-5d67988313ae964e60c50e9d",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "panasonic": {
@@ -2679,7 +2668,6 @@
       "release_identity_version": "2",
       "release_path": "releases/panasonic/snap-panasonic-5f71926d54d34e01c998f143/release.json",
       "snapshot_id": "snap-panasonic-5f71926d54d34e01c998f143",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "perfectworld": {
@@ -2692,7 +2680,6 @@
       "release_identity_version": "2",
       "release_path": "releases/perfectworld/snap-perfectworld-1fc57950fd658a6ea0e003be/release.json",
       "snapshot_id": "snap-perfectworld-1fc57950fd658a6ea0e003be",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "perplexity": {
@@ -2718,7 +2705,6 @@
       "release_identity_version": "2",
       "release_path": "releases/pingan/snap-pingan-9b27c228227f21fdae1d4160/release.json",
       "snapshot_id": "snap-pingan-9b27c228227f21fdae1d4160",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "powerbi": {
@@ -2783,7 +2769,6 @@
       "release_identity_version": "2",
       "release_path": "releases/qqdoc/snap-qqdoc-413b903dd60136b48338bd93/release.json",
       "snapshot_id": "snap-qqdoc-413b903dd60136b48338bd93",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "qqmail": {
@@ -2861,7 +2846,6 @@
       "release_identity_version": "2",
       "release_path": "releases/rakuten/snap-rakuten-3adb8111f8dc5185b93380b0/release.json",
       "snapshot_id": "snap-rakuten-3adb8111f8dc5185b93380b0",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "roblox": {
@@ -2887,7 +2871,6 @@
       "release_identity_version": "2",
       "release_path": "releases/roborock/snap-roborock-9e9edbaf05b5da2c2e4b3435/release.json",
       "snapshot_id": "snap-roborock-9e9edbaf05b5da2c2e4b3435",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "salesforce": {
@@ -2952,7 +2935,6 @@
       "release_identity_version": "2",
       "release_path": "releases/schneider/snap-schneider-7d6347d71386e08e480eb21b/release.json",
       "snapshot_id": "snap-schneider-7d6347d71386e08e480eb21b",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "sensetime": {
@@ -2965,7 +2947,6 @@
       "release_identity_version": "2",
       "release_path": "releases/sensetime/snap-sensetime-dfbfe18c615f53d9fa38faf1/release.json",
       "snapshot_id": "snap-sensetime-dfbfe18c615f53d9fa38faf1",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "servicenow": {
@@ -2978,7 +2959,6 @@
       "release_identity_version": "2",
       "release_path": "releases/servicenow/snap-servicenow-389eefbc481efb1098db1c91/release.json",
       "snapshot_id": "snap-servicenow-389eefbc481efb1098db1c91",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "sfexpress": {
@@ -3043,7 +3023,6 @@
       "release_identity_version": "2",
       "release_path": "releases/shopee/snap-shopee-31fb1fd149183de697b324fa/release.json",
       "snapshot_id": "snap-shopee-31fb1fd149183de697b324fa",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "siemens": {
@@ -3056,7 +3035,6 @@
       "release_identity_version": "2",
       "release_path": "releases/siemens/snap-siemens-a08846538c4fc6c35bcb3d7a/release.json",
       "snapshot_id": "snap-siemens-a08846538c4fc6c35bcb3d7a",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "signal": {
@@ -3095,7 +3073,6 @@
       "release_identity_version": "2",
       "release_path": "releases/skhynix/snap-skhynix-05743b8b8d8841becfcaf208/release.json",
       "snapshot_id": "snap-skhynix-05743b8b8d8841becfcaf208",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "snowflake": {
@@ -3147,7 +3124,6 @@
       "release_identity_version": "2",
       "release_path": "releases/starlink/snap-starlink-53a88a147ea1957d27461ab1/release.json",
       "snapshot_id": "snap-starlink-53a88a147ea1957d27461ab1",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "stripe-dashboard": {
@@ -3186,7 +3162,6 @@
       "release_identity_version": "2",
       "release_path": "releases/synopsys/snap-synopsys-8697ba3c592612db1b778eff/release.json",
       "snapshot_id": "snap-synopsys-8697ba3c592612db1b778eff",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "t3go": {
@@ -3199,7 +3174,6 @@
       "release_identity_version": "2",
       "release_path": "releases/t3go/snap-t3go-98b63baba994a150b8e3cff8/release.json",
       "snapshot_id": "snap-t3go-98b63baba994a150b8e3cff8",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "take2": {
@@ -3212,7 +3186,6 @@
       "release_identity_version": "2",
       "release_path": "releases/take2/snap-take2-ce57de7fc9fe375b4b451105/release.json",
       "snapshot_id": "snap-take2-ce57de7fc9fe375b4b451105",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "taobao": {
@@ -3355,7 +3328,6 @@
       "release_identity_version": "2",
       "release_path": "releases/ti/snap-ti-d09a38bad83c1b171a16d6d6/release.json",
       "snapshot_id": "snap-ti-d09a38bad83c1b171a16d6d6",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "tiktok": {
@@ -3394,7 +3366,6 @@
       "release_identity_version": "2",
       "release_path": "releases/tongcheng/snap-tongcheng-83f9cd212884fa28bd03480c/release.json",
       "snapshot_id": "snap-tongcheng-83f9cd212884fa28bd03480c",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "tonghuashun": {
@@ -3407,7 +3378,6 @@
       "release_identity_version": "2",
       "release_path": "releases/tonghuashun/snap-tonghuashun-e9f3193c462fe60c60944a89/release.json",
       "snapshot_id": "snap-tonghuashun-e9f3193c462fe60c60944a89",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "toutiao": {
@@ -3433,7 +3403,6 @@
       "release_identity_version": "2",
       "release_path": "releases/transsion/snap-transsion-0f46e31365959d722e297a05/release.json",
       "snapshot_id": "snap-transsion-0f46e31365959d722e297a05",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "tsmc": {
@@ -3459,7 +3428,6 @@
       "release_identity_version": "2",
       "release_path": "releases/tuya/snap-tuya-4ff880c6a8671cf780920b80/release.json",
       "snapshot_id": "snap-tuya-4ff880c6a8671cf780920b80",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "twilio": {
@@ -3485,7 +3453,6 @@
       "release_identity_version": "2",
       "release_path": "releases/umc/snap-umc-b91fdf30d5ae4849453dba32/release.json",
       "snapshot_id": "snap-umc-b91fdf30d5ae4849453dba32",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "unity": {
@@ -3498,7 +3465,6 @@
       "release_identity_version": "2",
       "release_path": "releases/unity/snap-unity-023e0a61f6c4378c55a2ee5f/release.json",
       "snapshot_id": "snap-unity-023e0a61f6c4378c55a2ee5f",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "venmo": {
@@ -3550,7 +3516,6 @@
       "release_identity_version": "2",
       "release_path": "releases/wangsu/snap-wangsu-0a1b5aa7c2a6eed742e062b8/release.json",
       "snapshot_id": "snap-wangsu-0a1b5aa7c2a6eed742e062b8",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "wanmei": {
@@ -3602,7 +3567,6 @@
       "release_identity_version": "2",
       "release_path": "releases/wegame/snap-wegame-4010987e9511db973385087e/release.json",
       "snapshot_id": "snap-wegame-4010987e9511db973385087e",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "wetv": {
@@ -3628,7 +3592,6 @@
       "release_identity_version": "2",
       "release_path": "releases/workday/snap-workday-012fe1620fd11505490f8262/release.json",
       "snapshot_id": "snap-workday-012fe1620fd11505490f8262",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "woyun": {
@@ -3641,7 +3604,6 @@
       "release_identity_version": "2",
       "release_path": "releases/woyun/snap-woyun-fc7c2240e672507792d414c8/release.json",
       "snapshot_id": "snap-woyun-fc7c2240e672507792d414c8",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "wps": {
@@ -3667,7 +3629,6 @@
       "release_identity_version": "2",
       "release_path": "releases/wuba/snap-wuba-7e55fd2a9122699bc94e1f0b/release.json",
       "snapshot_id": "snap-wuba-7e55fd2a9122699bc94e1f0b",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "xai-grok": {
@@ -3706,7 +3667,6 @@
       "release_identity_version": "2",
       "release_path": "releases/xgimi/snap-xgimi-f3aec7e7ee91ff8128eec7cd/release.json",
       "snapshot_id": "snap-xgimi-f3aec7e7ee91ff8128eec7cd",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "xianyu": {
@@ -3758,7 +3718,6 @@
       "release_identity_version": "2",
       "release_path": "releases/yi/snap-yi-0877fad2dd381cc5176abdfe/release.json",
       "snapshot_id": "snap-yi-0877fad2dd381cc5176abdfe",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "yonyou": {
@@ -3836,7 +3795,6 @@
       "release_identity_version": "2",
       "release_path": "releases/zhaopin/snap-zhaopin-431967d6de9af09aaa9dc06e/release.json",
       "snapshot_id": "snap-zhaopin-431967d6de9af09aaa9dc06e",
-      "source_ref": "69d6f6d4398e57365338941d330d46aa0e9e61d5",
       "status": "PERSISTED"
     },
     "zhipin": {
@@ -3879,5 +3837,5 @@
       "status": "PERSISTED"
     }
   },
-  "verified_input_commit": "295c7b247f7c913963aa59befbb8a00839bf3435"
+  "verified_input_commit": "338ef57418768779aeb712f03ddb387545e375a2"
 }
