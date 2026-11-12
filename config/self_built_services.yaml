@@ -292,6 +292,84 @@ services:
     upstream_binding: null
     current_state: review
     source_of_truth: self_built_official_wave
+  huawei-iam-api:
+    display_name: Huawei Cloud IAM API
+    ecosystem: huawei
+    mode: official_web
+    official_sources:
+    - https://support.huaweicloud.com/intl/en-us/api-iam/iam-api-pdf.pdf
+    allowed_host_exact:
+    - iam.myhuaweicloud.com
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  huawei-ecs-api:
+    display_name: Huawei Cloud ECS API
+    ecosystem: huawei
+    mode: official_web
+    official_sources:
+    - https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html
+    allowed_host_exact:
+    - ecs.cn-south-1.myhuaweicloud.com
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  huawei-evs-api:
+    display_name: Huawei Cloud EVS API
+    ecosystem: huawei
+    mode: official_web
+    official_sources:
+    - https://support.huaweicloud.com/tg-mgc/tg-mgc-pdf.pdf
+    allowed_host_exact:
+    - evs.cn-south-1.myhuaweicloud.com
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  huawei-vpc-api:
+    display_name: Huawei Cloud VPC API
+    ecosystem: huawei
+    mode: official_web
+    official_sources:
+    - https://support.huaweicloud.com/tg-mgc/tg-mgc-pdf.pdf
+    allowed_host_exact:
+    - vpc.cn-south-1.myhuaweicloud.com
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  huawei-ims-api:
+    display_name: Huawei Cloud IMS API
+    ecosystem: huawei
+    mode: official_web
+    official_sources:
+    - https://support.huaweicloud.com/tg-mgc/tg-mgc-pdf.pdf
+    allowed_host_exact:
+    - ims.cn-south-1.myhuaweicloud.com
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  huawei-dns-api:
+    display_name: Huawei Cloud DNS API
+    ecosystem: huawei
+    mode: official_web
+    official_sources:
+    - https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html
+    allowed_host_exact:
+    - dns.cn-south-1.myhuaweicloud.com
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
+  huawei-obs-api:
+    display_name: Huawei Cloud OBS API
+    ecosystem: huawei
+    mode: official_web
+    official_sources:
+    - https://support.huaweicloud.com/intl/en-us/usermanual-obs/obs_41_0003.html
+    allowed_host_exact:
+    - obs.cn-north-4.myhuaweicloud.com
+    - obs.cn-south-1.myhuaweicloud.com
+    upstream_binding: null
+    current_state: review
+    source_of_truth: self_built_official_wave
   mi-cloud:
     display_name: Mi Cloud
     ecosystem: xiaomi
