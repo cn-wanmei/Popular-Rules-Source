@@ -324,6 +324,58 @@ jobs:
                       }
               except Exception as exc:
                   print(f"WARN: could not merge previous durable report: {exc}")
+          # Re-materialize the complete historical seal from immutable snapshots.
+          # The matrix only refreshes this run's services; historical records must not
+          # be rebound to this persistence commit while their generated artifacts stay stale.
+          import hashlib
+          closure_errors = []
+          for service, item in sorted(report["services"].items()):
+              if not isinstance(item, dict) or item.get("status") != "PERSISTED":
+                  continue
+              snapshot_id = str(item.get("snapshot_id") or "")
+              release_path = root / str(item.get("release_path") or "")
+              snapshot_root = root / "snapshots" / snapshot_id
+              if not snapshot_id or not release_path.is_file():
+                  closure_errors.append(f"{service}: immutable release or snapshot identity missing")
+                  continue
+              release = json.loads(release_path.read_text(encoding="utf-8"))
+              checksums_path = snapshot_root / "checksums.json"
+              snapshot_domains = snapshot_root / "domains.txt"
+              if not checksums_path.is_file() or not snapshot_domains.is_file():
+                  closure_errors.append(f"{service}: snapshot domains/checksums missing")
+                  continue
+              checksums = json.loads(checksums_path.read_text(encoding="utf-8"))
+              release_checksums = release.get("checksums") or {}
+              expected = str(checksums.get("domains.txt") or "")
+              if not expected or expected != str(release_checksums.get("domains.txt") or ""):
+                  closure_errors.append(f"{service}: snapshot/release domains checksum mismatch")
+                  continue
+              actual = hashlib.sha256(snapshot_domains.read_bytes()).hexdigest()
+              if actual != expected:
+                  closure_errors.append(f"{service}: immutable snapshot domains checksum mismatch")
+                  continue
+              if str(release.get("service_id")) != service or str(release.get("snapshot_id")) != snapshot_id:
+                  closure_errors.append(f"{service}: release identity mismatch")
+                  continue
+              for field in ("content_digest", "evidence_digest", "policy_digest", "generator_digest", "release_digest", "release_identity_version"):
+                  if str(release.get(field) or "") != str(item.get(field) or ""):
+                      closure_errors.append(f"{service}: release {field} differs from durable report")
+                      break
+              else:
+                  generated_dir = root / "generated" / "source" / service
+                  generated_dir.mkdir(parents=True, exist_ok=True)
+                  shutil.copy2(snapshot_domains, generated_dir / "domains.txt")
+                  materialized_sha = hashlib.sha256((generated_dir / "domains.txt").read_bytes()).hexdigest()
+                  if materialized_sha != expected:
+                      closure_errors.append(f"{service}: materialized generated artifact checksum mismatch")
+                      continue
+                  item["expected_sha256"] = expected
+          if closure_errors:
+              print("DURABLE ARTIFACT CLOSURE FAILED:")
+              print("\\n".join(closure_errors))
+              raise SystemExit(f"durable artifact closure failed for {len(closure_errors)} service(s)")
+          print(f"durable_artifact_closure=PASS services={len(report['services'])}")
+
           incomplete = sorted(
               service for service, item in report["services"].items()
               if item.get("status") != "PERSISTED"
