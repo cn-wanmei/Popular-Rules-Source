@@ -1,0 +1,12 @@
+{
+  "content_digest": "18730e8a25795c1c1f470ed95d262bf17878124273e0b6e5d17b0931fccddfb6",
+  "domains": [
+    "venmo.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "venmo",
+  "source_hashes": [
+    "619cdfd6f716dc7a9cb595461381d85ca59a0def26e13e3ff025e73109af36b8"
+  ]
+}

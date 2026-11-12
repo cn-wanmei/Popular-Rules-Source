@@ -97,7 +97,7 @@
     "status": "OK"
   },
   "content_digest": "ed7f03ecbf0e65d6055de1758e8be6758a3e1b1bfe25afbd67c4f24ac1aed007",
-  "created_at": "2026-09-27T01:41:03.377056+00:00",
+  "created_at": "2026-11-12T09:53:53.530375+00:00",
   "domain_count": 9,
   "domain_diff": {
     "added": [],
@@ -140,7 +140,7 @@
       "evidence_id": "EV-applemusic-001-75415ad38f80",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMusic/AppleMusic.list",
-      "retrieved_at": "2026-09-27T01:41:03.361791+00:00",
+      "retrieved_at": "2026-11-12T09:53:53.484131+00:00",
       "service_id": "applemusic",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -150,7 +150,7 @@
     }
   ],
   "evidence_digest": "be0d71c994df61206bb0e1210aee5e48282690e428a33bcf0c72474d9d99a9e6",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 0,
@@ -158,7 +158,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "ef900270799150794d83da200101890e99b9a3d92600b38d3406d9764c813335",
   "previous_domain_count": 9,
-  "release_digest": "da04320590fe88862d5e36fb6c08c650f0768789d2e8e290e877c1489a9d3065",
+  "release_digest": "18f8e79d26e8717e515cd0403ddd720a6d29753713f7c9c94bb2f05dd85ad0ab",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -166,7 +166,7 @@
   "service_config_digest": "80dc980c59ed67f8a0b34a118c58d617e849bfe368a114fc43e2cb4e212c6877",
   "service_id": "applemusic",
   "snapshot_content_sha256": "ed7f03ecbf0e65d6055de1758e8be6758a3e1b1bfe25afbd67c4f24ac1aed007",
-  "snapshot_id": "snap-applemusic-da04320590fe88862d5e36fb",
+  "snapshot_id": "snap-applemusic-18f8e79d26e8717e515cd040",
   "source_bindings": [
     {
       "adapter": "upstream_rule",

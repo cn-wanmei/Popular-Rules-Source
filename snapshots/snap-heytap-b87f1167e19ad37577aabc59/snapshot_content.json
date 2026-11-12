@@ -1,0 +1,13 @@
+{
+  "content_digest": "33842fe2db3d5e55013b982be1c90b5c5e9e631e41cd5326afcebf80c6c53cf5",
+  "domains": [
+    "heytap.com",
+    "www.heytap.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "heytap",
+  "source_hashes": [
+    "ac08a25f8ccc83ce30399ed192dbc9afb18ec5880b1ff7853e311826cb4a0970"
+  ]
+}

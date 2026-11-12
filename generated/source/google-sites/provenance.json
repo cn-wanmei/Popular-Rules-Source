@@ -12,24 +12,24 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "cec96d9bdf7916510d7c1a6bd00a980f1720795d6f199e0f965870983fae2d1c",
-  "created_at": "2026-09-27T02:58:08.971894+00:00",
+  "created_at": "2026-11-12T09:54:41.363534+00:00",
   "domain_count": 1,
   "domain_diff": {
-    "added": [
-      "sites.google.com"
-    ],
-    "added_count": 1,
+    "added": [],
+    "added_count": 0,
     "current_count": 1,
-    "previous_count": 0,
+    "previous_count": 1,
     "removed": [],
     "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged": [
+      "sites.google.com"
+    ],
+    "unchanged_count": 1
   },
   "domains": [
     "sites.google.com"
@@ -44,7 +44,7 @@
       "evidence_id": "EV-google-sites-001-4f15ada9195f",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://sites.google.com/",
-      "retrieved_at": "1790477867944906099",
+      "retrieved_at": "1794477176109213040",
       "service_id": "google-sites",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -54,15 +54,15 @@
     }
   ],
   "evidence_digest": "b6e5453e74e11869903c57ad59029b9cc8f657f8c0e9b9ee18d2b79ce1ced37c",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 1,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "b7185fe7eec309529c77f96196c727cb791e305a87e3baace499e8cebb04a695",
-  "previous_domain_count": 0,
-  "release_digest": "8110ded44cc74b3e78e32eccad714b805df54170af7dbcf60e94db498eae173b",
+  "previous_domain_count": 1,
+  "release_digest": "9d45dbbaaa3caafbbe550ff5522bf2afc6fb3464c0e092bcd45884a8df702565",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -70,7 +70,7 @@
   "service_config_digest": "0dcaae95e3f59d873d83406de0a9ac7817979cae62505d44c25d1f4a4c242a57",
   "service_id": "google-sites",
   "snapshot_content_sha256": "cec96d9bdf7916510d7c1a6bd00a980f1720795d6f199e0f965870983fae2d1c",
-  "snapshot_id": "snap-google-sites-8110ded44cc74b3e78e32ecc",
+  "snapshot_id": "snap-google-sites-9d45dbbaaa3caafbbe550ff5",
   "source_bindings": [
     {
       "adapter": null,

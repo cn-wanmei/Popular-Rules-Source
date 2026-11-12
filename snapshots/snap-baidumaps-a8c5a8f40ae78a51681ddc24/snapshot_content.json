@@ -1,0 +1,12 @@
+{
+  "content_digest": "6d72738debe8a0a48c32d5f786383b11fbde90b2769f1902e8f775ead6e92685",
+  "domains": [
+    "map.baidu.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "baidumaps",
+  "source_hashes": [
+    "375fa6ed08cc665783b52a34deb464b56676fdb7dee9833ee66f23cc1d5a7c07"
+  ]
+}

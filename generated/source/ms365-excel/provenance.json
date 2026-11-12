@@ -12,24 +12,24 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "900bba90707aaa7eab53c646a618e1572b5f396c03615e734bde5ba67131b23e",
-  "created_at": "2026-09-27T02:58:59.233612+00:00",
+  "created_at": "2026-11-12T09:55:13.953357+00:00",
   "domain_count": 1,
   "domain_diff": {
-    "added": [
-      "excel.cloud.microsoft"
-    ],
-    "added_count": 1,
+    "added": [],
+    "added_count": 0,
     "current_count": 1,
-    "previous_count": 0,
+    "previous_count": 1,
     "removed": [],
     "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged": [
+      "excel.cloud.microsoft"
+    ],
+    "unchanged_count": 1
   },
   "domains": [
     "excel.cloud.microsoft"
@@ -44,7 +44,7 @@
       "evidence_id": "EV-ms365-excel-001-7ffe26d35487",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://excel.cloud.microsoft/",
-      "retrieved_at": "1790477917800871218",
+      "retrieved_at": "1794477176112213042",
       "service_id": "ms365-excel",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -54,15 +54,15 @@
     }
   ],
   "evidence_digest": "eea2913c7106b76494a0b92f876c6d12cc4fcfd9134866f71298cf301ae60273",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 1,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "a47e508008bb598251fecb6d9cb39eef2d6ac35a9beeb5be574a6a90ef986a27",
-  "previous_domain_count": 0,
-  "release_digest": "84491a426ae08f1b75786d0910884a1207ae9d355b0fa1d50c53d948c74c3d34",
+  "previous_domain_count": 1,
+  "release_digest": "56562f97234c4f368f728870d6e198c1042e7b6d3d76a080b3a9b4215a03f34b",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -70,7 +70,7 @@
   "service_config_digest": "11dddcadb45de705c7516309eae913aff4f6b564effd3195ccc02c6c99bb5601",
   "service_id": "ms365-excel",
   "snapshot_content_sha256": "900bba90707aaa7eab53c646a618e1572b5f396c03615e734bde5ba67131b23e",
-  "snapshot_id": "snap-ms365-excel-84491a426ae08f1b75786d09",
+  "snapshot_id": "snap-ms365-excel-56562f97234c4f368f728870",
   "source_bindings": [
     {
       "adapter": null,

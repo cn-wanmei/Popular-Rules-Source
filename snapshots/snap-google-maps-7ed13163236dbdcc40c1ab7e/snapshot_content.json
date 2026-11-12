@@ -1,0 +1,12 @@
+{
+  "content_digest": "f58beb6e394c5fe0e8f2a6df7e33de01d80597d84ff7fddbe376b7d6afebba3a",
+  "domains": [
+    "maps.google.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "google-maps",
+  "source_hashes": [
+    "8177648407d1d1ed279bbc4914f70a9b0d3ea93200d916a792ae02c67dc8946c"
+  ]
+}

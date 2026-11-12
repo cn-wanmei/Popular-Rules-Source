@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:c531caed1735c06527208a41011216e4735cd18c7c0761a0fc086307a5cbf198",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-goodreads-001-8264d7291e36"
+      ],
+      "service_id": "goodreads",
+      "type": "domain",
+      "value": "goodreads.com"
+    }
+  ],
+  "content_digest": "bcfc8b2ee8c69d2e45f6b301bd41aaaf881035e8600859cc66959253ccca3557",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "8264d7291e36b038ce33f66c18794cf172b3e5bfc05b0264e9e23a328ead7713",
+      "domains_extracted": 1,
+      "evidence_id": "EV-goodreads-001-8264d7291e36",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.goodreads.com/",
+      "retrieved_at": "1794477176108213039",
+      "service_id": "goodreads",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.goodreads.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "bead0542fe259b8a2c4dbf9a339eb93acbf84f7c2a1a1314ee5eb69d065ff9ac",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
+  "policy_digest": "684cb73e62101e2d04555e94ac138a7438fe5165508d2bb2c38b5acf72877112",
+  "release_digest": "52cb009cbae258880ad9f034ef65e0401bc48746eaacbe686c0072e1f01f8c30",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "goodreads",
+  "snapshot_id": "snap-goodreads-52cb009cbae258880ad9f034",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

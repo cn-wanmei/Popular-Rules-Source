@@ -27,7 +27,7 @@
     "status": "OK"
   },
   "content_digest": "dfda1972d3c0939eed4cfbce0046289fa92cffcf4600aacc2314ada7c2fd7301",
-  "created_at": "2026-09-26T12:09:00.519938+00:00",
+  "created_at": "2026-11-12T09:53:53.942521+00:00",
   "domain_count": 2,
   "domain_diff": {
     "added": [],
@@ -56,7 +56,7 @@
       "evidence_id": "EV-applenews-001-9cba3e13ef5b",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleNews/AppleNews.list",
-      "retrieved_at": "2026-09-26T12:09:00.495857+00:00",
+      "retrieved_at": "2026-11-12T09:53:53.887571+00:00",
       "service_id": "applenews",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -66,7 +66,7 @@
     }
   ],
   "evidence_digest": "c095ed6cd3f03a20007fe91e38babd38d81db425e1c7522e104140c576d6f032",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 0,
@@ -74,7 +74,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
   "previous_domain_count": 2,
-  "release_digest": "5b92e365d4fca996fc468b191b03e748265ab468536ffb154859e249453731fd",
+  "release_digest": "04dd689dde63e6e871c4a083a66884a042a5978247a399bd161cd0db0bc0b724",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "4f8f32244c0589ff67b3606af7c6fc6a55df66004bde88a026cec108f9ba13f4",
   "service_id": "applenews",
   "snapshot_content_sha256": "dfda1972d3c0939eed4cfbce0046289fa92cffcf4600aacc2314ada7c2fd7301",
-  "snapshot_id": "snap-applenews-5b92e365d4fca996fc468b19",
+  "snapshot_id": "snap-applenews-04dd689dde63e6e871c4a083",
   "source_bindings": [
     {
       "adapter": "upstream_rule",

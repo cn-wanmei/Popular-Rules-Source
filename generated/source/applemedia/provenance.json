@@ -527,7 +527,7 @@
     "status": "OK"
   },
   "content_digest": "9f0615abbf33f49c6fc97d1dd363173897160c527388e7d7a704e457bad46ae8",
-  "created_at": "2026-09-26T12:09:07.728292+00:00",
+  "created_at": "2026-11-12T09:53:52.837490+00:00",
   "domain_count": 52,
   "domain_diff": {
     "added": [],
@@ -656,7 +656,7 @@
       "evidence_id": "EV-applemedia-001-0757b8eab284",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppleMedia/AppleMedia.list",
-      "retrieved_at": "2026-09-26T12:09:07.716555+00:00",
+      "retrieved_at": "2026-11-12T09:53:52.791119+00:00",
       "service_id": "applemedia",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -666,7 +666,7 @@
     }
   ],
   "evidence_digest": "868d01084ae47ba551a15dbedc2017d4d7e8ebf22c930a4aeaa13d13eeea88fe",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 0,
@@ -674,7 +674,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
   "previous_domain_count": 52,
-  "release_digest": "5042d174723b9a5737d6f038d8fce2b145588464ed007a55237553917cf50fe3",
+  "release_digest": "d27e385ddbbfaa94270693f18c548acad5c2a92e07e46741035f2ac3e44e40bc",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -682,7 +682,7 @@
   "service_config_digest": "5ecbc92b54d2ad4e41ffc6ed4b7eea020d978653cead55514953808145b7b230",
   "service_id": "applemedia",
   "snapshot_content_sha256": "9f0615abbf33f49c6fc97d1dd363173897160c527388e7d7a704e457bad46ae8",
-  "snapshot_id": "snap-applemedia-5042d174723b9a5737d6f038",
+  "snapshot_id": "snap-applemedia-d27e385ddbbfaa94270693f1",
   "source_bindings": [
     {
       "adapter": "upstream_rule",

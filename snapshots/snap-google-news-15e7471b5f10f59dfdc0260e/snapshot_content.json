@@ -1,0 +1,12 @@
+{
+  "content_digest": "3a6a5246e34e99f3db3120fb25c63947c2bbc055ca0a5442c5eb6c7a4f8bffb0",
+  "domains": [
+    "news.google.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "google-news",
+  "source_hashes": [
+    "7e1ab1768cfbc67765f61cacf134f76da365b22b93c09e911de48a481e4b152d"
+  ]
+}

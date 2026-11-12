@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "fc49ad2cbf29715b83c969e4e0ce358aac34955014f04934072ba345f4e3909f",
-  "created_at": "2026-09-27T11:29:59.102735+00:00",
+  "created_at": "2026-11-12T09:55:06.553004+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "line.me",
       "www.line.me"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "line.me",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-linecorp-001-fab42662bd3f",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://line.me/",
-      "retrieved_at": "1790508535933776020",
+      "retrieved_at": "1794477176111213042",
       "service_id": "linecorp",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "d6da92546bf692088810617f3a7e3520e131473fe8f92686cea8bc1cd5e0242e",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "25897348bbf172e63de4e793e85a55eca18c6ca60b40a9037f8a24e5d1ff634e",
-  "previous_domain_count": 0,
-  "release_digest": "0e2c59bbc6e835b157fe80da1fd6622a3b7668e5aee42d2fa97288cd3faf0e2f",
+  "previous_domain_count": 2,
+  "release_digest": "f597f6da8e357bf278368c1aecccbf96cb928b20e4213ea8dbc7f66d2a3c1952",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "3b7b8cb5f1bb2e49b9e96b97ab11f40a7141c2fd0e23cae15f11e158acd7c616",
   "service_id": "linecorp",
   "snapshot_content_sha256": "fc49ad2cbf29715b83c969e4e0ce358aac34955014f04934072ba345f4e3909f",
-  "snapshot_id": "snap-linecorp-0e2c59bbc6e835b157fe80da",
+  "snapshot_id": "snap-linecorp-f597f6da8e357bf278368c1a",
   "source_bindings": [
     {
       "adapter": null,

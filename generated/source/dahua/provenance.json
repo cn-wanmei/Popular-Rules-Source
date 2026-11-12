@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "37a9b60de1203154651d0a151a22c1cc1625245379853e61fb717089bffb290f",
-  "created_at": "2026-09-27T11:31:46.218984+00:00",
+  "created_at": "2026-11-12T09:54:16.585180+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "dahuatech.com",
       "www.dahuatech.com"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "dahuatech.com",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-dahua-001-e7064210a098",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.dahuatech.com/",
-      "retrieved_at": "1790508644641074921",
+      "retrieved_at": "1794477176107213038",
       "service_id": "dahua",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "8aa47cb3a2f53d728b987cd9b55178dae5c8724785bfc113b1022e6292567b88",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "3007f3e584f8627a63f8c0dc8ef0f736cdd2a4b4221d4af35d6266e37b5b877f",
-  "previous_domain_count": 0,
-  "release_digest": "bf8000a4d702228a37044d1aa562f1f16161589f67424233980c32837ee0df8e",
+  "previous_domain_count": 2,
+  "release_digest": "404327d942d14fde3100cb9494b02ab7d0baad79746413052141f7e5920e7f76",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "bf63ef22453760bbb39f0acaeef6ea698b3d5525906fbb2cf3d56b11367f910a",
   "service_id": "dahua",
   "snapshot_content_sha256": "37a9b60de1203154651d0a151a22c1cc1625245379853e61fb717089bffb290f",
-  "snapshot_id": "snap-dahua-bf8000a4d702228a37044d1a",
+  "snapshot_id": "snap-dahua-404327d942d14fde3100cb94",
   "source_bindings": [
     {
       "adapter": null,

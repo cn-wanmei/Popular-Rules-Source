@@ -1,0 +1,13 @@
+{
+  "content_digest": "4171d616ac177bac0477d8ad434fdef8aeb4afdc34f85c5d30735eb2b6046530",
+  "domains": [
+    "palantir.com",
+    "www.palantir.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "palantir",
+  "source_hashes": [
+    "cf4a6bf1514aee06908f69134d637a4217c1a9984bb9cdc9bc128ce6e9c1bf07"
+  ]
+}

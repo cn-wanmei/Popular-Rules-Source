@@ -27,7 +27,7 @@
     "status": "OK"
   },
   "content_digest": "a65a9070a8efb6ef57dd2a698711cdbb30a9ba3963e8c009bf538d47b65590af",
-  "created_at": "2026-09-26T12:08:53.004388+00:00",
+  "created_at": "2026-11-12T09:54:52.317073+00:00",
   "domain_count": 2,
   "domain_diff": {
     "added": [],
@@ -56,7 +56,7 @@
       "evidence_id": "EV-honorofkings_global-001-417db49a1444",
       "parser_version": "domain-extractor-v4",
       "resolved_url": "https://www.honorofkings.com/",
-      "retrieved_at": "2026-09-26T12:08:52.988868+00:00",
+      "retrieved_at": "2026-11-12T09:54:52.258909+00:00",
       "service_id": "honorofkings_global",
       "source_method": "official_web",
       "source_type": "official_web",
@@ -66,7 +66,7 @@
     }
   ],
   "evidence_digest": "733edbee49f42727e7ad36e9b529cd06e634f05ba4b1ee43e5a41384c4a4151c",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
@@ -74,7 +74,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "4ba44b3e8b8a3a36eb1f7c340fdb0a9b5ed59db996c29122cef22b0be5f8fbc0",
   "previous_domain_count": 2,
-  "release_digest": "9271ce0b7c8d6b9d6d1836fadc05ed115871fa0d88a94c82c942d81b93331f01",
+  "release_digest": "1cc0dd4a225b0c3731e4760781988477b39bf989303ddbcd0a23c050df153036",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "346c3330602717160e3c608c8482a0c9efb9584c4692a5271122de7d50884e82",
   "service_id": "honorofkings_global",
   "snapshot_content_sha256": "a65a9070a8efb6ef57dd2a698711cdbb30a9ba3963e8c009bf538d47b65590af",
-  "snapshot_id": "snap-honorofkings_global-9271ce0b7c8d6b9d6d1836fa",
+  "snapshot_id": "snap-honorofkings_global-1cc0dd4a225b0c3731e47607",
   "source_bindings": [
     {
       "adapter": null,

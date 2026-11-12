@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:4d2db22bfc31b5f9e1ff6681399dede9483eb062c77d2f361a822026409cb5c3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-boss-001-7ba5886d2c38"
+      ],
+      "service_id": "boss",
+      "type": "domain",
+      "value": "www.zhipin.com"
+    },
+    {
+      "asset_id": "sha256:54fdbe1cda4113b2afb29b86a6db4892cf968cfe026f7c396599fe11d71a3e6f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-boss-001-7ba5886d2c38"
+      ],
+      "service_id": "boss",
+      "type": "domain",
+      "value": "zhipin.com"
+    }
+  ],
+  "content_digest": "179e0b65ff0eced3be78071cbba080216c3f8248a40781b18bb6ae0ad77eaff1",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "7ba5886d2c38bb2bd6a12092bd82156d3d592d640cb2a87ac51f26bb3c952398",
+      "domains_extracted": 2,
+      "evidence_id": "EV-boss-001-7ba5886d2c38",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "self_built://self_built/boss/domains.list",
+      "retrieved_at": "1794477176107213038",
+      "service_id": "boss",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.zhipin.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "8e6ab71be2c29c7dad66303af3e54ecac26be3d9c32fd37432929e60a373b247",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
+  "policy_digest": "262230cbde0a9913b41f0dd7a371e2acd88aeb02a29aedde53f8a777fc759650",
+  "release_digest": "f88cd1bad8b4cb050672c334b30157d68e65c5555051fe51bca2196db4836b42",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "boss",
+  "snapshot_id": "snap-boss-f88cd1bad8b4cb050672c334",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

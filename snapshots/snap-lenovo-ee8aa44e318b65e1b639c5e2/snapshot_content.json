@@ -1,0 +1,13 @@
+{
+  "content_digest": "c77634cca0fc5f619ccd47a1026c40ffbb77348ffa3442957a89518539e81beb",
+  "domains": [
+    "lenovo.com",
+    "www.lenovo.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "lenovo",
+  "source_hashes": [
+    "8fd21b10d68c6e93d550eba04b2955e2d576ba41e182a3a5fb11bcfb3e86f297"
+  ]
+}

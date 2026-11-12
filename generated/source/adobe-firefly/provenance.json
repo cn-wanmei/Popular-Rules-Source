@@ -12,24 +12,24 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "ea2b64c6f4eeeb97268c1c94a2d47fe15f450a4a5747878df83dc7a40f18df00",
-  "created_at": "2026-09-26T12:53:56.179490+00:00",
+  "created_at": "2026-11-12T09:53:44.763007+00:00",
   "domain_count": 1,
   "domain_diff": {
-    "added": [
-      "firefly.adobe.com"
-    ],
-    "added_count": 1,
+    "added": [],
+    "added_count": 0,
     "current_count": 1,
-    "previous_count": 0,
+    "previous_count": 1,
     "removed": [],
     "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged": [
+      "firefly.adobe.com"
+    ],
+    "unchanged_count": 1
   },
   "domains": [
     "firefly.adobe.com"
@@ -44,7 +44,7 @@
       "evidence_id": "EV-adobe-firefly-001-b8925dd765f2",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://firefly.adobe.com/",
-      "retrieved_at": "1790427215858054306",
+      "retrieved_at": "1794477176106251545",
       "service_id": "adobe-firefly",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -54,15 +54,15 @@
     }
   ],
   "evidence_digest": "e041e59d3d0cf2dea165f83694f70d7a2160d78ddb65efa2e4f3d38596422cea",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 1,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "c28cc233bd98e98e803999f18fc0877f8f5b09beb1b8daab0afb8ae1dc069d2f",
-  "previous_domain_count": 0,
-  "release_digest": "278e98581b6f8e62e261931a737618bff3767ea493378bd608fe497a41fcff45",
+  "previous_domain_count": 1,
+  "release_digest": "48295bc94a67fd39a68bec113bfb541f066f0ab751e7832f9747b9d034946d9c",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -70,7 +70,7 @@
   "service_config_digest": "4d1c7f93327f2e6969c0416aca0e5b59ee6afb016408579b6b6d57de71fe4d3b",
   "service_id": "adobe-firefly",
   "snapshot_content_sha256": "ea2b64c6f4eeeb97268c1c94a2d47fe15f450a4a5747878df83dc7a40f18df00",
-  "snapshot_id": "snap-adobe-firefly-278e98581b6f8e62e261931a",
+  "snapshot_id": "snap-adobe-firefly-48295bc94a67fd39a68bec11",
   "source_bindings": [
     {
       "adapter": null,

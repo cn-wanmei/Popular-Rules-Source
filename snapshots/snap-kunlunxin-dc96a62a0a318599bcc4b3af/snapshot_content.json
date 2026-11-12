@@ -1,0 +1,13 @@
+{
+  "content_digest": "2b07a67943c23a953a349cb172b19e07ae37bffd2a1f97c68d6ea8976fc3f999",
+  "domains": [
+    "kunlunxin.com",
+    "www.kunlunxin.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "kunlunxin",
+  "source_hashes": [
+    "6199079b4f1deef5e57fd66aa805c622a0316bff23f3e25e86016dca018ae0a4"
+  ]
+}

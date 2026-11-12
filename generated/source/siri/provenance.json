@@ -17,7 +17,7 @@
     "status": "OK"
   },
   "content_digest": "1d851bb995202ee6dc202e1fa1dfee60c575076116e66ae388c4abd9c4dbb7b8",
-  "created_at": "2026-09-26T12:19:20.925171+00:00",
+  "created_at": "2026-11-12T09:57:19.181831+00:00",
   "domain_count": 1,
   "domain_diff": {
     "added": [],
@@ -44,7 +44,7 @@
       "evidence_id": "EV-siri-001-670cbd631e04",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Siri/Siri.list",
-      "retrieved_at": "2026-09-26T12:19:20.899147+00:00",
+      "retrieved_at": "2026-11-12T09:57:19.126760+00:00",
       "service_id": "siri",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -54,7 +54,7 @@
     }
   ],
   "evidence_digest": "4c4448eefe3b88a3cd71cbaa0412192fee7cb42ee768407e717ecd0cef6bc65f",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 0,
@@ -62,7 +62,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
   "previous_domain_count": 1,
-  "release_digest": "440b4c5a63d59b410d5e32fae526d4df7cc23b09f61029036438285a40c5e6e4",
+  "release_digest": "e0168e3c9b6e4cd605cea6e95861f4a20c6b3ff913973159c75767e1c5f7fa4e",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -70,7 +70,7 @@
   "service_config_digest": "b1427ad30eb7607ce2ef296939b0619412713ede8e055104187f4ea06f74ae85",
   "service_id": "siri",
   "snapshot_content_sha256": "1d851bb995202ee6dc202e1fa1dfee60c575076116e66ae388c4abd9c4dbb7b8",
-  "snapshot_id": "snap-siri-440b4c5a63d59b410d5e32fa",
+  "snapshot_id": "snap-siri-e0168e3c9b6e4cd605cea6e9",
   "source_bindings": [
     {
       "adapter": "upstream_rule",
