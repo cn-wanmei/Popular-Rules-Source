@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "c77634cca0fc5f619ccd47a1026c40ffbb77348ffa3442957a89518539e81beb",
-  "created_at": "2026-09-27T10:04:56.564611+00:00",
+  "created_at": "2026-11-12T09:55:05.582698+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "lenovo.com",
       "www.lenovo.com"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "lenovo.com",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-lenovo-001-8fd21b10d68c",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.lenovo.com/",
-      "retrieved_at": "1790503444405942513",
+      "retrieved_at": "1794477176111213042",
       "service_id": "lenovo",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "ab7ea9aec54c30d34dcef7d1531dab9dcb3df78cd7f006e616530dea5629f8f6",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "3ae372387204b0450639c6b74844040d981ab5c087f2e40098beb5ee115fca51",
-  "previous_domain_count": 0,
-  "release_digest": "c8d84c550ab4949633bcea79b4a83a61ec206c671eefe020557895c6053c096f",
+  "previous_domain_count": 2,
+  "release_digest": "ee8aa44e318b65e1b639c5e2d13c4d56ef86eff59bc50729de24139e999caeea",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "503eea6f788ae4daf52900bc601c5288db0bb370828199a427be6387ab0b10ec",
   "service_id": "lenovo",
   "snapshot_content_sha256": "c77634cca0fc5f619ccd47a1026c40ffbb77348ffa3442957a89518539e81beb",
-  "snapshot_id": "snap-lenovo-c8d84c550ab4949633bcea79",
+  "snapshot_id": "snap-lenovo-ee8aa44e318b65e1b639c5e2",
   "source_bindings": [
     {
       "adapter": null,

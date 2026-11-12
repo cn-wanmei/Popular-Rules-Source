@@ -1,0 +1,13 @@
+{
+  "content_digest": "a126fc20eb7a36720c558061076109d068306f10740f082d3a38764c6e846f12",
+  "domains": [
+    "37.com",
+    "www.37.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "37games",
+  "source_hashes": [
+    "0584eadc30773779e451fdb4ad95a56fe0f60903db3cd8f9695abac169b05618"
+  ]
+}

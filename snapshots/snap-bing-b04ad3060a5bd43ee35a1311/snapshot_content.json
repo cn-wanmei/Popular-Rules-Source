@@ -1,0 +1,20 @@
+{
+  "content_digest": "7bad2a191d54566d185511a6452e8a3dd045a85eb7a108d5a846214aa220d4d5",
+  "domains": [
+    "bing.com",
+    "bing.com.cn",
+    "bing.net",
+    "bingads.com",
+    "bingagencyawards.com",
+    "bingapistatistics.com",
+    "bingsandbox.com",
+    "bingvisualsearch.com",
+    "bingworld.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "bing",
+  "source_hashes": [
+    "4b9fe5e5f0cef4c4b09a2e109ca4db00f1cc67ec45aae5c50fca3bdb72b61968"
+  ]
+}

@@ -27,7 +27,7 @@
     "status": "OK"
   },
   "content_digest": "892baeedfa6911d40dd9953d77211bb23dcdd32ce987685477b545442c17837a",
-  "created_at": "2026-09-27T01:41:44.243278+00:00",
+  "created_at": "2026-11-12T09:57:34.893065+00:00",
   "domain_count": 2,
   "domain_diff": {
     "added": [],
@@ -56,7 +56,7 @@
       "evidence_id": "EV-testflight-001-06b2eb437c4a",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TestFlight/TestFlight.list",
-      "retrieved_at": "2026-09-27T01:41:44.225043+00:00",
+      "retrieved_at": "2026-11-12T09:57:34.837591+00:00",
       "service_id": "testflight",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -66,7 +66,7 @@
     }
   ],
   "evidence_digest": "a384b8b809f1b9f428b09a35809ded07eaa1a76e4b50df77ceb622a777ab8d84",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 0,
@@ -74,7 +74,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "972218045f50838032153102086994b53fd1d70e93c814f067cb5d003b80b5c7",
   "previous_domain_count": 2,
-  "release_digest": "922accff387fa39f172c3c4190ad5c6be7416b18d26b98701a22817e7e412403",
+  "release_digest": "fcf108825c568e6b3998128acf5afc79753fc5a566717cfea0870d426b0f5902",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "14d0b114f01266e444e3f06b36f99bf04450f56f92588a1b3a4b647346dabac0",
   "service_id": "testflight",
   "snapshot_content_sha256": "892baeedfa6911d40dd9953d77211bb23dcdd32ce987685477b545442c17837a",
-  "snapshot_id": "snap-testflight-922accff387fa39f172c3c41",
+  "snapshot_id": "snap-testflight-fcf108825c568e6b3998128a",
   "source_bindings": [
     {
       "adapter": "upstream_rule",

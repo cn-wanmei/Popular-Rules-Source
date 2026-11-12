@@ -1,0 +1,13 @@
+{
+  "content_digest": "ad7b17f04003735b06c40120606765953eb41391a2e0e25ef38dfe5caf967c11",
+  "domains": [
+    "block.xyz",
+    "www.block.xyz"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "block",
+  "source_hashes": [
+    "4e7b66cfd5d85f401172c5648405b43b7af8cb355b3d51a94ec2c78a136c8b6a"
+  ]
+}

@@ -12,24 +12,24 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "bc85fac3fec136dc9de4edb7a5bc03acce2747b4da00809bc9ada441c3efb616",
-  "created_at": "2026-09-26T12:53:58.418764+00:00",
+  "created_at": "2026-11-12T09:53:50.138627+00:00",
   "domain_count": 1,
   "domain_diff": {
-    "added": [
-      "claude.ai"
-    ],
-    "added_count": 1,
+    "added": [],
+    "added_count": 0,
     "current_count": 1,
-    "previous_count": 0,
+    "previous_count": 1,
     "removed": [],
     "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged": [
+      "claude.ai"
+    ],
+    "unchanged_count": 1
   },
   "domains": [
     "claude.ai"
@@ -44,7 +44,7 @@
       "evidence_id": "EV-anthropic-claude-001-42d9dfe11263",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://claude.ai/",
-      "retrieved_at": "1790427215858054306",
+      "retrieved_at": "1794477176106251545",
       "service_id": "anthropic-claude",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -54,15 +54,15 @@
     }
   ],
   "evidence_digest": "45ab24b4a79567a7c6600c59455040cc65a156a72eb1b6a93601dd83d09f7456",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 1,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "8f24bac12c98aa1d3dcaab8cef4614be3dbaaf0cad78de28596fb0a65d9c33b7",
-  "previous_domain_count": 0,
-  "release_digest": "57b3b3b1999c5d83d8f322a5ce8a0f06ba2cc74410220c7ec588cfd2824d0901",
+  "previous_domain_count": 1,
+  "release_digest": "9ebd2bf7b3e475c1c4d7826be0a7d81d11515c0f938e135c0a8bf1b9494a0920",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -70,7 +70,7 @@
   "service_config_digest": "fc3a0320b7eaeff256d1e3b9bff27fdcd871439f9cf76dffd6d6f533ff7b4567",
   "service_id": "anthropic-claude",
   "snapshot_content_sha256": "bc85fac3fec136dc9de4edb7a5bc03acce2747b4da00809bc9ada441c3efb616",
-  "snapshot_id": "snap-anthropic-claude-57b3b3b1999c5d83d8f322a5",
+  "snapshot_id": "snap-anthropic-claude-9ebd2bf7b3e475c1c4d7826b",
   "source_bindings": [
     {
       "adapter": null,

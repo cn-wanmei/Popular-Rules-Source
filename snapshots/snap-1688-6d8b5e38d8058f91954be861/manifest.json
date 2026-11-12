@@ -1,0 +1,103 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:5173fb999d1716e2a137c1dffe622517dd62976818981a6a7dd9fb759ee0a281",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-001-fd531315bd56"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "1688.com"
+    },
+    {
+      "asset_id": "sha256:e15f8b29573917b42c57523d8df44c047427cf589e61c968aa6f6aa2fbb6a63d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-1688-001-fd531315bd56"
+      ],
+      "service_id": "1688",
+      "type": "domain",
+      "value": "www.1688.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 2.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "f26827af4352d21c0d271d0d82508c767ed1e193ac31bae4649b8a4178f55787",
+  "created_at": "2026-11-12T09:53:43.799682+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [
+      "1688.com"
+    ],
+    "added_count": 1,
+    "current_count": 2,
+    "previous_count": 1,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
+      "www.1688.com"
+    ],
+    "unchanged_count": 1
+  },
+  "domains": [
+    "1688.com",
+    "www.1688.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "fd531315bd56cfd676bddc1767e742a58fea3adbb1cfa7186bc9a37fd1026bb3",
+      "domains_extracted": 2,
+      "evidence_id": "EV-1688-001-fd531315bd56",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://www.1688.com/",
+      "retrieved_at": "2026-11-12T09:53:43.739833+00:00",
+      "service_id": "1688",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://www.1688.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "4ab9c1c40c489eeb3106be279c2a13a7232cc4507c15f7198ba6a950ddd956d3",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "877e7af68e1242e56c8ef24540b44ea4507caf68a99cfc5df90cacfe610d954d",
+  "previous_domain_count": 1,
+  "release_digest": "6d8b5e38d8058f91954be861f847359f0f836818509284ec86f3b4a67ae8c49b",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "6ef0c1775083b6f03aba3be31a7c8890621a6593822dfa984f148d7fbbdc97db",
+  "service_id": "1688",
+  "snapshot_content_sha256": "f26827af4352d21c0d271d0d82508c767ed1e193ac31bae4649b8a4178f55787",
+  "snapshot_id": "snap-1688-6d8b5e38d8058f91954be861",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.1688.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

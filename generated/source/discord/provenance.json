@@ -287,7 +287,7 @@
     "status": "OK"
   },
   "content_digest": "8f996912e0484f5828628f50a353cabe15128cae86560489b9a5abbfbf5c1caa",
-  "created_at": "2026-09-26T12:09:04.175641+00:00",
+  "created_at": "2026-11-12T09:54:21.147707+00:00",
   "domain_count": 28,
   "domain_diff": {
     "added": [],
@@ -368,7 +368,7 @@
       "evidence_id": "EV-discord-001-3d18c8fe716d",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Discord/Discord.list",
-      "retrieved_at": "2026-09-26T12:09:04.150139+00:00",
+      "retrieved_at": "2026-11-12T09:54:21.098511+00:00",
       "service_id": "discord",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -378,7 +378,7 @@
     }
   ],
   "evidence_digest": "640eb2f3f81448dbfdbf3d0b4be5503c7f9e97ee3b3a055dc23c626b0b598dad",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 0,
@@ -386,7 +386,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
   "previous_domain_count": 28,
-  "release_digest": "e5a47c19f5c45c25c613f6f657d5ecd2fdd0a580698da8234fd2e41c079f2f98",
+  "release_digest": "b214f7c27f767d2a4d4e9b8461cfb6c331715017f576a1f882ad5bab04a08cae",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -394,7 +394,7 @@
   "service_config_digest": "cd89f608156c5a0285e60fe489ed68a7971fea7b469d9f1d6325dfd68b95cf09",
   "service_id": "discord",
   "snapshot_content_sha256": "8f996912e0484f5828628f50a353cabe15128cae86560489b9a5abbfbf5c1caa",
-  "snapshot_id": "snap-discord-e5a47c19f5c45c25c613f6f6",
+  "snapshot_id": "snap-discord-b214f7c27f767d2a4d4e9b84",
   "source_bindings": [
     {
       "adapter": "upstream_rule",

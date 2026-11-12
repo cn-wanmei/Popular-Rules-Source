@@ -437,7 +437,7 @@
     "status": "OK"
   },
   "content_digest": "b5691f9763d1c0cfdf10727bde56aec2f0ca0b7036b0f7eabef5a43f0ad572aa",
-  "created_at": "2026-09-26T12:18:40.231969+00:00",
+  "created_at": "2026-11-12T09:54:28.718002+00:00",
   "domain_count": 43,
   "domain_diff": {
     "added": [],
@@ -548,7 +548,7 @@
       "evidence_id": "EV-feishu-001-1354726cbeb2",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/feishu.list",
-      "retrieved_at": "2026-09-26T12:18:40.213758+00:00",
+      "retrieved_at": "2026-11-12T09:54:28.667625+00:00",
       "service_id": "feishu",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -558,7 +558,7 @@
     }
   ],
   "evidence_digest": "df166673194a9607433f5539135c3df57c4808f260f88824926cd7e8afbbd3f7",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 0,
@@ -566,7 +566,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "bddc163b10901803c2fcdafa51621b776f049831eb042b8b051e3ee18a5ca311",
   "previous_domain_count": 43,
-  "release_digest": "dd8e2cd8a4ac32fa8b355226e80ba0bcd4cc5aaca0ef76179b4ceb4afb63c5ed",
+  "release_digest": "4b299642d08381bc7ed7d36f048807821fee83a97cb4f62a1b3eb5c572b4ddb7",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -574,7 +574,7 @@
   "service_config_digest": "60cfe70850e99bb3f8e76c1f67bbd32d52c7fd2e0c598454412298fb2f8cae7c",
   "service_id": "feishu",
   "snapshot_content_sha256": "b5691f9763d1c0cfdf10727bde56aec2f0ca0b7036b0f7eabef5a43f0ad572aa",
-  "snapshot_id": "snap-feishu-dd8e2cd8a4ac32fa8b355226",
+  "snapshot_id": "snap-feishu-4b299642d08381bc7ed7d36f",
   "source_bindings": [
     {
       "adapter": "upstream_rule",

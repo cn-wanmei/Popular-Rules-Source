@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "fd2dfb3340380871aa404c1ac2b922030fa85282cf161707c20d955c2bd546f2",
-  "created_at": "2026-09-27T08:21:02.161210+00:00",
+  "created_at": "2026-11-12T09:54:26.225006+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "eastmoney.com",
       "www.eastmoney.com"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "eastmoney.com",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-eastmoney-001-8b3e610b6a27",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.eastmoney.com/",
-      "retrieved_at": "1790497217188432941",
+      "retrieved_at": "1794477176108213039",
       "service_id": "eastmoney",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "2227f69e52a8a7168b492616542649771e86d74bfe9b89909bc9b096c13deb19",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "a056aa48d2c7873f79a44ce4f7efe4694669f83552902bc041388938e11f899e",
-  "previous_domain_count": 0,
-  "release_digest": "1aebbd7125a8244e9014e3fffccd5fba6ee2e0d316d42cd881dd589d0061466d",
+  "previous_domain_count": 2,
+  "release_digest": "b40eedbdf1a2ef753f46fc5bb97b0ee2bf7fc0cd8eabfa4e806f06348c18515f",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "32a13dd2ceaeae75df60def1320ba91f5fd1d670720a09e8ff78057d29cb660c",
   "service_id": "eastmoney",
   "snapshot_content_sha256": "fd2dfb3340380871aa404c1ac2b922030fa85282cf161707c20d955c2bd546f2",
-  "snapshot_id": "snap-eastmoney-1aebbd7125a8244e9014e3ff",
+  "snapshot_id": "snap-eastmoney-b40eedbdf1a2ef753f46fc5b",
   "source_bindings": [
     {
       "adapter": null,

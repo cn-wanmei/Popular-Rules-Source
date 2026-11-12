@@ -1,0 +1,13 @@
+{
+  "content_digest": "fa2bca68709b7a4f1394237d32fe13ebd174a22cb973868bfd514a3e976ba848",
+  "domains": [
+    "anjuke.com",
+    "www.anjuke.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "anjuke",
+  "source_hashes": [
+    "0b84af5583bdc9efdc3984791f43f500ac085f0f7406bb06b3f32067dfedfa9d"
+  ]
+}

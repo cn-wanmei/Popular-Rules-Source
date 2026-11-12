@@ -1,0 +1,12 @@
+{
+  "content_digest": "fd5bf7915c931cd1f8fb83c87c1ea315940c0b127d4325ac37e5cf1db9fc0f54",
+  "domains": [
+    "groups.google.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "google-groups",
+  "source_hashes": [
+    "c610b1e79da4cd65c72b9f3bba057e74f471aa091ba7f1718b8a3092077b187d"
+  ]
+}

@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "ef8fa1f13964bb18d3d96964993d51bab49048b9c5eb5a6181fe79e46137308e",
-  "created_at": "2026-09-27T11:31:33.543929+00:00",
+  "created_at": "2026-11-12T09:54:08.722339+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "cadence.com",
       "www.cadence.com"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "cadence.com",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-cadence-001-e2d0ad924181",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.cadence.com/",
-      "retrieved_at": "1790508631983109237",
+      "retrieved_at": "1794477176107213038",
       "service_id": "cadence",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "7f7a86d9516e78d4e8b53e5fbde3bb657e19b1cfcf3a6904b9c2c5e12e447cb1",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "89affa2e8de7040910005e909534fad089fe0fd62b803895570eb926ea8cddcc",
-  "previous_domain_count": 0,
-  "release_digest": "bf842312e32dcf5a9ebf321b1ac0d4055f244a30e6bb519484d6b7dc5a436b34",
+  "previous_domain_count": 2,
+  "release_digest": "ea5d512a0e839f30fb7a3ea3b78d5694f47e7db374d4aec9f46fa78a134ae88c",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "fcdba4f1e085ef8f0ee97933721d39695da44c81c539c75bc64fa649e37ec06f",
   "service_id": "cadence",
   "snapshot_content_sha256": "ef8fa1f13964bb18d3d96964993d51bab49048b9c5eb5a6181fe79e46137308e",
-  "snapshot_id": "snap-cadence-bf842312e32dcf5a9ebf321b",
+  "snapshot_id": "snap-cadence-ea5d512a0e839f30fb7a3ea3",
   "source_bindings": [
     {
       "adapter": null,

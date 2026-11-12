@@ -97,7 +97,7 @@
     "status": "OK"
   },
   "content_digest": "d5e5842666a62dcd98f68002b7377146aa937d911bab9a3c5552cb00220689e2",
-  "created_at": "2026-09-26T12:09:06.655061+00:00",
+  "created_at": "2026-11-12T09:54:32.032178+00:00",
   "domain_count": 9,
   "domain_diff": {
     "added": [],
@@ -140,7 +140,7 @@
       "evidence_id": "EV-gemini-001-db8f69154426",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.list",
-      "retrieved_at": "2026-09-26T12:09:06.630756+00:00",
+      "retrieved_at": "2026-11-12T09:54:31.982495+00:00",
       "service_id": "gemini",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -150,7 +150,7 @@
     }
   ],
   "evidence_digest": "97ce572034e1a45fc119cf51bbc48e6f040a044e2730f7d1f54f6e90b5c037d6",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 0,
@@ -158,7 +158,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
   "previous_domain_count": 9,
-  "release_digest": "9e01a42e8140aafccd75f9eadbedfa367805d1793fa03ddfeaee626739de1e15",
+  "release_digest": "3e466931ef8f2fa469251e802bf9d60e012a508b7aaf640bc8ebdf8e94e639a9",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -166,7 +166,7 @@
   "service_config_digest": "ab091521a293b9e8ac8a131f09c328ff4eae0a8d5b91bfccfb7782e50f631794",
   "service_id": "gemini",
   "snapshot_content_sha256": "d5e5842666a62dcd98f68002b7377146aa937d911bab9a3c5552cb00220689e2",
-  "snapshot_id": "snap-gemini-9e01a42e8140aafccd75f9ea",
+  "snapshot_id": "snap-gemini-3e466931ef8f2fa469251e80",
   "source_bindings": [
     {
       "adapter": "upstream_rule",

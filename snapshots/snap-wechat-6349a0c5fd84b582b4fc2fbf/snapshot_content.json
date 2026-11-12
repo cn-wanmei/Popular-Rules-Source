@@ -1,0 +1,39 @@
+{
+  "content_digest": "30c7ce7830e6ee3bd9c59dd673513670e704ce6e1090d925d3d641ce2e774b2b",
+  "domains": [
+    "apd-pcdnwxlogin.teg.tencent-cloud.net",
+    "btrace.qq.com",
+    "dldir1.qq.com",
+    "iot-tencent.com",
+    "map.qq.com",
+    "qlogo.cn",
+    "qpic.cn",
+    "servicewechat.com",
+    "slife.xy-asia.com",
+    "soup.v.qq.com",
+    "tenpay.com",
+    "up-hl.3g.qq.com",
+    "vweixinf.tc.qq.com",
+    "vweixinthumb.tc.qq.com",
+    "wechat.com",
+    "wechatlegal.net",
+    "wechatos.net",
+    "wechatpay.com",
+    "weixin.com",
+    "weixin.qq.com",
+    "weixin110.qq.com",
+    "weixinbridge.com",
+    "weixinsxy.com",
+    "wup.imtt.qq.com",
+    "wx.qq.com",
+    "wxapp.tc.qq.com",
+    "wxs.qq.com",
+    "yun-hl.3g.qq.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "wechat",
+  "source_hashes": [
+    "ce1f7bea47157c267e0da7da4d5bc68915aca5c24b4c126c7e27b4127a0dfc54"
+  ]
+}

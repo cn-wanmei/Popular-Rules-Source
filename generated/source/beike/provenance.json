@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "287aacd87d31535bf36257363e98da0921956d77273e61d50795f695ff5b9af0",
-  "created_at": "2026-09-27T08:16:50.302777+00:00",
+  "created_at": "2026-11-12T09:54:05.137914+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "ke.com",
       "www.ke.com"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "ke.com",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-beike-001-d331caf9d624",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.ke.com/",
-      "retrieved_at": "1790496965215246504",
+      "retrieved_at": "1794477176107213038",
       "service_id": "beike",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "abab66e33f2969faf867b669f2a66b400b24a4e2c963259ac93f2a11e2a0d2bb",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "ef3bea7ee79bd18bae7c1f260f54a71df6b4f398ec3cfa627386d9e3ad232928",
-  "previous_domain_count": 0,
-  "release_digest": "ae0847a06f68cb6ccc9b1d93499bcc88567b0039e47b04bccd11ec927f44fa7c",
+  "previous_domain_count": 2,
+  "release_digest": "a3a1288912af6eceaa9f29d98ea7d5e246e336cefbbc732821b85c28d665908a",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "de6e251d9e30721df514202b7fa8f6cf15195fd2f75ab1b465a17b129d15a016",
   "service_id": "beike",
   "snapshot_content_sha256": "287aacd87d31535bf36257363e98da0921956d77273e61d50795f695ff5b9af0",
-  "snapshot_id": "snap-beike-ae0847a06f68cb6ccc9b1d93",
+  "snapshot_id": "snap-beike-a3a1288912af6eceaa9f29d9",
   "source_bindings": [
     {
       "adapter": null,

@@ -1,0 +1,12 @@
+{
+  "content_digest": "cfc70c7de1006c7dac75911f8967ffb87354f4705eb5f1d60caa48fdfa413ae9",
+  "domains": [
+    "photos.google.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "google-photos",
+  "source_hashes": [
+    "5c1ff6a0cd5a7d30e080b43f6aec9728bc11d7783d6513be98c200935306aa28"
+  ]
+}

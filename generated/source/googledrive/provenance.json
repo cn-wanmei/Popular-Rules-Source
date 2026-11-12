@@ -47,7 +47,7 @@
     "status": "OK"
   },
   "content_digest": "bdf2381867e98fde7c6d10bcced6ce5465ef9e4f1790d78905816904593e85f9",
-  "created_at": "2026-09-27T01:41:05.604293+00:00",
+  "created_at": "2026-11-12T09:54:45.172024+00:00",
   "domain_count": 4,
   "domain_diff": {
     "added": [],
@@ -80,7 +80,7 @@
       "evidence_id": "EV-googledrive-001-7a65da91de1a",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GoogleDrive/GoogleDrive.list",
-      "retrieved_at": "2026-09-27T01:41:05.575814+00:00",
+      "retrieved_at": "2026-11-12T09:54:45.121105+00:00",
       "service_id": "googledrive",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -90,7 +90,7 @@
     }
   ],
   "evidence_digest": "81539d12445a69c4a873a8858c0d5087fc511e1adff5738a7f6113d6eb4c25fa",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 0,
@@ -98,7 +98,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "3f70aa93b1ce207f703e354d2660f994527dd53e71cd9e1f7eb955392ddd6398",
   "previous_domain_count": 4,
-  "release_digest": "a3f033b61b8bc0b99e39f7ca229edde6a967e75cbd1eb355dfd0649e490e77c1",
+  "release_digest": "341f218ebcc09f2a51be674f6fec742d6f4597644fb217335e9f515cdf88a9d8",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -106,7 +106,7 @@
   "service_config_digest": "899169bec8e61f9facb0115fb1e59c12a5c5607cf11964dce5d32e678c1ce400",
   "service_id": "googledrive",
   "snapshot_content_sha256": "bdf2381867e98fde7c6d10bcced6ce5465ef9e4f1790d78905816904593e85f9",
-  "snapshot_id": "snap-googledrive-a3f033b61b8bc0b99e39f7ca",
+  "snapshot_id": "snap-googledrive-341f218ebcc09f2a51be674f",
   "source_bindings": [
     {
       "adapter": "upstream_rule",
