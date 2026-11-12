@@ -27,7 +27,7 @@
     "status": "OK"
   },
   "content_digest": "16eef142ca66abf5c2a4087fd4003697fde18ab80133081f75916dd8b5a4e28b",
-  "created_at": "2026-11-10T15:01:14.547023+00:00",
+  "created_at": "2026-11-12T13:13:38.317062+00:00",
   "domain_count": 2,
   "domain_diff": {
     "added": [],
@@ -56,7 +56,7 @@
       "evidence_id": "EV-mercadolibre-001-04ce6f63037a",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.mercadolibre.com/",
-      "retrieved_at": "1794322805355172162",
+      "retrieved_at": "1794489174128985602",
       "service_id": "mercadolibre",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,7 +66,7 @@
     }
   ],
   "evidence_digest": "a0d64ec41b52e253d5afde16865a6fbe7129bd346178bb76598834b2bf0ba8e4",
-  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
+  "generator_digest": "a6d4520c5beeaa7ef9ba2bae9ec53c1bde09551af35f4223d62262822564c025",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
@@ -74,7 +74,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "9ab0ef531642958969bf85fe5182b28333663d18ee09a4827405e12e20384cc1",
   "previous_domain_count": 2,
-  "release_digest": "052ecd4f003e8fc71235d3e13f1233008201cf07a5772e6aabff930e3e392a94",
+  "release_digest": "13c13a990b177cff3a87e97878efb7f5773bce3cb575f1e0a86743a222c7e0d4",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "61726312bb5d444e7af122f0062526cc589b63740c28c7f081458652d058a0c6",
   "service_id": "mercadolibre",
   "snapshot_content_sha256": "16eef142ca66abf5c2a4087fd4003697fde18ab80133081f75916dd8b5a4e28b",
-  "snapshot_id": "snap-mercadolibre-052ecd4f003e8fc71235d3e1",
+  "snapshot_id": "snap-mercadolibre-13c13a990b177cff3a87e978",
   "source_bindings": [
     {
       "adapter": null,

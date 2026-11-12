@@ -1,0 +1,13 @@
+{
+  "content_digest": "6bc0aa236610ed4cc6182c223c4d80c5abaaa74d1ae3e4dd8c67e3e700c54d33",
+  "domains": [
+    "t3go.cn",
+    "www.t3go.cn"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "t3go",
+  "source_hashes": [
+    "601524870474b9b196f19845f27e391c6f31e45af8e2ee22061c21cff3e3e271"
+  ]
+}

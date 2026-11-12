@@ -27,7 +27,7 @@
     "status": "OK"
   },
   "content_digest": "9288ff2eddafafe764155f9067f81fc56f7f77684cd73d4f635e60784d50e6be",
-  "created_at": "2026-11-10T15:01:05.260606+00:00",
+  "created_at": "2026-11-12T13:16:08.497945+00:00",
   "domain_count": 2,
   "domain_diff": {
     "added": [],
@@ -56,7 +56,7 @@
       "evidence_id": "EV-nokia-001-a104bbd910f7",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.nokia.com/",
-      "retrieved_at": "1794322810631647533",
+      "retrieved_at": "1794489296350202120",
       "service_id": "nokia",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,7 +66,7 @@
     }
   ],
   "evidence_digest": "0f11e1a7caa33d2f0f25ca5a3d29fbb2098d46b4cddea8c14d9f3dafd22b841f",
-  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
+  "generator_digest": "a6d4520c5beeaa7ef9ba2bae9ec53c1bde09551af35f4223d62262822564c025",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
@@ -74,7 +74,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "0d226f60d8e07b77b32f83e0b66c68f30357e4c4fe48e0edbf504ebf99b13be6",
   "previous_domain_count": 2,
-  "release_digest": "6673da16203767b1ee6f4f34c050b725210638282b1d9b997f41aa04b6157005",
+  "release_digest": "18a048fa9ec2d9e0d3eb1f256db638fba8fc7ef7c7dd55de6901281f81292b53",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "7066b2ad39cb6c19c1f6788a9547cccd5a7c4b6c5b041915906706011815eb47",
   "service_id": "nokia",
   "snapshot_content_sha256": "9288ff2eddafafe764155f9067f81fc56f7f77684cd73d4f635e60784d50e6be",
-  "snapshot_id": "snap-nokia-6673da16203767b1ee6f4f34",
+  "snapshot_id": "snap-nokia-18a048fa9ec2d9e0d3eb1f25",
   "source_bindings": [
     {
       "adapter": null,

@@ -1,0 +1,13 @@
+{
+  "content_digest": "444b9808723afc073b2250fa48ea105b810610fdc901918e38c5ed3265c3260f",
+  "domains": [
+    "panasonic.com",
+    "www.panasonic.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "panasonic",
+  "source_hashes": [
+    "57f85e6b9b42b8f44030eae53eaf84d29a6de57298e7ec601715ea7ee23c725d"
+  ]
+}

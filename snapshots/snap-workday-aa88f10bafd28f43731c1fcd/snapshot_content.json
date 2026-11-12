@@ -1,0 +1,13 @@
+{
+  "content_digest": "029cd649279665374fd21ef8f4bc2d09402363b14f3d1b492eb4698d1fc85496",
+  "domains": [
+    "workday.com",
+    "www.workday.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "workday",
+  "source_hashes": [
+    "d787aece660295a55ff7ffa6a361a02ee4443cadbc3e54e15f06f0e429560756"
+  ]
+}

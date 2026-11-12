@@ -1,0 +1,13 @@
+{
+  "content_digest": "aff69a7919a6813f448a40be5241ff2949c992d6f4bceafc7f5b7d356d8d91c0",
+  "domains": [
+    "sensetime.com",
+    "www.sensetime.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "sensetime",
+  "source_hashes": [
+    "3c66ffc246dc2bff3bed7d8469aa3f52c7ce6c5de4fd213ccc28ba9fd235140f"
+  ]
+}

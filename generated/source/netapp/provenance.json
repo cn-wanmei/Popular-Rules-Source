@@ -27,7 +27,7 @@
     "status": "OK"
   },
   "content_digest": "a6d6074ffe1af0082410731e379a6ff57bcafd033eab1b76c34acb5e45d2f6fb",
-  "created_at": "2026-11-10T15:04:17.009718+00:00",
+  "created_at": "2026-11-12T13:15:15.395891+00:00",
   "domain_count": 2,
   "domain_diff": {
     "added": [],
@@ -56,7 +56,7 @@
       "evidence_id": "EV-netapp-001-30e66d90ac0e",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.netapp.com/",
-      "retrieved_at": "1794323003019768682",
+      "retrieved_at": "1794489259656710584",
       "service_id": "netapp",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,7 +66,7 @@
     }
   ],
   "evidence_digest": "ed3a6df495a49d13257c89c7f5f6653fb2ae092cbc8972cf0347e98d8d093aed",
-  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
+  "generator_digest": "a6d4520c5beeaa7ef9ba2bae9ec53c1bde09551af35f4223d62262822564c025",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
@@ -74,7 +74,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "e78054cca99237d3b4366cea6cfbfbe80d2fc0be6d4d9f11f2356607870ba6fe",
   "previous_domain_count": 2,
-  "release_digest": "345d3aff28015cf04480fc26ae7126a4b6f2b14812ed56f5e59898d0416d9d4e",
+  "release_digest": "762013dae7fdb4eaabacb727092fc54b1a140d295f05f4d6e6ebe8228fc1f425",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "92c660275df7342be56e76f05625284ccedf506ace1cd97e59c2d4de66b77b0f",
   "service_id": "netapp",
   "snapshot_content_sha256": "a6d6074ffe1af0082410731e379a6ff57bcafd033eab1b76c34acb5e45d2f6fb",
-  "snapshot_id": "snap-netapp-345d3aff28015cf04480fc26",
+  "snapshot_id": "snap-netapp-762013dae7fdb4eaabacb727",
   "source_bindings": [
     {
       "adapter": null,

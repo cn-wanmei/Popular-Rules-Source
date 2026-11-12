@@ -1,0 +1,33 @@
+{
+  "checksums": {
+    "domains.txt": "41da3ba2e4ebcbcdedf15e1c2e194054c98de13b74f72ab5cea81f1ab46a65de",
+    "manifest.json": "3874984cc03cbfc64a29ad55acf1030b0f2767c18ec9b18edb7c91752304092d",
+    "provenance.json": "f81142c1c7f05ff9e3b57cdf89e08bb8a52bf5f37fc2fce6b62f376a399037ef",
+    "snapshot_content.json": "a59f96fd7b830762513bd5f107ed0c74a27339fb3930ce113db8141e35cdc5f9"
+  },
+  "content_digest": "bbbb36959aa7b038ff812ffabcc0821518fcc986b7abb3b1f1d3ed44b5643954",
+  "created_at": "2026-11-12T13:17:17.610908+00:00",
+  "evidence_digest": "3d8bbb75fe0e56a7a4e0fc139ddc47962d664e2162c8da3a8cb62bb3cb793609",
+  "generator_digest": "a6d4520c5beeaa7ef9ba2bae9ec53c1bde09551af35f4223d62262822564c025",
+  "policy_digest": "c1fb19910741b6e195698ab9132e6072fe0b7a77dfdd867f0a0908ad4451475d",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "14f7b3fff2dcc9d82d8cdd9dc0031c4289eb5e2ba48bb512524e8f11aafad622",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "wegame",
+  "snapshot_id": "snap-wegame-14f7b3fff2dcc9d82d8cdd9d",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 1.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "handoff_eligible": true,
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

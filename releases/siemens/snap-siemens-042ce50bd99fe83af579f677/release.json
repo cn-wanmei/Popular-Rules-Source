@@ -1,0 +1,33 @@
+{
+  "checksums": {
+    "domains.txt": "3723b008ef3ca48dd28c5ba9a6d752c0a7494c9474269f36beea18b5bd64bc39",
+    "manifest.json": "0f9498b09857c2791e034c248f8f13e22d03413e92110acd4d73592dcdbcd40a",
+    "provenance.json": "fcaa847150676f733a9f119da49a7701c53eca108c03224d2fdcc37ab75fb336",
+    "snapshot_content.json": "477b8cef61ed1703664dbd33c8b9b324f35478cf0b41b9a474c2b8ef35b20ae7"
+  },
+  "content_digest": "d7f92cfffc4ed1ed4b804c067659fd9472872579d6f548da150f2b39dde1fc68",
+  "created_at": "2026-11-12T13:16:16.698689+00:00",
+  "evidence_digest": "5ebbaca1c59fb4eac7f5a82768e9daf1cb83fb85003544e26025dd44a7c65dbd",
+  "generator_digest": "a6d4520c5beeaa7ef9ba2bae9ec53c1bde09551af35f4223d62262822564c025",
+  "policy_digest": "7a1a4de7bf641a9f69354acdd416070083f7c043bbdd134de0d7c3d9db0c193e",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "042ce50bd99fe83af579f6771f3a473fe5fd2e29f564503b6924971dfbcc74ff",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "siemens",
+  "snapshot_id": "snap-siemens-042ce50bd99fe83af579f677",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 1.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "handoff_eligible": true,
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}
