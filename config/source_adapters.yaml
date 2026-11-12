@@ -184,6 +184,13 @@ services:
   applebooks: {adapters: [self_built]}
   applemaps: {adapters: [self_built]}
   huawei-cloud: {adapters: [self_built]}
+  huawei-iam-api: {adapters: [self_built]}
+  huawei-ecs-api: {adapters: [self_built]}
+  huawei-evs-api: {adapters: [self_built]}
+  huawei-vpc-api: {adapters: [self_built]}
+  huawei-ims-api: {adapters: [self_built]}
+  huawei-dns-api: {adapters: [self_built]}
+  huawei-obs-api: {adapters: [self_built]}
   mi-cloud: {adapters: [self_built]}
   jd-cloud: {adapters: [self_built]}
   kugou: {adapters: [self_built]}
