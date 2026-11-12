@@ -1562,14 +1562,16 @@
       "verified": true
     },
     "messenger": {
-      "blockers": [],
+      "blockers": [
+        "no_official_extraction"
+      ],
       "declared_state": "review",
       "domain_count": 4,
       "enabled": true,
       "production_activated": false,
       "release_digest": "b3b52c8322960d4f1927955001aecfbc732f41033da019cbe03d86df01d296c4",
       "snapshot_id": "snap-messenger-b3b52c8322960d4f19279550",
-      "verified": true
+      "verified": false
     },
     "mgtv": {
       "blockers": [],
