@@ -1602,6 +1602,8 @@ services:
     official_sources:
     - https://www.messenger.com/
     source_bindings:
+    - url: https://www.messenger.com/
+      adapter: self_built
     - url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/messenger.list
       adapter: upstream_rule
     allowed_host_exact: []
@@ -1609,8 +1611,9 @@ services:
     coverage:
       domain: review
     source_policy:
-      official_required: false
+      official_required: true
       allowed_authorities:
+      - official
       - upstream
       min_confidence: high
     boundary:
