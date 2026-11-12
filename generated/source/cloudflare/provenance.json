@@ -182,15 +182,21 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "610b115ae77f34c4e4aa35f0b508da6400f6590b70820986b0184259a64b083f",
-  "created_at": "2026-11-11T08:03:43.678265+00:00",
+  "created_at": "2026-11-12T16:38:48.932308+00:00",
   "domain_count": 18,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 18,
+    "previous_count": 18,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "api.cloudflare.com",
       "blocked.teams.cloudflare.com",
       "cloudflare-gateway.com",
@@ -210,13 +216,7 @@
       "speed.cloudflare.com",
       "www.cloudflarestatus.com"
     ],
-    "added_count": 18,
-    "current_count": 18,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 18
   },
   "domains": [
     "api.cloudflare.com",
@@ -248,7 +248,7 @@
       "evidence_id": "EV-cloudflare-001-6bf2528c6a18",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://developers.cloudflare.com/cloudflare-one/traffic-controls/global-policies/",
-      "retrieved_at": "1794384153914341752",
+      "retrieved_at": "1794501458320781778",
       "service_id": "cloudflare",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -258,15 +258,15 @@
     }
   ],
   "evidence_digest": "dbe5bcd717bebe4e2f4818d60924396dba19e55856236bf1c16603b2d36a8e5b",
-  "generator_digest": "4c23abf61f30a1503ce75fceeb875035819d9d7b6c60e3d7e2991c69386d22e0",
+  "generator_digest": "a6d4520c5beeaa7ef9ba2bae9ec53c1bde09551af35f4223d62262822564c025",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 20,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "b0b1780db8649335175d521a89ccf545bc4da134a107579053dffa09ae1a0a7c",
-  "previous_domain_count": 0,
-  "release_digest": "b21c78507371eef7cc7e603f12e9168b6b02e8a00365f8fcfb8cb5f5218f9b8c",
+  "previous_domain_count": 18,
+  "release_digest": "16b8b215262c8bd52b7da332c957a9c78f7773b335ff7e5734c826d2c924b0bf",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -274,7 +274,7 @@
   "service_config_digest": "769a0822464178bd5ae86d13bb5b685d706ff8868e9f4768dbf3a1920c7300c5",
   "service_id": "cloudflare",
   "snapshot_content_sha256": "610b115ae77f34c4e4aa35f0b508da6400f6590b70820986b0184259a64b083f",
-  "snapshot_id": "snap-cloudflare-b21c78507371eef7cc7e603f",
+  "snapshot_id": "snap-cloudflare-16b8b215262c8bd52b7da332",
   "source_bindings": [
     {
       "adapter": null,
