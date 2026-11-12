@@ -927,6 +927,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   siri:
     display_name: Siri
     ecosystem: apple
@@ -946,6 +947,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   youtube:
     display_name: YouTube
     ecosystem: google
@@ -965,6 +967,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   googlefcm:
     display_name: Google FCM
     ecosystem: google
@@ -985,6 +988,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   xbox:
     display_name: Xbox
     ecosystem: microsoft
@@ -1004,6 +1008,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   github:
     display_name: GitHub
     ecosystem: microsoft
@@ -1023,6 +1028,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   tencentvideo:
     display_name: 腾讯视频
     ecosystem: tencent
@@ -1043,6 +1049,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   firebase:
     display_name: Firebase
     ecosystem: google
@@ -1186,6 +1193,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   baidu:
     display_name: 百度
     ecosystem: baidu
@@ -1205,6 +1213,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   bing:
     display_name: Bing
     ecosystem: microsoft
@@ -1224,6 +1233,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   tiktok:
     display_name: TikTok
     ecosystem: bytedance
@@ -1243,6 +1253,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   neteasemail:
     display_name: 网易邮箱
     ecosystem: netease
@@ -1318,6 +1329,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   copilot:
     display_name: Microsoft Copilot
     ecosystem: microsoft
@@ -1337,6 +1349,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   claude:
     display_name: Claude
     ecosystem: anthropic
@@ -1356,6 +1369,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   gemini:
     display_name: Google Gemini
     ecosystem: google
@@ -1375,6 +1389,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   openai:
     display_name: OpenAI
     ecosystem: openai
@@ -1394,6 +1409,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   telegram:
     display_name: Telegram
     ecosystem: telegram
@@ -1413,6 +1429,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   discord:
     display_name: Discord
     ecosystem: discord
@@ -1432,6 +1449,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   netflix:
     display_name: Netflix
     ecosystem: netflix
@@ -1451,6 +1469,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   alibabacloud:
     display_name: Alibaba Cloud
     ecosystem: alibaba
@@ -1470,6 +1489,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   deepseek:
     display_name: DeepSeek
     ecosystem: deepseek
@@ -1489,6 +1509,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   perplexity:
     display_name: Perplexity
     ecosystem: perplexity
@@ -1508,6 +1529,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   groq:
     display_name: Groq
     ecosystem: groq
@@ -1530,6 +1552,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   huggingface:
     display_name: Hugging Face
     ecosystem: huggingface
@@ -1552,6 +1575,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   signal:
     display_name: Signal
     ecosystem: signal
@@ -1571,6 +1595,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   messenger:
     display_name: Messenger
     ecosystem: meta
@@ -1593,6 +1618,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   roblox:
     display_name: Roblox
     ecosystem: roblox
@@ -1612,6 +1638,7 @@ services:
       min_confidence: high
     boundary:
       shared_infrastructure_allowed: false
+      mode: source_bound
   gmail:
     display_name: Gmail
     ecosystem: google
@@ -2184,138 +2211,19 @@ services:
       shared_infrastructure_allowed: false
   huawei-iam-api:
     display_name: Huawei Cloud IAM API
-    ecosystem: huawei
-    official_sources:
-    - https://support.huaweicloud.com/intl/en-us/api-iam/iam-api-pdf.pdf
-    allowed_host_suffixes: []
-    allowed_host_exact:
-    - iam.myhuaweicloud.com
-    coverage:
-      domain: review
-      ip: unknown
-      cidr: none
-    source_policy:
-      official_required: true
-      allowed_authorities:
-      - official
-      min_confidence: high
-    boundary:
-      shared_infrastructure_allowed: false
   huawei-ecs-api:
     display_name: Huawei Cloud ECS API
-    ecosystem: huawei
-    official_sources:
-    - https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html
-    allowed_host_suffixes: []
-    allowed_host_exact:
-    - ecs.cn-south-1.myhuaweicloud.com
-    coverage:
-      domain: review
-      ip: unknown
-      cidr: none
-    source_policy:
-      official_required: true
-      allowed_authorities:
-      - official
-      min_confidence: high
-    boundary:
-      shared_infrastructure_allowed: false
   huawei-evs-api:
     display_name: Huawei Cloud EVS API
-    ecosystem: huawei
-    official_sources:
-    - https://support.huaweicloud.com/tg-mgc/tg-mgc-pdf.pdf
-    allowed_host_suffixes: []
-    allowed_host_exact:
-    - evs.cn-south-1.myhuaweicloud.com
-    coverage:
-      domain: review
-      ip: unknown
-      cidr: none
-    source_policy:
-      official_required: true
-      allowed_authorities:
-      - official
-      min_confidence: high
-    boundary:
-      shared_infrastructure_allowed: false
   huawei-vpc-api:
     display_name: Huawei Cloud VPC API
-    ecosystem: huawei
-    official_sources:
-    - https://support.huaweicloud.com/tg-mgc/tg-mgc-pdf.pdf
-    allowed_host_suffixes: []
-    allowed_host_exact:
-    - vpc.cn-south-1.myhuaweicloud.com
-    coverage:
-      domain: review
-      ip: unknown
-      cidr: none
-    source_policy:
-      official_required: true
-      allowed_authorities:
-      - official
-      min_confidence: high
-    boundary:
-      shared_infrastructure_allowed: false
   huawei-ims-api:
     display_name: Huawei Cloud IMS API
-    ecosystem: huawei
-    official_sources:
-    - https://support.huaweicloud.com/tg-mgc/tg-mgc-pdf.pdf
-    allowed_host_suffixes: []
-    allowed_host_exact:
-    - ims.cn-south-1.myhuaweicloud.com
-    coverage:
-      domain: review
-      ip: unknown
-      cidr: none
-    source_policy:
-      official_required: true
-      allowed_authorities:
-      - official
-      min_confidence: high
-    boundary:
-      shared_infrastructure_allowed: false
   huawei-dns-api:
     display_name: Huawei Cloud DNS API
-    ecosystem: huawei
-    official_sources:
-    - https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html
-    allowed_host_suffixes: []
-    allowed_host_exact:
-    - dns.cn-south-1.myhuaweicloud.com
-    coverage:
-      domain: review
-      ip: unknown
-      cidr: none
-    source_policy:
-      official_required: true
-      allowed_authorities:
-      - official
-      min_confidence: high
-    boundary:
-      shared_infrastructure_allowed: false
   huawei-obs-api:
     display_name: Huawei Cloud OBS API
-    ecosystem: huawei
-    official_sources:
-    - https://support.huaweicloud.com/intl/en-us/usermanual-obs/obs_41_0003.html
-    allowed_host_suffixes: []
-    allowed_host_exact:
-    - obs.cn-north-4.myhuaweicloud.com
-    - obs.cn-south-1.myhuaweicloud.com
-    coverage:
-      domain: review
-      ip: unknown
-      cidr: none
-    source_policy:
-      official_required: true
-      allowed_authorities:
-      - official
-      min_confidence: high
-    boundary:
-      shared_infrastructure_allowed: false
+
   mi-cloud:
     display_name: Mi Cloud
     ecosystem: xiaomi
