@@ -13,6 +13,17 @@ import yaml
 COLLECTION_RAW_ROOT = "https://raw.githubusercontent.com/cn-wanmei/Popular-Rules-Collection"
 
 
+def _collection_api_headers() -> dict[str, str]:
+    headers = {
+        "User-Agent": "Popular-Rules-Source/3.x",
+        "Accept": "application/vnd.github+json",
+    }
+    token = os.getenv("GITHUB_TOKEN") or os.getenv("GH_TOKEN")
+    if token:
+        headers["Authorization"] = f"Bearer {token}"
+    return headers
+
+
 def _canonical_service_id(value: object) -> str:
     normalized = unicodedata.normalize("NFKC", str(value)).strip().lower()
     return re.sub(r"[^a-z0-9]+", "", normalized)
@@ -32,10 +43,7 @@ def _get_collection_yaml(path: str, ref: str, timeout: int = 20) -> dict:
         f"https://api.github.com/repos/cn-wanmei/Popular-Rules-Collection/contents/{path}",
         params={"ref": ref},
         timeout=timeout,
-        headers={
-            "User-Agent": "Popular-Rules-Source/3.x",
-            "Accept": "application/vnd.github+json",
-        },
+        headers=_collection_api_headers(),
     )
     response.raise_for_status()
     payload = response.json()
