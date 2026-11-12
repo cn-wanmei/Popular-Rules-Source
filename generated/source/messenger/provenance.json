@@ -52,29 +52,28 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 1.25,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "0eb30681c0a93f4348772629f04d22348115fcbbd4ac0a18664271ef31d0343d",
-  "created_at": "2026-11-12T17:14:27.969714+00:00",
+  "created_at": "2026-11-12T18:06:34.654167+00:00",
   "domain_count": 5,
   "domain_diff": {
-    "added": [
-      "www.messenger.com"
-    ],
-    "added_count": 1,
+    "added": [],
+    "added_count": 0,
     "current_count": 5,
-    "previous_count": 4,
+    "previous_count": 5,
     "removed": [],
     "removed_count": 0,
     "unchanged": [
       "fbmessenger.com",
       "m.me",
       "messenger.com",
-      "nbabot.net"
+      "nbabot.net",
+      "www.messenger.com"
     ],
-    "unchanged_count": 4
+    "unchanged_count": 5
   },
   "domains": [
     "fbmessenger.com",
@@ -93,7 +92,7 @@
       "evidence_id": "EV-messenger-001-0a9533674f6d",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://messenger.com/",
-      "retrieved_at": "1794503618393973526",
+      "retrieved_at": "1794506743986184302",
       "service_id": "messenger",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -109,7 +108,7 @@
       "evidence_id": "EV-messenger-002-230d53d14bed",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/messenger.list",
-      "retrieved_at": "2026-11-12T17:14:27.918599+00:00",
+      "retrieved_at": "2026-11-12T18:06:34.601257+00:00",
       "service_id": "messenger",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -119,15 +118,15 @@
     }
   ],
   "evidence_digest": "9085995020bb737b26cc9e9528ed494a96265387e3da5d0894b53501f2543c0f",
-  "generator_digest": "2024d61f9fa6a103d74a639eb2458bd2e1362fc7a688c580272e4a9862335bf8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 1,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "d7b7ba2a4a2b53662747b88d1cfc4cd6d4468fc91eafede852f77d0bfaebf1d3",
-  "previous_domain_count": 4,
-  "release_digest": "b35ee148b697ed694d1cc4136dccf6401365b8743a13673829af0bc150250b45",
+  "previous_domain_count": 5,
+  "release_digest": "d2f21d75a47938816b817a7e7a68923c4da58c2a846bbb2da127de3335db4c1d",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -135,7 +134,7 @@
   "service_config_digest": "559b978dc53a5a5bd7586441435345a2da2015177f2bbb929dd2df4636aae9be",
   "service_id": "messenger",
   "snapshot_content_sha256": "0eb30681c0a93f4348772629f04d22348115fcbbd4ac0a18664271ef31d0343d",
-  "snapshot_id": "snap-messenger-b35ee148b697ed694d1cc413",
+  "snapshot_id": "snap-messenger-d2f21d75a47938816b817a7e",
   "source_bindings": [
     {
       "adapter": "self_built",
