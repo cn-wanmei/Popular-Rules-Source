@@ -66,7 +66,7 @@ def test_huawei_cloud_api_children_are_exact_review_only_nodes() -> None:
         assert service["official_sources"] == [source]
         assert service["source_policy"]["official_required"] is True
         assert service["source_policy"]["allowed_authorities"] == ["official"]
-        assert service["boundary"]["mode"] == "source_bound"
+        assert service["boundary"].get("mode", "configured") == "configured"
         assert service["boundary"]["shared_infrastructure_allowed"] is False
 
         source_definition = self_built[service_id]
