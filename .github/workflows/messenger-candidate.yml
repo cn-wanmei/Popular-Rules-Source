@@ -1,0 +1,183 @@
+name: Messenger Candidate Refresh
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/messenger-candidate.yml"
+      - "config/services.yaml"
+      - "config/source_adapters.yaml"
+      - "self_built/messenger/**"
+      - "source_engine/adapters.py"
+      - "source_engine/build.py"
+
+concurrency:
+  group: messenger-candidate-refresh
+  cancel-in-progress: false
+
+jobs:
+  candidate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: "3.12"
+
+      - name: Install locked dependencies
+        run: python -m pip install -r requirements.lock
+
+      - name: Validate Source configuration
+        run: python -m source_engine validate
+
+      - name: Preserve prior Messenger boundary
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("generated/source/messenger/provenance.json")
+          if not path.is_file():
+              raise SystemExit("existing Messenger provenance is required for a bounded candidate refresh")
+          previous = json.loads(path.read_text(encoding="utf-8"))
+          domains = sorted(set(previous.get("domains") or []))
+          if not domains:
+              raise SystemExit("existing Messenger domain boundary is empty; stop for manual review")
+          Path("messenger-previous-domains.json").write_text(
+              json.dumps(domains, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8",
+          )
+          PY
+
+      - name: Generate Messenger candidate only
+        run: python -m source_engine generate --service messenger --allow-blocked > messenger-generation.log
+
+      - name: Verify official evidence and exact domain delta
+        id: verify
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          import os
+          from pathlib import Path
+
+          manifest_path = Path("generated/source/messenger/provenance.json")
+          if not manifest_path.is_file():
+              raise SystemExit("generated Messenger provenance is missing")
+          manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+          previous = set(json.loads(Path("messenger-previous-domains.json").read_text(encoding="utf-8")))
+          domains = set(manifest.get("domains") or [])
+          added = sorted(domains - previous)
+          removed = sorted(previous - domains)
+
+          if manifest.get("service_id") != "messenger":
+              raise SystemExit("generated service_id mismatch")
+          if manifest.get("release_state") != "CANDIDATE":
+              raise SystemExit(f"Messenger must remain candidate-only, got {manifest.get('release_state')}")
+          policy = manifest.get("source_policy") or {}
+          if policy.get("official_required") is not True:
+              raise SystemExit("Messenger official_required must remain true")
+          if "official" not in (policy.get("allowed_authorities") or []):
+              raise SystemExit("Messenger official authority is not allowed")
+          if int(manifest.get("official_extracted") or 0) < 1:
+              raise SystemExit("Messenger official extraction count is zero")
+
+          official = [
+              item for item in (manifest.get("evidence") or [])
+              if item.get("authority") == "official"
+              and item.get("status") == "verified"
+              and item.get("source_url") == "https://www.messenger.com/"
+              and int(item.get("domains_extracted") or 0) >= 1
+          ]
+          if not official:
+              raise SystemExit("no verified official www.messenger.com evidence record")
+          assets = {
+              item.get("value"): item
+              for item in (manifest.get("assets") or [])
+              if item.get("type") == "domain"
+          }
+          official_ids = {item.get("evidence_id") for item in official}
+          if "www.messenger.com" not in domains:
+              raise SystemExit("www.messenger.com missing from candidate domains")
+          if not (set(assets.get("www.messenger.com", {}).get("evidence_ids") or []) & official_ids):
+              raise SystemExit("www.messenger.com has no link to the verified official evidence record")
+          if added != ["www.messenger.com"]:
+              raise SystemExit(f"unexpected Messenger domain additions: {added}")
+          if removed:
+              raise SystemExit(f"Messenger candidate unexpectedly removed existing domains: {removed}")
+
+          snapshot_id = str(manifest.get("snapshot_id") or "")
+          if not snapshot_id:
+              raise SystemExit("snapshot_id missing")
+          snapshot = Path("snapshots") / snapshot_id
+          for name in ("domains.txt", "provenance.json", "manifest.json", "checksums.json"):
+              if not (snapshot / name).is_file():
+                  raise SystemExit(f"snapshot artifact missing: {snapshot / name}")
+          if json.loads((snapshot / "manifest.json").read_text(encoding="utf-8")) != manifest:
+              raise SystemExit("snapshot manifest and generated provenance differ")
+
+          summary = {
+              "service_id": "messenger",
+              "snapshot_id": snapshot_id,
+              "release_state": manifest.get("release_state"),
+              "official_extracted": manifest.get("official_extracted"),
+              "official_source_count": manifest.get("official_source_count"),
+              "domain_count": len(domains),
+              "added": added,
+              "removed": removed,
+              "official_evidence_ids": sorted(official_ids),
+              "lifecycle_change": False,
+              "durable_release_created": False,
+              "collection_binding_created": False,
+          }
+          Path("messenger-candidate-summary.json").write_text(
+              json.dumps(summary, ensure_ascii=False, indent=2) + "\n",
+              encoding="utf-8",
+          )
+          with open(os.environ["GITHUB_OUTPUT"], "a", encoding="utf-8") as fh:
+              fh.write(f"snapshot_id={snapshot_id}\n")
+          print(json.dumps(summary, ensure_ascii=False, indent=2))
+          PY
+
+      - name: Validate snapshot schema
+        run: python -m source_engine schema-validate
+
+      - name: Create Messenger candidate review PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          BRANCH="automation/messenger-candidate-${GITHUB_RUN_ID}"
+          git checkout -b "$BRANCH"
+          git add "generated/source/messenger" "snapshots/${{ steps.verify.outputs.snapshot_id }}"
+          if git diff --cached --quiet; then
+            echo "No Messenger candidate changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore(source): materialize Messenger official candidate"
+          git push --set-upstream origin "$BRANCH"
+          gh pr create \
+            --base main \
+            --head "$BRANCH" \
+            --title "chore(source): materialize Messenger official candidate" \
+            --body "Targeted Messenger candidate materialization. CI requires verified official evidence from https://www.messenger.com/ and exactly one added domain (www.messenger.com), with no removals. This PR changes only generated Messenger candidate provenance and its immutable snapshot files. It does not change lifecycle state, Durable Release policy, or Collection bindings."
+
+      - name: Upload candidate verification
+        if: always()
+        uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
+        with:
+          name: messenger-candidate-${{ github.run_id }}
+          path: |
+            messenger-candidate-summary.json
+            messenger-generation.log
+          if-no-files-found: ignore

@@ -10,9 +10,11 @@ on:
       - "config/source_canary_state.yaml"
       - "docs/**"
       - ".github/workflows/**"
-      # Candidate-only Cloudflare artifacts must not trigger a Durable Seal.
+      # Candidate-only service artifacts must not trigger a Durable Seal.
       - "generated/source/cloudflare/**"
       - "snapshots/snap-cloudflare-*/**"
+      - "generated/source/messenger/**"
+      - "snapshots/snap-messenger-*/**"
       - "tests/**"
   workflow_dispatch:
     inputs:
