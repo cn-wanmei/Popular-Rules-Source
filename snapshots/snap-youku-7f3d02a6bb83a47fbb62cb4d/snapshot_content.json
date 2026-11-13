@@ -1,0 +1,13 @@
+{
+  "content_digest": "8d01b9742072141d7800a1eeef511ff00c0bfa6bfabe27ef7edcd80ecb082b44",
+  "domains": [
+    "www.youku.com",
+    "youku.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "youku",
+  "source_hashes": [
+    "65d56684ce1d230e0c457f03b4473a2e950dc11f6e3a56cc961c55a8330d0a57"
+  ]
+}

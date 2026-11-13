@@ -127,7 +127,7 @@
     "status": "OK"
   },
   "content_digest": "b35d38a44b2feef82aec6fe7b46ce7096ab380fab0bb3d94674ac54933192860",
-  "created_at": "2026-09-27T01:41:25.169419+00:00",
+  "created_at": "2026-11-13T09:36:38.785879+00:00",
   "domain_count": 12,
   "domain_diff": {
     "added": [],
@@ -176,7 +176,7 @@
       "evidence_id": "EV-alibabacloud-001-3ade01da88be",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/alibabacloud.list",
-      "retrieved_at": "2026-09-27T01:41:25.140263+00:00",
+      "retrieved_at": "2026-11-13T09:36:38.733976+00:00",
       "service_id": "alibabacloud",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -186,7 +186,7 @@
     }
   ],
   "evidence_digest": "e83a1ac708e9ae0095ffb66e845c5310dd8ef5511495b378b5fbb5bed92d75ac",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 0,
@@ -194,7 +194,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
   "previous_domain_count": 12,
-  "release_digest": "c121379a018839c4e2c1ad91f04b0815d732c5a90bacf7f0cd74ce026f466a37",
+  "release_digest": "3912e47a92c363340b8e4c7ba94a707eb89a51fc2644af895d5d226fc0e065c1",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -202,7 +202,7 @@
   "service_config_digest": "4ae863ecc340d6e8871ed27937b89ef859fb64c8142a2425a6f4aa127f6bfff7",
   "service_id": "alibabacloud",
   "snapshot_content_sha256": "b35d38a44b2feef82aec6fe7b46ce7096ab380fab0bb3d94674ac54933192860",
-  "snapshot_id": "snap-alibabacloud-c121379a018839c4e2c1ad91",
+  "snapshot_id": "snap-alibabacloud-3912e47a92c363340b8e4c7b",
   "source_bindings": [
     {
       "adapter": "upstream_rule",

@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:51139b322a5d562d61c5d35006b793dfd6a43a2acede8ccfe233ac97fbeb41ae",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-google-news-001-7e1ab1768cfb"
+      ],
+      "service_id": "google-news",
+      "type": "domain",
+      "value": "news.google.com"
+    }
+  ],
+  "content_digest": "3a6a5246e34e99f3db3120fb25c63947c2bbc055ca0a5442c5eb6c7a4f8bffb0",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "7e1ab1768cfbc67765f61cacf134f76da365b22b93c09e911de48a481e4b152d",
+      "domains_extracted": 1,
+      "evidence_id": "EV-google-news-001-7e1ab1768cfb",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://news.google.com/",
+      "retrieved_at": "1794562530591705736",
+      "service_id": "google-news",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://news.google.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "dc964975e22d0c08e839ac203c15bce40dd85e0f1324ca4591369bbede7f69c8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "policy_digest": "6c48938be64cdf846d6a3dda3f3b1836c793f94fbd264de66f8499752affd8ce",
+  "release_digest": "3d4bc4c7e0d6a79cac201e3c055dbb14ad818302085445f6080e449e85eb4626",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "google-news",
+  "snapshot_id": "snap-google-news-3d4bc4c7e0d6a79cac201e3c",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

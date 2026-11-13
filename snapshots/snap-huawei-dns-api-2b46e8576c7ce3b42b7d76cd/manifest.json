@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:a3e9401d717e010bdce13a4980fbeed1a216a89240bdba9f31f00e099ac124a7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-huawei-dns-api-001-39f6c0b59a61"
+      ],
+      "service_id": "huawei-dns-api",
+      "type": "domain",
+      "value": "dns.cn-south-1.myhuaweicloud.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "6d5fbd40899b2dd72909d143de1837271a6c3f7a80d64dcda27ad6b749b4f821",
+  "created_at": "2026-11-13T09:37:46.844818+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "dns.cn-south-1.myhuaweicloud.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "dns.cn-south-1.myhuaweicloud.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "39f6c0b59a61d0df4fd35121879eec0e75002b8e9787a464231025f388e28649",
+      "domains_extracted": 1,
+      "evidence_id": "EV-huawei-dns-api-001-39f6c0b59a61",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html",
+      "retrieved_at": "1794562530592705737",
+      "service_id": "huawei-dns-api",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "7df0336b310e9de854ee077a005781055663788e3d240972a6ad8ce90118fe8e",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "77224559660408c2a1e68986dc850869cd5c215b3d611aa2c38555ed1328d271",
+  "previous_domain_count": 0,
+  "release_digest": "2b46e8576c7ce3b42b7d76cdf27e40566f99ded134ed4ce2a277f24cdb9979cb",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "8f716912d447d81f39cd1be89027d4c0065998f28141a8a9d7e42df5bc3ff860",
+  "service_id": "huawei-dns-api",
+  "snapshot_content_sha256": "6d5fbd40899b2dd72909d143de1837271a6c3f7a80d64dcda27ad6b749b4f821",
+  "snapshot_id": "snap-huawei-dns-api-2b46e8576c7ce3b42b7d76cd",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

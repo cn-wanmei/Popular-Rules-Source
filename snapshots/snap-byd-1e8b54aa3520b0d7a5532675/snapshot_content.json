@@ -1,0 +1,13 @@
+{
+  "content_digest": "3624b6a4a3762ed18baae8a40df62e99232f5de285fa381a97004d22992db251",
+  "domains": [
+    "byd.com",
+    "www.byd.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "byd",
+  "source_hashes": [
+    "b7ab89ae7096aef5af3b1bd57c96ad5a50ef60964dcc7b62173309d1652b3ae2"
+  ]
+}

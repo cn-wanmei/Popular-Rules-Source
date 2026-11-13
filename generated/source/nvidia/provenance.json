@@ -35,26 +35,26 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "40d41897aca8c777eb9128f6281946b10808315a72cdcccad211aea0dd9ffcda",
-  "created_at": "2026-09-27T08:17:28.445458+00:00",
+  "created_at": "2026-11-13T09:38:20.786786+00:00",
   "domain_count": 3,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 3,
+    "previous_count": 3,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "developer.nvidia.com",
       "nvidia.com",
       "www.nvidia.com"
     ],
-    "added_count": 3,
-    "current_count": 3,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 3
   },
   "domains": [
     "developer.nvidia.com",
@@ -71,7 +71,7 @@
       "evidence_id": "EV-nvidia-001-240905362b72",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.nvidia.com/",
-      "retrieved_at": "1790497011626668805",
+      "retrieved_at": "1794562530595705740",
       "service_id": "nvidia",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -87,7 +87,7 @@
       "evidence_id": "EV-nvidia-002-240905362b72",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.nvidia.com/",
-      "retrieved_at": "1790497011626668805",
+      "retrieved_at": "1794562530595705740",
       "service_id": "nvidia",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -97,15 +97,15 @@
     }
   ],
   "evidence_digest": "83a12b721dfee95d4d5204b6c3096c52065efb3d8ef654edc669897722bdec4c",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 6,
   "official_source_count": 2,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "9cf6eb7811cbfaf3921668b491bd50a6933c2093131a9615e385363453f92821",
-  "previous_domain_count": 0,
-  "release_digest": "a6059abb14e07ee76462cbe5a44a445c26142e9c9f3de68af31148033845530a",
+  "previous_domain_count": 3,
+  "release_digest": "c7304a150236482662b361e14a239b9380cf48fe74017f86f56145630e4a3f87",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -113,7 +113,7 @@
   "service_config_digest": "963b4c74a9d8919a6db833b840cd2528ab21a4684fe9f6c48245a3085d13ad88",
   "service_id": "nvidia",
   "snapshot_content_sha256": "40d41897aca8c777eb9128f6281946b10808315a72cdcccad211aea0dd9ffcda",
-  "snapshot_id": "snap-nvidia-a6059abb14e07ee76462cbe5",
+  "snapshot_id": "snap-nvidia-c7304a150236482662b361e1",
   "source_bindings": [
     {
       "adapter": null,

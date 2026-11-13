@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "f68fc8d4a428d6a25f5c5a285e20085abaa6badca441eb760b6cb10357fe884e",
-  "created_at": "2026-09-27T10:05:15.341626+00:00",
+  "created_at": "2026-11-13T09:36:49.431419+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "asml.com",
       "www.asml.com"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "asml.com",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-asml-001-e47eb0932bca",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.asml.com/",
-      "retrieved_at": "1790503479730337913",
+      "retrieved_at": "1794562530590034239",
       "service_id": "asml",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "46531ec51effa7277a37cab258bed026f24d91a0bb94eb2ad96d063334e6f89b",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "66f391fc2a3fc3e9e8c40bc9d4745ec403b66a2b5013105996c9584aac53470e",
-  "previous_domain_count": 0,
-  "release_digest": "5c02ccc337a824804f8d06c3aa6845f0cb2ee425584b629214e9a547bffd7a5a",
+  "previous_domain_count": 2,
+  "release_digest": "b0c3b0d749f9eb721a8d7e88ab0b6f07bbac44a8b182075f982a3730c7c0dec6",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "d3cc8e39e0ef8755235a25397dea7627f4bb0f10a8d7b81e377864d171926f9d",
   "service_id": "asml",
   "snapshot_content_sha256": "f68fc8d4a428d6a25f5c5a285e20085abaa6badca441eb760b6cb10357fe884e",
-  "snapshot_id": "snap-asml-5c02ccc337a824804f8d06c3",
+  "snapshot_id": "snap-asml-b0c3b0d749f9eb721a8d7e88",
   "source_bindings": [
     {
       "adapter": null,

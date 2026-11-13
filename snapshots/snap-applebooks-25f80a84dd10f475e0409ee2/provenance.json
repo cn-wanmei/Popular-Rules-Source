@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:5c2416e1b2502396a1708ff8a4b3fec0fb812b1fc5bf37f0f5fa145d998e0f83",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-applebooks-001-cd0cf11601df"
+      ],
+      "service_id": "applebooks",
+      "type": "domain",
+      "value": "books.apple.com"
+    }
+  ],
+  "content_digest": "1375d4894afd9702f8647848ffff9196b28ae8ade946c4c6925b5fac13025b7c",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "cd0cf11601df064b5a69c6f80d30fdff770372d65853b1ea5395161e8d4bc356",
+      "domains_extracted": 1,
+      "evidence_id": "EV-applebooks-001-cd0cf11601df",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://books.apple.com/",
+      "retrieved_at": "1794562530590034239",
+      "service_id": "applebooks",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://books.apple.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "e6be5312422616aaa44454045cb387f03c3a0a67c24ce49e8b1e0e65c82b1fb4",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "policy_digest": "f79305c08136d8b618f97c7d38a4a1556222dc744841124b0e553c0ccb0bf9b5",
+  "release_digest": "25f80a84dd10f475e0409ee2092f10b5b69fbf89eb33a88106b8442ba6b4b470",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "applebooks",
+  "snapshot_id": "snap-applebooks-25f80a84dd10f475e0409ee2",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "content_digest": "1e026d4ed5123fa2248b25786b17f8219520ce89c68ee8059a80adbf83a31e9d",
+  "domains": [
+    "hikvision.com",
+    "www.hikvision.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "hikvision",
+  "source_hashes": [
+    "409725bd301b665bbf924a495e760afae38cc62ec743870f5eb29a50254bcb7d"
+  ]
+}

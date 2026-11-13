@@ -1,0 +1,13 @@
+{
+  "content_digest": "ba2de36afd4738a576f5e9338b6279f4c359512bbe3567b30f9f8c003982c7bf",
+  "domains": [
+    "intuit.com",
+    "www.intuit.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "intuit",
+  "source_hashes": [
+    "b85df340b02d6f4a2236c5f48bba6353700b8ea38c45c24ac00f455d0bd5d83e"
+  ]
+}

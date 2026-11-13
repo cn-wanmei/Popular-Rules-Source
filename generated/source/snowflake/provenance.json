@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "d93b12855f0fa139e596f9c81ad671e02aeb2c026182595b8ff2fd51d15c5275",
-  "created_at": "2026-09-27T08:20:25.145776+00:00",
+  "created_at": "2026-11-13T09:38:45.836665+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "snowflake.com",
       "www.snowflake.com"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "snowflake.com",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-snowflake-001-a742fa509d08",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.snowflake.com/",
-      "retrieved_at": "1790497170900459396",
+      "retrieved_at": "1794562530597705741",
       "service_id": "snowflake",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "359989f2b77f3cf130dbb761efbfbe35b215747d35e1a7d3d2ef621875d7b332",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "fbd6f91ffb2fe55d024ee8555ac116ca1ae42248efa8700810157a6daa262958",
-  "previous_domain_count": 0,
-  "release_digest": "5e58fc10ac5e533519bfa88cc59893e1c2a0cf385ad7bb12f9885c1ae7ad614c",
+  "previous_domain_count": 2,
+  "release_digest": "ec35b290f8153871fbc5461591f2393e52190decbff0a8d1a5cc84ac8f89abdc",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "25daa3fa20a68a55dcb069c70dbac6c23714726a96445343f8e0b8bb2f1586ad",
   "service_id": "snowflake",
   "snapshot_content_sha256": "d93b12855f0fa139e596f9c81ad671e02aeb2c026182595b8ff2fd51d15c5275",
-  "snapshot_id": "snap-snowflake-5e58fc10ac5e533519bfa88c",
+  "snapshot_id": "snap-snowflake-ec35b290f8153871fbc54615",
   "source_bindings": [
     {
       "adapter": null,

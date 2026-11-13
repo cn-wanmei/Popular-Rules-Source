@@ -37,7 +37,7 @@
     "status": "OK"
   },
   "content_digest": "04999f1cbf3cd882e18ebd164db57158b7e21cfb3aa90a9d9dc269cfabac0225",
-  "created_at": "2026-09-26T12:09:01.034788+00:00",
+  "created_at": "2026-11-13T09:37:05.314360+00:00",
   "domain_count": 3,
   "domain_diff": {
     "added": [],
@@ -68,7 +68,7 @@
       "evidence_id": "EV-claude-001-870e7e25d798",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Claude/Claude.list",
-      "retrieved_at": "2026-09-26T12:09:01.010808+00:00",
+      "retrieved_at": "2026-11-13T09:37:05.259427+00:00",
       "service_id": "claude",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -78,7 +78,7 @@
     }
   ],
   "evidence_digest": "ea7639cfcc66e8f5f89ab1df1720ce28bdc0e08dbca3d2583b4af09b84322ac3",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 0,
@@ -86,7 +86,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
   "previous_domain_count": 3,
-  "release_digest": "4aec84cea09e5629117513fa51ecb98470aae41507b58947595a4af2e089cb27",
+  "release_digest": "5182b55dc33e71a1e4b9b1fb8534f787303b245d1ca93a72740fbd89351b2999",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -94,7 +94,7 @@
   "service_config_digest": "726a7db5e91921bbbe0a8ab19e5a15e957c5228e9f508d19cdbade8c85be438b",
   "service_id": "claude",
   "snapshot_content_sha256": "04999f1cbf3cd882e18ebd164db57158b7e21cfb3aa90a9d9dc269cfabac0225",
-  "snapshot_id": "snap-claude-4aec84cea09e5629117513fa",
+  "snapshot_id": "snap-claude-5182b55dc33e71a1e4b9b1fb",
   "source_bindings": [
     {
       "adapter": "upstream_rule",

@@ -1,0 +1,2 @@
+obs.cn-north-4.myhuaweicloud.com
+obs.cn-south-1.myhuaweicloud.com

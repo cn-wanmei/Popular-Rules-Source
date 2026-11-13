@@ -1,0 +1,13 @@
+{
+  "content_digest": "b43dc0efedb5d854afdb2a7ed52fe91fad52a90529febcdd281f1b9098188ffa",
+  "domains": [
+    "lamresearch.com",
+    "www.lamresearch.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "lamresearch",
+  "source_hashes": [
+    "428903485541cec940092b31d7c110fd51b6efc11ee6e398edc68a98d123eab3"
+  ]
+}

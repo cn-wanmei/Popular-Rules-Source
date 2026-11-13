@@ -1,0 +1,13 @@
+{
+  "content_digest": "f754f429c7f7c62fc4afd1bbe0d03925db373b952576fe589418673e1ec683b4",
+  "domains": [
+    "cisco.com",
+    "www.cisco.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "cisco",
+  "source_hashes": [
+    "eeed6b843744f1a2eb1d568d58873535b7db92abc083e50610ef19ae4d1bb048"
+  ]
+}

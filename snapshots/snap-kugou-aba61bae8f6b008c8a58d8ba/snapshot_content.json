@@ -1,0 +1,12 @@
+{
+  "content_digest": "b146f59645644fea37bc3f0b14940a03c8dbad2fa9639af34f846363041a19fd",
+  "domains": [
+    "www.kugou.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "kugou",
+  "source_hashes": [
+    "c5ffb95b6a8349c8f134848a472f233d67113e4e5a3720d676d66454c34ba840"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:40726b06d9d38aeff935805930358f937f607c06e15a5c388f9c201b0811006d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baichuan-001-04a2359fe2c7"
+      ],
+      "service_id": "baichuan",
+      "type": "domain",
+      "value": "baichuan-ai.com"
+    },
+    {
+      "asset_id": "sha256:56b6d787845312384d6fde101fc32623870d06a0ef4902378ab5f2bd028fc568",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baichuan-001-04a2359fe2c7"
+      ],
+      "service_id": "baichuan",
+      "type": "domain",
+      "value": "www.baichuan-ai.com"
+    }
+  ],
+  "content_digest": "9707037f1c7ba2b771695858b474a4170600380069a9bbbb49e98251b6096b19",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "04a2359fe2c76576d594612b0b9de4dad659b98baf7e3fe8735b888f6a150243",
+      "domains_extracted": 2,
+      "evidence_id": "EV-baichuan-001-04a2359fe2c7",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.baichuan-ai.com/",
+      "retrieved_at": "1794562530590034239",
+      "service_id": "baichuan",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.baichuan-ai.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "e5e4f810589cc1e85af35f618762d062cf1c53365a974dea36118b7a43a02cb8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "policy_digest": "484ce5da285698175d37871890ed8207508771ffc4b4930bb2926af66d100d6c",
+  "release_digest": "5ee902a02a577eabe2e32e2dce3536dcebf7d213d11bfe863e5ad9f50f893136",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "baichuan",
+  "snapshot_id": "snap-baichuan-5ee902a02a577eabe2e32e2d",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

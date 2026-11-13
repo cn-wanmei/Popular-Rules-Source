@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:26cfb95bae6a90352489f99f7949b920d683e08d0a07a41b33e7f338a4bd0f90",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-huawei-ims-api-001-4e121e61babd"
+      ],
+      "service_id": "huawei-ims-api",
+      "type": "domain",
+      "value": "ims.cn-south-1.myhuaweicloud.com"
+    }
+  ],
+  "content_digest": "d3bcc60b367d3d95b5161847edda9efa0b2e57a6eb7e56040afcc487f3b0b26f",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "4e121e61babddd7f6a6ccf16b72a51a46dba0c2b68e6d146e7816311c18176c9",
+      "domains_extracted": 1,
+      "evidence_id": "EV-huawei-ims-api-001-4e121e61babd",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://support.huaweicloud.com/tg-mgc/tg-mgc-pdf.pdf",
+      "retrieved_at": "1794562530592705737",
+      "service_id": "huawei-ims-api",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://support.huaweicloud.com/tg-mgc/tg-mgc-pdf.pdf",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "92bde43a6930e75e6cb31497576ef192851f5e4e3ba1d1d41d62e63b785c6b0f",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "policy_digest": "9309f578ce33632efbd4ce5a9980116acaab946379198ded0f3f607ad933be5d",
+  "release_digest": "59ac93d9740ca409517ea1db6f90528dd3c2792d03e2b3dedcc007b1e8448846",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "huawei-ims-api",
+  "snapshot_id": "snap-huawei-ims-api-59ac93d9740ca409517ea1db",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

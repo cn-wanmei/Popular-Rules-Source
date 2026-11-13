@@ -1,0 +1,12 @@
+{
+  "content_digest": "8a428c33fa4e493e80018976b613689c3f64854c207082a058a0593b53a1c01a",
+  "domains": [
+    "dashboard.stripe.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "stripe-dashboard",
+  "source_hashes": [
+    "20e2ed1bce1f103206c28d04dbc2e04cd47459d1f68a3187635235ed1332c421"
+  ]
+}

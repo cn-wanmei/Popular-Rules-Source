@@ -1,0 +1,13 @@
+{
+  "content_digest": "094040a7c4a3cdb7c213494e1c9e8ab9ba5422a5b849acb946e0366893343250",
+  "domains": [
+    "huolala.cn",
+    "www.huolala.cn"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "huolala",
+  "source_hashes": [
+    "b2c925ad9955ab69ac6b1977d255fa41f1a6979b15c0bab5f8d04bfbfccd45b4"
+  ]
+}

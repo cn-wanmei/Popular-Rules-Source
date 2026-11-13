@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:50688355bb5a7f2f68e50061a834535a0db9dafc2a76401e69d4fa02a8af9f24",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-coinbase-001-646cdddca335"
+      ],
+      "service_id": "coinbase",
+      "type": "domain",
+      "value": "coinbase.com"
+    },
+    {
+      "asset_id": "sha256:ca28db7a80fba61aa48ff50cb88d85b01c07ae6d4789eacd15c9cab7e954c478",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-coinbase-001-646cdddca335"
+      ],
+      "service_id": "coinbase",
+      "type": "domain",
+      "value": "www.coinbase.com"
+    }
+  ],
+  "content_digest": "ed8c68aa5fea5b60e2abf0f8c1a998e786a8e9cceda630b862afbf8a386491b9",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "646cdddca3350823e8e36a718020f79212cf7481a107ad2f4f9deec018f75e4c",
+      "domains_extracted": 2,
+      "evidence_id": "EV-coinbase-001-646cdddca335",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.coinbase.com/",
+      "retrieved_at": "1794562530590705735",
+      "service_id": "coinbase",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.coinbase.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "b1eb51325295036d76ce6fa2b7c6f1368854a1e44be78cabf2b236a8ec6bbc3b",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "policy_digest": "9ba48bf3edb163ec6c4eeab005a4429e0b5195db4304ec7c4c9c597ec243d9f8",
+  "release_digest": "13f77197cedcca2e36e68eae1c4b6ef1918083f945c07fe488dbf9a25f1e7866",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "coinbase",
+  "snapshot_id": "snap-coinbase-13f77197cedcca2e36e68eae",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

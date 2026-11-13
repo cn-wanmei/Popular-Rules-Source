@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:f81ca328ab85f71f2e683e9e286a4ecc23f572d5af7e1c2e6b79bbce0733df47",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baiduwenku-001-b2445130981b"
+      ],
+      "service_id": "baiduwenku",
+      "type": "domain",
+      "value": "wenku.baidu.com"
+    }
+  ],
+  "content_digest": "5710f9aa899f49d44ca2256a82722665f23c835d9635401f8ddbf879958ee627",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "b2445130981ba0149d21fa07d6208b0cab3c701b6d92086408fc2f50b1265893",
+      "domains_extracted": 1,
+      "evidence_id": "EV-baiduwenku-001-b2445130981b",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://wenku.baidu.com/",
+      "retrieved_at": "1794562530590034239",
+      "service_id": "baiduwenku",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://wenku.baidu.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "aa39c90bc62745272f4819cf81782191fe5a7ed258fc49d5bcf1e7090551b2af",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "policy_digest": "ce3be5a9950ad6a52e7bb0b7c721da2adebfd21c7e9fd704dbcdb781b9de233e",
+  "release_digest": "d59b3d62f6e7a314a3533d79539fd817acb8e4d45f19842058c27c58abc273ad",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "baiduwenku",
+  "snapshot_id": "snap-baiduwenku-d59b3d62f6e7a314a3533d79",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "ed8c68aa5fea5b60e2abf0f8c1a998e786a8e9cceda630b862afbf8a386491b9",
-  "created_at": "2026-09-27T08:19:23.938492+00:00",
+  "created_at": "2026-11-13T09:37:06.328569+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "coinbase.com",
       "www.coinbase.com"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "coinbase.com",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-coinbase-001-646cdddca335",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.coinbase.com/",
-      "retrieved_at": "1790497109590485372",
+      "retrieved_at": "1794562530590705735",
       "service_id": "coinbase",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "b1eb51325295036d76ce6fa2b7c6f1368854a1e44be78cabf2b236a8ec6bbc3b",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "9ba48bf3edb163ec6c4eeab005a4429e0b5195db4304ec7c4c9c597ec243d9f8",
-  "previous_domain_count": 0,
-  "release_digest": "428453f560b2b36a037ae4a8cfcda1cca878b182fafea25bf8f0a50cf55c0810",
+  "previous_domain_count": 2,
+  "release_digest": "13f77197cedcca2e36e68eae1c4b6ef1918083f945c07fe488dbf9a25f1e7866",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "4c687872bbff596e0b5c14a7f2359c79890400ec744e9e4eb20625352dfb3850",
   "service_id": "coinbase",
   "snapshot_content_sha256": "ed8c68aa5fea5b60e2abf0f8c1a998e786a8e9cceda630b862afbf8a386491b9",
-  "snapshot_id": "snap-coinbase-428453f560b2b36a037ae4a8",
+  "snapshot_id": "snap-coinbase-13f77197cedcca2e36e68eae",
   "source_bindings": [
     {
       "adapter": null,

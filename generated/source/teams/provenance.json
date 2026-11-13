@@ -47,7 +47,7 @@
     "status": "OK"
   },
   "content_digest": "563f80231062e824df9a8c2e25f3df58b2b8120acbf3a058f47ba235cb66ed9b",
-  "created_at": "2026-09-27T01:40:43.833947+00:00",
+  "created_at": "2026-11-13T09:38:52.228742+00:00",
   "domain_count": 4,
   "domain_diff": {
     "added": [],
@@ -80,7 +80,7 @@
       "evidence_id": "EV-teams-001-798202ddb4c4",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Teams/Teams.list",
-      "retrieved_at": "2026-09-27T01:40:43.809628+00:00",
+      "retrieved_at": "2026-11-13T09:38:52.166763+00:00",
       "service_id": "teams",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -90,7 +90,7 @@
     }
   ],
   "evidence_digest": "16d731ba94dd1cfe8d1b90856ff66611710a97a148d08c0571c7d446ad9f60f1",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 0,
@@ -98,7 +98,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "f0f808e56e88e0da4f8db37e1ead246b227749456bed82765fa4731fbe006932",
   "previous_domain_count": 4,
-  "release_digest": "b7790f52024c56ece9273ef3ca59958814d2c2aeadd57e165b086d6f59daa55f",
+  "release_digest": "5761037c8ba2131faf0a50b01a2772ea371b1ae36ffc25a53415968c041cbfd6",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -106,7 +106,7 @@
   "service_config_digest": "5c378c9342c54e9638f1c895605ebdee36d834d7407031d33b64decee9f539d1",
   "service_id": "teams",
   "snapshot_content_sha256": "563f80231062e824df9a8c2e25f3df58b2b8120acbf3a058f47ba235cb66ed9b",
-  "snapshot_id": "snap-teams-b7790f52024c56ece9273ef3",
+  "snapshot_id": "snap-teams-5761037c8ba2131faf0a50b0",
   "source_bindings": [
     {
       "adapter": "upstream_rule",

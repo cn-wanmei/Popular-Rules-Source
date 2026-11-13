@@ -12,24 +12,24 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "b146f59645644fea37bc3f0b14940a03c8dbad2fa9639af34f846363041a19fd",
-  "created_at": "2026-09-26T12:53:53.427229+00:00",
+  "created_at": "2026-11-13T09:37:59.320042+00:00",
   "domain_count": 1,
   "domain_diff": {
-    "added": [
-      "www.kugou.com"
-    ],
-    "added_count": 1,
+    "added": [],
+    "added_count": 0,
     "current_count": 1,
-    "previous_count": 0,
+    "previous_count": 1,
     "removed": [],
     "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged": [
+      "www.kugou.com"
+    ],
+    "unchanged_count": 1
   },
   "domains": [
     "www.kugou.com"
@@ -44,7 +44,7 @@
       "evidence_id": "EV-kugou-001-c5ffb95b6a83",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.kugou.com/",
-      "retrieved_at": "1790427215858339664",
+      "retrieved_at": "1794562530593705738",
       "service_id": "kugou",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -54,15 +54,15 @@
     }
   ],
   "evidence_digest": "1a6c580b3d16b8c583af46c5c5aac82eaed6ac790a4b27ed2bad69141956cc7d",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 1,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "26b4444e4e74c1b09b091cbf196a44ec4987a355b53aaa83fdc271d14a83f292",
-  "previous_domain_count": 0,
-  "release_digest": "bd7700e11c8ff2c07e7b9321fec93eec2cbb49bf08017295c65c64a50363c13d",
+  "previous_domain_count": 1,
+  "release_digest": "aba61bae8f6b008c8a58d8ba02392e7dc91fd86020122bcb6affaf2000409598",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -70,7 +70,7 @@
   "service_config_digest": "ca8cee0b7bd0f0e42548aeeadc95f82fd9faa21bac666be29d5636c7fe3b8f7f",
   "service_id": "kugou",
   "snapshot_content_sha256": "b146f59645644fea37bc3f0b14940a03c8dbad2fa9639af34f846363041a19fd",
-  "snapshot_id": "snap-kugou-bd7700e11c8ff2c07e7b9321",
+  "snapshot_id": "snap-kugou-aba61bae8f6b008c8a58d8ba",
   "source_bindings": [
     {
       "adapter": null,

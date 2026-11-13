@@ -1,0 +1,12 @@
+{
+  "content_digest": "ea2b64c6f4eeeb97268c1c94a2d47fe15f450a4a5747878df83dc7a40f18df00",
+  "domains": [
+    "firefly.adobe.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "adobe-firefly",
+  "source_hashes": [
+    "b8925dd765f2650eee2e6060ece06fdcfe86814204e589e0f69ecd3b8f1cd3a9"
+  ]
+}

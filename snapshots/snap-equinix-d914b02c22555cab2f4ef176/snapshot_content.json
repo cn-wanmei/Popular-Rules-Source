@@ -1,0 +1,13 @@
+{
+  "content_digest": "696298c942beab57909ca02a0c7120e34258dfe727e1edc20b6772a613d429a9",
+  "domains": [
+    "equinix.com",
+    "www.equinix.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "equinix",
+  "source_hashes": [
+    "07776f94054453ad79823cc5b7b5551239b3c5ac9433d6015dd001769e7224a8"
+  ]
+}

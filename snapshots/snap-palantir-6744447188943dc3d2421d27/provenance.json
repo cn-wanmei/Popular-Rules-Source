@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:40ce47aa5508b266a94dac442cb4e4e4f475fa5efcc96a75bf4f1ff836fe5e21",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-palantir-001-cf4a6bf1514a"
+      ],
+      "service_id": "palantir",
+      "type": "domain",
+      "value": "palantir.com"
+    },
+    {
+      "asset_id": "sha256:5dd106f9c170598234f5141a82f70f235f93628e77693640aaa61a88fe938d21",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-palantir-001-cf4a6bf1514a"
+      ],
+      "service_id": "palantir",
+      "type": "domain",
+      "value": "www.palantir.com"
+    }
+  ],
+  "content_digest": "4171d616ac177bac0477d8ad434fdef8aeb4afdc34f85c5d30735eb2b6046530",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "cf4a6bf1514aee06908f69134d637a4217c1a9984bb9cdc9bc128ce6e9c1bf07",
+      "domains_extracted": 2,
+      "evidence_id": "EV-palantir-001-cf4a6bf1514a",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.palantir.com/",
+      "retrieved_at": "1794562530595705740",
+      "service_id": "palantir",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.palantir.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "24d7f31a8cdc771ddb2513903d2cfeb3e14d82b99e9b961e697c4c97da9c3b09",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "policy_digest": "4db16fccd5355ca782f269b004bd23aa122d909bcf9e62b40e7b9f975ad311a2",
+  "release_digest": "6744447188943dc3d2421d27e7dcde7696cfd81b0439d08e4cbe19d7a6875c85",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "palantir",
+  "snapshot_id": "snap-palantir-6744447188943dc3d2421d27",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

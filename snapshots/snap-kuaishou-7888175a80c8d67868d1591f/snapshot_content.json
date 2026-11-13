@@ -1,0 +1,12 @@
+{
+  "content_digest": "63c8454cd0f525d41998fb9e7a8ac8a58a4e85315c4594c9b1ef210fd2eb7207",
+  "domains": [
+    "www.kuaishou.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "kuaishou",
+  "source_hashes": [
+    "ee4b5f2302448721fe05183d3597a7b8fe7deb37a6c441cb00193eb19333aba1"
+  ]
+}

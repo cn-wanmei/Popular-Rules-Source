@@ -1,0 +1,13 @@
+{
+  "content_digest": "025c5399b780bc500b5d949394f5066108b65117730b8e6f62646ac0c9346bb6",
+  "domains": [
+    "minimaxi.com",
+    "www.minimaxi.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "minimax",
+  "source_hashes": [
+    "21ba0877dbbffe060605333c3436e81922b640a04eb6a7f1d1eaabbbd8146003"
+  ]
+}

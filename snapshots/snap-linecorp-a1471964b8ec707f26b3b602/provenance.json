@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:58e16de1ccb852135e18924c82151a2287396ef33867051a0e01f056152016b3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-linecorp-001-fab42662bd3f"
+      ],
+      "service_id": "linecorp",
+      "type": "domain",
+      "value": "line.me"
+    },
+    {
+      "asset_id": "sha256:75798021118a0939bc220e6b94a93b9e5be381cba0012623fbdde42ffbb24dc5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-linecorp-001-fab42662bd3f"
+      ],
+      "service_id": "linecorp",
+      "type": "domain",
+      "value": "www.line.me"
+    }
+  ],
+  "content_digest": "fc49ad2cbf29715b83c969e4e0ce358aac34955014f04934072ba345f4e3909f",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "fab42662bd3f1645056b26f36c1ea554e95efb62787f43fad7f7e70867a60ae0",
+      "domains_extracted": 2,
+      "evidence_id": "EV-linecorp-001-fab42662bd3f",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://line.me/",
+      "retrieved_at": "1794562530594705739",
+      "service_id": "linecorp",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://line.me/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "d6da92546bf692088810617f3a7e3520e131473fe8f92686cea8bc1cd5e0242e",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "policy_digest": "25897348bbf172e63de4e793e85a55eca18c6ca60b40a9037f8a24e5d1ff634e",
+  "release_digest": "a1471964b8ec707f26b3b602863fe3de27c7464a0d1b41576371763042c54e15",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "linecorp",
+  "snapshot_id": "snap-linecorp-a1471964b8ec707f26b3b602",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

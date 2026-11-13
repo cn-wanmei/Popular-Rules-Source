@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:a3e9401d717e010bdce13a4980fbeed1a216a89240bdba9f31f00e099ac124a7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-huawei-dns-api-001-39f6c0b59a61"
+      ],
+      "service_id": "huawei-dns-api",
+      "type": "domain",
+      "value": "dns.cn-south-1.myhuaweicloud.com"
+    }
+  ],
+  "content_digest": "6d5fbd40899b2dd72909d143de1837271a6c3f7a80d64dcda27ad6b749b4f821",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "39f6c0b59a61d0df4fd35121879eec0e75002b8e9787a464231025f388e28649",
+      "domains_extracted": 1,
+      "evidence_id": "EV-huawei-dns-api-001-39f6c0b59a61",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html",
+      "retrieved_at": "1794562530592705737",
+      "service_id": "huawei-dns-api",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "7df0336b310e9de854ee077a005781055663788e3d240972a6ad8ce90118fe8e",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "policy_digest": "77224559660408c2a1e68986dc850869cd5c215b3d611aa2c38555ed1328d271",
+  "release_digest": "2b46e8576c7ce3b42b7d76cdf27e40566f99ded134ed4ce2a277f24cdb9979cb",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "huawei-dns-api",
+  "snapshot_id": "snap-huawei-dns-api-2b46e8576c7ce3b42b7d76cd",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

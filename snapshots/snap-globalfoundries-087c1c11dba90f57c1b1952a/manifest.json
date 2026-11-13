@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:7ce78f135809871636da1261b5a928e70a7948be7eb335380ab1435e5d5313ad",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-globalfoundries-001-4b74ee3fb922"
+      ],
+      "service_id": "globalfoundries",
+      "type": "domain",
+      "value": "gf.com"
+    },
+    {
+      "asset_id": "sha256:47b1af957b10cc1b64938c8cee29e599b42c4f7ec668e3f98c1e1ca411f39e14",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-globalfoundries-001-4b74ee3fb922"
+      ],
+      "service_id": "globalfoundries",
+      "type": "domain",
+      "value": "www.gf.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 1.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "3e4d3e8ad809aedb72da10262df691d8a719f89be847efa6d67c3116f83cdc30",
+  "created_at": "2026-11-13T09:37:26.140463+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
+      "gf.com",
+      "www.gf.com"
+    ],
+    "unchanged_count": 2
+  },
+  "domains": [
+    "gf.com",
+    "www.gf.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "4b74ee3fb922dc2a5437701d13fa36c74e866c1da3403548d55b315306d04db1",
+      "domains_extracted": 2,
+      "evidence_id": "EV-globalfoundries-001-4b74ee3fb922",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://gf.com/",
+      "retrieved_at": "1794562530591705736",
+      "service_id": "globalfoundries",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://gf.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "10344bb18a242042794b04391f7dba387b1c0131cc491c26716d706c67b8ae7b",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "d51be51b250f45a266521e21dee63ee543d00987eed01c0d7ac5dc4cfd52fc6e",
+  "previous_domain_count": 2,
+  "release_digest": "087c1c11dba90f57c1b1952a729bfce57ad256befcc43bd0a61fea0336e4bfd5",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "cd963339f418981f95c3e6264b545adc4adec24311c56aff95abf03595b44bac",
+  "service_id": "globalfoundries",
+  "snapshot_content_sha256": "3e4d3e8ad809aedb72da10262df691d8a719f89be847efa6d67c3116f83cdc30",
+  "snapshot_id": "snap-globalfoundries-087c1c11dba90f57c1b1952a",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://gf.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}
