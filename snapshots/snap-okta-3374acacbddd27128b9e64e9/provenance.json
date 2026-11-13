@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:62fc4b1599c6e08e5c9d7cf92e5f0ddaddd05d875e75a75fb94854a56da3dfbf",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-okta-001-fbce901eb6b7"
+      ],
+      "service_id": "okta",
+      "type": "domain",
+      "value": "okta.com"
+    },
+    {
+      "asset_id": "sha256:56f1eef0847628cc467064819cb0043e3f5a7272e684bac47cafc1a9fc8bbe27",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-okta-001-fbce901eb6b7"
+      ],
+      "service_id": "okta",
+      "type": "domain",
+      "value": "www.okta.com"
+    }
+  ],
+  "content_digest": "b80ec971641a7502e36cf8f835ea62a2a1f85af796b055a2025c58c1759e6692",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "fbce901eb6b7e3aa664b4efea2e12711155ef6b7a47e1e039eabe66091554afe",
+      "domains_extracted": 2,
+      "evidence_id": "EV-okta-001-fbce901eb6b7",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.okta.com/",
+      "retrieved_at": "1794562530595705740",
+      "service_id": "okta",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.okta.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "49240d0edde4515ba3f5a55b38e2962a97e5fc89613daea8f7b0bbdb68901e65",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "policy_digest": "2f4cd93215b6dd755e44f20ec05920ca9ea7e379ae1bdf401b3d4e36bdc688ab",
+  "release_digest": "3374acacbddd27128b9e64e9cf5a07fc6b9dd73b7140da06b87e83e0cb692743",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "okta",
+  "snapshot_id": "snap-okta-3374acacbddd27128b9e64e9",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

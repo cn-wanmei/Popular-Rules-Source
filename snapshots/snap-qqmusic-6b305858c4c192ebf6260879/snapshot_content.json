@@ -1,0 +1,12 @@
+{
+  "content_digest": "6fa3c128a8c14a735bda9ae14ae4c8879d5f2db025ff897bd31eb6cc588603dd",
+  "domains": [
+    "y.qq.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "qqmusic",
+  "source_hashes": [
+    "3ef42060a2e523ab25facb1adc9d470d29b6fc6fff3ff4d318388f4a03b7dc01"
+  ]
+}

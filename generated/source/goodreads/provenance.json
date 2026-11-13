@@ -12,24 +12,24 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "bcfc8b2ee8c69d2e45f6b301bd41aaaf881035e8600859cc66959253ccca3557",
-  "created_at": "2026-09-26T12:53:55.302198+00:00",
+  "created_at": "2026-11-13T09:37:27.171399+00:00",
   "domain_count": 1,
   "domain_diff": {
-    "added": [
-      "goodreads.com"
-    ],
-    "added_count": 1,
+    "added": [],
+    "added_count": 0,
     "current_count": 1,
-    "previous_count": 0,
+    "previous_count": 1,
     "removed": [],
     "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged": [
+      "goodreads.com"
+    ],
+    "unchanged_count": 1
   },
   "domains": [
     "goodreads.com"
@@ -44,7 +44,7 @@
       "evidence_id": "EV-goodreads-001-8264d7291e36",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.goodreads.com/",
-      "retrieved_at": "1790427215858054306",
+      "retrieved_at": "1794562530591705736",
       "service_id": "goodreads",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -54,15 +54,15 @@
     }
   ],
   "evidence_digest": "bead0542fe259b8a2c4dbf9a339eb93acbf84f7c2a1a1314ee5eb69d065ff9ac",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 1,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "684cb73e62101e2d04555e94ac138a7438fe5165508d2bb2c38b5acf72877112",
-  "previous_domain_count": 0,
-  "release_digest": "eb7a2c816de0efe942519ac898f39511249fc13dc45c94bd228221553248c7c5",
+  "previous_domain_count": 1,
+  "release_digest": "ccb0ced0803082c6addcf6987c863e5320d6c64204181b976feee3c86c08f529",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -70,7 +70,7 @@
   "service_config_digest": "c6fb2b7c79e6eccf4f0ef9506831555315acb5df613215f18d7fdb6a93dfe9cf",
   "service_id": "goodreads",
   "snapshot_content_sha256": "bcfc8b2ee8c69d2e45f6b301bd41aaaf881035e8600859cc66959253ccca3557",
-  "snapshot_id": "snap-goodreads-eb7a2c816de0efe942519ac8",
+  "snapshot_id": "snap-goodreads-ccb0ced0803082c6addcf698",
   "source_bindings": [
     {
       "adapter": null,

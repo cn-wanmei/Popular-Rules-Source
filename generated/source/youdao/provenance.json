@@ -157,7 +157,7 @@
     "status": "OK"
   },
   "content_digest": "382ab110a436aabb4b56e8331c900f84ec93837f7b5d312df68caeb81e9f8d22",
-  "created_at": "2026-09-26T12:09:41.942323+00:00",
+  "created_at": "2026-11-13T09:39:19.600791+00:00",
   "domain_count": 15,
   "domain_diff": {
     "added": [],
@@ -212,7 +212,7 @@
       "evidence_id": "EV-youdao-001-839bda45e67c",
       "parser_version": "domain-extractor-v4",
       "resolved_url": "https://www.youdao.com/",
-      "retrieved_at": "2026-09-26T12:09:41.911180+00:00",
+      "retrieved_at": "2026-11-13T09:39:19.513873+00:00",
       "service_id": "youdao",
       "source_method": "official_web",
       "source_type": "official_web",
@@ -222,7 +222,7 @@
     }
   ],
   "evidence_digest": "1904ca5f590cc5cf006e0e3d848017e8ba7dd1269c67a409beade223373921d4",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 15,
@@ -230,7 +230,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "661a62e8dbbc219a341bb0c0fd4caf76cbd8589235031aa71f355f4e45b7ee39",
   "previous_domain_count": 15,
-  "release_digest": "fc97f5d207d4c3358c6a4d6b43dc9acfc20f2520cc4dfdcba4b13fbd9c248a11",
+  "release_digest": "12241ed8825696da46e9dd056b7fd97bb31a7a2fa41ed111172f34f4ab85ed1b",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -238,7 +238,7 @@
   "service_config_digest": "5935a0fb5c755ea07c6e16a725bf3443506adb81c5003f3c40eeed093a910806",
   "service_id": "youdao",
   "snapshot_content_sha256": "382ab110a436aabb4b56e8331c900f84ec93837f7b5d312df68caeb81e9f8d22",
-  "snapshot_id": "snap-youdao-fc97f5d207d4c3358c6a4d6b",
+  "snapshot_id": "snap-youdao-12241ed8825696da46e9dd05",
   "source_bindings": [
     {
       "adapter": null,

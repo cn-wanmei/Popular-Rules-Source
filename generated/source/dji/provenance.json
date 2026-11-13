@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "56007cc1503a9db50a3d610b74fef3a75da3b59b0a4479596c077002212ad4a9",
-  "created_at": "2026-09-27T10:03:37.672796+00:00",
+  "created_at": "2026-11-13T09:37:14.292997+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "dji.com",
       "www.dji.com"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "dji.com",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-dji-001-8128d12f41b9",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.dji.com/",
-      "retrieved_at": "1790503352108944025",
+      "retrieved_at": "1794562530590705735",
       "service_id": "dji",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "a1e4bfb8f86e7c712a3f348f6be6698dbed1137241e1d22d039808cbcec85e76",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "4e92edbd4a2969c690f05e4a0b73ec372562d88945b540d8537c410a1e351e54",
-  "previous_domain_count": 0,
-  "release_digest": "91217fbce3ff00d9c9cf090e4b0562a9a08ecc23616ffc23f73e2cde9766affa",
+  "previous_domain_count": 2,
+  "release_digest": "f8401b0e0e6299d36213350858f75db9289f5ebd04c204d3c132c93e46bd600c",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "3853e450f64434607df9a94cbc887550df3c693c46c728875658d1db8750d86e",
   "service_id": "dji",
   "snapshot_content_sha256": "56007cc1503a9db50a3d610b74fef3a75da3b59b0a4479596c077002212ad4a9",
-  "snapshot_id": "snap-dji-91217fbce3ff00d9c9cf090e",
+  "snapshot_id": "snap-dji-f8401b0e0e6299d362133508",
   "source_bindings": [
     {
       "adapter": null,

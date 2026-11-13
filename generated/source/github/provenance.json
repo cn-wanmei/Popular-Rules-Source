@@ -297,7 +297,7 @@
     "status": "OK"
   },
   "content_digest": "6d44d4cdd5f3f22589b9b71299c03bf443224b0254a9718dec3ed89de42a837e",
-  "created_at": "2026-09-26T12:10:25.083471+00:00",
+  "created_at": "2026-11-13T09:37:25.632630+00:00",
   "domain_count": 29,
   "domain_diff": {
     "added": [],
@@ -380,7 +380,7 @@
       "evidence_id": "EV-github-001-ced8ab0ecda5",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/GitHub/GitHub.list",
-      "retrieved_at": "2026-09-26T12:10:25.071390+00:00",
+      "retrieved_at": "2026-11-13T09:37:25.576347+00:00",
       "service_id": "github",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -390,7 +390,7 @@
     }
   ],
   "evidence_digest": "7658ebd09e184e732f31edf701bb59747df1a0325edeff5fa958a45c5c022d49",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 0,
@@ -398,7 +398,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
   "previous_domain_count": 29,
-  "release_digest": "293b2b0db400e778bcfe88a7a86f5de7621a61239ac25bccb5d9ee1e2e414c05",
+  "release_digest": "6290bb47c60bbcd8aadcc550ca4caa14d3e2ce58a96a09afe083fc07d857ec42",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -406,7 +406,7 @@
   "service_config_digest": "ef705251116864dcfdbd91e29c7b469d4203d7bfa7c849015468b72c21ec0542",
   "service_id": "github",
   "snapshot_content_sha256": "6d44d4cdd5f3f22589b9b71299c03bf443224b0254a9718dec3ed89de42a837e",
-  "snapshot_id": "snap-github-293b2b0db400e778bcfe88a7",
+  "snapshot_id": "snap-github-6290bb47c60bbcd8aadcc550",
   "source_bindings": [
     {
       "adapter": "upstream_rule",

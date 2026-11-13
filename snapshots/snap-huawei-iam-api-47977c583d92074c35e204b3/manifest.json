@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:65e97e626773f9e8f0c49953fd9da47a9d14c1f9614674cd0c6b9ca6942e6782",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-huawei-iam-api-001-235105f24894"
+      ],
+      "service_id": "huawei-iam-api",
+      "type": "domain",
+      "value": "iam.myhuaweicloud.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "be2f9f31d57409565e2fe441bbf2e258c69ed64d4d0b2ee157634394565bf2b3",
+  "created_at": "2026-11-13T09:37:48.391827+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [
+      "iam.myhuaweicloud.com"
+    ],
+    "added_count": 1,
+    "current_count": 1,
+    "previous_count": 0,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [],
+    "unchanged_count": 0
+  },
+  "domains": [
+    "iam.myhuaweicloud.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "235105f24894143441db1196e4e9556c8fc142d998604cadb3467cf25106ed89",
+      "domains_extracted": 1,
+      "evidence_id": "EV-huawei-iam-api-001-235105f24894",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://support.huaweicloud.com/intl/en-us/api-iam/iam-api-pdf.pdf",
+      "retrieved_at": "1794562530592705737",
+      "service_id": "huawei-iam-api",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://support.huaweicloud.com/intl/en-us/api-iam/iam-api-pdf.pdf",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "0f5cb56719e9cee0f88e4851fdd7b152fcf4081036fe118f1d4130647713948f",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "621929c25ea9dedf8d906513331c20c6ae40fd06854ead6359986797e04d28fd",
+  "previous_domain_count": 0,
+  "release_digest": "47977c583d92074c35e204b373e14624d1bc101381b03f9eaa7d07dca7a45234",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "f728639ad836d7da6f305ef2d1b1db1b7eba259cdde704450ae5be40d1a09a9a",
+  "service_id": "huawei-iam-api",
+  "snapshot_content_sha256": "be2f9f31d57409565e2fe441bbf2e258c69ed64d4d0b2ee157634394565bf2b3",
+  "snapshot_id": "snap-huawei-iam-api-47977c583d92074c35e204b3",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://support.huaweicloud.com/intl/en-us/api-iam/iam-api-pdf.pdf"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

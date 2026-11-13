@@ -37,7 +37,7 @@
     "status": "OK"
   },
   "content_digest": "34612edff0aabe88d492ea519b122619b695de05b8c866c202b076ca6ab2fe45",
-  "created_at": "2026-09-26T12:18:46.430882+00:00",
+  "created_at": "2026-11-13T09:37:21.761475+00:00",
   "domain_count": 3,
   "domain_diff": {
     "added": [],
@@ -68,7 +68,7 @@
       "evidence_id": "EV-findmy-001-c4944fd32c12",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/FindMy/FindMy.list",
-      "retrieved_at": "2026-09-26T12:18:46.404394+00:00",
+      "retrieved_at": "2026-11-13T09:37:21.705640+00:00",
       "service_id": "findmy",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -78,7 +78,7 @@
     }
   ],
   "evidence_digest": "86029f64f84a66cedd341a7c0e97319b4d8de59ad4870a5dd6380e6dc7cd1663",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 0,
@@ -86,7 +86,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "e974e77badd7d342ab201c31d40b8d76a0849031aeafbe1241b5de420c807b70",
   "previous_domain_count": 3,
-  "release_digest": "5dbfa7a125855e4ee11e3daf0fb0670f85fc24ef6019a6955f0afef048196537",
+  "release_digest": "da1820ed4b8a6afde81001f59ec18cee5bae195ac3f568c40442a39892151654",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -94,7 +94,7 @@
   "service_config_digest": "2378333e4881a800d2f35a1a2f5ae28aeeeef4951bdc58b33e0bbde73415871e",
   "service_id": "findmy",
   "snapshot_content_sha256": "34612edff0aabe88d492ea519b122619b695de05b8c866c202b076ca6ab2fe45",
-  "snapshot_id": "snap-findmy-5dbfa7a125855e4ee11e3daf",
+  "snapshot_id": "snap-findmy-da1820ed4b8a6afde81001f5",
   "source_bindings": [
     {
       "adapter": "upstream_rule",

@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "952251b7c5ba9f2224013f5db51af8c16df4b2585694e51ceef5af4fc5d20b50",
-  "created_at": "2026-09-27T11:28:09.895981+00:00",
+  "created_at": "2026-11-13T09:36:58.323968+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "birentech.com",
       "www.birentech.com"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "birentech.com",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-birentech-001-c7caabce2dab",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.birentech.com/",
-      "retrieved_at": "1790508425910771148",
+      "retrieved_at": "1794562530590034239",
       "service_id": "birentech",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "506dcc3e253834b5551326dd4931ae6ed37d14d1960db5ebeb057bddd942f656",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "b4b3745929ac5fa8a2eac465b94b2a4c800027c294d2ef7126c6e9225ec65138",
-  "previous_domain_count": 0,
-  "release_digest": "794172d42ff5ff0de1bf0533d0b038ca06cadcf05b7ebd813c3f2e3fbb1fc177",
+  "previous_domain_count": 2,
+  "release_digest": "0f38d4fa2bea884df964434a76c1a8795645a3da6e745dc7c0f690b0998e0b69",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "a2aa0525a735b4c56ec44e2bb2f10cb76b4ee8596987b1a2e1b642dc9104be05",
   "service_id": "birentech",
   "snapshot_content_sha256": "952251b7c5ba9f2224013f5db51af8c16df4b2585694e51ceef5af4fc5d20b50",
-  "snapshot_id": "snap-birentech-794172d42ff5ff0de1bf0533",
+  "snapshot_id": "snap-birentech-0f38d4fa2bea884df964434a",
   "source_bindings": [
     {
       "adapter": null,

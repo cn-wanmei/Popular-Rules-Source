@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "daa4c8c5f25cdc2eecf151802fee26de0920aae0f49f3d2cdc13842b8b49864e",
-  "created_at": "2026-09-27T08:21:05.228866+00:00",
+  "created_at": "2026-11-13T09:37:08.413841+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "ctyun.cn",
       "www.ctyun.cn"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "ctyun.cn",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-ctyun-001-76566205268a",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.ctyun.cn/",
-      "retrieved_at": "1790497211653752041",
+      "retrieved_at": "1794562530590705735",
       "service_id": "ctyun",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "e7a16af26124e9f6760be85260095a4884040199073d828f442ff27cdfb404a0",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "c78f8ae465c4c81bf75ac85669a53f60b4521e9c677fa57f53129c9ff51352c7",
-  "previous_domain_count": 0,
-  "release_digest": "4274fec1e04159015436e52f8680bc88ecf969ed74a02fc3156e2c6514d9b07f",
+  "previous_domain_count": 2,
+  "release_digest": "ea72ff74645ec25294650d5989d550f98f48cc7709b760198a8acb877a523658",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "1b4c40da09f373589f6250c9bb6ad392b4f046c479669ce19db87262315ed22a",
   "service_id": "ctyun",
   "snapshot_content_sha256": "daa4c8c5f25cdc2eecf151802fee26de0920aae0f49f3d2cdc13842b8b49864e",
-  "snapshot_id": "snap-ctyun-4274fec1e04159015436e52f",
+  "snapshot_id": "snap-ctyun-ea72ff74645ec25294650d59",
   "source_bindings": [
     {
       "adapter": null,

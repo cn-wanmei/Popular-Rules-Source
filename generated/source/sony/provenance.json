@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "062cba034d27b22ef27e6ced4f221f472080cf9a1a50ee82cd9a2d1db899235a",
-  "created_at": "2026-09-27T08:19:31.771244+00:00",
+  "created_at": "2026-11-13T09:38:46.357895+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "sony.com",
       "www.sony.com"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "sony.com",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-sony-001-db8e334d9f1e",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.sony.com/",
-      "retrieved_at": "1790497131683445598",
+      "retrieved_at": "1794562530597705741",
       "service_id": "sony",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "dfebfb281d627e968eb6093da0104c94443fb7c30e2ce8726ad859d7088521b9",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "aa64ff40686c21d86c57e9ca02a2f9e3f4541765477b1d45233bd7f1d4fdc22a",
-  "previous_domain_count": 0,
-  "release_digest": "382278062b14392df186ceec3fd13f997d66c231fd3cbbe6de15f3d56151d3bb",
+  "previous_domain_count": 2,
+  "release_digest": "5ee705dc82cd1f3c560be1f4595972e093d9a867e8ef58a5380889ea0e282096",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "f4d6c98f34a4ce7f51cdce8c4f569903421d459677f9e100301e61fcfb1ff6c0",
   "service_id": "sony",
   "snapshot_content_sha256": "062cba034d27b22ef27e6ced4f221f472080cf9a1a50ee82cd9a2d1db899235a",
-  "snapshot_id": "snap-sony-382278062b14392df186ceec",
+  "snapshot_id": "snap-sony-5ee705dc82cd1f3c560be1f4",
   "source_bindings": [
     {
       "adapter": null,

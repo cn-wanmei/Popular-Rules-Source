@@ -1,0 +1,13 @@
+{
+  "content_digest": "a4eee893555eacc92632e84c784dfec707d011cb26939e6430009ed47b3af545",
+  "domains": [
+    "capcut.com",
+    "www.capcut.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "capcut",
+  "source_hashes": [
+    "7d6dcaddd02335663e9addea8c06f5fc1db24c3f5c39f32c5e738d23a7526314"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "content_digest": "f7539f9a25c7a45a33777bac4931a6154b613e568bdd926f2d8a741d54f159f0",
+  "domains": [
+    "cambricon.com",
+    "www.cambricon.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "cambricon",
+  "source_hashes": [
+    "203013b54c67252633384941f148288e50fd40d0e4925b9cf62cd6b28635b77c"
+  ]
+}

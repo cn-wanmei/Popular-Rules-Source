@@ -1,0 +1,13 @@
+{
+  "content_digest": "44314b2e78e2b8fa4f9f3b4106f3baf8a9d72c7c9bcb3bfbd3518355abbf3163",
+  "domains": [
+    "atlassian.com",
+    "www.atlassian.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "atlassian",
+  "source_hashes": [
+    "3b4eb574aadc5ca1e0eadd987d44a492f70952bc8e53b02d50bafbad56916103"
+  ]
+}

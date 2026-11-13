@@ -1,0 +1,13 @@
+{
+  "content_digest": "56007cc1503a9db50a3d610b74fef3a75da3b59b0a4479596c077002212ad4a9",
+  "domains": [
+    "dji.com",
+    "www.dji.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "dji",
+  "source_hashes": [
+    "8128d12f41b9d700d32adfe90831151626d5f7207609472d5d28d0bdef02d6b4"
+  ]
+}

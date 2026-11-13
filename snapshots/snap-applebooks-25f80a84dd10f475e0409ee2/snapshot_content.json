@@ -1,0 +1,12 @@
+{
+  "content_digest": "1375d4894afd9702f8647848ffff9196b28ae8ade946c4c6925b5fac13025b7c",
+  "domains": [
+    "books.apple.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "applebooks",
+  "source_hashes": [
+    "cd0cf11601df064b5a69c6f80d30fdff770372d65853b1ea5395161e8d4bc356"
+  ]
+}

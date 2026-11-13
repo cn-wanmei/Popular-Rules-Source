@@ -12,24 +12,24 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "f58beb6e394c5fe0e8f2a6df7e33de01d80597d84ff7fddbe376b7d6afebba3a",
-  "created_at": "2026-09-27T02:56:50.432891+00:00",
+  "created_at": "2026-11-13T09:37:31.440854+00:00",
   "domain_count": 1,
   "domain_diff": {
-    "added": [
-      "maps.google.com"
-    ],
-    "added_count": 1,
+    "added": [],
+    "added_count": 0,
     "current_count": 1,
-    "previous_count": 0,
+    "previous_count": 1,
     "removed": [],
     "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged": [
+      "maps.google.com"
+    ],
+    "unchanged_count": 1
   },
   "domains": [
     "maps.google.com"
@@ -44,7 +44,7 @@
       "evidence_id": "EV-google-maps-001-8177648407d1",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://maps.google.com/",
-      "retrieved_at": "1790477795726502993",
+      "retrieved_at": "1794562530591705736",
       "service_id": "google-maps",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -54,15 +54,15 @@
     }
   ],
   "evidence_digest": "becf7354dff9ee069c1270756b7a9124ff97b1ddeb36c8677210c524de65fe6c",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 1,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "39c9682ad886be6068a9b7cb7a76739f890b9017d21658972cd67206cc915453",
-  "previous_domain_count": 0,
-  "release_digest": "ad2f1a8bcd3a536fca6b3daca875df0742214e4a54368dbf5515d3c72e870ac8",
+  "previous_domain_count": 1,
+  "release_digest": "219adcecfb9891d74420f9369e0d4b1b5982461b018652a2237333e40ca6af93",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -70,7 +70,7 @@
   "service_config_digest": "d86bca9470d79737c7457d82a7012583e52c6db1e1cf6b1bf00c983bb4772c64",
   "service_id": "google-maps",
   "snapshot_content_sha256": "f58beb6e394c5fe0e8f2a6df7e33de01d80597d84ff7fddbe376b7d6afebba3a",
-  "snapshot_id": "snap-google-maps-ad2f1a8bcd3a536fca6b3dac",
+  "snapshot_id": "snap-google-maps-219adcecfb9891d74420f936",
   "source_bindings": [
     {
       "adapter": null,

@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "20cd378aa149fa91b4e348d4d1bdb1114770b5a6d6d187a6c5be6b9d6dcb3fa3",
-  "created_at": "2026-09-27T11:29:51.953010+00:00",
+  "created_at": "2026-11-13T09:37:40.419776+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "hellobike.com",
       "www.hellobike.com"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "hellobike.com",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-hellobike-001-9f9096062ed2",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.hellobike.com/",
-      "retrieved_at": "1790508539058946160",
+      "retrieved_at": "1794562530592705737",
       "service_id": "hellobike",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "35fa5c85f8a60e0bcb354c8a29f140a1a9a5a70566305897b5e9cc66f73f6f8b",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "00c4d4c44daa8736319933034b3d66d0ce1a50b96a155506db7202e0f2705fa4",
-  "previous_domain_count": 0,
-  "release_digest": "2f40b385c128e7087ab9bcbee5ed6d0a3864e3716212db42c5f4e20e4a2b98dc",
+  "previous_domain_count": 2,
+  "release_digest": "67d413bfd910d5b555161d60d7b25453912374b96ceca48de1417cd4e60020fe",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "70063a074e22771b6cab2dfa1ff620f9f7bf2f9fe8eb710093c26444ce78fa8a",
   "service_id": "hellobike",
   "snapshot_content_sha256": "20cd378aa149fa91b4e348d4d1bdb1114770b5a6d6d187a6c5be6b9d6dcb3fa3",
-  "snapshot_id": "snap-hellobike-2f40b385c128e7087ab9bcbe",
+  "snapshot_id": "snap-hellobike-67d413bfd910d5b555161d60",
   "source_bindings": [
     {
       "adapter": null,
