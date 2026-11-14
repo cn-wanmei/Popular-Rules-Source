@@ -12,24 +12,24 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "725b16f48f5d9b32deec0efa915c34eb5d16ab707fe29c6d4a3cfd492d48ac7c",
-  "created_at": "2026-09-27T02:56:35.709709+00:00",
+  "created_at": "2026-11-14T09:03:02.777800+00:00",
   "domain_count": 1,
   "domain_diff": {
-    "added": [
-      "earth.google.com"
-    ],
-    "added_count": 1,
+    "added": [],
+    "added_count": 0,
     "current_count": 1,
-    "previous_count": 0,
+    "previous_count": 1,
     "removed": [],
     "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged": [
+      "earth.google.com"
+    ],
+    "unchanged_count": 1
   },
   "domains": [
     "earth.google.com"
@@ -44,7 +44,7 @@
       "evidence_id": "EV-google-earth-001-1932ed88a6f2",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://earth.google.com/",
-      "retrieved_at": "1790477772225284708",
+      "retrieved_at": "1794646831843949645",
       "service_id": "google-earth",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -54,15 +54,15 @@
     }
   ],
   "evidence_digest": "1156abc0a23deb164972594a48d11a801cfb1403d2c5075558066e05c20171ed",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 1,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "0a66f8523610a7c5329de8a1efe5157cea6f70a712eac465c22f3529874efd35",
-  "previous_domain_count": 0,
-  "release_digest": "d9b76bf3506634dccd2b96e22b8ea2c2b7e2d3ddae95114395c92f1c829df37d",
+  "previous_domain_count": 1,
+  "release_digest": "d5525f43f238cbe22aa0ed71d81ac5ed94f9204a3569407a2a59f0e10389aba2",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -70,7 +70,7 @@
   "service_config_digest": "648d5d47ad569269cbee6d0fb75b9b6466b0de470717ee2799234990e37f4c24",
   "service_id": "google-earth",
   "snapshot_content_sha256": "725b16f48f5d9b32deec0efa915c34eb5d16ab707fe29c6d4a3cfd492d48ac7c",
-  "snapshot_id": "snap-google-earth-d9b76bf3506634dccd2b96e2",
+  "snapshot_id": "snap-google-earth-d5525f43f238cbe22aa0ed71",
   "source_bindings": [
     {
       "adapter": null,

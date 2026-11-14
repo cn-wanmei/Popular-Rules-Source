@@ -1,0 +1,13 @@
+{
+  "content_digest": "0c422d55495cdd09e236076d38b207ae30dcf98e713bdc452b5b781aadfcb1e6",
+  "domains": [
+    "obs.cn-north-4.myhuaweicloud.com",
+    "obs.cn-south-1.myhuaweicloud.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "huawei-obs-api",
+  "source_hashes": [
+    "ea5b008521a6ff7f53ff9ae77bc46b92b7c5d8754abf91a93e82c949ce3a1669"
+  ]
+}

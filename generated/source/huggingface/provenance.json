@@ -37,7 +37,7 @@
     "status": "OK"
   },
   "content_digest": "74e48c56d6a5727806021cf7f2e0a9e9d3ac8cb12b7358d681f5f220bba046e1",
-  "created_at": "2026-09-27T04:57:25.060836+00:00",
+  "created_at": "2026-11-14T09:03:32.740446+00:00",
   "domain_count": 3,
   "domain_diff": {
     "added": [],
@@ -68,7 +68,7 @@
       "evidence_id": "EV-huggingface-001-8ee30c1014ac",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/huggingface.list",
-      "retrieved_at": "2026-09-27T04:57:25.028294+00:00",
+      "retrieved_at": "2026-11-14T09:03:32.658163+00:00",
       "service_id": "huggingface",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -78,7 +78,7 @@
     }
   ],
   "evidence_digest": "767ab522ab9394e41bc9d36150ff99618d617f0d2ebb8fa4112a5c6c7a31098a",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 0,
@@ -86,7 +86,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "a2b6b6b4882c08f39ee635e3e6ff1fcbfaaced8947aa5faa2a2d01283202ce82",
   "previous_domain_count": 3,
-  "release_digest": "226053190707e71c9f66141c47f53a825e212b268fd3c265026af70f3cd151d6",
+  "release_digest": "7da0851f24dc3518c22e32318a73bb9155a2c7f93a8c6073144f734ff823b8ee",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -94,7 +94,7 @@
   "service_config_digest": "aa19f521b85fb242ee25a1a983c9b949dd7fb86fd1f6771c1d84de5c2009a0f1",
   "service_id": "huggingface",
   "snapshot_content_sha256": "74e48c56d6a5727806021cf7f2e0a9e9d3ac8cb12b7358d681f5f220bba046e1",
-  "snapshot_id": "snap-huggingface-226053190707e71c9f66141c",
+  "snapshot_id": "snap-huggingface-7da0851f24dc3518c22e3231",
   "source_bindings": [
     {
       "adapter": "upstream_rule",

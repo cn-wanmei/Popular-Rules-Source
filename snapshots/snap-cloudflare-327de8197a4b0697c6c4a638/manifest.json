@@ -1,0 +1,294 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:87a20f70a0875746609f93749b2daa0b1a62902226bed499a69a72ddf5c12be0",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cloudflare-001-6bf2528c6a18"
+      ],
+      "service_id": "cloudflare",
+      "type": "domain",
+      "value": "api.cloudflare.com"
+    },
+    {
+      "asset_id": "sha256:a73ae3d337bab249bd7752931c47fcf18ae867d3e390133a6457cb5373f5d58a",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cloudflare-001-6bf2528c6a18"
+      ],
+      "service_id": "cloudflare",
+      "type": "domain",
+      "value": "blocked.teams.cloudflare.com"
+    },
+    {
+      "asset_id": "sha256:b24d94a8ea6e06ff1facd98ea88332026151fedd7add08e04927e3a390246964",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cloudflare-001-6bf2528c6a18"
+      ],
+      "service_id": "cloudflare",
+      "type": "domain",
+      "value": "cloudflare-gateway.com"
+    },
+    {
+      "asset_id": "sha256:441f8d084d1e99cc6872b2a0e1cd8bb7585bb752d3f563879b92aa4d5a61c850",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cloudflare-001-6bf2528c6a18"
+      ],
+      "service_id": "cloudflare",
+      "type": "domain",
+      "value": "cloudflareaccess.com"
+    },
+    {
+      "asset_id": "sha256:5f6418c16ba3952416a5951e4d4c31fd6f14e0d266952b532496ddaaa4884f42",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cloudflare-001-6bf2528c6a18"
+      ],
+      "service_id": "cloudflare",
+      "type": "domain",
+      "value": "cloudflareclient.com"
+    },
+    {
+      "asset_id": "sha256:35c6d51d59df9833d57f486af3730883b10d337562d5766127ad7c44bc87b6df",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cloudflare-001-6bf2528c6a18"
+      ],
+      "service_id": "cloudflare",
+      "type": "domain",
+      "value": "cloudflarecp.com"
+    },
+    {
+      "asset_id": "sha256:ace2fae633e102f7b3d41308391040ea9a6dd824b6ea1efd279ea8752e168264",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cloudflare-001-6bf2528c6a18"
+      ],
+      "service_id": "cloudflare",
+      "type": "domain",
+      "value": "cloudflareok.com"
+    },
+    {
+      "asset_id": "sha256:a0c8f0c2325e076abac4e1f25307d0b5fad7ff7cb268a6848624dbb8afc45629",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cloudflare-001-6bf2528c6a18"
+      ],
+      "service_id": "cloudflare",
+      "type": "domain",
+      "value": "cloudflareportal.com"
+    },
+    {
+      "asset_id": "sha256:7021f77773dee3d7203303beff77422f42d48e936478475872560a234a9b67cb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cloudflare-001-6bf2528c6a18"
+      ],
+      "service_id": "cloudflare",
+      "type": "domain",
+      "value": "cloudflarestatus.com"
+    },
+    {
+      "asset_id": "sha256:a11d67fda1b8710beb323d0c61934e67644ddb813735d6447a02eac38a6cade9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cloudflare-001-6bf2528c6a18"
+      ],
+      "service_id": "cloudflare",
+      "type": "domain",
+      "value": "dash.cloudflare.com"
+    },
+    {
+      "asset_id": "sha256:103ceb8a292338845ea49acb46673b9eeed2229a5f03111094a226f4da93cb84",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cloudflare-001-6bf2528c6a18"
+      ],
+      "service_id": "cloudflare",
+      "type": "domain",
+      "value": "dash.teams.cloudflare.com"
+    },
+    {
+      "asset_id": "sha256:89ceaddf1ba340c6f78c4bd8e3c8a89f76a3f62b52951ec614cf0523dea03241",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cloudflare-001-6bf2528c6a18"
+      ],
+      "service_id": "cloudflare",
+      "type": "domain",
+      "value": "developers.cloudflare.com"
+    },
+    {
+      "asset_id": "sha256:9d5185d31a2f8bc1122a1d6f5e0ab021ed544afa40f11f4aae3129e5729111b3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cloudflare-001-6bf2528c6a18"
+      ],
+      "service_id": "cloudflare",
+      "type": "domain",
+      "value": "help.one.cloudflare.com"
+    },
+    {
+      "asset_id": "sha256:b6dbbb0eae1e8aee9de05bc0e860930bfaf3e870aec840e8b05852c63f1b1fb8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cloudflare-001-6bf2528c6a18"
+      ],
+      "service_id": "cloudflare",
+      "type": "domain",
+      "value": "help.teams.cloudflare.com"
+    },
+    {
+      "asset_id": "sha256:39d87303e30b4258bef92342c4d18fe61f94b417a3012939d6bb0ca021aaef6e",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cloudflare-001-6bf2528c6a18"
+      ],
+      "service_id": "cloudflare",
+      "type": "domain",
+      "value": "nel.cloudflare.com"
+    },
+    {
+      "asset_id": "sha256:207138a69fa03faa52a652ed564ddc7e6e7c1d2427ec1144927b28184b0d10bd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cloudflare-001-6bf2528c6a18"
+      ],
+      "service_id": "cloudflare",
+      "type": "domain",
+      "value": "one.dash.cloudflare.com"
+    },
+    {
+      "asset_id": "sha256:d8b6f2468c9002654169c812d99e3b90fe6819cd3b9ebb897e6a159b00fcb7ce",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cloudflare-001-6bf2528c6a18"
+      ],
+      "service_id": "cloudflare",
+      "type": "domain",
+      "value": "speed.cloudflare.com"
+    },
+    {
+      "asset_id": "sha256:d956a3f4189e9dab8ea2ebe50069d5c1e8ba3915a702f18c4b554e4887cc11c7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cloudflare-001-6bf2528c6a18"
+      ],
+      "service_id": "cloudflare",
+      "type": "domain",
+      "value": "www.cloudflarestatus.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 1.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "610b115ae77f34c4e4aa35f0b508da6400f6590b70820986b0184259a64b083f",
+  "created_at": "2026-11-14T09:02:29.697917+00:00",
+  "domain_count": 18,
+  "domain_diff": {
+    "added": [],
+    "added_count": 0,
+    "current_count": 18,
+    "previous_count": 18,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
+      "api.cloudflare.com",
+      "blocked.teams.cloudflare.com",
+      "cloudflare-gateway.com",
+      "cloudflareaccess.com",
+      "cloudflareclient.com",
+      "cloudflarecp.com",
+      "cloudflareok.com",
+      "cloudflareportal.com",
+      "cloudflarestatus.com",
+      "dash.cloudflare.com",
+      "dash.teams.cloudflare.com",
+      "developers.cloudflare.com",
+      "help.one.cloudflare.com",
+      "help.teams.cloudflare.com",
+      "nel.cloudflare.com",
+      "one.dash.cloudflare.com",
+      "speed.cloudflare.com",
+      "www.cloudflarestatus.com"
+    ],
+    "unchanged_count": 18
+  },
+  "domains": [
+    "api.cloudflare.com",
+    "blocked.teams.cloudflare.com",
+    "cloudflare-gateway.com",
+    "cloudflareaccess.com",
+    "cloudflareclient.com",
+    "cloudflarecp.com",
+    "cloudflareok.com",
+    "cloudflareportal.com",
+    "cloudflarestatus.com",
+    "dash.cloudflare.com",
+    "dash.teams.cloudflare.com",
+    "developers.cloudflare.com",
+    "help.one.cloudflare.com",
+    "help.teams.cloudflare.com",
+    "nel.cloudflare.com",
+    "one.dash.cloudflare.com",
+    "speed.cloudflare.com",
+    "www.cloudflarestatus.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "6bf2528c6a183e1243b9ad4b1b7ca110bb921a10fc2930a62760706c41b88e92",
+      "domains_extracted": 20,
+      "evidence_id": "EV-cloudflare-001-6bf2528c6a18",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://developers.cloudflare.com/cloudflare-one/traffic-controls/global-policies/",
+      "retrieved_at": "1794646831842949635",
+      "service_id": "cloudflare",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://developers.cloudflare.com/cloudflare-one/traffic-controls/global-policies/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "dbe5bcd717bebe4e2f4818d60924396dba19e55856236bf1c16603b2d36a8e5b",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 20,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "b0b1780db8649335175d521a89ccf545bc4da134a107579053dffa09ae1a0a7c",
+  "previous_domain_count": 18,
+  "release_digest": "327de8197a4b0697c6c4a6381c591ef0e22e152aff0ef02d673c3a59659e7c9a",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "769a0822464178bd5ae86d13bb5b685d706ff8868e9f4768dbf3a1920c7300c5",
+  "service_id": "cloudflare",
+  "snapshot_content_sha256": "610b115ae77f34c4e4aa35f0b508da6400f6590b70820986b0184259a64b083f",
+  "snapshot_id": "snap-cloudflare-327de8197a4b0697c6c4a638",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://developers.cloudflare.com/cloudflare-one/traffic-controls/global-policies/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 20,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

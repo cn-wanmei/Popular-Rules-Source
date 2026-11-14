@@ -1,0 +1,90 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:1267c55dcfcd57b24230eec27a2e0a974ed6f1c76c87994460d444a95dbfc892",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-kugou-001-c5ffb95b6a83"
+      ],
+      "service_id": "kugou",
+      "type": "domain",
+      "value": "www.kugou.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 1.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "b146f59645644fea37bc3f0b14940a03c8dbad2fa9639af34f846363041a19fd",
+  "created_at": "2026-11-14T09:03:44.307512+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [],
+    "added_count": 0,
+    "current_count": 1,
+    "previous_count": 1,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
+      "www.kugou.com"
+    ],
+    "unchanged_count": 1
+  },
+  "domains": [
+    "www.kugou.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "c5ffb95b6a8349c8f134848a472f233d67113e4e5a3720d676d66454c34ba840",
+      "domains_extracted": 1,
+      "evidence_id": "EV-kugou-001-c5ffb95b6a83",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.kugou.com/",
+      "retrieved_at": "1794646831847949685",
+      "service_id": "kugou",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.kugou.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "1a6c580b3d16b8c583af46c5c5aac82eaed6ac790a4b27ed2bad69141956cc7d",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "26b4444e4e74c1b09b091cbf196a44ec4987a355b53aaa83fdc271d14a83f292",
+  "previous_domain_count": 1,
+  "release_digest": "aba61bae8f6b008c8a58d8ba02392e7dc91fd86020122bcb6affaf2000409598",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "ca8cee0b7bd0f0e42548aeeadc95f82fd9faa21bac666be29d5636c7fe3b8f7f",
+  "service_id": "kugou",
+  "snapshot_content_sha256": "b146f59645644fea37bc3f0b14940a03c8dbad2fa9639af34f846363041a19fd",
+  "snapshot_id": "snap-kugou-aba61bae8f6b008c8a58d8ba",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.kugou.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

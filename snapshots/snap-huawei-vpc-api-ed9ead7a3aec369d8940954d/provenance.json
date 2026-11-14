@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:56f06b3d2ef7a8a7f972305e556362fdb74e8b06ba62b6fc351fd35b0f3c29e8",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-huawei-vpc-api-001-235c4d33bd26"
+      ],
+      "service_id": "huawei-vpc-api",
+      "type": "domain",
+      "value": "vpc.cn-south-1.myhuaweicloud.com"
+    }
+  ],
+  "content_digest": "6efdb2d5364e4847b20b5f6cbbb6240c79c29a1125166fb1b4988e052092b504",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "235c4d33bd26e3d992d34b4209c75291cc67f9a7039d9f8d5eb9dae497034c8d",
+      "domains_extracted": 1,
+      "evidence_id": "EV-huawei-vpc-api-001-235c4d33bd26",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://support.huaweicloud.com/tg-mgc/tg-mgc-pdf.pdf",
+      "retrieved_at": "1794646831845949665",
+      "service_id": "huawei-vpc-api",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://support.huaweicloud.com/tg-mgc/tg-mgc-pdf.pdf",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "fab82f4d98b57331522d2b934a99ca750be8adee7d219c76c29c54e19d65248f",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "policy_digest": "97548c06fecf1acfd49ed7c7538091c1e154841f1712b0961ccfc90e778780dd",
+  "release_digest": "ed9ead7a3aec369d8940954d404cf9ffc3253fc2d100a30b85bcb4a6be38c343",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "huawei-vpc-api",
+  "snapshot_id": "snap-huawei-vpc-api-ed9ead7a3aec369d8940954d",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

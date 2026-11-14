@@ -1,0 +1,13 @@
+{
+  "content_digest": "e354a13ac1e7fe7b9a5f6f52468e298a111a6cca2930e11f48187f1fec21425b",
+  "domains": [
+    "ibm.com",
+    "www.ibm.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "ibm",
+  "source_hashes": [
+    "c5235600bfba09a0af74d49a6f2fd5fc21b9ea78a02bfb97f95bc09114e99042"
+  ]
+}

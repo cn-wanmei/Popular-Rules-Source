@@ -1,0 +1,13 @@
+{
+  "content_digest": "84226061f5e5b781db958fd5cd808176044f576e2acde58d4bfa77460230eb60",
+  "domains": [
+    "honor.com",
+    "www.honor.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "honor",
+  "source_hashes": [
+    "c182086e1a0757a2c0b01fd0039dc05e73f7311d479f5d81b9f480cf42feffdb"
+  ]
+}

@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "fda11818097cd2ea7cec92886c6d6f3c6a96500da3cc6942f22f4187718f3242",
-  "created_at": "2026-09-27T08:16:10.969091+00:00",
+  "created_at": "2026-11-14T09:03:35.633304+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "iflytek.com",
       "www.iflytek.com"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "iflytek.com",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-iflytek-001-d8c923b5bd1e",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.iflytek.com/",
-      "retrieved_at": "1790496943210835505",
+      "retrieved_at": "1794646831846949675",
       "service_id": "iflytek",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "af4116fa790dce5bd24961834fd638e36c6046b0c314c34ffc0fe2e2213d83f3",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "67fb163985a3fa332953cf105be039b9888dadb1c8a5329f60fc873bb0783b9f",
-  "previous_domain_count": 0,
-  "release_digest": "4efe816c7539950150d3efde6de14f20f45dc35d25821967146c204286840022",
+  "previous_domain_count": 2,
+  "release_digest": "4fae6b0e912ac5072c134dd127f00763bf588f99b1ad0a795ba4b2ce7331662c",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "5249f4eeeccb4787fd73acc0d77711636dea1f94e95ba5bf89ea8e54b32ded33",
   "service_id": "iflytek",
   "snapshot_content_sha256": "fda11818097cd2ea7cec92886c6d6f3c6a96500da3cc6942f22f4187718f3242",
-  "snapshot_id": "snap-iflytek-4efe816c7539950150d3efde",
+  "snapshot_id": "snap-iflytek-4fae6b0e912ac5072c134dd1",
   "source_bindings": [
     {
       "adapter": null,

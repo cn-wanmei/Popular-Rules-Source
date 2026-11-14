@@ -1,0 +1,13 @@
+{
+  "content_digest": "5b4920938b2adf797bc7ea0fcd3294e271411c477c34ae383be32ada7bb8f27d",
+  "domains": [
+    "ericsson.com",
+    "www.ericsson.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "ericsson",
+  "source_hashes": [
+    "f959e0c5c432393334f4343057403d78fe4e76bf5e793dbf688384ba653c4360"
+  ]
+}

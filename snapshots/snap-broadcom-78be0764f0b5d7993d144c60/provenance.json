@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:9ddee3cff935209daac20da5f27d8ad72c2ba194238b7047e3b7e93d8ba18bce",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-broadcom-001-f5d81b261d8b"
+      ],
+      "service_id": "broadcom",
+      "type": "domain",
+      "value": "broadcom.com"
+    },
+    {
+      "asset_id": "sha256:9005e66ffde85393decff285de251fc060e53333e40769cf9b559bf72794baf9",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-broadcom-001-f5d81b261d8b"
+      ],
+      "service_id": "broadcom",
+      "type": "domain",
+      "value": "www.broadcom.com"
+    }
+  ],
+  "content_digest": "f5e758ce4d0b945f1d0cca84ddd80191f97703f8139f7f3c0d309a93b902a1fb",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "f5d81b261d8b9dd667a843cc5b74cd62e3bd5f144a6b353bd3f47d8b74d3651f",
+      "domains_extracted": 2,
+      "evidence_id": "EV-broadcom-001-f5d81b261d8b",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.broadcom.com/",
+      "retrieved_at": "1794646831841949625",
+      "service_id": "broadcom",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.broadcom.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "8f2a7fddc46a1ac787b08abe1eb02a29b39caaf32b31339bd177205ba8582e48",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "policy_digest": "75509d0009a848d24498fa3ea03151f47a55c50c12807e807eb050720e942210",
+  "release_digest": "78be0764f0b5d7993d144c6037db6b592b91648d0ad26d1ff23976df7bc3bdaa",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "broadcom",
+  "snapshot_id": "snap-broadcom-78be0764f0b5d7993d144c60",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

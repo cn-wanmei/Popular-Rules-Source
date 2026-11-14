@@ -27,7 +27,7 @@
     "status": "OK"
   },
   "content_digest": "470529b3a2c5835f7a1c8e52229eb7adc4d8f0dbec0d1b07661c9b4476df3d1c",
-  "created_at": "2026-09-27T01:41:18.920461+00:00",
+  "created_at": "2026-11-14T09:02:03.224802+00:00",
   "domain_count": 2,
   "domain_diff": {
     "added": [],
@@ -56,7 +56,7 @@
       "evidence_id": "EV-appstore-001-245ea6eb4c7f",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AppStore/AppStore.list",
-      "retrieved_at": "2026-09-27T01:41:18.902272+00:00",
+      "retrieved_at": "2026-11-14T09:02:03.150085+00:00",
       "service_id": "appstore",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -66,7 +66,7 @@
     }
   ],
   "evidence_digest": "ea7990795a72e0470eeeaec75bd6467dc89153cba91d7373010fbfe7b942f7b6",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 0,
@@ -74,7 +74,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "c52d9e06773b684801205c7d7700b70c16c484a804281e16408142c14487d128",
   "previous_domain_count": 2,
-  "release_digest": "d141bbc12b271c916f41990c2edd2cc5b0b36a8e9c3064311d9541c538cdfef9",
+  "release_digest": "243e76b388553c3d3c549f5983bb19ba2b6be4d707f993362faaa6382902596c",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "2a82bef21e81350bf7385ee90cf2710c63c139ceaa8ac8f6874cf7fee9ca43c6",
   "service_id": "appstore",
   "snapshot_content_sha256": "470529b3a2c5835f7a1c8e52229eb7adc4d8f0dbec0d1b07661c9b4476df3d1c",
-  "snapshot_id": "snap-appstore-d141bbc12b271c916f41990c",
+  "snapshot_id": "snap-appstore-243e76b388553c3d3c549f59",
   "source_bindings": [
     {
       "adapter": "upstream_rule",

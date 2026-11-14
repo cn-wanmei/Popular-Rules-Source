@@ -1,0 +1,13 @@
+{
+  "content_digest": "de455aa701da7f3250f5f85a451f59a2f7da41104d1c115cace364dcaf875011",
+  "domains": [
+    "app.powerbi.com",
+    "powerbi.microsoft.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "powerbi",
+  "source_hashes": [
+    "b2290864ca8adb950d1b4e3c71988d96c2aa76b61d0d0df18cac12d00df1cfb5"
+  ]
+}

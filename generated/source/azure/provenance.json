@@ -1522,22 +1522,18 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 1.0201342281879195,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "25efcbe03172300fbefc71073a11a58ab66ddda660a6c232aa72486de755d2a7",
-  "created_at": "2026-11-07T08:50:54.892007+00:00",
+  "created_at": "2026-11-14T09:02:09.869488+00:00",
   "domain_count": 152,
   "domain_diff": {
-    "added": [
-      "dc.applicationinsights.azure.com",
-      "in.applicationinsights.azure.com",
-      "live.applicationinsights.azure.com"
-    ],
-    "added_count": 3,
+    "added": [],
+    "added_count": 0,
     "current_count": 152,
-    "previous_count": 149,
+    "previous_count": 152,
     "removed": [],
     "removed_count": 0,
     "unchanged": [
@@ -1655,9 +1651,12 @@
       "chinacloudsites.cn",
       "cosmosdb.info",
       "cosmosdb.net",
+      "dc.applicationinsights.azure.com",
       "devopsms.com",
       "gotcosmos.com",
       "hdinsightservices.cn",
+      "in.applicationinsights.azure.com",
+      "live.applicationinsights.azure.com",
       "management-azure-devices-int.net",
       "management-azure-devices-provisioning.cn",
       "management-azure-devices.cn",
@@ -1691,7 +1690,7 @@
       "windowsazure.com",
       "windowsazurestatus.cn"
     ],
-    "unchanged_count": 149
+    "unchanged_count": 152
   },
   "domains": [
     "21vbc.com",
@@ -1857,7 +1856,7 @@
       "evidence_id": "EV-azure-001-16eddc2aaa0e",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/azure.list",
-      "retrieved_at": "2026-11-07T08:50:54.857762+00:00",
+      "retrieved_at": "2026-11-14T09:02:09.788054+00:00",
       "service_id": "azure",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -1867,15 +1866,15 @@
     }
   ],
   "evidence_digest": "5cd1af10bfe3d90e712215d2a47ecce81341cd8f4303d52e70d9e06c34b12bd9",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 0,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "6c22e3375e375f6b2cdc3f162877ace7d51d8fe849faff4ddf973383dcee81a5",
-  "previous_domain_count": 149,
-  "release_digest": "8369ea2810cb538f45633d8688db90e034385e250f0278373ae22dcb7ab2d583",
+  "previous_domain_count": 152,
+  "release_digest": "24c3c623cec1d0b6364b8579570719ae1f29c73db5141d3906409f031a83bcab",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -1883,7 +1882,7 @@
   "service_config_digest": "ccee60fbd089ddf114096fbe3e9d864ea553d63a38ed457dc0989278624d8e32",
   "service_id": "azure",
   "snapshot_content_sha256": "25efcbe03172300fbefc71073a11a58ab66ddda660a6c232aa72486de755d2a7",
-  "snapshot_id": "snap-azure-8369ea2810cb538f45633d86",
+  "snapshot_id": "snap-azure-24c3c623cec1d0b6364b8579",
   "source_bindings": [
     {
       "adapter": "upstream_rule",

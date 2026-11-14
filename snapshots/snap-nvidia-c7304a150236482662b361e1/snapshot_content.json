@@ -1,0 +1,15 @@
+{
+  "content_digest": "40d41897aca8c777eb9128f6281946b10808315a72cdcccad211aea0dd9ffcda",
+  "domains": [
+    "developer.nvidia.com",
+    "nvidia.com",
+    "www.nvidia.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "nvidia",
+  "source_hashes": [
+    "240905362b726119bf9bdd88a449a2140774428da11da8bd11a59aa06efac74a",
+    "240905362b726119bf9bdd88a449a2140774428da11da8bd11a59aa06efac74a"
+  ]
+}

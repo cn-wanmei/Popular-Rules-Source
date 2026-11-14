@@ -1,0 +1,13 @@
+{
+  "content_digest": "6a1d98549f347458024b8100d68878aaea710a1639e2c19e92be16cbbf4a9a8a",
+  "domains": [
+    "sharepoint.com",
+    "www.sharepoint.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "sharepoint",
+  "source_hashes": [
+    "664d5b268dd6f8f001eabaa9754910e6fd301ff376693aa488f285c66410f151"
+  ]
+}

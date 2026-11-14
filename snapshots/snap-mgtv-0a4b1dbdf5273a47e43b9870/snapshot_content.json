@@ -1,0 +1,13 @@
+{
+  "content_digest": "6d8ae04af4fc72f5f1ea5662096026ff8984485929b42a8d4dacf54997d2e48a",
+  "domains": [
+    "mgtv.com",
+    "www.mgtv.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "mgtv",
+  "source_hashes": [
+    "65663fdcdbd909e79108d2021e8bbf688cf011922b3015ae4799e1c38933f6e3"
+  ]
+}

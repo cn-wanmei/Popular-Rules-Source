@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:384af4d2b764a213765d279502fe482a3f9f62421d2e9e38aa7cb18ce0b95614",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-huawei-obs-api-001-ea5b008521a6"
+      ],
+      "service_id": "huawei-obs-api",
+      "type": "domain",
+      "value": "obs.cn-north-4.myhuaweicloud.com"
+    },
+    {
+      "asset_id": "sha256:ba132e2287ba6ab8289abefa9c71b6c0711a5e20f2370042d69ccb0d42186eba",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-huawei-obs-api-001-ea5b008521a6"
+      ],
+      "service_id": "huawei-obs-api",
+      "type": "domain",
+      "value": "obs.cn-south-1.myhuaweicloud.com"
+    }
+  ],
+  "content_digest": "0c422d55495cdd09e236076d38b207ae30dcf98e713bdc452b5b781aadfcb1e6",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "ea5b008521a6ff7f53ff9ae77bc46b92b7c5d8754abf91a93e82c949ce3a1669",
+      "domains_extracted": 2,
+      "evidence_id": "EV-huawei-obs-api-001-ea5b008521a6",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://support.huaweicloud.com/intl/en-us/usermanual-obs/obs_41_0003.html",
+      "retrieved_at": "1794646831845949665",
+      "service_id": "huawei-obs-api",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://support.huaweicloud.com/intl/en-us/usermanual-obs/obs_41_0003.html",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "eb2c26764aa78b74855764995d9b74f92134d6121045d5376f57e731b27766aa",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "policy_digest": "1a7224692f881434a497d05c81afca46278c4a3002add99cdb65204b8151141d",
+  "release_digest": "bdbd07f8c235744e73234535097407cc2353b138a87eb1d4cf795e2bba35a715",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "huawei-obs-api",
+  "snapshot_id": "snap-huawei-obs-api-bdbd07f8c235744e73234535",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

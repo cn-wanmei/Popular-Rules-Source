@@ -327,7 +327,7 @@
     "status": "OK"
   },
   "content_digest": "c093d9d06fb7cd526b2c0ffc6d5b032a59fd51d500a4776f5f3d284b030f6000",
-  "created_at": "2026-09-27T01:40:39.266888+00:00",
+  "created_at": "2026-11-14T09:02:16.262867+00:00",
   "domain_count": 32,
   "domain_diff": {
     "added": [],
@@ -416,7 +416,7 @@
       "evidence_id": "EV-baidutieba-001-1a675077eee5",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/BaiDuTieBa/BaiDuTieBa.list",
-      "retrieved_at": "2026-09-27T01:40:39.237222+00:00",
+      "retrieved_at": "2026-11-14T09:02:16.185751+00:00",
       "service_id": "baidutieba",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -426,7 +426,7 @@
     }
   ],
   "evidence_digest": "ffca3abec840dad77c847597faa29f0aa4a51a4ce9b46d1625fa80b6b51e97b2",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 0,
@@ -434,7 +434,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "718694542c38715d2c655a8d68d9b0ebd6b3d85847bf1aa2608bc2807ac28c1a",
   "previous_domain_count": 32,
-  "release_digest": "9badf818529f1807c7959832a1afafc45de9df6f074a654a33536eed7b2da922",
+  "release_digest": "7cbfe2244f10f12c39982ef0a1bc4932af08067f1176f1c8d4637e76922bd3f6",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -442,7 +442,7 @@
   "service_config_digest": "9c587938c5d591182846e6e87da9d84d9a0f94710cc627d64968765d8006b07f",
   "service_id": "baidutieba",
   "snapshot_content_sha256": "c093d9d06fb7cd526b2c0ffc6d5b032a59fd51d500a4776f5f3d284b030f6000",
-  "snapshot_id": "snap-baidutieba-9badf818529f1807c7959832",
+  "snapshot_id": "snap-baidutieba-7cbfe2244f10f12c39982ef0",
   "source_bindings": [
     {
       "adapter": "upstream_rule",
