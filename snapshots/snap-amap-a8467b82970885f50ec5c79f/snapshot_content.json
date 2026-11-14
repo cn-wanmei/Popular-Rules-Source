@@ -1,0 +1,13 @@
+{
+  "content_digest": "e72071f85e0fada25d428e76356cbdcf61d86d2bf5e1eda12db90cafc49b8529",
+  "domains": [
+    "amap.com",
+    "www.amap.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "amap",
+  "source_hashes": [
+    "4c66b45db0e744ec797d9568343602fd95c5ade35d213523c1220970b62f406e"
+  ]
+}

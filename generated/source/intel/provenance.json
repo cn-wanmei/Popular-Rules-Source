@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "c4dbbb10fe82cfba4445eea6ebb6c4ccdadb6b75a1387a5ae7131beb4962284f",
-  "created_at": "2026-09-27T08:19:30.471305+00:00",
+  "created_at": "2026-11-14T09:03:36.356469+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "intel.com",
       "www.intel.com"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "intel.com",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-intel-001-7206b97fc9e9",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.intel.com/",
-      "retrieved_at": "1790497124478171705",
+      "retrieved_at": "1794646831846949675",
       "service_id": "intel",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "709171286ed5fc45f9fdcc6dfb83761c0dbe9250c00c69c3b206f727216754e5",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "c45294b4a3f23d3d36494c2e9b56a57b3e175ec1325d9a35711dab62801257cf",
-  "previous_domain_count": 0,
-  "release_digest": "ae6db8931e41867ab2c9ce5de7e7a5fc53d7e6692b33e7a9647002bea8af0e10",
+  "previous_domain_count": 2,
+  "release_digest": "10abb339fec4f5a38b0d9549beda277049b7cbf442d758f3594406b46bb3c93d",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "7cb06cc861ea9ce810a00fd66269c1c12cef50b25561cd563ae5d20ae81ae3ae",
   "service_id": "intel",
   "snapshot_content_sha256": "c4dbbb10fe82cfba4445eea6ebb6c4ccdadb6b75a1387a5ae7131beb4962284f",
-  "snapshot_id": "snap-intel-ae6db8931e41867ab2c9ce5d",
+  "snapshot_id": "snap-intel-10abb339fec4f5a38b0d9549",
   "source_bindings": [
     {
       "adapter": null,

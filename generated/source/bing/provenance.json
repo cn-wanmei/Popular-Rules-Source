@@ -97,7 +97,7 @@
     "status": "OK"
   },
   "content_digest": "7bad2a191d54566d185511a6452e8a3dd045a85eb7a108d5a846214aa220d4d5",
-  "created_at": "2026-09-26T12:09:03.926019+00:00",
+  "created_at": "2026-11-14T09:02:18.361187+00:00",
   "domain_count": 9,
   "domain_diff": {
     "added": [],
@@ -140,7 +140,7 @@
       "evidence_id": "EV-bing-001-4b9fe5e5f0ce",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Bing/Bing.list",
-      "retrieved_at": "2026-09-26T12:09:03.900468+00:00",
+      "retrieved_at": "2026-11-14T09:02:18.284325+00:00",
       "service_id": "bing",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -150,7 +150,7 @@
     }
   ],
   "evidence_digest": "bd9a5321df4249943ae79509939c1aede2b459a39a713ef36e1def656c917919",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 0,
@@ -158,7 +158,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
   "previous_domain_count": 9,
-  "release_digest": "3f36698777489885ba7fdbfd5bbedcd805c0438b1a5153b6c37a2d48365e9d7c",
+  "release_digest": "c0aa516a0d841848f14509ee09d33bd6f1346dc0e5052a0c8bf6ac1b64601c97",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -166,7 +166,7 @@
   "service_config_digest": "2e6414cd41bc8c61ee8c2d462c62553832b72736524bb1a74307ace68a879661",
   "service_id": "bing",
   "snapshot_content_sha256": "7bad2a191d54566d185511a6452e8a3dd045a85eb7a108d5a846214aa220d4d5",
-  "snapshot_id": "snap-bing-3f36698777489885ba7fdbfd",
+  "snapshot_id": "snap-bing-c0aa516a0d841848f14509ee",
   "source_bindings": [
     {
       "adapter": "upstream_rule",

@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:25a82c1c246dbba0e3419aa1602be132042223a190a409a0b4ee0822a4fc8533",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-audible-001-4c5bf28589bd"
+      ],
+      "service_id": "audible",
+      "type": "domain",
+      "value": "audible.com"
+    }
+  ],
+  "content_digest": "b49a984482fb73d2cbf403f2e9cdfa83eaf33f7a0ee27ac26e175cf33515e07c",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "4c5bf28589bdf2797bf45a186328ad892d93fb686ff6cf3ca9391c7ee7a159ad",
+      "domains_extracted": 1,
+      "evidence_id": "EV-audible-001-4c5bf28589bd",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.audible.com/",
+      "retrieved_at": "1794646831841386359",
+      "service_id": "audible",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.audible.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "61cacad525f9c5398db4f7e17412298f5a3bf41dd5d425ee7d1d9e363fb52dfe",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "policy_digest": "fa800dff743a0752ce656a3597924095cccdcf077e35f3bbd5cfd16b414fd0f3",
+  "release_digest": "fe7f5b3132664dc8841e2cc84a9ca3d64ab96ac522aa29b4a7cf9bd90e75cd86",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "audible",
+  "snapshot_id": "snap-audible-fe7f5b3132664dc8841e2cc8",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

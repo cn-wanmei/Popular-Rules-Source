@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:a383965a381537ce6429dd250ac2b1b86e5702ce24b4f35da27f9de53fca97ca",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-xai-grok-001-b45db4bcbc03"
+      ],
+      "service_id": "xai-grok",
+      "type": "domain",
+      "value": "grok.com"
+    }
+  ],
+  "content_digest": "276034b75d9b8ca97b88a945f8b85014db98ff4ae6360618d780cb2f023406bf",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "b45db4bcbc03f258b61be1a74f26ca8f83f0d8262192a9e8ec5085a6cf896844",
+      "domains_extracted": 1,
+      "evidence_id": "EV-xai-grok-001-b45db4bcbc03",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://grok.com/",
+      "retrieved_at": "1794646831854949755",
+      "service_id": "xai-grok",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://grok.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "326d9aed1040270b8847afb4bd933e95d277870e3143317328ecd40dc339e2ef",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "policy_digest": "50626f3557ecab5fbae98eb569f9b423622f99337d7793965ea807c7573c63e8",
+  "release_digest": "bfb1aaa1b2c6f505926500caf9924222f0a4d54caeae10d538e0ee81767ca172",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "xai-grok",
+  "snapshot_id": "snap-xai-grok-bfb1aaa1b2c6f505926500ca",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

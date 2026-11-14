@@ -1,0 +1,14 @@
+{
+  "content_digest": "74e48c56d6a5727806021cf7f2e0a9e9d3ac8cb12b7358d681f5f220bba046e1",
+  "domains": [
+    "hf.co",
+    "hf.space",
+    "huggingface.co"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "huggingface",
+  "source_hashes": [
+    "8ee30c1014ac23d5e0481ef3263177078c917d2d21fea7bf6d5760efbd0df678"
+  ]
+}

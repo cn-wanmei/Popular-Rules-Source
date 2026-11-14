@@ -1,0 +1,13 @@
+{
+  "content_digest": "c64b63d597a1de62032df40572aec3b4be1d6f4709610607b498dc9bf51e057f",
+  "domains": [
+    "migu.cn",
+    "www.migu.cn"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "migu",
+  "source_hashes": [
+    "b901a202dd35ebc6b1735a7234019d170e69ce6017bcebb2c85b5d5f0be8b47a"
+  ]
+}

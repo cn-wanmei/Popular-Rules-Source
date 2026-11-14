@@ -1,0 +1,13 @@
+{
+  "content_digest": "3deff83a96f1823073067f5d3171abe62d1cd5736e8d485bd9f0018b2b60ad40",
+  "domains": [
+    "spacex.com",
+    "www.spacex.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "spacex",
+  "source_hashes": [
+    "b85f7f6eff4e64ddb223f48b466b8393d77286103640640f8148398fb2c5159f"
+  ]
+}

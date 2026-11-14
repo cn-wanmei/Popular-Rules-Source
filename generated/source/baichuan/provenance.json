@@ -22,25 +22,25 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "9707037f1c7ba2b771695858b474a4170600380069a9bbbb49e98251b6096b19",
-  "created_at": "2026-09-27T10:04:53.574669+00:00",
+  "created_at": "2026-11-14T09:02:10.593971+00:00",
   "domain_count": 2,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "baichuan-ai.com",
       "www.baichuan-ai.com"
     ],
-    "added_count": 2,
-    "current_count": 2,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 2
   },
   "domains": [
     "baichuan-ai.com",
@@ -56,7 +56,7 @@
       "evidence_id": "EV-baichuan-001-04a2359fe2c7",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.baichuan-ai.com/",
-      "retrieved_at": "1790503439909557177",
+      "retrieved_at": "1794646831841949625",
       "service_id": "baichuan",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,15 +66,15 @@
     }
   ],
   "evidence_digest": "e5e4f810589cc1e85af35f618762d062cf1c53365a974dea36118b7a43a02cb8",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "484ce5da285698175d37871890ed8207508771ffc4b4930bb2926af66d100d6c",
-  "previous_domain_count": 0,
-  "release_digest": "e2d81430dd580b43da427a5df18dd37d1ac8f5d98748694cd0d96901f4d31fe1",
+  "previous_domain_count": 2,
+  "release_digest": "5ee902a02a577eabe2e32e2dce3536dcebf7d213d11bfe863e5ad9f50f893136",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "4f49300a91246d9f85ed96682d42a5e9c4b8bf689e763873262e42df103e723e",
   "service_id": "baichuan",
   "snapshot_content_sha256": "9707037f1c7ba2b771695858b474a4170600380069a9bbbb49e98251b6096b19",
-  "snapshot_id": "snap-baichuan-e2d81430dd580b43da427a5d",
+  "snapshot_id": "snap-baichuan-5ee902a02a577eabe2e32e2d",
   "source_bindings": [
     {
       "adapter": null,

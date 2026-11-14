@@ -1,0 +1,12 @@
+{
+  "content_digest": "9a6769a01a273be3169036d6f613ef9ac5f778c1710cbe81de5cb2efde164cb5",
+  "domains": [
+    "mail.google.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "gmail",
+  "source_hashes": [
+    "cafabc15f55d97cbf6ccee66b9dd6cfcb523e61dcd4c548c8834ea3271d9a8fc"
+  ]
+}

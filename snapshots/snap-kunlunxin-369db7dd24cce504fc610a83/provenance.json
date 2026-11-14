@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:4416245295e70328bbabd577e6c80eb217f67d554d1ab343c4faa98df4c197cb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-kunlunxin-001-6199079b4f1d"
+      ],
+      "service_id": "kunlunxin",
+      "type": "domain",
+      "value": "kunlunxin.com"
+    },
+    {
+      "asset_id": "sha256:e2085ef952fe241f7285b66fe1fc842c5b9fa3f659d9ca6cd88624bba37b1177",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-kunlunxin-001-6199079b4f1d"
+      ],
+      "service_id": "kunlunxin",
+      "type": "domain",
+      "value": "www.kunlunxin.com"
+    }
+  ],
+  "content_digest": "2b07a67943c23a953a349cb172b19e07ae37bffd2a1f97c68d6ea8976fc3f999",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "6199079b4f1deef5e57fd66aa805c622a0316bff23f3e25e86016dca018ae0a4",
+      "domains_extracted": 2,
+      "evidence_id": "EV-kunlunxin-001-6199079b4f1d",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.kunlunxin.com/",
+      "retrieved_at": "1794646831847949685",
+      "service_id": "kunlunxin",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.kunlunxin.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "91bf8ba44eaf839502aac17706fabfdac3ad4627c37931e5305fba757e8040e6",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "policy_digest": "36ff8b5a6e36ac83583bd5b3814c0871b0db33073b38588b72997835b0f03676",
+  "release_digest": "369db7dd24cce504fc610a838020b9c4c00be16b5e0e486fe5872c46231bba64",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "kunlunxin",
+  "snapshot_id": "snap-kunlunxin-369db7dd24cce504fc610a83",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

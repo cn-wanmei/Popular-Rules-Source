@@ -322,22 +322,18 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 1.103448275862069,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "fe302f7c2c451f7b4e18d15051241045d5b0056a4245a95f44d5e571cf76cfea",
-  "created_at": "2026-11-07T08:52:31.704736+00:00",
+  "created_at": "2026-11-14T09:05:09.381296+00:00",
   "domain_count": 32,
   "domain_diff": {
-    "added": [
-      "capcutapi.com",
-      "capcutapi.us",
-      "capcutstatic.com"
-    ],
-    "added_count": 3,
+    "added": [],
+    "added_count": 0,
     "current_count": 32,
-    "previous_count": 29,
+    "previous_count": 32,
     "removed": [],
     "removed_count": 0,
     "unchanged": [
@@ -346,6 +342,9 @@
       "byteintlapi.com",
       "byteoversea.com",
       "capcut.com",
+      "capcutapi.com",
+      "capcutapi.us",
+      "capcutstatic.com",
       "ibytedtos.com",
       "ibyteimg.com",
       "ipstatp.com",
@@ -371,7 +370,7 @@
       "trae.ai",
       "ttwebview.com"
     ],
-    "unchanged_count": 29
+    "unchanged_count": 32
   },
   "domains": [
     "bytedapm.com",
@@ -417,7 +416,7 @@
       "evidence_id": "EV-tiktok-001-ddf8e51eadb4",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/TikTok/TikTok.list",
-      "retrieved_at": "2026-11-07T08:52:31.672520+00:00",
+      "retrieved_at": "2026-11-14T09:05:09.291528+00:00",
       "service_id": "tiktok",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -427,15 +426,15 @@
     }
   ],
   "evidence_digest": "e8a85dca6b48b10043511dc9d094d9431c357a096cf8ab47ac7ed74fb67577fd",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 0,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "679fa28e918bce1dbbf0edd360d7b1d5b8c676e04ea53b8ac72090fabc0a736e",
-  "previous_domain_count": 29,
-  "release_digest": "abad8ec098d0563044b778daf38884f0d0092946a4083044145070666ae42935",
+  "previous_domain_count": 32,
+  "release_digest": "51c14472cbb97b068aa1152cb7c4ef51a3773eec6537ad39eecce882273b07df",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -443,7 +442,7 @@
   "service_config_digest": "c220be7cb0b7898e277ef2700c9326da31b6b2f999c318e40feacf3cdd658560",
   "service_id": "tiktok",
   "snapshot_content_sha256": "fe302f7c2c451f7b4e18d15051241045d5b0056a4245a95f44d5e571cf76cfea",
-  "snapshot_id": "snap-tiktok-abad8ec098d0563044b778da",
+  "snapshot_id": "snap-tiktok-51c14472cbb97b068aa1152c",
   "source_bindings": [
     {
       "adapter": "upstream_rule",

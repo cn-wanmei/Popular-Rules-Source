@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:c664c7b62a64102f0701c66e7ae9c6d9aacdc24ba38de0eb3bdf4f47c5018d31",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-baidumaps-001-375fa6ed08cc"
+      ],
+      "service_id": "baidumaps",
+      "type": "domain",
+      "value": "map.baidu.com"
+    }
+  ],
+  "content_digest": "6d72738debe8a0a48c32d5f786383b11fbde90b2769f1902e8f775ead6e92685",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "375fa6ed08cc665783b52a34deb464b56676fdb7dee9833ee66f23cc1d5a7c07",
+      "domains_extracted": 1,
+      "evidence_id": "EV-baidumaps-001-375fa6ed08cc",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://map.baidu.com/",
+      "retrieved_at": "1794646831841949625",
+      "service_id": "baidumaps",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://map.baidu.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "499f11189a0821ab51f67dd7f86b579ed9db8ccdbac5dca2480ba1b77b4eb706",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "policy_digest": "efff48c35fe4ff3ec4a2680a3b51c969512bd1f9ca096de124fa10c82216e99c",
+  "release_digest": "c16ec591e46745a63bd2ac7e331c6863bc56ff26c26739ad3489bcb3aaf655dc",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "baidumaps",
+  "snapshot_id": "snap-baidumaps-c16ec591e46745a63bd2ac7e",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

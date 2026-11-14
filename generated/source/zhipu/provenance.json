@@ -32,26 +32,26 @@
     }
   ],
   "change_assessment": {
-    "growth_ratio": 0.0,
+    "growth_ratio": 1.0,
     "removal_ratio": 0.0,
     "status": "OK"
   },
   "content_digest": "1ad4d7879527558bbf201777ec3c8e3900eed7a6341c092e22e90248dbf15ed6",
-  "created_at": "2026-09-27T08:17:29.799938+00:00",
+  "created_at": "2026-11-14T09:05:39.537565+00:00",
   "domain_count": 3,
   "domain_diff": {
-    "added": [
+    "added": [],
+    "added_count": 0,
+    "current_count": 3,
+    "previous_count": 3,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
       "chatglm.cn",
       "www.zhipuai.cn",
       "zhipuai.cn"
     ],
-    "added_count": 3,
-    "current_count": 3,
-    "previous_count": 0,
-    "removed": [],
-    "removed_count": 0,
-    "unchanged": [],
-    "unchanged_count": 0
+    "unchanged_count": 3
   },
   "domains": [
     "chatglm.cn",
@@ -68,7 +68,7 @@
       "evidence_id": "EV-zhipu-001-3727dd65989b",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://www.zhipuai.cn/",
-      "retrieved_at": "1790496993280989324",
+      "retrieved_at": "1794646831855949765",
       "service_id": "zhipu",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -78,15 +78,15 @@
     }
   ],
   "evidence_digest": "74a07bbca8c8cfa6b4cbdb5be419ad892e0de3a2b6828fd806c266d1d7379c11",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 3,
   "official_source_count": 1,
   "parser_version": "domain-extractor-v4",
   "policy_digest": "c4a609ff1da13f8a67c54fcaf5b98ac098714e5dd17df6e4ebfc89ad6269d91c",
-  "previous_domain_count": 0,
-  "release_digest": "b777d801e25dcde103be641475904c4682baba5e0ea08c00e7c0f1cfca10bc70",
+  "previous_domain_count": 3,
+  "release_digest": "d964a438b8ff15f39705fd78c2790d49d183fca0265de576f3e7032b43792a89",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -94,7 +94,7 @@
   "service_config_digest": "803fe4b10301420e48c5f91ea9d2b2f41bbcf48bcb18c01075f332ccf1cf9e95",
   "service_id": "zhipu",
   "snapshot_content_sha256": "1ad4d7879527558bbf201777ec3c8e3900eed7a6341c092e22e90248dbf15ed6",
-  "snapshot_id": "snap-zhipu-b777d801e25dcde103be6414",
+  "snapshot_id": "snap-zhipu-d964a438b8ff15f39705fd78",
   "source_bindings": [
     {
       "adapter": null,

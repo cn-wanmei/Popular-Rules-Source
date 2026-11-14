@@ -1,0 +1,12 @@
+{
+  "content_digest": "725b16f48f5d9b32deec0efa915c34eb5d16ab707fe29c6d4a3cfd492d48ac7c",
+  "domains": [
+    "earth.google.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "google-earth",
+  "source_hashes": [
+    "1932ed88a6f2416854cf77624f6c9cb2af6585a680b42d35cb887b2141d6f34b"
+  ]
+}

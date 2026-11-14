@@ -1,0 +1,13 @@
+{
+  "content_digest": "6931319899a74a9ba7248604f8507fb2da715f93ab8dbeca1398bcd1badc5598",
+  "domains": [
+    "www.xunlei.com",
+    "xunlei.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "xunlei",
+  "source_hashes": [
+    "b1d00eddab7f72fd30c467c51c2ce9538e661a031739d3ff04598e45a67cd7a5"
+  ]
+}

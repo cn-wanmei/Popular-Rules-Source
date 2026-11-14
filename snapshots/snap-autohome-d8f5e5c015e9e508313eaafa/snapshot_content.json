@@ -1,0 +1,13 @@
+{
+  "content_digest": "6c2c0ded6b1b0b65628cd9f147b4df4cf32c1179aa58f503d74bc665e910021d",
+  "domains": [
+    "autohome.com.cn",
+    "www.autohome.com.cn"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "autohome",
+  "source_hashes": [
+    "d578b54f26ed0aa87364a97c912b544572309c718804c4a846770c85a3a9dd68"
+  ]
+}

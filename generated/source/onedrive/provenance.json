@@ -137,7 +137,7 @@
     "status": "OK"
   },
   "content_digest": "1090a865fdb375152535274115046431d18260f268e879edbd8d25e4f733c335",
-  "created_at": "2026-09-27T01:41:40.319681+00:00",
+  "created_at": "2026-11-14T09:04:16.875873+00:00",
   "domain_count": 13,
   "domain_diff": {
     "added": [],
@@ -188,7 +188,7 @@
       "evidence_id": "EV-onedrive-001-cf4f6b24e434",
       "parser_version": "upstream-rule-v1",
       "resolved_url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/OneDrive/OneDrive.list",
-      "retrieved_at": "2026-09-27T01:41:40.304519+00:00",
+      "retrieved_at": "2026-11-14T09:04:16.790517+00:00",
       "service_id": "onedrive",
       "source_method": "upstream_rule",
       "source_type": "upstream_rule",
@@ -198,7 +198,7 @@
     }
   ],
   "evidence_digest": "b663143d570dc6412d4ffa021e0462a450e9e3cba58166310a81742184c4c82d",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 0,
@@ -206,7 +206,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "13698b033a7482a9088e99a1ae4289b8bbb4194c22c6a37e3a5dac0b78de9cc1",
   "previous_domain_count": 13,
-  "release_digest": "241ab9a1831b3f0a3affb85a68904e79315c4ed2a855fa4e633e19c0ec9c978e",
+  "release_digest": "4a25ba98151de1a2db26f429870e47ed28373a2505437e4cf5ae594bf2a93756",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -214,7 +214,7 @@
   "service_config_digest": "b61f37d7aaa1395c537c54e75f87f6d6db25e2418b4e7fdd7bbf2ff15ce208fa",
   "service_id": "onedrive",
   "snapshot_content_sha256": "1090a865fdb375152535274115046431d18260f268e879edbd8d25e4f733c335",
-  "snapshot_id": "snap-onedrive-241ab9a1831b3f0a3affb85a",
+  "snapshot_id": "snap-onedrive-4a25ba98151de1a2db26f429",
   "source_bindings": [
     {
       "adapter": "upstream_rule",
