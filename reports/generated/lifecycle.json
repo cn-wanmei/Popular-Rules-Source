@@ -666,11 +666,11 @@
       "domain_count": 18,
       "enabled": true,
       "evidence_digest": "dbe5bcd717bebe4e2f4818d60924396dba19e55856236bf1c16603b2d36a8e5b",
-      "generator_digest": "a6d4520c5beeaa7ef9ba2bae9ec53c1bde09551af35f4223d62262822564c025",
+      "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
       "policy_digest": "b0b1780db8649335175d521a89ccf545bc4da134a107579053dffa09ae1a0a7c",
-      "release_digest": "16b8b215262c8bd52b7da332c957a9c78f7773b335ff7e5734c826d2c924b0bf",
+      "release_digest": "327de8197a4b0697c6c4a6381c591ef0e22e152aff0ef02d673c3a59659e7c9a",
       "release_state": "CANDIDATE",
-      "snapshot_id": "snap-cloudflare-16b8b215262c8bd52b7da332",
+      "snapshot_id": "snap-cloudflare-327de8197a4b0697c6c4a638",
       "state": "review"
     },
     "coinbase": {
