@@ -13,8 +13,6 @@ on:
     workflows: ["Durable Source Bridge"]
     types: [completed]
 
-
-
 concurrency:
   group: source-lifecycle-status
   cancel-in-progress: true
@@ -30,7 +28,12 @@ jobs:
         with:
           python-version: "3.12"
       - run: python -m pip install -r requirements.lock
-      - run: python -m source_engine status
+      - name: Generate lifecycle status
+        run: python -m source_engine status
+        env:
+          # Reconciliation reads Collection's Contents API; authenticate to avoid
+          # unauthenticated API rate limits on scheduled/bridge-triggered runs.
+          GH_TOKEN: ${{ github.token }}
       - name: Commit generated lifecycle report
         run: |
           git config user.name "github-actions[bot]"
