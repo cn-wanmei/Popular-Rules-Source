@@ -16,15 +16,15 @@ EXPECTED = {
     },
     "huawei-evs-api": {
         "hosts": ["evs.cn-south-1.myhuaweicloud.com"],
-        "source": "https://support.huaweicloud.com/tg-mgc/tg-mgc-pdf.pdf",
+        "source": "https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html",
     },
     "huawei-vpc-api": {
         "hosts": ["vpc.cn-south-1.myhuaweicloud.com"],
-        "source": "https://support.huaweicloud.com/tg-mgc/tg-mgc-pdf.pdf",
+        "source": "https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html",
     },
     "huawei-ims-api": {
         "hosts": ["ims.cn-south-1.myhuaweicloud.com"],
-        "source": "https://support.huaweicloud.com/tg-mgc/tg-mgc-pdf.pdf",
+        "source": "https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html",
     },
     "huawei-dns-api": {
         "hosts": ["dns.cn-south-1.myhuaweicloud.com"],
