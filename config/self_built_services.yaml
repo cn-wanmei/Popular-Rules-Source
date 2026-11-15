@@ -319,7 +319,7 @@ services:
     ecosystem: huawei
     mode: official_web
     official_sources:
-    - https://support.huaweicloud.com/tg-mgc/tg-mgc-pdf.pdf
+    - https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html
     allowed_host_exact:
     - evs.cn-south-1.myhuaweicloud.com
     upstream_binding: null
@@ -330,7 +330,7 @@ services:
     ecosystem: huawei
     mode: official_web
     official_sources:
-    - https://support.huaweicloud.com/tg-mgc/tg-mgc-pdf.pdf
+    - https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html
     allowed_host_exact:
     - vpc.cn-south-1.myhuaweicloud.com
     upstream_binding: null
@@ -341,7 +341,7 @@ services:
     ecosystem: huawei
     mode: official_web
     official_sources:
-    - https://support.huaweicloud.com/tg-mgc/tg-mgc-pdf.pdf
+    - https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html
     allowed_host_exact:
     - ims.cn-south-1.myhuaweicloud.com
     upstream_binding: null
