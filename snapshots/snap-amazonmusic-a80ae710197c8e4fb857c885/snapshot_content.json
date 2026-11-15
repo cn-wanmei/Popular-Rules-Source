@@ -1,0 +1,12 @@
+{
+  "content_digest": "1a87fd68b9fc5d37d39297ee03e6ba4def7c975d79b138ab0904150284095d50",
+  "domains": [
+    "music.amazon.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "amazonmusic",
+  "source_hashes": [
+    "ec35f2197e87d74ac6ce2a817f04dcf5ddf6c9d212f2fc0aebc566585768ee71"
+  ]
+}

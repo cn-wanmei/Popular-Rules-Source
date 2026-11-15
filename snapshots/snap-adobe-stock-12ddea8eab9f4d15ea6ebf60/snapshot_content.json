@@ -1,0 +1,12 @@
+{
+  "content_digest": "c7bc67a0e581a18cf00701fa5d293324f2a99aa74e61a165f8e4cd166de3fb6a",
+  "domains": [
+    "stock.adobe.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "adobe-stock",
+  "source_hashes": [
+    "7bd4275434dc3964564bcb3ecc2ae2f579355ca5674ce2b9ba8f7cd9e096fd95"
+  ]
+}

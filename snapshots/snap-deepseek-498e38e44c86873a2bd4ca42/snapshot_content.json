@@ -1,0 +1,13 @@
+{
+  "content_digest": "fe8a0928038519346854c53651fdad0b23a5ca2a59d456a89b955f7f31daee6c",
+  "domains": [
+    "deepseek.com",
+    "deepseeksvc.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "deepseek",
+  "source_hashes": [
+    "fcb7018ebebc5716a7c8351c14c07455ebc68cbadb0a0954ffe6ac4d46bc8502"
+  ]
+}
