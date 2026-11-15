@@ -1651,8 +1651,8 @@
       "domain_count": 5,
       "enabled": true,
       "production_activated": false,
-      "release_digest": "b35ee148b697ed694d1cc4136dccf6401365b8743a13673829af0bc150250b45",
-      "snapshot_id": "snap-messenger-b35ee148b697ed694d1cc413",
+      "release_digest": "d2f21d75a47938816b817a7e7a68923c4da58c2a846bbb2da127de3335db4c1d",
+      "snapshot_id": "snap-messenger-d2f21d75a47938816b817a7e",
       "verified": true
     },
     "mgtv": {

@@ -1962,11 +1962,11 @@
       "domain_count": 5,
       "enabled": true,
       "evidence_digest": "9085995020bb737b26cc9e9528ed494a96265387e3da5d0894b53501f2543c0f",
-      "generator_digest": "2024d61f9fa6a103d74a639eb2458bd2e1362fc7a688c580272e4a9862335bf8",
+      "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
       "policy_digest": "d7b7ba2a4a2b53662747b88d1cfc4cd6d4468fc91eafede852f77d0bfaebf1d3",
-      "release_digest": "b35ee148b697ed694d1cc4136dccf6401365b8743a13673829af0bc150250b45",
+      "release_digest": "d2f21d75a47938816b817a7e7a68923c4da58c2a846bbb2da127de3335db4c1d",
       "release_state": "CANDIDATE",
-      "snapshot_id": "snap-messenger-b35ee148b697ed694d1cc413",
+      "snapshot_id": "snap-messenger-d2f21d75a47938816b817a7e",
       "state": "review"
     },
     "mgtv": {
