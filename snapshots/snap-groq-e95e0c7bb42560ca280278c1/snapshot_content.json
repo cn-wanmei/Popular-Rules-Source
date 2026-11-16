@@ -1,0 +1,12 @@
+{
+  "content_digest": "88efc1a66cdffe57858d1067819be3e176fe946795bd9dbff08355ab7ce2c98c",
+  "domains": [
+    "groq.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "groq",
+  "source_hashes": [
+    "7b15edad3da6fcfc18dc648c1a072636b5fa8116fc51538f4d1e9583ebf21ea4"
+  ]
+}

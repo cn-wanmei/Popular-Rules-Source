@@ -1,0 +1,13 @@
+{
+  "content_digest": "65c0423c50672f34b5fa8411ca41cb1a0c1e1ed2666e93c3335f39a5adfdffad",
+  "domains": [
+    "lu.com",
+    "www.lu.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "lufax",
+  "source_hashes": [
+    "b7a0b221facc3b2d90f210d5d7bd89a41b017576186d63981ca1efd93b951fdd"
+  ]
+}

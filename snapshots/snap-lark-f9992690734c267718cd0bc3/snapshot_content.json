@@ -1,0 +1,13 @@
+{
+  "content_digest": "b582a6e840e44dc7513927474806d24d6264a2cab07fac64cdb7f44a0fc08700",
+  "domains": [
+    "larksuite.com",
+    "www.larksuite.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "lark",
+  "source_hashes": [
+    "2a6a084a6065c268873082884de9f426e83a7683d5b2e2fccc246a85499ffd2c"
+  ]
+}
