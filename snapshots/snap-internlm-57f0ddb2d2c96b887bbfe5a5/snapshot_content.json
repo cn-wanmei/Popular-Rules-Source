@@ -1,0 +1,12 @@
+{
+  "content_digest": "e8125d223b592b7a75ce6d786fad718fc6e4fd3ec9525a538aa951f265ba6353",
+  "domains": [
+    "internlm.intern-ai.org.cn"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "internlm",
+  "source_hashes": [
+    "0578c633a79defb2cb17b69fd19cce4e975c200feccde0c22d24eb2c1ba7f1ce"
+  ]
+}

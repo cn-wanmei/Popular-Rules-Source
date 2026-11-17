@@ -1,0 +1,13 @@
+{
+  "content_digest": "f7fb5be1d5eaab9741ffe4b2535a84372da29c3ad80a6ea5c31c8b50e7751117",
+  "domains": [
+    "datadoghq.com",
+    "www.datadoghq.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "datadog",
+  "source_hashes": [
+    "2e72c1fd7532fac3c07298d7f330c209a71cafdb5ab6ccbaed34934456bb4c85"
+  ]
+}
