@@ -1,0 +1,12 @@
+{
+  "content_digest": "6efdb2d5364e4847b20b5f6cbbb6240c79c29a1125166fb1b4988e052092b504",
+  "domains": [
+    "vpc.cn-south-1.myhuaweicloud.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "huawei-vpc-api",
+  "source_hashes": [
+    "235c4d33bd26e3d992d34b4209c75291cc67f9a7039d9f8d5eb9dae497034c8d"
+  ]
+}

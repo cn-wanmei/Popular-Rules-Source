@@ -1,0 +1,12 @@
+{
+  "content_digest": "2b52d14076a4d968267b3c36a8103ed26d0158e04050f0584d9de6cacd382da5",
+  "domains": [
+    "platform.claude.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "anthropic-platform",
+  "source_hashes": [
+    "e5b225c4ea01b1f7224ef6ea71fe6830bc837373a9c1d01f698cdf6635461a50"
+  ]
+}
