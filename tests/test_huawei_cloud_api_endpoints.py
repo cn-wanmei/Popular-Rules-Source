@@ -8,7 +8,7 @@ import yaml
 EXPECTED = {
     "huawei-iam-api": {
         "hosts": ["iam.myhuaweicloud.com"],
-        "sources": ["https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/services/iam/v5/region/region.go"],
+        "sources": ["https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/README.md"],
     },
     "huawei-ecs-api": {
         "hosts": ["ecs.cn-south-1.myhuaweicloud.com"],
