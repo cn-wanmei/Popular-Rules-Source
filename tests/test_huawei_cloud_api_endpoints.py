@@ -27,6 +27,7 @@ EXPECTED = {
             "iam.cn-south-2.myhuaweicloud.com",
             "iam.cn-southwest-2.myhuaweicloud.com",
             "iam.eu-west-0.myhuaweicloud.com",
+            "iam.eu-west-101.myhuaweicloud.eu",
             "iam.la-north-2.myhuaweicloud.com",
             "iam.la-south-2.myhuaweicloud.com",
             "iam.me-east-1.myhuaweicloud.com",
@@ -37,7 +38,7 @@ EXPECTED = {
             "iam.sa-brazil-1.myhuaweicloud.com",
             "iam.tr-west-1.myhuaweicloud.com",
         ],
-        "sources": ["https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/core/auth/internal/iam_endpoint.go"],
+        "sources": ["https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/core/auth/internal/iam_endpoint.go", "https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/README.md"],
     },
     "huawei-ecs-api": {
         "hosts": [
