@@ -1,0 +1,13 @@
+{
+  "content_digest": "a65a9070a8efb6ef57dd2a698711cdbb30a9ba3963e8c009bf538d47b65590af",
+  "domains": [
+    "honorofkings.com",
+    "www.honorofkings.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "honorofkings_global",
+  "source_hashes": [
+    "417db49a1444e93f86164ccdebc4d716d8d2aef4352dedfe667182ab73c2ee37"
+  ]
+}

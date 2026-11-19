@@ -1,0 +1,12 @@
+{
+  "content_digest": "d3bcc60b367d3d95b5161847edda9efa0b2e57a6eb7e56040afcc487f3b0b26f",
+  "domains": [
+    "ims.cn-south-1.myhuaweicloud.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "huawei-ims-api",
+  "source_hashes": [
+    "4e121e61babddd7f6a6ccf16b72a51a46dba0c2b68e6d146e7816311c18176c9"
+  ]
+}

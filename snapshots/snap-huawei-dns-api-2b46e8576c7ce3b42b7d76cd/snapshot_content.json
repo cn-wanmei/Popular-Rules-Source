@@ -1,0 +1,12 @@
+{
+  "content_digest": "6d5fbd40899b2dd72909d143de1837271a6c3f7a80d64dcda27ad6b749b4f821",
+  "domains": [
+    "dns.cn-south-1.myhuaweicloud.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "huawei-dns-api",
+  "source_hashes": [
+    "39f6c0b59a61d0df4fd35121879eec0e75002b8e9787a464231025f388e28649"
+  ]
+}

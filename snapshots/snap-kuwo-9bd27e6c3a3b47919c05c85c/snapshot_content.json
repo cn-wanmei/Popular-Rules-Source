@@ -1,0 +1,12 @@
+{
+  "content_digest": "d7cc1c64bcfbb227d62d654e02e12795448cb3620883bdc042519b14abc36498",
+  "domains": [
+    "m.kuwo.cn"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "kuwo",
+  "source_hashes": [
+    "2cf2f0ca8e4d24736094eea6d83c37f5e9ae082bed5920bffbc12e6d93a1a14b"
+  ]
+}
