@@ -8,34 +8,34 @@ import yaml
 EXPECTED = {
     "huawei-iam-api": {
         "hosts": ["iam.myhuaweicloud.com"],
-        "source": "https://support.huaweicloud.com/intl/en-us/api-iam/iam-api-pdf.pdf",
+        "sources": ["https://support.huaweicloud.com/intl/en-us/api-iam/iam_01_0001.html"],
     },
     "huawei-ecs-api": {
         "hosts": ["ecs.cn-south-1.myhuaweicloud.com"],
-        "source": "https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html",
+        "sources": ["https://support.huaweicloud.com/intl/en-us/api-ecs/en-us_topic_0020805967.html","https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html"],
     },
     "huawei-evs-api": {
         "hosts": ["evs.cn-south-1.myhuaweicloud.com"],
-        "source": "https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html",
+        "sources": ["https://support.huaweicloud.com/intl/en-us/api-evs/evs_04_0001.html","https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html"],
     },
     "huawei-vpc-api": {
         "hosts": ["vpc.cn-south-1.myhuaweicloud.com"],
-        "source": "https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html",
+        "sources": ["https://support.huaweicloud.com/intl/en-us/api-vpc/en-us_topic_0173364201.html","https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html"],
     },
     "huawei-ims-api": {
         "hosts": ["ims.cn-south-1.myhuaweicloud.com"],
-        "source": "https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html",
+        "sources": ["https://support.huaweicloud.com/intl/en-us/api-ims/ims_03_0101.html","https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html"],
     },
     "huawei-dns-api": {
         "hosts": ["dns.cn-south-1.myhuaweicloud.com"],
-        "source": "https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html",
+        "sources": ["https://support.huaweicloud.com/intl/en-us/api-dns/dns_api_10000.html","https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html"],
     },
     "huawei-obs-api": {
         "hosts": [
             "obs.cn-north-4.myhuaweicloud.com",
             "obs.cn-south-1.myhuaweicloud.com",
         ],
-        "source": "https://support.huaweicloud.com/intl/en-us/usermanual-obs/obs_41_0003.html",
+        "sources": ["https://support.huaweicloud.com/intl/en-us/usermanual-obs/obs_41_0003.html","https://support.huaweicloud.com/intl/en-us/productdesc-obs/obs_03_0152.html"],
     },
 }
 
@@ -58,12 +58,12 @@ def test_huawei_cloud_api_children_are_exact_review_only_nodes() -> None:
 
     for service_id, definition in EXPECTED.items():
         hosts = definition["hosts"]
-        source = definition["source"]
+        sources = definition["sources"]
 
         service = services[service_id]
         assert service["allowed_host_exact"] == hosts
         assert service["allowed_host_suffixes"] == []
-        assert service["official_sources"] == [source]
+        assert service["official_sources"] == sources
         assert service["source_policy"]["official_required"] is True
         assert service["source_policy"]["allowed_authorities"] == ["official"]
         assert service["boundary"].get("mode", "configured") == "configured"
@@ -71,7 +71,7 @@ def test_huawei_cloud_api_children_are_exact_review_only_nodes() -> None:
 
         source_definition = self_built[service_id]
         assert source_definition["allowed_host_exact"] == hosts
-        assert source_definition["official_sources"] == [source]
+        assert source_definition["official_sources"] == sources
         assert source_definition["current_state"] == "review"
         assert adapters[service_id]["adapters"] == ["self_built"]
 
