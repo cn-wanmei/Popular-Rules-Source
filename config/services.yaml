@@ -2336,6 +2336,7 @@ services:
     - https://support.huaweicloud.com/intl/en-us/productdesc-obs/obs_03_0152.html
     allowed_host_suffixes: []
     allowed_host_exact:
+    - obs.cn-north-1.myhuaweicloud.com
     - obs.cn-north-4.myhuaweicloud.com
     - obs.cn-south-1.myhuaweicloud.com
     coverage:
