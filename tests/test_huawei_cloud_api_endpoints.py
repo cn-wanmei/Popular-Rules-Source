@@ -32,6 +32,7 @@ EXPECTED = {
     },
     "huawei-obs-api": {
         "hosts": [
+            "obs.cn-north-1.myhuaweicloud.com",
             "obs.cn-north-4.myhuaweicloud.com",
             "obs.cn-south-1.myhuaweicloud.com",
         ],
