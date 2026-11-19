@@ -4,7 +4,7 @@
       "asset_id": "sha256:823fa491273b4627d135104e9efb1caa3009affcfa31f1ba1f33c4dc9918e397",
       "classification": "service",
       "evidence_ids": [
-        "EV-neteasemail-002-8b93b702bb01"
+        "EV-neteasemail-002-7a08a5d300b1"
       ],
       "service_id": "neteasemail",
       "type": "domain",
@@ -14,9 +14,9 @@
       "asset_id": "sha256:2fd2cdc123b9c8375f4d1e6ccb3d0c768cc2b5ccfa1a04a535a1702d68351fd3",
       "classification": "service",
       "evidence_ids": [
-        "EV-neteasemail-001-fef085fd35e9",
-        "EV-neteasemail-002-8b93b702bb01",
-        "EV-neteasemail-003-528f3ce93501"
+        "EV-neteasemail-001-c1d7dc719bfe",
+        "EV-neteasemail-002-7a08a5d300b1",
+        "EV-neteasemail-003-1bfd311e7901"
       ],
       "service_id": "neteasemail",
       "type": "domain",
@@ -26,7 +26,7 @@
       "asset_id": "sha256:4f0afd3eee683d64e40a474998224f94810ad00cf5367fc2ccc9cdb36b617bb7",
       "classification": "service",
       "evidence_ids": [
-        "EV-neteasemail-003-528f3ce93501"
+        "EV-neteasemail-003-1bfd311e7901"
       ],
       "service_id": "neteasemail",
       "type": "domain",
@@ -38,8 +38,8 @@
     "removal_ratio": 0.0,
     "status": "OK"
   },
-  "content_digest": "a91ff805543bac2f1df2f683c738bcc617b50e938350dbf92f291a4425a81cd1",
-  "created_at": "2026-09-26T12:09:23.257397+00:00",
+  "content_digest": "437fd8778564ffcabcfc796e178f61bd1f1b7a04c2b2b69c2dd41b01b971d45a",
+  "created_at": "2026-11-19T10:27:51.125861+00:00",
   "domain_count": 3,
   "domain_diff": {
     "added": [],
@@ -65,12 +65,12 @@
     {
       "authority": "official",
       "confidence": "high",
-      "content_hash": "fef085fd35e9cc19dd41319b25ce706098ad14498e80ef64b7ba600e51f4284b",
+      "content_hash": "c1d7dc719bfe2744c0864fa8dd4fb15f7bfe2f6f0837b049163109e58ce32f1a",
       "domains_extracted": 1,
-      "evidence_id": "EV-neteasemail-001-fef085fd35e9",
+      "evidence_id": "EV-neteasemail-001-c1d7dc719bfe",
       "parser_version": "domain-extractor-v4",
       "resolved_url": "https://mail.163.com/",
-      "retrieved_at": "2026-09-26T12:09:21.040518+00:00",
+      "retrieved_at": "2026-11-19T10:27:49.088385+00:00",
       "service_id": "neteasemail",
       "source_method": "official_web",
       "source_type": "official_web",
@@ -81,12 +81,12 @@
     {
       "authority": "official",
       "confidence": "high",
-      "content_hash": "8b93b702bb01208106a4cc0d1436d018678b4d16ed59138f7b1dcc64cdff7070",
+      "content_hash": "7a08a5d300b1134d9463787919d0bb913b9eb6552dcd4387eadd3c1f41952e4e",
       "domains_extracted": 2,
-      "evidence_id": "EV-neteasemail-002-8b93b702bb01",
+      "evidence_id": "EV-neteasemail-002-7a08a5d300b1",
       "parser_version": "domain-extractor-v4",
       "resolved_url": "https://mail.126.com/",
-      "retrieved_at": "2026-09-26T12:09:22.132682+00:00",
+      "retrieved_at": "2026-11-19T10:27:50.038267+00:00",
       "service_id": "neteasemail",
       "source_method": "official_web",
       "source_type": "official_web",
@@ -97,12 +97,12 @@
     {
       "authority": "official",
       "confidence": "high",
-      "content_hash": "528f3ce9350145a62b5e305f5bcbc23e762d73981570036c854d52db9d818be2",
+      "content_hash": "1bfd311e7901d801b27c6e1cfa8791f90e9fa67b20d5f559b6dec559d3c00857",
       "domains_extracted": 2,
-      "evidence_id": "EV-neteasemail-003-528f3ce93501",
+      "evidence_id": "EV-neteasemail-003-1bfd311e7901",
       "parser_version": "domain-extractor-v4",
       "resolved_url": "https://mail.yeah.net/",
-      "retrieved_at": "2026-09-26T12:09:23.229803+00:00",
+      "retrieved_at": "2026-11-19T10:27:51.063471+00:00",
       "service_id": "neteasemail",
       "source_method": "official_web",
       "source_type": "official_web",
@@ -111,8 +111,8 @@
       "strength": "S3"
     }
   ],
-  "evidence_digest": "950a9294ac8035158f1d3bfba9c30e211803a41ff0c47e426c710844fe8e13ef",
-  "generator_digest": "68b7ed6b20e97d175fb8d2599cb462c161504a190944f030f7976c8a1c9b78d8",
+  "evidence_digest": "ffe46e6dbe7ead52fd703d804b82696c9782071598e8f99a8abac029b69993b6",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 5,
@@ -120,15 +120,15 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "8033e063d641efa1725c7ced7d9a5ef0674537ce86b4b30a7804befea5d39856",
   "previous_domain_count": 3,
-  "release_digest": "8f25db6f713ea62f08bd565bed4ed40fb8f80b1075f38ed397146604d38d4096",
+  "release_digest": "9ce76013115500ed9d4c3e721a1db0ef545949dced8a771121c504dfe720f80f",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
   "schema": "source_snapshot_v2",
   "service_config_digest": "ec13023b6bf72c3ae2e9528d3d3c447bf4daf4ba540b246ed586b01fd5cd05c3",
   "service_id": "neteasemail",
-  "snapshot_content_sha256": "a91ff805543bac2f1df2f683c738bcc617b50e938350dbf92f291a4425a81cd1",
-  "snapshot_id": "snap-neteasemail-8f25db6f713ea62f08bd565b",
+  "snapshot_content_sha256": "437fd8778564ffcabcfc796e178f61bd1f1b7a04c2b2b69c2dd41b01b971d45a",
+  "snapshot_id": "snap-neteasemail-9ce76013115500ed9d4c3e72",
   "source_bindings": [
     {
       "adapter": null,

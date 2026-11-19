@@ -1,0 +1,13 @@
+{
+  "content_digest": "e3119c652a52b799a81ca2cc6b4127b7819a85ba397e436770fb35bc9188515c",
+  "domains": [
+    "goofish.com",
+    "www.goofish.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "xianyu",
+  "source_hashes": [
+    "d4ba0f7f08e948f471e88bab43335ebf9dc89fc9197f4c9ae58a774ab9c344d8"
+  ]
+}

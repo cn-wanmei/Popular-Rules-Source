@@ -1,0 +1,13 @@
+{
+  "content_digest": "37a9b60de1203154651d0a151a22c1cc1625245379853e61fb717089bffb290f",
+  "domains": [
+    "dahuatech.com",
+    "www.dahuatech.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "dahua",
+  "source_hashes": [
+    "e7064210a098a57b28edbaae21faa82fc7f640086e46b47d4757132ce4c427a1"
+  ]
+}

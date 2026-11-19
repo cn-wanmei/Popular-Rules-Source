@@ -1,0 +1,12 @@
+{
+  "content_digest": "56a63e1f8028656dc12fea1701fdc71c2e6240652fb8df6165896656b8bc6901",
+  "domains": [
+    "ecs.cn-south-1.myhuaweicloud.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "huawei-ecs-api",
+  "source_hashes": [
+    "2576f0236d5df7c9bfac2def22c4662fd61c0c4603a251a26954e3f45105d602"
+  ]
+}

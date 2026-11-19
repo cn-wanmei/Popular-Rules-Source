@@ -1,0 +1,67 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:8af3bc5794064612470f12bf13510bb7f1e0e69fcd0f0e31f0f1786d25fc854c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-dingding-001-84431a2aa6c9"
+      ],
+      "service_id": "dingding",
+      "type": "domain",
+      "value": "page.dingtalk.com"
+    },
+    {
+      "asset_id": "sha256:d93784b17b0e9f50c932bcb2757a9d31bc237c7159fe44f406baf8729e624848",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-dingding-001-84431a2aa6c9"
+      ],
+      "service_id": "dingding",
+      "type": "domain",
+      "value": "table.dingtalk.com"
+    },
+    {
+      "asset_id": "sha256:6b32b10ddd17a9cfb54c27b0adb69b3817c7a470e60864a2a3b89b5ebf637d45",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-dingding-001-84431a2aa6c9"
+      ],
+      "service_id": "dingding",
+      "type": "domain",
+      "value": "www.dingtalk.com"
+    }
+  ],
+  "content_digest": "9d31a7d6ece5c3a050f4398d258ec24693c2f3a5b5f7d80c7102ee57ab5ce3c3",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "84431a2aa6c9a7230b0b1b0f7f4a6d3810fd7aa7325d780b6bc516208968af67",
+      "domains_extracted": 3,
+      "evidence_id": "EV-dingding-001-84431a2aa6c9",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://www.dingtalk.com/",
+      "retrieved_at": "2026-11-19T10:26:45.921268+00:00",
+      "service_id": "dingding",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://www.dingtalk.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "f4110f0d84cb614daee8c246896cf13103c37f4d58d7cdc1da8a444d5eec7846",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "policy_digest": "cfe3591541d8facb101548dfa5faf385b0607ce3250325f33fc3ec97940775b9",
+  "release_digest": "f9529199e4d2f2f60bbc08df8f48fb7e8e7889bddcf06b90bac026740cd0ae90",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "dingding",
+  "snapshot_id": "snap-dingding-f9529199e4d2f2f60bbc08df",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

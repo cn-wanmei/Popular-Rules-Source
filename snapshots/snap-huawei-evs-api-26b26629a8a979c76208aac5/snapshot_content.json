@@ -1,0 +1,12 @@
+{
+  "content_digest": "00d30c6c2eea6c7f29c7b1cf6885bedddf5a7cef4d19bae9301d2bac244fbf16",
+  "domains": [
+    "evs.cn-south-1.myhuaweicloud.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "huawei-evs-api",
+  "source_hashes": [
+    "9ff4cd719799507263d37a091c62409493b1d19cb6cee66fcb308324081cbf92"
+  ]
+}
