@@ -67,7 +67,7 @@ Next steps:
 The 2026-11-19 GitHub Actions run `44440075112` completed its validation suite, but the live extraction stage recorded HTTP 403 Forbidden for all configured `support.huaweicloud.com` pages. Each of the seven candidate snapshots consequently had zero extracted domains and `release_state=BLOCKED`. This is a fetch limitation; it is not evidence that the services have no endpoints.
 
 To keep extraction reproducible without treating search snippets as evidence, the runtime `official_sources` now point to immutable, commit-pinned raw files in Huawei Cloud's first-party `huaweicloud` GitHub organization:
-- IAM: the commit-pinned `huaweicloud-sdk-go-v3` `core/auth/internal/iam_endpoint.go` maps regional IAM endpoints; the default global endpoint `iam.myhuaweicloud.com` remains included.
+- IAM: the commit-pinned `huaweicloud-sdk-go-v3` `core/auth/internal/iam_endpoint.go` maps regional IAM endpoints; the default global endpoint `iam.myhuaweicloud.com` remains included. The same pinned SDK README explicitly documents the European station override `iam.eu-west-101.myhuaweicloud.eu`, which is included as a separately evidenced exact host.
 - ECS, EVS, VPC, IMS, DNS: service-specific regional endpoint constants from `huaweicloud-sdk-go-v3`.
 - OBS: regional endpoint constants from `huaweicloud-sdk-python-v3`.
 
@@ -82,14 +82,14 @@ A follow-up audit of the same immutable first-party SDK commits found that their
 
 | Service | Pinned SDK source | Explicit hosts |
 |---|---|---:|
-| `huawei-iam-api` | `core/auth/internal/iam_endpoint.go` | 28 |
+| `huawei-iam-api` | `core/auth/internal/iam_endpoint.go` + pinned SDK README (European station override) | 29 |
 | `huawei-ecs-api` | `ecs/v2/region/region.go` | 33 |
 | `huawei-evs-api` | `evs/v2/region/region.go` | 34 |
 | `huawei-vpc-api` | `vpc/v2/region/region.go` | 34 |
 | `huawei-ims-api` | `ims/v2/region/region.go` | 33 |
 | `huawei-dns-api` | `dns/v2/region/region.go` | 27 |
 | `huawei-obs-api` | `huaweicloudsdkobs/v1/region/obs_region.py` | 31 |
-| **Total** | | **220** |
+| **Total** | | **221** |
 
 The OBS SDK inventory includes the explicitly mapped European endpoint `obs.eu-west-101.myhuaweicloud.eu` (the `.eu` hostname). The expanded inventory is a candidate coverage update, not lifecycle qualification. Every service remains `REVIEW`; generated snapshots and immutable releases are still required. The SDK region tables are version-pinned evidence of endpoint literals in that SDK revision, not a promise that every endpoint is active for every tenant or that the list is an exhaustive global product inventory. Keep exact-host matching, retain the no-wildcard policy, and review regional availability separately before production activation.
 
