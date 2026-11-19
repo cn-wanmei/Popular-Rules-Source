@@ -73,7 +73,7 @@ def test_huawei_cloud_api_children_are_exact_review_only_nodes() -> None:
         assert source_definition["allowed_host_exact"] == hosts
         assert source_definition["official_sources"] == sources
         assert source_definition["current_state"] == "review"
-        assert adapters[service_id]["adapters"] == ["self_built"]
+        assert adapters[service_id]["adapters"] == ["official_web"]
 
         state = lifecycle[service_id]
         assert state["state"] == "review"
