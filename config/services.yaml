@@ -2213,7 +2213,7 @@ services:
     display_name: Huawei Cloud IAM API
     ecosystem: huawei
     official_sources:
-    - https://support.huaweicloud.com/intl/en-us/api-iam/iam_01_0001.html
+    - https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/services/iam/v5/region/region.go
     allowed_host_suffixes: []
     allowed_host_exact:
     - iam.myhuaweicloud.com
@@ -2232,8 +2232,7 @@ services:
     display_name: Huawei Cloud ECS API
     ecosystem: huawei
     official_sources:
-    - https://support.huaweicloud.com/intl/en-us/api-ecs/en-us_topic_0020805967.html
-    - https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html
+    - https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/services/ecs/v2/region/region.go
     allowed_host_suffixes: []
     allowed_host_exact:
     - ecs.cn-south-1.myhuaweicloud.com
@@ -2252,8 +2251,7 @@ services:
     display_name: Huawei Cloud EVS API
     ecosystem: huawei
     official_sources:
-    - https://support.huaweicloud.com/intl/en-us/api-evs/evs_04_0001.html
-    - https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html
+    - https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/services/evs/v2/region/region.go
     allowed_host_suffixes: []
     allowed_host_exact:
     - evs.cn-south-1.myhuaweicloud.com
@@ -2272,8 +2270,7 @@ services:
     display_name: Huawei Cloud VPC API
     ecosystem: huawei
     official_sources:
-    - https://support.huaweicloud.com/intl/en-us/api-vpc/en-us_topic_0173364201.html
-    - https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html
+    - https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/services/vpc/v2/region/region.go
     allowed_host_suffixes: []
     allowed_host_exact:
     - vpc.cn-south-1.myhuaweicloud.com
@@ -2292,8 +2289,7 @@ services:
     display_name: Huawei Cloud IMS API
     ecosystem: huawei
     official_sources:
-    - https://support.huaweicloud.com/intl/en-us/api-ims/ims_03_0101.html
-    - https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html
+    - https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/services/ims/v2/region/region.go
     allowed_host_suffixes: []
     allowed_host_exact:
     - ims.cn-south-1.myhuaweicloud.com
@@ -2312,8 +2308,7 @@ services:
     display_name: Huawei Cloud DNS API
     ecosystem: huawei
     official_sources:
-    - https://support.huaweicloud.com/intl/en-us/api-dns/dns_api_10000.html
-    - https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html
+    - https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/services/dns/v2/region/region.go
     allowed_host_suffixes: []
     allowed_host_exact:
     - dns.cn-south-1.myhuaweicloud.com
@@ -2332,8 +2327,7 @@ services:
     display_name: Huawei Cloud OBS API
     ecosystem: huawei
     official_sources:
-    - https://support.huaweicloud.com/intl/en-us/usermanual-obs/obs_41_0003.html
-    - https://support.huaweicloud.com/intl/en-us/productdesc-obs/obs_03_0152.html
+    - https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-python-v3/60782999e99a6fa10b9c67d080e4c9e8733a7320/huaweicloud-sdk-obs/huaweicloudsdkobs/v1/region/obs_region.py
     allowed_host_suffixes: []
     allowed_host_exact:
     - obs.cn-north-1.myhuaweicloud.com
