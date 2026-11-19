@@ -8,27 +8,27 @@ import yaml
 EXPECTED = {
     "huawei-iam-api": {
         "hosts": ["iam.myhuaweicloud.com"],
-        "sources": ["https://support.huaweicloud.com/intl/en-us/api-iam/iam_01_0001.html"],
+        "sources": ["https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/services/iam/v5/region/region.go"],
     },
     "huawei-ecs-api": {
         "hosts": ["ecs.cn-south-1.myhuaweicloud.com"],
-        "sources": ["https://support.huaweicloud.com/intl/en-us/api-ecs/en-us_topic_0020805967.html","https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html"],
+        "sources": ["https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/services/ecs/v2/region/region.go"],
     },
     "huawei-evs-api": {
         "hosts": ["evs.cn-south-1.myhuaweicloud.com"],
-        "sources": ["https://support.huaweicloud.com/intl/en-us/api-evs/evs_04_0001.html","https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html"],
+        "sources": ["https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/services/evs/v2/region/region.go"],
     },
     "huawei-vpc-api": {
         "hosts": ["vpc.cn-south-1.myhuaweicloud.com"],
-        "sources": ["https://support.huaweicloud.com/intl/en-us/api-vpc/en-us_topic_0173364201.html","https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html"],
+        "sources": ["https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/services/vpc/v2/region/region.go"],
     },
     "huawei-ims-api": {
         "hosts": ["ims.cn-south-1.myhuaweicloud.com"],
-        "sources": ["https://support.huaweicloud.com/intl/en-us/api-ims/ims_03_0101.html","https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html"],
+        "sources": ["https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/services/ims/v2/region/region.go"],
     },
     "huawei-dns-api": {
         "hosts": ["dns.cn-south-1.myhuaweicloud.com"],
-        "sources": ["https://support.huaweicloud.com/intl/en-us/api-dns/dns_api_10000.html","https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html"],
+        "sources": ["https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/services/dns/v2/region/region.go"],
     },
     "huawei-obs-api": {
         "hosts": [
@@ -36,7 +36,7 @@ EXPECTED = {
             "obs.cn-north-4.myhuaweicloud.com",
             "obs.cn-south-1.myhuaweicloud.com",
         ],
-        "sources": ["https://support.huaweicloud.com/intl/en-us/usermanual-obs/obs_41_0003.html","https://support.huaweicloud.com/intl/en-us/productdesc-obs/obs_03_0152.html"],
+        "sources": ["https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-python-v3/60782999e99a6fa10b9c67d080e4c9e8733a7320/huaweicloud-sdk-obs/huaweicloudsdkobs/v1/region/obs_region.py"],
     },
 }
 
