@@ -88,9 +88,9 @@ A follow-up audit of the same immutable first-party SDK commits found that their
 | `huawei-vpc-api` | `vpc/v2/region/region.go` | 34 |
 | `huawei-ims-api` | `ims/v2/region/region.go` | 33 |
 | `huawei-dns-api` | `dns/v2/region/region.go` | 27 |
-| `huawei-obs-api` | `huaweicloudsdkobs/v1/region/obs_region.py` | 30 |
-| **Total** | | **219** |
+| `huawei-obs-api` | `huaweicloudsdkobs/v1/region/obs_region.py` | 31 |
+| **Total** | | **220** |
 
-The expanded inventory is a candidate coverage update, not lifecycle qualification. Every service remains `REVIEW`; generated snapshots and immutable releases are still required. The SDK region tables are version-pinned evidence of endpoint literals in that SDK revision, not a promise that every endpoint is active for every tenant or that the list is an exhaustive global product inventory. Keep exact-host matching, retain the no-wildcard policy, and review regional availability separately before production activation.
+The OBS SDK inventory includes the explicitly mapped European endpoint `obs.eu-west-101.myhuaweicloud.eu` (the `.eu` hostname). The expanded inventory is a candidate coverage update, not lifecycle qualification. Every service remains `REVIEW`; generated snapshots and immutable releases are still required. The SDK region tables are version-pinned evidence of endpoint literals in that SDK revision, not a promise that every endpoint is active for every tenant or that the list is an exhaustive global product inventory. Keep exact-host matching, retain the no-wildcard policy, and review regional availability separately before production activation.
 
 IAM now uses the pinned SDK's explicit regional endpoint mapping file instead of the README's default-endpoint-only mention. The API service mappings use the service-specific Go SDK region files; OBS uses the pinned Python SDK OBS region map.
