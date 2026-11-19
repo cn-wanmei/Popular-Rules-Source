@@ -1,0 +1,17 @@
+{
+  "content_digest": "0eb30681c0a93f4348772629f04d22348115fcbbd4ac0a18664271ef31d0343d",
+  "domains": [
+    "fbmessenger.com",
+    "m.me",
+    "messenger.com",
+    "nbabot.net",
+    "www.messenger.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "messenger",
+  "source_hashes": [
+    "0a9533674f6dbd49d366b3630c9f55d35a77b58fd38db5798a04e73ec28cf655",
+    "230d53d14bed2582219d43b73e9a08590bb3ca5e784d7b13207d3ce0f2f0bb1e"
+  ]
+}
