@@ -3,6 +3,33 @@
 # provider: huawei
 # evidence_mode: official_api_endpoint
 # lifecycle: REVIEW
-# Official endpoint evidence: https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html
+# Official endpoint evidence: https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/services/dns/v2/region/region.go
 # Exact endpoint hosts only; do not widen to *.myhuaweicloud.com.
+
+DOMAIN,dns.ae-ad-1.myhuaweicloud.com
+DOMAIN,dns.af-north-1.myhuaweicloud.com
+DOMAIN,dns.af-south-1.myhuaweicloud.com
+DOMAIN,dns.ap-southeast-1.myhuaweicloud.com
+DOMAIN,dns.ap-southeast-2.myhuaweicloud.com
+DOMAIN,dns.ap-southeast-3.myhuaweicloud.com
+DOMAIN,dns.ap-southeast-4.myhuaweicloud.com
+DOMAIN,dns.ap-southeast-5.myhuaweicloud.com
+DOMAIN,dns.cn-east-2.myhuaweicloud.com
+DOMAIN,dns.cn-east-3.myhuaweicloud.com
+DOMAIN,dns.cn-east-4.myhuaweicloud.com
+DOMAIN,dns.cn-east-5.myhuaweicloud.com
+DOMAIN,dns.cn-north-1.myhuaweicloud.com
+DOMAIN,dns.cn-north-2.myhuaweicloud.com
+DOMAIN,dns.cn-north-4.myhuaweicloud.com
+DOMAIN,dns.cn-north-9.myhuaweicloud.com
 DOMAIN,dns.cn-south-1.myhuaweicloud.com
+DOMAIN,dns.cn-south-2.myhuaweicloud.com
+DOMAIN,dns.cn-southwest-2.myhuaweicloud.com
+DOMAIN,dns.la-north-2.myhuaweicloud.com
+DOMAIN,dns.la-south-2.myhuaweicloud.com
+DOMAIN,dns.me-east-1.myhuaweicloud.com
+DOMAIN,dns.my-kualalumpur-1.myhuaweicloud.com
+DOMAIN,dns.na-mexico-1.myhuaweicloud.com
+DOMAIN,dns.ru-moscow-1.myhuaweicloud.com
+DOMAIN,dns.sa-brazil-1.myhuaweicloud.com
+DOMAIN,dns.tr-west-1.myhuaweicloud.com
