@@ -67,7 +67,8 @@ Next steps:
 The 2026-11-19 GitHub Actions run `44440075112` completed its validation suite, but the live extraction stage recorded HTTP 403 Forbidden for all configured `support.huaweicloud.com` pages. Each of the seven candidate snapshots consequently had zero extracted domains and `release_state=BLOCKED`. This is a fetch limitation; it is not evidence that the services have no endpoints.
 
 To keep extraction reproducible without treating search snippets as evidence, the runtime `official_sources` now point to immutable, commit-pinned raw files in Huawei Cloud's first-party `huaweicloud` GitHub organization:
-- IAM, ECS, EVS, VPC, IMS, DNS: service-specific regional endpoint constants from `huaweicloud-sdk-go-v3`.
+- IAM: the commit-pinned `huaweicloud-sdk-go-v3` README documents the default global IAM endpoint `iam.myhuaweicloud.com`.
+- ECS, EVS, VPC, IMS, DNS: service-specific regional endpoint constants from `huaweicloud-sdk-go-v3`.
 - OBS: regional endpoint constants from `huaweicloud-sdk-python-v3`.
 
 The SDK repository README identifies it as Huawei Cloud's Go SDK; the official Huawei Cloud Skills repository also independently documents OBS regional endpoints. These machine-fetchable source files are used only to extract domains already present in each service's exact-host allowlist. The allowlists and empty suffix policies are unchanged. Human-readable Huawei API documentation references above remain supporting context, but are not used as live CI fetch inputs because the Actions runner received 403 responses.
