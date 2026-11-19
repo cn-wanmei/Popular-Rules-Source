@@ -3,6 +3,40 @@
 # provider: huawei
 # evidence_mode: official_api_endpoint
 # lifecycle: REVIEW
-# Official endpoint evidence: https://support.huaweicloud.com/tg-mgc/tg-mgc-pdf.pdf
+# Official endpoint evidence: https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/services/vpc/v2/region/region.go
 # Exact endpoint hosts only; do not widen to *.myhuaweicloud.com.
+
+DOMAIN,vpc.ae-ad-1.myhuaweicloud.com
+DOMAIN,vpc.af-north-1.myhuaweicloud.com
+DOMAIN,vpc.af-south-1.myhuaweicloud.com
+DOMAIN,vpc.ap-southeast-1.myhuaweicloud.com
+DOMAIN,vpc.ap-southeast-2.myhuaweicloud.com
+DOMAIN,vpc.ap-southeast-3.myhuaweicloud.com
+DOMAIN,vpc.ap-southeast-4.myhuaweicloud.com
+DOMAIN,vpc.ap-southeast-5.myhuaweicloud.com
+DOMAIN,vpc.cn-east-2.myhuaweicloud.com
+DOMAIN,vpc.cn-east-3.myhuaweicloud.com
+DOMAIN,vpc.cn-east-4.myhuaweicloud.com
+DOMAIN,vpc.cn-east-5.myhuaweicloud.com
+DOMAIN,vpc.cn-north-1.myhuaweicloud.com
+DOMAIN,vpc.cn-north-11.myhuaweicloud.com
+DOMAIN,vpc.cn-north-12.myhuaweicloud.com
+DOMAIN,vpc.cn-north-2.myhuaweicloud.com
+DOMAIN,vpc.cn-north-4.myhuaweicloud.com
+DOMAIN,vpc.cn-north-9.myhuaweicloud.com
 DOMAIN,vpc.cn-south-1.myhuaweicloud.com
+DOMAIN,vpc.cn-south-2.myhuaweicloud.com
+DOMAIN,vpc.cn-south-4.myhuaweicloud.com
+DOMAIN,vpc.cn-southwest-2.myhuaweicloud.com
+DOMAIN,vpc.cn-southwest-3.myhuaweicloud.com
+DOMAIN,vpc.eu-west-0.myhuaweicloud.com
+DOMAIN,vpc.eu-west-101.myhuaweicloud.com
+DOMAIN,vpc.la-north-2.myhuaweicloud.com
+DOMAIN,vpc.la-south-2.myhuaweicloud.com
+DOMAIN,vpc.me-east-1.myhuaweicloud.com
+DOMAIN,vpc.my-kualalumpur-1.myhuaweicloud.com
+DOMAIN,vpc.na-mexico-1.myhuaweicloud.com
+DOMAIN,vpc.ru-moscow-1.myhuaweicloud.com
+DOMAIN,vpc.ru-northwest-2.myhuaweicloud.com
+DOMAIN,vpc.sa-brazil-1.myhuaweicloud.com
+DOMAIN,vpc.tr-west-1.myhuaweicloud.com

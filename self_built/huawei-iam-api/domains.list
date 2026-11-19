@@ -3,6 +3,35 @@
 # provider: huawei
 # evidence_mode: official_api_endpoint
 # lifecycle: REVIEW
-# Official endpoint evidence: https://support.huaweicloud.com/intl/en-us/api-iam/iam-api-pdf.pdf
+# Official endpoint evidence: https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/core/auth/internal/iam_endpoint.go
 # Exact endpoint hosts only; do not widen to *.myhuaweicloud.com.
+
+DOMAIN,iam.ae-ad-1.myhuaweicloud.com
+DOMAIN,iam.af-south-1.myhuaweicloud.com
+DOMAIN,iam.ap-southeast-1.myhuaweicloud.com
+DOMAIN,iam.ap-southeast-2.myhuaweicloud.com
+DOMAIN,iam.ap-southeast-3.myhuaweicloud.com
+DOMAIN,iam.ap-southeast-4.myhuaweicloud.com
+DOMAIN,iam.cn-east-2.myhuaweicloud.com
+DOMAIN,iam.cn-east-3.myhuaweicloud.com
+DOMAIN,iam.cn-east-4.myhuaweicloud.com
+DOMAIN,iam.cn-east-5.myhuaweicloud.com
+DOMAIN,iam.cn-north-1.myhuaweicloud.com
+DOMAIN,iam.cn-north-12.myhuaweicloud.com
+DOMAIN,iam.cn-north-2.myhuaweicloud.com
+DOMAIN,iam.cn-north-4.myhuaweicloud.com
+DOMAIN,iam.cn-north-9.myhuaweicloud.com
+DOMAIN,iam.cn-south-1.myhuaweicloud.com
+DOMAIN,iam.cn-south-2.myhuaweicloud.com
+DOMAIN,iam.cn-southwest-2.myhuaweicloud.com
+DOMAIN,iam.eu-west-0.myhuaweicloud.com
+DOMAIN,iam.eu-west-101.myhuaweicloud.eu
+DOMAIN,iam.la-north-2.myhuaweicloud.com
+DOMAIN,iam.la-south-2.myhuaweicloud.com
+DOMAIN,iam.me-east-1.myhuaweicloud.com
+DOMAIN,iam.my-kualalumpur-1.myhuaweicloud.com
 DOMAIN,iam.myhuaweicloud.com
+DOMAIN,iam.na-mexico-1.myhuaweicloud.com
+DOMAIN,iam.ru-moscow-1.myhuaweicloud.com
+DOMAIN,iam.sa-brazil-1.myhuaweicloud.com
+DOMAIN,iam.tr-west-1.myhuaweicloud.com

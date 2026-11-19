@@ -3,8 +3,37 @@
 # provider: huawei
 # evidence_mode: official_api_endpoint
 # lifecycle: REVIEW
-# Official endpoint evidence: https://support.huaweicloud.com/intl/en-us/usermanual-obs/obs_41_0003.html
+# Official endpoint evidence: https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-python-v3/60782999e99a6fa10b9c67d080e4c9e8733a7320/huaweicloud-sdk-obs/huaweicloudsdkobs/v1/region/obs_region.py
 # Exact regional endpoints only; exclude bucket-specific dynamic hostnames.
+
+DOMAIN,obs.af-north-1.myhuaweicloud.com
+DOMAIN,obs.af-south-1.myhuaweicloud.com
+DOMAIN,obs.ap-southeast-1.myhuaweicloud.com
+DOMAIN,obs.ap-southeast-2.myhuaweicloud.com
+DOMAIN,obs.ap-southeast-3.myhuaweicloud.com
+DOMAIN,obs.ap-southeast-4.myhuaweicloud.com
+DOMAIN,obs.ap-southeast-5.myhuaweicloud.com
+DOMAIN,obs.cn-east-2.myhuaweicloud.com
+DOMAIN,obs.cn-east-3.myhuaweicloud.com
+DOMAIN,obs.cn-east-4.myhuaweicloud.com
+DOMAIN,obs.cn-east-5.myhuaweicloud.com
 DOMAIN,obs.cn-north-1.myhuaweicloud.com
+DOMAIN,obs.cn-north-11.myhuaweicloud.com
+DOMAIN,obs.cn-north-12.myhuaweicloud.com
+DOMAIN,obs.cn-north-2.myhuaweicloud.com
 DOMAIN,obs.cn-north-4.myhuaweicloud.com
+DOMAIN,obs.cn-north-9.myhuaweicloud.com
 DOMAIN,obs.cn-south-1.myhuaweicloud.com
+DOMAIN,obs.cn-south-2.myhuaweicloud.com
+DOMAIN,obs.cn-south-4.myhuaweicloud.com
+DOMAIN,obs.cn-southwest-2.myhuaweicloud.com
+DOMAIN,obs.cn-southwest-3.myhuaweicloud.com
+DOMAIN,obs.eu-west-101.myhuaweicloud.eu
+DOMAIN,obs.la-north-2.myhuaweicloud.com
+DOMAIN,obs.la-south-2.myhuaweicloud.com
+DOMAIN,obs.me-east-1.myhuaweicloud.com
+DOMAIN,obs.na-mexico-1.myhuaweicloud.com
+DOMAIN,obs.ru-northwest-2.myhuaweicloud.com
+DOMAIN,obs.sa-brazil-1.myhuaweicloud.com
+DOMAIN,obs.sa-peru-1.myhuaweicloud.com
+DOMAIN,obs.tr-west-1.myhuaweicloud.com
