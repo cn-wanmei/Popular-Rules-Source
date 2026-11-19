@@ -249,6 +249,7 @@ EXPECTED = {
             "obs.cn-south-4.myhuaweicloud.com",
             "obs.cn-southwest-2.myhuaweicloud.com",
             "obs.cn-southwest-3.myhuaweicloud.com",
+            "obs.eu-west-101.myhuaweicloud.eu",
             "obs.la-north-2.myhuaweicloud.com",
             "obs.la-south-2.myhuaweicloud.com",
             "obs.me-east-1.myhuaweicloud.com",
