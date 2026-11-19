@@ -2213,7 +2213,7 @@ services:
     display_name: Huawei Cloud IAM API
     ecosystem: huawei
     official_sources:
-    - https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/services/iam/v5/region/region.go
+    - https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/README.md
     allowed_host_suffixes: []
     allowed_host_exact:
     - iam.myhuaweicloud.com
