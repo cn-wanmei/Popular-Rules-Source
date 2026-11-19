@@ -60,3 +60,16 @@ Next steps:
 - DNS: `https://support.huaweicloud.com/intl/en-us/api-dns/dns_api_10000.html`
 - OBS: `https://support.huaweicloud.com/intl/en-us/usermanual-obs/obs_41_0003.html`
 - Shared official endpoint evidence: `https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html`
+
+
+## CI fetch finding and reproducible first-party SDK sources
+
+The 2026-11-19 GitHub Actions run `44440075112` completed its validation suite, but the live extraction stage recorded HTTP 403 Forbidden for all configured `support.huaweicloud.com` pages. Each of the seven candidate snapshots consequently had zero extracted domains and `release_state=BLOCKED`. This is a fetch limitation; it is not evidence that the services have no endpoints.
+
+To keep extraction reproducible without treating search snippets as evidence, the runtime `official_sources` now point to immutable, commit-pinned raw files in Huawei Cloud's first-party `huaweicloud` GitHub organization:
+- IAM, ECS, EVS, VPC, IMS, DNS: service-specific regional endpoint constants from `huaweicloud-sdk-go-v3`.
+- OBS: regional endpoint constants from `huaweicloud-sdk-python-v3`.
+
+The SDK repository README identifies it as Huawei Cloud's Go SDK; the official Huawei Cloud Skills repository also independently documents OBS regional endpoints. These machine-fetchable source files are used only to extract domains already present in each service's exact-host allowlist. The allowlists and empty suffix policies are unchanged. Human-readable Huawei API documentation references above remain supporting context, but are not used as live CI fetch inputs because the Actions runner received 403 responses.
+
+This source substitution does not promote lifecycle state. A subsequent CI run must prove successful raw-source retrieval, non-empty official extraction, exact boundary containment, and deterministic output before any qualification or release decision.
