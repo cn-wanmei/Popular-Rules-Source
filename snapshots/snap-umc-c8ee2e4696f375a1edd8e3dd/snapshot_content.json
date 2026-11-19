@@ -1,0 +1,13 @@
+{
+  "content_digest": "c867f778256a3edd890dea8f34324f64f2288773b230221a50c35ea3d8b2190c",
+  "domains": [
+    "umc.com",
+    "www.umc.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "umc",
+  "source_hashes": [
+    "fea96f56ef7fe00f898e7e6177163587c15f780ff7ec30c6963694b550c8f4bf"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "content_digest": "41c4263e2696b7bb563993795606f7c4b07b923d21c6a30feb7e11f43858f642",
+  "domains": [
+    "cucloud.cn",
+    "www.cucloud.cn"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "woyun",
+  "source_hashes": [
+    "49c4bcf2bd76cdf719df291b97656ae805a8f3163bd9566275a236153b196238"
+  ]
+}

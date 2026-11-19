@@ -27,7 +27,7 @@
     "status": "OK"
   },
   "content_digest": "4580663a98977a70eb976abe9a155b51358b590bb1b826d9fe2303ecfacc29b8",
-  "created_at": "2026-11-12T17:52:10.052098+00:00",
+  "created_at": "2026-11-19T11:05:04.727714+00:00",
   "domain_count": 2,
   "domain_diff": {
     "added": [],
@@ -56,7 +56,7 @@
       "evidence_id": "EV-pingan-001-6fe9cbb6268a",
       "parser_version": "self-built-rule-v1",
       "resolved_url": "https://tech.pingan.com/",
-      "retrieved_at": "1794505878517110397",
+      "retrieved_at": "1795086269158440793",
       "service_id": "pingan",
       "source_method": "self_built",
       "source_type": "self_built",
@@ -66,7 +66,7 @@
     }
   ],
   "evidence_digest": "6e24fc79d77b288593918eccd0c5fbbe6535771ffa11b5a21a496725ff047c47",
-  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "generator_digest": "f4f8ee1e6996c0eacc7e1fe5705907063f45b1abd7a942e20f890215181a5209",
   "generator_version": "3.1.0",
   "last_known_good": false,
   "official_extracted": 2,
@@ -74,7 +74,7 @@
   "parser_version": "domain-extractor-v4",
   "policy_digest": "c80db22cc5849adc3d04ce9a6b9844835bc58cabc2397ba03841381c11d04702",
   "previous_domain_count": 2,
-  "release_digest": "3a9a0e186fff2dad05f8e2346e6e44af3a3cf7bf41ea388bbdb8c3c2ca350e3e",
+  "release_digest": "992aecb3897341bcc90339451107f231ac6049a9d7c67ed71d59d8a375be4921",
   "release_identity_version": "2",
   "release_reasons": [],
   "release_state": "CANDIDATE",
@@ -82,7 +82,7 @@
   "service_config_digest": "efd8fb00c0a9cb698c8acda0c36bdf20a59c2ff6b02c529c3ef581108a0ff75c",
   "service_id": "pingan",
   "snapshot_content_sha256": "4580663a98977a70eb976abe9a155b51358b590bb1b826d9fe2303ecfacc29b8",
-  "snapshot_id": "snap-pingan-3a9a0e186fff2dad05f8e234",
+  "snapshot_id": "snap-pingan-992aecb3897341bcc9033945",
   "source_bindings": [
     {
       "adapter": null,

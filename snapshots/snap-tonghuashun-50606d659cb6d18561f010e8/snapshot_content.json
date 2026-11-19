@@ -1,0 +1,13 @@
+{
+  "content_digest": "0ecb0e541d8b438bd6702fc66690734917ea7b389b4154073c032e0901de0c56",
+  "domains": [
+    "10jqka.com.cn",
+    "www.10jqka.com.cn"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "tonghuashun",
+  "source_hashes": [
+    "096cddebe6cee3466db3dd34575a32a831ba980f7ce63d1ad358a03042b158a3"
+  ]
+}

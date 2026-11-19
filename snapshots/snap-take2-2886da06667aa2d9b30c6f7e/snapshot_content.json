@@ -1,0 +1,13 @@
+{
+  "content_digest": "921b0ed5998ad24e57aa59901c31d1289272001e63629174706ba4a840a437b0",
+  "domains": [
+    "take2games.com",
+    "www.take2games.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "take2",
+  "source_hashes": [
+    "5a23001fdbd4461014eac77a7c6156f4aaee274d13e34d1fc267708297880bfa"
+  ]
+}

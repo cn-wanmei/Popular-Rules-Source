@@ -1,0 +1,33 @@
+{
+  "checksums": {
+    "domains.txt": "9a53c30f30836e061dcacc05920cc1c507afc2eac50083596311c2fa637e8182",
+    "manifest.json": "47e747ebc12326f0aacf47aeccbcdf76f3f9407af58c1d45f93fc696209cfa28",
+    "provenance.json": "4360681b3114e2e50eb3090a240a178f1bb4b0aae8ff81b07e8c222ee8a0bcaa",
+    "snapshot_content.json": "bec7afaf9fd0fccb2de6db9003dc1b098b018b5da45452fab0b6d760f5f6db71"
+  },
+  "content_digest": "ef91968695f17d1ed4f948c3fa060d510c5339358d17179464babd6a562d99a8",
+  "created_at": "2026-11-19T11:05:26.179701+00:00",
+  "evidence_digest": "107a57cb0cf3fe87b08eb3d0ac6894f0a83289f38fe5c4dfa09b4f81d110f01b",
+  "generator_digest": "f4f8ee1e6996c0eacc7e1fe5705907063f45b1abd7a942e20f890215181a5209",
+  "policy_digest": "dca39173681960ddf1521352ee3a32b56ab14647b81c6e495363d602213ca706",
+  "reconciliation": {
+    "status": "PENDING_COLLECTION_AUDIT"
+  },
+  "release_digest": "bbb61f74f242ffe8080ec511482a332644354ce1bec4c36d1a77fa09affa89c4",
+  "release_identity_version": "2",
+  "repository": "cn-wanmei/Popular-Rules-Source",
+  "schema": "popular_rules_source_release_v1",
+  "service_id": "nintendo",
+  "snapshot_id": "snap-nintendo-bbb61f74f242ffe8080ec511",
+  "validation": {
+    "change_assessment": {
+      "growth_ratio": 1.0,
+      "removal_ratio": 0.0,
+      "status": "OK"
+    },
+    "errors": [],
+    "handoff_eligible": true,
+    "release_state": "CANDIDATE"
+  },
+  "version": "0.5.0"
+}

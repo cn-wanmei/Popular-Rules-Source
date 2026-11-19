@@ -1,0 +1,13 @@
+{
+  "content_digest": "7255f325e0bfa345c034cc71c8ebce0de96f4d562406db77de53e6304f38b5aa",
+  "domains": [
+    "nec.com",
+    "www.nec.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "nec",
+  "source_hashes": [
+    "455d5e58cd7d057a8784da801633dfdcb979977b8100e80faea3bbc76c2ee02e"
+  ]
+}

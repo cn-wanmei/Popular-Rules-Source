@@ -1,0 +1,13 @@
+{
+  "content_digest": "9288ff2eddafafe764155f9067f81fc56f7f77684cd73d4f635e60784d50e6be",
+  "domains": [
+    "nokia.com",
+    "www.nokia.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "nokia",
+  "source_hashes": [
+    "a104bbd910f78b0e43fa5f6322d9aafa0673e3fbc945372fbcc93f8f60420e92"
+  ]
+}

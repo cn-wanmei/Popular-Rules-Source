@@ -1,0 +1,13 @@
+{
+  "content_digest": "aa1a227a16a65331f5b7439fb22e6d5116730d4fa8ddcb3d990adb94bb7e0105",
+  "domains": [
+    "micron.com",
+    "www.micron.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "micron",
+  "source_hashes": [
+    "ed01331b89076b5cac6c300ebd3e3854c3c17c2dda8e278c63ef4193b91c556d"
+  ]
+}

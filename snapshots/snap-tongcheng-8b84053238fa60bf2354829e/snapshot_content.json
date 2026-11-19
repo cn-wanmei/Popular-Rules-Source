@@ -1,0 +1,13 @@
+{
+  "content_digest": "281471d5bc0760c3c3481f02204cfe53dbe2aee259532671677e280d87413a44",
+  "domains": [
+    "ly.com",
+    "www.ly.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "tongcheng",
+  "source_hashes": [
+    "0b9a7777734899d3795aaf327fc93a8dfb3ced61b25cf7373736096a6422dab5"
+  ]
+}

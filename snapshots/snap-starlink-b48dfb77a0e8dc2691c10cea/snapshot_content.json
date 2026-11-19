@@ -1,0 +1,13 @@
+{
+  "content_digest": "e316d083c513b8361754968748929b12d6b4f8def816ff8b706dd93377b5ddb9",
+  "domains": [
+    "starlink.com",
+    "www.starlink.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "starlink",
+  "source_hashes": [
+    "cbf52c621185a413a8d3dbbe8280f39d80eecc35ef25480079eac394a1a64e0c"
+  ]
+}

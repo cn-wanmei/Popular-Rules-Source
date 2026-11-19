@@ -1,0 +1,13 @@
+{
+  "content_digest": "b21a54fd091a094b1651bd900d11a3061ff8efd71995208c035e563e23128d1b",
+  "domains": [
+    "paloaltonetworks.com",
+    "www.paloaltonetworks.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "paloalto",
+  "source_hashes": [
+    "09d37769d3522840e6ddc764191144585a50d260f4eaf41c9e85f42262d3da60"
+  ]
+}

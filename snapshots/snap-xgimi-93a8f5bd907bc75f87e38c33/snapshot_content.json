@@ -1,0 +1,13 @@
+{
+  "content_digest": "da4bada264f7e526bc1c31a83c9544a9869c5afe4e8e78c5af50295786e9358c",
+  "domains": [
+    "www.xgimi.com",
+    "xgimi.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "xgimi",
+  "source_hashes": [
+    "723217473e2bbff04b8eca3c6e287bfccd63754a25641dce7e91e70be0aaa225"
+  ]
+}

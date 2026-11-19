@@ -1,0 +1,13 @@
+{
+  "content_digest": "2460524f28b8e74a26b9c9045d6f6293040ccb74b139ff5a3ed3db957530472c",
+  "domains": [
+    "wanmei.com",
+    "www.wanmei.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "perfectworld",
+  "source_hashes": [
+    "0569d25e291b9e69d87ffd0ab62c2142853b4fdd08245fe22e864489fe3a6bdd"
+  ]
+}

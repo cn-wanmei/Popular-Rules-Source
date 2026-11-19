@@ -1,0 +1,13 @@
+{
+  "content_digest": "d7f92cfffc4ed1ed4b804c067659fd9472872579d6f548da150f2b39dde1fc68",
+  "domains": [
+    "siemens.com",
+    "www.siemens.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "siemens",
+  "source_hashes": [
+    "93cdfbecb3e3661ab307588e1af465b3d65a03b8fff411df7de556460b90eba0"
+  ]
+}

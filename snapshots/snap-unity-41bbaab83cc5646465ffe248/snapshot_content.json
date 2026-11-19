@@ -1,0 +1,13 @@
+{
+  "content_digest": "1323d06198522430d1150d1973bf23ef701887bfe0610de0d08383d3cdb17fed",
+  "domains": [
+    "unity.com",
+    "www.unity.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "unity",
+  "source_hashes": [
+    "3a929310de87f4e1e5638354f27cfb9364620f4f8b1c1506c9c7f21252e7cdd6"
+  ]
+}

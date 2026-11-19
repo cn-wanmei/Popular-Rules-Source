@@ -1,0 +1,13 @@
+{
+  "content_digest": "4580663a98977a70eb976abe9a155b51358b590bb1b826d9fe2303ecfacc29b8",
+  "domains": [
+    "pingan.com",
+    "tech.pingan.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "pingan",
+  "source_hashes": [
+    "6fe9cbb6268a4c06ee3e41758d024f629ac63e84b7b11a22a50520c48c1a57ec"
+  ]
+}

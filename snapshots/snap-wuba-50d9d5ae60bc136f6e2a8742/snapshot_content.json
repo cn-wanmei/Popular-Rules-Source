@@ -1,0 +1,13 @@
+{
+  "content_digest": "c5637600ae861bf60373b7b29c151135807ed7f95afa770375a79dbc24f44366",
+  "domains": [
+    "58.com",
+    "www.58.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "wuba",
+  "source_hashes": [
+    "a2916f52e18a3289700c03a6a57cc98cd42a854b44e0e2edf194ad9fbae7c55f"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "content_digest": "9c5991e28b6075c416542dea0f9081e2e149479bfc6a953a564501681f564691",
+  "domains": [
+    "ti.com",
+    "www.ti.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "ti",
+  "source_hashes": [
+    "1c8ecc2b07d084faa5c6ea85f1b9cd8221dbf93dd07ee9ae2d6f7d469b550bef"
+  ]
+}

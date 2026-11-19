@@ -1,0 +1,13 @@
+{
+  "content_digest": "16eef142ca66abf5c2a4087fd4003697fde18ab80133081f75916dd8b5a4e28b",
+  "domains": [
+    "mercadolibre.com",
+    "www.mercadolibre.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "mercadolibre",
+  "source_hashes": [
+    "04ce6f63037af4e83f9a79cd1fa7e9eb45ba70aa7fc7a17a24f1fbf4380b1e5d"
+  ]
+}
