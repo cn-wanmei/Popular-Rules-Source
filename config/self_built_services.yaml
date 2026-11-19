@@ -297,7 +297,7 @@ services:
     ecosystem: huawei
     mode: official_web
     official_sources:
-    - https://support.huaweicloud.com/intl/en-us/api-iam/iam-api-pdf.pdf
+    - https://support.huaweicloud.com/intl/en-us/api-iam/iam_01_0001.html
     allowed_host_exact:
     - iam.myhuaweicloud.com
     upstream_binding: null
@@ -308,6 +308,7 @@ services:
     ecosystem: huawei
     mode: official_web
     official_sources:
+    - https://support.huaweicloud.com/intl/en-us/api-ecs/en-us_topic_0020805967.html
     - https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html
     allowed_host_exact:
     - ecs.cn-south-1.myhuaweicloud.com
@@ -319,6 +320,7 @@ services:
     ecosystem: huawei
     mode: official_web
     official_sources:
+    - https://support.huaweicloud.com/intl/en-us/api-evs/evs_04_0001.html
     - https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html
     allowed_host_exact:
     - evs.cn-south-1.myhuaweicloud.com
@@ -330,6 +332,7 @@ services:
     ecosystem: huawei
     mode: official_web
     official_sources:
+    - https://support.huaweicloud.com/intl/en-us/api-vpc/en-us_topic_0173364201.html
     - https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html
     allowed_host_exact:
     - vpc.cn-south-1.myhuaweicloud.com
@@ -341,6 +344,7 @@ services:
     ecosystem: huawei
     mode: official_web
     official_sources:
+    - https://support.huaweicloud.com/intl/en-us/api-ims/ims_03_0101.html
     - https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html
     allowed_host_exact:
     - ims.cn-south-1.myhuaweicloud.com
@@ -352,6 +356,7 @@ services:
     ecosystem: huawei
     mode: official_web
     official_sources:
+    - https://support.huaweicloud.com/intl/en-us/api-dns/dns_api_10000.html
     - https://support.huaweicloud.com/intl/en-us/sms_faq/sms_faq_0001.html
     allowed_host_exact:
     - dns.cn-south-1.myhuaweicloud.com
@@ -364,6 +369,7 @@ services:
     mode: official_web
     official_sources:
     - https://support.huaweicloud.com/intl/en-us/usermanual-obs/obs_41_0003.html
+    - https://support.huaweicloud.com/intl/en-us/productdesc-obs/obs_03_0152.html
     allowed_host_exact:
     - obs.cn-north-4.myhuaweicloud.com
     - obs.cn-south-1.myhuaweicloud.com
