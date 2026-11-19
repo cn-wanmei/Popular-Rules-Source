@@ -14,9 +14,9 @@ The Huawei Cloud Server Migration Service (SMS) FAQ documents the network depend
   - VPC regional endpoint: `vpc.cn-south-1.myhuaweicloud.com`
   - IMS regional endpoint: `ims.cn-south-1.myhuaweicloud.com`
   - DNS regional endpoint: `dns.cn-south-1.myhuaweicloud.com`
-  - OBS endpoints: `obs.cn-north-1.myhuaweicloud.com` and `obs.cn-south-1.myhuaweicloud.com`
+  - OBS endpoints: `obs.cn-north-1.myhuaweicloud.com` and `obs.cn-south-1.myhuaweicloud.com` (SMS dependency sample)
 
-The same documentation states that ECS, EVS, IMS, VPC, and DNS endpoints depend on the target region; the listed regional hosts are therefore a confirmed regional sample, not a complete global inventory.
+The same documentation states that ECS, EVS, IMS, VPC, and DNS endpoints depend on the target region; the listed regional hosts are therefore a confirmed regional sample, not a complete global inventory. OBS has a separate region-endpoint table: the API endpoint documentation explicitly gives CN North-4, while the SMS FAQ independently lists CN North-1 and CN South-1.
 
 ## Per-service official API documentation
 
@@ -28,7 +28,7 @@ The same documentation states that ECS, EVS, IMS, VPC, and DNS endpoints depend 
 | `huawei-vpc-api` | [VPC API Reference — Before You Start](https://support.huaweicloud.com/intl/en-us/api-vpc/en-us_topic_0173364201.html) | Regional; CN South-1 host confirmed by the SMS FAQ |
 | `huawei-ims-api` | [IMS API Reference — Before You Start](https://support.huaweicloud.com/intl/en-us/api-ims/ims_03_0101.html) | Regional; CN South-1 host confirmed by the SMS FAQ |
 | `huawei-dns-api` | [DNS API Reference — Before You Start](https://support.huaweicloud.com/intl/en-us/api-dns/dns_api_10000.html) | Regional; CN South-1 host confirmed by the SMS FAQ |
-| `huawei-obs-api` | [OBS — Accessing OBS](https://support.huaweicloud.com/intl/en-us/usermanual-obs/obs_41_0003.html) and [OBS — Endpoints and Domain Names](https://support.huaweicloud.com/intl/en-us/productdesc-obs/obs_03_0152.html) | Regional endpoints; CN North-1 and CN South-1 confirmed by the SMS FAQ; OBS docs explain region-specific endpoint and bucket-hostname formats |
+| `huawei-obs-api` | [OBS — Accessing OBS](https://support.huaweicloud.com/intl/en-us/usermanual-obs/obs_41_0003.html) and [OBS — Endpoints and Domain Names](https://support.huaweicloud.com/intl/en-us/productdesc-obs/obs_03_0152.html) | CN North-4 is an explicitly documented API endpoint; the SMS FAQ independently confirms CN North-1 and CN South-1 endpoints |
 
 ## Boundary decisions
 
