@@ -1,0 +1,67 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:5e435303f3eacccb171f6c15d11cbee4d9ac6a64a83084385d63788747f2d59b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentcloud-001-8974cd7cac88"
+      ],
+      "service_id": "tencentcloud",
+      "type": "domain",
+      "value": "buy.cloud.tencent.com"
+    },
+    {
+      "asset_id": "sha256:f8b2105bbea1f97e120c09a64ff0077681234b99ee8491537ff99567948861ec",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentcloud-001-8974cd7cac88"
+      ],
+      "service_id": "tencentcloud",
+      "type": "domain",
+      "value": "cloud.tencent.com"
+    },
+    {
+      "asset_id": "sha256:6e2ac25a4905230806f3e67c0c5ae76ab8170f73840f2898684ae8f79ca93661",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tencentcloud-001-8974cd7cac88"
+      ],
+      "service_id": "tencentcloud",
+      "type": "domain",
+      "value": "market.cloud.tencent.com"
+    }
+  ],
+  "content_digest": "2352c115541ceb4d10dd06458f2a42a82733bae493005b477e5c4a737ed91828",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "8974cd7cac8821d7eb8ab3a2c24a97adce1e727e6ad47c6feeecc5d9633a8dfa",
+      "domains_extracted": 3,
+      "evidence_id": "EV-tencentcloud-001-8974cd7cac88",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://cloud.tencent.com/document/api",
+      "retrieved_at": "2026-11-16T09:52:12.171478+00:00",
+      "service_id": "tencentcloud",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://cloud.tencent.com/document/api",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "89c0274416c195f0fd1b2cb5c4e410c49fb54f704f0668e56b522edc74684030",
+  "generator_digest": "d174881c253284a64dee9bb2755d69b9c6de9cc02ffe4eab1f07e61f07a7ac08",
+  "policy_digest": "58510f5c59ea5fddf470ff6d169b6fa0444c14a843e0409cd341c80c486546a4",
+  "release_digest": "e25b769bf4ae634f4255d9b2305ded0e332676f1cafa7fb85936a2ce5ea03075",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "tencentcloud",
+  "snapshot_id": "snap-tencentcloud-e25b769bf4ae634f4255d9b2",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}
