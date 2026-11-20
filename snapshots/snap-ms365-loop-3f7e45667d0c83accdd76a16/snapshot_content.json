@@ -1,0 +1,12 @@
+{
+  "content_digest": "f6e72ec857e90bb9c3c0afbc9f4cd0a57d4ffc54a7776eafaf99ecec6f368c84",
+  "domains": [
+    "loop.cloud.microsoft"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "ms365-loop",
+  "source_hashes": [
+    "1b78ef4fa3a291258b151162b8bee6ce3e38986dd34a2446be7b386b8ea6fb17"
+  ]
+}

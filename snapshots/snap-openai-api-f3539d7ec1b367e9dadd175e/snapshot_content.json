@@ -1,0 +1,12 @@
+{
+  "content_digest": "6d66b02248e5fcd0c39b01a33a284ecdad24bfb46284dc01f57690001d7c3728",
+  "domains": [
+    "api.openai.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "openai-api",
+  "source_hashes": [
+    "fc4873dd6621808db6e8243eaee7c9c812066268c9413f07538b4c9b625d4f73"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "content_digest": "5b9573a7da00db54470714896ae8224403aafa4a6e3521c75415834d6a7aae08",
+  "domains": [
+    "im.qq.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "qq",
+  "source_hashes": [
+    "4a7662449edcbedbadb613e882544d8fe4b1e5da5649744b4833707711589db6"
+  ]
+}

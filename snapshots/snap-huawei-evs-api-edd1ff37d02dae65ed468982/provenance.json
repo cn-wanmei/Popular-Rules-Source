@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:83aef7e0ea7ebcc8808acac4788e1816351621013ff10b59dab5679692dd602d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-huawei-evs-api-001-7118730b5a36"
+      ],
+      "service_id": "huawei-evs-api",
+      "type": "domain",
+      "value": "evs.cn-south-1.myhuaweicloud.com"
+    }
+  ],
+  "content_digest": "45281638794849dd5d48e550228c23e5cd483a341f9c47a9976f580cabaf6f0e",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "7118730b5a363d3151f94fc961d01b563f1db0614cdcb01d8db073e57c97ca9c",
+      "domains_extracted": 1,
+      "evidence_id": "EV-huawei-evs-api-001-7118730b5a36",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/services/evs/v2/region/region.go",
+      "retrieved_at": "2026-11-20T10:07:04.896939+00:00",
+      "service_id": "huawei-evs-api",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/services/evs/v2/region/region.go",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "e4abad31b549037a29d9ac4d3e080e6202052e7e8a20a458dfd5e2a1b9e56a10",
+  "generator_digest": "f4f8ee1e6996c0eacc7e1fe5705907063f45b1abd7a942e20f890215181a5209",
+  "policy_digest": "50e320b23a07fe58fd3b1a756887de247a01d585d446b47ccf87b5ab1f8434d1",
+  "release_digest": "edd1ff37d02dae65ed468982c9a4d3c8a80d2432a655b40e144610152b2cadb7",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "huawei-evs-api",
+  "snapshot_id": "snap-huawei-evs-api-edd1ff37d02dae65ed468982",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}
