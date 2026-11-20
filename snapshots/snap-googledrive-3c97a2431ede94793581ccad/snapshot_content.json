@@ -1,0 +1,15 @@
+{
+  "content_digest": "bdf2381867e98fde7c6d10bcced6ce5465ef9e4f1790d78905816904593e85f9",
+  "domains": [
+    "docs.google.com",
+    "drive.google.com",
+    "googledrive.com",
+    "googleusercontent.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "googledrive",
+  "source_hashes": [
+    "7a65da91de1a31482825b65cdb25482220f2f9d4914bde5ab6ac35fdd97a7a3b"
+  ]
+}
