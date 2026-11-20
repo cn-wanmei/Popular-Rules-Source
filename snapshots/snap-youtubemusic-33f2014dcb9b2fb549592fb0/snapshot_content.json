@@ -1,0 +1,12 @@
+{
+  "content_digest": "d4b0e7451fd3009fc8f075e055fe68b7c4acc4e4f566f7f513d8674064ca7fed",
+  "domains": [
+    "music.youtube.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "youtubemusic",
+  "source_hashes": [
+    "e0101c9b966b34a74f739c3daae96395d6bad54785d102af7ddbc8593729b841"
+  ]
+}
