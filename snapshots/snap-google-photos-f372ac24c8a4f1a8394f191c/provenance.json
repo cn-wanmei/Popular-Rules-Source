@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:e85eccc2159bcbb576f4f402756b17e1836e7f990fd6526f3f384b6506d7da5b",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-google-photos-001-5c1ff6a0cd5a"
+      ],
+      "service_id": "google-photos",
+      "type": "domain",
+      "value": "photos.google.com"
+    }
+  ],
+  "content_digest": "cfc70c7de1006c7dac75911f8967ffb87354f4705eb5f1d60caa48fdfa413ae9",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "5c1ff6a0cd5a7d30e080b43f6aec9728bc11d7783d6513be98c200935306aa28",
+      "domains_extracted": 1,
+      "evidence_id": "EV-google-photos-001-5c1ff6a0cd5a",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://photos.google.com/",
+      "retrieved_at": "1795169097469399453",
+      "service_id": "google-photos",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://photos.google.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "fbe45a09f5495add50d5fdab842b0288c689da58a7d26bf09fe96c9579ad2f8c",
+  "generator_digest": "f4f8ee1e6996c0eacc7e1fe5705907063f45b1abd7a942e20f890215181a5209",
+  "policy_digest": "56ab0c16d2aed821ad1b543245cc29c6a0568183684122345ec9adbbed7eeb6d",
+  "release_digest": "f372ac24c8a4f1a8394f191c1ca35c372e444c6ef607b2c5e174800f470dfab6",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "google-photos",
+  "snapshot_id": "snap-google-photos-f372ac24c8a4f1a8394f191c",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}
