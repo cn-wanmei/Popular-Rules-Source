@@ -78,7 +78,7 @@ def resolve_service_matrix(
     if raw:
         if raw.lower() in DEFAULT_ALIASES:
             return default_services, "default_processing_batch"
-        explicit = _deduplicate(re.split(r"[,;\\s]+", raw))
+        explicit = _deduplicate(re.split(r"[,;\s]+", raw))
         if not explicit:
             raise ValueError("explicit services input produced an empty service matrix")
         return explicit, "selective"
@@ -151,9 +151,9 @@ def main() -> int:
     if not output_path:
         raise ValueError("GITHUB_OUTPUT is required when running inside GitHub Actions")
     with Path(output_path).open("a", encoding="utf-8") as output:
-        output.write(f"matrix={json.dumps(matrix, separators=(',', ':'))}\\n")
-        output.write(f"service_count={len(services)}\\n")
-        output.write(f"planned_services={json.dumps(services, separators=(',', ':'))}\\n")
+        output.write(f"matrix={json.dumps(matrix, separators=(',', ':'))}\n")
+        output.write(f"service_count={len(services)}\n")
+        output.write(f"planned_services={json.dumps(services, separators=(',', ':'))}\n")
 
     print(json.dumps({"mode": mode, "count": len(services), "services": services}, ensure_ascii=False))
     return 0
