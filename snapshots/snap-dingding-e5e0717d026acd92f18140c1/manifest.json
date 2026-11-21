@@ -1,0 +1,114 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:8af3bc5794064612470f12bf13510bb7f1e0e69fcd0f0e31f0f1786d25fc854c",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-dingding-001-84431a2aa6c9"
+      ],
+      "service_id": "dingding",
+      "type": "domain",
+      "value": "page.dingtalk.com"
+    },
+    {
+      "asset_id": "sha256:d93784b17b0e9f50c932bcb2757a9d31bc237c7159fe44f406baf8729e624848",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-dingding-001-84431a2aa6c9"
+      ],
+      "service_id": "dingding",
+      "type": "domain",
+      "value": "table.dingtalk.com"
+    },
+    {
+      "asset_id": "sha256:6b32b10ddd17a9cfb54c27b0adb69b3817c7a470e60864a2a3b89b5ebf637d45",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-dingding-001-84431a2aa6c9"
+      ],
+      "service_id": "dingding",
+      "type": "domain",
+      "value": "www.dingtalk.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 1.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "9d31a7d6ece5c3a050f4398d258ec24693c2f3a5b5f7d80c7102ee57ab5ce3c3",
+  "created_at": "2026-11-21T09:55:21.919312+00:00",
+  "domain_count": 3,
+  "domain_diff": {
+    "added": [],
+    "added_count": 0,
+    "current_count": 3,
+    "previous_count": 3,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
+      "page.dingtalk.com",
+      "table.dingtalk.com",
+      "www.dingtalk.com"
+    ],
+    "unchanged_count": 3
+  },
+  "domains": [
+    "page.dingtalk.com",
+    "table.dingtalk.com",
+    "www.dingtalk.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "84431a2aa6c9a7230b0b1b0f7f4a6d3810fd7aa7325d780b6bc516208968af67",
+      "domains_extracted": 3,
+      "evidence_id": "EV-dingding-001-84431a2aa6c9",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://www.dingtalk.com/",
+      "retrieved_at": "2026-11-21T09:55:21.832160+00:00",
+      "service_id": "dingding",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://www.dingtalk.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "f4110f0d84cb614daee8c246896cf13103c37f4d58d7cdc1da8a444d5eec7846",
+  "generator_digest": "f4f8ee1e6996c0eacc7e1fe5705907063f45b1abd7a942e20f890215181a5209",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 3,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "cfe3591541d8facb101548dfa5faf385b0607ce3250325f33fc3ec97940775b9",
+  "previous_domain_count": 3,
+  "release_digest": "e5e0717d026acd92f18140c1798309095b67d2d244aff7e1026fd7edac0e4a28",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "9d795d445d39063572367ff60430cb63bd1a03f6ea2ffcbda819c51b26da502d",
+  "service_id": "dingding",
+  "snapshot_content_sha256": "9d31a7d6ece5c3a050f4398d258ec24693c2f3a5b5f7d80c7102ee57ab5ce3c3",
+  "snapshot_id": "snap-dingding-e5e0717d026acd92f18140c1",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.dingtalk.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 3,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

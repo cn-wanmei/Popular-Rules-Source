@@ -1,0 +1,13 @@
+{
+  "content_digest": "01ab13cc7f4f98a247f8611acc0dde890e52e279579ee351b358141e797d18dc",
+  "domains": [
+    "qunar.com",
+    "www.qunar.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "qunar",
+  "source_hashes": [
+    "b04584c76e55b0c131a393d1ae01d8ec926394fdb5efec043178281a4eeaac0c"
+  ]
+}

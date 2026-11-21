@@ -1,0 +1,13 @@
+{
+  "content_digest": "84aed8b66678bffe8bdb00c174fe33b55d09ee21cd8072c08972f5e6e677aa62",
+  "domains": [
+    "kakaocorp.com",
+    "www.kakaocorp.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "kakao",
+  "source_hashes": [
+    "dc46afcabfba334d81c3ab710d030563716c07b36000d6b821f5467409dd0b4d"
+  ]
+}
