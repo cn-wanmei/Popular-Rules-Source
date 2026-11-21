@@ -1,0 +1,12 @@
+{
+  "content_digest": "2a873cce5a7e6b5947343c29d7c488449bfce5360a217217221a934ef4b14b8f",
+  "domains": [
+    "iam.myhuaweicloud.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "huawei-iam-api",
+  "source_hashes": [
+    "fedce6be86cabed297586456e174a02e12adcbf3ab2c2a2d99110464cbcf9b41"
+  ]
+}

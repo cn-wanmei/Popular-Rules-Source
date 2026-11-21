@@ -1,0 +1,14 @@
+{
+  "content_digest": "faa90c47f60afee8979874bbe89f2d1a12fd0baad28fbe708a363ef7fb3be4d4",
+  "domains": [
+    "cdn.meeting.tencent.com",
+    "meeting.tencent.com",
+    "report.meeting.tencent.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "tencentmeeting",
+  "source_hashes": [
+    "654cd8435583d59ac4ac99c3f6eaa4c9cb965f96cc7c341f03ca6a7fa0771a7d"
+  ]
+}

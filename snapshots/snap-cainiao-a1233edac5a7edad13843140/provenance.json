@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:4a5a76ae772e2978cd068b962bcef484aad56810082ee4141bcdc74ea6c89d23",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cainiao-001-46eea019e07b"
+      ],
+      "service_id": "cainiao",
+      "type": "domain",
+      "value": "gpn.cainiao.com"
+    }
+  ],
+  "content_digest": "5c8eb430ed31a8be7208c9083ca38847c2d30a7baf3db8ee5819f8e64f3c9dd7",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "46eea019e07b89e4dd672ea2ab69102157642fe3a2daaf927d49714d75bcf1d5",
+      "domains_extracted": 1,
+      "evidence_id": "EV-cainiao-001-46eea019e07b",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://gpn.cainiao.com/",
+      "retrieved_at": "2026-11-21T09:55:07.477038+00:00",
+      "service_id": "cainiao",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://gpn.cainiao.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "ddc192a10a6849f24177ec537f44b200c3de2996ec6175f688cc6a457705af42",
+  "generator_digest": "f4f8ee1e6996c0eacc7e1fe5705907063f45b1abd7a942e20f890215181a5209",
+  "policy_digest": "70093b9709724c22863c6f1840b5cb8e31afcd4b768d3c3a454a1a94ffb30d11",
+  "release_digest": "a1233edac5a7edad13843140e1d6ba681b11a90444bc2fec3985266811ca8dfd",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "cainiao",
+  "snapshot_id": "snap-cainiao-a1233edac5a7edad13843140",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

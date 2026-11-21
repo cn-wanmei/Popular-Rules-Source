@@ -1,0 +1,13 @@
+{
+  "content_digest": "ec6d0c591f060cefc164c7c0636976904a1a5c84096ca5bfdbed9057810aad22",
+  "domains": [
+    "moonshot.cn",
+    "www.moonshot.cn"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "moonshot",
+  "source_hashes": [
+    "79a754c2b0bffd26bc191e262c0517043d8903e5d4c70bb6f4b9cbf2f6e13f6f"
+  ]
+}
