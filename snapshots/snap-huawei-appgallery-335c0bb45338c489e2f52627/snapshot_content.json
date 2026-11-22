@@ -1,0 +1,12 @@
+{
+  "content_digest": "e9d93743027b84fe00fd279a21e2150492fb3eff88d5f34b92d9c06936f349b9",
+  "domains": [
+    "appgallery.huawei.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "huawei-appgallery",
+  "source_hashes": [
+    "11675d7f8428b3f5f80b5312eddfbc47284c8ef0e709a5d9044866ac731783fe"
+  ]
+}

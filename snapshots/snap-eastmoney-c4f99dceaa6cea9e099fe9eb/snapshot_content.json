@@ -1,0 +1,13 @@
+{
+  "content_digest": "fd2dfb3340380871aa404c1ac2b922030fa85282cf161707c20d955c2bd546f2",
+  "domains": [
+    "eastmoney.com",
+    "www.eastmoney.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "eastmoney",
+  "source_hashes": [
+    "8b3e610b6a2709c26351fa9226ead600fb8ea1891a9d4b46f0eaf855caee217e"
+  ]
+}

@@ -13,3 +13,4 @@ smart.youdao.com
 tongdao.youdao.com
 www.youdao.com
 zhihui.youdao.com
+zy-llm.youdao.com

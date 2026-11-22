@@ -1,0 +1,13 @@
+{
+  "content_digest": "2d276cdfca3c204fd7a464f4bcb80c533f887425dd2ba437e6ad62fdbf211f26",
+  "domains": [
+    "qualcomm.com",
+    "www.qualcomm.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "qualcomm",
+  "source_hashes": [
+    "04707364b0b4179d92739c1fb0ac1fc99e229731747f10c274b3d9366f9420c1"
+  ]
+}
