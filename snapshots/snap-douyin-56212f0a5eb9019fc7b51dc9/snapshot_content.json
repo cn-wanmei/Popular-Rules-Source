@@ -1,0 +1,24 @@
+{
+  "content_digest": "71e34cd52461859ccd32b96a0599b5705e473f47988e292e7cee971ba2dd2442",
+  "domains": [
+    "amemv.com",
+    "douyincdn.com",
+    "douyinpic.com",
+    "douyinstatic.com",
+    "douyinvod.com",
+    "idouyinvod.com",
+    "ixigua.com",
+    "ixiguavideo.com",
+    "lf3-static.bytednsdoc.com",
+    "pstatp.com",
+    "snssdk.com",
+    "toutiao.com",
+    "v5-dy-o-abtest.zjcdn.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "douyin",
+  "source_hashes": [
+    "020e742fe4a7084268af6aa52c4153bf5bfd54c4d7a17466f42cd3461609e32a"
+  ]
+}

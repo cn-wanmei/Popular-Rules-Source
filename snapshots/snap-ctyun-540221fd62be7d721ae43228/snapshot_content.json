@@ -1,0 +1,13 @@
+{
+  "content_digest": "daa4c8c5f25cdc2eecf151802fee26de0920aae0f49f3d2cdc13842b8b49864e",
+  "domains": [
+    "ctyun.cn",
+    "www.ctyun.cn"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "ctyun",
+  "source_hashes": [
+    "76566205268a4b5410b07f7a424884cb00e772170536b1d1ef21661338224ec2"
+  ]
+}

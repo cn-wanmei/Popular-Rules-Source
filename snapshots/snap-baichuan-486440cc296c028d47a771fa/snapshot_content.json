@@ -1,0 +1,13 @@
+{
+  "content_digest": "9707037f1c7ba2b771695858b474a4170600380069a9bbbb49e98251b6096b19",
+  "domains": [
+    "baichuan-ai.com",
+    "www.baichuan-ai.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "baichuan",
+  "source_hashes": [
+    "04a2359fe2c76576d594612b0b9de4dad659b98baf7e3fe8735b888f6a150243"
+  ]
+}
