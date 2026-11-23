@@ -1,0 +1,12 @@
+{
+  "content_digest": "f977283927cdedf852a04bd1406d728efd35a697cff65638fb902ef19945b64b",
+  "domains": [
+    "play.google.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "google-play",
+  "source_hashes": [
+    "5090d51ee75890bf5852eeaa7470bb24b844bae08584fde24d4d48ba5b0dc3b0"
+  ]
+}

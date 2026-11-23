@@ -1,0 +1,12 @@
+{
+  "content_digest": "7d1af70f44fba94d94bd874eb22dd287d028140572c9191d6cd64e4e76f42061",
+  "domains": [
+    "kg.qq.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "quanmin-k-ge",
+  "source_hashes": [
+    "1389267d386e76c79d47c5a3948b702b13640b31e26e7f8113a93d4501b53628"
+  ]
+}

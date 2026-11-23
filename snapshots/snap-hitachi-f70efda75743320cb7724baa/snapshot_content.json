@@ -1,0 +1,13 @@
+{
+  "content_digest": "f291ba19c323ccc8b214d546d63ab4f13592f2853d84f131c886bcb095e71358",
+  "domains": [
+    "hitachi.com",
+    "www.hitachi.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "hitachi",
+  "source_hashes": [
+    "511645ee4d5120a8caebe3738b299426eddc677ae9c5f40c20d9a5fdabc6903e"
+  ]
+}

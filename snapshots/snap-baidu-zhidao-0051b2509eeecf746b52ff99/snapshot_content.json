@@ -1,0 +1,12 @@
+{
+  "content_digest": "a77f1c05d372e5e6ba5d6a1953f3360c40569e1632f8c45be41a1ea767c306f6",
+  "domains": [
+    "zhidao.baidu.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "baidu-zhidao",
+  "source_hashes": [
+    "49d9b14f2cb140f75cc41ba303dd0878a5ac408dbed9a8455b7ab9bbb48b5ead"
+  ]
+}
