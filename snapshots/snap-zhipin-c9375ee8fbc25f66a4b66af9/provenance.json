@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:cb1caff9d380fbc81fbd3204a4e8dea51eaee50a8a58dd2d0c6f74a8e892006f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-zhipin-001-b0a375543aa7"
+      ],
+      "service_id": "zhipin",
+      "type": "domain",
+      "value": "www.zhipin.com"
+    },
+    {
+      "asset_id": "sha256:1d5a9e7a35d00d044ec4de3911f4c35abf93c85592c2b9cc2e9556b2023f32fd",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-zhipin-001-b0a375543aa7"
+      ],
+      "service_id": "zhipin",
+      "type": "domain",
+      "value": "zhipin.com"
+    }
+  ],
+  "content_digest": "f5de4419178b78a4cbc7d3dc4d89b4b34425bf535c23965287e97d6c3f0648ae",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "b0a375543aa7590a31de3056add3dc857b94f8dfa0fcc57cb88c996d4c290c51",
+      "domains_extracted": 2,
+      "evidence_id": "EV-zhipin-001-b0a375543aa7",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.zhipin.com/",
+      "retrieved_at": "1795431001338503302",
+      "service_id": "zhipin",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.zhipin.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "5f86c2ab030f94d40ad0ee52c2ae2946bde230d29904cf0b2c3c0fcaad40bad7",
+  "generator_digest": "f4f8ee1e6996c0eacc7e1fe5705907063f45b1abd7a942e20f890215181a5209",
+  "policy_digest": "262230cbde0a9913b41f0dd7a371e2acd88aeb02a29aedde53f8a777fc759650",
+  "release_digest": "c9375ee8fbc25f66a4b66af98e53b2f431071d334a0d9d5ee9f032b8601f6850",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "zhipin",
+  "snapshot_id": "snap-zhipin-c9375ee8fbc25f66a4b66af9",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

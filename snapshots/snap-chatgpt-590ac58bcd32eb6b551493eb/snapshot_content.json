@@ -1,0 +1,12 @@
+{
+  "content_digest": "978b9ad0247cd0c827c59aab6343c8b59650987045ddfd25fced51198362b4f4",
+  "domains": [
+    "chatgpt.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "chatgpt",
+  "source_hashes": [
+    "ff7d6e3e59f9fd9ec8bb6bb8ee700796ed47f42f3166c34668449c2c96d6d102"
+  ]
+}
