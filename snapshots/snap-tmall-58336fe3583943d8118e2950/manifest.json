@@ -1,0 +1,174 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:25db61baf5e77d450db202ad2bbb1e85a2fb1b93f9659597b3bd73350f162e5f",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tmall-001-6ec97dedee75"
+      ],
+      "service_id": "tmall",
+      "type": "domain",
+      "value": "book.tmall.com"
+    },
+    {
+      "asset_id": "sha256:37e05383a2701d40830606a2108ff1b9d1f02e430ed839262243e6a047ce6de6",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tmall-001-6ec97dedee75"
+      ],
+      "service_id": "tmall",
+      "type": "domain",
+      "value": "car.tmall.com"
+    },
+    {
+      "asset_id": "sha256:03e1ce68e9592360c4fbd3d4b54dfd55588207262e50b03030612716534f1365",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tmall-001-6ec97dedee75"
+      ],
+      "service_id": "tmall",
+      "type": "domain",
+      "value": "chaoshi.tmall.com"
+    },
+    {
+      "asset_id": "sha256:8c8f85c3f69c90d11b9120c1de895ecd373da4739ad63e6132707a212d6d6e43",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tmall-001-6ec97dedee75"
+      ],
+      "service_id": "tmall",
+      "type": "domain",
+      "value": "detail.tmall.com"
+    },
+    {
+      "asset_id": "sha256:57c65f80efd74bf712300035a70d6a818c4419ed99b5072178b6810b8cdd7bed",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tmall-001-6ec97dedee75"
+      ],
+      "service_id": "tmall",
+      "type": "domain",
+      "value": "fragment.tmall.com"
+    },
+    {
+      "asset_id": "sha256:63c5c62fa4b657c0ce92ac6bb1acab2bbe48fed483a20e530526213412fe5ae2",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tmall-001-6ec97dedee75"
+      ],
+      "service_id": "tmall",
+      "type": "domain",
+      "value": "jstracker.www.tmall.com"
+    },
+    {
+      "asset_id": "sha256:2307193736999ac38b4f928873f3befa9450db1922b7354bf002cda9d7b996bb",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tmall-001-6ec97dedee75"
+      ],
+      "service_id": "tmall",
+      "type": "domain",
+      "value": "tmall.com"
+    },
+    {
+      "asset_id": "sha256:21a7ab983373e39919b775ce370d79db498a247f1a65b4a9e5ab15c0d394d2ce",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-tmall-001-6ec97dedee75"
+      ],
+      "service_id": "tmall",
+      "type": "domain",
+      "value": "www.tmall.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 1.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "7ba9d0fc55b7bf043bda2095573c7f4aa10257dcefcb11f6b8e6377cc55e110b",
+  "created_at": "2026-11-24T12:37:33.510267+00:00",
+  "domain_count": 8,
+  "domain_diff": {
+    "added": [],
+    "added_count": 0,
+    "current_count": 8,
+    "previous_count": 8,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
+      "book.tmall.com",
+      "car.tmall.com",
+      "chaoshi.tmall.com",
+      "detail.tmall.com",
+      "fragment.tmall.com",
+      "jstracker.www.tmall.com",
+      "tmall.com",
+      "www.tmall.com"
+    ],
+    "unchanged_count": 8
+  },
+  "domains": [
+    "book.tmall.com",
+    "car.tmall.com",
+    "chaoshi.tmall.com",
+    "detail.tmall.com",
+    "fragment.tmall.com",
+    "jstracker.www.tmall.com",
+    "tmall.com",
+    "www.tmall.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "6ec97dedee752f1b4a7965a1c6138cc8f8185b040202668bd9aacaa6e22b2649",
+      "domains_extracted": 8,
+      "evidence_id": "EV-tmall-001-6ec97dedee75",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://www.tmall.com/",
+      "retrieved_at": "2026-11-24T12:37:33.399642+00:00",
+      "service_id": "tmall",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://www.tmall.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "398238fd69106193d66f2e933cc8d963b094c6b36466f311ec7f0f0ba6854be8",
+  "generator_digest": "f4f8ee1e6996c0eacc7e1fe5705907063f45b1abd7a942e20f890215181a5209",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 8,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "b4b1b408ca2bfe03e2af68103ed2e3dc598350120217d287733a119f9c7f82aa",
+  "previous_domain_count": 8,
+  "release_digest": "58336fe3583943d8118e29509f9a744b3f7807ec9fdb523e04f27d284bdac8d1",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "ab6c0e2ee6c27b769daca221f917928fef85158b1d9f98e3b963bb52bf223df2",
+  "service_id": "tmall",
+  "snapshot_content_sha256": "7ba9d0fc55b7bf043bda2095573c7f4aa10257dcefcb11f6b8e6377cc55e110b",
+  "snapshot_id": "snap-tmall-58336fe3583943d8118e2950",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://www.tmall.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 8,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

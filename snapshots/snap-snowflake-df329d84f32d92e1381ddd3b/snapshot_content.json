@@ -1,0 +1,13 @@
+{
+  "content_digest": "d93b12855f0fa139e596f9c81ad671e02aeb2c026182595b8ff2fd51d15c5275",
+  "domains": [
+    "snowflake.com",
+    "www.snowflake.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "snowflake",
+  "source_hashes": [
+    "a742fa509d08fd26fe3faf3793ffa026287adf6175a401c0de722f471e22223b"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:65e97e626773f9e8f0c49953fd9da47a9d14c1f9614674cd0c6b9ca6942e6782",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-huawei-iam-api-001-fedce6be86ca"
+      ],
+      "service_id": "huawei-iam-api",
+      "type": "domain",
+      "value": "iam.myhuaweicloud.com"
+    }
+  ],
+  "content_digest": "2a873cce5a7e6b5947343c29d7c488449bfce5360a217217221a934ef4b14b8f",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "fedce6be86cabed297586456e174a02e12adcbf3ab2c2a2d99110464cbcf9b41",
+      "domains_extracted": 1,
+      "evidence_id": "EV-huawei-iam-api-001-fedce6be86ca",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/README.md",
+      "retrieved_at": "2026-11-24T12:35:44.297060+00:00",
+      "service_id": "huawei-iam-api",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/README.md",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "e4e575d60b07a6f0301a46d0bd2f4b01cb3bbf0f144648e489891061c71398a1",
+  "generator_digest": "f4f8ee1e6996c0eacc7e1fe5705907063f45b1abd7a942e20f890215181a5209",
+  "policy_digest": "621929c25ea9dedf8d906513331c20c6ae40fd06854ead6359986797e04d28fd",
+  "release_digest": "9dbf581907536483186c3b80296e4ab6a8e4e2be614b31cef563a244b4392607",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "huawei-iam-api",
+  "snapshot_id": "snap-huawei-iam-api-9dbf581907536483186c3b80",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

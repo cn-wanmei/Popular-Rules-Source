@@ -1,0 +1,13 @@
+{
+  "content_digest": "44ada0f087d052a497cde9f8e7590852b3dbe0f1696ae8b51bd32c75a8b988eb",
+  "domains": [
+    "dell.com",
+    "www.dell.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "dell",
+  "source_hashes": [
+    "352b6f0aa510c024686888831750a30db2fb46927081bb4e5b0054ce03358722"
+  ]
+}
