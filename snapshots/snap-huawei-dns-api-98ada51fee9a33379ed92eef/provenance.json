@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:a3e9401d717e010bdce13a4980fbeed1a216a89240bdba9f31f00e099ac124a7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-huawei-dns-api-001-51ea3a50f9a8"
+      ],
+      "service_id": "huawei-dns-api",
+      "type": "domain",
+      "value": "dns.cn-south-1.myhuaweicloud.com"
+    }
+  ],
+  "content_digest": "f61091d5f1b19fa3344a7082a98ebe5addbe4667c03e647033c678f4eeaff814",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "51ea3a50f9a81f9ee76c5addcfb1d82f081e58260dc62241452e352aa9d9a69e",
+      "domains_extracted": 1,
+      "evidence_id": "EV-huawei-dns-api-001-51ea3a50f9a8",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/services/dns/v2/region/region.go",
+      "retrieved_at": "2026-11-25T11:24:15.424247+00:00",
+      "service_id": "huawei-dns-api",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://raw.githubusercontent.com/huaweicloud/huaweicloud-sdk-go-v3/3da3be180a23bcbf8f6e668606c6ef26e76e95af/services/dns/v2/region/region.go",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "ed4f5bd6c3ff0f48a8fc379e5f8322898f895a9fa2f942499eb9b95e5bb13d37",
+  "generator_digest": "f4f8ee1e6996c0eacc7e1fe5705907063f45b1abd7a942e20f890215181a5209",
+  "policy_digest": "77224559660408c2a1e68986dc850869cd5c215b3d611aa2c38555ed1328d271",
+  "release_digest": "98ada51fee9a33379ed92eefb53a46146dc41cb3176f069895f21c0ee5d52b9d",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "huawei-dns-api",
+  "snapshot_id": "snap-huawei-dns-api-98ada51fee9a33379ed92eef",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

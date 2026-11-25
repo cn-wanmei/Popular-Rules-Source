@@ -1,0 +1,12 @@
+{
+  "content_digest": "684746b9a44ba30b765e6ed5757a53a8a7a7718760f82666afaca3a2eb79eee5",
+  "domains": [
+    "powerpoint.cloud.microsoft"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "ms365-powerpoint",
+  "source_hashes": [
+    "826a82912599feb790072f1786022ca394e6760336e08dc5446eabb52617a85d"
+  ]
+}

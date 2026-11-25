@@ -1,0 +1,14 @@
+{
+  "content_digest": "34612edff0aabe88d492ea519b122619b695de05b8c866c202b076ca6ab2fe45",
+  "domains": [
+    "fmfmobile.icloud.com",
+    "fmipmobile.icloud.com",
+    "statici.icloud.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "findmy",
+  "source_hashes": [
+    "c4944fd32c127c4fd855401e515054a66e93b57f9552206fb880b986a5201398"
+  ]
+}
