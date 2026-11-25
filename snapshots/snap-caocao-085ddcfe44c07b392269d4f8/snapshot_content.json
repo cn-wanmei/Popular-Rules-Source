@@ -1,0 +1,13 @@
+{
+  "content_digest": "9c241138901704c84f6dc98090fcf3c142107e698e2bb1105208f587af0c81ff",
+  "domains": [
+    "caocaokeji.cn",
+    "www.caocaokeji.cn"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "caocao",
+  "source_hashes": [
+    "8e8762b7958ccba2e35688790108e5a14724294a8e2a924a74bbc13d900f8be4"
+  ]
+}
