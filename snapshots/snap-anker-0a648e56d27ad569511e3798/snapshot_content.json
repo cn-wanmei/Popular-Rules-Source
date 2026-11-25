@@ -1,0 +1,13 @@
+{
+  "content_digest": "bd9d324714b6a6fdda085f14fa3b2c19f4b3247292ee20ccee4501b8b709b543",
+  "domains": [
+    "anker.com",
+    "www.anker.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "anker",
+  "source_hashes": [
+    "a6a61d11f8fbe46bdb9531e681803b671e975ad58f8e555cb7d851cbccbff4d8"
+  ]
+}

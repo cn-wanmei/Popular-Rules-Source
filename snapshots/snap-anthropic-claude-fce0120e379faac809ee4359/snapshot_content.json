@@ -1,0 +1,12 @@
+{
+  "content_digest": "bc85fac3fec136dc9de4edb7a5bc03acce2747b4da00809bc9ada441c3efb616",
+  "domains": [
+    "claude.ai"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "anthropic-claude",
+  "source_hashes": [
+    "42d9dfe112632f57dad5398be67a0edd01e13489fd50817e2dda92e43543b71b"
+  ]
+}

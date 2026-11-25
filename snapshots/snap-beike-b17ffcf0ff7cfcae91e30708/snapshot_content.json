@@ -1,0 +1,13 @@
+{
+  "content_digest": "287aacd87d31535bf36257363e98da0921956d77273e61d50795f695ff5b9af0",
+  "domains": [
+    "ke.com",
+    "www.ke.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "beike",
+  "source_hashes": [
+    "d331caf9d624c5609d03963d9afa34801d1edfe20a19b85fb8f29881ba54b26b"
+  ]
+}

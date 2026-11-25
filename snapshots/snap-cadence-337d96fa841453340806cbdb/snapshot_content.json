@@ -1,0 +1,13 @@
+{
+  "content_digest": "ef8fa1f13964bb18d3d96964993d51bab49048b9c5eb5a6181fe79e46137308e",
+  "domains": [
+    "cadence.com",
+    "www.cadence.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "cadence",
+  "source_hashes": [
+    "e2d0ad9241810d1a234b00509dcb5aac9bb0d1de98e538dd23ed7179f6923242"
+  ]
+}
