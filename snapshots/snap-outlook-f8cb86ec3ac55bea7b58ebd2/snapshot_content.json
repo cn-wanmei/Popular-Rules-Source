@@ -1,0 +1,16 @@
+{
+  "content_digest": "7a29eaa2dd61b55085a715b69149d645a81e16a9fd1e7a19e632b58dd77d650d",
+  "domains": [
+    "outlook.com",
+    "outlook.live.com",
+    "outlook.office.com",
+    "outlook.office365.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "outlook",
+  "source_hashes": [
+    "bde9fbdba49584e3ee8f8c45435dc2bdf67446d4383190632c88e16b7c07e717",
+    "bde9fbdba49584e3ee8f8c45435dc2bdf67446d4383190632c88e16b7c07e717"
+  ]
+}

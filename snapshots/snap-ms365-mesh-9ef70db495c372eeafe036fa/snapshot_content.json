@@ -1,0 +1,12 @@
+{
+  "content_digest": "136199a431fd24f6d0211bd5f2fd2466f15c8d9fa2ecc1b0614e20744d4d6b5e",
+  "domains": [
+    "mesh.cloud.microsoft"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "ms365-mesh",
+  "source_hashes": [
+    "b210f3143eaba2b5272111894abde19d22e7e4c436d26802e8636240323a95d1"
+  ]
+}
