@@ -1,0 +1,12 @@
+{
+  "content_digest": "276034b75d9b8ca97b88a945f8b85014db98ff4ae6360618d780cb2f023406bf",
+  "domains": [
+    "grok.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "xai-grok",
+  "source_hashes": [
+    "b45db4bcbc03f258b61be1a74f26ca8f83f0d8262192a9e8ec5085a6cf896844"
+  ]
+}

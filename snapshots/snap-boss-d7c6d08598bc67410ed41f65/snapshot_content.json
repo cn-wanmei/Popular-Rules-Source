@@ -1,0 +1,13 @@
+{
+  "content_digest": "179e0b65ff0eced3be78071cbba080216c3f8248a40781b18bb6ae0ad77eaff1",
+  "domains": [
+    "www.zhipin.com",
+    "zhipin.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "boss",
+  "source_hashes": [
+    "7ba5886d2c38bb2bd6a12092bd82156d3d592d640cb2a87ac51f26bb3c952398"
+  ]
+}

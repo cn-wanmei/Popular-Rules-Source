@@ -1,0 +1,12 @@
+{
+  "content_digest": "fe09edc6e8a9e7bef2adcf90125310fad8578151fd5e0db752a17a6772900613",
+  "domains": [
+    "pvp.qq.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "honorofkings_cn",
+  "source_hashes": [
+    "b230132df6df6f0595394f1a925239a0f565b7c1ef606b838a0b025030a37196"
+  ]
+}
