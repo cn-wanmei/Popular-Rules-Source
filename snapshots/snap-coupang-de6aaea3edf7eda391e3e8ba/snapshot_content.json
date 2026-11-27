@@ -1,0 +1,13 @@
+{
+  "content_digest": "f240da37238c27c7ecba9498a7fadbdc30b560baab71b05823000387d15276e9",
+  "domains": [
+    "coupang.com",
+    "www.coupang.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "coupang",
+  "source_hashes": [
+    "6f9858975c20fe509bd190ce32139a6e77e232cdc168fc8c8a49074718be87e2"
+  ]
+}

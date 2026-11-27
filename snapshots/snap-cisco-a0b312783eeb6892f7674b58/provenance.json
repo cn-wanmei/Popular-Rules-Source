@@ -1,0 +1,57 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:9370fea3da08bcc48f89078ca1343d11d8030d129c233674779bf8690a4dbf58",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cisco-001-eeed6b843744"
+      ],
+      "service_id": "cisco",
+      "type": "domain",
+      "value": "cisco.com"
+    },
+    {
+      "asset_id": "sha256:bfad04318d11bc01e53abf2e899c62fc9379126e3ec2bc60a4d746df8a0749a5",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-cisco-001-eeed6b843744"
+      ],
+      "service_id": "cisco",
+      "type": "domain",
+      "value": "www.cisco.com"
+    }
+  ],
+  "content_digest": "f754f429c7f7c62fc4afd1bbe0d03925db373b952576fe589418673e1ec683b4",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "eeed6b843744f1a2eb1d568d58873535b7db92abc083e50610ef19ae4d1bb048",
+      "domains_extracted": 2,
+      "evidence_id": "EV-cisco-001-eeed6b843744",
+      "parser_version": "self-built-rule-v1",
+      "resolved_url": "https://www.cisco.com/",
+      "retrieved_at": "1795776932732463167",
+      "service_id": "cisco",
+      "source_method": "self_built",
+      "source_type": "self_built",
+      "source_url": "https://www.cisco.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "fe261104d5c831d8b99c5399995308b75c3e873e43687656d86ddf4437112983",
+  "generator_digest": "f4f8ee1e6996c0eacc7e1fe5705907063f45b1abd7a942e20f890215181a5209",
+  "policy_digest": "723923a85c14476ad8c9fc679ac51b4cc5d71644946083a6d5704419f3ba7f21",
+  "release_digest": "a0b312783eeb6892f7674b58f1250679b81326084dc9e0606353595a145d60b1",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "cisco",
+  "snapshot_id": "snap-cisco-a0b312783eeb6892f7674b58",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

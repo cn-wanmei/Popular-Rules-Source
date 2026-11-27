@@ -1,0 +1,13 @@
+{
+  "content_digest": "40387fcdeccd5aa8720ffca4576c3b72fea456cb644e74480c86858c83883a04",
+  "domains": [
+    "www.ymm56.com",
+    "ymm56.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "manbang",
+  "source_hashes": [
+    "2ac08d51165001e7c9dc2d9e737d2ac77402b93965cc637e317f10a65fee6b2f"
+  ]
+}

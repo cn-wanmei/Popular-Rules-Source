@@ -1,0 +1,13 @@
+{
+  "content_digest": "4b8f3f4a19a192460116efa3ffebb8a94217c5844c691ee980468b615169a140",
+  "domains": [
+    "www.zte.com.cn",
+    "zte.com.cn"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "zte",
+  "source_hashes": [
+    "eb72ee3a309531acecf9923983644f3b6b31aff4d9caf7507f023c1f083327fd"
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:530d5f48e5f973df7ae3f10786b53c7c27a10e11b0d2681eae4cb189373b5a89",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-firebase-001-b25e5acbecc6"
+      ],
+      "service_id": "firebase",
+      "type": "domain",
+      "value": "console.firebase.google.com"
+    },
+    {
+      "asset_id": "sha256:081b6a69a444674d6c97a850c95640934f80fc6e52046ba87067dc3498f98800",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-firebase-001-b25e5acbecc6"
+      ],
+      "service_id": "firebase",
+      "type": "domain",
+      "value": "firebase.google.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 1.0,
+    "removal_ratio": 0.0,
+    "status": "OK"
+  },
+  "content_digest": "2b104bb5937546a53d3644c6955e5ed8311bb38271ecc851779154bad9a76737",
+  "created_at": "2026-11-27T10:57:33.458541+00:00",
+  "domain_count": 2,
+  "domain_diff": {
+    "added": [],
+    "added_count": 0,
+    "current_count": 2,
+    "previous_count": 2,
+    "removed": [],
+    "removed_count": 0,
+    "unchanged": [
+      "console.firebase.google.com",
+      "firebase.google.com"
+    ],
+    "unchanged_count": 2
+  },
+  "domains": [
+    "console.firebase.google.com",
+    "firebase.google.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "b25e5acbecc6f48bc0e160d70c1185b1c042b99d95762758dd49f521868ef667",
+      "domains_extracted": 2,
+      "evidence_id": "EV-firebase-001-b25e5acbecc6",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://firebase.google.com/",
+      "retrieved_at": "2026-11-27T10:57:33.354826+00:00",
+      "service_id": "firebase",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://firebase.google.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "53347e22a136e3b3d321ee63de61143119eebd491a761c8c6a5d04c37d3bf26a",
+  "generator_digest": "f4f8ee1e6996c0eacc7e1fe5705907063f45b1abd7a942e20f890215181a5209",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 2,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "de81abf06ccb4e4b84af244e4152a4683258b137dd6326b0fe1dd6e23d6b4553",
+  "previous_domain_count": 2,
+  "release_digest": "59322eaa594fd18a7dc238441ffdfe4e0030f1e589f526f4df658242dc09ed8a",
+  "release_identity_version": "2",
+  "release_reasons": [],
+  "release_state": "CANDIDATE",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "c5a1e5af184c38630ea55d49ab546e32e852a1d657fe943e9a7095440cd401f8",
+  "service_id": "firebase",
+  "snapshot_content_sha256": "2b104bb5937546a53d3644c6955e5ed8311bb38271ecc851779154bad9a76737",
+  "snapshot_id": "snap-firebase-59322eaa594fd18a7dc23844",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://firebase.google.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 2,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}
