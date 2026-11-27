@@ -1,0 +1,106 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:1ebd3af642ca29a464a0687cc5ed41dd8fddb6764d225d8128475940cedb083d",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-taobao-001-328d69995fc3"
+      ],
+      "service_id": "taobao",
+      "type": "domain",
+      "value": "open.taobao.com"
+    }
+  ],
+  "change_assessment": {
+    "growth_ratio": 0.07142857142857142,
+    "removal_ratio": 0.9285714285714286,
+    "status": "REVIEW_REMOVAL"
+  },
+  "content_digest": "8535aaa60f7263c85ea2c22c31e229d830475eeda7af95b86a661af7b98ef24f",
+  "created_at": "2026-11-27T10:59:20.879880+00:00",
+  "domain_count": 1,
+  "domain_diff": {
+    "added": [],
+    "added_count": 0,
+    "current_count": 1,
+    "previous_count": 14,
+    "removed": [
+      "alimarket.taobao.com",
+      "eco.taobao.com",
+      "gw.api.taobao.com",
+      "ju.taobao.com",
+      "login.taobao.com",
+      "my.open.taobao.com",
+      "oauth.taobao.com",
+      "open.bbs.taobao.com",
+      "open.m.taobao.com",
+      "tbk.bbs.taobao.com",
+      "trip.taobao.com",
+      "work.open.taobao.com",
+      "www.taobao.com"
+    ],
+    "removed_count": 13,
+    "unchanged": [
+      "open.taobao.com"
+    ],
+    "unchanged_count": 1
+  },
+  "domains": [
+    "open.taobao.com"
+  ],
+  "errors": [],
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "328d69995fc373afd75b826c19233a7db364e9ff49e33edd91d85675dbd52e20",
+      "domains_extracted": 1,
+      "evidence_id": "EV-taobao-001-328d69995fc3",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://open.taobao.com/index.htm",
+      "retrieved_at": "2026-11-27T10:59:20.813943+00:00",
+      "service_id": "taobao",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://open.taobao.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "78e42c4ae3a5c09a6485f6dc7005b346b56382ede3e15f52ed0e43ff60623572",
+  "generator_digest": "f4f8ee1e6996c0eacc7e1fe5705907063f45b1abd7a942e20f890215181a5209",
+  "generator_version": "3.1.0",
+  "last_known_good": false,
+  "official_extracted": 1,
+  "official_source_count": 1,
+  "parser_version": "domain-extractor-v4",
+  "policy_digest": "9e38c8ab8072e03dc76b9f462b72c893730db1977cd0bb401988aa2f4e427038",
+  "previous_domain_count": 14,
+  "release_digest": "4b8840e47932f9a6a4f872d1d980d36d8c463a3b18751f2c3be586ba76fdf6e6",
+  "release_identity_version": "2",
+  "release_reasons": [
+    "count_change:REVIEW_REMOVAL"
+  ],
+  "release_state": "REVIEW",
+  "schema": "source_snapshot_v2",
+  "service_config_digest": "75fd394a59073ca2112861ad162ed815b4265a05d3cba86d56f75b4f7e571d59",
+  "service_id": "taobao",
+  "snapshot_content_sha256": "8535aaa60f7263c85ea2c22c31e229d830475eeda7af95b86a661af7b98ef24f",
+  "snapshot_id": "snap-taobao-4b8840e47932f9a6a4f872d1",
+  "source_bindings": [
+    {
+      "adapter": null,
+      "url": "https://open.taobao.com/"
+    }
+  ],
+  "source_count": 1,
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  },
+  "trusted_extracted": 1,
+  "unverified_candidate_count": 0,
+  "unverified_candidate_domains": []
+}

@@ -1,0 +1,13 @@
+{
+  "content_digest": "3462b76da7d140d3cd816693a3953d533884e68d4b670d014e53c9f0bac1d677",
+  "domains": [
+    "3ds.com",
+    "www.3ds.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "dassault",
+  "source_hashes": [
+    "b3f19fcd7b4cc7e83d5c539fbe8e94e53e312de196d004e2a6fcb0fbd179be9c"
+  ]
+}
