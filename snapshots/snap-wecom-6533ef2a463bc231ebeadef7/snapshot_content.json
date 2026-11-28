@@ -1,0 +1,14 @@
+{
+  "content_digest": "b68105ba4044bdeb2f6ca08cbd2c37db2d985f21b5054b0005b3474d750b6952",
+  "domains": [
+    "developer.work.weixin.qq.com",
+    "open.work.weixin.qq.com",
+    "work.weixin.qq.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "wecom",
+  "source_hashes": [
+    "9054335c7f4aef6ce36ddd8f3a142953c283a6aa2486c6bec3033fecffb74108"
+  ]
+}

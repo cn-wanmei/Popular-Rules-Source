@@ -1,0 +1,18 @@
+{
+  "content_digest": "8bfb08f7cb5c397e26abb0198331f4d283c5cb76eccb34c4af0d7e7e0246032e",
+  "domains": [
+    "hls-amt.itunes.apple.com",
+    "hls.itunes.apple.com",
+    "np-edge.itunes.apple.com",
+    "play-edge.itunes.apple.com",
+    "tv.apple.com",
+    "tv.applemusic.com",
+    "uts-api.itunes.apple.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "appletv",
+  "source_hashes": [
+    "92ca64869704522524fd023066ea8b11666817122e1b4f743aab3df5224dab2e"
+  ]
+}
