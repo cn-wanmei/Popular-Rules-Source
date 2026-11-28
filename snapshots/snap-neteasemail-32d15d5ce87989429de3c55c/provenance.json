@@ -1,0 +1,101 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:823fa491273b4627d135104e9efb1caa3009affcfa31f1ba1f33c4dc9918e397",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-neteasemail-002-7a08a5d300b1"
+      ],
+      "service_id": "neteasemail",
+      "type": "domain",
+      "value": "mail.126.com"
+    },
+    {
+      "asset_id": "sha256:2fd2cdc123b9c8375f4d1e6ccb3d0c768cc2b5ccfa1a04a535a1702d68351fd3",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-neteasemail-001-c1d7dc719bfe",
+        "EV-neteasemail-002-7a08a5d300b1",
+        "EV-neteasemail-003-1bfd311e7901"
+      ],
+      "service_id": "neteasemail",
+      "type": "domain",
+      "value": "mail.163.com"
+    },
+    {
+      "asset_id": "sha256:4f0afd3eee683d64e40a474998224f94810ad00cf5367fc2ccc9cdb36b617bb7",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-neteasemail-003-1bfd311e7901"
+      ],
+      "service_id": "neteasemail",
+      "type": "domain",
+      "value": "mail.yeah.net"
+    }
+  ],
+  "content_digest": "437fd8778564ffcabcfc796e178f61bd1f1b7a04c2b2b69c2dd41b01b971d45a",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "c1d7dc719bfe2744c0864fa8dd4fb15f7bfe2f6f0837b049163109e58ce32f1a",
+      "domains_extracted": 1,
+      "evidence_id": "EV-neteasemail-001-c1d7dc719bfe",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://mail.163.com/",
+      "retrieved_at": "2026-11-28T10:33:22.610581+00:00",
+      "service_id": "neteasemail",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://mail.163.com/",
+      "status": "verified",
+      "strength": "S3"
+    },
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "7a08a5d300b1134d9463787919d0bb913b9eb6552dcd4387eadd3c1f41952e4e",
+      "domains_extracted": 2,
+      "evidence_id": "EV-neteasemail-002-7a08a5d300b1",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://mail.126.com/",
+      "retrieved_at": "2026-11-28T10:33:23.638552+00:00",
+      "service_id": "neteasemail",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://mail.126.com/",
+      "status": "verified",
+      "strength": "S3"
+    },
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "1bfd311e7901d801b27c6e1cfa8791f90e9fa67b20d5f559b6dec559d3c00857",
+      "domains_extracted": 2,
+      "evidence_id": "EV-neteasemail-003-1bfd311e7901",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://mail.yeah.net/",
+      "retrieved_at": "2026-11-28T10:33:24.637750+00:00",
+      "service_id": "neteasemail",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://mail.yeah.net/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "ffe46e6dbe7ead52fd703d804b82696c9782071598e8f99a8abac029b69993b6",
+  "generator_digest": "f4f8ee1e6996c0eacc7e1fe5705907063f45b1abd7a942e20f890215181a5209",
+  "policy_digest": "8033e063d641efa1725c7ced7d9a5ef0674537ce86b4b30a7804befea5d39856",
+  "release_digest": "32d15d5ce87989429de3c55cc4479d776fca455b9e0aa57b2a800e5b1e2949e2",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "neteasemail",
+  "snapshot_id": "snap-neteasemail-32d15d5ce87989429de3c55c",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}

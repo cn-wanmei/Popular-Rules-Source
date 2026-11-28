@@ -1,0 +1,13 @@
+{
+  "content_digest": "836674842b329d8cab2acef215c4373cdd3ddbda01fa8f1f61986f8676d2d2c6",
+  "domains": [
+    "www.yonyou.com",
+    "yonyou.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "yonyou",
+  "source_hashes": [
+    "c79544d8c7e06091e430ebfa56820222b2eb56d7b08bde4f6a90d31097460ae3"
+  ]
+}

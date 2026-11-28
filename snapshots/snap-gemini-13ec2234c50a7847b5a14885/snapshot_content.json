@@ -1,0 +1,20 @@
+{
+  "content_digest": "d5e5842666a62dcd98f68002b7377146aa937d911bab9a3c5552cb00220689e2",
+  "domains": [
+    "ai.google.dev",
+    "alkalimakersuite-pa.clients6.google.com",
+    "apis.google.com",
+    "bard.google.com",
+    "deepmind.com",
+    "deepmind.google",
+    "gemini.google.com",
+    "generativeai.google",
+    "makersuite.google.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "gemini",
+  "source_hashes": [
+    "db8f69154426dca76792ab80b3ad6b0e2d078ebe0e52e76faec1724245a4ec49"
+  ]
+}

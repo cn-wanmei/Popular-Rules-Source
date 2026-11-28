@@ -1,0 +1,13 @@
+{
+  "content_digest": "74685699d708a29d54a5a8b395cf73fcc56d5dc81266d1641937a34868e605fb",
+  "domains": [
+    "wps.cn",
+    "www.wps.cn"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "wps",
+  "source_hashes": [
+    "2d453ad3b97a22b9fe947ce8a73b9a7530d72518fc9d9657b76f08f8a93ca0d8"
+  ]
+}

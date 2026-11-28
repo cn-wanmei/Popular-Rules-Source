@@ -1,0 +1,13 @@
+{
+  "content_digest": "b80ec971641a7502e36cf8f835ea62a2a1f85af796b055a2025c58c1759e6692",
+  "domains": [
+    "okta.com",
+    "www.okta.com"
+  ],
+  "release_identity_version": "2",
+  "schema": "source_snapshot_content_v2",
+  "service_id": "okta",
+  "source_hashes": [
+    "fbce901eb6b7e3aa664b4efea2e12711155ef6b7a47e1e039eabe66091554afe"
+  ]
+}

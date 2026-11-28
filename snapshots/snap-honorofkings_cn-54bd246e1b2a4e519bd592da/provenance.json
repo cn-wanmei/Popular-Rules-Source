@@ -1,0 +1,47 @@
+{
+  "assets": [
+    {
+      "asset_id": "sha256:acba7d4f4736d5c39846aa1dc36aac12eeb2a700aa4f6a3bc36365999e663678",
+      "classification": "service",
+      "evidence_ids": [
+        "EV-honorofkings_cn-001-b230132df6df"
+      ],
+      "service_id": "honorofkings_cn",
+      "type": "domain",
+      "value": "pvp.qq.com"
+    }
+  ],
+  "content_digest": "fe09edc6e8a9e7bef2adcf90125310fad8578151fd5e0db752a17a6772900613",
+  "evidence": [
+    {
+      "authority": "official",
+      "confidence": "high",
+      "content_hash": "b230132df6df6f0595394f1a925239a0f565b7c1ef606b838a0b025030a37196",
+      "domains_extracted": 1,
+      "evidence_id": "EV-honorofkings_cn-001-b230132df6df",
+      "parser_version": "domain-extractor-v4",
+      "resolved_url": "https://pvp.qq.com/",
+      "retrieved_at": "2026-11-28T10:32:49.003983+00:00",
+      "service_id": "honorofkings_cn",
+      "source_method": "official_web",
+      "source_type": "official_web",
+      "source_url": "https://pvp.qq.com/",
+      "status": "verified",
+      "strength": "S3"
+    }
+  ],
+  "evidence_digest": "38cbfd77c939b8017d2ca872d47722907e797b33bf4d462302e1d3acddf206e0",
+  "generator_digest": "f4f8ee1e6996c0eacc7e1fe5705907063f45b1abd7a942e20f890215181a5209",
+  "policy_digest": "9b41e23cc49fd84b4d74aaf90cc1459df8c95394eb6bed9266193392f1222cff",
+  "release_digest": "54bd246e1b2a4e519bd592daf7ab9a1f9f22f75fb95d8e1b76d6700112e4f3ed",
+  "release_identity_version": "2",
+  "schema": "source_provenance_v3",
+  "service_id": "honorofkings_cn",
+  "snapshot_id": "snap-honorofkings_cn-54bd246e1b2a4e519bd592da",
+  "source_policy": {
+    "allowed_authorities": [
+      "official"
+    ],
+    "official_required": true
+  }
+}
